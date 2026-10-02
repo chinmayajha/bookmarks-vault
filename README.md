@@ -1886,8 +1886,11 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 ## 📦 What's in this repo
 
 ```
-bookmarks-vault/
+bookmarks-vault/                  ← also an Obsidian vault (open this folder in Obsidian)
 ├── README.md                     ← you are here (generated)
+├── Home.md                       ← Obsidian dashboard (generated)
+├── Categories/*.md               ← 14 category index notes
+├── Entries/*.md                  ← 314 bookmark notes, one per entry (frontmatter + tags)
 ├── Bookmarks_Categorized.xlsx    ← the full workbook: README + Master Index + a sheet per category
 ├── category_taxonomy.json        ← the fixed category list used for sorting
 ├── data/
@@ -1898,6 +1901,7 @@ bookmarks-vault/
     ├── build_index.js            ← raw JSON → normalized index
     ├── build_workbook.py         ← rows → Excel workbook
     ├── generate_readme.py        ← rows → this README
+    ├── generate_obsidian.py      ← rows → Home.md + Categories/ + Entries/
     └── harvest/                  ← original browser-harvest scripts (provenance)
 ```
 
@@ -1916,6 +1920,7 @@ bookmarks-vault/
 node scripts/build_index.js            # data/raw → data/index_*.json
 python scripts/build_workbook.py       # rows → Bookmarks_Categorized.xlsx (needs openpyxl)
 python scripts/generate_readme.py      # rows → README.md
+python scripts/generate_obsidian.py    # rows → Home.md + Categories/ + Entries/
 ```
 
 _Extraction: Ego browser automation over X Bookmarks, Reddit Saved and LinkedIn Saved Posts._
