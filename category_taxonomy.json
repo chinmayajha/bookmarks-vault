@@ -1,0 +1,20 @@
+{
+  "categories": [
+    { "name": "AI & LLM", "desc": "LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM workflows and tips" },
+    { "name": "Dev Tools & Productivity", "desc": "IDEs, developer utilities, open-source libraries, CLI tools, workflows, editor/tool releases, dev infrastructure" },
+    { "name": "Programming & CS Learning", "desc": "Courses, playlists, books, tutorials, CS concepts (DB, OS, systems, ML theory), learning roadmaps" },
+    { "name": "Interviews, OA & DSA", "desc": "Online assessments, interview experiences/questions, DSA prep, system design/HLD prep, contest problems" },
+    { "name": "Jobs, Careers & Compensation", "desc": "Hiring posts, referral/job openings, offer comparisons, salary/CTC data, resume/ATS tips, off-campus application advice" },
+    { "name": "Quant & Trading", "desc": "Quant trading/research roles, HFT firms, trading competitions, market structure, quant interview prep, trading math" },
+    { "name": "Personal Finance & Money", "desc": "Credit cards, loans, insurance, investing, stocks/gold/crypto money matters, taxes, frugality, income ideas" },
+    { "name": "Startups, Product & Marketing", "desc": "Founder content, growth/marketing tactics, product building, YC/startup programs, side projects, launch strategies" },
+    { "name": "Health, Fitness & Wellness", "desc": "Exercise, sleep, supplements, nutrition, mental health, recovery, physical training" },
+    { "name": "Life, Relationships & Self-Improvement", "desc": "Relationships, habits, psychology, dating/marriage, soft skills, lifestyle design, motivation" },
+    { "name": "India Life & City Guides", "desc": "City guides (Bangalore/Delhi/Gurgaon), food, breweries, travel, India-specific living content, local experiences" },
+    { "name": "Entertainment, Culture & Fun", "desc": "Memes, TV shows, movies, fun threads, viral discussions, hobbies, internet culture, jokes" },
+    { "name": "Tech Industry & News", "desc": "Company announcements, industry drama, big-tech news, product launches by majors, policy" },
+    { "name": "Other", "desc": "Genuinely uncategorizable items; explain in subcategory" }
+  ],
+  "rowCount": 294,
+  "note": "Category names must be used EXACTLY as written here."
+}

@@ -1,0 +1,2873 @@
+[
+ {
+  "uid": "X-001",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "AI coding agent skills",
+  "title": "Sahaj won't push a PR without /codebase-design and /zero-tech-debt skills",
+  "author": "Sahaj",
+  "date": "2026-10-01",
+  "url": "https://x.com/iamsahaj_xyz/status/2105746013709631735",
+  "engagement": "3 replies · 6 reposts · 250 likes · 28.8K views · 460 bookmarks",
+  "essence": "Sahaj quote-tweets Matt Pocock's 'prompt of the day' for the mattpocock/skills repo - /codebase-design, which flags shallow modules, applies the deletion test and hunts unnecessary abstractions - and declares he doesn't push a single PR without it plus a /zero-tech-debt skill. In replies readers ask where to get the /zero-tech-debt skill (Matt's repo or another) and call zero tech debt a lifesaver, while another reply drifts into a take about foundation models being in their Netscape era. The tweet pulls 250 likes and 460 bookmarks despite only 3-4 replies.",
+  "summary": "A concrete example of devs standardizing on reusable agent skills for code review; the /codebase-design skill (shallow modules, deletion test) is the save-worthy bit.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "ai-coding",
+   "agents-md",
+   "code-design",
+   "claude-skills"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-002",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "AI code review tool promo",
+  "title": "Yash offers cheaper coding-agent subscriptions via Supercode AI Nova",
+  "author": "Yash",
+  "date": "2026-10-01",
+  "url": "https://x.com/dewyashtwts/status/2105648453909168300",
+  "engagement": "1 reply · 9 likes · 8.5K views · 22 bookmarks",
+  "essence": "Yash pitches that he can help cut coding-agent subscription costs and throws in a free code review using Supercode AI Nova, an open-source SWE agent. His self-thread adds that Nova's AI code review is faster and more efficient than CodeRabbit or Greptile. The single reply just asks whether it's a harness; the post does 8.5K views on 9 likes with 22 bookmarks.",
+  "summary": "Positioning shot at the AI code-review category (vs CodeRabbit/Greptile) wrapped in a promo-style DM offer - useful for tracking competitor claims.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "ai-code-review",
+   "supercode",
+   "coding-agents",
+   "devtools-promo"
+  ],
+  "worthFollowUp": "low"
+ },
+ {
+  "uid": "X-003",
+  "platform": "Twitter",
+  "category": "Startups, Product & Marketing",
+  "subcategory": "AI-citation SEO writer pitch",
+  "title": "Technical writer pitch riding on a 'get your website cited by AI tools' article",
+  "author": "Mari",
+  "date": "2026-09-30",
+  "url": "https://x.com/Tech_girl/status/2105727717077405869",
+  "engagement": "2 likes · 39.2K views · 11 bookmarks",
+  "essence": "Mari uses her own article 'How to Get Your Website Cited by AI Tools' as a quote-tweet to pitch technical-writing services (DM or email). The quoted article's advice: make your website easy to find, read and use as a source, and first check whether AI tools already surface your pages, then fix access. No replies; 39K views from 11 bookmarks and 2 likes.",
+  "summary": "Saves the 'cited by AI tools' checklist angle (AEO/GEO) - the emerging SEO play for getting pages referenced in LLM answers.",
+  "productLinks": [],
+  "hasMedia": "image",
+  "topicTags": [
+   "ai-seo",
+   "aeo",
+   "technical-writing",
+   "content-marketing"
+  ],
+  "worthFollowUp": "low"
+ },
+ {
+  "uid": "X-004",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "speech model release",
+  "title": "Phonon-2: 164MB speech-recognition model beating Whisper large",
+  "author": "Manan Gupta",
+  "date": "2026-09-29",
+  "url": "https://x.com/yoitsmanan/status/2104990913886031993",
+  "engagement": "219 replies · 511 reposts · 6.1K likes · 538.5K views · 7.3K bookmarks",
+  "essence": "Manan Gupta announces Phonon-2 from fermion_ai: a 164MB open-weights (CC-BY-4.0) speech recognition model that is on average more accurate than OpenAI's Whisper large, a model 10x its size, and transcribes an hour of audio in 20 seconds on a MacBook Air. The thread adds it keeps 99.8% of its 2.5GB teacher's average word accuracy in just 6.5% of the bytes, runs at 174x real time on a base M5 Air (6,680x on H100 with batching), and powers the free Detta dictation app with Gluon text polishing at 250ms median latency, fully local. No reply discussion is captured; 6,096 likes and 7,266 bookmarks on 538K views.",
+  "summary": "A serious edge-speech-model release: tiny model, near-teacher accuracy, free local dictation app - worth tracking for on-device voice features.",
+  "productLinks": [],
+  "hasMedia": "image",
+  "topicTags": [
+   "speech-recognition",
+   "open-weights",
+   "whisper",
+   "quantization",
+   "on-device-ai"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-005",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "agent-driven OSS triage",
+  "title": "pnpm asks your coding agent to fix its 629 open issues",
+  "author": "pnpm",
+  "date": "2026-09-25",
+  "url": "https://x.com/pnpmjs/status/2103438679478010198",
+  "engagement": "33 replies · 60 reposts · 567 likes · 61.7K views · 266 bookmarks",
+  "essence": "pnpm invites people to spend tokens on open source: 629 open GitHub issues plus a ready-made prompt to feed a coding agent, with Windows-repro issues especially wanted. The thread notes PR quality stays high thanks to strict linting, test coverage, benchmarks, AI code review and human-reviewed decisions, that the repo has never been in better shape, and points at open PRs to review. Replies push back on how they triage 'prompt slop' (OpenClaw hit the same problem), question how many issues survive GitHub filters once has-PR, in-progress, blocked and needs-design are excluded, and one person found their picked 2025 issue already fixed on main; others call it a genius move.",
+  "summary": "A template for how maintainers channel AI coding agents at real issues - and the review/triage burden it creates.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "open-source",
+   "coding-agents",
+   "pnpm",
+   "issue-triage"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-006",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "AGENTS.md testing rules",
+  "title": "Testing rules to paste into AGENTS.md: no unit tests after code",
+  "author": "Hassan",
+  "date": "2026-09-19",
+  "url": "https://x.com/hassanazharkhan/status/2103167552147128690",
+  "engagement": "7 replies · 20 reposts · 324 likes · 39K views · 544 bookmarks",
+  "essence": "Hassan shares a rule set for AGENTS.md so agents test correctly: never write unit tests after writing the code, prefer E2E tests as the main mechanism with a reproducible artifact, list all the ways a system could fail before writing it, use realistic medium/high-complexity E2E scenarios instead of the simplest happy path, avoid tautological tests, and only add regression tests where real gaps exist. The self-thread is just 'Teach me?' against dex's joke about Opus adding 10 unit tests to check a constant string. Replies disagree: dex says it doesn't belong in AGENTS.md and another warns that all-E2E makes failures hard to debug; the post still takes 324 likes and 544 bookmarks.",
+  "summary": "Part of the live E2E-over-unit-tests debate for agents - a paste-ready AGENTS.md policy plus the counterarguments.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "agents-md",
+   "testing",
+   "e2e",
+   "ai-coding"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-007",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "voice cloning launch",
+  "title": "Google's new voice-cloning model lands in Custom Voices",
+  "author": "Jason Stephen",
+  "date": "2026-09-24",
+  "url": "https://x.com/jastephx/status/2103177172189929613",
+  "engagement": "49 replies · 41 reposts · 604 likes · 48K views · 707 bookmarks",
+  "essence": "Jason Stephen nudges people to try the new voice-cloning model at ai.dev/generate-speech. His thread helps users find it under 'Custom Voices', discusses expected latency and notes some features are API-key-only with Google-subscription support coming next month. Replies report clones disappearing between sessions (Alex Volkov couldn't find his before the Thursdai pod), say latency is too high for voice agents (550-1200ms), complain a Google AI Pro subscription still demands an API key, and ask how commercial use works when the API requires a consent phrase from the voice owner.",
+  "summary": "Early-adopter friction map for Google's voice cloning - availability, latency, subscription/API gating and consent rules.",
+  "productLinks": [
+   "https://ai.dev/generate-speech"
+  ],
+  "hasMedia": "image",
+  "topicTags": [
+   "voice-cloning",
+   "text-to-speech",
+   "google-ai",
+   "voice-agents"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-008",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "motion design prompt",
+  "title": "Opus 5.5 motion-design video is 100% code - prompt template open-sourced",
+  "author": "zero",
+  "date": "2026-09-24",
+  "url": "https://x.com/twoclipping/status/2103273003555402193",
+  "engagement": "265 replies · 777 reposts · 12K likes · 1M views · 20K bookmarks",
+  "essence": "zero claims Opus 5.5 is cracked at motion design: the entire video is code with zero After Effects, and he open-sources the prompt template so anyone can recreate it. The template asks the model for 8-12 UI states (button, loader, player, slider, toggle, tabs, chart, command palette, toast), one shape that morphs between states with springs, a cursor driving real clicks and drags, Geist font on a light warm-gray canvas, a royalty-free ~120BPM track, and a last frame equal to the first. No reply discussion is captured; 12,044 likes, 19,990 bookmarks and 1.02M views.",
+  "summary": "A copy-paste prompt structure for generating Dribbble-grade UI motion entirely in code - one of the most-saved AI creative prompts.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "ai-video",
+   "motion-design",
+   "prompt-engineering",
+   "opus",
+   "frontend"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-009",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "frontend prompt trick",
+  "title": "'Be more creative' prompt makes Opus 5.5 great at frontend",
+  "author": "Anthony Kroeger",
+  "date": "2026-09-24",
+  "url": "https://x.com/kr0der/status/2103228032391802916",
+  "engagement": "27 replies · 37 reposts · 1.3K likes · 94K views · 2.2K bookmarks",
+  "essence": "Anthony shares a deceptively simple prompt for Opus 5.5 frontend work - be more creative, add animations and cool graphics that you create with SVGs or whatever, they could even move - saying it genuinely works even without an example. He then plugs his App Store screenshot tool screeniesapp and jokes about posting ~10 times a day. Replies confirm it worked ('just tried it ... surprisingly its working'), others joke clients have been giving him that prompt for five years, and one applies it to their own site; 1,331 likes with 2,192 bookmarks.",
+  "summary": "Evidence that plain-language 'be creative' instructions unlock model frontend quality - cheap to test in your own stack.",
+  "productLinks": [],
+  "hasMedia": "image",
+  "topicTags": [
+   "opus",
+   "frontend",
+   "prompting",
+   "ai-coding"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-010",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "agent version control",
+  "title": "Scott Chacon plugs GitButler: version control for your agents",
+  "author": "Scott Chacon",
+  "date": "2026-09-24",
+  "url": "https://x.com/chacon/status/2103095965439737952",
+  "engagement": "1 reply · 2 reposts · 43 likes · 10.9K views · 5 bookmarks",
+  "essence": "Scott Chacon (Git co-creator) uses the momentum of a thread to plug what he's building in Berlin: kickass version control for your agents, with the GitButler card attached (from gitbutler.com). Only one captured reply ('Dude just move. Why the headache :)') and 43 likes on 10.8K views.",
+  "summary": "Signal that agent workflows are getting their own VCS layer - watch GitButler's agent versioning direction.",
+  "productLinks": [
+   "https://gitbutler.com"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "gitbutler",
+   "version-control",
+   "ai-agents",
+   "devtools"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-011",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "cheap cloud VMs for agents",
+  "title": "boat.dev: 8-vCPU VM at $0.072/hr running Android emulator + 60fps stream",
+  "author": "Anicet",
+  "date": "2026-09-23",
+  "url": "https://x.com/AniC_dev/status/2102785812635214139",
+  "engagement": "28 replies · 38 reposts · 518 likes · 38.8K views · 532 bookmarks",
+  "essence": "Anicet shows an 8-vCPU/16GB/125GB boat.dev VM simultaneously running an Android emulator, Chrome and a 60fps desktop stream at $0.072/hr, arguing frontier always-on agent workflows need stable, inexpensive, generous VMs. His thread defends the unit economics and reliability ('you'd question all of conventional cloud'), says CLI, API and SDKs give you a URL, and that the minimum charge converts into usage credits. Replies are skeptical - 'these numbers don't even make sense' - and ask about iOS support, whether desktop software is needed, how the hourly price compares with the flat $20/month plan, and whether it's box.ascii.dev or boat.ascii.dev.",
+  "summary": "Competitive pricing reference for dev/agent VMs (including a $20/mo subscription option) - a useful infra benchmark.",
+  "productLinks": [
+   "https://boat.dev"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "cloud-vms",
+   "dev-infrastructure",
+   "agent-runtime",
+   "pricing"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-012",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "scraping API",
+  "title": "Scrape Anything merges all scraping APIs into one endpoint",
+  "author": "Yahia Bakour",
+  "date": "2026-09-23",
+  "url": "https://x.com/mynameisyahia/status/2102598835470246112",
+  "engagement": "100 replies · 86 reposts · 1.7K likes · 230.4K views · 3.1K bookmarks",
+  "essence": "Yahia Bakour launches Scrape Anything: one API taking websites, PDFs, DOCX, PPT, XLSX and 40+ file types into HTML, markdown, screenshots, images or JSON, with bot blocking, JS rendering, proxies, iframes, shadow DOM and retries handled for you. His thread teases a connector, and replies ask whether markdown+HTML+screenshot in one request costs a single request's credits, call it legendary, say they'll try it with their own tools, and praise the edge-case handling; 1,679 likes and 3,132 bookmarks on 230K views.",
+  "summary": "Well-saved launch of a unified scraping API - a benchmark for what an all-in-one data-extraction product promises.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "web-scraping",
+   "api",
+   "data-extraction",
+   "devtools"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-013",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "low-signal test cleanup prompt",
+  "title": "Prompt that deletes low-signal unit tests your E2E already covers",
+  "author": "Ray Fernando",
+  "date": "2026-09-20",
+  "url": "https://x.com/RayFernando1337/status/2102927565778522610",
+  "engagement": "82 replies · 148 reposts · 3.2K likes · 438.3K views · 6.6K bookmarks",
+  "essence": "Ray Fernando says latest models write tons of unit tests that restate the code, always pass, catch almost nothing, break on every refactor and burn agent time; he shares the prompt he adapted from Ansh to clean them out: delete every unit test that wouldn't catch a real bug the E2E tests miss, fan the work out across parallel subagents, then add AGENTS.md rules (never write unit tests after code, prefer E2E as sole mechanism with a verifiable repeatable artifact, write down failure modes before the code). His thread adds that he hates TDD and gets better bugs testing close to customer runtime. Replies fight back: TDD proponents say refactors should be TDD, others ask about the testing pyramid, one links a fix and notes such tests are called tautological; 3,162 likes and 6,590 bookmarks.",
+  "summary": "A reusable cleanup prompt for AI-generated test bloat plus the live counterarguments - high-signal for agent-driven repos.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "ai-testing",
+   "agents-md",
+   "tdd",
+   "e2e",
+   "refactoring"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-014",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "AI video via MCP",
+  "title": "Opus 5.5 one-shot a $8 video in 10 minutes using the Krea MCP",
+  "author": "Miguel | AP",
+  "date": "2026-09-23",
+  "url": "https://x.com/angrypenguinPNG/status/2102829318875537683",
+  "engagement": "13 replies · 13 reposts · 374 likes · 22K views · 245 bookmarks",
+  "essence": "Miguel claims Opus 5.5 has genuine creative taste: it one-shotted this video for $8 in 10 minutes using the Krea MCP. His thread explains the pipeline - he first used the prompting skill inside the Krea MCP to draft and confirm the prompt, then the same MCP generated the 30-second 720p clip inside Seedance 2.5. Replies praise the creativity, ask which video model produced it for $8 and how to make it edit or piece clips together, and wonder whether it's over for ad agencies.",
+  "summary": "Concrete cost and latency datapoint ($8, 10 minutes) for agentic video generation via an MCP tool - useful for content-product economics.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "mcp",
+   "ai-video",
+   "opus",
+   "krea",
+   "content-creation"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-015",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "motion design prompt",
+  "title": "Opus 5.5 picked the music, downloaded SFX and built every frame as code",
+  "author": "zero",
+  "date": "2026-09-23",
+  "url": "https://x.com/twoclipping/status/2102554209166000267",
+  "engagement": "20 replies · 27 reposts · 607 likes · 51.8K views · 1.4K bookmarks",
+  "essence": "zero claims motion designers are not ready for Opus 5.5: the entire video is code and the model picked the music, downloaded the SFX, built every frame and synced it all to the beat by itself; the post starts open-sourcing a prompt template (ask for a product name, one-line promise and 3-5 UI moments). No reply discussion is captured (original discussion unavailable), with 607 likes and 1,435 bookmarks on 51.8K views.",
+  "summary": "Companion viral example of fully agentic motion design; the open prompt template is the reusable asset.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "motion-design",
+   "opus",
+   "ai-video",
+   "prompt-engineering"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-016",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "model speed speculation",
+  "title": "Wishlist: GPT-6 Luna Ultrafast at 1,000 tok/s on DevDay",
+  "author": "Adam Holter",
+  "date": "2026-09-21",
+  "url": "https://x.com/AdamHoltererer/status/2101983383353950636",
+  "engagement": "41 replies · 14 reposts · 754 likes · 44.3K views · 40 bookmarks",
+  "essence": "Adam hopes OpenAI ships GPT-6 Luna Ultrafast on DevDay: 1,000 tokens/s on an actually good model you can use without instantly hitting limits. His thread says he'd take anything over 700 tok/s, even at 10x cost versus Sol, and concedes speed hits diminishing returns once you're just waiting on tool calls. Replies speculate the public is already on Cerebras, guess 1,500 tok/s, warn it would blow limits in two prompts, note Luna is much smaller than Sol, and ask how he already has access; 754 likes on 44K views.",
+  "summary": "Snapshot of developer expectations around inference speed versus cost at DevDay - useful for pricing and threshold benchmarks.",
+  "productLinks": [],
+  "hasMedia": "image",
+  "topicTags": [
+   "openai",
+   "devday",
+   "inference-speed",
+   "llm-cost"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-017",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "human-writing model discovery",
+  "title": "Hemmingway-1 (Qwen3.8-27B) claims to sound the most human",
+  "author": "Mia",
+  "date": "2026-09-21",
+  "url": "https://x.com/MiaAI_lab/status/2101950758023221652",
+  "engagement": "116 replies · 207 reposts · 3.2K likes · 321K views · 3.1K bookmarks",
+  "essence": "Mia discovers Hemmingway-1, a Qwen3.8-27B-based model on Hugging Face promising to sound and write more like a person than any other model, and says she will test it. Her thread promises results and later posts 'interesting enough to try it out'. Replies line up to test it and attack the benchmark - Fable 5.1 scoring that high, Grok 4.6 included, y-axis not starting at zero - while others thank her for surfacing it; 3,190 likes and 3,070 bookmarks on 320K views.",
+  "summary": "A community-favorited human-voice open model worth a look for writing or narration features, plus healthy benchmark skepticism.",
+  "productLinks": [
+   "https://huggingface.co/Altworld/Hemmingway-1"
+  ],
+  "hasMedia": "image",
+  "topicTags": [
+   "open-weights",
+   "qwen",
+   "writing-model",
+   "huggingface",
+   "benchmarks"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-018",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "AGENTS.md config sharing",
+  "title": "The AGENTS.md that made Astra work well - shared as an image",
+  "author": "🥔🥔🥔",
+  "date": "2026-09-19",
+  "url": "https://x.com/argofowl/status/2101956340877000754",
+  "engagement": "75 replies · 86 reposts · 2.1K likes · 242.7K views · 3.9K bookmarks",
+  "essence": "argofowl posts the current AGENTS.md that made Astra work well for him, saying it's still a work in progress he keeps tweaking and inviting people to try it and see how it works for them. The quote-tweet gives context: Astra has been pretty solid for him after he took time with the agents.md, and he likes it a bit more than Fable 5.1 right now ('controversial I know'). No reply discussion is captured; 2,053 likes and 3,885 bookmarks on 242K views.",
+  "summary": "One of the most-bookmarked shared AGENTS.md configs in this feed - a template to crib for agent instruction tuning.",
+  "productLinks": [],
+  "hasMedia": "image",
+  "topicTags": [
+   "agents-md",
+   "model-comparison",
+   "prompting",
+   "ai-agents"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-019",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "AGENTS.md testing rules",
+  "title": "Ansh's AGENTS.md rules: never write unit tests after code, prefer E2E",
+  "author": "Ansh Nanda",
+  "date": "2026-09-19",
+  "url": "https://x.com/anshnanda/status/2101627891721371971",
+  "engagement": "83 replies · 281 reposts · 5.6K likes · 1.3M views · 8.8K bookmarks",
+  "essence": "Ansh Nanda posts the rules at the top of his AGENTS.md: never write unit tests after writing code, highly prefer E2E tests as the sole testing mechanism with a verifiable repeatable artifact at the end, and for isolation testing first write all the ways it could fail, then write the code - quoting dex's joke about Opus adding 10 unit tests to a constant string. His thread adds follow-ups: use medium/hard E2E scenarios, video for UI changes or a script with definitive output for backend, and that it works because he only uses the best models. Replies add detail - don't pick the simplest scenario, this cut test rewrites, the failure-modes step is the key - while skeptics say models ignore AGENTS.md anyway and one jokes 'gitignore your unittest folder'; 5,559 likes, 8,787 bookmarks, 1.25M views.",
+  "summary": "The origin post of the E2E-first testing policy that spawned several clones in this feed - the reference version.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "agents-md",
+   "testing",
+   "e2e",
+   "ai-coding",
+   "prompting"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-020",
+  "platform": "Twitter",
+  "category": "Startups, Product & Marketing",
+  "subcategory": "AI-built landing page trend",
+  "title": "tldraw answers try.cloudflare.com with its own try.tldraw.com",
+  "author": "tldraw",
+  "date": "2026-09-19",
+  "url": "https://x.com/tldraw/status/2101674426987090195",
+  "engagement": "47 replies · 81 reposts · 1.3K likes · 477.6K views · 1.4K bookmarks",
+  "essence": "tldraw quote-tweets Siddhartha's 'This is cool https://try.cloudflare.com' with the same line pointing at https://try.tldraw.com, joining the wave of one-line AI-built landing pages. His thread jokes it wasn't very many tokens - he was making shitty landing pages before Claude and they stole from him. Replies praise the design and utf8 company logos, joke the sites cost tens of minutes and thousands of tokens to create, and one calls it Claude slop; 1,341 likes and 477K views.",
+  "summary": "A neat example of the try.[yourproduct].com AI-landing-page trend - cheap viral launch copy.",
+  "productLinks": [
+   "https://try.tldraw.com",
+   "https://try.cloudflare.com"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "landing-pages",
+   "growth",
+   "tldraw",
+   "viral-launch"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-021",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "cloudflare quick tunnels",
+  "title": "try.cloudflare.com blows up: free tunnels pitched at vibe coders",
+  "author": "Suganthan Mohanadasan",
+  "date": "2026-09-20",
+  "url": "https://x.com/suganthan/status/2101573073053040842",
+  "engagement": "322 replies · 899 reposts · 11.8K likes · 3M views · 15.7K bookmarks",
+  "essence": "Suganthan posts try.cloudflare.com ('What a time to be alive') as the internet discovers Cloudflare's free quick tunnels. His thread clarifies: ngrok has tunneled localhost for years, CF quick tunnels aren't new either, but Cloudflare is clearly aiming this at coding agents - scripts and agents can grab the URL directly instead of scraping logs, with JSON output - and CF later updated the landing page. Replies mostly roast the design ('feels vibe coded'), note tunnels have existed ~10 years, and share that Codex just started doing it for them; 11,772 likes, 15,703 bookmarks and 3M views.",
+  "summary": "The viral moment of tunnels-as-agent-infrastructure, plus the counterpoint that this is old tech repositioned for agents.",
+  "productLinks": [
+   "https://try.cloudflare.com"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "cloudflare",
+   "tunnels",
+   "local-dev",
+   "coding-agents"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-022",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "local file sharing via tunnel",
+  "title": "Sharing files from a laptop with http.server + a Cloudflare tunnel",
+  "author": "Vijay",
+  "date": "2026-09-20",
+  "url": "https://x.com/unk_data/status/2101619038732632473",
+  "engagement": "8 replies · 15 reposts · 896 likes · 86.6K views · 678 bookmarks",
+  "essence": "Vijay quote-tweets the try.cloudflare.com hype with his workflow: python -m http.server plus a quick Cloudflare tunnel, sending people a download link straight from his laptop. His thread recalls ngrok limits from his Colab days and wonders why this is trending now. Replies agree ngrok did this years ago, but Navlio warns http.server serves the whole folder - a project-root .env went out with no auth on the tunnel URL - and others mention wormhole; 896 likes and 678 bookmarks.",
+  "summary": "A popular local file-sharing recipe with a real security caveat (whole directory, unauthenticated URL) worth remembering.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "cloudflare",
+   "tunnels",
+   "python",
+   "file-sharing",
+   "security"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-023",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "Jev agent repo roundup",
+  "title": "Overnight roundup of the best open-source Jev agent repos by category",
+  "author": "StudioYebisu",
+  "date": "2026-09-18",
+  "url": "https://x.com/studio_yebisu/status/2101065176069886152",
+  "engagement": "43 replies · 375 reposts · 3.1K likes · 238K views · 5.1K bookmarks",
+  "essence": "StudioYebisu compiles the most-starred Jev-related GitHub repos by genre after an overnight explosion in the number of them, noting SAM3.1 is now usable via API and Jev seems usable on OpenRouter with no waitlist. The list leads with browser-use/jev-ultrafast (4,891 stars) for browser/PC/mobile operation - Jev handles browser actions and element selection while a small LLM only types text - then typesafe-computer-use (203 stars, Mac-only OCR/accessibility), plus CV and Grok-translation picks. No reply discussion is captured; 3,076 likes and 5,098 bookmarks on 238K views.",
+  "summary": "A curated starter pack of open-source repos for building on the Jev model - a handy index if you're experimenting.",
+  "productLinks": [
+   "https://github.com/browser-use/jev-ultrafast"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "open-source",
+   "browser-agents",
+   "jev",
+   "repo-roundup"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-024",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "OCR + agent classifier",
+  "title": "OCR + Jev classified ~900 images in 40 seconds",
+  "author": "Fayaz Ahmed",
+  "date": "2026-09-18",
+  "url": "https://x.com/fayazara/status/2100953838891192789",
+  "engagement": "21 replies · 12 reposts · 442 likes · 34.8K views · 395 bookmarks",
+  "essence": "Fayaz built a small image classifier combining OCR with Jev that categorized about 900 images in 40 seconds, calling it pretty cool. His thread is just 'OCR / Tell me more'. Replies ask which intermediary model pulls data from images, suggest parsing documents and pairing the output with a RAG strategy, ask whether it could sort dental photos into bite and crowding classes or detect body poses, and one jokes 'HotDog vs not-a-hotdog'; 442 likes and 395 bookmarks.",
+  "summary": "Proof that OCR plus agent pipelines handle bulk image categorization at high throughput - relevant for document and media workflows.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "ocr",
+   "image-classification",
+   "jev",
+   "automation"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-025",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "open source browser agent",
+  "title": "Browser Use + Jev finds flights in 7s for $0.0039",
+  "author": "Gregor Zunic",
+  "date": "2026-09-17",
+  "url": "https://x.com/gregpr07/status/2100411066966749359",
+  "engagement": "292 replies · 997 reposts · 9.1K likes · 3.2M views · 10K bookmarks",
+  "essence": "Gregor Zunic shows Browser Use + Jev = Ultrafast: a flight search took 7 seconds and cost $0.0039, using a new action space every step, a DOM state space and a small LLM fallback to type. He built a tiny open-source browser agent (the video is at 1x speed) and explains how it works in the follow-up. Replies lament that there still aren't broadly available flight-search APIs so agents must use computer use before GTA 6, and say they're excited to try it; 9,115 likes, 9,967 bookmarks and 3.2M views.",
+  "summary": "Headline benchmark for cheap, fast browser agents ($0.0039 per flight search) and the API gap they're working around.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "browser-agents",
+   "browser-use",
+   "agent-cost",
+   "open-source"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-026",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "form honeypot technique",
+  "title": "Honeypot fields: a fake hidden input that catches bots",
+  "author": "Tamara Martinović",
+  "date": "2026-09-18",
+  "url": "https://x.com/CodeWithTamara/status/2100940633896604051",
+  "engagement": "73 replies · 44 reposts · 1.2K likes · 82.9K views · 356 bookmarks",
+  "essence": "Tamara discovers honeypot fields on website forms: add a fake input, hide it from humans, let bots enthusiastically fill it in - a value means reject, empty means a real person. Her thread chats with repliers about hiding it properly and it being the first line of defense she didn't know existed. Replies add real-world nuance: chrome autofill once filled their 'company' trap field and bounced real people for a week (use a name autofill won't recognise and hide it offscreen), CAPTCHAs also measure solve time and mouse movement, hidden fields can't stop JS-aware bots, and bot traffic now outnumbers human on some sites; 1,188 likes and 356 bookmarks.",
+  "summary": "A beginner-friendly web-security classic with practical autofill gotchas - a quick teach-in for form design.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "web-security",
+   "forms",
+   "bot-prevention",
+   "honeypot"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-027",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "Claude Code plugin",
+  "title": "jev-pruner: trim long Bash output before it hits the model",
+  "author": "tamara",
+  "date": "2026-09-18",
+  "url": "https://x.com/tamarajtran/status/2101070214033232198",
+  "engagement": "1 reply · 1 repost · 43 likes · 1.8K views · 43 bookmarks",
+  "essence": "tamara posts 'run jev-pruner:', a Claude Code plugin (GitHub card attached) that trims long Bash output with TypeSafe Jev before it floods context. Her thread is a laughing emoji; Alex Volkov replies that he can't wait to see what Theo has to say about this one and encourages her to keep going. Small post: 43 likes and 43 bookmarks on 1.8K views.",
+  "summary": "One of the emerging micro-plugins for Claude Code context management - worth watching alongside similar tools.",
+  "productLinks": [
+   "https://github.com/tamaratran/jev-pruner"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "claude-code",
+   "plugin",
+   "context-management",
+   "devtools"
+  ],
+  "worthFollowUp": "low"
+ },
+ {
+  "uid": "X-028",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "Claude Code plugin",
+  "title": "fast-jev-compaction replaces Claude Code's compaction summary",
+  "author": "tamara",
+  "date": "2026-09-17",
+  "url": "https://x.com/tamarajtran/status/2100694552369897539",
+  "engagement": "24 replies · 74 reposts · 1.3K likes · 104.5K views · 1.8K bookmarks",
+  "essence": "tamara shares 'run fast-jev-compaction:', a Claude Code plugin that replaces the built-in compaction summary (GitHub card attached). Replies try it immediately, ask for a pi extension and benchmarks, call it one of the most practical uses yet, hope OpenAI is paying attention, and one reports the README references an npm package that returns 404; 1,266 likes and 1,804 bookmarks on 104K views.",
+  "summary": "Community dissatisfaction with Claude Code's auto-compaction is an opening - this plugin shows the demand for workarounds.",
+  "productLinks": [
+   "https://github.com/tamaratran/fast-jev-compaction"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "claude-code",
+   "context-compaction",
+   "plugin",
+   "devtools"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-029",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "vibe-coded terminal dashboard",
+  "title": "ThePrimeagen prompts an r/unixporn-style dashboard and is impressed",
+  "author": "ThePrimeagen",
+  "date": "2026-09-15",
+  "url": "https://x.com/ThePrimeagen/status/2099668926334386581",
+  "engagement": "48 replies · 18 reposts · 2K likes · 121.1K views · 711 bookmarks",
+  "essence": "ThePrimeagen tried the prompt 'go on r/unixporn, come up with several ideas, and then create me a dashboard' and admits 'honestly, not bad', following up that he doesn't even know what most of the things mean but it seems exciting. Replies predict the usual outcome - a ratatui-rewritten-in-Rust bordered six-pane terminal dashboard - another says their similar prompt produced a paper-trading terminal and wonders if terminal UIs are converging due to creative limits, one says 'it's just btop'; 2,035 likes and 711 bookmarks.",
+  "summary": "A glimpse of AI terminal-UI generation and its sameness problem - relevant if you ship developer dashboards.",
+  "productLinks": [],
+  "hasMedia": "image",
+  "topicTags": [
+   "terminal-ui",
+   "vibe-coding",
+   "unixporn",
+   "dashboard"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-030",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "lightweight AI-era IDE",
+  "title": "px0.ai: an IDE in 20MB RAM starting in 1ms vs VS Code's 1GB/7s",
+  "author": "Arpit Bhayani",
+  "date": "2026-09-13",
+  "url": "https://x.com/arpit_bhayani/status/2099124464365756672",
+  "engagement": "330 replies · 255 reposts · 4.1K likes · 488.5K views · 1.9K bookmarks",
+  "essence": "Arpit Bhayani hates VS Code eating 1GB and 7 seconds to start, so he built px0.ai, which does the same things in 20MB of RAM and starts in 1ms - arguing IDEs should become read-only but fast because the last time we edited code in an IDE was in 2025. His thread jokes about his own hypocrisy, ships v0.1.1 with Markdown rendering and gives the sudo px0 --update command. Replies include Hitesh Choudhary roasting that he'd claimed he wasn't building anything anymore, plus a request that Markdown rendering would make it super cool; 4,130 likes and 1,916 bookmarks on 488K views.",
+  "summary": "A pointed product thesis - a read-only, instant-start IDE for the agent era - with real traction worth tracking.",
+  "productLinks": [
+   "https://px0.ai"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "ide",
+   "devtools",
+   "startup-launch",
+   "performance"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-031",
+  "platform": "Twitter",
+  "category": "Startups, Product & Marketing",
+  "subcategory": "personal site flex",
+  "title": "'Nobody has a better personal website than mine' - 1.3M views",
+  "author": "Yoshik",
+  "date": "2026-09-07",
+  "url": "https://x.com/AskYoshik/status/2096953802926784795",
+  "engagement": "310 replies · 166 reposts · 2.2K likes · 1.3M views · 2.6K bookmarks",
+  "essence": "Yoshik quote-tweets Benji Taylor's line that 'a personal website should feel like you've briefly left the rest of the internet' and flexes his own site (yoshik-pc.vercel.app) as the best personal website. No discussion was captured (original discussion unavailable: tweet thread fetch failed), and the post still does 2,237 likes, 2,632 bookmarks and 1.3M views.",
+  "summary": "Viral benchmark for personal-site ambition - the quoted design principle is the keepable bit.",
+  "productLinks": [
+   "https://yoshik-pc.vercel.app"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "personal-website",
+   "portfolio",
+   "web-design",
+   "viral"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-032",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "mock API services",
+  "title": "Where to get faked versions of Google/Stripe APIs for testing",
+  "author": "Ansh Nanda",
+  "date": "2026-09-03",
+  "url": "https://x.com/anshnanda/status/2095647659411316894",
+  "engagement": "14 replies · 3 reposts · 82 likes · 49.4K views · 119 bookmarks",
+  "essence": "Ansh Nanda asks for a service that spins up faked versions of popular APIs like Google and Stripe for testing purposes, and his thread confirms one recommendation: 'is it any good? Yes this is the one, thank you.' Replies throw out options - emulate.dev from Vercel, @ArgaLabs, Phillip Lii and others - while a credit-card promo slips in; 82 likes and 119 bookmarks.",
+  "summary": "A crowdsourced list of stub-API services (emulate.dev and friends) for deterministic integration tests.",
+  "productLinks": [
+   "https://emulate.dev"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "testing",
+   "mock-apis",
+   "devtools",
+   "local-development"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-033",
+  "platform": "Twitter",
+  "category": "Jobs, Careers & Compensation",
+  "subcategory": "worst-company thread reactions",
+  "title": "Blind's 1.5k-comment 'worst company you've worked for' thread",
+  "author": "Harshit Jain",
+  "date": "2026-09-03",
+  "url": "https://x.com/jain_harshit/status/2095520438353109190",
+  "engagement": "5 replies · 2 reposts · 101 likes · 13.7K views · 24 bookmarks",
+  "essence": "Harshit Jain points at a Blind thread about the worst company people have worked for that racked up 1,500 comments. His thread jokes it deserves a separate post and that people judge a company on many factors with the manager being just one - 'this is blind, not reddit'. Replies ask which is the best, say we need a proper website to vent, argue culture beats one manager for a valid verdict, ask for the link, and wonder whether any company is missing from the list.",
+  "summary": "Light signal on where devs vent about employers and what they weigh (manager vs culture).",
+  "productLinks": [],
+  "hasMedia": "image",
+  "topicTags": [
+   "blind",
+   "work-culture",
+   "company-reviews",
+   "careers"
+  ],
+  "worthFollowUp": "low"
+ },
+ {
+  "uid": "X-034",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "backend fundamentals reference",
+  "title": "'Backend from First Principles': 26-chapter interactive reference",
+  "author": "Suraj Sharma",
+  "date": "2026-08-28",
+  "url": "https://x.com/suraj_sharma14/status/2093375557887025536",
+  "engagement": "45 replies · 176 reposts · 1.5K likes · 129.8K views · 3.5K bookmarks",
+  "essence": "Suraj Sharma posts 'this is what learning backend engineering should have looked like' - a 26-chapter interactive reference (backend-from-first-principle.vercel.app) running from HTTP and routing through databases, caching and Kafka to production deployment, with notes, diagrams and runnable Go and Python examples. His thread pivots to promotion: build a ReAct loop with explicit think-act-observe steps, cap agents at max_iterations=10, enforce Pydantic schemas on every tool call, and build a tool registry with 5+ tools. Replies say engineering education teaches how, not why, others recognize it's based on the backend principles playlist and ask for more resources; 1,547 likes and 3,511 bookmarks.",
+  "summary": "A heavily-saved free backend reference (26 chapters, runnable examples) plus an agent-building checklist.",
+  "productLinks": [
+   "https://backend-from-first-principle.vercel.app"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "backend",
+   "learning-resource",
+   "reference",
+   "system-design"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-035",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "inference engineering roadmap",
+  "title": "Learn inference engineering by building an engine around an open model",
+  "author": "avrl ☘",
+  "date": "2026-08-29",
+  "url": "https://x.com/avrldotdev/status/2093615477411160135",
+  "engagement": "42 replies · 123 reposts · 2.4K likes · 76.9K views · 2.1K bookmarks",
+  "essence": "avrl's roadmap to becoming cracked at inference engineering by end of year: download any open-weights model and build an inference engine around it, which forces you to learn CUDA, GPU kernels, resource allocation, parallelism, LLM internals and a lot of math. His thread admits it's a painful journey but rewarding, shares resources, and says to fire multiple concurrent requests to watch token scheduling, KV cache and prefilling behave - 'you don't learn inference by calling APIs'. Replies agree building from scratch is where the real learning happens (KV cache management, batching, GPU memory), one asks if inference engineering is the new web dev; 2,413 likes and 2,127 bookmarks.",
+  "summary": "A concrete, project-first path into inference engineering - increasingly a distinct career track.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "inference-engineering",
+   "cuda",
+   "llm-internals",
+   "learning-roadmap"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-036",
+  "platform": "Twitter",
+  "category": "Health, Fitness & Wellness",
+  "subcategory": "large tablet supplement",
+  "title": "'This one' - an unusually large tablet you have to swallow",
+  "author": "Harsh Agrawal | itsharshag.com",
+  "date": "2026-08-28",
+  "url": "https://x.com/itsharshag/status/2093305319829160352",
+  "engagement": "1 reply · 1 repost · 10 likes · 1.4K views · 22 bookmarks",
+  "essence": "Harsh Agrawal replies to a thread with a photo and 'this one', then adds that the tablet is definitely unusually large and he'll probably get used to it in time. The only visible reply asks how you're meant to swallow it - 'I find it very difficult to swallow'. No further context is captured in the record (image-only reply, 1.4K views).",
+  "summary": "Niche supplement/medication sizing gripe; low signal but a reminder that pill size is a real adherence issue.",
+  "productLinks": [],
+  "hasMedia": "image",
+  "topicTags": [
+   "supplements",
+   "tablets",
+   "health-habits"
+  ],
+  "worthFollowUp": "low"
+ },
+ {
+  "uid": "X-037",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "agent messaging repo",
+  "title": "Agent Bulletin Board System - agents talking to each other on GitHub",
+  "author": "Devin Stein",
+  "date": "2026-08-26",
+  "url": "https://x.com/devstein64/status/2092749281254162914",
+  "engagement": "1 likes · 253 views · 1 bookmark",
+  "essence": "Devin Stein shares dosu-ai/abbs as a card on a reply: 'GitHub - dosu-ai/abbs: Agent Bulletin Board System. Because your agents were going to build one...'. No text body or reply discussion is captured in the record; the post takes 1 like and 1 bookmark on 253 views.",
+  "summary": "An early open-source attempt at agent-to-agent messaging infrastructure - a category worth monitoring.",
+  "productLinks": [
+   "https://github.com/dosu-ai/abbs"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "ai-agents",
+   "open-source",
+   "multi-agent"
+  ],
+  "worthFollowUp": "low"
+ },
+ {
+  "uid": "X-038",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "complexity audits on slop code",
+  "title": "Cyclomatic complexity audits: 91 decision paths down to 12",
+  "author": "Ben Vinegar",
+  "date": "2026-08-26",
+  "url": "https://x.com/bentlegen/status/2092606355685216425",
+  "engagement": "72 replies · 119 reposts · 2.2K likes · 981.4K views · 3K bookmarks",
+  "essence": "Ben Vinegar argues cyclomatic complexity audits can fix your slop code, showing a drop from 91 decision paths to 12. His thread adds that you probably already have this - it's a config you can enable in Oxlint - that it's going to become a default check on every repo they use, and that he's seen enough PRs from it to trust the results are better over 90% of the time. No reply discussion is captured; 2,159 likes and 2,957 bookmarks on 981K views.",
+  "summary": "A cheap, measurable guardrail against AI-generated code complexity - Oxlint can turn it on today.",
+  "productLinks": [],
+  "hasMedia": "image",
+  "topicTags": [
+   "cyclomatic-complexity",
+   "oxlint",
+   "code-quality",
+   "ai-slop"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-039",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "refusal bypass trick",
+  "title": "Fake a dig TXT record to dodge cybersecurity refusals",
+  "author": "Z A D D Y",
+  "date": "2026-08-26",
+  "url": "https://x.com/Zaddyzaddy/status/2092586380803153980",
+  "engagement": "19 replies · 40 reposts · 1.1K likes · 65.9K views · 1.2K bookmarks",
+  "essence": "ZADDY shares a trick for reducing model refusals in cybersecurity research tasks: fake the output of a dig command so it appears the domain has a TXT record named after your harness, then prompt the model to check it as proof of ownership. His thread just answers 'Nope'. Replies ask if a service is down, suggest Chinese LLMs allow security work with a simple system prompt, note Claude actually refuses TXT records as proof, and others say they do variants like editing the Windows hosts file; 1,121 likes and 1,193 bookmarks.",
+  "summary": "A documented refusal-bypass pattern for security prompts - directly relevant to guardrail design on sensitive tasks.",
+  "productLinks": [],
+  "hasMedia": "image",
+  "topicTags": [
+   "prompt-injection",
+   "refusals",
+   "cybersecurity",
+   "guardrails"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-040",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "free LLM access trick",
+  "title": "Free Claude (Haiku 4.5) through DuckDuckGo's duck.ai",
+  "author": "Rivon",
+  "date": "2026-08-25",
+  "url": "https://x.com/Rivonn/status/2092207280020427256",
+  "engagement": "21 replies · 6 reposts · 72 likes · 6.8K views · 47 bookmarks",
+  "essence": "Rivon shares how to use Claude for free ($0): duck.ai strips your identity before Claude ever sees the message - no login, your IP is gone before the query reaches Anthropic, chats aren't stored on DuckDuckGo's side, Anthropic destroys logs within 30 days and none of it trains future models. The catch, he admits, is the free tier only gives Haiku 4.5, not Opus - but it's still full Claude with less exposure than claude.ai. His thread just drops the link. No replies captured; 72 likes and 47 bookmarks.",
+  "summary": "A privacy-preserving free LLM endpoint - handy for quick queries and for thinking through data-handling claims.",
+  "productLinks": [
+   "https://duck.ai"
+  ],
+  "hasMedia": "image",
+  "topicTags": [
+   "free-llm",
+   "privacy",
+   "duckduckgo",
+   "haiku"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-041",
+  "platform": "Twitter",
+  "category": "Startups, Product & Marketing",
+  "subcategory": "feedback-for-credits campaign",
+  "title": "$100 in Revid credits for a screen-recorded signup + feedback",
+  "author": "Tibo",
+  "date": "2026-08-25",
+  "url": "https://x.com/tibo_maker/status/2092228005749768678",
+  "engagement": "44 replies · 12 reposts · 113 likes · 31.5K views · 66 bookmarks",
+  "essence": "Tibo (Revid) offers $100 worth of credits for: start a screen recording, sign up on Revid, create your first video, go through the subscription flow, DM him the video - bonus if you think out loud - next 3 days only. His thread confirms credits were added and that they let you generate AI videos. Replies describe the product working smoothly (it grasped the web app's core idea and even captured screenshots), ask what credits actually do, and joke someone is improving his tool; 113 likes on 31K views.",
+  "summary": "A transparent record-your-onboarding growth tactic with real pricing (100 dollars of credits) for early feedback.",
+  "productLinks": [],
+  "hasMedia": "image",
+  "topicTags": [
+   "growth-tactics",
+   "user-feedback",
+   "ai-video",
+   "saas-launch"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-042",
+  "platform": "Twitter",
+  "category": "Startups, Product & Marketing",
+  "subcategory": "SEO entity stacking",
+  "title": "Entity Stacking: sameAs schema beats 300 junk directory listings",
+  "author": "Taras",
+  "date": "2026-08-24",
+  "url": "https://x.com/tarasshyn/status/2091954190067363888",
+  "engagement": "30 replies · 54 reposts · 1.3K likes · 97.4K views · 2.7K bookmarks",
+  "essence": "Taras shares Charles Floate's Entity Stacking trick: put your profiles in your Organization schema's sameAs array so Google understands who you are far better than with 300 junk directory listings - and it's free. His thread calls it foundational and offers a tiny repo with the snippet. Replies ask how much it actually helps, whether you must also create the profiles first, whether to include Spotify and podcast platforms, and one says Claude did it to their website yesterday; 1,310 likes and 2,683 bookmarks.",
+  "summary": "A heavily-saved, zero-cost SEO win (sameAs schema) - a quick implementable tactic for entity search.",
+  "productLinks": [],
+  "hasMedia": "image",
+  "topicTags": [
+   "seo",
+   "schema-markup",
+   "entity-seo",
+   "digital-marketing"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-043",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "local LLM quantization",
+  "title": "'Why your local LLM feels dumber': BF16, NVFP4 and the KV cache",
+  "author": "Steeve Morin",
+  "date": "2026-08-23",
+  "url": "https://x.com/steeve/status/2091651649785749838",
+  "engagement": "20 replies · 38 reposts · 529 likes · 39.7K views · 704 bookmarks",
+  "essence": "Steeve recommends 'Why your local LLM feels dumber than it is' with the TL;DR: BF16 reigns, NVFP4 lobotomizes, keep the KV cache in BF16; his thread asks whether it's been trained in FP8. The replies turn into a methodology fight - Qwen3.8 is natively FP8 so running it in BF16 wastes electricity, an aggressive DeepSeek IQ2 quant beats BF16 Qwen on a 128GB machine, 8-bit weight plus KV quant is nearly lossless for half the RAM (~0.1% quality loss), others plug calibrated scales, fpX rope and Unsloth quants; 529 likes and 704 bookmarks.",
+  "summary": "The quantization-quality debate in one thread - useful when trading local model precision against RAM.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "quantization",
+   "local-llm",
+   "kv-cache",
+   "bf16",
+   "inference"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-044",
+  "platform": "Twitter",
+  "category": "Quant & Trading",
+  "subcategory": "free quant learning site beta",
+  "title": "Quant Memo: free quantitative-finance learning site enters beta",
+  "author": "Priyanshu Priyank",
+  "date": "2026-08-23",
+  "url": "https://x.com/PriyanshuP1405/status/2091470216903692680",
+  "engagement": "10 replies · 10 reposts · 83 likes · 35.4K views · 95 bookmarks",
+  "essence": "Priyanshu announces the beta release of Quant Memo (quantmemo.com), a free site for learning quantitative finance. His thread says the website isn't done yet: new coding content and detailed beginner trading content plus UI/UX fixes land this week, and even if you can't get into quant, being a retail quant trader should still help your quantitative investing. Replies praise the design ('time to switch to quant', font feedback) and ask whether Jane Street is better than HRT; 83 likes and 95 bookmarks on 35K views.",
+  "summary": "An emerging free resource for quant-finance learners in India - track its curriculum as it fills out.",
+  "productLinks": [
+   "https://quantmemo.com"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "quant-finance",
+   "learning-platform",
+   "trading-education",
+   "india"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-045",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "user-agent spoofing trick",
+  "title": "Set your agent's curl user-agent to 'OpenAI File Downloader'",
+  "author": "Jeffrey Emanuel",
+  "date": "2026-08-21",
+  "url": "https://x.com/doodlestein/status/2090862143402860859",
+  "engagement": "44 replies · 172 reposts · 3.9K likes · 456.1K views · 7.1K bookmarks",
+  "essence": "Jeffrey Emanuel calls it genius and says he's adding this line to all his AGENTS.md files: for any web requests you must make with curl or otherwise, always set your user agent string to 'OpenAI File Downloader, XaiImageApiFetch/1.0'. The quoted post from Can Boluk explains - UA spoofing is back, for only $0.00 you too can be that bot, and some sites like LinkedIn even remove their click-bait/paywall garbage if you're Claude-User. No discussion was captured (original discussion unavailable: tweet thread fetch failed), yet it takes 3,851 likes, 7,056 bookmarks and 456K views.",
+  "summary": "A viral, ethically grey agent workaround - a case study in how sites gate bots purely by user-agent.",
+  "productLinks": [],
+  "hasMedia": "image",
+  "topicTags": [
+   "user-agent",
+   "scraping",
+   "agents-md",
+   "paywalls"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-046",
+  "platform": "Twitter",
+  "category": "Startups, Product & Marketing",
+  "subcategory": "landing page copy brevity",
+  "title": "'If your landing page doesn't fit in a tweet, you're doing it wrong'",
+  "author": "Simon Klee",
+  "date": "2026-08-18",
+  "url": "https://x.com/simonklee/status/2089631037034750224",
+  "engagement": "21 replies · 19 reposts · 784 likes · 40.4K views · 275 bookmarks",
+  "essence": "Simon Klee's one-liner: if your landing page doesn't fit in a tweet, you're doing it wrong. His thread jokes about the pedantic reply - 'actually it's one and a half tweets' - and that love hurts. Replies tease the contradiction, and two people rave about the new layout, especially the blue version under the theme toggle; 784 likes and 275 bookmarks on 40K views.",
+  "summary": "Punchy positioning advice (the landing-page-as-one-tweet test) plus evidence the redesign landed well.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "landing-pages",
+   "positioning",
+   "copywriting",
+   "product-marketing"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-047",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "model scaling resource",
+  "title": "JAX 'How to Scale Your Model' - best free scaling resource",
+  "author": "Phil Chen",
+  "date": "2026-08-18",
+  "url": "https://x.com/philhchen/status/2089505074565583171",
+  "engagement": "1 reply · 10 reposts · 123 likes · 12.6K views · 282 bookmarks",
+  "essence": "Phil Chen points to jax-ml.github.io/scaling-book as the best free resource for scaling models (attached card reads 'How to Scale Your Model'). The single captured reply asks whether to prefer it or the inference engineering book from Philip; 123 likes and 282 bookmarks on 12.6K views.",
+  "summary": "A free, high-quality reference for large-model training math and systems - a staple for ML engineers.",
+  "productLinks": [
+   "https://jax-ml.github.io/scaling-book/"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "ml-systems",
+   "model-scaling",
+   "jax",
+   "learning-resource"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-048",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "AI watermark removal tool",
+  "title": "watermarks-remover now strips OpenAI, Gemini and Claude marks",
+  "author": "Guillaume Meyer",
+  "date": "2026-08-11",
+  "url": "https://x.com/guillaumemeyer/status/2087275734608007415",
+  "engagement": "155 replies · 1.6K reposts · 11.4K likes · 2.4M views · 23.6K bookmarks",
+  "essence": "Guillaume Meyer updates watermarks-remover to support watermarks from OpenAI and Gemini in addition to Claude. His thread is candid: the repo currently only removes metadata from supported file formats, removing steganographic marks MAY come later, and he questions whether watermarking is right at all - replies from Eli Gaultney push on whether it includes indirect PII or provider info. Comments argue AI watermarking was always a compliance checkbox rather than a defense, one says it should be in all harnesses, another jokes the tool deserves a $900B valuation; 11,412 likes, 23,589 bookmarks and 2.4M views.",
+  "summary": "The most-saved privacy/provenance tool in this batch - hard evidence of how little users trust AI watermarking.",
+  "productLinks": [
+   "https://github.com/guillaumemeyer/watermarks-remover"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "watermarking",
+   "ai-provenance",
+   "privacy",
+   "open-source"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-049",
+  "platform": "Twitter",
+  "category": "Life, Relationships & Self-Improvement",
+  "subcategory": "budget desk setup",
+  "title": "35k INR desk setup - 'anything to change from here?'",
+  "author": "vidit._od",
+  "date": "2026-06-27",
+  "url": "https://x.com/vidit_odedra/status/2070804023511597410",
+  "engagement": "264 replies · 38 reposts · 976 likes · 276.3K views · 1.3K bookmarks",
+  "essence": "vidit shows his 35,000 INR setup asking what to change; his thread clarifies it's his current setup, that he also writes about CS and nerd stuff, and that his resume is still weak. Replies advise a proper IKEA table and a 2K monitor under 12K, say the chair is decent but the mouse needs batteries every two weeks (get a chargeable one), and to check the keyboard brand's own site for offers; 976 likes and 1,280 bookmarks on 276K views.",
+  "summary": "A heavily-saved Indian desk-setup budget with crowd-sourced upgrades - a practical buying reference.",
+  "productLinks": [],
+  "hasMedia": "image",
+  "topicTags": [
+   "desk-setup",
+   "india",
+   "workspace",
+   "budgeting"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-050",
+  "platform": "Twitter",
+  "category": "Personal Finance & Money",
+  "subcategory": "congressional trade tracker app",
+  "title": "InsiderWave: app that tracks politicians' financial disclosures",
+  "author": "legen",
+  "date": "2026-05-22",
+  "url": "https://x.com/legen_eth/status/2057867757404688900",
+  "engagement": "12 replies · 16 reposts · 215 likes · 58.9K views · 739 bookmarks",
+  "essence": "legen started from the House clerk's financial disclosure filings and built an app that makes tracking them easier and notifies you when new disclosures are out - InsiderWave. His thread adds Apple and Google Play download links and investing advice: stay patient, don't go all in, have money to buy dips, think long term. Replies ask why anyone should trust the app, report a broken link, ask which politicians he copies and how he picks them; 215 likes and 739 bookmarks.",
+  "summary": "A retail-investing tool built on public congressional disclosures - a useful reference for copy-trading product ideas.",
+  "productLinks": [
+   "https://insiderwave.app",
+   "https://apps.apple.com/us/app/insiderwave/id6738753987",
+   "https://play.google.com/store/apps/details?id=app.insiderwave.mobile"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "investing",
+   "congressional-trading",
+   "fintech-app",
+   "disclosures"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-051",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "free LLM API repo",
+  "title": "freellmapi: 800M free tokens/month across every major LLM",
+  "author": "Ronin",
+  "date": "2026-05-19",
+  "url": "https://x.com/DeRonin_/status/2056813470557901261",
+  "engagement": "45 replies · 103 reposts · 1.1K likes · 88.3K views · 1.7K bookmarks",
+  "essence": "Ronin promotes an open-source repo (github.com/tashfeenahmed/freellmapi) promising 800M free tokens a month across every major LLM - 'this guy literally made you to forget about any limits' - with a cc to a friend for alpha. Only one captured reply calls the information priceless; 1,095 likes and 1,712 bookmarks on 88K views.",
+  "summary": "A viral (and suspiciously generous) free-token aggregator repo - worth verifying before relying on it.",
+  "productLinks": [
+   "https://github.com/tashfeenahmed/freellmapi"
+  ],
+  "hasMedia": "image",
+  "topicTags": [
+   "free-llm-tokens",
+   "open-source",
+   "llm-api"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-052",
+  "platform": "Twitter",
+  "category": "Startups, Product & Marketing",
+  "subcategory": "vibe-coded app idea",
+  "title": "'$100k MRR waiting' - vibe-code a palm-reading app with a viral hook",
+  "author": "James Camp 🛠,🛠",
+  "date": "2026-04-27",
+  "url": "https://x.com/JamesonCamp/status/2048556328210297025",
+  "engagement": "93 replies · 77 reposts · 1.9K likes · 374.6K views · 3.4K bookmarks",
+  "essence": "James Camp says $100k MRR is waiting for someone willing to put in the work: vibe-code a mobile app for palm reading, create a viral component like sharing it with your bf/best friend, make it free to use but $2.99/month to compare with someone else, and notes half the palm reading is ... The quoted post from Linus Ekenstam shows GPT Image-2 doing palm reading with a full prompt, with reader context warning that uploading palm photos shares extractable fingerprints and other unchangeable biometric data (CNN and FTC links). No discussion was captured (original discussion unavailable: tweet thread fetch failed); 1,917 likes, 3,392 bookmarks and 374K views.",
+  "summary": "A concrete viral-monetization template (free share loop plus 2.99/mo comparison upsell) - with the biometric-privacy landmine attached.",
+  "productLinks": [],
+  "hasMedia": "image",
+  "topicTags": [
+   "side-project",
+   "vibe-coding",
+   "monetization",
+   "viral-loop",
+   "privacy"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-053",
+  "platform": "Twitter",
+  "category": "Life, Relationships & Self-Improvement",
+  "subcategory": "group trip money etiquette",
+  "title": "If someone bails from a 5-way Airbnb, do they get their money back?",
+  "author": "Darrell Aden",
+  "date": "2026-04-25",
+  "url": "https://x.com/darrelltalksfi/status/2048034972846653917",
+  "engagement": "318 replies · 124 reposts · 4.1K likes · 2.1M views · 183 bookmarks",
+  "essence": "Darrell asks whether a person who split an Airbnb 5 ways and bails last minute (sick, personal reasons) should get a refund or eat it as a sunk cost; his thread notes people feel some type of way. Replies coalesce around sunk cost - you committed and others budgeted around you - with nuance: the bailing person should still offer to pay while friends overrule and cover them ('a battle of generosity'), flake vs family death changes the answer, and one says you pay for what you agreed to; 4,120 likes and 2.06M views.",
+  "summary": "A viral money-etiquette debate with a clear emerging consensus norm - handy for group-trip and fairness product angles.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "money-etiquette",
+   "travel",
+   "friendships",
+   "viral-debate"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-054",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "stack choice opinions",
+  "title": "Don't start with Supabase/Clerk/Mongo: Convex, Neon, Better Auth, R2",
+  "author": "Melvyn • Builder",
+  "date": "2026-03-27",
+  "url": "https://x.com/melvynx/status/2037569997388873828",
+  "engagement": "213 replies · 120 reposts · 1.7K likes · 215.5K views · 3.3K bookmarks",
+  "essence": "Melvyn's contrarian starter stack: Supabase means regret (use Convex, Neon or Better-Auth), Clerk is the worst choice ever (use Better-Auth), Supabase Storage or AWS S3 -> Cloudflare R2 as the cheapest, Namecheap -> Porkbun or Cloudflare, and 'MongoDB = just don't'. His thread doubles down ('mongo db is the worst tool i ever try'). Replies disagree - one runs a 50k MRR business on MongoDB, another would pick Clerk over Better Auth every time - while others validate the migration path (Supabase -> Neon + Better Auth + R2, branching a game changer for testing); 1,737 likes and 3,307 bookmarks.",
+  "summary": "A high-signal (and heated) SaaS stack opinion list - a fast map of current build-versus-buy grudges.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "saas-stack",
+   "supabase",
+   "convex",
+   "neon",
+   "better-auth"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-055",
+  "platform": "Twitter",
+  "category": "Interviews, OA & DSA",
+  "subcategory": "concurrency design questions",
+  "title": "5 multithreading design problems for Rubrik, Databricks and Google",
+  "author": "Pushkar",
+  "date": "2026-03-24",
+  "url": "https://x.com/86pushkar24/status/2036293854647951583",
+  "engagement": "8 replies · 36 reposts · 337 likes · 15.6K views · 520 bookmarks",
+  "essence": "Pushkar shares 5 concurrency design questions harvested from LeetCode Discuss via an n8n workflow: a job scheduler running tasks on threads, a race-condition-safe BookMyShow ticket booking system, the bathroom synchronisation problem (max 3, never a mixed group), a dependency executor you build from scratch with your own blocking queue, thread pool and executor (no java.util.concurrent), and a multithreaded web crawler - flagged as especially helpful for Rubrik, Databricks, Tower Ventures and Google. His thread asks for a solutions repo; replies say the BookMyShow one is super practical and the list is gold; 337 likes and 520 bookmarks.",
+  "summary": "A compact, interview-ready concurrency problem set targeting India's top-tier hiring companies.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "concurrency",
+   "multithreading",
+   "interview-prep",
+   "system-design"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-056",
+  "platform": "Twitter",
+  "category": "Interviews, OA & DSA",
+  "subcategory": "DSA pattern problem list",
+  "title": "LeetCode by pattern: 10 categories, ~40 problems for interviews",
+  "author": "Abhishek Singh",
+  "date": "2026-03-23",
+  "url": "https://x.com/0xlelouch_/status/2036097093769818364",
+  "engagement": "20 replies · 296 reposts · 2.7K likes · 295.2K views · 5.8K bookmarks",
+  "essence": "Abhishek's DSA prep list: sliding window (3, 76, 424, 904), two pointers, binary search, hashing + prefix sums, monotonic stack, heap/top-K, intervals, BFS/DFS, trees and DP basics - just 2-3 per pattern, write the template from memory, then speedrun variants. Replies say add tree and graph problems or you'll be underprepared, that people fail because they don't see patterns, that monotonic stack is less intuitive but often asked, and ask whether it's enough for medium or senior roles; 2,685 likes and 5,797 bookmarks on 295K views.",
+  "summary": "The classic pattern-based LeetCode sheet - extremely saved and quick to turn into a study plan.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "leetcode",
+   "dsa",
+   "interview-prep",
+   "patterns"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-057",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "CUDA course milestone",
+  "title": "Elliot's CUDA course on freeCodeCamp hits 500K views",
+  "author": "Elliot Arledge",
+  "date": "2026-03-19",
+  "url": "https://x.com/elliotarledge/status/2034501399149727799",
+  "engagement": "22 replies · 77 reposts · 1.6K likes · 149.9K views · 822 bookmarks",
+  "essence": "Elliot celebrates his CUDA course on freeCodeCamp passing half a million views. His thread links the video and lists what you should know at a minimum to pass hands-on technicals - softmax, gemv, gemm, attention, topk kernels plus end-to-end system optimization - admitting the video was a major mess up and asking whether to redo it, and that connections help most. Replies ask which CUDA course, thank him for the intro that started their GPU journey, and note people complained his face blocked the lecture; 1,636 likes and 822 bookmarks.",
+  "summary": "Milestone plus the kernel checklist interviewers expect from a popular free CUDA course.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "cuda",
+   "gpu-programming",
+   "course",
+   "interview-prep"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-058",
+  "platform": "Twitter",
+  "category": "Jobs, Careers & Compensation",
+  "subcategory": "application autofill tools",
+  "title": "Why can't I save one job application and reuse it everywhere?",
+  "author": "Aditi Sharma",
+  "date": "2026-03-18",
+  "url": "https://x.com/airwarmedd/status/2034208913508512029",
+  "engagement": "25 replies · 6 reposts · 221 likes · 23.2K views · 54 bookmarks",
+  "essence": "Aditi vents after 5 Workday applications: why doesn't a tool exist to save your full application once and reuse it across companies when every form asks the same questions? Her thread says she'll try the suggestions and notes she also fills Google/Typeform and records intro videos. Replies offer tools - Simplify chrome extension, Teal, Lazy Apply, greenhouse as an alternative - plus two builders saying they're shipping exactly this (one live by Sunday, tsenta auto-fills Workday forms), and a suggestion to build an agent you verify at the end; 221 likes on 23K views.",
+  "summary": "A validated pain point (repetitive ATS forms) with a crowded tool landscape - a live market test for application-autofill products.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "job-applications",
+   "workday",
+   "ats",
+   "job-search-tools",
+   "automation"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-059",
+  "platform": "Twitter",
+  "category": "Interviews, OA & DSA",
+  "subcategory": "probabilistic interview question",
+  "title": "Retired interview question: distinct stream items in O(log log N) bits",
+  "author": "Finn Hulse",
+  "date": "2026-03-14",
+  "url": "https://x.com/finn_hulse/status/2032952738720477561",
+  "engagement": "36 replies · 8 reposts · 451 likes · 97.8K views · 890 bookmarks",
+  "essence": "Finn Hulse posts his retired favorite technical interview problem: given a stream of N not-necessarily-distinct integers from an O(N) universe, estimate how many distinct integers appear using only O(log(log N)) persistent storage, in 5 lines of pseudocode - and says there was a time he wouldn't work with someone who couldn't answer it. His thread hints that O(log log N) can't even encode N itself, that you use different hashes per iteration, and that hashing is goated. Replies propose the classic trailing-zeros-of-a-random-hash sketch (HyperLogLog territory), others call it esoteric trivia they'd refuse to answer, and one says it filters for memorizers rather than talent; 451 likes and 890 bookmarks.",
+  "summary": "A polarizing interview question that doubles as a HyperLogLog explainer - and a debate on signal versus trivia.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "hyperloglog",
+   "interview-question",
+   "probabilistic-algorithms",
+   "streaming"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-060",
+  "platform": "Twitter",
+  "category": "Personal Finance & Money",
+  "subcategory": "student discount subscriptions",
+  "title": "70+ subscriptions free (or heavily discounted) if you're a 'student'",
+  "author": "kaize",
+  "date": "2026-03-13",
+  "url": "https://x.com/0x_kaize/status/2032527256355221954",
+  "engagement": "144 replies · 1.5K reposts · 13.7K likes · 8.4M views · 30.7K bookmarks",
+  "essence": "kaize's X article '70+ Free Subscriptions - Become a Student' claims almost everything is free and some offer crazy discounts - you can become a student, study, and use all the services without even attending classes. Community notes push back: Vercel Pro is not included in the GitHub student pack, and the article's header image shows a Claude logo with no Claude subscription mentioned anywhere in the article. No reply discussion is captured; the post does 1.4K reposts, 13.7K likes, 30.7K bookmarks and 8.3M views.",
+  "summary": "A viral student-discount listicle - the community notes flag it as padded, a good lesson in engagement-driven content.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "student-discounts",
+   "free-stuff",
+   "savings",
+   "listicle"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-061",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "stack comparison opinions",
+  "title": "Things Claude Code won't tell you: Firebase>Supabase, Render>Vercel...",
+  "author": "Prasann Pandya",
+  "date": "2026-03-12",
+  "url": "https://x.com/prasann_pandya/status/2032101698424934504",
+  "engagement": "227 replies · 198 reposts · 3.8K likes · 285.6K views · 5.7K bookmarks",
+  "essence": "Prasann's list of opinions Claude Code won't give you: Firebase much cheaper and better than Supabase for most use cases, Pinecone better than Pgvector, Render better and cheaper than Vercel, Modal and Lambda better than Celery, FastAPI better than Node, Expo better than Xcode for iOS - concluding this is why vibe coders can prototype but struggle to scale, and that this intuition comes from building and scaling products. His thread agrees on FastAPI and Pinecone but worries about infra. Replies call them judgment calls (pgvector if you already need an RDBMS), add Neon/Supavault branching, note Hetzner is 1/3 the price of Render, and defend Xcode with Claude; 3,790 likes and 5,670 bookmarks.",
+  "summary": "A highly-saved unpopular-tech-opinions list - useful for spotting where mainstream AI-recommended stacks diverge from practitioner picks.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "tech-stack",
+   "saas-architecture",
+   "backend",
+   "opinions"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-062",
+  "platform": "Twitter",
+  "category": "Tech Industry & News",
+  "subcategory": "Hotstar streaming architecture",
+  "title": "How Hotstar streams to 65M+ concurrent viewers over HLS",
+  "author": "Mehul Mohan",
+  "date": "2026-03-11",
+  "url": "https://x.com/mehulmpt/status/2031803518630453287",
+  "engagement": "18 replies · 39 reposts · 820 likes · 65.8K views · 491 bookmarks",
+  "essence": "Mehul Mohan popped the hood on Hotstar during India vs New Zealand to see how it streams to 65M+ concurrent viewers via HLS: Akamai plus AWS CDN for delivery and lots of subdomains, some tied to ISPs like Airtel. His thread links the video. Replies point at Hotstar's own engineering blogs, correct that 65 crore is actually 650 million, ask why HLS over MPEG-DASH and whether ABR ladders are precomputed or dynamic, while others complain the video quality was terrible; 820 likes and 491 bookmarks.",
+  "summary": "A rare public teardown of one of the world's largest live-streaming stacks - plus the quality-versus-scale tradeoff.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "video-streaming",
+   "hls",
+   "cdn",
+   "hotstar",
+   "system-design"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-063",
+  "platform": "Twitter",
+  "category": "Interviews, OA & DSA",
+  "subcategory": "Blinkit intern interview experience",
+  "title": "Blinkit off-campus SDE intern interview: design-led, real-time systems",
+  "author": "Anushka Gupta",
+  "date": "2026-03-10",
+  "url": "https://x.com/AnushkaGup44956/status/2031435231396610266",
+  "engagement": "7 replies · 14 reposts · 217 likes · 14.3K views · 204 bookmarks",
+  "essence": "Anushka shares a friend's off-campus Blinkit SDE intern experience: resume shortlisting, then a technical round built on project discussion and DSA that was highly design and reasoning oriented - why HTTP is insufficient for real-time apps and how WebSockets enable persistent full-duplex push, why MongoDB fits real-time systems (flexible schemas, high write throughput, horizontal scaling), trees/BSTs for leaderboards and order books, and designing a high-frequency order matching system with buy/sell books. Her follow-up tells the 153 bookmarkers to actually read it - they ask about whatever is on your resume, so know it plus fundamentals; replies are mostly 'I don't know this much' and where he applied.",
+  "summary": "A first-hand India off-campus interview transcript with the exact system-design themes Blinkit probes.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "interview-experience",
+   "blinkit",
+   "system-design",
+   "off-campus",
+   "real-time-systems"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-064",
+  "platform": "Twitter",
+  "category": "Quant & Trading",
+  "subcategory": "quant practice platform",
+  "title": "QuantLab: LeetCode for quant finance - first cut is live",
+  "author": "Raghav Srivastava",
+  "date": "2026-03-09",
+  "url": "https://x.com/Raghav_11001_ai/status/2031055833560395905",
+  "engagement": "6 replies · 8 reposts · 118 likes · 8.2K views · 118 bookmarks",
+  "essence": "Raghav launches QuantLab (quantlab-eight.vercel.app), 'LeetCode, but for Quant Finance', to practice quant interview problems, trading math, probability and market intuition in one place; next up are user profiles, more problems and prep references, inspired by prathamgrv. His thread confirms it is all open source. Replies call it nice and cool and ask him to keep it free/open source; 118 likes and 118 bookmarks on 8.2K views.",
+  "summary": "An early open-source drill platform for quant interview prep - worth bookmarking as it grows.",
+  "productLinks": [
+   "https://quantlab-eight.vercel.app"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "quant-finance",
+   "interview-prep",
+   "practice-platform",
+   "open-source"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-065",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "student IDE program",
+  "title": "Zed for Students: Pro free for a year plus $10/month in tokens",
+  "author": "Zed",
+  "date": "2026-03-09",
+  "url": "https://x.com/zeddotdev/status/2031116357325267252",
+  "engagement": "229 replies · 636 reposts · 5.5K likes · 1.2M views · 5.1K bookmarks",
+  "essence": "Zed announces Zed for Students: current university students (and teachers) get Zed Pro free for 12 months, $10/month in token credits and unlimited edit predictions. The thread adds a Zed Campus Ambassador program (build community, develop your skill, get merch) and jokes that the IDE is sorta the whole point. Replies question why ship a whole app instead of a VS Code extension, report the Zed for students page is NotFound, and beg to be let in; 5,500 likes, 5,055 bookmarks and 1.18M views.",
+  "summary": "A big top-of-funnel student program from a major editor - a template for dev-tool student discounts.",
+  "productLinks": [
+   "https://zed.dev/education/zed-campus-ambassador"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "zed",
+   "ide",
+   "student-discount",
+   "devtools"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-066",
+  "platform": "Twitter",
+  "category": "Other",
+  "subcategory": "security disclosure IDOR BAC",
+  "title": "Hacker dumps a Voice AI company's prod data via IDOR and BAC",
+  "author": "Archie Sengupta",
+  "date": "2026-03-07",
+  "url": "https://x.com/archiexzzz/status/2030144621003878586",
+  "engagement": "131 replies · 96 reposts · 2.2K likes · 348.6K views · 1.7K bookmarks",
+  "essence": "Archie Sengupta claims he hacked a VC-funded Voice AI company and now has its prod data: medical information of customers, call recordings, phone numbers and contact names, emails, all system prompts for their agents, API keys and secrets, org data, OAuth provider IDs and webhook events - mostly via IDOR and BAC attacks, retrieving table columns first and bypassing from there. His thread says he's sending a detailed Sev0 report to their engineering team, thanks Supabase for 'another bounty', and challenges doubters while advising founders and devs to take anon keys seriously and just enable RLS. Replies warn that blurred screenshots are still extractable, ask for a how-to-avoid blog, and note IDOR keeps getting easy to find in misconfigured, vibe-coded products; 2,232 likes and 1,742 bookmarks.",
+  "summary": "A vivid case study in Supabase anon-key and RLS misconfiguration risk for AI-startup backends.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "security",
+   "idor",
+   "supabase",
+   "rls",
+   "vulnerability"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-067",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "local-first personal apps",
+  "title": "Vibe-code a personal app, serve a port, reach it via Tailscale",
+  "author": "Kevin",
+  "date": "2026-03-04",
+  "url": "https://x.com/linguinelabs/status/2029242752987517018",
+  "engagement": "55 replies · 138 reposts · 3.3K likes · 231.2K views · 3.3K bookmarks",
+  "essence": "Kevin argues it's pretty insane that he can vibe-code any web app (acne tracker, gym tracker), run it on a port of his laptop and access it on his phone via Tailscale - no domain or app store, all free, completely tailored to him. His thread says storage is SQLite (fine for tracking apps), that he's nearly out of Vercel free quota and will try Railway for his next project with users. Replies shrug that auth doesn't matter for one user ('who cares, algo'), call personal apps a fun playground, others say they deploy on Railway with a Claude skill plus better_auth in about 10 minutes, and a Tailscale person invites DMs; 3,289 likes and 3,322 bookmarks.",
+  "summary": "A popular no-deploy personal-app workflow (local port + Tailscale + SQLite) - real signal for local-first tooling.",
+  "productLinks": [],
+  "hasMedia": "image",
+  "topicTags": [
+   "tailscale",
+   "local-first",
+   "vibe-coding",
+   "personal-projects",
+   "sqlite"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-068",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "fault tolerance principles",
+  "title": "Covering PlanetScale's 'principles of extreme fault tolerance'",
+  "author": "Mehul Mohan",
+  "date": "2026-02-16",
+  "url": "https://x.com/mehulmpt/status/2023443425224466578",
+  "engagement": "4 replies · 20 reposts · 365 likes · 22.9K views · 235 bookmarks",
+  "essence": "Mehul Mohan covers PlanetScale's 'principles of extreme fault tolerance' blog, saying love it or hate it, the PlanetScale folks know databases and availability, and drops a video; Sam Lambert quote-tweets it as 'the backend that never goes down'. Replies ask him to stream on YouTube more, argue fault tolerance is a necessity rather than a choice given the complexity of modern systems (one cites their own app's database crashes), and joke 'so no more supabase then'; 365 likes and 235 bookmarks.",
+  "summary": "An entry point into PlanetScale's availability playbook - a good systems-design reference in video form.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "fault-tolerance",
+   "databases",
+   "planetscale",
+   "system-design"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-069",
+  "platform": "Twitter",
+  "category": "Jobs, Careers & Compensation",
+  "subcategory": "Rippling OA and CTC",
+  "title": "Rippling SDE intern OA - and close to 70 LPA CTC for SDE-1",
+  "author": "Vyom",
+  "date": "2026-02-15",
+  "url": "https://x.com/HelloVyom/status/2022929307119816737",
+  "engagement": "32 replies · 13 reposts · 283 likes · 29K views · 268 bookmarks",
+  "essence": "Vyom posts a Rippling SDE intern OA alongside the claim they pay close to 70 CTC for SDE-1. His thread hedges the number - base itself is 44, commenters report different figures - and notes tougher OAs don't always mean bigger pay (Infosys). Replies debate how much of the 70 CTC is actual liquidity, call it crazy motivation to grind LeetCode, argue tech roles shouldn't be 70k without experience, and ask what 70 CTC even means; 283 likes and 268 bookmarks.",
+  "summary": "A comp benchmark plus OA signal for Rippling India - a data point in the high-paying-fresher sweepstakes.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "rippling",
+   "compensation",
+   "oa",
+   "sde-interview",
+   "india"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-070",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "minimal GPT implementation",
+  "title": "Karpathy trains and infers GPT in 243 lines of dependency-free Python",
+  "author": "Andrej Karpathy",
+  "date": "2026-02-11",
+  "url": "https://x.com/karpathy/status/2021694437152157847",
+  "engagement": "639 replies · 3.7K reposts · 24.8K likes · 5.2M views · 28.8K bookmarks",
+  "essence": "Karpathy's new art project: train and inference GPT in 243 lines of pure, dependency-free Python - the full algorithmic content of what is needed, with everything else just efficiency ('I cannot simplify this any further'). His thread explains the trick: strip the architecture and loss down to atomic ops (+, *, **, log, exp) and let a tiny scalar autograd engine (micrograd) compute gradients with Adam, published at karpathy.ai/microgpt.html - and he then realized it could be simplified further to ~200 lines by returning local gradients per op. Replies quip the entire AI industry is 243 lines of math plus a trillion dollars of marketing; 24,802 likes, 28,795 bookmarks and 5.2M views.",
+  "summary": "The definitive 'LLMs are not magic' artifact - 243 lines to teach or demo the whole training stack.",
+  "productLinks": [
+   "https://karpathy.ai/microgpt.html"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "gpt",
+   "from-scratch",
+   "autograd",
+   "education",
+   "llm-internals"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-071",
+  "platform": "Twitter",
+  "category": "Interviews, OA & DSA",
+  "subcategory": "Salesforce OA problem",
+  "title": "Salesforce AMTS off-campus OA question (constraints up to 1e9)",
+  "author": "Vyom",
+  "date": "2026-02-14",
+  "url": "https://x.com/HelloVyom/status/2022561385964884254",
+  "engagement": "27 replies · 12 reposts · 267 likes · 45.4K views · 244 bookmarks",
+  "essence": "Vyom drops a Salesforce AMTS off-campus OA question. His thread commits to solving it and posts a solution later, noting the Salesforce OA had three questions of the same difficulty. Replies wrestle with the constraints - brute force looks easy until n hits 10^5, others see n = 10^9 and ask matrix exponentiation or simple DP, handle k > n with binary exp plus DP - and several admit they can't solve it; 267 likes and 244 bookmarks.",
+  "summary": "A real OA problem plus the constraint-reading discussion that decides the approach - useful for Salesforce prep.",
+  "productLinks": [],
+  "hasMedia": "image",
+  "topicTags": [
+   "salesforce",
+   "oa",
+   "coding-problem",
+   "dp",
+   "interview-prep"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-072",
+  "platform": "Twitter",
+  "category": "Startups, Product & Marketing",
+  "subcategory": "project milestone announcement",
+  "title": "papercode.in crosses 2.5k users",
+  "author": "neural nets.",
+  "date": "2026-02-13",
+  "url": "https://x.com/cneuralnetwork/status/2022173750977081349",
+  "engagement": "3 replies · 27 reposts · 496 likes · 13.8K views · 237 bookmarks",
+  "essence": "neural nets. celebrates papercode.in reaching 2.5k users (a paper-to-code learning site). Replies include a shout-out to a contributor, congratulations, and a request to deploy a Recursive Learning Model; 496 likes and 237 bookmarks on 13.8K views.",
+  "summary": "A small but clean indie-project milestone post - a template for low-effort launch updates that still earn saves.",
+  "productLinks": [
+   "https://papercode.in"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "indie-hacker",
+   "milestone",
+   "paper-to-code",
+   "side-project"
+  ],
+  "worthFollowUp": "low"
+ },
+ {
+  "uid": "X-073",
+  "platform": "Twitter",
+  "category": "Jobs, Careers & Compensation",
+  "subcategory": "ML intern hiring",
+  "title": "Peakflo (YC W22) hiring remote ML intern, 50k/month stipend",
+  "author": "Ayushi",
+  "date": "2026-02-12",
+  "url": "https://x.com/Ayushi_sharma02/status/2021819146137382961",
+  "engagement": "124 replies · 6 reposts · 302 likes · 19.5K views · 165 bookmarks",
+  "essence": "Ayushi posts a #hiring #remote opening: Peakflo (YC W22) hiring a Machine Learning Intern for 2025/2026/2027 batches, remote India, 50k/month stipend, skills needed are machine learning, prompt engineering, Python and NLP; her thread tells people to apply and check DMs. Replies are mostly 'interested', one person asks about full-time AI/ML roles, another about cybersecurity or web3 openings for freshers; 302 likes and 165 bookmarks.",
+  "summary": "A concrete YC startup intern stipend data point for India (50k/month, remote).",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "hiring",
+   "ml-intern",
+   "yc",
+   "remote-work",
+   "india"
+  ],
+  "worthFollowUp": "low"
+ },
+ {
+  "uid": "X-074",
+  "platform": "Twitter",
+  "category": "Personal Finance & Money",
+  "subcategory": "shareholder perks India",
+  "title": "Own 1 share, get discounts: IHCL 25%, Metro 15%, Raymond 10%",
+  "author": "Pratham",
+  "date": "2026-02-11",
+  "url": "https://x.com/CapitalLens_/status/2021605380556574788",
+  "engagement": "28 replies · 108 reposts · 1.2K likes · 153.2K views · 1K bookmarks",
+  "essence": "Pratham lists shareholder perks in India for holding just one share: 25% off at IHCL hotels, 15% at Metro, 10% at Raymond stores, and a packet of sugar from Ugar Sugar. Replies add Titan (Tanishq, Titan Eye), warn that discount coupons usually land in spam or promotions and are hard to claim on searching, note record-date and minimum-hold conditions in the AGM terms, mention Hawkins' 20-25% discount, and one argues freebies don't build wealth - ownership does; 1,183 likes and 1,025 bookmarks.",
+  "summary": "A fun, money-saving shareholder-perk list with the important caveats (record date, minimum holding) in the replies.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "shareholder-perks",
+   "india",
+   "stocks",
+   "discounts"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-075",
+  "platform": "Twitter",
+  "category": "Interviews, OA & DSA",
+  "subcategory": "interview log database product",
+  "title": "PrepArchive turns messy interview comment threads into structured logs",
+  "author": "Aditya",
+  "date": "2026-02-11",
+  "url": "https://x.com/theEquinoxDev/status/2021620380189052928",
+  "engagement": "4 likes · 363 views · 2 bookmarks",
+  "essence": "Aditya introduces PrepArchive, a searchable database that turns messy social-media comments asking about interviews into structured interview logs, with a waitlist at preparchive.in. No discussion is captured and engagement is minimal - 4 likes, 2 bookmarks on 363 views.",
+  "summary": "An attempt to productize crowdsourced interview experiences - watch whether the waitlist converts.",
+  "productLinks": [
+   "https://preparchive.in"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "interview-prep",
+   "startup",
+   "waitlist",
+   "database"
+  ],
+  "worthFollowUp": "low"
+ },
+ {
+  "uid": "X-076",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "AI learning roadmap site",
+  "title": "aimlroadmap.com - 'im not even kidding, try it'",
+  "author": "spidey",
+  "date": "2026-02-11",
+  "url": "https://x.com/lochan_twt/status/2021435884156125393",
+  "engagement": "7 replies · 11 reposts · 275 likes · 17.5K views · 279 bookmarks",
+  "essence": "spidey simply says 'im not even kidding try: aimlroadmap.com'. Replies call the feedback perfect, suggest adding a crypto wallet address to the buy-me-a-coffee section for sponsors, congratulate him, and ask whether he's Telugu; 275 likes and 279 bookmarks on 17.5K views.",
+  "summary": "A well-received free AI/ML roadmap site - bookmark-worthy as a learning path.",
+  "productLinks": [
+   "https://aimlroadmap.com"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "learning-roadmap",
+   "ai-ml",
+   "open-resource"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-077",
+  "platform": "Twitter",
+  "category": "Interviews, OA & DSA",
+  "subcategory": "MLSys coding competition",
+  "title": "MLSys 2026 Graph Scheduling Competition - design a JSON schedule",
+  "author": "Google Students",
+  "date": "2026-02-10",
+  "url": "https://x.com/googlestudents/status/2021264553225367989",
+  "engagement": "7 replies · 80 reposts · 1.2K likes · 98.3K views · 1.2K bookmarks",
+  "essence": "Google Students promotes the MLSys 2026 Graph Scheduling Competition: given a complex AI workload and a tiny high-speed memory scratchpad, design a schedule (just a JSON file) that moves data in and out efficiently to minimize latency - 'like a high-stakes game of inventory management'. Open to students, researchers, hobbyists and puzzle-solvers worldwide, with a registration link. The only reply asks Google to bring Hash Code back; 1,181 likes and 1,193 bookmarks.",
+  "summary": "A global, open-to-anyone optimization contest with a low barrier to entry (JSON schedule) - good portfolio signal.",
+  "productLinks": [
+   "https://goo.gle/4ktgyyb"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "coding-competition",
+   "mlsys",
+   "optimization",
+   "contest"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-078",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "AI learning resource list",
+  "title": "backprop.site/learning-ai - free curated AI learning path",
+  "author": "spidey",
+  "date": "2026-02-09",
+  "url": "https://x.com/lochan_twt/status/2020771921181413556",
+  "engagement": "58 replies · 313 reposts · 3.9K likes · 369.1K views · 7.2K bookmarks",
+  "essence": "spidey drops a free link, backprop.site/learning-ai, a curated AI learning path. His thread adds a contact email. Replies ask how to reach him, suggest listing it on onedb.net, tease the .site domain, and debate the content itself - one says finish a course to 80% plus a project or you'll forget it, another argues it's fine for applied roles but not research engineering at big companies, someone notes it covers RAG via a framework playlist but not building RAG from scratch; 3,850 likes and 7,210 bookmarks on 369K views.",
+  "summary": "An extremely-saved free AI curriculum - plus the criticism separating applied learning from research prep.",
+  "productLinks": [
+   "https://backprop.site/learning-ai"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "learning-resource",
+   "ai-curriculum",
+   "roadmap",
+   "free"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-079",
+  "platform": "Twitter",
+  "category": "Startups, Product & Marketing",
+  "subcategory": "product validation via waitlist",
+  "title": "Validate by NOT building: landing page + waitlist first",
+  "author": "Layton Gott",
+  "date": "2026-02-05",
+  "url": "https://x.com/Layton_Gott/status/2019239488212578440",
+  "engagement": "541 replies · 514 reposts · 10.1K likes · 422.1K views · 2.7K bookmarks",
+  "essence": "Layton's validation playbook: don't build the product - make a landing page, describe the problem it solves, add a 'join waitlist' button; if nobody signs up you just saved yourself 3 months. His thread agrees that people market things for roughly that long before giving up because the problem was never validated. Replies add the caveat: TJ built a page, got 60+ signups, spent 4-5 months building, and then nobody used or paid for it - arguing monetization should start from day one - while another says no MVP should take 3-4 days; 10,066 likes and 2,709 bookmarks.",
+  "summary": "Classic validation advice with the perfect rebuttal in replies (waitlist signups are not payment) - both halves worth saving.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "product-validation",
+   "mvp",
+   "waitlist",
+   "startup",
+   "lean"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-080",
+  "platform": "Twitter",
+  "category": "Jobs, Careers & Compensation",
+  "subcategory": "cold email job search guide",
+  "title": "'The guide to getting a job with cold email' (X article)",
+  "author": "Ben Lang",
+  "date": "2026-02-01",
+  "url": "https://x.com/benln/status/2018035287851704556",
+  "engagement": "53 replies · 193 reposts · 2.4K likes · 639K views · 6.4K bookmarks",
+  "essence": "Ben Lang's X article 'The guide to getting a job with cold email' opens with things he believes about emailing startups: you can email any company you would like to work for, no matter what - true even if they don't have a job posted on their ... (excerpt truncated in the record). No reply discussion is captured; the post collects 2,401 likes, 6,374 bookmarks and 638K views.",
+  "summary": "A heavily-saved cold-email-for-jobs guide from a well-known startup operator - a go-to reference for proactive job hunts.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "cold-email",
+   "job-search",
+   "startups",
+   "career-advice"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-081",
+  "platform": "Twitter",
+  "category": "Jobs, Careers & Compensation",
+  "subcategory": "remote SDE-1 comp list",
+  "title": "8 fully-remote companies hiring SDE-1s in India at 25-75 LPA",
+  "author": "Vaibhav Agarwal",
+  "date": "2026-01-22",
+  "url": "https://x.com/va_a14/status/2014328796087005491",
+  "engagement": "5 replies · 19 reposts · 236 likes · 19.3K views · 331 bookmarks",
+  "essence": "Vaibhav lists high-paying companies that hire SDE-1s 100% remote in India with approximate total comp: GitLab 55-75 LPA, Shopify 40-55, Atlassian 35-50, Coinbase 45-65, Stripe 45-70, Elastic 35-55, Automattic 30-45, Zapier 25-40 - no office mandates, no relocation - and asks which remote company you'd aim for. Replies pick Stripe/GitLab/Atlassian ('life is too short to aim low'), one starts preparing sheets for all of them, and another asks what these companies actually look for in profiles (open source?); 236 likes and 331 bookmarks.",
+  "summary": "An India remote-comp benchmark across globally distributed companies - a quick calibrator for offers.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "remote-jobs",
+   "compensation",
+   "india",
+   "sde-1"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-082",
+  "platform": "Twitter",
+  "category": "Jobs, Careers & Compensation",
+  "subcategory": "AI policy fellowships",
+  "title": "Four AI and tech policy fellowships to apply to",
+  "author": "Equivocator™",
+  "date": "2026-01-20",
+  "url": "https://x.com/Oluwanonso_Esq/status/2013577008094052502",
+  "engagement": "55 reposts · 326 likes · 24.6K views · 557 bookmarks",
+  "essence": "Equivocator lists AI and tech policy fellowships to apply to: a Fellowship in AI Ethics (Harvard), Technologist-in-Residence, Mila Indigenous Pathfinders in AI, and the IAPS AI Policy Fellowship 2026, each with an lnkd.in application link. No reply discussion is captured; 55 reposts, 326 likes and 557 bookmarks on 24.6K views.",
+  "summary": "A ready-made list of AI-governance fellowship applications with direct links - good for policy-interested candidates.",
+  "productLinks": [
+   "https://lnkd.in/gS_cBZU7",
+   "https://lnkd.in/gvyV-6Qd",
+   "https://lnkd.in/gtDmdWmX",
+   "https://lnkd.in/gbg4r3_b"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "fellowships",
+   "ai-policy",
+   "opportunities",
+   "applications"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-083",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "natural language shell tool",
+  "title": "'x': describe shell commands in English, it runs them after confirming",
+  "author": "Arpit Bhayani",
+  "date": "2026-01-20",
+  "url": "https://x.com/arpit_bhayani/status/2013598645615255960",
+  "engagement": "55 replies · 27 reposts · 590 likes · 57K views · 278 bookmarks",
+  "essence": "Arpit built a small utility called x for people who don't remember shell commands: type a plain-English request after it ('x kill process running on port 21079', 'x get all the git branches', 'x grep all errors from ~/access.log') and it generates the shell command and executes it only after your confirmation. It's a pure bash script with no external dependencies beyond curl or wget, supports OpenAI, Gemini and Anthropic behind one API key, installs in a single command, and is open-sourced. His thread drops the repo and says if an LLM can do it, why bother memorizing; replies teach the manual sudo lsof -i :21079 equivalent, others say they'd never trust an LLM to run shell commands ('the horrors of allowing super user access to an LLM'), with a counterpoint that it confirms first; 590 likes and 278 bookmarks.",
+  "summary": "A minimal natural-language shell wrapper with a built-in confirmation step - and the trust debate that comes with it.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "cli",
+   "natural-language",
+   "shell",
+   "open-source",
+   "ai-tooling"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-084",
+  "platform": "Twitter",
+  "category": "Jobs, Careers & Compensation",
+  "subcategory": "AI data annotation work",
+  "title": "Get paid to train AI on DataAnnotation - $20-30/hour",
+  "author": "Oluwatimileyin✨🦋",
+  "date": "2026-01-20",
+  "url": "https://x.com/Timmysofine/status/2013545695320440992",
+  "engagement": "97 replies · 486 reposts · 4.2K likes · 531.7K views · 8.1K bookmarks",
+  "essence": "Timmy describes Data Annotation: you apply, take a little test to make sure you understand the idea, then get paid to train AI, with different projects opening up that you can log in and complete whenever; pay starts at $20/hour and he's seen $30 for certain projects. His thread drops the account link and later reveals the catch - you need a paid VPN and a US eSIM number, text-app numbers don't work. Replies ask if it's free to join, joke that getting in requires strong juju, and report error messages; 4,238 likes, 8,135 bookmarks and 531K views.",
+  "summary": "A viral side-income lead with the practical barrier surfaced in-thread (US eSIM/VPN) - a useful reality check on AI data work.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "side-income",
+   "ai-training",
+   "data-annotation",
+   "remote-work"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-085",
+  "platform": "Twitter",
+  "category": "Quant & Trading",
+  "subcategory": "HFT interview CS questions",
+  "title": "The CS question list for HFT interviews: OS, DBMS, networks",
+  "author": "pulkit mittal",
+  "date": "2026-01-18",
+  "url": "https://x.com/pulkit_mittal_/status/2012921301414162684",
+  "engagement": "10 replies · 67 reposts · 720 likes · 78.1K views · 1.4K bookmarks",
+  "essence": "Pulkit says he had to prepare this computer science round even for a senior HFT role, and all companies ask these questions of freshers: OS (process vs thread, virtual memory/paging/thrashing, fragmentation, semaphore vs mutex, producer-consumer, deadlock and Banker's algorithm, scheduling, RAID, mapping), DBMS (ACID, normalization, conflict serializability, concurrency protocols, locks, indexing, vertical vs horizontal scaling), Computer Networks (TCP vs UDP, types of network delays, ...). His self-thread adds that when he got the HFT offer the hardest interview was multithreading - even more important for seniors - with the LeetCode concurrency list, and replies ask whether HFTs want only C++ and Python and say CP matters most; 720 likes and 1,357 bookmarks.",
+  "summary": "The canonical HFT/fintech CS fundamentals checklist - heavily saved by interview preppers.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "hft",
+   "interview-prep",
+   "operating-systems",
+   "dbms",
+   "computer-networks"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-086",
+  "platform": "Twitter",
+  "category": "Entertainment, Culture & Fun",
+  "subcategory": "TV show hot take",
+  "title": "'People only pretend to like Breaking Bad' - replies disagree hard",
+  "author": "Peniel.",
+  "date": "2026-01-25",
+  "url": "https://x.com/PenielThoy/status/2015742088768295412",
+  "engagement": "1.5K replies · 848 reposts · 2.9K likes · 785.4K views · 159 bookmarks",
+  "essence": "Peniel claims he tried Breaking Bad three times, couldn't even finish season one, and that people only pretend to like it because it's famous - in reality one of the most boring series ever - quoting a prompt asking what people love but he finds overrated. His thread then tries to farm an engagement group chat. Replies push back hard: it's not for people who need constant action, it doesn't spoon-feed dopamine but watches a normal man rot into a villain, a slow-burn analogy, and 'you stopped at first season'; 1,466 replies but only 2,928 likes and 159 bookmarks on 785K views.",
+  "summary": "Textbook rage-bait take - the reply dynamics (huge reply count, low likes) are the interesting part.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "breaking-bad",
+   "tv-shows",
+   "hot-take",
+   "engagement-bait"
+  ],
+  "worthFollowUp": "low"
+ },
+ {
+  "uid": "X-087",
+  "platform": "Twitter",
+  "category": "Startups, Product & Marketing",
+  "subcategory": "AI cold-outreach business idea",
+  "title": "Agent that builds landing pages for new Google Maps businesses",
+  "author": "Denislav Gavrilov",
+  "date": "2026-01-26",
+  "url": "https://x.com/kuberdenis/status/2015721648293372067",
+  "engagement": "27 replies · 68 reposts · 1.9K likes · 149.9K views · 2.2K bookmarks",
+  "essence": "Denislav floats a business idea: an agent that checks newly registered Google Maps businesses daily, finds their email, creates 20 variations of a static landing page (10 Claude Code, 10 Codex), hosts them on a company subdomain and emails them to the owner. His thread says he won't do it, but his friend got a cold email from an SMB asking 400 EUR/year for an awful static website, so he claude-coded 10 variations, hosted on Cloudflare Pages with a GitHub agent making changes from labeled issues and auto-deploying previews - 'she's now a proud website owner'. Replies split: someone's already building it, email deliverability will be brutal, one calls it a horrible idea, others reframe it as becoming the default first website for every new business with a claim-to-own flow and affiliate hosting; 1,850 likes and 2,194 bookmarks.",
+  "summary": "A viral, morally murky automation-agency idea - the reply debate maps the go-to-market and deliverability walls.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "business-idea",
+   "cold-outreach",
+   "automation",
+   "claude-code",
+   "agency"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-088",
+  "platform": "Twitter",
+  "category": "Quant & Trading",
+  "subcategory": "quant competition calendar",
+  "title": "List of upcoming quant competitions (Google Drive doc)",
+  "author": "Piotr Pomorski",
+  "date": "2026-01-26",
+  "url": "https://x.com/PtrPomorski/status/2015800176418414608",
+  "engagement": "1 reply · 46 reposts · 575 likes · 35.7K views · 821 bookmarks",
+  "essence": "Piotr Pomorski shares a document listing upcoming quant competitions for anyone interested (Google Drive link). No reply discussion is captured; 46 reposts, 575 likes and 821 bookmarks on 35.7K views.",
+  "summary": "A saved calendar of quant trading competitions - useful for students targeting trading firms.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "quant",
+   "competitions",
+   "trading-contests",
+   "opportunities"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-089",
+  "platform": "Twitter",
+  "category": "Interviews, OA & DSA",
+  "subcategory": "Google interviewer tips",
+  "title": "'I conducted 50+ interviews at Google - here is how to pass'",
+  "author": "Abhishek",
+  "date": "2026-01-17",
+  "url": "https://x.com/abhishekcode42/status/2012545006423425088",
+  "engagement": "2 replies · 42 reposts · 498 likes · 49.3K views · 989 bookmarks",
+  "essence": "Abhishek's X article 'I conducted 50+ interviews at Google. Here is how to pass.' argues that after 50+ technical interviews he noticed specific patterns separating candidates, and breaks down the 5 major areas where most ... (excerpt truncated in the record). No reply discussion is captured; 498 likes, 989 bookmarks and 49K views.",
+  "summary": "A first-person Google interviewer's breakdown of what actually separates candidates - heavily bookmarked prep reading.",
+  "productLinks": [],
+  "hasMedia": "image",
+  "topicTags": [
+   "google",
+   "interview-tips",
+   "technical-interview",
+   "hiring"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-090",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "AI PR generation CLI",
+  "title": "prcraft: CLI that turns git diff into a GitHub PR",
+  "author": "Affan Mohammed",
+  "date": "2026-01-15",
+  "url": "https://x.com/affanmuhammadd/status/2011817289977409606",
+  "engagement": "1 reply · 2 reposts · 20 likes · 3.1K views · 39 bookmarks",
+  "essence": "Affan describes the AI-integrated CLI tool he built: it calculates the git diff internally and creates PRs for GitHub, detecting the base branch in the order upstream -> origin -> main (local fallback). The single reply calls it cool stuff; 20 likes and 39 bookmarks on 3.1K views.",
+  "summary": "A tiny, single-job CLI for PR generation - an example of the wave of focused AI dev utilities.",
+  "productLinks": [
+   "https://github.com/mohdaffann/prcraft"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "cli",
+   "github",
+   "pull-requests",
+   "devtools"
+  ],
+  "worthFollowUp": "low"
+ },
+ {
+  "uid": "X-091",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "beginner project ideas",
+  "title": "8 projects over tutorials: password manager, URL shortener, scraper...",
+  "author": "Vivo",
+  "date": "2026-01-15",
+  "url": "https://x.com/vivoplt/status/2011682593239155017",
+  "engagement": "62 replies · 309 reposts · 3.8K likes · 211.5K views · 5.3K bookmarks",
+  "essence": "Vivo's list says don't overcomplicate it: build a password manager (file handling, hashing), URL shortener (routing, IDs, persistence), Todo app with deadlines (CRUD, state), web scraper (requests, parsing, rate limits), CLI expense tracker (logic, files, edge cases), log analyzer (files, timestamps, patterns), a simple recommender using similarity rules (not ML magic) and an email automation script (SMTP, scheduling) - 'Projects. Not tutorials.' His thread reiterates projects over tutorials, master basics then scale. Replies endorse the simplification and add that a chat app introduces WebSockets; 3,809 likes and 5,262 bookmarks.",
+  "summary": "The most-saved beginner project syllabus in this batch - a ready-made learning plan.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "beginner-projects",
+   "learning",
+   "backend",
+   "portfolio"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-092",
+  "platform": "Twitter",
+  "category": "Health, Fitness & Wellness",
+  "subcategory": "nasal clearing home remedies",
+  "title": "How to intentionally clear your sinuses with a hot shower",
+  "author": "☀️AliquisNovus☀️",
+  "date": "2026-01-05",
+  "url": "https://x.com/PalmyrPar/status/2008308217395200508",
+  "engagement": "10 replies · 39 reposts · 12.3K likes · 313.3K views · 709 bookmarks",
+  "essence": "AliquisNovus asks how to get that nose-clearing effect intentionally - the ideal water temperature, time and where the water should hit. Replies deliver home remedies: steam inhalation, crushed white mints over steaming water for the hardest sneeze, the hottest water you can tolerate aimed at the throat or cupping hands over nose and mouth in the shower, menthol or eucalyptus hung in the shower, and a joke about smoking Newports; 12,294 likes and 709 bookmarks on 313K views.",
+  "summary": "A viral, practical sinus-clearing thread - light wellness content with genuinely useful replies.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "sinus-relief",
+   "home-remedies",
+   "shower-steam",
+   "wellness"
+  ],
+  "worthFollowUp": "low"
+ },
+ {
+  "uid": "X-093",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "from-scratch implementation flex",
+  "title": "He built an ML library from scratch in C, in neovim, in 2:26 hours",
+  "author": "ℏεsam",
+  "date": "2026-01-04",
+  "url": "https://x.com/Hesamation/status/2007798250791956775",
+  "engagement": "131 replies · 576 reposts · 12.4K likes · 716K views · 5K bookmarks",
+  "essence": "Hesamation posts a video of someone implementing a machine learning library from scratch in C using neovim in just 2:26 hours - 'if you want to feel stupid today watch this'. His thread jokes that he's writing C faster than people write their prompts and 'you must suffer before you grow'. Replies joke we've been writing poetry while he does surgery, ask where Claude Code is, compare it to driving a Mustang among Teslas - doing it for fun and learning rather than practicality - and note how solved OCR is; 12,361 likes and 5,014 bookmarks on 716K views.",
+  "summary": "A motivational from-scratch classic - a reminder of the fundamentals underneath the AI tooling.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "from-scratch",
+   "c-language",
+   "machine-learning",
+   "neovim"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-094",
+  "platform": "Twitter",
+  "category": "Quant & Trading",
+  "subcategory": "HFT interview CS questions",
+  "title": "Same HFT CS question list - OS, DBMS, networks for freshers",
+  "author": "pulkit mittal",
+  "date": "2026-01-02",
+  "url": "https://x.com/pulkit_mittal_/status/2007431866643820849",
+  "engagement": "6 replies · 61 reposts · 781 likes · 102.5K views · 1.4K bookmarks",
+  "essence": "Pulkit's earlier cut of the same HFT CS question list: the Operating Systems, DBMS and Computer Networks questions companies ask freshers, which he had to prepare even interviewing for a senior role (process vs thread, thrashing, Banker's algorithm, ACID, conflict serializability, TCP vs UDP, ...). His thread adds revision tips - implement concepts like HTTP or consistent hashing for real, keep notes in a simple YAML file uploaded to GitHub so you can revise from the mobile GitHub app. Replies ask how often they practice and how to keep revising, ask how many rounds HFTs run, and joke 'why you not join yet man'; 781 likes and 1,405 bookmarks.",
+  "summary": "The companion revision-method thread (YAML notes on GitHub) to the HFT question checklist.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "hft",
+   "interview-prep",
+   "cs-fundamentals",
+   "revision"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-095",
+  "platform": "Twitter",
+  "category": "Interviews, OA & DSA",
+  "subcategory": "system design LC mapping",
+  "title": "LeetCode problems that double as system design prep",
+  "author": "pulkit mittal",
+  "date": "2025-12-30",
+  "url": "https://x.com/pulkit_mittal_/status/2005965532936519711",
+  "engagement": "10 replies · 84 reposts · 527 likes · 90.1K views · 1.2K bookmarks",
+  "essence": "Pulkit maps LeetCode problems to the system design concepts they teach, drawn from 10+ top-company interviews: Kth largest -> leaderboards, top-K frequent -> trending, median from a data stream -> live stats, sliding window maximum -> rate limiting, LRU cache -> in-memory cache/CDN, hit counter -> API rate limiting, merge intervals -> booking systems, Design Twitter -> feed generation, task scheduler, logger rate limiter and more. His thread admits he edited the post and jokes about LRU eviction ('I hope you don't evict that you got the job'). Replies include a joke about using LRU cache to explain interview brain capacity - got the job and a laugh; 527 likes and 1,205 bookmarks.",
+  "summary": "An efficient dual-purpose prep list covering both DSA and system-design vocabulary.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "system-design",
+   "leetcode",
+   "interview-prep",
+   "dsa"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-096",
+  "platform": "Twitter",
+  "category": "Interviews, OA & DSA",
+  "subcategory": "LLD problem sheet",
+  "title": "LeetCode sheet for the low-level design (LLD) round",
+  "author": "pulkit mittal",
+  "date": "2025-12-30",
+  "url": "https://x.com/pulkit_mittal_/status/2006347510986780935",
+  "engagement": "4 replies · 58 reposts · 448 likes · 41.9K views · 789 bookmarks",
+  "essence": "Pulkit shares the LeetCode problem sheet that prepares for the LLD round involving classes, interfaces and constraints: LRU Cache (cache interface, eviction policy, O(1) design), Design Parking System (object modeling, enums), Browser History (state, undo/redo), HashMap (buckets, collisions), Circular Queue, Hit Counter, Underground System, Authentication Manager (token lifecycle, expiry), Logger Rate Limiter, Design File System and more. It quote-posts his system-design list; no discussion is captured; 448 likes and 789 bookmarks.",
+  "summary": "A ready-made LLD drill list mapped to the design patterns interviewers ask about.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "lld",
+   "design-patterns",
+   "interview-prep",
+   "oop"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-097",
+  "platform": "Twitter",
+  "category": "Interviews, OA & DSA",
+  "subcategory": "HLD and LLD design problems",
+  "title": "Design problems that start in HLD and dive into low-level code",
+  "author": "pulkit mittal",
+  "date": "2025-12-31",
+  "url": "https://x.com/pulkit_mittal_/status/2006684446926450987",
+  "engagement": "4 replies · 28 reposts · 283 likes · 79.4K views · 515 bookmarks",
+  "essence": "Pulkit says good design rounds start with HLD and then dive into low-level implementation, so he lists problems covering both: rate limiter (token/leaky bucket strategies + distributed counters, consistency, clock skew), in-memory Redis-like cache (eviction + sharding, replication, persistence), message queue (observer pattern + ordering, durability, backpressure), notification system (retry logic + fan-out, failure handling), job scheduler (worker pool + Kafka, fault tolerance), URL shortener (idempotency + ID generation) and more. It quote-posts his LLD sheet; no discussion is captured; 283 likes and 515 bookmarks.",
+  "summary": "A problem set spanning both halves of a design round - the pairing most interviewers actually run.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "hld",
+   "lld",
+   "system-design",
+   "interview-prep"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-098",
+  "platform": "Twitter",
+  "category": "Quant & Trading",
+  "subcategory": "HFT concurrency prep",
+  "title": "20 LeetCode concurrency problems behind an HFT offer",
+  "author": "pulkit mittal",
+  "date": "2026-01-01",
+  "url": "https://x.com/pulkit_mittal_/status/2007076913714766326",
+  "engagement": "12 replies · 66 reposts · 798 likes · 159K views · 1.5K bookmarks",
+  "essence": "Pulkit says the most challenging interview for his HFT offer was multithreading - even more important for senior roles and fintechs - and lists the 20 concurrency problems he solved: Print in Order, FooBar variants, Print Zero Even Odd, Building H2O, Traffic Light Intersection, Dining Philosophers (plus lock-ordering variant), Bounded Blocking Queue, Multithreaded Web Crawler, Fizz Buzz Multithreaded, producer-consumer, thread-safe counter, concurrent hashmap, read-write lock, barrier, countdown latch, thread pool design. His thread points to a Java multithreading course for senior engineering interviews, jokes that interviewers expect you to use every core in the data center, and says most are medium and some hard. Replies joke about earning your second core, plan to try them all, and ask about difficulty; 798 likes and 1,465 bookmarks.",
+  "summary": "The concurrency problem list tied to a real HFT offer - a targeted prep set for systems-heavy quant interviews.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "concurrency",
+   "multithreading",
+   "hft",
+   "interview-prep",
+   "java"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-099",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "heuristic math course",
+  "title": "MIT's Street Fighting Mathematics - guessing without proofs",
+  "author": "Math Cafe",
+  "date": "2026-01-01",
+  "url": "https://x.com/Riazi_Cafe_en/status/2006638523605201062",
+  "engagement": "33 replies · 670 reposts · 5.9K likes · 458.1K views · 6.6K bookmarks",
+  "essence": "Math Cafe recommends MIT's 'Street Fighting Mathematics', a course that teaches the art of guessing results and solving problems without doing a proof or an exact calculation, with the OCW link to the readings. Replies praise it, note that 'without doing a proof' makes every pure math PhD twitch but it's how most real engineering actually happens, one says it's great for betting, another filed it in saved and doubts they'll ever get to it, and one posts a working PDF link when the original dies; 5,865 likes and 6,645 bookmarks on 458K views.",
+  "summary": "A cult-favorite free course on estimation and sanity-checking math - hugely saved engineering-intuition material.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "math",
+   "estimation",
+   "mit-ocw",
+   "learning-resource"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-100",
+  "platform": "Twitter",
+  "category": "Startups, Product & Marketing",
+  "subcategory": "cold email template reference",
+  "title": "The Soham Parekh cold email everyone still copies",
+  "author": "Abhinav",
+  "date": "2025-12-30",
+  "url": "https://x.com/Abhinavstwt/status/2005979663156604952",
+  "engagement": "65 replies · 175 reposts · 3.6K likes · 213.6K views · 5.1K bookmarks",
+  "essence": "Abhinav says he still uses this as a reference while cold emailing - an email by the 'goated' Soham Parekh (the email itself is in the attached image). His thread adds 'use proof of work then ;)'. Replies say you need this level of experience even to cold email like that, and one asks to pin the viral post; 3,602 likes and 5,069 bookmarks on 213K views.",
+  "summary": "The de facto reference cold email people in tech are copying - the proof-of-work framing is the takeaway.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "cold-email",
+   "outreach",
+   "career",
+   "template"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-101",
+  "platform": "Twitter",
+  "category": "Quant & Trading",
+  "subcategory": "quant prep resource PDF",
+  "title": "Quant Bible by MIT Sloan Business Club (free PDF)",
+  "author": "Kshitij Anand",
+  "date": "2025-12-23",
+  "url": "https://x.com/kshitijandquant/status/2003328607444505057",
+  "engagement": "19 replies · 337 reposts · 3K likes · 377.8K views · 6K bookmarks",
+  "essence": "Kshitij shares the Quant Bible by MIT Sloan Business Club with a Google Drive access link. Replies name the legendary Max Dama PDF as the OG and recall another brainteaser collection nobody can find anymore, one asks a bot about the book, and another warns not to trust links from the web; 3,034 likes and 5,978 bookmarks on 377K views.",
+  "summary": "One of the most-saved quant prep PDFs in circulation - a standard starting resource for quant finance.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "quant-finance",
+   "prep-resource",
+   "pdf",
+   "mit-sloan"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-102",
+  "platform": "Twitter",
+  "category": "Quant & Trading",
+  "subcategory": "C++ quant blog collection",
+  "title": "rigtorp.se - C++ blogs by a Citadel quant trader",
+  "author": "Kshitij Anand",
+  "date": "2025-12-10",
+  "url": "https://x.com/kshitijandquant/status/1998596601095557329",
+  "engagement": "6 replies · 46 reposts · 722 likes · 56.3K views · 1.4K bookmarks",
+  "essence": "Kshitij recommends rigtorp.se, a good collection of C++ blogs for quantitative finance written by someone working at Citadel as a quant trader, and asks for more such C++ blogs in the comments. His thread calls it a really great blog and asks colleagues for other resources. Replies add Bloomberg's 'Embracing Modern C++ Safely', quantdev.blog, lucisqr.substack.com and automatedquant.substack.com, and one asks how you even find this niche since Google doesn't surface it; 722 likes and 1,390 bookmarks.",
+  "summary": "A curated C++/quant engineering blog chain - the replies are a resource goldmine on their own.",
+  "productLinks": [
+   "https://rigtorp.se"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "c++",
+   "quant-development",
+   "blogs",
+   "low-latency"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-103",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "distributed training article",
+  "title": "distributed_gpu_training: scale is orchestration, not algorithms",
+  "author": "Archie Sengupta",
+  "date": "2025-12-04",
+  "url": "https://x.com/archiexzzz/status/1996654917742895569",
+  "engagement": "16 replies · 100 reposts · 879 likes · 104.6K views · 1.1K bookmarks",
+  "essence": "Archie Sengupta's X article 'distributed_gpu_training' argues that training foundational models at scale is not simply about having better algorithms - it's about orchestrating silicon, memory hierarchies and network topologies when your model has hundreds of ... (excerpt truncated in the record). No reply discussion is captured; 879 likes, 1,092 bookmarks and 104K views.",
+  "summary": "A heavily-saved framing of distributed training as an orchestration problem - a good primer pointer.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "distributed-training",
+   "gpu",
+   "ml-systems",
+   "deep-learning"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-104",
+  "platform": "Twitter",
+  "category": "Tech Industry & News",
+  "subcategory": "AirPods protocol on Android",
+  "title": "Dev reverse-engineers AirPods protocol, brings features to Android/Linux",
+  "author": "Prudhvi Reddy ⚡️",
+  "date": "2025-11-19",
+  "url": "https://x.com/prudhvir3ddy/status/1991211104501133400",
+  "engagement": "81 replies · 1.1K reposts · 16.3K likes · 811.5K views · 4.2K bookmarks",
+  "essence": "Prudhvi reports that an Indian developer reverse engineered the protocol AirPods use to communicate with Apple devices and implemented those features on Android (and Linux). His thread asks whether it works with Apple's AirPods or other earbuds. Replies note some of it is already supported on the latest Oppo/Vivo phones, accuse others of bashing him only because he's Indian, ask for a link and credit, call it a fantastic project that 'looks better than the real thing', and point out it needs root so no Samsung user will break Knox for it; 16,305 likes, 4,191 bookmarks and 811K views.",
+  "summary": "A viral open-compatibility win for Android users - and a case study in how reverse-engineered features spread.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "airpods",
+   "android",
+   "reverse-engineering",
+   "open-source",
+   "apple"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-105",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "OS textbook recommendation",
+  "title": "'Three Easy Pieces' should be required in every CS course",
+  "author": "Priyanshu Priyank",
+  "date": "2025-11-17",
+  "url": "https://x.com/PriyanshuP1405/status/1990285256336015563",
+  "engagement": "2 replies · 2 reposts · 72 likes · 6.3K views · 88 bookmarks",
+  "essence": "Priyanshu quote-tweets Kshitij's video on books for C++ and design patterns for quant roles and says Three Easy Pieces should be a must-book for all CS courses, replying 'yes' when asked which one he means. Replies ask whether he means the concurrency volume and say it would make people familiar with everything from CPUs to operating systems; 72 likes and 88 bookmarks.",
+  "summary": "A cosign of OSTEP as the foundational CS text - a quick pointer for core systems learning.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "operating-systems",
+   "books",
+   "cs-education"
+  ],
+  "worthFollowUp": "low"
+ },
+ {
+  "uid": "X-106",
+  "platform": "Twitter",
+  "category": "Quant & Trading",
+  "subcategory": "quant SWE book list",
+  "title": "Books for C++, design patterns and core CS for quant roles",
+  "author": "Kshitij Anand",
+  "date": "2025-11-17",
+  "url": "https://x.com/kshitijandquant/status/1990284286784901459",
+  "engagement": "1 reply · 3 reposts · 34 likes · 11.3K views · 64 bookmarks",
+  "essence": "Kshitij shares a CodingJesus video that lists really good books for C++, design patterns and other core CS concepts for quant roles (targeting quant developer participants), suggesting online blogs as a supplement. The single reply thanks him; 34 likes and 64 bookmarks on 11.2K views.",
+  "summary": "A reading-list pointer for breaking into quant developer roles - pairs with the blog collection tweet.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "quant-development",
+   "books",
+   "cpp",
+   "career"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-107",
+  "platform": "Twitter",
+  "category": "Quant & Trading",
+  "subcategory": "quant dev skill depth",
+  "title": "Core CS and C++ depth required for quant dev roles is unmatched",
+  "author": "Priyanshu Priyank",
+  "date": "2025-11-10",
+  "url": "https://x.com/PriyanshuP1405/status/1987865318866481476",
+  "engagement": "30 replies · 111 reposts · 1.9K likes · 91K views · 1K bookmarks",
+  "essence": "Priyanshu argues the level of core CS and C++ knowledge required for quant dev roles is unmatched. His thread concedes not everyone is taught this way and that writing compilers yourself may not ensure you ace quant dev interviews - candidates are grilled harder and need to be perfect across traits, and not every curriculum goes deep. Replies give examples (refcounting as intuitive OS design), say write a language or compiler once and you'll understand it all, argue most curricula do have compiler and OS classes, prefer a breadth-first cover of OS internals over 'learning linux', and one says it doesn't match their experience at all; 1,950 likes and 1,003 bookmarks.",
+  "summary": "A reality check on the quant dev hiring bar - the systems depth (OS internals, compilers, C++) expected.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "quant-development",
+   "core-cs",
+   "cpp",
+   "hiring-bar"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-108",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "graph algorithm explainer",
+  "title": "Bidirectional Dijkstra - the 'weird' shortest-path optimization",
+  "author": "Raj Dabre",
+  "date": "2025-11-09",
+  "url": "https://x.com/prajdabre/status/1987476606139633789",
+  "engagement": "1 reply · 66 likes · 6.8K views · 27 bookmarks",
+  "essence": "Raj Dabre replies 'Not weird. It's called bidirectional Dijkstra. Reduces branch out by a bit' and links a Medium explainer on Understanding Bidirectional Dijkstra's Algorithm. The single reply says they came to comment 'Brilliant' on the original post but now have to read the article; 66 likes and 27 bookmarks.",
+  "summary": "A quick pointer to a classic graph optimization with an accessible explainer.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "graphs",
+   "dijkstra",
+   "algorithms"
+  ],
+  "worthFollowUp": "low"
+ },
+ {
+  "uid": "X-109",
+  "platform": "Twitter",
+  "category": "Jobs, Careers & Compensation",
+  "subcategory": "tutoring career guide",
+  "title": "How to become a 100 dollar/hour tutor for wealthy Gulf families",
+  "author": "Grok",
+  "date": "2025-11-09",
+  "url": "https://x.com/grok/status/1987499402936865211",
+  "engagement": "2 reposts · 16 likes · 1.3K views · 76 bookmarks",
+  "essence": "Grok answers how to become a high-paying tutor for wealthy families in the UAE/Saudi Arabia: build qualifications (education/subject degree, teaching certificate like TEFL, experience), network through Bayt.com, Spires or Tutors International plus LinkedIn and expat groups, target elite VVIP clients via agencies or referrals (some pay entry-level tech salaries for 10-20 hrs/week), and handle logistics like a work visa or UAE freelance permit - rates can hit $100+/hour or a fixed monthly amount, with local regs verified. No reply discussion is captured; 16 likes and 76 bookmarks.",
+  "summary": "A step-by-step side-career path (Gulf tutoring market) with named platforms and pay ranges.",
+  "productLinks": [
+   "https://bayt.com"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "tutoring",
+   "careers",
+   "gulf-jobs",
+   "side-income"
+  ],
+  "worthFollowUp": "low"
+ },
+ {
+  "uid": "X-110",
+  "platform": "Twitter",
+  "category": "Jobs, Careers & Compensation",
+  "subcategory": "open source bounties",
+  "title": "33 open source bounties worth $119,200 available now",
+  "author": "Sahil Lavingia",
+  "date": "2025-11-05",
+  "url": "https://x.com/shl/status/1986116432506053082",
+  "engagement": "44 replies · 41 reposts · 1.1K likes · 208.3K views · 1.2K bookmarks",
+  "essence": "Sahil Lavingia posts that 33 open source bounties are available totaling $119,200. His thread pitches bounties to software companies as a way to scale engineering without hiring (email him; it should be built as part of Flexile, which will offer bounties itself) and advises starting with smaller ones. Replies ask for bounty-management tooling, worry about claiming a task then losing the review, ask how the price per bounty is decided, and one says they may have to try them for the money; 1,066 likes and 1,243 bookmarks.",
+  "summary": "Concrete dollar figures for OSS bounty work - a live market for paid open-source contributions.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "open-source",
+   "bounties",
+   "freelance",
+   "side-income"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-111",
+  "platform": "Twitter",
+  "category": "Health, Fitness & Wellness",
+  "subcategory": "protein breakfast routine",
+  "title": "4 eggs, fruit and whey: breakfast if you earn 1 Lakh+/month",
+  "author": "Dr. Anshul Sadhale",
+  "date": "2025-11-04",
+  "url": "https://x.com/AnshulGains/status/1985542332398408044",
+  "engagement": "72 replies · 83 reposts · 1.4K likes · 65.2K views · 322 bookmarks",
+  "essence": "Dr Anshul Sadhale prescribes the morning: break 4 eggs in a pan, add a fruit plate and a scoop of whey - if you're earning more than 1 lakh per month this breakfast is not at all expensive, make the family breakfast table look like this and invest in your health. His thread justifies it: 4 eggs is about 24g protein and adequate, aim for 1.5g per kg (~100g) if you train, one ICU bed costs 70,000/night (alcohol, smoking, obesity are common admissions), and whole foods mean you don't need whey (though it's convenient and low-calorie). Replies push back on cost (guava at 120/kg plus 16 eggs works out to roughly Rs 7,000/month), say 4 eggs is a bit much for women, question 750mg of daily cholesterol, and offer a roti-and-milk alternative; 1,397 likes and 322 bookmarks.",
+  "summary": "India-specific protein breakfast guidance with honest cost math in the replies - practical wellness content.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "protein",
+   "breakfast",
+   "nutrition",
+   "india",
+   "health"
+  ],
+  "worthFollowUp": "low"
+ },
+ {
+  "uid": "X-112",
+  "platform": "Twitter",
+  "category": "Personal Finance & Money",
+  "subcategory": "dividend vs capital gains tax",
+  "title": "Dividends taxed at 52% vs capital gains 14.95% - the VC arbitrage",
+  "author": "Nithin Kamath",
+  "date": "2025-11-03",
+  "url": "https://x.com/Nithin0dha/status/1985316723533435191",
+  "engagement": "279 replies · 918 reposts · 5.9K likes · 1.2M views · 3K bookmarks",
+  "essence": "Nithin Kamath lays out the Indian tax asymmetry: taking money out of a business as dividends costs an effective 52% (25% corporate tax + 35.5% personal income) versus 14.95% through capital gains - so investors minimize corporate tax by showing minimal profits or losses, burn cash to build a growth narrative, then sell shares at a higher valuation while paying far less tax (spending also makes it harder for competitors to survive; India's R&D is 0.7% of GDP). He argues VCs are essentially playing a tax arbitrage game, which is why so few VC-backed listings show profit. Replies push back - Ashneer Grover says by that logic all investors should hold for dividends instead of selling, others summarize 'VC math: 52% on profits, ~15% on gains, so they'd rather show losses', and one quotes 'your margin is my opportunity'; 5,861 likes, 2,991 bookmarks and 1.17M views.",
+  "summary": "The clearest explanation of why Indian startups treat profit as optional - essential context for IPO investing.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "taxation",
+   "dividends",
+   "capital-gains",
+   "venture-capital",
+   "india"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-113",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "pandas Excel internals",
+  "title": "Study what pd.read_excel() does under the hood",
+  "author": "Thevesh",
+  "date": "2025-11-03",
+  "url": "https://x.com/Thevesh/status/1985255462506213545",
+  "engagement": "6 likes · 4.9K views · 6 bookmarks",
+  "essence": "Thevesh's exercise for people using Python + Excel files: study what pd.read_excel() does under the hood - a great intro to the rabbit hole of passing data with tightly-coupled metadata (in this case metadata describing styling rather than the data). No discussion is captured; 6 likes and 6 bookmarks on 4.9K views.",
+  "summary": "A neat teaching prompt for understanding data/metadata coupling in real file formats.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "pandas",
+   "python",
+   "excel",
+   "data-engineering"
+  ],
+  "worthFollowUp": "low"
+ },
+ {
+  "uid": "X-114",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "distributed systems clocks",
+  "title": "How do hundreds of X machines agree on what 'now' means?",
+  "author": "Tusharsingh Baghel",
+  "date": "2025-11-02",
+  "url": "https://x.com/tusharamasingh/status/1984857822538985891",
+  "engagement": "1 repost · 4 likes · 690 views · 2 bookmarks",
+  "essence": "Tusharsingh asks what 11:09 even means for the hundreds of machines running X - each node has its own sense of time, some late, some in the future, yet they all somehow agree on 'now' - and links the thread he wrote on how it happens. The quoted post shows it's Day 16 of breaking down system design components from Kleppmann's Designing Data-Intensive Applications: Chapter 8, The Trouble with Distributed Systems Part 2 on unreliable clocks - if networks lie about who's alive, clocks lie about when things happened (an 8-part thread). No discussion was captured (original discussion unavailable: tweet thread fetch failed); 4 likes and 2 bookmarks.",
+  "summary": "Part of a solid DDIA chapter-by-chapter series - the clock-sync explainer is the keepable piece.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "distributed-systems",
+   "ddia",
+   "clocks",
+   "system-design"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-115",
+  "platform": "Twitter",
+  "category": "Health, Fitness & Wellness",
+  "subcategory": "protein brand review",
+  "title": "Whole Truth protein powder delivered in 30 minutes in Bangalore",
+  "author": "Kritika kumari",
+  "date": "2025-10-29",
+  "url": "https://x.com/kritikatwtss/status/1983438141076976001",
+  "engagement": "45 replies · 13 reposts · 335 likes · 72.3K views · 139 bookmarks",
+  "essence": "Kritika posts an unsponsored appreciation for The Whole Truth protein powder: ordered while stuck in a cab 30 minutes from home and it arrived before she did - crediting both the brand and the delivery partner; it's her third order and the only protein powder she has ever tried. Her thread says she ordered directly from the website and has never tried others. Replies ask if it was quick commerce, compare Myprotein, one complains their order has been stuck 5 days, and others joke about Bangalore traffic; 335 likes and 139 bookmarks.",
+  "summary": "A brand-loyalty and quick-commerce delivery datapoint for Indian protein buyers.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "protein",
+   "supplements",
+   "quick-commerce",
+   "bangalore",
+   "brand-loyalty"
+  ],
+  "worthFollowUp": "low"
+ },
+ {
+  "uid": "X-116",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "ML practice platform",
+  "title": "TensorTonic: learn ML by building - LeetCode-style plus paper replication",
+  "author": "pdawg",
+  "date": "2025-10-29",
+  "url": "https://x.com/prathamgrv/status/1983481714233262193",
+  "engagement": "120 replies · 245 reposts · 2.4K likes · 163.8K views · 2.7K bookmarks",
+  "essence": "pdawg launches TensorTonic, a platform to actually learn ML by building it: practice ML algorithms in LeetCode style, replicate cutting-edge ML papers, and prepare with company-wise AI interview questions plus blogs - v1 is out, website link in comments. His thread thanks early users and promises to gradually add more SOTA papers to implement from scratch. Replies are glowing - one used it immediately and asks for completion marks on solved problems, others call it superb and ask for more problems and papers; 2,415 likes and 2,741 bookmarks on 163K views.",
+  "summary": "A practice platform at the intersection of ML learning and interview prep - the paper-replication angle is differentiated.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "machine-learning",
+   "practice-platform",
+   "paper-implementation",
+   "interview-prep"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-117",
+  "platform": "Twitter",
+  "category": "Personal Finance & Money",
+  "subcategory": "credit card closure guide",
+  "title": "Close an Axis Bank credit card without hurting your CIBIL",
+  "author": "Credofly",
+  "date": "2025-06-16",
+  "url": "https://x.com/credofly/status/1934504518303293579",
+  "engagement": "9 replies · 34 reposts · 207 likes · 56.9K views · 831 bookmarks",
+  "essence": "Credofly's thread walks through closing an Axis Bank credit card without harming your credit score: email pno@axisbank.com with the subject line naming the last 4 digits, then a full copy-paste template requesting formal closure, settlement of any pending dues, and confirmation that the credit report reflects the closure as 'Closed at Customer Request', plus key tips to protect your CIBIL. The only reply asks for the same for HDFC; 207 likes and 831 bookmarks on 56.9K views.",
+  "summary": "An actionable, template-backed process for cancelling an Indian credit card cleanly - heavily saved.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "credit-card",
+   "cibil",
+   "axis-bank",
+   "india",
+   "personal-finance"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-118",
+  "platform": "Twitter",
+  "category": "Personal Finance & Money",
+  "subcategory": "retirement income portfolio",
+  "title": "Retiree with 22L needs 10k/month: HDFC fund, SCSS and FD split",
+  "author": "Arvind Datta",
+  "date": "2025-10-27",
+  "url": "https://x.com/datta_arvind/status/1982800061567316371",
+  "engagement": "46 replies · 186 reposts · 1.8K likes · 405.9K views · 2.4K bookmarks",
+  "essence": "Arvind Datta answers a query about a 60-year-old with 22 lakh who needs 10,000 rupees a month: park 15L in HDFC Balanced Advantage Fund's monthly dividend option (about 9,700/month at 0.25 per unit), park 5L in SCSS, and keep 2L in a bank FD for emergencies - replying to a suggestion built around SCSS. The original poster answers that equity volatility would be hard for a conservative investor even with the numbers, and another commenter asks him for retirement planning help by DM; 1,754 likes and 2,371 bookmarks on 405K views.",
+  "summary": "A real retirement-income allocation debate (dividend MF versus SCSS) with the conservative-investor pushback included.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "retirement",
+   "india",
+   "mutual-funds",
+   "scss",
+   "income-planning"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-119",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "free CS textbook",
+  "title": "Favorite free CS book + a tip: fountain pens make you take notes",
+  "author": "Wumao Tankie / Garden Hater / Jungle Propagandist",
+  "date": "2025-10-25",
+  "url": "https://x.com/CTankie1917/status/1982230520189591891",
+  "engagement": "1 reply · 3 reposts · 33 likes · 8.3K views · 90 bookmarks",
+  "essence": "The commenter asks for the list of topics a curriculum will cover and shares a favorite free book hosted at cs.cornell.edu/jeh/book.pdf. His thread adds an unrelated tip: use fountain pens and fountain-pen-quality notebooks - since he was going to mess with them anyway, he ended up taking many more notes and it made grad school about 5x more enjoyable. The single reply says the curriculum is almost done, coming soon; 33 likes and 90 bookmarks.",
+  "summary": "A free textbook pointer plus a surprisingly effective note-taking tip (fountain pens increase note volume).",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "free-textbook",
+   "cs-education",
+   "note-taking"
+  ],
+  "worthFollowUp": "low"
+ },
+ {
+  "uid": "X-120",
+  "platform": "Twitter",
+  "category": "Other",
+  "subcategory": "depixelization redaction tool",
+  "title": "Tool recovers text from pixelized screenshots - 15.6K likes",
+  "author": "Tom Dörr",
+  "date": "2025-10-25",
+  "url": "https://x.com/tom_doerr/status/1982036255236861959",
+  "engagement": "98 replies · 949 reposts · 15.6K likes · 845.1K views · 8.9K bookmarks",
+  "essence": "Tom Dörr posts a tool that recovers text from pixelized screenshots, adding in-thread that there are far fewer characters than people so it's less likely to confuse one with another. The replies drive the real lesson: never blur to hide information, always use black bars or similar complete coverage, and a reminder of the case where Interpol reverse engineered the swirl effect on a criminal's face; one jokes they'd be scared by the message. 15,604 likes, 8,873 bookmarks and 845K views.",
+  "summary": "A viral reminder that pixelation is not redaction - directly relevant to shipping screenshot/privacy features.",
+  "productLinks": [],
+  "hasMedia": "image",
+  "topicTags": [
+   "privacy",
+   "redaction",
+   "image-processing",
+   "security"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-121",
+  "platform": "Twitter",
+  "category": "Jobs, Careers & Compensation",
+  "subcategory": "Coinbase India hiring process",
+  "title": "Coinbase: 45+ LPA for 1yr experience, full interview breakdown",
+  "author": "Vaibhav Agarwal",
+  "date": "2025-10-24",
+  "url": "https://x.com/va_a14/status/1981819711529603278",
+  "engagement": "17 replies · 52 reposts · 1.1K likes · 73.7K views · 714 bookmarks",
+  "essence": "Vaibhav says Coinbase offers more than 45 LPA for engineers with 1+ years of experience, making it one of the highest-paying remote roles in India, and breaks down the SDE interview: a 90-minute CodeSignal OA with 4 medium DSA problems (3 of 4 usually advances), a short recruiter screen, then technical round 1 combining code mocking and DSA focused on clean modular extensible code, ... His thread debunks the myth that you work Diwali - he took a complete week off, as did teammates - and argues the salary goes far in India versus high-cost, high-tax Western locations. Replies call the salary life-changing but warn of personal sacrifices, counter that it's still peanuts relative to Western peers, and ask about finance-related roles; 1,065 likes and 714 bookmarks.",
+  "summary": "Comp plus the full interview funnel for Coinbase India - and a real answer on work-life expectations for US-remote roles.",
+  "productLinks": [],
+  "hasMedia": "image",
+  "topicTags": [
+   "coinbase",
+   "compensation",
+   "interview-process",
+   "india",
+   "remote-work"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-122",
+  "platform": "Twitter",
+  "category": "Quant & Trading",
+  "subcategory": "quant career resource sheet",
+  "title": "End-to-end roadmap and resources for sell-side quant roles",
+  "author": "Kshitij Anand",
+  "date": "2025-10-17",
+  "url": "https://x.com/kshitijandquant/status/1979160375191818480",
+  "engagement": "3 replies · 5 reposts · 48 likes · 2.7K views · 92 bookmarks",
+  "essence": "Kshitij shares part 5 of his quant resources: an end-to-end roadmap and resources for quant roles like Quant Strategist/Research in sell side, Quant Pricing and Quant Risk, via a public Google Sheet (Quant Career Sheet), with version 2 promised soon. Replies call it insightful and thank him for the amazing job; 48 likes and 92 bookmarks on 2.7K views.",
+  "summary": "A living spreadsheet of quant career resources - a useful index for sell-side role prep.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "quant",
+   "career-roadmap",
+   "resources",
+   "sell-side"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-123",
+  "platform": "Twitter",
+  "category": "Jobs, Careers & Compensation",
+  "subcategory": "projects over certificates",
+  "title": "Reproduce an arXiv paper badly, open source it - beats any certificate",
+  "author": "Ashutosh Maheshwari",
+  "date": "2025-10-17",
+  "url": "https://x.com/asmah2107/status/1980267508641984633",
+  "engagement": "40 replies · 152 reposts · 2.9K likes · 220K views · 1.6K bookmarks",
+  "essence": "Ashutosh's loop: find a paper on arXiv, build a shitty version of it, open source it on GitHub, write a post explaining why it's shitty - 'that GitHub repo is 100x more valuable than any certificate' - quoting his own take that no AI engineer in their 20s became a 10x developer by just collecting Coursera certificates hoping tutorial magic lands them a job at OpenAI. His thread says just share your work publicly and invites people to post theirs. Replies ask how to frame it for students (detail limitations plus an improvement roadmap), warn the exercise loses its benefit if you do it 100% with Claude Code or Codex, ask whether courses and projects must be a dichotomy, and call it the most honest roadmap they've seen; 2,872 likes and 1,623 bookmarks.",
+  "summary": "Portfolio-over-certificates advice for aspiring AI engineers, with the caveat that agent-coding the exercise defeats the purpose.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "portfolio",
+   "ai-engineer",
+   "open-source",
+   "learning",
+   "career-advice"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-124",
+  "platform": "Twitter",
+  "category": "Entertainment, Culture & Fun",
+  "subcategory": "niche knowledge thread",
+  "title": "'Drop something so niche' - replies deliver CS and physics trivia",
+  "author": "spidey",
+  "date": "2025-10-12",
+  "url": "https://x.com/lochan_twt/status/1977425215471718632",
+  "engagement": "46 replies · 8 reposts · 192 likes · 16.1K views · 65 bookmarks",
+  "essence": "spidey posts 'drop something so niche' and the thread turns into a trivia dump; his own follow-up is just 'Noice dude interesting'. Replies include genuinely deep asides: at scale, real bottlenecks stop being asymptotic complexity and become memory bandwidth and NUMA locality, Algernon's law on intelligence enhancements, why tensile strength falls with temperature (with a joke about adjusting web fluid), and how Pre-LayerNorm differs between GPT-NeoX/T5 and original GPT-2; 192 likes and 65 bookmarks on 16K views.",
+  "summary": "A fun engagement format that surfaces real CS/ML knowledge - a good model for community discussion prompts.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "niche-facts",
+   "engagement-thread",
+   "computer-science",
+   "fun"
+  ],
+  "worthFollowUp": "low"
+ },
+ {
+  "uid": "X-125",
+  "platform": "Twitter",
+  "category": "Interviews, OA & DSA",
+  "subcategory": "CSES DP problem walkthrough",
+  "title": "Three approaches to CSES 'Minimizing Coins' (dynamic programming)",
+  "author": "Animesh Chouhan",
+  "date": "2025-10-12",
+  "url": "https://x.com/animeshsingh38/status/1977416949404754219",
+  "engagement": "2 replies · 19 likes · 1.5K views · 7 bookmarks",
+  "essence": "Animesh walks through different approaches to the CSES problem 'Minimizing Coins': given n coins with positive values, find the minimum number of coins to make a target sum (coins {1,5,7}, amount 11 -> 5+5+1 = 3 coins). His thread links the CSES task and says he used ray.so for individual snippets and then combined them with GIMP. The one reply asks how he writes his code snippets in that format; 19 likes and 7 bookmarks.",
+  "summary": "A clean visual breakdown of a classic unbounded-knapsack DP problem - plus the snippet-tooling answer.",
+  "productLinks": [
+   "https://cses.fi/problemset/task/1634/",
+   "https://ray.so"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "dp",
+   "cses",
+   "interview-prep",
+   "code-snippets"
+  ],
+  "worthFollowUp": "low"
+ },
+ {
+  "uid": "X-126",
+  "platform": "Twitter",
+  "category": "Quant & Trading",
+  "subcategory": "HFT resume projects",
+  "title": "3 HFT resume projects you can build with linear regression",
+  "author": "Kshitij Anand",
+  "date": "2025-09-23",
+  "url": "https://x.com/kshitijandquant/status/1970345055434260912",
+  "engagement": "3 replies · 7 reposts · 81 likes · 4K views · 126 bookmarks",
+  "essence": "Kshitij says if you know linear regression you can build HFT-flavored resume projects: regress mid-price returns against order flow imbalance to test whether it captures immediate price pressure, regress price impact against trade size and liquidity to understand how your orders move the market, and model slippage as a function of latency, volatility and order size to quantify the cost of delay. He adds he's learning these too because he wants to explore that section of quantitative finance. Replies thank him and ask for resources on the systems behind quant/HFT - HPC, optimization techniques, custom network protocols; 81 likes and 126 bookmarks.",
+  "summary": "Concrete, beginner-reachable project ideas linking basic stats to HFT concepts - good resume filler for quant aspirants.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "hft",
+   "order-flow",
+   "market-impact",
+   "projects",
+   "quant-finance"
+  ],
+  "worthFollowUp": "medium"
+ }
+]

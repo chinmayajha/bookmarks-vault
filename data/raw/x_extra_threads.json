@@ -1,0 +1,4076 @@
+{
+ "https://x.com/Steve8708/status/2105376370838974842": {
+  "statusId": "2105376370838974842",
+  "focusNotFound": false,
+  "focus": {
+   "statusUrl": "https://x.com/Steve8708/status/2105376370838974842",
+   "name": "Steve (Builder.io)",
+   "handle": "@Steve8708",
+   "createdAt": "2026-09-30T19:16:57.000Z",
+   "text": "Introducing /visual-edit - a skill to visually edit your local code like a Figma canvas\n\n- works with any agent or model\n- Figma-grade visual editing on your local apps\n- apply visual updates through your coding agent\n- multiplayer and collaborative\n- 100% free and open source",
+   "articleText": "Steve (Builder.io)\n@Steve8708\nIntroducing /visual-edit - a skill to visually edit your local code like a Figma canvas\n\n- works with any agent or model\n- Figma-grade visual editing on your local apps\n- apply visual updates through your coding agent\n- multiplayer and collaborative\n- 100% free and open source\n0:57\n12:46 AM · Oct 1, 2026\n·\n45.8K\n Views\n27\n62\n799\n1K\nRelevant\nView quotes",
+   "counts": {
+    "replies": 27,
+    "reposts": 62,
+    "likes": 799,
+    "views": 45804,
+    "bookmarks": 1082
+   },
+   "metricsLabel": "27 replies, 62 reposts, 799 likes, Liked, 1082 bookmarks, 45804 views",
+   "quote": null,
+   "media": [],
+   "hasVideo": true,
+   "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2105375234190954496/img/IpERpdxr8b9NPCAC.jpg",
+   "extLinks": [],
+   "tcoLinks": [],
+   "cardText": null,
+   "showThread": false
+  },
+  "parents": [],
+  "selfThread": [
+   {
+    "statusId": "2105376372202074580",
+    "statusUrl": "https://x.com/Steve8708/status/2105376372202074580",
+    "name": "Steve (Builder.io)",
+    "handle": "@Steve8708",
+    "createdAt": "2026-09-30T19:16:57.000Z",
+    "text": "Skill source is here: \nhttps://\ngithub.com/BuilderIO/skil\nls/blob/main/skills/visual-edit/README.md\n…\n\nUses Agent-Native Design (also free/open source) for the visual editing: \nhttps://\ndesign.agent-native.com\n\nInstall with:\nnpx \n@agent\n-native/core@latest skills add visual-edit",
+    "counts": {
+     "replies": 1,
+     "reposts": 2,
+     "likes": 33,
+     "views": 3114,
+     "bookmarks": 54
+    },
+    "metricsLabel": "1 reply, 2 reposts, 33 likes, 54 bookmarks, 3114 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [
+     "https://t.co/3oliqLLsty",
+     "https://t.co/ct3L8DOnTL"
+    ],
+    "cardText": "skills/skills/visual-edit/README.md at main · BuilderIO/skills",
+    "showThread": false
+   },
+   {
+    "statusId": "2105384694774927751",
+    "statusUrl": "https://x.com/Steve8708/status/2105384694774927751",
+    "name": "Steve (Builder.io)",
+    "handle": "@Steve8708",
+    "createdAt": "2026-09-30T19:50:02.000Z",
+    "text": "you can specify those things to your agent and it'll implement accordingly",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 1,
+     "views": 930,
+     "bookmarks": 1
+    },
+    "metricsLabel": "1 like, 1 bookmark, 930 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2105384594099012043",
+    "statusUrl": "https://x.com/Steve8708/status/2105384594099012043",
+    "name": "Steve (Builder.io)",
+    "handle": "@Steve8708",
+    "createdAt": "2026-09-30T19:49:38.000Z",
+    "text": "prompt back to the agent that includes a diff + some useful metadata (like origin line of code of each element edited, etc)",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 3,
+     "views": 1040,
+     "bookmarks": 1
+    },
+    "metricsLabel": "3 likes, 1 bookmark, 1040 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "replies": [
+   {
+    "statusId": "2105381944062333121",
+    "statusUrl": "https://x.com/iabdul_wasey/status/2105381944062333121",
+    "name": "Abdul Wasey",
+    "handle": "@iabdul_wasey",
+    "createdAt": "2026-09-30T19:39:06.000Z",
+    "text": "I'd want to see whether a visual edit changes one instance or the shared component. Dragging 1 card shouldn't quietly change all 20 screens.",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 2,
+     "views": 1017,
+     "bookmarks": 1
+    },
+    "metricsLabel": "1 reply, 2 likes, 1 bookmark, 1017 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2105341777800728892",
+    "statusUrl": "https://x.com/fakemillanp/status/2105341777800728892/analytics",
+    "name": "Millan Philipose",
+    "handle": "@fakemillanp",
+    "createdAt": null,
+    "text": "Tired of thirst traps in your feed? Get rid of them with Bouncer.",
+    "counts": {
+     "replies": 79,
+     "reposts": 176,
+     "likes": 2074,
+     "views": 1598399,
+     "bookmarks": 487
+    },
+    "metricsLabel": "79 replies, 176 reposts, 2074 likes, 487 bookmarks, 1598399 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [
+     "https://imbue.com/product/bouncer/redirect.html?twclid=2p1p7jvymvs9zhsv1ujjsl1nm"
+    ],
+    "tcoLinks": [],
+    "cardText": "Filter your feed with Bouncer",
+    "showThread": false
+   },
+   {
+    "statusId": "2105380876745863517",
+    "statusUrl": "https://x.com/notloganhogg/status/2105380876745863517",
+    "name": "Logan",
+    "handle": "@notloganhogg",
+    "createdAt": "2026-09-30T19:34:51.000Z",
+    "text": "does the visual edit land as a diff or as a prompt back to the agent?",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 3,
+     "views": 1144,
+     "bookmarks": 1
+    },
+    "metricsLabel": "1 reply, 3 likes, 1 bookmark, 1144 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "extraReplyCount": 0,
+  "conversationArticleCount": 7,
+  "allConversation": [
+   {
+    "statusId": "2105376370838974842",
+    "handle": "@Steve8708",
+    "text": "Introducing /visual-edit - a skill to visually edit your local code like a Figma canvas\n\n- works with any agent or model\n- Figma-grade visual editing on your local apps\n- apply visual updates through your coding agent\n- multiplayer and collaborative\n- 100% free and open source"
+   },
+   {
+    "statusId": "2105376372202074580",
+    "handle": "@Steve8708",
+    "text": "Skill source is here: \nhttps://\ngithub.com/BuilderIO/skil\nls/blob/main/skills/visual-edit/README.md\n…\n\nUses Agent-Native Design (also free/open source) for the visual editing: \nhttps://\ndesign.agent-native.com\n\nInstall with:\nnpx \n@agent\n-native/core@latest skills add visual-edit"
+   },
+   {
+    "statusId": "2105381944062333121",
+    "handle": "@iabdul_wasey",
+    "text": "I'd want to see whether a visual edit changes one instance or the shared component. Dragging 1 card shouldn't quietly change all 20 screens."
+   },
+   {
+    "statusId": "2105384694774927751",
+    "handle": "@Steve8708",
+    "text": "you can specify those things to your agent and it'll implement accordingly"
+   },
+   {
+    "statusId": "2105341777800728892",
+    "handle": "@fakemillanp",
+    "text": "Tired of thirst traps in your feed? Get rid of them with Bouncer."
+   },
+   {
+    "statusId": "2105380876745863517",
+    "handle": "@notloganhogg",
+    "text": "does the visual edit land as a diff or as a prompt back to the agent?"
+   },
+   {
+    "statusId": "2105384594099012043",
+    "handle": "@Steve8708",
+    "text": "prompt back to the agent that includes a diff + some useful metadata (like origin line of code of each element edited, etc)"
+   }
+  ]
+ },
+ "https://x.com/pratyushrungta/status/2105690139330773265": {
+  "statusId": "2105690139330773265",
+  "focusNotFound": false,
+  "focus": {
+   "statusUrl": "https://x.com/pratyushrungta/status/2105690139330773265",
+   "name": "Pratzyy",
+   "handle": "@pratyushrungta",
+   "createdAt": "2026-10-01T16:03:45.000Z",
+   "text": "I built a Claude Code skill that takes apart any video and writes a recipe for remaking its format.\n\nTested it on a Kurzgesagt short. Left: original. Right: a remake built from its blueprint.\n\nNot perfect, but pretty close 🧵",
+   "articleText": "Pratzyy\n@pratyushrungta\nI built a Claude Code skill that takes apart any video and writes a recipe for remaking its format.\n\nTested it on a Kurzgesagt short. Left: original. Right: a remake built from its blueprint.\n\nNot perfect, but pretty close 🧵\n0:29\n9:33 PM · Oct 1, 2026\n·\n19.3K\n Views\n26\n13\n231\n322\nRelevant\nView quotes",
+   "counts": {
+    "replies": 26,
+    "reposts": 13,
+    "likes": 231,
+    "views": 19353,
+    "bookmarks": 322
+   },
+   "metricsLabel": "26 replies, 13 reposts, 231 likes, 322 bookmarks, 19353 views",
+   "quote": null,
+   "media": [],
+   "hasVideo": true,
+   "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2105690110687940608/img/DVbAKJxdv1zVao60.jpg",
+   "extLinks": [],
+   "tcoLinks": [],
+   "cardText": null,
+   "showThread": false
+  },
+  "parents": [],
+  "selfThread": [
+   {
+    "statusId": "2105690151251005475",
+    "statusUrl": "https://x.com/pratyushrungta/status/2105690151251005475",
+    "name": "Pratzyy",
+    "handle": "@pratyushrungta",
+    "createdAt": "2026-10-01T16:03:48.000Z",
+    "text": "It's not just the visuals.\n\n/dissect breaks down:\n• picture: every cut, shot, caption style, transition\n• words: transcript, hook, story beats\n• voice: pace, pauses, emphasis, pitch\n• sound: music level, SFX, loudness\n• audience: most-replayed moments, top comments",
+    "counts": {
+     "replies": 2,
+     "reposts": 0,
+     "likes": 2,
+     "views": 1248,
+     "bookmarks": 4
+    },
+    "metricsLabel": "2 replies, 2 likes, 4 bookmarks, 1248 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2105690162969879017",
+    "statusUrl": "https://x.com/pratyushrungta/status/2105690162969879017",
+    "name": "Pratzyy",
+    "handle": "@pratyushrungta",
+    "createdAt": "2026-10-01T16:03:51.000Z",
+    "text": "Paste a YouTube, X, Instagram or TikTok link. /dissect measures every cut, the pacing, voice, music and loudness, then Claude watches each shot against what's being said.\n\nOut comes one blueprint .md that anyone (or any AI) can follow.",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 2,
+     "views": 1224,
+     "bookmarks": 1
+    },
+    "metricsLabel": "1 reply, 2 likes, 1 bookmark, 1224 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2105690174655234470",
+    "statusUrl": "https://x.com/pratyushrungta/status/2105690174655234470",
+    "name": "Pratzyy",
+    "handle": "@pratyushrungta",
+    "createdAt": "2026-10-01T16:03:54.000Z",
+    "text": "Works best on Shorts, Reels and TikToks: faceless explainers, motion graphics, fast-cut edits, captioned talking heads.\n\nFree and open source. In Claude Code:\n/plugin marketplace add 0xpratzyy/dissect\n/plugin install dissect@dissect",
+    "counts": {
+     "replies": 0,
+     "reposts": 3,
+     "likes": 19,
+     "views": 1230,
+     "bookmarks": 71
+    },
+    "metricsLabel": "3 reposts, 19 likes, 71 bookmarks, 1230 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [
+     "https://t.co/jJBtXAOjWd"
+    ],
+    "cardText": "GitHub - 0xpratzyy/dissect: Reverse-engineer any video (YouTube, TikTok, Reels, X...) into a...",
+    "showThread": false
+   },
+   {
+    "statusId": "2105731106016489494",
+    "statusUrl": "https://x.com/pratyushrungta/status/2105731106016489494",
+    "name": "Pratzyy",
+    "handle": "@pratyushrungta",
+    "createdAt": "2026-10-01T18:46:32.000Z",
+    "text": "Yes, I agree. This is probably a one-shot and can be made better by tweaking it and giving Opus more details\n\nbut as AI gods say this is the worst it will ever be🫡",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 0,
+     "views": 697,
+     "bookmarks": 0
+    },
+    "metricsLabel": "697 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "replies": [
+   {
+    "statusId": "2100222417079779353",
+    "statusUrl": "https://x.com/token2049/status/2100222417079779353/analytics",
+    "name": "TOKEN2049",
+    "handle": "@token2049",
+    "createdAt": null,
+    "text": "Reports tell you what happened. The room tells you what's next.\n\nFor two days in Singapore, you see where the smart money is moving, and why.\n\n7-8 October. Marina Bay Sands.",
+    "counts": {
+     "replies": 103,
+     "reposts": 223,
+     "likes": 1258,
+     "views": 6256023,
+     "bookmarks": 126
+    },
+    "metricsLabel": "103 replies, 223 reposts, 1258 likes, 126 bookmarks, 6256023 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [
+     "https://token2049.com/singapore?utm_source=x&utm_medium=paid&utm_campaign=t2049_sep_standard&utm_content=CampaignA2Carousel&twclid=2cyywrtec7vcoxxp0g2ujxxrqo"
+    ],
+    "tcoLinks": [],
+    "cardText": "Slide 1 of 4 - Carousel\n7-8 October. Marina Bay Sands.\n7-8 October. Marina Bay Sands.",
+    "showThread": false
+   },
+   {
+    "statusId": "2105730361875452327",
+    "statusUrl": "https://x.com/xthomasms/status/2105730361875452327",
+    "name": "Thomas M.",
+    "handle": "@xthomasms",
+    "createdAt": "2026-10-01T18:43:35.000Z",
+    "text": "I like the idea, but you have to say that we're not there yet. Kurzgesagt's one is way better. Intentional, concise, not more, not less. That 10%-5% is what elevates everything.",
+    "counts": {
+     "replies": 3,
+     "reposts": 0,
+     "likes": 1,
+     "views": 750,
+     "bookmarks": 2
+    },
+    "metricsLabel": "3 replies, 1 like, 2 bookmarks, 750 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "extraReplyCount": 0,
+  "conversationArticleCount": 7,
+  "allConversation": [
+   {
+    "statusId": "2105690139330773265",
+    "handle": "@pratyushrungta",
+    "text": "I built a Claude Code skill that takes apart any video and writes a recipe for remaking its format.\n\nTested it on a Kurzgesagt short. Left: original. Right: a remake built from its blueprint.\n\nNot perfect, but pretty close 🧵"
+   },
+   {
+    "statusId": "2105690151251005475",
+    "handle": "@pratyushrungta",
+    "text": "It's not just the visuals.\n\n/dissect breaks down:\n• picture: every cut, shot, caption style, transition\n• words: transcript, hook, story beats\n• voice: pace, pauses, emphasis, pitch\n• sound: music level, SFX, loudness\n• audience: most-replayed moments, top comments"
+   },
+   {
+    "statusId": "2105690162969879017",
+    "handle": "@pratyushrungta",
+    "text": "Paste a YouTube, X, Instagram or TikTok link. /dissect measures every cut, the pacing, voice, music and loudness, then Claude watches each shot against what's being said.\n\nOut comes one blueprint .md that anyone (or any AI) can follow."
+   },
+   {
+    "statusId": "2105690174655234470",
+    "handle": "@pratyushrungta",
+    "text": "Works best on Shorts, Reels and TikToks: faceless explainers, motion graphics, fast-cut edits, captioned talking heads.\n\nFree and open source. In Claude Code:\n/plugin marketplace add 0xpratzyy/dissect\n/plugin install dissect@dissect"
+   },
+   {
+    "statusId": "2100222417079779353",
+    "handle": "@token2049",
+    "text": "Reports tell you what happened. The room tells you what's next.\n\nFor two days in Singapore, you see where the smart money is moving, and why.\n\n7-8 October. Marina Bay Sands."
+   },
+   {
+    "statusId": "2105730361875452327",
+    "handle": "@xthomasms",
+    "text": "I like the idea, but you have to say that we're not there yet. Kurzgesagt's one is way better. Intentional, concise, not more, not less. That 10%-5% is what elevates everything."
+   },
+   {
+    "statusId": "2105731106016489494",
+    "handle": "@pratyushrungta",
+    "text": "Yes, I agree. This is probably a one-shot and can be made better by tweaking it and giving Opus more details\n\nbut as AI gods say this is the worst it will ever be🫡"
+   }
+  ]
+ },
+ "https://x.com/ClaudeDevs/status/2105721434807083061": {
+  "statusId": "2105721434807083061",
+  "focusNotFound": false,
+  "focus": {
+   "statusUrl": "https://x.com/ClaudeDevs/status/2105721434807083061",
+   "name": "ClaudeDevs",
+   "handle": "@ClaudeDevs",
+   "createdAt": "2026-10-01T18:08:07.000Z",
+   "text": "You can now mod Claude Code:\n\n- Change how it behaves\n- Customize the UI\n- Swap in your own features\n\nWrite one with a few lines of TypeScript, or have Claude build it for you. Mods ship inside plugins, so you install them with /plugin in the CLI or desktop app.\n\nA few examples:",
+   "articleText": "ClaudeDevs\n@ClaudeDevs\nYou can now mod Claude Code:\n\n- Change how it behaves\n- Customize the UI\n- Swap in your own features\n\nWrite one with a few lines of TypeScript, or have Claude build it for you. Mods ship inside plugins, so you install them with /plugin in the CLI or desktop app.\n\nA few examples:\n1:10\n11:38 PM · Oct 1, 2026\n·\n2.4M\n Views\n451\n1.3K\n15K\n10K\nRelevant\nView quotes",
+   "counts": {
+    "replies": 451,
+    "reposts": 1375,
+    "likes": 15763,
+    "views": 2444666,
+    "bookmarks": 10205
+   },
+   "metricsLabel": "451 replies, 1375 reposts, 15763 likes, Liked, 10205 bookmarks, 2444666 views",
+   "quote": null,
+   "media": [],
+   "hasVideo": true,
+   "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2105718499234693121/img/Q9dFvgbOG4e1ZxIc.jpg",
+   "extLinks": [],
+   "tcoLinks": [],
+   "cardText": null,
+   "showThread": false
+  },
+  "parents": [],
+  "selfThread": [
+   {
+    "statusId": "2105721436270993609",
+    "statusUrl": "https://x.com/ClaudeDevs/status/2105721436270993609",
+    "name": "ClaudeDevs",
+    "handle": "@ClaudeDevs",
+    "createdAt": "2026-10-01T18:08:07.000Z",
+    "text": "Token Weather adds a forecast of your context window: how full it is, plus a sparkline of your last 12 turns.",
+    "counts": {
+     "replies": 13,
+     "reposts": 15,
+     "likes": 678,
+     "views": 112452,
+     "bookmarks": 163
+    },
+    "metricsLabel": "13 replies, 15 reposts, 678 likes, Liked, 163 bookmarks, 112452 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": true,
+    "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2105718793863643136/img/GRPpr0kErx8FGkEv.jpg",
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2105721437701259338",
+    "statusUrl": "https://x.com/ClaudeDevs/status/2105721437701259338",
+    "name": "ClaudeDevs",
+    "handle": "@ClaudeDevs",
+    "createdAt": "2026-10-01T18:08:07.000Z",
+    "text": "Blast Radius catches risky shell commands like rm -rf, git reset --hard, or a force push before they run. It shows what the command would touch in a side pane.",
+    "counts": {
+     "replies": 5,
+     "reposts": 11,
+     "likes": 479,
+     "views": 84699,
+     "bookmarks": 114
+    },
+    "metricsLabel": "5 replies, 11 reposts, 479 likes, Liked, 114 bookmarks, 84699 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2105721439206994232",
+    "statusUrl": "https://x.com/ClaudeDevs/status/2105721439206994232",
+    "name": "ClaudeDevs",
+    "handle": "@ClaudeDevs",
+    "createdAt": "2026-10-01T18:08:08.000Z",
+    "text": "Replay Theater records every file edit Claude makes in a turn. Run /replay to step through the diffs one at a time in a docked pane.",
+    "counts": {
+     "replies": 3,
+     "reposts": 7,
+     "likes": 291,
+     "views": 65074,
+     "bookmarks": 73
+    },
+    "metricsLabel": "3 replies, 7 reposts, 291 likes, 73 bookmarks, 65074 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2105721440490361312",
+    "statusUrl": "https://x.com/ClaudeDevs/status/2105721440490361312",
+    "name": "ClaudeDevs",
+    "handle": "@ClaudeDevs",
+    "createdAt": "2026-10-01T18:08:08.000Z",
+    "text": "Keep mods to yourself, or submit them to the Claude directory if others might find them useful. Mods run with the same access to your machine as Claude Code itself, so make sure to only install mods from sources you trust.\n\n\nhttps://\nclaude.ai/directory",
+    "counts": {
+     "replies": 3,
+     "reposts": 5,
+     "likes": 244,
+     "views": 61383,
+     "bookmarks": 105
+    },
+    "metricsLabel": "3 replies, 5 reposts, 244 likes, 105 bookmarks, 61383 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [
+     "https://t.co/BwAvIVj8Dv"
+    ],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2105721441622884802",
+    "statusUrl": "https://x.com/ClaudeDevs/status/2105721441622884802",
+    "name": "ClaudeDevs",
+    "handle": "@ClaudeDevs",
+    "createdAt": "2026-10-01T18:08:08.000Z",
+    "text": "We're adding pre-built sample mods to the Claude Code Playground repo you can riff off of, if you need some inspiration.\n\nLearn more in our getting started guide:",
+    "counts": {
+     "replies": 1,
+     "reposts": 15,
+     "likes": 281,
+     "views": 73735,
+     "bookmarks": 254
+    },
+    "metricsLabel": "1 reply, 15 reposts, 281 likes, 254 bookmarks, 73735 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2105721442826686614",
+    "statusUrl": "https://x.com/ClaudeDevs/status/2105721442826686614",
+    "name": "ClaudeDevs",
+    "handle": "@ClaudeDevs",
+    "createdAt": "2026-10-01T18:08:09.000Z",
+    "text": "We’ve used mods to build features like /diff and AGENTS.md support. We hope you find them as useful (and fun) as we do, and can't wait to see what you build!",
+    "counts": {
+     "replies": 6,
+     "reposts": 9,
+     "likes": 269,
+     "views": 64246,
+     "bookmarks": 167
+    },
+    "metricsLabel": "6 replies, 9 reposts, 269 likes, 167 bookmarks, 64246 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "replies": [],
+  "extraReplyCount": 0,
+  "conversationArticleCount": 7,
+  "allConversation": [
+   {
+    "statusId": "2105721434807083061",
+    "handle": "@ClaudeDevs",
+    "text": "You can now mod Claude Code:\n\n- Change how it behaves\n- Customize the UI\n- Swap in your own features\n\nWrite one with a few lines of TypeScript, or have Claude build it for you. Mods ship inside plugins, so you install them with /plugin in the CLI or desktop app.\n\nA few examples:"
+   },
+   {
+    "statusId": "2105721436270993609",
+    "handle": "@ClaudeDevs",
+    "text": "Token Weather adds a forecast of your context window: how full it is, plus a sparkline of your last 12 turns."
+   },
+   {
+    "statusId": "2105721437701259338",
+    "handle": "@ClaudeDevs",
+    "text": "Blast Radius catches risky shell commands like rm -rf, git reset --hard, or a force push before they run. It shows what the command would touch in a side pane."
+   },
+   {
+    "statusId": "2105721439206994232",
+    "handle": "@ClaudeDevs",
+    "text": "Replay Theater records every file edit Claude makes in a turn. Run /replay to step through the diffs one at a time in a docked pane."
+   },
+   {
+    "statusId": "2105721440490361312",
+    "handle": "@ClaudeDevs",
+    "text": "Keep mods to yourself, or submit them to the Claude directory if others might find them useful. Mods run with the same access to your machine as Claude Code itself, so make sure to only install mods from sources you trust.\n\n\nhttps://\nclaude.ai/directory"
+   },
+   {
+    "statusId": "2105721441622884802",
+    "handle": "@ClaudeDevs",
+    "text": "We're adding pre-built sample mods to the Claude Code Playground repo you can riff off of, if you need some inspiration.\n\nLearn more in our getting started guide:"
+   },
+   {
+    "statusId": "2105721442826686614",
+    "handle": "@ClaudeDevs",
+    "text": "We’ve used mods to build features like /diff and AGENTS.md support. We hope you find them as useful (and fun) as we do, and can't wait to see what you build!"
+   }
+  ]
+ },
+ "https://x.com/thsottiaux/status/2105519215092584786": {
+  "statusId": "2105519215092584786",
+  "focusNotFound": false,
+  "focus": {
+   "statusUrl": "https://x.com/thsottiaux/status/2105519215092584786",
+   "name": "Tibo",
+   "handle": "@thsottiaux",
+   "createdAt": "2026-09-30T22:43:43.000Z",
+   "text": "One more thing, you can now build and deploy MCP servers right through ChatGPT. And restrict its access to anyone you want or share it with the world.",
+   "articleText": "Tibo\n@thsottiaux\nOne more thing, you can now build and deploy MCP servers right through ChatGPT. And restrict its access to anyone you want or share it with the world.\nQuote\nMax Stoiber\n@mxstbr\n·\nOct 1\nAnnouncing one more launch: ChatGPT Sites can now host MCP servers, including plugin extensions! 🤯\n\n> @⁠sites create a todo list that I can use in ChatGPT\n\nThis will:\n\n· Create an MCP server with extensions\n· Deploy that MCP server to Sites\n· Turn the MCP server into a plugin\n·\nQuote\nDishwasher\n@DishwasherTag\n·\nOct 1\n@mxstbr @_florianbauer @gpeal8 @elfredpagan @tarstarr If you don't mind me asking, Sam mentioned OpenAI supporting distribution, but running a backend is hard. Any plans for OpenAI-hosted infrastructure (e.g. Sites) to eventually handle backend needs for Plugin Extensions?\n10:14 AM · Oct 1, 2026\n·\n768.8K\n Views\n414\n373\n4.9K\n2.1K\nRelevant\nView quotes",
+   "counts": {
+    "replies": 414,
+    "reposts": 373,
+    "likes": 4990,
+    "views": 768822,
+    "bookmarks": 2156
+   },
+   "metricsLabel": "414 replies, 373 reposts, 4990 likes, Liked, 2156 bookmarks, 768822 views",
+   "quote": {
+    "text": "Max Stoiber\n@mxstbr\n·\nOct 1\nAnnouncing one more launch: ChatGPT Sites can now host MCP servers, including plugin extensions! 🤯\n\n> @⁠sites create a todo list that I can use in ChatGPT\n\nThis will:\n\n· Create an MCP server with extensions\n· Deploy that MCP server to Sites\n· Turn the MCP server into a plugin\n·\nQuote\nDishwasher\n@DishwasherTag\n·\nOct 1\n@mxstbr @_florianbauer @gpeal8 @elfredpagan @tarstarr If you don't mind me asking, Sam mentioned OpenAI supporting distribution, but running a backend is hard. Any plans for OpenAI-hosted infrastructure (e.g. Sites) to eventually handle backend needs for Plugin Extensions?",
+    "statusUrl": null
+   },
+   "media": [],
+   "hasVideo": false,
+   "videoPoster": null,
+   "extLinks": [],
+   "tcoLinks": [],
+   "cardText": null,
+   "showThread": false
+  },
+  "parents": [],
+  "selfThread": [],
+  "replies": [
+   {
+    "statusId": "2105538152421318850",
+    "statusUrl": "https://x.com/vibecodeiro/status/2105538152421318850",
+    "name": "TEAGÁ",
+    "handle": "@vibecodeiro",
+    "createdAt": "2026-10-01T05:59:49.000Z",
+    "text": "Man, how do I politely say that nobody cares about Sites and Maps?",
+    "counts": {
+     "replies": 3,
+     "reposts": 0,
+     "likes": 31,
+     "views": 9830,
+     "bookmarks": 2
+    },
+    "metricsLabel": "3 replies, 31 likes, 2 bookmarks, 9830 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2105670574878102001",
+    "statusUrl": "https://x.com/AgentRevenueLab/status/2105670574878102001",
+    "name": "Tucker King",
+    "handle": "@AgentRevenueLab",
+    "createdAt": "2026-10-01T14:46:01.000Z",
+    "text": "Hope people actually use the restrict button.",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 0,
+     "views": 1059,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1059 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2105528071365468667",
+    "statusUrl": "https://x.com/ohdearlordylord/status/2105528071365468667",
+    "name": "dearlordylord",
+    "handle": "@ohdearlordylord",
+    "createdAt": "2026-10-01T05:19:45.000Z",
+    "text": "Caveat is: need to get it approved. Freedom to SRD 5e Oracle mcp, it’s in approval loop for a month now",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 0,
+     "views": 1716,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1716 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2100459945657565688",
+    "statusUrl": "https://x.com/walterwrites_ai/status/2100459945657565688/analytics",
+    "name": "Walter Writes AI",
+    "handle": "@walterwrites_ai",
+    "createdAt": null,
+    "text": "wrote it yourself. flagged as ai anyway.\n\nwalter checks it first, and helps it read unmistakably like you. keep it yours.\n\n\nhttps://\ntrywalterai.com/ai-humanizer/?\nutm_source=twitter&utm_medium=paid_social&utm_campaign=x_conv_tof_universal_20260916&utm_id=xncon&utm_content=genius_musictest&utm_term=universal_broad&twclid=2ezrg8m7bt2jjxzpf6p05637uw\n…",
+    "counts": {
+     "replies": 1578,
+     "reposts": 2362,
+     "likes": 19117,
+     "views": 11228542,
+     "bookmarks": 7424
+    },
+    "metricsLabel": "1578 replies, 2362 reposts, 19117 likes, 7424 bookmarks, 11228542 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": true,
+    "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2100321520224460800/img/2Efwr6pr5Gn106zh.jpg",
+    "extLinks": [],
+    "tcoLinks": [
+     "https://t.co/4wJbNMA85I?twclid=2ezrg8m7bt2jjxzpf6p05637uw"
+    ],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "extraReplyCount": 0,
+  "conversationArticleCount": 5,
+  "allConversation": [
+   {
+    "statusId": "2105519215092584786",
+    "handle": "@thsottiaux",
+    "text": "One more thing, you can now build and deploy MCP servers right through ChatGPT. And restrict its access to anyone you want or share it with the world."
+   },
+   {
+    "statusId": "2105538152421318850",
+    "handle": "@vibecodeiro",
+    "text": "Man, how do I politely say that nobody cares about Sites and Maps?"
+   },
+   {
+    "statusId": "2105670574878102001",
+    "handle": "@AgentRevenueLab",
+    "text": "Hope people actually use the restrict button."
+   },
+   {
+    "statusId": "2105528071365468667",
+    "handle": "@ohdearlordylord",
+    "text": "Caveat is: need to get it approved. Freedom to SRD 5e Oracle mcp, it’s in approval loop for a month now"
+   },
+   {
+    "statusId": "2100459945657565688",
+    "handle": "@walterwrites_ai",
+    "text": "wrote it yourself. flagged as ai anyway.\n\nwalter checks it first, and helps it read unmistakably like you. keep it yours.\n\n\nhttps://\ntrywalterai.com/ai-humanizer/?\nutm_source=twitter&utm_medium=paid_social&utm_campaign=x_conv_tof_universal_20260916&utm_id=xncon&utm_content=genius_musictest&utm_term=universal_broad&twclid=2ezrg8m7bt2jjxzpf6p05637uw\n…"
+   }
+  ]
+ },
+ "https://x.com/steipete/status/2103147927313199260": {
+  "statusId": "2103147927313199260",
+  "focusNotFound": false,
+  "focus": {
+   "statusUrl": "https://x.com/steipete/status/2103147927313199260",
+   "name": "Peter Steinberger 🦞",
+   "handle": "@steipete",
+   "createdAt": "2026-09-24T15:41:55.000Z",
+   "text": "OpenClaw deleted around 400k LOC of its own tests without much change in code coverage. Modern models just love writing tests for every tiny change, even if they aren't useful. This skill helped.",
+   "articleText": "Peter Steinberger 🦞\n@steipete\nOpenClaw deleted around 400k LOC of its own tests without much change in code coverage. Modern models just love writing tests for every tiny change, even if they aren't useful. This skill helped.\nopenclaw/.agents/skills/test-audit/SKILL.md at main · openclaw/openclaw\nFrom github.com\n9:11 PM · Sep 24, 2026\n·\n1.2M\n Views\n230\n363\n6.6K\n10K\nRelevant\nView quotes",
+   "counts": {
+    "replies": 230,
+    "reposts": 363,
+    "likes": 6699,
+    "views": 1268482,
+    "bookmarks": 10791
+   },
+   "metricsLabel": "230 replies, 363 reposts, 6699 likes, Liked, 10791 bookmarks, 1268482 views",
+   "quote": null,
+   "media": [],
+   "hasVideo": false,
+   "videoPoster": null,
+   "extLinks": [],
+   "tcoLinks": [
+    "https://t.co/a1jSBpfpns"
+   ],
+   "cardText": "openclaw/.agents/skills/test-audit/SKILL.md at main · openclaw/openclaw",
+   "showThread": false
+  },
+  "parents": [],
+  "selfThread": [
+   {
+    "statusId": "2103148444701610233",
+    "statusUrl": "https://x.com/steipete/status/2103148444701610233",
+    "name": "Peter Steinberger 🦞",
+    "handle": "@steipete",
+    "createdAt": "2026-09-24T15:43:58.000Z",
+    "text": "If you just tell the agent to clean up, it will stop far too early. Give it an ambitious goal. Try \"remove 20% of the least useful tests while maintaining code coverage within 2%\"",
+    "counts": {
+     "replies": 17,
+     "reposts": 23,
+     "likes": 598,
+     "views": 104475,
+     "bookmarks": 512
+    },
+    "metricsLabel": "17 replies, 23 reposts, 598 likes, Liked, 512 bookmarks, 104475 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2105049100983132648",
+    "statusUrl": "https://x.com/steipete/status/2105049100983132648",
+    "name": "Peter Steinberger 🦞",
+    "handle": "@steipete",
+    "createdAt": "2026-09-29T21:36:30.000Z",
+    "text": "That /goal is still running.",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 11,
+     "views": 7357,
+     "bookmarks": 1
+    },
+    "metricsLabel": "1 reply, 11 likes, 1 bookmark, 7357 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "replies": [
+   {
+    "statusId": "2103148351890092273",
+    "statusUrl": "https://x.com/zeeg/status/2103148351890092273",
+    "name": "David Cramer",
+    "handle": "@zeeg",
+    "createdAt": "2026-09-24T15:43:36.000Z",
+    "text": "they also love rewriting tests when they change code as if the reason for those tests in the first place wasnt to prevent regressions 😬",
+    "counts": {
+     "replies": 5,
+     "reposts": 1,
+     "likes": 166,
+     "views": 40760,
+     "bookmarks": 13
+    },
+    "metricsLabel": "5 replies, 1 repost, 166 likes, 13 bookmarks, 40760 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "extraReplyCount": 0,
+  "conversationArticleCount": 4,
+  "allConversation": [
+   {
+    "statusId": "2103147927313199260",
+    "handle": "@steipete",
+    "text": "OpenClaw deleted around 400k LOC of its own tests without much change in code coverage. Modern models just love writing tests for every tiny change, even if they aren't useful. This skill helped."
+   },
+   {
+    "statusId": "2103148444701610233",
+    "handle": "@steipete",
+    "text": "If you just tell the agent to clean up, it will stop far too early. Give it an ambitious goal. Try \"remove 20% of the least useful tests while maintaining code coverage within 2%\""
+   },
+   {
+    "statusId": "2105049100983132648",
+    "handle": "@steipete",
+    "text": "That /goal is still running."
+   },
+   {
+    "statusId": "2103148351890092273",
+    "handle": "@zeeg",
+    "text": "they also love rewriting tests when they change code as if the reason for those tests in the first place wasnt to prevent regressions 😬"
+   }
+  ]
+ },
+ "https://x.com/vilibazmiooo/status/2104323759339655446": {
+  "statusId": "2104323759339655446",
+  "focusNotFound": false,
+  "focus": {
+   "statusUrl": "https://x.com/vilibazmiooo/status/2104323759339655446",
+   "name": "vilibazmio",
+   "handle": "@vilibazmiooo",
+   "createdAt": "2026-09-27T21:34:15.000Z",
+   "text": "the spreadsheet has been updated! \nwe have now over 1300 movies archived with almost 800 bluray remuxes!! and none of the links will ever expire :)",
+   "articleText": "vilibazmio\n@vilibazmiooo\nthe spreadsheet has been updated! \nwe have now over 1300 movies archived with almost 800 bluray remuxes!! and none of the links will ever expire :)\ndocs.google.com\nvilibazmio_archive.xlsx\n3:04 AM · Sep 28, 2026\n·\n2.8M\n Views\n166\n10K\n114K\n155K\nRelevant\nView quotes",
+   "counts": {
+    "replies": 166,
+    "reposts": 10079,
+    "likes": 114149,
+    "views": 2800225,
+    "bookmarks": 155945
+   },
+   "metricsLabel": "166 replies, 10079 reposts, 114149 likes, Liked, 155945 bookmarks, 2800225 views",
+   "quote": null,
+   "media": [],
+   "hasVideo": false,
+   "videoPoster": null,
+   "extLinks": [],
+   "tcoLinks": [
+    "https://t.co/T0gpbMChDU"
+   ],
+   "cardText": "docs.google.com\nvilibazmio_archive.xlsx",
+   "showThread": false
+  },
+  "parents": [],
+  "selfThread": [
+   {
+    "statusId": "2104559167918793073",
+    "statusUrl": "https://x.com/vilibazmiooo/status/2104559167918793073",
+    "name": "vilibazmio",
+    "handle": "@vilibazmiooo",
+    "createdAt": "2026-09-28T13:09:41.000Z",
+    "text": "most of these uploads have been up for over a year. films that aren't mainstream  almost never get copyrighted",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 131,
+     "views": 37716,
+     "bookmarks": 4
+    },
+    "metricsLabel": "1 reply, 131 likes, 4 bookmarks, 37716 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2104373930941444314",
+    "statusUrl": "https://x.com/vilibazmiooo/status/2104373930941444314",
+    "name": "vilibazmio",
+    "handle": "@vilibazmiooo",
+    "createdAt": "2026-09-28T00:53:37.000Z",
+    "text": "I should've mentioned this in the post: archive isn't meant to be used as a streaming platform, it is merely an archive where you should still download the films before watching them. the video that archive sometimes generates is a lower quality file",
+    "counts": {
+     "replies": 0,
+     "reposts": 1,
+     "likes": 726,
+     "views": 108877,
+     "bookmarks": 26
+    },
+    "metricsLabel": "1 repost, 726 likes, 26 bookmarks, 108877 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "replies": [
+   {
+    "statusId": "2104556753442771351",
+    "statusUrl": "https://x.com/snivydvb/status/2104556753442771351",
+    "name": "snvy",
+    "handle": "@snivydvb",
+    "createdAt": "2026-09-28T13:00:05.000Z",
+    "text": "what is the copyright status of these movies? just curious cause if enough copyright holders demand removal then \nhttps://\narchive.org might be forced to lock the uploader account, just so they can still stay afloat without dealing with legal issues ..",
+    "counts": {
+     "replies": 1,
+     "reposts": 1,
+     "likes": 23,
+     "views": 40485,
+     "bookmarks": 8
+    },
+    "metricsLabel": "1 reply, 1 repost, 23 likes, 8 bookmarks, 40485 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [
+     "https://t.co/h7uQcEZzlE"
+    ],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2104372630266740756",
+    "statusUrl": "https://x.com/ArmenSarvar/status/2104372630266740756",
+    "name": "Sarvar",
+    "handle": "@ArmenSarvar",
+    "createdAt": "2026-09-28T00:48:27.000Z",
+    "text": "Thank you for this amazing archive. Just so you know, there is no playing video under the title The Pear Tree (1998) by  Dariush Mehrjui. It is just an image of the film.",
+    "counts": {
+     "replies": 2,
+     "reposts": 0,
+     "likes": 407,
+     "views": 127728,
+     "bookmarks": 14
+    },
+    "metricsLabel": "2 replies, 407 likes, 14 bookmarks, 127728 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "extraReplyCount": 0,
+  "conversationArticleCount": 5,
+  "allConversation": [
+   {
+    "statusId": "2104323759339655446",
+    "handle": "@vilibazmiooo",
+    "text": "the spreadsheet has been updated! \nwe have now over 1300 movies archived with almost 800 bluray remuxes!! and none of the links will ever expire :)"
+   },
+   {
+    "statusId": "2104556753442771351",
+    "handle": "@snivydvb",
+    "text": "what is the copyright status of these movies? just curious cause if enough copyright holders demand removal then \nhttps://\narchive.org might be forced to lock the uploader account, just so they can still stay afloat without dealing with legal issues .."
+   },
+   {
+    "statusId": "2104559167918793073",
+    "handle": "@vilibazmiooo",
+    "text": "most of these uploads have been up for over a year. films that aren't mainstream  almost never get copyrighted"
+   },
+   {
+    "statusId": "2104372630266740756",
+    "handle": "@ArmenSarvar",
+    "text": "Thank you for this amazing archive. Just so you know, there is no playing video under the title The Pear Tree (1998) by  Dariush Mehrjui. It is just an image of the film."
+   },
+   {
+    "statusId": "2104373930941444314",
+    "handle": "@vilibazmiooo",
+    "text": "I should've mentioned this in the post: archive isn't meant to be used as a streaming platform, it is merely an archive where you should still download the films before watching them. the video that archive sometimes generates is a lower quality file"
+   }
+  ]
+ },
+ "https://x.com/LexnLin/status/2104148233106723099": {
+  "statusId": "2104148233106723099",
+  "focusNotFound": false,
+  "focus": {
+   "statusUrl": "https://x.com/LexnLin/status/2104148233106723099",
+   "name": "Leon Lin",
+   "handle": "@LexnLin",
+   "createdAt": "2026-09-27T09:56:46.000Z",
+   "text": "I asked Claude Code (Opus 5.5) to make a launch video for a fake calendar app and HOLY fuck, everything you see AND hear is code\nONE prompt, it cooked for about 8h\nname, logo, UI, animations, soundtrack, sound effects\n\nopensource, repo in replies :)",
+   "articleText": "Leon Lin\n@LexnLin\nI asked Claude Code (Opus 5.5) to make a launch video for a fake calendar app and HOLY fuck, everything you see AND hear is code\nONE prompt, it cooked for about 8h\nname, logo, UI, animations, soundtrack, sound effects\n\nopensource, repo in replies :)\n0:31\n3:26 PM · Sep 27, 2026\n·\n90K\n Views\n86\n47\n1.2K\n1.3K\nRelevant\nView quotes",
+   "counts": {
+    "replies": 86,
+    "reposts": 47,
+    "likes": 1279,
+    "views": 90081,
+    "bookmarks": 1315
+   },
+   "metricsLabel": "86 replies, 47 reposts, 1279 likes, Liked, 1315 bookmarks, 90081 views",
+   "quote": null,
+   "media": [],
+   "hasVideo": true,
+   "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2104148166450835456/img/2o5-LlXsYx1yXMPg.jpg",
+   "extLinks": [],
+   "tcoLinks": [],
+   "cardText": null,
+   "showThread": false
+  },
+  "parents": [],
+  "selfThread": [
+   {
+    "statusId": "2104148235698774036",
+    "statusUrl": "https://x.com/LexnLin/status/2104148235698774036",
+    "name": "Leon Lin",
+    "handle": "@LexnLin",
+    "createdAt": "2026-09-27T09:56:47.000Z",
+    "text": "Github repo: \nhttps://\ngithub.com/Leonxlnx/claud\ne-launchvideo\n…\ncode, soundtrack and the video are all in there",
+    "counts": {
+     "replies": 0,
+     "reposts": 3,
+     "likes": 76,
+     "views": 6768,
+     "bookmarks": 190
+    },
+    "metricsLabel": "3 reposts, 76 likes, 190 bookmarks, 6768 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [
+     "https://t.co/XHpkywP8Pw"
+    ],
+    "cardText": "GitHub - Leonxlnx/claude-launchvideo",
+    "showThread": false
+   },
+   {
+    "statusId": "2104358343133569124",
+    "statusUrl": "https://x.com/LexnLin/status/2104358343133569124",
+    "name": "Leon Lin",
+    "handle": "@LexnLin",
+    "createdAt": "2026-09-27T23:51:40.000Z",
+    "text": "*8h runtime includes a lot of reviews/video recording(cloud agent/took 30min)",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 6,
+     "views": 2251,
+     "bookmarks": 0
+    },
+    "metricsLabel": "6 likes, 2251 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2104159164943474953",
+    "statusUrl": "https://x.com/LexnLin/status/2104159164943474953",
+    "name": "Leon Lin",
+    "handle": "@LexnLin",
+    "createdAt": "2026-09-27T10:40:12.000Z",
+    "text": "yes i agree hahaha",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 5,
+     "views": 2813,
+     "bookmarks": 1
+    },
+    "metricsLabel": "5 likes, 1 bookmark, 2813 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2104258871774810276",
+    "statusUrl": "https://x.com/LexnLin/status/2104258871774810276",
+    "name": "Leon Lin",
+    "handle": "@LexnLin",
+    "createdAt": "2026-09-27T17:16:24.000Z",
+    "text": "yeah i feel the same. The animations are pretty insane but the soundeffects and bg soundtrack don’t really match this type of video",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 0,
+     "views": 1803,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1803 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "replies": [
+   {
+    "statusId": "2104152475460903084",
+    "statusUrl": "https://x.com/preferedev/status/2104152475460903084",
+    "name": "mehdi",
+    "handle": "@preferedev",
+    "createdAt": "2026-09-27T10:13:38.000Z",
+    "text": "This is by far the best launch video generated by opus 5.5 by a mile..",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 31,
+     "views": 3134,
+     "bookmarks": 2
+    },
+    "metricsLabel": "1 reply, 31 likes, 2 bookmarks, 3134 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2104181780538671482",
+    "statusUrl": "https://x.com/Wittipreneur/status/2104181780538671482",
+    "name": "Witti",
+    "handle": "@Wittipreneur",
+    "createdAt": "2026-09-27T12:10:04.000Z",
+    "text": "The video itself is master-class if you ask me. But watching alot of these opus 5.5 launch videos i really have to say that i dont like the \"music\" it creates for the videos. But maybe its just me",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 6,
+     "views": 2604,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 reply, 6 likes, 2604 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2104293223367925774",
+    "statusUrl": "https://x.com/acremelie/status/2104293223367925774",
+    "name": "Arthur",
+    "handle": "@acremelie",
+    "createdAt": "2026-09-27T19:32:54.000Z",
+    "text": "at this point i don’t even know if people are joking or not",
+    "counts": {
+     "replies": 2,
+     "reposts": 0,
+     "likes": 0,
+     "views": 1079,
+     "bookmarks": 0
+    },
+    "metricsLabel": "2 replies, 1079 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "extraReplyCount": 0,
+  "conversationArticleCount": 8,
+  "allConversation": [
+   {
+    "statusId": "2104148233106723099",
+    "handle": "@LexnLin",
+    "text": "I asked Claude Code (Opus 5.5) to make a launch video for a fake calendar app and HOLY fuck, everything you see AND hear is code\nONE prompt, it cooked for about 8h\nname, logo, UI, animations, soundtrack, sound effects\n\nopensource, repo in replies :)"
+   },
+   {
+    "statusId": "2104148235698774036",
+    "handle": "@LexnLin",
+    "text": "Github repo: \nhttps://\ngithub.com/Leonxlnx/claud\ne-launchvideo\n…\ncode, soundtrack and the video are all in there"
+   },
+   {
+    "statusId": "2104358343133569124",
+    "handle": "@LexnLin",
+    "text": "*8h runtime includes a lot of reviews/video recording(cloud agent/took 30min)"
+   },
+   {
+    "statusId": "2104152475460903084",
+    "handle": "@preferedev",
+    "text": "This is by far the best launch video generated by opus 5.5 by a mile.."
+   },
+   {
+    "statusId": "2104159164943474953",
+    "handle": "@LexnLin",
+    "text": "yes i agree hahaha"
+   },
+   {
+    "statusId": "2104181780538671482",
+    "handle": "@Wittipreneur",
+    "text": "The video itself is master-class if you ask me. But watching alot of these opus 5.5 launch videos i really have to say that i dont like the \"music\" it creates for the videos. But maybe its just me"
+   },
+   {
+    "statusId": "2104258871774810276",
+    "handle": "@LexnLin",
+    "text": "yeah i feel the same. The animations are pretty insane but the soundeffects and bg soundtrack don’t really match this type of video"
+   },
+   {
+    "statusId": "2104293223367925774",
+    "handle": "@acremelie",
+    "text": "at this point i don’t even know if people are joking or not"
+   }
+  ]
+ },
+ "https://x.com/innopro_/status/2103079514641248590": {
+  "statusId": "2103079514641248590",
+  "focusNotFound": false,
+  "focus": {
+   "statusUrl": "https://x.com/innopro_/status/2103079514641248590",
+   "name": "Innopro",
+   "handle": "@innopro_",
+   "createdAt": "2026-08-20T04:52:43.000Z",
+   "text": "THIS IS F**KING INSANE\n\na developer from China built a FREE tool that can create TikToks, Reels, and YouTube Shorts on its own!\n\nit’s called MoneyPrinterTurbo.\n\nand it has already passed 100,000 stars on GitHub.\n\nHere’s how simple it is:\n\n1. Give it a topic.\n2. AI writes the script.\n3. It generates the voice and subtitles.\n4. It finds the visuals.\n5. It puts everything together into a finished video.\n\nYou give it the idea.\n\nIt handles the rest in just one workflow.\n\nSave this. Repo link below",
+   "articleText": "Innopro\n@innopro_\nTHIS IS F**KING INSANE\n\na developer from China built a FREE tool that can create TikToks, Reels, and YouTube Shorts on its own!\n\nit’s called MoneyPrinterTurbo.\n\nand it has already passed 100,000 stars on GitHub.\n\nHere’s how simple it is:\n\n1. Give it a topic.\n2. AI writes the script.\n3. It generates the voice and subtitles.\n4. It finds the visuals.\n5. It puts everything together into a finished video.\n\nYou give it the idea.\n\nIt handles the rest in just one workflow.\n\nSave this. Repo link below\n0:13\nQuote\nMIKE\n@mikenevermiss\n·\nAug 20\n Article\nALL the free AI resources that exist in 2026 (nobody uses them)\nI spent a week testing and comparing almost every free or nearly free way to access good AI models. This includes free APIs, trial credits, startup programs, student benefits, and grants for...\n4:40 PM · Sep 24, 2026\n·\n65.4K\n Views\n10\n71\n482\n481\n813\nRelevant\nView quotes",
+   "counts": {
+    "replies": 10,
+    "reposts": 71,
+    "likes": 481,
+    "views": 65445,
+    "bookmarks": 813
+   },
+   "metricsLabel": "10 replies, 71 reposts, 481 likes, 813 bookmarks, 65445 views",
+   "quote": {
+    "text": "MIKE\n@mikenevermiss\n·\nAug 20\n Article\nALL the free AI resources that exist in 2026 (nobody uses them)\nI spent a week testing and comparing almost every free or nearly free way to access good AI models. This includes free APIs, trial credits, startup programs, student benefits, and grants for...",
+    "statusUrl": null
+   },
+   "media": [
+    "https://pbs.twimg.com/media/HQHFzr4XYAAB3go?format=jpg&name=medium"
+   ],
+   "hasVideo": true,
+   "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2103079452838174720/img/K7td-TvmNqX97sz0.jpg",
+   "extLinks": [],
+   "tcoLinks": [],
+   "cardText": null,
+   "showThread": false
+  },
+  "parents": [],
+  "selfThread": [],
+  "replies": [
+   {
+    "statusId": "2103305465765781736",
+    "statusUrl": "https://x.com/notgwap0/status/2103305465765781736",
+    "name": "notgwapo",
+    "handle": "@notgwap0",
+    "createdAt": "2026-09-25T02:07:55.000Z",
+    "text": "wonder how long till everyone's using it to spam stuff 😂",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 4,
+     "views": 1118,
+     "bookmarks": 0
+    },
+    "metricsLabel": "4 likes, 1118 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2103305927151812776",
+    "statusUrl": "https://x.com/AiwithVitor/status/2103305927151812776",
+    "name": "Tom",
+    "handle": "@AiwithVitor",
+    "createdAt": "2026-09-25T02:09:45.000Z",
+    "text": "What is the name of this tool?",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 0,
+     "views": 1071,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1071 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2103095170552275386",
+    "statusUrl": "https://x.com/finelady_p/status/2103095170552275386",
+    "name": "€mm¥ 💶💴",
+    "handle": "@finelady_p",
+    "createdAt": "2026-09-24T12:12:16.000Z",
+    "text": "For real?? \n\n H",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 0,
+     "views": 842,
+     "bookmarks": 0
+    },
+    "metricsLabel": "842 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2100508365692780560",
+    "statusUrl": "https://x.com/ITCHotels/status/2100508365692780560/analytics",
+    "name": "ITC Hotels Ltd",
+    "handle": "@ITCHotels",
+    "createdAt": null,
+    "text": "Some getaways deserve a little more time.\n\nStay 3 nights and pay for just 2 at ITC Hotels, with daily breakfast included for all 3 nights.\nSlow down. Stay longer. Make more memories.",
+    "counts": {
+     "replies": 0,
+     "reposts": 41,
+     "likes": 947,
+     "views": 3238960,
+     "bookmarks": 88
+    },
+    "metricsLabel": "41 reposts, 947 likes, 88 bookmarks, 3238960 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": true,
+    "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2100508009143427072/img/Pe1sAvkztYsRzLPf.jpg",
+    "extLinks": [
+     "https://www.itchotels.com/in/en/promotions/stay3-pay2?utm_source=X&utm_medium=twitter&utm_campaign=PFX-Twitter-HQ-DTL-PRNT-Allbrand-CPC-Rooms-S3P2-Public-Sep26-PanIndia-C0&twclid=2eg0homxch8oohq822yxw8vhp6"
+    ],
+    "tcoLinks": [],
+    "cardText": "",
+    "showThread": false
+   }
+  ],
+  "extraReplyCount": 0,
+  "conversationArticleCount": 5,
+  "allConversation": [
+   {
+    "statusId": "2103079514641248590",
+    "handle": "@innopro_",
+    "text": "THIS IS F**KING INSANE\n\na developer from China built a FREE tool that can create TikToks, Reels, and YouTube Shorts on its own!\n\nit’s called MoneyPrinterTurbo.\n\nand it has already passed 100,000 stars on GitHub.\n\nHere’s how simple it is:\n\n1. Give it a topic.\n2. AI writes the script.\n3. It generates the voice and subtitles.\n4. It finds the visuals.\n5. It puts everything together into a finished video.\n\nYou give it the idea.\n\nIt handles the rest in just one workflow.\n\nSave this. Repo link below"
+   },
+   {
+    "statusId": "2103305465765781736",
+    "handle": "@notgwap0",
+    "text": "wonder how long till everyone's using it to spam stuff 😂"
+   },
+   {
+    "statusId": "2103305927151812776",
+    "handle": "@AiwithVitor",
+    "text": "What is the name of this tool?"
+   },
+   {
+    "statusId": "2103095170552275386",
+    "handle": "@finelady_p",
+    "text": "For real?? \n\n H"
+   },
+   {
+    "statusId": "2100508365692780560",
+    "handle": "@ITCHotels",
+    "text": "Some getaways deserve a little more time.\n\nStay 3 nights and pay for just 2 at ITC Hotels, with daily breakfast included for all 3 nights.\nSlow down. Stay longer. Make more memories."
+   }
+  ]
+ },
+ "https://x.com/InfiniteJulian0/status/2103170841773314183": {
+  "statusId": "2103170841773314183",
+  "focusNotFound": false,
+  "focus": {
+   "statusUrl": "https://x.com/InfiniteJulian0/status/2103170841773314183",
+   "name": "Julian Alvarez",
+   "handle": "@InfiniteJulian0",
+   "createdAt": "2026-09-22T16:34:49.000Z",
+   "text": "holy ****! i downloaded the animated video from Drew, gave it to claude, and told it...\n\n\"create an animated video in the style of the attached video. make a video that visualizes how a SpaceX rocket works.\"\n\ni went to sleep and woke up to this beauty",
+   "articleText": "Julian Alvarez\n@InfiniteJulian0\nholy ****! i downloaded the animated video from Drew, gave it to claude, and told it...\n\n\"create an animated video in the style of the attached video. make a video that visualizes how a SpaceX rocket works.\"\n\ni went to sleep and woke up to this beauty\n0:40\nQuote\nDreW\n@devteamdrew\n·\nSep 22\nMade with @claudeai Opus 5.5\n10:42 PM · Sep 24, 2026\n·\n45.3K\n Views\n9\n22\n437\n381\nRelevant\nView quotes",
+   "counts": {
+    "replies": 9,
+    "reposts": 22,
+    "likes": 437,
+    "views": 45371,
+    "bookmarks": 381
+   },
+   "metricsLabel": "9 replies, 22 reposts, 437 likes, Liked, 381 bookmarks, 45371 views",
+   "quote": {
+    "text": "DreW\n@devteamdrew\n·\nSep 22\nMade with @claudeai Opus 5.5",
+    "statusUrl": null
+   },
+   "media": [],
+   "hasVideo": true,
+   "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2103169823559876608/img/Ry533w26BEvbewn-.jpg",
+   "extLinks": [],
+   "tcoLinks": [],
+   "cardText": null,
+   "showThread": false
+  },
+  "parents": [],
+  "selfThread": [
+   {
+    "statusId": "2103253030015775138",
+    "statusUrl": "https://x.com/InfiniteJulian0/status/2103253030015775138",
+    "name": "Julian Alvarez",
+    "handle": "@InfiniteJulian0",
+    "createdAt": "2026-09-24T22:39:33.000Z",
+    "text": "unreal, huge content opportunities unlocked here",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 0,
+     "views": 413,
+     "bookmarks": 0
+    },
+    "metricsLabel": "413 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2103210423826964815",
+    "statusUrl": "https://x.com/InfiniteJulian0/status/2103210423826964815",
+    "name": "Julian Alvarez",
+    "handle": "@InfiniteJulian0",
+    "createdAt": "2026-09-24T19:50:15.000Z",
+    "text": "crazy stuff. so curious to try this as an editing style for reels",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 1,
+     "views": 598,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 reply, 1 like, 598 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2103524329862697235",
+    "statusUrl": "https://x.com/InfiniteJulian0/status/2103524329862697235",
+    "name": "Julian Alvarez",
+    "handle": "@InfiniteJulian0",
+    "createdAt": "2026-09-25T16:37:36.000Z",
+    "text": "not sure but it took 1hr and 12 min",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 0,
+     "views": 59,
+     "bookmarks": 0
+    },
+    "metricsLabel": "59 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "replies": [
+   {
+    "statusId": "2103246714043854879",
+    "statusUrl": "https://x.com/lennardeth/status/2103246714043854879",
+    "name": "lennard",
+    "handle": "@lennardeth",
+    "createdAt": "2026-09-24T22:14:27.000Z",
+    "text": "wtf this is great!",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 2,
+     "views": 453,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 reply, 2 likes, 453 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2103204879313601023",
+    "statusUrl": "https://x.com/avgmagician/status/2103204879313601023",
+    "name": "AverageMagician",
+    "handle": "@avgmagician",
+    "createdAt": "2026-09-24T19:28:13.000Z",
+    "text": "Nahhh, this is so craaazy",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 5,
+     "views": 635,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 reply, 5 likes, 635 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2103501070924120128",
+    "statusUrl": "https://x.com/reachmeviz/status/2103501070924120128",
+    "name": "Viz",
+    "handle": "@reachmeviz",
+    "createdAt": "2026-09-25T15:05:11.000Z",
+    "text": "How much was $$",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 0,
+     "views": 102,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 reply, 102 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2103522609962848318",
+    "statusUrl": "https://x.com/cupseycode/status/2103522609962848318",
+    "name": "Cupsey",
+    "handle": "@cupseycode",
+    "createdAt": "2026-09-25T16:30:46.000Z",
+    "text": "the jump from prompt to something you’d actually watch is wild",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 0,
+     "views": 38,
+     "bookmarks": 0
+    },
+    "metricsLabel": "38 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2103453799448752261",
+    "statusUrl": "https://x.com/simplydt/status/2103453799448752261",
+    "name": "David T Kramaley",
+    "handle": "@simplydt",
+    "createdAt": "2026-09-25T11:57:20.000Z",
+    "text": "instant rocket explainer, straight up magic. ai turned a simple prompt into a full launch sequence",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 0,
+     "views": 174,
+     "bookmarks": 0
+    },
+    "metricsLabel": "174 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "extraReplyCount": 0,
+  "conversationArticleCount": 9,
+  "allConversation": [
+   {
+    "statusId": "2103170841773314183",
+    "handle": "@InfiniteJulian0",
+    "text": "holy ****! i downloaded the animated video from Drew, gave it to claude, and told it...\n\n\"create an animated video in the style of the attached video. make a video that visualizes how a SpaceX rocket works.\"\n\ni went to sleep and woke up to this beauty"
+   },
+   {
+    "statusId": "2103246714043854879",
+    "handle": "@lennardeth",
+    "text": "wtf this is great!"
+   },
+   {
+    "statusId": "2103253030015775138",
+    "handle": "@InfiniteJulian0",
+    "text": "unreal, huge content opportunities unlocked here"
+   },
+   {
+    "statusId": "2103204879313601023",
+    "handle": "@avgmagician",
+    "text": "Nahhh, this is so craaazy"
+   },
+   {
+    "statusId": "2103210423826964815",
+    "handle": "@InfiniteJulian0",
+    "text": "crazy stuff. so curious to try this as an editing style for reels"
+   },
+   {
+    "statusId": "2103501070924120128",
+    "handle": "@reachmeviz",
+    "text": "How much was $$"
+   },
+   {
+    "statusId": "2103524329862697235",
+    "handle": "@InfiniteJulian0",
+    "text": "not sure but it took 1hr and 12 min"
+   },
+   {
+    "statusId": "2103522609962848318",
+    "handle": "@cupseycode",
+    "text": "the jump from prompt to something you’d actually watch is wild"
+   },
+   {
+    "statusId": "2103453799448752261",
+    "handle": "@simplydt",
+    "text": "instant rocket explainer, straight up magic. ai turned a simple prompt into a full launch sequence"
+   }
+  ]
+ },
+ "https://x.com/theo/status/2103276852618068458": {
+  "statusId": "2103276852618068458",
+  "focusNotFound": false,
+  "focus": {
+   "statusUrl": "https://x.com/theo/status/2103276852618068458",
+   "name": "Theo - t3.gg",
+   "handle": "@theo",
+   "createdAt": "2026-09-25T00:14:13.000Z",
+   "text": "My guide to maximizing success with Opus 5.5 is here :) shoutout to \n@addyosmani\n for the awesome writeup!",
+   "articleText": "Theo - t3.gg\n@theo\nSubscribe\nMy guide to maximizing success with Opus 5.5 is here :) shoutout to \n@addyosmani\n for the awesome writeup!\n28:39\n5:44 AM · Sep 25, 2026\n·\n130.1K\n Views\n46\n41\n1.4K\n1.2K\nRelevant\nView quotes",
+   "counts": {
+    "replies": 46,
+    "reposts": 41,
+    "likes": 1478,
+    "views": 130169,
+    "bookmarks": 1246
+   },
+   "metricsLabel": "46 replies, 41 reposts, 1478 likes, Liked, 1246 bookmarks, 130169 views",
+   "quote": null,
+   "media": [],
+   "hasVideo": true,
+   "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2103276408344862720/img/txgq9RyuNeGdJiqu.jpg",
+   "extLinks": [],
+   "tcoLinks": [],
+   "cardText": null,
+   "showThread": false
+  },
+  "parents": [],
+  "selfThread": [
+   {
+    "statusId": "2103282102926192860",
+    "statusUrl": "https://x.com/theo/status/2103282102926192860",
+    "name": "Theo - t3.gg",
+    "handle": "@theo",
+    "createdAt": "2026-09-25T00:35:05.000Z",
+    "text": "Link to writeup:",
+    "counts": {
+     "replies": 1,
+     "reposts": 8,
+     "likes": 169,
+     "views": 24634,
+     "bookmarks": 329
+    },
+    "metricsLabel": "1 reply, 8 reposts, 169 likes, 329 bookmarks, 24634 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [
+     "https://t.co/MQnpuiUwZy"
+    ],
+    "cardText": "Getting the most out of Opus 5.5 in Claude and Claude Code / claude.dev Blog",
+    "showThread": false
+   },
+   {
+    "statusId": "2103278965817565612",
+    "statusUrl": "https://x.com/theo/status/2103278965817565612",
+    "name": "Theo - t3.gg",
+    "handle": "@theo",
+    "createdAt": "2026-09-25T00:22:37.000Z",
+    "text": "If you're struggling to identify when to use each model, just use Opus 5.5\n\nThe cases where the others make sense are incredibly rare.",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 23,
+     "views": 1809,
+     "bookmarks": 2
+    },
+    "metricsLabel": "1 reply, 23 likes, 2 bookmarks, 1809 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2103282160899940692",
+    "statusUrl": "https://x.com/theo/status/2103282160899940692",
+    "name": "Theo - t3.gg",
+    "handle": "@theo",
+    "createdAt": "2026-09-25T00:35:18.000Z",
+    "text": "",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 5,
+     "views": 2031,
+     "bookmarks": 6
+    },
+    "metricsLabel": "5 likes, 6 bookmarks, 2031 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [
+     "https://t.co/MQnpuiUwZy"
+    ],
+    "cardText": "Getting the most out of Opus 5.5 in Claude and Claude Code / claude.dev Blog",
+    "showThread": false
+   }
+  ],
+  "replies": [
+   {
+    "statusId": "2103281297103974533",
+    "statusUrl": "https://x.com/addyosmani/status/2103281297103974533",
+    "name": "Addy Osmani",
+    "handle": "@addyosmani",
+    "createdAt": "2026-09-25T00:31:52.000Z",
+    "text": "🙏🚀 Great video and more to come!",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 35,
+     "views": 3386,
+     "bookmarks": 2
+    },
+    "metricsLabel": "35 likes, 2 bookmarks, 3386 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2103278802323341337",
+    "statusUrl": "https://x.com/bil0090/status/2103278802323341337",
+    "name": "Bilal Bakr",
+    "handle": "@bil0090",
+    "createdAt": "2026-09-25T00:21:58.000Z",
+    "text": "Just what I was waiting for!\n\nNow we need a vs Fable & Astra vid",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 3,
+     "views": 1948,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 reply, 3 likes, 1948 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2103281985313530110",
+    "statusUrl": "https://x.com/anshnanda/status/2103281985313530110",
+    "name": "Ansh Nanda",
+    "handle": "@anshnanda",
+    "createdAt": "2026-09-25T00:34:37.000Z",
+    "text": "What’s the link to the write up? \n@addyosmani",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 1,
+     "views": 2252,
+     "bookmarks": 1
+    },
+    "metricsLabel": "1 reply, 1 like, 1 bookmark, 2252 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2103277527598862750",
+    "statusUrl": "https://x.com/BennettBuhner/status/2103277527598862750",
+    "name": "BenIt Pro Max Ultra",
+    "handle": "@BennettBuhner",
+    "createdAt": "2026-09-25T00:16:54.000Z",
+    "text": "AYYYY gonna watch this as soon at Greenbay is done losing!",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 0,
+     "views": 506,
+     "bookmarks": 0
+    },
+    "metricsLabel": "506 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "extraReplyCount": 0,
+  "conversationArticleCount": 8,
+  "allConversation": [
+   {
+    "statusId": "2103276852618068458",
+    "handle": "@theo",
+    "text": "My guide to maximizing success with Opus 5.5 is here :) shoutout to \n@addyosmani\n for the awesome writeup!"
+   },
+   {
+    "statusId": "2103282102926192860",
+    "handle": "@theo",
+    "text": "Link to writeup:"
+   },
+   {
+    "statusId": "2103281297103974533",
+    "handle": "@addyosmani",
+    "text": "🙏🚀 Great video and more to come!"
+   },
+   {
+    "statusId": "2103278802323341337",
+    "handle": "@bil0090",
+    "text": "Just what I was waiting for!\n\nNow we need a vs Fable & Astra vid"
+   },
+   {
+    "statusId": "2103278965817565612",
+    "handle": "@theo",
+    "text": "If you're struggling to identify when to use each model, just use Opus 5.5\n\nThe cases where the others make sense are incredibly rare."
+   },
+   {
+    "statusId": "2103281985313530110",
+    "handle": "@anshnanda",
+    "text": "What’s the link to the write up? \n@addyosmani"
+   },
+   {
+    "statusId": "2103282160899940692",
+    "handle": "@theo",
+    "text": ""
+   },
+   {
+    "statusId": "2103277527598862750",
+    "handle": "@BennettBuhner",
+    "text": "AYYYY gonna watch this as soon at Greenbay is done losing!"
+   }
+  ]
+ },
+ "https://x.com/HarveenChadha/status/2102759892507398309": {
+  "statusId": "2102759892507398309",
+  "focusNotFound": false,
+  "focus": {
+   "statusUrl": "https://x.com/HarveenChadha/status/2102759892507398309",
+   "name": "Harveen Singh Chadha",
+   "handle": "@HarveenChadha",
+   "createdAt": "2026-09-23T02:50:00.000Z",
+   "text": "The prompt for this was embarrassingly simple:\n\nCreate a pure javascript animation. 30s-60s whimsical hand drawn collage style with appropriate audio on the topic what is the purpose of life ?\n\nThe video here is one shot, opus did the script and everything. 16 minutes, 19k tokens. $3.6 cost.",
+   "articleText": "Harveen Singh Chadha\n@HarveenChadha\nFollow\nThe prompt for this was embarrassingly simple:\n\nCreate a pure javascript animation. 30s-60s whimsical hand drawn collage style with appropriate audio on the topic what is the purpose of life ?\n\nThe video here is one shot, opus did the script and everything. 16 minutes, 19k tokens. $3.6 cost.\nQuote\nHarveen Singh Chadha\n@HarveenChadha\n·\nSep 23\nmade entirely with opus 5.5 \n\nwhat is the purpose of life? \n\nwatch till the end, it genuinely surprised me\n0:37\n7:30 PM · Sep 23, 2026\n·\n50.8K\n Views\n13\n26\n517\n691\nRelevant\nView quotes",
+   "counts": {
+    "replies": 13,
+    "reposts": 26,
+    "likes": 517,
+    "views": 50856,
+    "bookmarks": 691
+   },
+   "metricsLabel": "13 replies, 26 reposts, 517 likes, 691 bookmarks, 50856 views",
+   "quote": {
+    "text": "Harveen Singh Chadha\n@HarveenChadha\n·\nSep 23\nmade entirely with opus 5.5 \n\nwhat is the purpose of life? \n\nwatch till the end, it genuinely surprised me\n0:37",
+    "statusUrl": null
+   },
+   "media": [],
+   "hasVideo": true,
+   "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2102507479645229056/img/86sCKliemCajZtO8.jpg",
+   "extLinks": [],
+   "tcoLinks": [],
+   "cardText": null,
+   "showThread": false
+  },
+  "parents": [],
+  "selfThread": [],
+  "replies": [
+   {
+    "statusId": "2102836038880387133",
+    "statusUrl": "https://x.com/mohiwalla/status/2102836038880387133",
+    "name": "Kamaljot Singh",
+    "handle": "@mohiwalla",
+    "createdAt": "2026-09-23T19:02:35.000Z",
+    "text": "19K tokens and $3.6 cost? Math ain't mathing",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 2,
+     "views": 760,
+     "bookmarks": 0
+    },
+    "metricsLabel": "2 likes, 760 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2102775700076044773",
+    "statusUrl": "https://x.com/neatpromptsai/status/2102775700076044773",
+    "name": "Neatprompts",
+    "handle": "@neatpromptsai",
+    "createdAt": "2026-09-23T15:02:49.000Z",
+    "text": "Wow, opus came up with the human relation part?",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 1,
+     "views": 1136,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 like, 1136 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2102782775652946091",
+    "statusUrl": "https://x.com/_ahmadtaha_/status/2102782775652946091",
+    "name": "AT",
+    "handle": "@_ahmadtaha_",
+    "createdAt": "2026-09-23T15:30:56.000Z",
+    "text": "What was the effort level?",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 2,
+     "views": 846,
+     "bookmarks": 0
+    },
+    "metricsLabel": "2 likes, 846 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2103264388127797695",
+    "statusUrl": "https://x.com/Nate_Esparza/status/2103264388127797695/analytics",
+    "name": "Nate Esparza",
+    "handle": "@Nate_Esparza",
+    "createdAt": null,
+    "text": "Drive real results with X Ads!",
+    "counts": {
+     "replies": 0,
+     "reposts": 113,
+     "likes": 5907,
+     "views": 4414451,
+     "bookmarks": 324
+    },
+    "metricsLabel": "113 reposts, 5907 likes, 324 bookmarks, 4414451 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2102780927751680157",
+    "statusUrl": "https://x.com/Gojooooly/status/2102780927751680157",
+    "name": "Gojoooo",
+    "handle": "@Gojooooly",
+    "createdAt": "2026-09-23T15:23:35.000Z",
+    "text": "Well. Cute. And sehr cool how it can generate all this in JS and at a very low cost.",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 0,
+     "views": 1299,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1299 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2102779489839432147",
+    "statusUrl": "https://x.com/levifikri/status/2102779489839432147",
+    "name": "Levi | still learning",
+    "handle": "@levifikri",
+    "createdAt": "2026-09-23T15:17:52.000Z",
+    "text": "What JS library does it use?",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 0,
+     "views": 996,
+     "bookmarks": 0
+    },
+    "metricsLabel": "996 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2102770412560224339",
+    "statusUrl": "https://x.com/keepaliveclub/status/2102770412560224339",
+    "name": "chriscardoza",
+    "handle": "@keepaliveclub",
+    "createdAt": "2026-09-23T14:41:48.000Z",
+    "text": "thats crazy are you able to share the git repo?",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 1,
+     "views": 1056,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 like, 1056 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "extraReplyCount": 0,
+  "conversationArticleCount": 8,
+  "allConversation": [
+   {
+    "statusId": "2102759892507398309",
+    "handle": "@HarveenChadha",
+    "text": "The prompt for this was embarrassingly simple:\n\nCreate a pure javascript animation. 30s-60s whimsical hand drawn collage style with appropriate audio on the topic what is the purpose of life ?\n\nThe video here is one shot, opus did the script and everything. 16 minutes, 19k tokens. $3.6 cost."
+   },
+   {
+    "statusId": "2102836038880387133",
+    "handle": "@mohiwalla",
+    "text": "19K tokens and $3.6 cost? Math ain't mathing"
+   },
+   {
+    "statusId": "2102775700076044773",
+    "handle": "@neatpromptsai",
+    "text": "Wow, opus came up with the human relation part?"
+   },
+   {
+    "statusId": "2102782775652946091",
+    "handle": "@_ahmadtaha_",
+    "text": "What was the effort level?"
+   },
+   {
+    "statusId": "2103264388127797695",
+    "handle": "@Nate_Esparza",
+    "text": "Drive real results with X Ads!"
+   },
+   {
+    "statusId": "2102780927751680157",
+    "handle": "@Gojooooly",
+    "text": "Well. Cute. And sehr cool how it can generate all this in JS and at a very low cost."
+   },
+   {
+    "statusId": "2102779489839432147",
+    "handle": "@levifikri",
+    "text": "What JS library does it use?"
+   },
+   {
+    "statusId": "2102770412560224339",
+    "handle": "@keepaliveclub",
+    "text": "thats crazy are you able to share the git repo?"
+   }
+  ]
+ },
+ "https://x.com/mmmikhaeel/status/2102105486501822826": {
+  "statusId": "2102105486501822826",
+  "focusNotFound": false,
+  "focus": {
+   "statusUrl": "https://x.com/mmmikhaeel/status/2102105486501822826",
+   "name": "Mikhaeel",
+   "handle": "@mmmikhaeel",
+   "createdAt": "2026-09-21T18:39:37.000Z",
+   "text": "I built a tool powered by Jev that extracts any products features and business logic into a markdown repo\n\nEnter a product URL and you can copy features, ICP, messaging, pricing strategy, etc straight to a md file",
+   "articleText": "Mikhaeel\n@mmmikhaeel\nI built a tool powered by Jev that extracts any products features and business logic into a markdown repo\n\nEnter a product URL and you can copy features, ICP, messaging, pricing strategy, etc straight to a md file\n0:28\n12:09 AM · Sep 22, 2026\n·\n100.7K\n Views\n48\n51\n280\n536\nRelevant\nView quotes",
+   "counts": {
+    "replies": 48,
+    "reposts": 51,
+    "likes": 280,
+    "views": 100708,
+    "bookmarks": 536
+   },
+   "metricsLabel": "48 replies, 51 reposts, 280 likes, Liked, 536 bookmarks, 100708 views",
+   "quote": null,
+   "media": [],
+   "hasVideo": true,
+   "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2102105406461915136/img/c7Ai0SD1EuZAal1B.jpg",
+   "extLinks": [],
+   "tcoLinks": [],
+   "cardText": null,
+   "showThread": false
+  },
+  "parents": [],
+  "selfThread": [
+   {
+    "statusId": "2102105491522408458",
+    "statusUrl": "https://x.com/mmmikhaeel/status/2102105491522408458",
+    "name": "Mikhaeel",
+    "handle": "@mmmikhaeel",
+    "createdAt": "2026-09-21T18:39:39.000Z",
+    "text": "You can try it here",
+    "counts": {
+     "replies": 3,
+     "reposts": 1,
+     "likes": 28,
+     "views": 3803,
+     "bookmarks": 71
+    },
+    "metricsLabel": "3 replies, 1 repost, 28 likes, 71 bookmarks, 3803 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [
+     "https://t.co/49TTVRGplC"
+    ],
+    "cardText": "Vicaura - Product logic to markdown",
+    "showThread": false
+   },
+   {
+    "statusId": "2102110079851839626",
+    "statusUrl": "https://x.com/mmmikhaeel/status/2102110079851839626",
+    "name": "Mikhaeel",
+    "handle": "@mmmikhaeel",
+    "createdAt": "2026-09-21T18:57:53.000Z",
+    "text": "Try it out man and let me know what you think",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 1,
+     "views": 1243,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 like, 1243 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2102119077766414789",
+    "statusUrl": "https://x.com/mmmikhaeel/status/2102119077766414789",
+    "name": "Mikhaeel",
+    "handle": "@mmmikhaeel",
+    "createdAt": "2026-09-21T19:33:38.000Z",
+    "text": "You can just copy paste products now lol",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 1,
+     "views": 377,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 like, 377 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "replies": [
+   {
+    "statusId": "2102108221528006755",
+    "statusUrl": "https://x.com/HelloVyom/status/2102108221528006755",
+    "name": "Vyom",
+    "handle": "@HelloVyom",
+    "createdAt": "2026-09-21T18:50:29.000Z",
+    "text": "damn I have to try this !!!",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 3,
+     "views": 1428,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 reply, 3 likes, 1428 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2102113704221503700",
+    "statusUrl": "https://x.com/Amank1412/status/2102113704221503700",
+    "name": "Aman",
+    "handle": "@Amank1412",
+    "createdAt": "2026-09-21T19:12:17.000Z",
+    "text": "bro just made reverse engineering way easier",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 2,
+     "views": 448,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 reply, 2 likes, 448 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2103572952218575354",
+    "statusUrl": "https://x.com/sankalpdomore/status/2103572952218575354",
+    "name": "Sankalp Sinha (Left $15K+ MRR job to indiehack)",
+    "handle": "@sankalpdomore",
+    "createdAt": "2026-09-25T19:50:48.000Z",
+    "text": "Loved this, Mikhaeel. I've featured your post on \nhttps://\nJev.Store, a directory of things people have built with Jev: \nhttps://\njev.store/community",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 1,
+     "views": 43,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 reply, 1 like, 43 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [
+     "https://t.co/6rvbCXTB3W",
+     "https://t.co/nJGM0Xe8kk"
+    ],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "extraReplyCount": 0,
+  "conversationArticleCount": 7,
+  "allConversation": [
+   {
+    "statusId": "2102105486501822826",
+    "handle": "@mmmikhaeel",
+    "text": "I built a tool powered by Jev that extracts any products features and business logic into a markdown repo\n\nEnter a product URL and you can copy features, ICP, messaging, pricing strategy, etc straight to a md file"
+   },
+   {
+    "statusId": "2102105491522408458",
+    "handle": "@mmmikhaeel",
+    "text": "You can try it here"
+   },
+   {
+    "statusId": "2102108221528006755",
+    "handle": "@HelloVyom",
+    "text": "damn I have to try this !!!"
+   },
+   {
+    "statusId": "2102110079851839626",
+    "handle": "@mmmikhaeel",
+    "text": "Try it out man and let me know what you think"
+   },
+   {
+    "statusId": "2102113704221503700",
+    "handle": "@Amank1412",
+    "text": "bro just made reverse engineering way easier"
+   },
+   {
+    "statusId": "2102119077766414789",
+    "handle": "@mmmikhaeel",
+    "text": "You can just copy paste products now lol"
+   },
+   {
+    "statusId": "2103572952218575354",
+    "handle": "@sankalpdomore",
+    "text": "Loved this, Mikhaeel. I've featured your post on \nhttps://\nJev.Store, a directory of things people have built with Jev: \nhttps://\njev.store/community"
+   }
+  ]
+ },
+ "https://x.com/AikidoSecurity/status/2102035136678400056": {
+  "statusId": "2102035136678400056",
+  "focusNotFound": false,
+  "focus": {
+   "statusUrl": "https://x.com/AikidoSecurity/status/2102035136678400056",
+   "name": "Aikido",
+   "handle": "@AikidoSecurity",
+   "createdAt": "2026-09-21T14:00:05.000Z",
+   "text": "Introducing Altar-1, our first open-weight security model.\n\nFrontier-grade defensive AI, built to deploy. Own your own security.",
+   "articleText": "Aikido\n@AikidoSecurity\nIntroducing Altar-1, our first open-weight security model.\n\nFrontier-grade defensive AI, built to deploy. Own your own security.\n0:11\n7:30 PM · Sep 21, 2026\n·\n515.2K\n Views\n86\n257\n1.5K\n1.1K\nRelevant\nView quotes",
+   "counts": {
+    "replies": 86,
+    "reposts": 257,
+    "likes": 1540,
+    "views": 515276,
+    "bookmarks": 1168
+   },
+   "metricsLabel": "86 replies, 257 reposts, 1540 likes, Liked, 1168 bookmarks, 515276 views",
+   "quote": null,
+   "media": [],
+   "hasVideo": true,
+   "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2102031856137019392/img/KIDeSzJnSYmmut0v.jpg",
+   "extLinks": [],
+   "tcoLinks": [],
+   "cardText": null,
+   "showThread": false
+  },
+  "parents": [],
+  "selfThread": [
+   {
+    "statusId": "2102035138981003405",
+    "statusUrl": "https://x.com/AikidoSecurity/status/2102035138981003405",
+    "name": "Aikido",
+    "handle": "@AikidoSecurity",
+    "createdAt": "2026-09-21T14:00:05.000Z",
+    "text": "Read the full announcement:",
+    "counts": {
+     "replies": 1,
+     "reposts": 13,
+     "likes": 115,
+     "views": 12350,
+     "bookmarks": 78
+    },
+    "metricsLabel": "1 reply, 13 reposts, 115 likes, 78 bookmarks, 12350 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [
+     "https://t.co/KSiqWid0HZ"
+    ],
+    "cardText": "Aikido Altar: open-weight AI for sovereign security",
+    "showThread": false
+   },
+   {
+    "statusId": "2102037387438444984",
+    "statusUrl": "https://x.com/AikidoSecurity/status/2102037387438444984",
+    "name": "Aikido",
+    "handle": "@AikidoSecurity",
+    "createdAt": "2026-09-21T14:09:01.000Z",
+    "text": "Explore (& deploy) Aikido Altar-1:",
+    "counts": {
+     "replies": 7,
+     "reposts": 14,
+     "likes": 141,
+     "views": 10038,
+     "bookmarks": 129
+    },
+    "metricsLabel": "7 replies, 14 reposts, 141 likes, 129 bookmarks, 10038 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [
+     "https://t.co/UVu68Bx7fI"
+    ],
+    "cardText": "AikidoSec/altar-1 · Hugging Face",
+    "showThread": false
+   },
+   {
+    "statusId": "2104683300195373402",
+    "statusUrl": "https://x.com/AikidoSecurity/status/2104683300195373402",
+    "name": "Aikido",
+    "handle": "@AikidoSecurity",
+    "createdAt": "2026-09-28T21:22:56.000Z",
+    "text": "btw we named the model \"altar\" after the Ghent altarpiece...\n\nFor those who don’t know, Aikido is from Ghent, Belgium. Our city is home to The Adoration of the Mystic Lamb, completed in 1432.\n\nWhy is it famous?",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 8,
+     "views": 347,
+     "bookmarks": 0
+    },
+    "metricsLabel": "8 likes, 347 views",
+    "quote": {
+     "text": "Aikido\n@AikidoSecurity\n·\nSep 29\nbtw we named the model \"altar\" after the Ghent altarpiece...\n\nFor those who don’t know, Aikido is from Ghent, Belgium. Our city is home to The Adoration of the Mystic Lamb, completed in 1432.\n\nWhy is it famous?",
+     "statusUrl": "https://x.com/AikidoSecurity/status/2104681543390093743/photo/1"
+    },
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2102096119618506832",
+    "statusUrl": "https://x.com/AikidoSecurity/status/2102096119618506832",
+    "name": "Aikido",
+    "handle": "@AikidoSecurity",
+    "createdAt": "2026-09-21T18:02:24.000Z",
+    "text": "🫡",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 1,
+     "views": 3835,
+     "bookmarks": 1
+    },
+    "metricsLabel": "1 like, 1 bookmark, 3835 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "replies": [
+   {
+    "statusId": "2104334305715794055",
+    "statusUrl": "https://x.com/FlexRemote_IN/status/2104334305715794055/analytics",
+    "name": "Flex Remote",
+    "handle": "@FlexRemote_IN",
+    "createdAt": null,
+    "text": "Remote Jobs for People Who Want a Better Way to Work",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 1,
+     "views": 8914,
+     "bookmarks": 2
+    },
+    "metricsLabel": "1 like, 2 bookmarks, 8914 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [
+     "https://flexremote.in/f1?utm_source=x&twclid=23zf0vvqmhp0hxo3a1pikit38s"
+    ],
+    "tcoLinks": [],
+    "cardText": "",
+    "showThread": false
+   },
+   {
+    "statusId": "2102069744803135915",
+    "statusUrl": "https://x.com/SIGKITTEN/status/2102069744803135915",
+    "name": "SIGKITTEN",
+    "handle": "@SIGKITTEN",
+    "createdAt": "2026-09-21T16:17:36.000Z",
+    "text": "nice",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 8,
+     "views": 4370,
+     "bookmarks": 1
+    },
+    "metricsLabel": "1 reply, 8 likes, 1 bookmark, 4370 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "extraReplyCount": 0,
+  "conversationArticleCount": 7,
+  "allConversation": [
+   {
+    "statusId": "2102035136678400056",
+    "handle": "@AikidoSecurity",
+    "text": "Introducing Altar-1, our first open-weight security model.\n\nFrontier-grade defensive AI, built to deploy. Own your own security."
+   },
+   {
+    "statusId": "2102035138981003405",
+    "handle": "@AikidoSecurity",
+    "text": "Read the full announcement:"
+   },
+   {
+    "statusId": "2102037387438444984",
+    "handle": "@AikidoSecurity",
+    "text": "Explore (& deploy) Aikido Altar-1:"
+   },
+   {
+    "statusId": "2104683300195373402",
+    "handle": "@AikidoSecurity",
+    "text": "btw we named the model \"altar\" after the Ghent altarpiece...\n\nFor those who don’t know, Aikido is from Ghent, Belgium. Our city is home to The Adoration of the Mystic Lamb, completed in 1432.\n\nWhy is it famous?"
+   },
+   {
+    "statusId": "2104334305715794055",
+    "handle": "@FlexRemote_IN",
+    "text": "Remote Jobs for People Who Want a Better Way to Work"
+   },
+   {
+    "statusId": "2102069744803135915",
+    "handle": "@SIGKITTEN",
+    "text": "nice"
+   },
+   {
+    "statusId": "2102096119618506832",
+    "handle": "@AikidoSecurity",
+    "text": "🫡"
+   }
+  ]
+ },
+ "https://x.com/lostsec_/status/2092953207895114233": {
+  "statusId": "2092953207895114233",
+  "focusNotFound": false,
+  "focus": {
+   "statusUrl": "https://x.com/lostsec_/status/2092953207895114233",
+   "name": "Coffin",
+   "handle": "@lostsec_",
+   "createdAt": "2026-08-27T12:31:44.000Z",
+   "text": "This is my longest article on Medium yet. I’ve put together all the methods, setups and workflows from my 3 recent videos on Claude, including all the prompts so you can easily copy, paste, and try them yourself.\n\nhttps://\nlostsec.medium.com/the-best-claud\ne-code-setup-for-bug-bounty-hunting-a16a0a50e811?sk=0886439546737f5e5193c9985273d578\n…",
+   "articleText": "Coffin\n@lostsec_\nThis is my longest article on Medium yet. I’ve put together all the methods, setups and workflows from my 3 recent videos on Claude, including all the prompts so you can easily copy, paste, and try them yourself.\n\nhttps://\nlostsec.medium.com/the-best-claud\ne-code-setup-for-bug-bounty-hunting-a16a0a50e811?sk=0886439546737f5e5193c9985273d578\n…\n0:35\n6:01 PM · Aug 27, 2026\n·\n29.1K\n Views\n19\n105\n678\n658\nRelevant\nView quotes",
+   "counts": {
+    "replies": 19,
+    "reposts": 105,
+    "likes": 678,
+    "views": 29136,
+    "bookmarks": 658
+   },
+   "metricsLabel": "19 replies, 105 reposts, 678 likes, 658 bookmarks, 29136 views",
+   "quote": null,
+   "media": [],
+   "hasVideo": true,
+   "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2092953148377927680/img/ZPeWYx6ub3bkJc9k.jpg",
+   "extLinks": [],
+   "tcoLinks": [
+    "https://t.co/Kk0yqZIq4v"
+   ],
+   "cardText": null,
+   "showThread": false
+  },
+  "parents": [],
+  "selfThread": [
+   {
+    "statusId": "2092958984315814320",
+    "statusUrl": "https://x.com/lostsec_/status/2092958984315814320",
+    "name": "Coffin",
+    "handle": "@lostsec_",
+    "createdAt": "2026-08-27T12:54:41.000Z",
+    "text": "claude with openrouter",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 5,
+     "views": 1183,
+     "bookmarks": 1
+    },
+    "metricsLabel": "1 reply, 5 likes, 1 bookmark, 1183 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "replies": [
+   {
+    "statusId": "2092957706378211692",
+    "statusUrl": "https://x.com/Ozerkiddo/status/2092957706378211692",
+    "name": "APC_MOD (Ø,G)",
+    "handle": "@Ozerkiddo",
+    "createdAt": "2026-08-27T12:49:37.000Z",
+    "text": "Do you think abliterated open weights + OpenCode would be a good setup for BB?",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 2,
+     "views": 1561,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 reply, 2 likes, 1561 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2092995945105387547",
+    "statusUrl": "https://x.com/xofin904/status/2092995945105387547",
+    "name": "xofin",
+    "handle": "@xofin904",
+    "createdAt": "2026-08-27T15:21:33.000Z",
+    "text": "Pls I'm having challenge on burpsuite activation since WSL 2  is given me issue  with updating",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 0,
+     "views": 928,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 reply, 928 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "extraReplyCount": 0,
+  "conversationArticleCount": 4,
+  "allConversation": [
+   {
+    "statusId": "2092953207895114233",
+    "handle": "@lostsec_",
+    "text": "This is my longest article on Medium yet. I’ve put together all the methods, setups and workflows from my 3 recent videos on Claude, including all the prompts so you can easily copy, paste, and try them yourself.\n\nhttps://\nlostsec.medium.com/the-best-claud\ne-code-setup-for-bug-bounty-hunting-a16a0a50e811?sk=0886439546737f5e5193c9985273d578\n…"
+   },
+   {
+    "statusId": "2092957706378211692",
+    "handle": "@Ozerkiddo",
+    "text": "Do you think abliterated open weights + OpenCode would be a good setup for BB?"
+   },
+   {
+    "statusId": "2092958984315814320",
+    "handle": "@lostsec_",
+    "text": "claude with openrouter"
+   },
+   {
+    "statusId": "2092995945105387547",
+    "handle": "@xofin904",
+    "text": "Pls I'm having challenge on burpsuite activation since WSL 2  is given me issue  with updating"
+   }
+  ]
+ },
+ "https://x.com/SpotifyEng/status/2086795659651191106": {
+  "statusId": "2086795659651191106",
+  "focusNotFound": false,
+  "focus": {
+   "statusUrl": "https://x.com/SpotifyEng/status/2086795659651191106",
+   "name": "Spotify Engineering",
+   "handle": "@SpotifyEng",
+   "createdAt": "2026-08-10T12:43:50.000Z",
+   "text": "We just launched Xirp, a vendor-neutral agentic development environment. One place to manage agent sessions across \n@ClaudeDevs\n, \n@GeminiApp\n CLI, and \n@OpenAI\n Codex. 1,300+ \n@Spotify\n engineers already use it. Now it's available for you to try. Learn more at \nhttp://\nxirp.spotify.com.",
+   "articleText": "Spotify Engineering\n@SpotifyEng\nWe just launched Xirp, a vendor-neutral agentic development environment. One place to manage agent sessions across \n@ClaudeDevs\n, \n@GeminiApp\n CLI, and \n@OpenAI\n Codex. 1,300+ \n@Spotify\n engineers already use it. Now it's available for you to try. Learn more at \nhttp://\nxirp.spotify.com.\n6:13 PM · Aug 10, 2026\n·\n5.2M\n Views\n636\n2K\n11K\n9.4K\nRelevant\nView quotes",
+   "counts": {
+    "replies": 636,
+    "reposts": 2063,
+    "likes": 11566,
+    "views": 5257758,
+    "bookmarks": 9457
+   },
+   "metricsLabel": "636 replies, 2063 reposts, 11566 likes, 9457 bookmarks, 5257758 views",
+   "quote": null,
+   "media": [],
+   "hasVideo": true,
+   "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2086795560451768320/img/z0dTVK9Y9BGb4OG2.jpg",
+   "extLinks": [],
+   "tcoLinks": [
+    "https://t.co/Hwo8Qqx4OI"
+   ],
+   "cardText": null,
+   "showThread": false
+  },
+  "parents": [],
+  "selfThread": [
+   {
+    "statusId": "2086796095540142488",
+    "statusUrl": "https://x.com/SpotifyEng/status/2086796095540142488",
+    "name": "Spotify Engineering",
+    "handle": "@SpotifyEng",
+    "createdAt": "2026-08-10T12:45:34.000Z",
+    "text": "Read about Xirp from Tyson Singer, SVP of Platform at Spotify:",
+    "counts": {
+     "replies": 5,
+     "reposts": 18,
+     "likes": 273,
+     "views": 199933,
+     "bookmarks": 266
+    },
+    "metricsLabel": "5 replies, 18 reposts, 273 likes, 266 bookmarks, 199933 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [
+     "https://t.co/z552bd8YZM"
+    ],
+    "cardText": "Spotify Portal — One source of truth for engineers & agents",
+    "showThread": false
+   }
+  ],
+  "replies": [
+   {
+    "statusId": "2086859479048405208",
+    "statusUrl": "https://x.com/jamesdotai/status/2086859479048405208",
+    "name": "J •",
+    "handle": "@jamesdotai",
+    "createdAt": "2026-08-10T16:57:26.000Z",
+    "text": "Spotify? The AI Company?",
+    "counts": {
+     "replies": 6,
+     "reposts": 17,
+     "likes": 1793,
+     "views": 47346,
+     "bookmarks": 14
+    },
+    "metricsLabel": "6 replies, 17 reposts, 1793 likes, 14 bookmarks, 47346 views",
+    "quote": null,
+    "media": [
+     "https://pbs.twimg.com/media/HPYDmYiWgAABzHT?format=png&name=small"
+    ],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2086843649170563450",
+    "statusUrl": "https://x.com/olanotolu/status/2086843649170563450",
+    "name": "Ola",
+    "handle": "@olanotolu",
+    "createdAt": "2026-08-10T15:54:32.000Z",
+    "text": "would it sing to me while i code?",
+    "counts": {
+     "replies": 11,
+     "reposts": 4,
+     "likes": 1036,
+     "views": 52418,
+     "bookmarks": 5
+    },
+    "metricsLabel": "11 replies, 4 reposts, 1036 likes, 5 bookmarks, 52418 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2086845030707192155",
+    "statusUrl": "https://x.com/alexinbinary/status/2086845030707192155",
+    "name": "Alex",
+    "handle": "@alexinbinary",
+    "createdAt": "2026-08-10T16:00:01.000Z",
+    "text": "Spotify building an IDE wasn't in my bingo card",
+    "counts": {
+     "replies": 6,
+     "reposts": 9,
+     "likes": 725,
+     "views": 30479,
+     "bookmarks": 9
+    },
+    "metricsLabel": "6 replies, 9 reposts, 725 likes, 9 bookmarks, 30479 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2086925639773249736",
+    "statusUrl": "https://x.com/vh_mayor/status/2086925639773249736",
+    "name": "Oluwamayowa",
+    "handle": "@vh_mayor",
+    "createdAt": "2026-08-10T21:20:20.000Z",
+    "text": "",
+    "counts": {
+     "replies": 1,
+     "reposts": 24,
+     "likes": 577,
+     "views": 23387,
+     "bookmarks": 13
+    },
+    "metricsLabel": "1 reply, 24 reposts, 577 likes, 13 bookmarks, 23387 views",
+    "quote": null,
+    "media": [
+     "https://pbs.twimg.com/media/HPY_s6eWsAAaHch?format=png&name=900x900"
+    ],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2086883762412175649",
+    "statusUrl": "https://x.com/Teknium/status/2086883762412175649",
+    "name": "Teknium 🪽",
+    "handle": "@Teknium",
+    "createdAt": "2026-08-10T18:33:56.000Z",
+    "text": "Need to see hermes agent on that sir",
+    "counts": {
+     "replies": 9,
+     "reposts": 1,
+     "likes": 288,
+     "views": 12745,
+     "bookmarks": 2
+    },
+    "metricsLabel": "9 replies, 1 repost, 288 likes, 2 bookmarks, 12745 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2086884718247903695",
+    "statusUrl": "https://x.com/LoganJuhl/status/2086884718247903695",
+    "name": "Logan Juhl",
+    "handle": "@LoganJuhl",
+    "createdAt": "2026-08-10T18:37:43.000Z",
+    "text": "Alright,  I need to see everyone’s Xirp Wrapped now lmao 😂",
+    "counts": {
+     "replies": 5,
+     "reposts": 11,
+     "likes": 417,
+     "views": 43067,
+     "bookmarks": 25
+    },
+    "metricsLabel": "5 replies, 11 reposts, 417 likes, 25 bookmarks, 43067 views",
+    "quote": null,
+    "media": [
+     "https://pbs.twimg.com/media/HPYal1saEAAdxW0?format=jpg&name=medium"
+    ],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2086898629801840798",
+    "statusUrl": "https://x.com/thekitze/status/2086898629801840798",
+    "name": "kitze 🛠️ tinkerer.club",
+    "handle": "@thekitze",
+    "createdAt": "2026-08-10T19:33:00.000Z",
+    "text": "Bro stay in your lane and fix your fuckass slop of a music app",
+    "counts": {
+     "replies": 6,
+     "reposts": 2,
+     "likes": 177,
+     "views": 4253,
+     "bookmarks": 3
+    },
+    "metricsLabel": "6 replies, 2 reposts, 177 likes, 3 bookmarks, 4253 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2086942320641950201",
+    "statusUrl": "https://x.com/major101x/status/2086942320641950201",
+    "name": "Ola",
+    "handle": "@major101x",
+    "createdAt": "2026-08-10T22:26:37.000Z",
+    "text": "Why is Spotify trying to hop on the AI bandwagon😭✌️",
+    "counts": {
+     "replies": 1,
+     "reposts": 2,
+     "likes": 353,
+     "views": 13193,
+     "bookmarks": 5
+    },
+    "metricsLabel": "1 reply, 2 reposts, 353 likes, 5 bookmarks, 13193 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": true,
+    "videoPoster": "https://pbs.twimg.com/tweet_video_thumb/HPZO-obWwAIeFdu.jpg",
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2086972792449216779",
+    "statusUrl": "https://x.com/MarceloLima/status/2086972792449216779",
+    "name": "Marcelo P. Lima",
+    "handle": "@MarceloLima",
+    "createdAt": "2026-08-11T00:27:42.000Z",
+    "text": "Give me a way to code my own Spotify UI so I can finally know which of the four seasons I’m listening to",
+    "counts": {
+     "replies": 4,
+     "reposts": 2,
+     "likes": 97,
+     "views": 5330,
+     "bookmarks": 2
+    },
+    "metricsLabel": "4 replies, 2 reposts, 97 likes, 2 bookmarks, 5330 views",
+    "quote": null,
+    "media": [
+     "https://pbs.twimg.com/media/HPZqsfOXIAAhMSZ?format=jpg&name=medium"
+    ],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2086846288419569751",
+    "statusUrl": "https://x.com/emanueledpt/status/2086846288419569751",
+    "name": "Emanuele Di Pietro",
+    "handle": "@emanueledpt",
+    "createdAt": "2026-08-10T16:05:01.000Z",
+    "text": "what the fuck lol",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 49,
+     "views": 4737,
+     "bookmarks": 0
+    },
+    "metricsLabel": "49 likes, 4737 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2086888923335119063",
+    "statusUrl": "https://x.com/jasonkneen/status/2086888923335119063",
+    "name": "Jason Kneen",
+    "handle": "@jasonkneen",
+    "createdAt": "2026-08-10T18:54:26.000Z",
+    "text": "Closed source? Seriously?",
+    "counts": {
+     "replies": 7,
+     "reposts": 1,
+     "likes": 48,
+     "views": 9419,
+     "bookmarks": 5
+    },
+    "metricsLabel": "7 replies, 1 repost, 48 likes, 5 bookmarks, 9419 views",
+    "quote": {
+     "text": "Spotify Engineering\n@SpotifyEng\n·\nAug 10\nWe just launched Xirp, a vendor-neutral agentic development environment. One place to manage agent sessions across @ClaudeDevs, @GeminiApp CLI, and @OpenAI Codex. 1,300+ @Spotify engineers already use it. Now it's available for you to try. Learn more at \nhttp://\nxirp.spotify.com.",
+     "statusUrl": null
+    },
+    "media": [],
+    "hasVideo": true,
+    "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2086795560451768320/img/z0dTVK9Y9BGb4OG2.jpg",
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "extraReplyCount": 0,
+  "conversationArticleCount": 13,
+  "allConversation": [
+   {
+    "statusId": "2086795659651191106",
+    "handle": "@SpotifyEng",
+    "text": "We just launched Xirp, a vendor-neutral agentic development environment. One place to manage agent sessions across \n@ClaudeDevs\n, \n@GeminiApp\n CLI, and \n@OpenAI\n Codex. 1,300+ \n@Spotify\n engineers already use it. Now it's available for you to try. Learn more at \nhttp://\nxirp.spotify.com."
+   },
+   {
+    "statusId": "2086796095540142488",
+    "handle": "@SpotifyEng",
+    "text": "Read about Xirp from Tyson Singer, SVP of Platform at Spotify:"
+   },
+   {
+    "statusId": "2086859479048405208",
+    "handle": "@jamesdotai",
+    "text": "Spotify? The AI Company?"
+   },
+   {
+    "statusId": "2086843649170563450",
+    "handle": "@olanotolu",
+    "text": "would it sing to me while i code?"
+   },
+   {
+    "statusId": "2086845030707192155",
+    "handle": "@alexinbinary",
+    "text": "Spotify building an IDE wasn't in my bingo card"
+   },
+   {
+    "statusId": "2086925639773249736",
+    "handle": "@vh_mayor",
+    "text": ""
+   },
+   {
+    "statusId": "2086883762412175649",
+    "handle": "@Teknium",
+    "text": "Need to see hermes agent on that sir"
+   },
+   {
+    "statusId": "2086884718247903695",
+    "handle": "@LoganJuhl",
+    "text": "Alright,  I need to see everyone’s Xirp Wrapped now lmao 😂"
+   },
+   {
+    "statusId": "2086898629801840798",
+    "handle": "@thekitze",
+    "text": "Bro stay in your lane and fix your fuckass slop of a music app"
+   },
+   {
+    "statusId": "2086942320641950201",
+    "handle": "@major101x",
+    "text": "Why is Spotify trying to hop on the AI bandwagon😭✌️"
+   },
+   {
+    "statusId": "2086972792449216779",
+    "handle": "@MarceloLima",
+    "text": "Give me a way to code my own Spotify UI so I can finally know which of the four seasons I’m listening to"
+   },
+   {
+    "statusId": "2086846288419569751",
+    "handle": "@emanueledpt",
+    "text": "what the fuck lol"
+   },
+   {
+    "statusId": "2086888923335119063",
+    "handle": "@jasonkneen",
+    "text": "Closed source? Seriously?"
+   }
+  ]
+ },
+ "https://x.com/notsurajgaud/status/2058439040056389871": {
+  "statusId": "2058439040056389871",
+  "focusNotFound": false,
+  "focus": {
+   "statusUrl": "https://x.com/notsurajgaud/status/2058439040056389871",
+   "name": "Suraj Gaud",
+   "handle": "@notsurajgaud",
+   "createdAt": "2026-05-24T06:44:45.000Z",
+   "text": "Introducing brandpull  \n\ninstantly pull any website's branding kit in 10 seconds for agents and humans.\n\nnpx brandpull",
+   "articleText": "Suraj Gaud\n@notsurajgaud\nIntroducing brandpull  \n\ninstantly pull any website's branding kit in 10 seconds for agents and humans.\n\nnpx brandpull\n0:10\n12:14 PM · May 24, 2026\n·\n27.2K\n Views\n8\n10\n112\n190\nRelevant\nView quotes",
+   "counts": {
+    "replies": 8,
+    "reposts": 10,
+    "likes": 112,
+    "views": 27251,
+    "bookmarks": 190
+   },
+   "metricsLabel": "8 replies, 10 reposts, 112 likes, 190 bookmarks, 27251 views",
+   "quote": null,
+   "media": [],
+   "hasVideo": true,
+   "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2058438784505749504/img/6-F2nIKrqo2iSauq.jpg",
+   "extLinks": [],
+   "tcoLinks": [],
+   "cardText": null,
+   "showThread": false
+  },
+  "parents": [],
+  "selfThread": [
+   {
+    "statusId": "2058439130980425756",
+    "statusUrl": "https://x.com/notsurajgaud/status/2058439130980425756",
+    "name": "Suraj Gaud",
+    "handle": "@notsurajgaud",
+    "createdAt": "2026-05-24T06:45:07.000Z",
+    "text": "Here's the github",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 6,
+     "views": 1136,
+     "bookmarks": 9
+    },
+    "metricsLabel": "6 likes, 9 bookmarks, 1136 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [
+     "https://t.co/azKJKZsSGy"
+    ],
+    "cardText": "GitHub - suraj-xd/brandpull: branding kit in 10 seconds for agents and humans.",
+    "showThread": false
+   },
+   {
+    "statusId": "2058443964089520161",
+    "statusUrl": "https://x.com/notsurajgaud/status/2058443964089520161",
+    "name": "Suraj Gaud",
+    "handle": "@notsurajgaud",
+    "createdAt": "2026-05-24T07:04:19.000Z",
+    "text": "try this",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 2,
+     "views": 504,
+     "bookmarks": 12
+    },
+    "metricsLabel": "1 reply, 2 likes, 12 bookmarks, 504 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [
+     "https://t.co/MdC3CNXTpa"
+    ],
+    "cardText": "Shoogle - shadcn UI Components & Blocks Search Engine",
+    "showThread": false
+   }
+  ],
+  "replies": [
+   {
+    "statusId": "2058443493266305439",
+    "statusUrl": "https://x.com/Lokendratwt/status/2058443493266305439",
+    "name": "Lokendra",
+    "handle": "@Lokendratwt",
+    "createdAt": "2026-05-24T07:02:27.000Z",
+    "text": "This is awesome I was thinking of something similar but on ui where user can search brand of any site and it lists all of its components like cards, tabs, dialog etc",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 1,
+     "views": 561,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 reply, 1 like, 561 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2058440210351067173",
+    "statusUrl": "https://x.com/infinterenders/status/2058440210351067173",
+    "name": "render",
+    "handle": "@infinterenders",
+    "createdAt": "2026-05-24T06:49:24.000Z",
+    "text": "🐐",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 3,
+     "views": 392,
+     "bookmarks": 0
+    },
+    "metricsLabel": "3 likes, 392 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2074853704784842872",
+    "statusUrl": "https://x.com/SankalpJha26/status/2074853704784842872",
+    "name": "Sankalp Jha",
+    "handle": "@SankalpJha26",
+    "createdAt": "2026-07-08T13:50:46.000Z",
+    "text": "okay thats VALUE",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 1,
+     "views": 161,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 like, 161 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2089022637301457240",
+    "statusUrl": "https://x.com/BharathShips/status/2089022637301457240",
+    "name": "Bharath",
+    "handle": "@BharathShips",
+    "createdAt": "2026-08-16T16:13:03.000Z",
+    "text": "Had worked on something similar btw\n\n\nhttps://\ntypescrape.vercel.app",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 0,
+     "views": 28,
+     "bookmarks": 0
+    },
+    "metricsLabel": "28 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [
+     "https://t.co/FdxGeHkz73"
+    ],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2074924846186946758",
+    "statusUrl": "https://x.com/bydhruvil/status/2074924846186946758",
+    "name": "dhru",
+    "handle": "@bydhruvil",
+    "createdAt": "2026-07-08T18:33:28.000Z",
+    "text": "will be using it fossure, I have entire landing which needs to be fixed ;)",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 0,
+     "views": 91,
+     "bookmarks": 0
+    },
+    "metricsLabel": "91 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "extraReplyCount": 0,
+  "conversationArticleCount": 8,
+  "allConversation": [
+   {
+    "statusId": "2058439040056389871",
+    "handle": "@notsurajgaud",
+    "text": "Introducing brandpull  \n\ninstantly pull any website's branding kit in 10 seconds for agents and humans.\n\nnpx brandpull"
+   },
+   {
+    "statusId": "2058439130980425756",
+    "handle": "@notsurajgaud",
+    "text": "Here's the github"
+   },
+   {
+    "statusId": "2058443493266305439",
+    "handle": "@Lokendratwt",
+    "text": "This is awesome I was thinking of something similar but on ui where user can search brand of any site and it lists all of its components like cards, tabs, dialog etc"
+   },
+   {
+    "statusId": "2058443964089520161",
+    "handle": "@notsurajgaud",
+    "text": "try this"
+   },
+   {
+    "statusId": "2058440210351067173",
+    "handle": "@infinterenders",
+    "text": "🐐"
+   },
+   {
+    "statusId": "2074853704784842872",
+    "handle": "@SankalpJha26",
+    "text": "okay thats VALUE"
+   },
+   {
+    "statusId": "2089022637301457240",
+    "handle": "@BharathShips",
+    "text": "Had worked on something similar btw\n\n\nhttps://\ntypescrape.vercel.app"
+   },
+   {
+    "statusId": "2074924846186946758",
+    "handle": "@bydhruvil",
+    "text": "will be using it fossure, I have entire landing which needs to be fixed ;)"
+   }
+  ]
+ },
+ "https://x.com/okeolaoluwa4/status/1744007254116876451": {
+  "statusId": "1744007254116876451",
+  "focusNotFound": false,
+  "focus": {
+   "statusUrl": "https://x.com/okeolaoluwa4/status/1744007254116876451",
+   "name": "Olaoluwa (DhP.)",
+   "handle": "@okeolaoluwa4",
+   "createdAt": "2024-01-07T14:45:06.000Z",
+   "text": "The Playlist, The Billion Dollar Code, Super Pumped: The Battle For Uber",
+   "articleText": "Olaoluwa (DhP.)\n@okeolaoluwa4\nThe Playlist, The Billion Dollar Code, Super Pumped: The Battle For Uber\n8:15 PM · Jan 7, 2024\n·\n173\n Views\n2\n5",
+   "counts": {
+    "replies": 0,
+    "reposts": 0,
+    "likes": 2,
+    "views": 173,
+    "bookmarks": 5
+   },
+   "metricsLabel": "2 likes, 5 bookmarks, 173 views",
+   "quote": null,
+   "media": [],
+   "hasVideo": false,
+   "videoPoster": null,
+   "extLinks": [],
+   "tcoLinks": [],
+   "cardText": null,
+   "showThread": false
+  },
+  "parents": [
+   {
+    "statusId": "1743896918370226406",
+    "statusUrl": "https://x.com/archiexzzz/status/1743896918370226406",
+    "name": "Archie Sengupta",
+    "handle": "@archiexzzz",
+    "createdAt": "2024-01-07T07:26:40.000Z",
+    "text": "just finished watching silicon valley and im liberated. best series evaahh...",
+    "counts": {
+     "replies": 68,
+     "reposts": 26,
+     "likes": 924,
+     "views": 71305,
+     "bookmarks": 99
+    },
+    "metricsLabel": "68 replies, 26 reposts, 924 likes, 99 bookmarks, 71305 views",
+    "quote": null,
+    "media": [
+     "https://pbs.twimg.com/media/GDORAApbMAASWoK?format=jpg&name=medium"
+    ],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "1743899772631605621",
+    "statusUrl": "https://x.com/shravann44/status/1743899772631605621",
+    "name": "Shravann",
+    "handle": "@shravann44",
+    "createdAt": "2024-01-07T07:38:00.000Z",
+    "text": "I fear completing it, started 2 years ago. Scared of not finding anything similar to it.",
+    "counts": {
+     "replies": 2,
+     "reposts": 0,
+     "likes": 11,
+     "views": 2269,
+     "bookmarks": 2
+    },
+    "metricsLabel": "2 replies, 11 likes, 2 bookmarks, 2269 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "selfThread": [],
+  "replies": [],
+  "extraReplyCount": 0,
+  "conversationArticleCount": 3,
+  "allConversation": [
+   {
+    "statusId": "1743896918370226406",
+    "handle": "@archiexzzz",
+    "text": "just finished watching silicon valley and im liberated. best series evaahh..."
+   },
+   {
+    "statusId": "1743899772631605621",
+    "handle": "@shravann44",
+    "text": "I fear completing it, started 2 years ago. Scared of not finding anything similar to it."
+   },
+   {
+    "statusId": "1744007254116876451",
+    "handle": "@okeolaoluwa4",
+    "text": "The Playlist, The Billion Dollar Code, Super Pumped: The Battle For Uber"
+   }
+  ]
+ },
+ "https://x.com/sesurendhar/status/1641527469911212037": {
+  "statusId": "1641527469911212037",
+  "focusNotFound": false,
+  "focus": {
+   "statusUrl": "https://x.com/sesurendhar/status/1641527469911212037",
+   "name": "Surendhar",
+   "handle": "@sesurendhar",
+   "createdAt": "2023-03-30T19:47:01.000Z",
+   "text": "User inputs twitter user id, and then fetch posted tweets, liked tweets including images since gpt-4 supports images too. Then judge the user's character based on that. Name it judge me!",
+   "articleText": "Surendhar\n@sesurendhar\nUser inputs twitter user id, and then fetch posted tweets, liked tweets including images since gpt-4 supports images too. Then judge the user's character based on that. Name it judge me!\n1:17 AM · Mar 31, 2023\n·\n502\n Views\n3\n1",
+   "counts": {
+    "replies": 0,
+    "reposts": 0,
+    "likes": 3,
+    "views": 502,
+    "bookmarks": 1
+   },
+   "metricsLabel": "3 likes, 1 bookmark, 502 views",
+   "quote": null,
+   "media": [],
+   "hasVideo": false,
+   "videoPoster": null,
+   "extLinks": [],
+   "tcoLinks": [],
+   "cardText": null,
+   "showThread": false
+  },
+  "parents": [
+   {
+    "statusId": "1641515184866091008",
+    "statusUrl": "https://x.com/krishnerkar/status/1641515184866091008",
+    "name": "krish",
+    "handle": "@krishnerkar",
+    "createdAt": "2023-03-30T18:58:12.000Z",
+    "text": "i’m bored, drop some random crazy ideas/experiments to build with GPT-4.\n\ni’ll pick the one with most likes and ship it in 24 hours",
+    "counts": {
+     "replies": 16,
+     "reposts": 1,
+     "likes": 43,
+     "views": 16926,
+     "bookmarks": 9
+    },
+    "metricsLabel": "16 replies, 1 repost, 43 likes, 9 bookmarks, 16926 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "selfThread": [],
+  "replies": [],
+  "extraReplyCount": 0,
+  "conversationArticleCount": 2,
+  "allConversation": [
+   {
+    "statusId": "1641515184866091008",
+    "handle": "@krishnerkar",
+    "text": "i’m bored, drop some random crazy ideas/experiments to build with GPT-4.\n\ni’ll pick the one with most likes and ship it in 24 hours"
+   },
+   {
+    "statusId": "1641527469911212037",
+    "handle": "@sesurendhar",
+    "text": "User inputs twitter user id, and then fetch posted tweets, liked tweets including images since gpt-4 supports images too. Then judge the user's character based on that. Name it judge me!"
+   }
+  ]
+ },
+ "https://x.com/akash_content/status/1576487364255371264": {
+  "statusId": "1576487364255371264",
+  "focusNotFound": false,
+  "focus": {
+   "statusUrl": "https://x.com/akash_content/status/1576487364255371264",
+   "name": "Akash Jha | 🇮🇳",
+   "handle": "@akash_content",
+   "createdAt": "2022-10-02T08:20:52.000Z",
+   "text": "Have you tried this in any of your projects? 😂😂\n\nsource: Linkedin",
+   "articleText": "Akash Jha | 🇮🇳\n@akash_content\nHave you tried this in any of your projects? 😂😂\n\nsource: Linkedin\n0:03 / 0:10\n0:06\n1:50 PM · Oct 2, 2022\n74\n136\n1.2K\n163\nRelevant\nView quotes",
+   "counts": {
+    "replies": 74,
+    "reposts": 136,
+    "likes": 1268,
+    "views": 0,
+    "bookmarks": 163
+   },
+   "metricsLabel": "74 replies, 136 reposts, 1268 likes, 163 bookmarks",
+   "quote": null,
+   "media": [],
+   "hasVideo": true,
+   "videoPoster": "https://pbs.twimg.com/ext_tw_video_thumb/1576487017742884864/pu/img/h4Q-FFrW-QpOA2Zo.jpg",
+   "extLinks": [],
+   "tcoLinks": [],
+   "cardText": null,
+   "showThread": false
+  },
+  "parents": [],
+  "selfThread": [
+   {
+    "statusId": "1576490742184222721",
+    "statusUrl": "https://x.com/akash_content/status/1576490742184222721",
+    "name": "Akash Jha | 🇮🇳",
+    "handle": "@akash_content",
+    "createdAt": "2022-10-02T08:34:17.000Z",
+    "text": "yeah😂😂",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 0,
+     "views": 0,
+     "bookmarks": 0
+    },
+    "metricsLabel": "",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "replies": [
+   {
+    "statusId": "1576490442983493632",
+    "statusUrl": "https://x.com/Aryan_Sri_/status/1576490442983493632",
+    "name": "Aryan Srivastava",
+    "handle": "@Aryan_Sri_",
+    "createdAt": "2022-10-02T08:33:06.000Z",
+    "text": "That's seems fun to do will try for sure",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 0,
+     "views": 0,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 reply",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "1576839105496813568",
+    "statusUrl": "https://x.com/haider1/status/1576839105496813568",
+    "name": "Haider.",
+    "handle": "@haider1",
+    "createdAt": "2022-10-03T07:38:33.000Z",
+    "text": "I saw this post yesterday on LinkedIn. I'm definitely going to use this in my next project.\nHilarious 😂",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 0,
+     "views": 0,
+     "bookmarks": 0
+    },
+    "metricsLabel": "",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "1576784121317117952",
+    "statusUrl": "https://x.com/sachindev69/status/1576784121317117952",
+    "name": "Sachin Chaurasiya",
+    "handle": "@sachindev69",
+    "createdAt": "2022-10-03T04:00:04.000Z",
+    "text": "Gonna try on my next project it's really funny",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 8,
+     "views": 0,
+     "bookmarks": 0
+    },
+    "metricsLabel": "8 likes",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "1576497080465784832",
+    "statusUrl": "https://x.com/thisisamish/status/1576497080465784832",
+    "name": "amish verma",
+    "handle": "@thisisamish",
+    "createdAt": "2022-10-02T08:59:28.000Z",
+    "text": "Gonna implement this in my next project for sure 💗",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 5,
+     "views": 0,
+     "bookmarks": 0
+    },
+    "metricsLabel": "5 likes",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "1576603045634265088",
+    "statusUrl": "https://x.com/manish_gupta416/status/1576603045634265088",
+    "name": "Manish Gupta",
+    "handle": "@manish_gupta416",
+    "createdAt": "2022-10-02T16:00:32.000Z",
+    "text": "Awesome for validation use😄😄",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 3,
+     "views": 0,
+     "bookmarks": 0
+    },
+    "metricsLabel": "3 likes",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "1576809386756165632",
+    "statusUrl": "https://x.com/Santossmmu/status/1576809386756165632",
+    "name": "🐣Santos Mmu 🚀Up..nextJsDev! CodeSmith-JavaScript",
+    "handle": "@Santossmmu",
+    "createdAt": "2022-10-03T05:40:28.000Z",
+    "text": "Agr user mood pe na ho toh, System tod dalega ! \n😆😛",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 3,
+     "views": 0,
+     "bookmarks": 0
+    },
+    "metricsLabel": "3 likes",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "extraReplyCount": 0,
+  "conversationArticleCount": 8,
+  "allConversation": [
+   {
+    "statusId": "1576487364255371264",
+    "handle": "@akash_content",
+    "text": "Have you tried this in any of your projects? 😂😂\n\nsource: Linkedin"
+   },
+   {
+    "statusId": "1576490442983493632",
+    "handle": "@Aryan_Sri_",
+    "text": "That's seems fun to do will try for sure"
+   },
+   {
+    "statusId": "1576490742184222721",
+    "handle": "@akash_content",
+    "text": "yeah😂😂"
+   },
+   {
+    "statusId": "1576839105496813568",
+    "handle": "@haider1",
+    "text": "I saw this post yesterday on LinkedIn. I'm definitely going to use this in my next project.\nHilarious 😂"
+   },
+   {
+    "statusId": "1576784121317117952",
+    "handle": "@sachindev69",
+    "text": "Gonna try on my next project it's really funny"
+   },
+   {
+    "statusId": "1576497080465784832",
+    "handle": "@thisisamish",
+    "text": "Gonna implement this in my next project for sure 💗"
+   },
+   {
+    "statusId": "1576603045634265088",
+    "handle": "@manish_gupta416",
+    "text": "Awesome for validation use😄😄"
+   },
+   {
+    "statusId": "1576809386756165632",
+    "handle": "@Santossmmu",
+    "text": "Agr user mood pe na ho toh, System tod dalega ! \n😆😛"
+   }
+  ]
+ },
+ "https://x.com/ego_agent/status/2099513701770633350": {
+  "statusId": "2099513701770633350",
+  "focusNotFound": false,
+  "focus": {
+   "statusUrl": "https://x.com/ego_agent/status/2099513701770633350",
+   "name": "ego",
+   "handle": "@ego_agent",
+   "createdAt": "2026-09-14T15:00:48.000Z",
+   "text": "GPT can now learn skills by watching YouTube tutorials with ego (lite).\n\nWe had GPT-5.6 Sol use ego (lite) to watch a YouTube tutorial at 1.5x. Then it switched Spaces and recreated the quiz workflow in Google Forms from memory.\n\n36m50s. 64 ego-browser calls. Totally executable.",
+   "articleText": "ego\n@ego_agent\nGPT can now learn skills by watching YouTube tutorials with ego (lite).\n\nWe had GPT-5.6 Sol use ego (lite) to watch a YouTube tutorial at 1.5x. Then it switched Spaces and recreated the quiz workflow in Google Forms from memory.\n\n36m50s. 64 ego-browser calls. Totally executable.\n0:35\n8:30 PM · Sep 14, 2026\n·\n4,402\n Views\n5\n2\n33\n27\nRelevant\nView quotes",
+   "counts": {
+    "replies": 5,
+    "reposts": 2,
+    "likes": 33,
+    "views": 4402,
+    "bookmarks": 27
+   },
+   "metricsLabel": "5 replies, 2 reposts, 33 likes, 27 bookmarks, 4402 views",
+   "quote": null,
+   "media": [],
+   "hasVideo": true,
+   "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2099513649065017344/img/AQe62h-1glhYNuXp.jpg",
+   "extLinks": [],
+   "tcoLinks": [],
+   "cardText": null,
+   "showThread": false
+  },
+  "parents": [],
+  "selfThread": [],
+  "replies": [
+   {
+    "statusId": "2099721928659587331",
+    "statusUrl": "https://x.com/balabala289/status/2099721928659587331",
+    "name": "吧啦（格林版）",
+    "handle": "@balabala289",
+    "createdAt": "2026-09-15T04:48:13.000Z",
+    "text": "我擦 还能这样玩 可以多来点这样的showcase哈哈",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 1,
+     "views": 177,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 like, 177 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2099646004244979789",
+    "statusUrl": "https://x.com/razaaitech/status/2099646004244979789",
+    "name": "RAZA | AI EXPLORER",
+    "handle": "@razaaitech",
+    "createdAt": "2026-09-14T23:46:31.000Z",
+    "text": "This is a fascinating step toward AI learning workflows by observation.",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 0,
+     "views": 176,
+     "bookmarks": 0
+    },
+    "metricsLabel": "176 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2099546365722538451",
+    "statusUrl": "https://x.com/AliceInfoAi/status/2099546365722538451",
+    "name": "Alice The Ai Expert",
+    "handle": "@AliceInfoAi",
+    "createdAt": "2026-09-14T17:10:35.000Z",
+    "text": "That's amazing  learning a skill from a YouTube tutorial and recreating it end to end is seriously impressive!",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 0,
+     "views": 317,
+     "bookmarks": 0
+    },
+    "metricsLabel": "317 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "extraReplyCount": 0,
+  "conversationArticleCount": 4,
+  "allConversation": [
+   {
+    "statusId": "2099513701770633350",
+    "handle": "@ego_agent",
+    "text": "GPT can now learn skills by watching YouTube tutorials with ego (lite).\n\nWe had GPT-5.6 Sol use ego (lite) to watch a YouTube tutorial at 1.5x. Then it switched Spaces and recreated the quiz workflow in Google Forms from memory.\n\n36m50s. 64 ego-browser calls. Totally executable."
+   },
+   {
+    "statusId": "2099721928659587331",
+    "handle": "@balabala289",
+    "text": "我擦 还能这样玩 可以多来点这样的showcase哈哈"
+   },
+   {
+    "statusId": "2099646004244979789",
+    "handle": "@razaaitech",
+    "text": "This is a fascinating step toward AI learning workflows by observation."
+   },
+   {
+    "statusId": "2099546365722538451",
+    "handle": "@AliceInfoAi",
+    "text": "That's amazing  learning a skill from a YouTube tutorial and recreating it end to end is seriously impressive!"
+   }
+  ]
+ }
+}

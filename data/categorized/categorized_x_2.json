@@ -1,0 +1,3003 @@
+[
+ {
+  "uid": "X-127",
+  "platform": "Twitter",
+  "category": "Jobs, Careers & Compensation",
+  "subcategory": "referral outreach tactics",
+  "title": "How to actually ask for referrals at big firms vs startups",
+  "author": "Ahad 🥑",
+  "date": "2025-09-21",
+  "url": "https://x.com/a_hahahahad/status/1969738332604154061",
+  "engagement": "21 replies · 1.4K likes · 87.5K views",
+  "essence": "OP lays out a referral playbook: for MNCs, pull job IDs from the careers page and email employees with just job IDs + resume (nothing extra); for startups, cold DM or email with your CV, why you're relevant, and proof of work (portfolio, GitHub, past projects). In the self-thread he adds that a referral means your resume is directly reviewed by a hiring manager instead of being filtered by an automated system, and that the approach varies by company. Replies add a concrete upgrade - name something specific from the recipient's recent posts/projects so it doesn't read as mass spam - plus questions about how much a referral actually raises your odds and whether game theory is used in quant roles.",
+  "summary": "Split-by-company-type referral script; the 'reference their recent work' reply is the part that makes it work.",
+  "productLinks": [
+   "http://coldemails.world"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "job referrals",
+   "cold email",
+   "resume",
+   "hiring",
+   "career advice"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-128",
+  "platform": "Twitter",
+  "category": "Startups, Product & Marketing",
+  "subcategory": "Reddit mining for ideas",
+  "title": "How I find $1M business ideas by mining Reddit",
+  "author": "Hridoy Reh",
+  "date": "2025-09-18",
+  "url": "https://x.com/hridoyreh/status/1968616069418909799",
+  "engagement": "128 replies · 6.7K likes · 806.2K views",
+  "essence": "OP claims the way to find million-dollar ideas is to mine Reddit for problems people keep asking about but nobody has solved, since fully validating one such problem becomes a company; his self-thread adds that he loves Reddit for easy SEO wins and that, as always, the best marketer wins. Replies give the concrete hack - post 'is there some tool for X?', then edit the post later to say 'I tried {product} and it worked great' when it gains traction - while skeptics counter that a million people do the same thing and it's better to hunt hard-to-find hidden problems.",
+  "summary": "Classic idea-mining thread; the Reddit edit-to-promote trick in replies is the actionable nugget.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "idea validation",
+   "reddit",
+   "seo",
+   "indie hacking",
+   "growth"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-129",
+  "platform": "Twitter",
+  "category": "Personal Finance & Money",
+  "subcategory": "India health insurance claims",
+  "title": "Early insurance claim approved: customer paid Rs1 out of pocket",
+  "author": "Nikhil Jha",
+  "date": "2025-09-13",
+  "url": "https://x.com/NIKHILLJHA/status/1966794622593851634",
+  "engagement": "71 replies · 670 likes · 68.6K views",
+  "essence": "OP recounts a successful early claim: a customer bought a Rs25L Niva Bupa policy in March 2025, then needed a nerve-ballooning procedure; early claims are normally rejected and pushed to reimbursement, but his team escalated to top management, who reviewed and accepted it, so the customer paid just Re1. His self-thread says his firm has built insurer claim-support channels for exactly this and that companies don't give cashless in early claims. Replies split between praise for the advisor and outrage - 'if the claim was genuine why approach top management?' - with commenters arguing social media pressure is what actually moves insurers.",
+  "summary": "Insightful look at how Indian health claims really get paid; the 'why is this not corruption' debate is the value.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "health insurance",
+   "claims",
+   "niva bupa",
+   "india finance",
+   "consumer rights"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-130",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "CMU algorithms notes",
+  "title": "CMU Advanced Algorithms course: 285-page free notes",
+  "author": "Debasish (দেবাশিস্) Ghosh 🇮🇳",
+  "date": "2025-09-10",
+  "url": "https://x.com/debasishg/status/1966079825010983078",
+  "engagement": "2 replies · 464 likes · 31.1K views",
+  "essence": "Quoting Math Cafe's link to Carnegie Mellon's Advanced Algorithms notes PDF, OP praises the course design: it starts with classical algorithms, ends with modern ones tied to online algorithms and machine learning, and uses an interlude for the glue concepts connecting them, all backed by a 285-page set of notes. Only two replies and no substantive discussion were captured.",
+  "summary": "Pointer to a free, well-structured advanced-algorithms curriculum with a big notes PDF.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "algorithms",
+   "cmu",
+   "course notes",
+   "free education"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-131",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "URL to markdown converter",
+  "title": "into.md: prefix any URL to get clean, LLM-friendly markdown",
+  "author": "Timo Lins",
+  "date": "2025-09-01",
+  "url": "https://x.com/timolins/status/1962543056152145928",
+  "engagement": "49 replies · 1.1K likes · 120.4K views",
+  "essence": "OP shipped a weekend fix for the missing 'Copy as markdown' button: type into.md/ in front of any URL to get clean, LLM-friendly markdown for any website or docs page. His self-thread adds it's free, built with Nitro on Vercel with ISR caching, that most content sites aren't SPAs, that he added an Accept-Language header after locale complaints, and that it's Readability then Turndown under the hood. Replies marvel at the speed, flag that it fails on SPAs and sometimes switches page locale, and one maker points to a similar tool (content-parser.com) that auto-downloads the markdown.",
+  "summary": "Tiny utility, big bookmark count; caveats about SPAs and locale are in the replies.",
+  "productLinks": [
+   "https://into.md"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "markdown",
+   "llm tools",
+   "web scraping",
+   "content conversion",
+   "side project"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-132",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "build-from-scratch projects",
+  "title": "Bored? Build your own git, database, Redis, neural net, OS",
+  "author": "Kartik",
+  "date": "2025-09-01",
+  "url": "https://x.com/code_kartik/status/1962586954161365105",
+  "engagement": "54 replies · 7K likes · 334.9K views",
+  "essence": "OP posts a list of hands-on 'build your own' resources: git, a database, Redis, neural networks and an operating system, saying 'I can keep going'. The self-thread just adds encouraging nudge replies; discussion adds 'build your js framework' and the observation that finishing half the list would outlearn most computer science grads, while readers joke it spoiled their next four weekends and one says they are currently building git from scratch.",
+  "summary": "Best-in-class learn-by-building roundups - the kind of list people bookmark and never open.",
+  "productLinks": [
+   "https://wyag.thb.lt",
+   "https://build-your-own.org/database/",
+   "https://build-redis-from-scratch.dev/en/introduction",
+   "https://sausheong.github.io/posts/how-to-build-a-simple-artificial-neural-network-with-go/"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "build from scratch",
+   "systems programming",
+   "learning projects",
+   "git",
+   "databases"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-133",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "PageRank mathematics",
+  "title": "The mathematics of Google search: a PageRank deep dive",
+  "author": "karan",
+  "date": "2025-09-01",
+  "url": "https://x.com/karancl/status/1962491162113269886",
+  "engagement": "15 replies · 1.1K likes · 58.8K views",
+  "essence": "OP shares a deep dive into the mathematics behind Google search (PageRank) and follows up with links to three articles: a Cornell lecture, Stanford's CS54n PageRank handout, and QuantEcon's eigenvalue chapter, signing off 'love this!'. Replies recommend the highly-cited book Google's PageRank and Beyond (PDF shared), praise the math as the line between 'technicians and tacticians', and ask whether the basis of PageRank is Markov chains.",
+  "summary": "Compact bundle of PageRank learning material plus a classic textbook pointer in replies.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "pagerank",
+   "linear algebra",
+   "search algorithms",
+   "math"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-134",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "data structures checklist",
+  "title": "22 data structures to implement from a CS curriculum",
+  "author": "Dmitrii Kovanikov",
+  "date": "2025-08-26",
+  "url": "https://x.com/ChShersh/status/1960609256681431281",
+  "engagement": "55 replies · 2.2K likes · 597.3K views",
+  "essence": "Responding to a trending debate, OP lists 22 data structures worth hand-implementing, from linked list and dynamic array through AVL/red-black/B-trees, segment trees, heavy-light decomposition, link-cut trees, DSU and suffix structures; the post itself quotes his own earlier 'Haven't y'all already done all that during your CS curriculum?'. The self-thread adds bonus points for doing them in C++, a follow-up algorithms list, that he did C++ and Java at uni and later reimplemented half in Haskell, and that it spanned six terms. Replies ask whether C or Haskell teaches computer thinking better, whether this is really one term, and where quadtree is.",
+  "summary": "Debatable but genuinely useful implement-it-yourself syllabus; replies expose how ambitious it really is.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "data structures",
+   "cs curriculum",
+   "c++",
+   "haskell",
+   "learning checklist"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-135",
+  "platform": "Twitter",
+  "category": "Life, Relationships & Self-Improvement",
+  "subcategory": "yearly learning goals",
+  "title": "Pre-2025 list: MacBook Pro, DSA, distributed systems, CMU DB",
+  "author": "Tanay Vaswani",
+  "date": "2025-08-25",
+  "url": "https://x.com/iTanayVaswani/status/1959995705613013274",
+  "engagement": "7 replies · 366 likes · 19K views",
+  "essence": "OP lists what he wants to achieve before 2025 ends: a MacBook Pro (M4 Pro, 48GB), better algorithmic ability (24 questions), distributed systems, CMU's Intro to and Advanced Database Systems courses, low-level and high-level design, and fluency in C++ and TypeScript. No thread content or discussion was captured beyond the original list.",
+  "summary": "A concrete personal tech-growth bucket list - a usable template for planning a learning year.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "goal setting",
+   "learning plan",
+   "databases",
+   "dsa",
+   "career growth"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-136",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "backend engineering playlist",
+  "title": "Free backend playlist: HTTP to routing, security, scaling",
+  "author": "shivam ✶",
+  "date": "2025-08-15",
+  "url": "https://x.com/therajshivam/status/1956185918605582373",
+  "engagement": "27 replies · 3.7K likes · 228.3K views",
+  "essence": "OP shares a YouTube playlist on backend engineering that starts from HTTP and walks through routing, security and scaling, calling it simple, clear and actually useful and crediting @sriniously; his thread just repeats the link and says he's glad it helps. Replies call it a goldmine and an underrated gem, with several saying they're starting their backend journey with it and one joking they started a company after watching it.",
+  "summary": "Heavily bookmarked (7.1K) free backend curriculum - a reliable starting roadmap for self-taught devs.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "backend",
+   "playlist",
+   "http",
+   "learning resources"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-137",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "backend first-principles playlist",
+  "title": "Most underrated playlist to learn backend from first principles",
+  "author": "Kartik",
+  "date": "2025-09-11",
+  "url": "https://x.com/code_kartik/status/1966078512651284855",
+  "engagement": "48 replies · 6K likes · 273.5K views",
+  "essence": "OP calls an image-linked playlist one of the most underrated resources for learning backend from first principles, saying people keep posting it yet nobody consumes the goldmine. Only two conversation tweets were captured, so no reply discussion is available.",
+  "summary": "Second high-bookmarked (8,980) backend playlist rec in a row - the actual link lives in the attached screenshot.",
+  "productLinks": [],
+  "hasMedia": "image",
+  "topicTags": [
+   "backend",
+   "first principles",
+   "playlist",
+   "learning resources"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-138",
+  "platform": "Twitter",
+  "category": "Interviews, OA & DSA",
+  "subcategory": "Amazon OA question overlap",
+  "title": "LeetCode contest problem appeared in Amazon's SDE OA",
+  "author": "Aman 🧑‍💻",
+  "date": "2025-09-07",
+  "url": "https://x.com/avlmp03/status/1964599099749253309",
+  "engagement": "13 replies · 640 likes · 43.2K views",
+  "essence": "OP points out that problem 3 of today's LeetCode contest was asked directly in Amazon's SDE OA two months ago. Replies identify the technique as nearest-greater-left/right with a simple monotonic stack, some call it easy while others admit they only got brute force or reused trapping-rain-water code, one is encouraged to start contests, and another complains that SDE and SDE-intern OAs reuse the same questions.",
+  "summary": "Evidence that contest problems recycle into OAs - do recent contests before interviewing.",
+  "productLinks": [],
+  "hasMedia": "image",
+  "topicTags": [
+   "leetcode",
+   "amazon oa",
+   "monotonic stack",
+   "interview prep"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-139",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "ML math roadmap",
+  "title": "4000-word roadmap to master ML math before 2026",
+  "author": "ℏεsam",
+  "date": "2025-09-05",
+  "url": "https://x.com/Hesamation/status/1964070412163203499",
+  "engagement": "7 replies · 887 likes · 41.8K views",
+  "essence": "OP says now is the best time to get cracked at the mathematics behind machine learning and that he's found the perfect roadmap: a 4,000-word blog on what to learn (no fluff) and how to learn it. His follow-up says 'check it out here, and start now'. No reply discussion was captured beyond two conversation tweets.",
+  "summary": "A specific ML-math study roadmap for people who keep deferring the fundamentals.",
+  "productLinks": [],
+  "hasMedia": "image",
+  "topicTags": [
+   "ml math",
+   "roadmap",
+   "calculus",
+   "self study"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-140",
+  "platform": "Twitter",
+  "category": "Startups, Product & Marketing",
+  "subcategory": "lifetime-deal clones",
+  "title": "Sell 'lifetime' clones of overpriced SaaS on AppSumo",
+  "author": "Pyrate",
+  "date": "2025-07-31",
+  "url": "https://x.com/CEOLandshark/status/1951018530536825309",
+  "engagement": "12 replies · 1.4K likes · 206.6K views",
+  "essence": "OP's advice for broke technical people: clone an overpriced product like ManyChat and sell it lifetime - ideally $297, not $1000 - give affiliates 30%, and launch on AppSumo-type sites rather than building another forgettable indie-hacker app; he adds a second play, outsourcing menial tasks you do at a $3/hour valuation to Indian devshop owners who are worse at them. Replies say lifetime deals have been some of their best software investments, but push back that the problem is never the product, it's marketing, that classic lifetime deals shut down months later, and that server and update costs are exactly why subscriptions exist.",
+  "summary": "Contrarian AppSumo lifetime-deal playbook plus the strongest objections to it, in one thread.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "lifetime deals",
+   "appsumo",
+   "indie hacker",
+   "monetization",
+   "marketing"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-141",
+  "platform": "Twitter",
+  "category": "Life, Relationships & Self-Improvement",
+  "subcategory": "marriage takeaways for men",
+  "title": "8 months of marriage: takeaways for guys",
+  "author": "Saad Aftab",
+  "date": "2025-07-25",
+  "url": "https://x.com/SaadAftab8/status/1948860703755878461",
+  "engagement": "281 replies · 34.2K likes · 2.3M views",
+  "essence": "OP shares eight months of nikkah takeaways for men: learn women's skincare and makeup vocabulary (contour, lip oil, brands like Huda) to gift well, baby's breath and fluffy toys make great gifts, control your temperament constantly, post and react to her reels even when not asked, and above all fix your memory with a diary - expensive gifts matter less than meaningful ones. The self-thread continues the list, jokes with angry repliers ('some of you are either incels or really hate happiness'), confirms he's sending his wife another bouquet, and drops an NGL link for anonymous questions. The post drew 281 replies and 34K likes with only 8 captured conversation tweets.",
+  "summary": "Viral relationship thread with an unusually specific gift/gesture checklist; light but high-reach.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "marriage",
+   "relationships",
+   "gifts",
+   "habits"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-142",
+  "platform": "Twitter",
+  "category": "Entertainment, Culture & Fun",
+  "subcategory": "tech movies watchlist",
+  "title": "Crowdsourcing the ultimate tech-bro movies and shows list",
+  "author": "Yash Bhardwaj",
+  "date": "2025-06-10",
+  "url": "https://x.com/ybhrdwj/status/1932320909807005780",
+  "engagement": "427 replies · 4.8K likes · 636.8K views",
+  "essence": "OP is compiling a list of tech-bro movies and shows and asks what he missed; his self-thread reacts to the suggestions - mortified to have forgotten Moneyball, arguing Ashton Kutcher IS Steve Jobs, admitting he missed the DeepMind-vs-Lee-Sedol documentary (calling AlphaGo his favourite doc), praising Ready Player One, and insisting anyone discovering The Matrix from a list in 2025 should quit. Replies argue Big Short and Margin Call belong, fight over the 2013 vs 2015 Jobs movies, and add the Kasparov-vs-IBM miniseries, Her, Westworld, The Matrix and Halt and Catch Fire.",
+  "summary": "Crowd-curated watchlist with 7,929 bookmarks - the replies are the actual list.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "movies",
+   "tv shows",
+   "tech culture",
+   "watchlist"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-143",
+  "platform": "Twitter",
+  "category": "Quant & Trading",
+  "subcategory": "HFT screening test",
+  "title": "Optiver screening round: 80 questions in 8 minutes at IIT",
+  "author": "Akshay Kumar",
+  "date": "2025-06-08",
+  "url": "https://x.com/Aakshayy12/status/1931767612741964053",
+  "engagement": "66 replies · 839 likes · 90.9K views",
+  "essence": "OP shares Optiver's HFT screening round at an IIT - 80 questions in 8 minutes - and dares people to try it; his self-thread shows him challenging friends to solve it and posting his own score of 55. Replies report scores of 43, 57 and 74, one taking 8 minutes for a single question, others ask about format and cutoffs and leave answers in fractions, and one remarks 'there is a reason these HFTs pay in crores' while another credits mental-math practice apps.",
+  "summary": "Real quant-firm arithmetic screen with crowd-sourced scores - good calibration for OA prep.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "optiver",
+   "hft",
+   "quant interview",
+   "mental math",
+   "oa"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-144",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "learn ML by building",
+  "title": "Stop taking ML courses - just train a model",
+  "author": "vik",
+  "date": "2025-06-07",
+  "url": "https://x.com/vikhyatk/status/1931196085508481370",
+  "engagement": "53 replies · 2.8K likes · 207.5K views",
+  "essence": "OP begs newcomers to ML to stop enrolling in yet another 'mathematics foundation III' online course and instead train something - finetune ResNet-50, do a Stable Diffusion LoRA, anything but another course. His self-thread concedes courses have value only when paired with real practice and that many confuse taking courses with learning, jokes a react-to-a-video course was more entertaining than Game of Thrones, and shares that his first attempt was a YouTube-to-MIDI piano model that kept pressing random keys. Replies agree they learned far more in practice than from the Coursera/Octave era, and one says just train bad, decent and good models.",
+  "summary": "Popular build-first pushback against course-hoarding - useful counterweight to roadmap threads.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "machine learning",
+   "learning by doing",
+   "finetuning",
+   "courses"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-145",
+  "platform": "Twitter",
+  "category": "Startups, Product & Marketing",
+  "subcategory": "faceless video automation",
+  "title": "$47K/mo TikTok faceless-video n8n automation (kept secret)",
+  "author": "4nzn",
+  "date": "2025-06-04",
+  "url": "https://x.com/paoloanzn/status/1930328755907559696",
+  "engagement": "2K replies · 4.6K likes · 762.3K views",
+  "essence": "OP teases a guarded n8n workflow used by a creator earning $47K a month: it generates Peter Griffin and Stewie conversations, clones their voices with AI, overlays them on Minecraft parkour gameplay, adds perfectly timed subtitles and renders upload-ready videos - brain-rot formats supposedly pulling 10M+ views, with faceless channels claiming $15K-$50K monthly. He frames the background gameplay plus AI dialogue as deliberate dopamine manipulation, and his only follow-up teases people still asking for the workflow. The post drew 1,967 replies but just 4,581 likes - a signature bait-driven funnel.",
+  "summary": "Case study in AI-content farming and engagement bait; treat the revenue numbers as marketing.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "ai automation",
+   "n8n",
+   "faceless content",
+   "tiktok",
+   "creator economy"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-146",
+  "platform": "Twitter",
+  "category": "Jobs, Careers & Compensation",
+  "subcategory": "cold-email job creation",
+  "title": "You can just write an email and invent a job",
+  "author": "Arav Kumar",
+  "date": "2025-05-21",
+  "url": "https://x.com/AI_Arav/status/1925301080180564294",
+  "engagement": "64 replies · 2.4K likes · 198.3K views",
+  "essence": "OP's claim: you can cold-email a company into creating or handing you a job - 'you can just write an email and invent a job'. His self-thread quotes the encouraging replies he got ('I can't wait to spend the year learning from you', 'come back to SF') and notes a Northeastern intern who is both cracked and humble. Replies include Amplitude's Spenser Skates welcoming him aboard, a consumer founder's list of colleges producing cracked-but-humble interns (Georgia Tech, Waterloo, UT Austin, Northeastern, McGill, UNC, UW, UIUC), a request to see the email's top half, and a pointer to tailored-cover-letter discourse.",
+  "summary": "Proof that the cold-email-to-job route works, plus a founder's target-school list.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "cold email",
+   "job hunting",
+   "internships",
+   "hustle"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-147",
+  "platform": "Twitter",
+  "category": "Startups, Product & Marketing",
+  "subcategory": "India payment gateways",
+  "title": "Stripe absent from India? 4 payment gateway options",
+  "author": "Amit | Frogomo | AI 🐸",
+  "date": "2025-05-09",
+  "url": "https://x.com/frog_omo/status/1920748996273865031",
+  "engagement": "17 replies · 227 likes · 17K views",
+  "essence": "Answering a reply that asks what to use for Indian and global users since Stripe isn't available in India, OP compares Razorpay (best local option, 98.2% uptime, solid dashboard), DodoPayments (underrated for international-to-India, quoted at 1.9% + Rs3), PayU (enterprise-grade but clunky API) and Cashfree (decent for recurring billing), and says his costliest mistake was building payment logic into the core app. In the follow-up he admits he misquoted DodoPayments' rate - it actually charges 4% + 40 cents - which two replies independently correct, while others ask about Paddle and whether Razorpay works outside India.",
+  "summary": "Handy India gateway shortlist; the fee correction in-thread is a good reminder to verify pricing claims.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "payments",
+   "razorpay",
+   "stripe alternative",
+   "india saas",
+   "billing"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-148",
+  "platform": "Twitter",
+  "category": "Entertainment, Culture & Fun",
+  "subcategory": "landing page hero text joke",
+  "title": "crazy hero text",
+  "author": "Sara Du",
+  "date": "2025-05-06",
+  "url": "https://x.com/saradu/status/1919562743419699614",
+  "engagement": "30 replies · 916 likes · 94.9K views",
+  "essence": "OP posts only three words - 'crazy hero text' - evidently reacting to an unusual or badly written landing-page headline (no quote or media survived extraction), and it still drew 30 replies, 916 likes and 732 bookmarks. No self-thread and no reply digest were captured, so the substance of the joke and the reactions are unavailable.",
+  "summary": "Context-stripped design joke; useful only as evidence that punchy hero-copy reactions travel far.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "landing page",
+   "copywriting",
+   "design",
+   "joke"
+  ],
+  "worthFollowUp": "low"
+ },
+ {
+  "uid": "X-149",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "ML/DL video playlists",
+  "title": "2 playlists to understand any ML paper",
+  "author": "Victor",
+  "date": "2025-02-18",
+  "url": "https://x.com/victor_explore/status/1891722048902201472",
+  "engagement": "5 replies · 884 likes · 73.4K views",
+  "essence": "OP claims that studying two playlists - machine learning and deep learning - is enough to pick up any ML paper and understand it, promising a roadmap post soon and dropping both YouTube links in the follow-up. Replies thank him and one asks for prerequisites beyond basic-to-intermediate maths (having already covered the GATE DA syllabus).",
+  "summary": "Tightly scoped, heavily saved (1,404 bookmarks) video curriculum aimed at reading papers.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "machine learning",
+   "deep learning",
+   "playlist",
+   "papers"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-150",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "fast.ai course",
+  "title": "Free course for people who already code",
+  "author": "Victor",
+  "date": "2025-02-12",
+  "url": "https://x.com/victor_explore/status/1889718935181992220",
+  "engagement": "7 replies · 2.1K likes · 159.2K views",
+  "essence": "OP recommends a free course designed for people with some coding experience and, in the follow-up, drops course.fast.ai plus a link to a related post of his. Replies mostly thank him; one asks where to find the course and others say they'll check it out.",
+  "summary": "fast.ai is still the standard practical deep-learning entry point - 2,803 bookmarks prove demand.",
+  "productLinks": [
+   "https://course.fast.ai"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "deep learning",
+   "fast.ai",
+   "free course",
+   "practical ml"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-151",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "GenAI learning path",
+  "title": "Gen AI roadmap: Karpathy, transformers, fine-tuning, RAG, agents",
+  "author": "Romee Panchal",
+  "date": "2025-02-13",
+  "url": "https://x.com/romitheguru/status/1889866779138109847",
+  "engagement": "6 replies · 678 likes · 33K views",
+  "essence": "OP's path for people who already know Python and neural-net basics: go through Karpathy's Zero to Hero series, train a small transformer on a toy dataset with Hugging Face to understand training/tokenization/inference, then fine-tune a pretrained LLM, then move to RAG and agentic systems, using ChatGPT or Claude for project ideas. His self-thread stresses practical skills that solve company problems, notes AI engineers are not data scientists, links DataCamp's fine-tuning tutorial and an LLM handbook, and frames building projects to expose your gaps as the real test. Replies split into two tracks - pure LLM/agent work versus MLE/data-science fundamentals that actually get you hired - and someone asks for resources on DeepSeek RL.",
+  "summary": "Actionable staged GenAI roadmap, with replies clarifying the AI-engineer vs MLE fork.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "genai",
+   "roadmap",
+   "rag",
+   "fine-tuning",
+   "karpathy"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-152",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "NVIDIA free courses",
+  "title": "NVIDIA made all its courses free",
+  "author": "konrad",
+  "date": "2025-01-28",
+  "url": "https://x.com/konradgajdus/status/1884352358253039906",
+  "engagement": "275 replies · 54.4K likes · 4M views",
+  "essence": "OP announces that NVIDIA made all of its courses free, and his follow-ups share a new link after the original broke, note there is some CUDA content but it is otherwise 'pretty generic', and report 'you guys broke the site'. Replies ask whether the courses lock you into NVIDIA systems or libraries, one says the content was always free for them, and another reacts with a flat 'uhh'.",
+  "summary": "High-reach alert (3.9M views, 38,935 bookmarks) on free NVIDIA training including CUDA material.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "nvidia",
+   "free courses",
+   "cuda",
+   "upskilling"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-153",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "two ML skill tracks",
+  "title": "Two approaches to mastering ML and getting hired",
+  "author": "Karan🧋",
+  "date": "2025-01-24",
+  "url": "https://x.com/kmeanskaran/status/1882873136892555553",
+  "engagement": "24 replies · 1.5K likes · 72.8K views",
+  "essence": "OP frames mastering ML as two approaches: (1) maths, in-depth neural networks and transformer/stable-diffusion architectures, and (2) fine-tuning, API gateways, agents and ML system design. His self-thread advises keeping them separate with different time budgets - 1 hour/day on skill 1, 4 hours/day on skill 2 - prioritising skill 2 for the resume because skill 1 is the long game ('just skill 2 makes you an Uber driver, skill 1 too makes you an F1 driver'), while insisting it's '1 and 2 both', MLOps is critical, statistics matter for feature engineering, and he spends weekends on path 1 plus side projects with agentic frameworks. Replies add a third track (MLOps: deploy, scale, monitor), warn that everyone does track 2 so track 1 is the differentiator (token-mismatch bugs betray missing fundamentals), and ask for fine-tuning GitHub projects.",
+  "summary": "Clear theory-vs-applied learning framework; the consensus that you need both tracks is the takeaway.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "ml career",
+   "learning tracks",
+   "mlops",
+   "system design"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-154",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "logistic regression to transformers",
+  "title": "Week-by-week path from logistic regression to transformers",
+  "author": "Romee Panchal",
+  "date": "2025-01-24",
+  "url": "https://x.com/romitheguru/status/1882655346319376664",
+  "engagement": "7 replies · 257 likes · 14.2K views",
+  "essence": "OP promotes a structured, week-by-week learning path with resources, projects and practical tips to get from logistic regression to transformers, sharing a Substack link and advising to learn basic operations first and pick up the rest along the way. Replies ask whether to learn PyTorch first and praise the references and structure.",
+  "summary": "Dated but concrete weekly ML roadmap; still a decent checklist of intermediate topics.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "ml roadmap",
+   "transformers",
+   "substack",
+   "structured learning"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-155",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "backprop math video",
+  "title": "16-year-old's 5-hour neural net math guide, then he vanished",
+  "author": "ₕₐₘₚₜₒₙ",
+  "date": "2025-01-23",
+  "url": "https://x.com/hamptonism/status/1882296260805447811",
+  "engagement": "57 replies · 12.3K likes · 779.5K views",
+  "essence": "OP marvels that a 16-year-old created a 5-hour complete guide to the mathematics of neural networks and backpropagation and then completely disappeared. Replies joke he must be at a US government black site or got grounded, others say he is clearly planning a reinforcement-learning follow-up, that you can just find him on Twitter, and one points to his own reply saying he went back to school; a couple post flame replies.",
+  "summary": "Pointer to a beloved 5-hour backprop maths resource - and where its teen author went.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "neural networks",
+   "backpropagation",
+   "video course",
+   "math"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-156",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "JSON alternatives",
+  "title": "24 years later, something better than JSON?",
+  "author": "Dmitrii Kovanikov",
+  "date": "2025-01-22",
+  "url": "https://x.com/ChShersh/status/1882158898033160619",
+  "engagement": "48 replies · 362 likes · 61.1K views",
+  "essence": "OP quips that it took 24 years to come up with something better than JSON, reacting to a new data format (CCL); the self-thread reframes CCL as a meta-language for building your own language on top, says cross-application compatibility must be ensured by tooling, compares it to YAML's ambiguity (one app may ignore case), and jokes about liking and quote-tweeting his own pinned posts. Replies are split: one reader who shared it with his team likes the idea but says undefined data types just push the parsing problem down the line (how do you parse a date?), others ask for the link, mock the self-promotion, or say 'fk this back to XML'.",
+  "summary": "JSON-killer discourse with the sharpest critique (no type definitions) stated plainly.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "data formats",
+   "json",
+   "serialization",
+   "developer tools"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-157",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "serialization format suggestion",
+  "title": "Reply: what about capnproto.org?",
+  "author": "T-bone",
+  "date": "2025-01-22",
+  "url": "https://x.com/tchon/status/1882171879508803954",
+  "engagement": "1 reply · 2 likes · 924 views",
+  "essence": "In the 'better than JSON' thread, OP's entire contribution is a link to capnproto.org offered as an alternative serialization format. The single captured reply, 'Not human readable', states the counterargument.",
+  "summary": "One-line pointer to Cap'n Proto in the serialization debate - and its usability caveat.",
+  "productLinks": [
+   "https://capnproto.org"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "capnproto",
+   "serialization",
+   "rpc",
+   "json alternative"
+  ],
+  "worthFollowUp": "low"
+ },
+ {
+  "uid": "X-158",
+  "platform": "Twitter",
+  "category": "Startups, Product & Marketing",
+  "subcategory": "AI fine-tuning agency",
+  "title": "Charge $20K-$50K per DeepSeek R1 fine-tuning job",
+  "author": "CJ Zafir",
+  "date": "2025-01-21",
+  "url": "https://x.com/cjzafir/status/1881708227580318090",
+  "engagement": "92 replies · 2.8K likes · 348.5K views",
+  "essence": "OP argues fine-tuning is a blue-ocean service business: DeepSeek R1 is the first open-source model that is consistently good on local servers, so charge companies $20K-$50K per job. His self-thread adds that posting process, limitations and step-by-step guides on X and YouTube floods you with inbound clients, that you deploy the 400GB model on clients' internal servers rather than cloud (with enough GPUs/VRAM), that a wave of wrapper agents is coming, and even floats fine-tuning on business-outcome data to predict which companies will flop. Replies counter that the hard part is finding companies to sell to, that bad fine-tuners blame the base model (data is the real blocker), that hosting costs are opaque without a strong business case, and that AI-wrapper products may surge again.",
+  "summary": "Popular agency-revenue playbook paired with the honest objections about sales and data.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "fine-tuning",
+   "deepseek",
+   "ai agency",
+   "b2b services",
+   "monetization"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-159",
+  "platform": "Twitter",
+  "category": "Interviews, OA & DSA",
+  "subcategory": "heuristic contest strategy",
+  "title": "One tip per like: a heuristic/bot programming contest masterclass",
+  "author": "Psyho",
+  "date": "2022-12-21",
+  "url": "https://x.com/FakePsyho/status/1605570944537280512",
+  "engagement": "20 replies · 2K likes · 243.7K views",
+  "essence": "OP runs an experiment - one tip per like in 24 hours - and delivers a numbered masterclass on heuristic and bot contests: a disclaimer that 280 characters can't hold 15 years of experience, a free tip that everyone struggles with different subjects, that week-long contests leave time to do all your research during the contest (unlike CP, where you train for years), that you never need advanced math because you can always write simulation code (only Bayes' theorem excepted, 'I don't know calculus'), that beam search and simulated annealing are the only two techniques really worth knowing, that touch typing is priority #1 (10-30 hours to learn), the difference between H and B contests, and the best sites - Topcoder marathon and AtCoder AHC for heuristics, CodinGame for bots. No reply digest was captured.",
+  "summary": "Dense, experience-backed competitive-programming advice from someone with ~200 contests of context.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "competitive programming",
+   "heuristics",
+   "topcoder",
+   "optimization",
+   "contest tips"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-160",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "McIlroy dictionary compression",
+  "title": "How McIlroy fit a 250kB dictionary into 64kB of RAM",
+  "author": "Abhinav Upadhyay",
+  "date": "2025-01-18",
+  "url": "https://x.com/abhi9u/status/1880527449471217844",
+  "engagement": "44 replies · 3.6K likes · 355.6K views",
+  "essence": "OP tells the story of Douglas McIlroy's 1970s Unix spell-checker: fitting a 250kB dictionary into 64kB with fast lookups when even gzip -9 only reaches 85kB - instead of generic compression, McIlroy analysed the data distribution and built an algorithm just 0.03 bits from the theoretical limit, still unbeaten, framed as a lesson in designing to constraints. The self-thread links his article and clarifies that the successive hash differences (not the codes) were geometrically distributed; replies call it a sign that constraints bred creativity, nitpick where the theoretical limit of 13.57 bits/word comes from, and link a similar Wordle word-list compression golf challenge.",
+  "summary": "Great engineering short-story with article link; the clarification replies make it rigorous.",
+  "productLinks": [
+   "http://golf.horse/wordle/"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "compression",
+   "unix history",
+   "algorithms",
+   "systems design"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-161",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "free vision API",
+  "title": "Moondream: free OpenAI-compatible vision API in 3 lines",
+  "author": "moondream",
+  "date": "2025-01-15",
+  "url": "https://x.com/moondreamai/status/1879610041499787618",
+  "engagement": "55 replies · 1.5K likes · 197.9K views",
+  "essence": "OP pitches swapping OpenAI for Moondream's free vision API in just three lines of code. The self-thread links the OpenAI-compatibility docs and a free API key signup, then discloses the catch - 5,000 queries per day unless you contact them - and notes the 2025.1.9 release improved text OCR and understanding. The single captured reply asks exactly that: what's the catch with such a small model, how many free tokens, and how good is OCR.",
+  "summary": "Free drop-in vision/OCR API with an honest rate-limit disclosure - worth a tryout.",
+  "productLinks": [
+   "https://console.moondream.ai"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "vision api",
+   "ocr",
+   "openai compatible",
+   "free tier",
+   "moondream"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-162",
+  "platform": "Twitter",
+  "category": "Startups, Product & Marketing",
+  "subcategory": "zero-follower promotion playbook",
+  "title": "How I'd promote my startup with 0 followers (Part 3)",
+  "author": "Natia Kurdadze",
+  "date": "2025-01-15",
+  "url": "https://x.com/natiakourdadze/status/1879565960098832641",
+  "engagement": "28 replies · 702 likes · 130.8K views",
+  "essence": "OP's seven-step zero-audience promotion plan: auto-submit to 100 business directories via boringlaunch.com for initial traffic; win clients with Lemlist's LinkedIn voice outreach (filter ICPs by title/location, automate connection requests); mine the Facebook Ads Library for people who commented on competitor ads and DM them; find micro-influencers with Eezycollab's free trial by engagement rate; drop thoughtful advice plus your link in Hacker News comments (unlike posts, comments allow links); warm up Reddit leads from big niche communities with a non-spammy opener; and a pitch for her paid startup accelerator. One reply recommends getseer.com for the same social-listening angle since X and Reddit don't make search easy.",
+  "summary": "Very actionable growth-hack stack with several concrete tools named - a classic bookmark.",
+  "productLinks": [
+   "https://boringlaunch.com",
+   "https://eezycollab.com",
+   "http://news.ycombinator.com",
+   "https://spaceleads.lemonsqueezy.com/buy/06a20802-1b7a-4be9-8382-485fb2d30405",
+   "https://getseer.com"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "growth marketing",
+   "lead gen",
+   "directories",
+   "cold outreach",
+   "startup launch"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-163",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "Nvidia Cosmos career bet",
+  "title": "Students: put 50%+ of your learning time into Nvidia Cosmos",
+  "author": "Gautam",
+  "date": "2025-01-09",
+  "url": "https://x.com/normie_gautam/status/1877222339496014137",
+  "engagement": "4 replies · 143 likes · 4.5K views",
+  "essence": "OP's advice for students pursuing AI who want to make serious money within a year: take Nvidia Cosmos, read the open repo, understand its applications, and invest more than 50% of learning time in it for a few months because the ROI will be high. Replies include a first-semester student worried he can't even write C yet and will miss the wave, a one-word agreement, and someone asking whether the advice is legit.",
+  "summary": "A concentrated single-stack career bet for AI students - directional rather than detailed.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "nvidia cosmos",
+   "robotics",
+   "ai career",
+   "students"
+  ],
+  "worthFollowUp": "low"
+ },
+ {
+  "uid": "X-164",
+  "platform": "Twitter",
+  "category": "Health, Fitness & Wellness",
+  "subcategory": "recovery for muscle growth",
+  "title": "8 ways to recover like a pro (muscles grow at rest)",
+  "author": "Joey Yochheim",
+  "date": "2025-01-07",
+  "url": "https://x.com/joeyyochheim/status/1876640825011994915",
+  "engagement": "24 replies · 1.1K likes · 515.8K views",
+  "essence": "OP's hook: most guys think getting jacked is about grinding in the gym, but recovery is where gains are made, and he runs through eight ways to recover like a pro. The captured thread portion covers the first three - sleep 7-9 hours because muscle is built at rest, drink water (roughly 1oz per lb of bodyweight) for nutrient transport and waste removal, and nail the food basics (slight calorie deficit, 1g protein per lb, whole foods 80% of the time) before worrying about supplements. No reply digest was captured despite 24 replies.",
+  "summary": "Standard but solid recovery checklist - 1,513 bookmarks suggests people actually save it.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "recovery",
+   "sleep",
+   "protein",
+   "muscle growth",
+   "hydration"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-165",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "LLM-ready web scraping",
+  "title": "Crawl4AI: free open-source crawler built for LLMs",
+  "author": "Akshay 🚀",
+  "date": "2025-01-03",
+  "url": "https://x.com/akshay_pachaar/status/1875166693154271300",
+  "engagement": "35 replies · 2.4K likes · 208.1K views",
+  "essence": "OP argues web scraping changed for good with Crawl4AI, a free open-source crawler that outputs LLM-friendly formats (JSON, cleaned HTML, markdown), crawls multiple URLs at once, extracts media tags, links and page metadata, and supports custom hooks, user-agent spoofing, screenshots and pre-crawl JavaScript execution; he promises the GitHub repo in the next tweet, where he posts the repo link (de-wrapped from the extracted text). Replies debate whether it beats paid tools - one directly asks 'Better than @firecrawl?' - a fan says the tool is 'wicked' and even has a GPT Store assistant, a marketer calls it the new AI-scraping paradigm, and a Cohorte blog link repost drops a LlamaIndex financial-analysis use case.",
+  "summary": "Strong free alternative to paid scrapers; the Firecrawl comparison question is unanswered in-thread.",
+  "productLinks": [
+   "https://github.com/unclecode/crawl4ai"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "web scraping",
+   "crawl4ai",
+   "llm tools",
+   "open source",
+   "data extraction"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-166",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "document-to-markdown parser",
+  "title": "Microsoft MarkItDown: convert any file to Markdown",
+  "author": "Akshay 🚀",
+  "date": "2025-01-02",
+  "url": "https://x.com/akshay_pachaar/status/1874795304920445123",
+  "engagement": "70 replies · 3.7K likes · 403.6K views",
+  "essence": "OP announces Microsoft's MarkItDown, a 100% open-source one-stop converter that turns PDF, Word, Excel, PPT, images and audio into Markdown with automatic EXIF/OCR/transcripts, available via CLI, Python API or Docker, with LLM-based image descriptions and batch conversion; the self-thread carries the GitHub repo link (de-wrapped from the extracted text) plus his note that he has used Docling and owes a comparison test. Replies push exactly that - 'how does it compare to docling?' - a builder replies he shipped a free REST API for MarkItDown, a Cohorte blog link reposts an LLM-landscape piece, and Jaydeep simply calls it excellent stuff from MSFT.",
+  "summary": "Microsoft's answer to Docling/unstructured; the Docling comparison is the open question.",
+  "productLinks": [
+   "https://github.com/microsoft/markitdown"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "markitdown",
+   "document parsing",
+   "markdown",
+   "microsoft",
+   "llm tools"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-167",
+  "platform": "Twitter",
+  "category": "Health, Fitness & Wellness",
+  "subcategory": "fat loss transformation plan",
+  "title": "Wake up fat today? Everything to do before summer",
+  "author": "Chace Chambers",
+  "date": "2025-01-01",
+  "url": "https://x.com/ChamberofFit/status/1874467024598180215",
+  "engagement": "137 replies · 27.7K likes · 8.7M views",
+  "essence": "OP's hook: if he woke up with a big belly and wanted to be unrecognisable by summer 2025, here is everything he would do - the captured thread covers prioritising protein (40g+ per meal, 1g per lb bodyweight), lifting weights 3-5 sessions a week so fat loss doesn't eat muscle, eating nutrient-dense whole foods 90% of the time with a 10% flexibility slice, and shifting to a food-as-fuel mindset. No replies were captured (discussion empty) but the post drew 137 replies, 1,187 reposts, 27.7K likes and 46K bookmarks.",
+  "summary": "A viral, screenshot-friendly fat-loss checklist - benchmark for engagement on fitness listicles.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "fat loss",
+   "protein",
+   "strength training",
+   "nutrition",
+   "habits"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-168",
+  "platform": "Twitter",
+  "category": "Health, Fitness & Wellness",
+  "subcategory": "annual habit challenge",
+  "title": "Try this year: no alcohol, eggs, steps, pushups, daily writing",
+  "author": "blue",
+  "date": "2025-01-01",
+  "url": "https://x.com/bluewmist/status/1874314285335404934",
+  "engagement": "95 replies · 6.7K likes · 384.5K views",
+  "essence": "OP posts a nine-item annual challenge - no alcohol, 4-6 eggs a day, 3 litres of water, 7-8 hours sleep, 10,000+ steps, 50+ push-ups daily, no sugar at breakfast, 1,000 words written daily, and five gratitude items - and in the self-thread jokes 'sorry to break this to you, but I eat 9 per day and I am fit'. Replies worry about cholesterol, advise picking just one goal rather than all nine, a troll posts an inverted list ending in 'buy bitcoin', someone adds 5-10 minutes of prayer, and another dismisses it as preachy health grindset nonsense.",
+  "summary": "Viral New Year's listicle with a lively skeptic/reply section - a good read on habit-thread engagement.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "habits",
+   "new year",
+   "fitness challenge",
+   "writing habit",
+   "gratitude"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-169",
+  "platform": "Twitter",
+  "category": "Health, Fitness & Wellness",
+  "subcategory": "distilled longevity protocol",
+  "title": "Sleep, exercise, no alcohol, no blue light: the distilled protocol",
+  "author": "Ani Emmadi",
+  "date": "2024-12-29",
+  "url": "https://x.com/aniemmadi/status/1873433921888846242",
+  "engagement": "61 replies · 3.1K likes · 672.6K views",
+  "essence": "Replying to Aaron Francis asking whether anyone had distilled all the Huberman/Bryan Johnson/Peter Attia advice, OP lists sleep 8 hours, exercise at least 30 minutes a day, no alcohol (even a single sip), unprocessed high-protein food, no eating 3 hours before bed, avoid blue light - 'profit'. His self-thread adds that physical health spreads positivity and that many report feeling happier emotionally after starting to work out, and clarifies the warning is about ultra-processed and canned foods. Replies add morning sunlight, Bryan Johnson's olive-oil supplement tip, 'fix emotional health first because nothing else matters', missing supplements, and skepticism about the blue-light claim.",
+  "summary": "The most endorsed distillation of the longevity-podcast stack, with practical additions in replies.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "longevity",
+   "sleep",
+   "nutrition",
+   "huberman",
+   "protocol"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-170",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "best CS lecture list",
+  "title": "11 best foreign college lectures for CS",
+  "author": "neural nets.",
+  "date": "2024-12-16",
+  "url": "https://x.com/cneuralnetwork/status/1868649779263426672",
+  "engagement": "40 replies · 3.8K likes · 296.5K views",
+  "essence": "OP lists 11 of the best foreign college lectures for CS: Oppenheim on signals, MIT 6.006 intro to algorithms, Jack Buffington on digital logic, MIT 6.042J maths for CS, CMU computer architecture (Spring 2015), MIT 18.404 theory of computation, Berkeley CS162 OS, CMU 15-445 databases, a CSU Sacramento compilers course, CMU CS340 computer networks, and Stanford CS229 machine learning. Replies include Perplexity's Aravind Srinivas saying these are 'more essential than ever before', praise for the legendary CMU database course, a claim the 2010 MIT discrete-math version is better, an IIT Delhi alternative for OS and compilers, and jokes that the list will be copied to LinkedIn.",
+  "summary": "Excellent free-curriculum map across core CS (7,291 bookmarks) with version debates in replies.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "lectures",
+   "mit",
+   "cmu",
+   "curriculum",
+   "free education"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-171",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "RAG doc-chat tutorial",
+  "title": "Build a 'chat with your docs' RAG app in ~170 lines",
+  "author": "Akshay 🚀",
+  "date": "2024-07-11",
+  "url": "https://x.com/akshay_pachaar/status/1811377409385709780",
+  "engagement": "31 replies · 1.3K likes · 415.9K views",
+  "essence": "OP walks step-by-step through building a chat-with-your-docs RAG application using Cohere's Command R+ as the LLM, LlamaIndex for orchestration and Streamlit for the UI, all in about 170 lines of Python with code shared at the end. The self-thread covers the architecture diagram, loading knowledge-base documents into LlamaIndex, and the embedding model (Cohere's embed-english-v3.0) for chunks and queries. No reply digest was captured despite 31 replies.",
+  "summary": "Compact end-to-end RAG tutorial - a clean reference implementation of the classic doc-chat demo.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "rag",
+   "llamaindex",
+   "cohere",
+   "streamlit",
+   "tutorial"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-172",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "computer architecture paper",
+  "title": "The ~100-page paper colleges should teach in computer architecture",
+  "author": "Saurabh Kumar",
+  "date": "2024-07-10",
+  "url": "https://x.com/drummatick/status/1811047366331646123",
+  "engagement": "24 replies · 4.3K likes · 444.3K views",
+  "essence": "OP wishes colleges taught this roughly 100-page paper in computer architecture, praising how much it covers about cache, OS, threads, the memory controller and how the CPU juggles between them, and recommends it to 2nd- and 3rd-year students as a one-or-two-day read; he links the PDF and admits he wouldn't have taken the course without his degree. Replies debate whether any of it is outdated, point to Computer Systems: A Programmer's Perspective as what colleges do teach, note UCSD covers it while many Cal State programs don't, argue software engineers should know the hardware, question '113 pages in a day or two', and one says it helped him clear an ARM interview.",
+  "summary": "Highly saved (7,983 bookmarks) systems-fundamentals reading rec with the PDF linked in the thread.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "computer architecture",
+   "memory",
+   "cpu",
+   "systems programming",
+   "paper"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-173",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "Quarto for technical books",
+  "title": "Quarto is the pick for chaptered books with code and equations",
+  "author": "Hamel Husain",
+  "date": "2024-07-03",
+  "url": "https://x.com/HamelHusain/status/1808307609805693007",
+  "engagement": "2 replies · 126 likes · 7.2K views",
+  "essence": "Replying to vicki asking what to use for a chaptered document full of links, code samples and equations, OP answers simply 'I really love @quarto_pub', with a card linking Quarto's 'Creating a Book' page. Replies confirm it as the choice - vicki says it's exactly what she was evaluating and is glad to see it confirmed, and Ivan Leo calls himself a big fan.",
+  "summary": "Quick, credible endorsement of Quarto for authoring technical books.",
+  "productLinks": [
+   "https://quarto.org"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "quarto",
+   "technical writing",
+   "documentation tool",
+   "books"
+  ],
+  "worthFollowUp": "low"
+ },
+ {
+  "uid": "X-174",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "useful websites listicle",
+  "title": "7 'illegal' websites that will make your life easier",
+  "author": "Parul Gautam",
+  "date": "2024-06-30",
+  "url": "https://x.com/Parul_Gautam7/status/1807297077690396707",
+  "engagement": "59 replies · 1.7K likes · 520.5K views",
+  "essence": "OP's listicle opens with Chat Playground AI for comparing multiple models - citing a UC Berkeley finding that using multiple chatbots and picking the best answer makes you 73% more likely to get a better answer than one model - then opensourcealternative.to and alternative.to for free SaaS alternatives, and QuillBot for paraphrasing text without plagiarism; the rest of the list continues in the thread. No reply digest was captured despite 59 replies.",
+  "summary": "Classic tool listicle; the multi-model comparison statistic is the part people quote.",
+  "productLinks": [
+   "http://chatplayground.ai",
+   "http://opensourcealternative.to",
+   "http://alternative.to",
+   "http://quillbot.com"
+  ],
+  "hasMedia": "image",
+  "topicTags": [
+   "ai tools",
+   "listicle",
+   "productivity",
+   "open source alternatives"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-175",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "agents developer kit",
+  "title": "Open-source package that makes building AI agents 10x easier",
+  "author": "Dhravya Shah",
+  "date": "2024-06-27",
+  "url": "https://x.com/DhravyaShah/status/1806379496917827774",
+  "engagement": "5 replies · 308 likes · 38.3K views",
+  "essence": "OP announces an open-source package for building AI agents - Google Calendar chat agent, GitHub agent, updating Notion/Airtable from prompts, using D1 and KV - and the self-thread details `runWithTools`: you supply prompts and functions, it asks the AI for arguments, runs them and returns a natural-language response, removing the argument and error handling developers previously wrote by hand (all on Workers, keeping their latency advantages). Because writing tools in JSON Schema is still painful, a second helper generates all the tools automatically from an OpenAPI specification. No reply digest was captured despite 5 replies.",
+  "summary": "Agents-SDK launch; the OpenAPI-to-tools helper is the interesting DX idea here.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "ai agents",
+   "function calling",
+   "openapi",
+   "cloudflare workers",
+   "developer experience"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-176",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "audio tokenization",
+  "title": "Tokenizing audio: 32kHz waveform straight into codes",
+  "author": "maharshi",
+  "date": "2024-06-23",
+  "url": "https://x.com/maharshii/status/1804776013857275976",
+  "engagement": "9 replies · 421 likes · 28.9K views",
+  "essence": "OP thinks he has found a good way to tokenize audio and says he needs to look further into preprocessing; the self-thread clarifies he is using SNAC only, converting a waveform at a 32kHz sampling rate into tokens/codes - not text-first, not mel spectrograms (the browser jokes are about Opera GX). Replies point to the Tortoise TTS repo (which also uses SNAC) and the librosa library, ask whether he converts to text first, and one asks for suggestions on tokenizing 2D coordinates with temporal dependency.",
+  "summary": "Small build-in-public on audio tokenization with repo pointers and a follow-on research question in replies.",
+  "productLinks": [
+   "http://github.com/neonbjb/tortoise-tts"
+  ],
+  "hasMedia": "image",
+  "topicTags": [
+   "audio tokenization",
+   "snac",
+   "speech models",
+   "tts",
+   "machine learning"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-177",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "personal knowledge base tools",
+  "title": "Docusaurus for engineering notes, Eraser for system design",
+  "author": "Archie Sengupta",
+  "date": "2024-06-16",
+  "url": "https://x.com/archiexzzz/status/1802380483256562120",
+  "engagement": "9 replies · 230 likes · 22.1K views",
+  "essence": "OP wanted a single home for his software engineering learnings - architecture, practices, system design, databases, networking, security, cloud and leadership - and settled on the open-source Docusaurus site; his follow-up adds that for system design he prefers eraser.io. Replies push back that Docusaurus suits SDK/framework docs but not image-heavy system-design or database documentation and can be slow at launch, one suggests multiplayer.app for interactive architecture diagrams and decisions, and others thank him or ask for the link.",
+  "summary": "Tool-pick thread for a personal engineering knowledge base, with arguably better alternatives named in replies.",
+  "productLinks": [
+   "https://docusaurus.io",
+   "https://eraser.io",
+   "http://multiplayer.app"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "documentation",
+   "knowledge base",
+   "docusaurus",
+   "system design tools"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-178",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "fastest ML competency path",
+  "title": "The fastest path to actually getting competent at ML",
+  "author": "henry",
+  "date": "2024-06-09",
+  "url": "https://x.com/arithmoquine/status/1799825345199415397",
+  "engagement": "37 replies · 2.5K likes · 325.2K views",
+  "essence": "OP shares the fastest path to getting competent at ML - roughly what he did himself with the noise and sidequests removed (the roadmap is in an attached image). The self-thread stresses that the sidequests do the heavy lifting: applying the stuff to real projects, like spending weeks trying to classify brain signals in real time, and warns that tutorials alone leave you able to do ML without understanding ML. Replies range from 'can confirm this works to be somewhat ok at pretending' to someone saying it is the first how-to-learn guide that sounds like the right way, plus jokes about being dumb and a claim that linear algebra is the weirdest gatekeeping ploy.",
+  "summary": "Anti-roadmap roadmap: the sequencing plus the 'projects do the heavy lifting' caveat.",
+  "productLinks": [],
+  "hasMedia": "image",
+  "topicTags": [
+   "ml learning",
+   "roadmap",
+   "projects",
+   "self study"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-179",
+  "platform": "Twitter",
+  "category": "Interviews, OA & DSA",
+  "subcategory": "DSA in JS practice log",
+  "title": "DSA Day 8: implementing Radix Sort in JavaScript",
+  "author": "Piyush Kumar",
+  "date": "2024-06-04",
+  "url": "https://x.com/Piyushkr_prog/status/1798065673870196792",
+  "engagement": "1 reply · 12 likes · 8.1K views",
+  "essence": "OP logs day 8 of his JavaScript DSA grind - a working Radix Sort implementation showing digit-by-digit passes for optimal results - tagged with DSA and coding-journey hashtags, and the self-thread points to his 'JS Daily Grind Mastering DSA' repository on GitHub (link not captured). No replies or discussion were captured.",
+  "summary": "Minor practice-log tweet; the value is the JS DSA repo it points to.",
+  "productLinks": [],
+  "hasMedia": "image",
+  "topicTags": [
+   "radix sort",
+   "javascript",
+   "dsa",
+   "daily practice"
+  ],
+  "worthFollowUp": "low"
+ },
+ {
+  "uid": "X-180",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "ML subreddit list",
+  "title": "Worth-following ML and AI subreddits",
+  "author": "ₕₐₘₚₜₒₙ",
+  "date": "2024-05-27",
+  "url": "https://x.com/hamptonism/status/1794885662430400654",
+  "engagement": "26 replies · 3.5K likes · 213.9K views",
+  "essence": "OP drops a bare list of subreddits to follow: r/learnmachinelearning, r/ArtificialIntelligence, r/deeplearning, r/MachineLearning, r/machinelearningnews, r/aiArt, r/sideproject and r/MachineLearningJobs. Replies add r/LocalLLaMA, r/LLMDevs, r/mlscaling and r/singularity, and joke that someone will resell this list for $9 on Gumroad, with others agreeing OSS creators have great selling skills.",
+  "summary": "Quick AI community map - the reply additions complete the list.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "reddit",
+   "ai communities",
+   "machine learning",
+   "content discovery"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-181",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "free NLP course",
+  "title": "12-hour practical NLP course released free on YouTube",
+  "author": "Ramsri Goutham Golla",
+  "date": "2024-05-17",
+  "url": "https://x.com/ramsri_goutham/status/1791332967786143802",
+  "engagement": "14 replies · 333 likes · 28.3K views",
+  "essence": "OP releases his 12+ hour course 'Practical Introduction to Natural Language Processing' free on YouTube as the fundamentals path into the LLM, RAG and AI-agent era, covering dataset creation, text-to-vector methods (TF-IDF, Word2Vec, sentence transformers), visualisation, LLM APIs like OpenAI, deploying NLP APIs and LLM SaaS basics. The self-thread links the playlist, notes prior buyers of his learnnlp.academy platform get a new LLM module, and he advises building on Next.js in 2024 with Copilot and Cursor doing the heavy lifting rather than Bubble. Replies call it a goldmine and debate whether Bubble is still worth recommending.",
+  "summary": "Free full NLP curriculum - useful onboarding for LLM-era fundamentals.",
+  "productLinks": [
+   "https://learnnlp.academy"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "nlp",
+   "course",
+   "word2vec",
+   "llm fundamentals",
+   "free education"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-182",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "Rust learning stack",
+  "title": "The colleague-approved Rust starter stack",
+  "author": "Kartik Jolapara",
+  "date": "2024-05-16",
+  "url": "https://x.com/codingmickey/status/1791173266087760246",
+  "engagement": "8 replies · 262 likes · 25.4K views",
+  "essence": "OP shares what a colleague told him at the start of his internship when he asked how to learn Rust: The Rust Book, Jon Gjengset's channel, Rust for Rustaceans, This Week in Rust, and the rust tag on Lobsters - noting it would work for anyone learning any new language because it is less about the language and more about the mindset (the point is in the second-to-last paragraph). Replies add Zero to Production as a great book, praise Jon's channel as a goldmine after basic projects, debate Rust vs Go, and suggest Discord and the official book.",
+  "summary": "Tight, credible Rust starter kit spanning book, video, newsletter and community.",
+  "productLinks": [
+   "https://doc.rust-lang.org/book/",
+   "https://rust-for-rustaceans.com",
+   "https://this-week-in-rust.org",
+   "https://lobste.rs/t/rust"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "rust",
+   "programming languages",
+   "learning resources",
+   "books"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-183",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "core CS book list",
+  "title": "Core CS book picks: OSTEP, Patterson, Dragon Book, Knuth",
+  "author": "Kartikay",
+  "date": "2024-05-11",
+  "url": "https://x.com/Kartikayb77/status/1789371027803590958",
+  "engagement": "3 replies · 42 likes · 2.5K views",
+  "essence": "In a thread opened with the observation that reading a great CS book makes every blog you read before it feel shallow, OP recommends starting points: Operating System: Three Easy Pieces for OS, Patterson for architecture, the Dragon Book for compilers, Forouzan for networks, and anything by Knuth ('GOAT'), adding he is more of a systems person and others can add more. Replies ask for Amazon links and cheaper substitutes for the costly first book, and one shares an Amazon link.",
+  "summary": "Compact classic-book shopping list for the core CS subjects.",
+  "productLinks": [
+   "https://amzn.to/4ajBm4r"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "computer science books",
+   "ostep",
+   "compilers",
+   "knuth",
+   "reading list"
+  ],
+  "worthFollowUp": "low"
+ },
+ {
+  "uid": "X-184",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "Ilya's ML paper list",
+  "title": "Ilya gave Carmack 30 papers = '90% of what matters'",
+  "author": "keshav",
+  "date": "2024-05-07",
+  "url": "https://x.com/keshavchan/status/1787861946173186062",
+  "engagement": "60 replies · 4.6K likes · 877.9K views",
+  "essence": "OP shares the tidbit that Ilya Sutskever gave John Carmack a reading list of roughly 30 research papers with the promise 'if you really learn all of these, you'll know 90% of what matters today' - hosted as a shared Arc browser folder (card: arc.net 'Ilya 30u30'), which his self-thread idly praises. Replies note you can right-click any Arc folder for a shareable link, argue you learn more implementing one paper than reading all 30, say it is a few years old and partly out of date but still a great starting point, and thank the source account.",
+  "summary": "Famous ML reading list with a shared-folder link - 11,171 bookmarks and counting.",
+  "productLinks": [
+   "https://arc.net"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "research papers",
+   "ilya sutskever",
+   "ml reading list",
+   "deep learning"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-185",
+  "platform": "Twitter",
+  "category": "Startups, Product & Marketing",
+  "subcategory": "zero-budget marketing playbook",
+  "title": "4 marketing strategies with 1 product, 0 audience, $0",
+  "author": "Marc Lou",
+  "date": "2024-05-06",
+  "url": "https://x.com/marclou/status/1787501337699315768",
+  "engagement": "55 replies · 1.5K likes · 330.7K views",
+  "essence": "OP lays out the four channels he uses to get customers with no audience and no budget: (1) launch platforms - Product Hunt, Reddit, Hacker News - where the headline is 80% of a successful launch and AI directories are worth listing on; (2) cold outreach - which got him his first dollar online and a SaaS to $4,000 MRR - requiring personalised, benefit-oriented, five-sentence-max messages and working best for high-ticket or B2B, with niche newsletters as outreach at scale; (3) building an audience - pick the platform matching your medium, build cool stuff, learn the platform's code from successful creators, respect people's time, and find your signature; the fourth is cut off in the capture. He also notes he doesn't do sponsorships.",
+  "summary": "Evergreen zero-budget GTM playbook - useful as a launch checklist skeleton.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "marketing",
+   "product hunt",
+   "cold outreach",
+   "audience building",
+   "indie saas"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-186",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "teachyourselfcs curriculum",
+  "title": "teachyourselfcs.com - the textbook-based CS curriculum",
+  "author": "Anurag",
+  "date": "2024-05-05",
+  "url": "https://x.com/theanuragdev/status/1787159383132242317",
+  "engagement": "2 replies · 28 likes · 3.3K views",
+  "essence": "OP shares teachyourselfcs.com (recommended to him by @RajGM_Hacks) as a quote-tweet of a thread arguing 'you're only about twenty textbooks behind the most cracked person you know' and someone wishing for a site that just lists the 20 textbooks that put you ahead of 99% of people in a field. Replies say it matches their engineering syllabus exactly and thank him for the find.",
+  "summary": "The site-level answer to 'which 20 textbooks?' - a curated CS curriculum worth opening.",
+  "productLinks": [
+   "https://teachyourselfcs.com"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "curriculum",
+   "textbooks",
+   "computer science",
+   "self study"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-187",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "systems blog list",
+  "title": "Curated list of systems, DB and distributed-systems blogs",
+  "author": "Phil Eaton",
+  "date": "2023-11-22",
+  "url": "https://x.com/eatonphil/status/1727451113509814536",
+  "engagement": "6 replies · 1.1K likes · 195.7K views",
+  "essence": "OP shares his personal list of blogs to follow for the holiday weekend at lists.eatonphil.com/blogs.html, starting with systems programming and systems, then following up with compilers and interpreters, databases and distributed systems, noting it is not complete and he updates it as he remembers more frequent bloggers. Replies thank him, one says it is a great way to spend a Saturday morning, and another spots Eli's blog near the top.",
+  "summary": "High-signal reading list (2,394 bookmarks) for systems-minded engineers.",
+  "productLinks": [
+   "https://lists.eatonphil.com/blogs.html"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "blogs",
+   "systems programming",
+   "databases",
+   "distributed systems",
+   "reading list"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-188",
+  "platform": "Twitter",
+  "category": "Startups, Product & Marketing",
+  "subcategory": "textbook-list site idea",
+  "title": "Idea: a site listing the 20 textbooks per field",
+  "author": "atharva ☆",
+  "date": "2024-05-05",
+  "url": "https://x.com/k7agar/status/1787071686396747878",
+  "engagement": "92 replies · 8K likes · 2M views",
+  "essence": "Quoting 'you're only about twenty textbooks behind the most cracked person you know', OP says someone should build a website that lists the 20 textbooks that put you ahead of 99% of people in a field, then follows up with 'dm me if you want this to be a thing'. Replies point out existing attempts - a five-books-per-topic site, a helpful book list, and blogs rather than textbooks - effectively mapping the competition for the idea.",
+  "summary": "A validated side-project idea with demand signals and prior art already in the replies.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "product idea",
+   "side project",
+   "textbooks",
+   "curated lists"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-189",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "webpage to markdown tools",
+  "title": "Best tools to extract a webpage as markdown for an LLM",
+  "author": "Dhravya Shah",
+  "date": "2024-04-28",
+  "url": "https://x.com/DhravyaShah/status/1784501131168936083",
+  "engagement": "1 reply · 107 likes · 5.7K views",
+  "essence": "Answering 'what is the best way to extract the main content from a webpage as markdown to give to an LLM', OP lists firecrawl.dev, r.jina.ai and Mozilla Readability (repo linked), and says he is building his own for git.new/memory, open-sourcing it within about 30 minutes. The captured reply says Jina has not been great in tests, Readability is good but markdown formatting came out wrong, and Firecrawl is paid.",
+  "summary": "Quick comparison of the webpage-to-markdown stack, with a new open-source entrant promised in-thread.",
+  "productLinks": [
+   "http://firecrawl.dev",
+   "http://r.jina.ai",
+   "https://github.com/mozilla/readability",
+   "https://git.new/memory"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "web scraping",
+   "markdown",
+   "llm inputs",
+   "readability",
+   "firecrawl"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-190",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "python serverless hosting",
+  "title": "Vercel-equivalent for Python serverless functions?",
+  "author": "Harsh Agrawal | itsharshag.com",
+  "date": "2024-04-24",
+  "url": "https://x.com/itsharshag/status/1782984631437963497",
+  "engagement": "17 replies · 29 likes · 6.1K views",
+  "essence": "OP asks whether anything offers Vercel-like dead-simple deployment for Python serverless functions; replies recommend Modal, Vercel's own Python runtime, Render, Railway and - for ML workloads - Inferless, plus a joke about Google Scripts plus Sheets, while one newcomer replies 'we're working on it, stay tuned'. OP's follow-ups thank people, ask about limitations from a previous bad experience, and celebrate the frugal options.",
+  "summary": "Crowd-sourced shortlist of Python serverless hosts - Modal, Render, Railway, Inferless.",
+  "productLinks": [
+   "https://railway.app",
+   "http://inferless.com"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "serverless",
+   "python hosting",
+   "modal",
+   "railway",
+   "deployment"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-191",
+  "platform": "Twitter",
+  "category": "Startups, Product & Marketing",
+  "subcategory": "client website delivery stack",
+  "title": "$3K-$10K websites in 7 days using templates",
+  "author": "Erikas Mališauskas",
+  "date": "2024-04-23",
+  "url": "https://x.com/malisauskasLT/status/1782664449402224782",
+  "engagement": "57 replies · 5.1K likes · 1.7M views",
+  "essence": "OP reveals he was paid $3K-$10K to build client websites, sometimes delivered in no more than 7 days, and that now he is off client work he can stop gatekeeping and share the tools: UntitledUI as the Figma component library he used for 90% of design projects (page templates plus components, 'like LEGO for building a website'), Webflow templates since most websites share the same structure (hero, social proof, features, pricing, testimonials, blog), and Framer templates as a solid alternative to Webflow. No reply digest was captured despite 57 replies.",
+  "summary": "The economics of template-driven client work plus the exact toolkit used to pull it off.",
+  "productLinks": [
+   "http://untitledui.com",
+   "http://webflow.com/templates",
+   "http://framer.com/templates/"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "web design",
+   "templates",
+   "freelancing",
+   "figma",
+   "webflow"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-192",
+  "platform": "Twitter",
+  "category": "Interviews, OA & DSA",
+  "subcategory": "job prep GitHub repos",
+  "title": "Top GitHub repositories for job prep and upskilling",
+  "author": "Saumya Singh",
+  "date": "2024-04-22",
+  "url": "https://x.com/saumya1singh/status/1782280401517683104",
+  "engagement": "19 replies · 509 likes · 70.1K views",
+  "essence": "OP shares a bookmark-worthy set of GitHub repositories for job preparation and upskilling: donnemartin/system-design-primer for system design interviews, jwasham/coding-interview-university as a complete CS study plan, practical-tutorials/project-based-learning for learning by building, EbookFoundation/free-programming-books for free programming books, freeCodeCamp to learn to code, an unnamed data science repository, and facebook/react for the popular UI library. No reply digest was captured despite 19 replies.",
+  "summary": "All-in-one repo shopping list covering both interview prep and general upskilling.",
+  "productLinks": [
+   "https://github.com/donnemartin/system-design-primer",
+   "https://github.com/jwasham/coding-interview-university",
+   "https://github.com/practical-tutorials/project-based-learning",
+   "https://github.com/EbookFoundation/free-programming-books",
+   "https://github.com/freeCodeCamp/freeCodeCamp",
+   "https://github.com/facebook/react"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "system design",
+   "interview prep",
+   "github",
+   "study plan"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-193",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "keyboard-driven browsing",
+  "title": "Vimium: browse the whole browser from the keyboard",
+  "author": "Kunal Mishra",
+  "date": "2024-03-28",
+  "url": "https://x.com/knlmsh/status/1773444960890593309",
+  "engagement": "2 replies · 37 likes · 32.8K views",
+  "essence": "OP shares a productivity discovery from a senior in his college's CS lab: install the Vimium Chrome extension and press f on any page to label every clickable element, then hit the label's keys to click it - 'why did I not know this earlier?'. Replies ask whether it just keeps you on the keyboard and suggest trying QuteBrowser instead.",
+  "summary": "Small but genuinely life-changing browser extension; two replies point to alternatives.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "vimium",
+   "browser extension",
+   "keyboard shortcuts",
+   "productivity"
+  ],
+  "worthFollowUp": "low"
+ },
+ {
+  "uid": "X-194",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "Google dorking for bug bounty",
+  "title": "Google dork for finding sensitive internal documents",
+  "author": "Mike Takahashi",
+  "date": "2024-04-21",
+  "url": "https://x.com/TakSec/status/1782140278041886750",
+  "engagement": "11 replies · 2.6K likes · 296.6K views",
+  "essence": "OP shares a Google dork for finding sensitive documents - file extensions (txt, pdf, xml, xls, ppt, doc variants) combined with internal phrases like 'confidential', 'Not for Public Release', 'internal use only' and 'do not distribute' - to discover internal files, then follows up with the working recipe (site:domain plus extensions plus internal terms), notes he tested which extensions actually work and wants more intext terms, added it to his own tool, and warns Google changed something so results now require narrower queries. Replies report the ext: filetype dork seems broken, ask whether a 3-year-old proprietary deck is worth reporting, request dorks for suspicious JS files, and discuss query syntax.",
+  "summary": "Practical OSINT/bug-bounty technique with a companion tool and honest limits.",
+  "productLinks": [
+   "https://taksec.github.io/google-dorks-bug-bounty/"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "google dorks",
+   "bug bounty",
+   "osint",
+   "security",
+   "search techniques"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-195",
+  "platform": "Twitter",
+  "category": "Entertainment, Culture & Fun",
+  "subcategory": "action movie list",
+  "title": "100 action movies to watch",
+  "author": "Jummai",
+  "date": "2024-03-26",
+  "url": "https://x.com/HinduMustafa/status/1772553994440696117",
+  "engagement": "80 replies · 960 likes · 226.9K views",
+  "essence": "OP posts a ranked list of 100 action movies starting with Mad Max: Fury Road, John Wick, Die Hard, The Dark Knight, Gladiator, The Matrix, Inception, Leon, Kill Bill 1 and 2, The Raid, The Bourne Identity, The Terminator films, Predator, Django Unchained, Speed, The Avengers, Crouching Tiger, Braveheart, Raiders of the Lost Ark and more - a reply-style list under a viral movie thread. No discussion digest beyond the parent movie tweet was captured.",
+  "summary": "Massive ready-made action watchlist - one of the most-bookmarked (1,761) entertainment lists.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "action movies",
+   "watchlist",
+   "movies",
+   "film"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-196",
+  "platform": "Twitter",
+  "category": "Startups, Product & Marketing",
+  "subcategory": "side-project launch analysis",
+  "title": "968 r/SideProjects launches analysed with Claude 3 Opus",
+  "author": "Alexander Isora, ex-maker",
+  "date": "2024-03-25",
+  "url": "https://x.com/alexanderisorax/status/1772249784251777384",
+  "engagement": "16 replies · 645 likes · 238.8K views",
+  "essence": "OP parsed 968 launches from Reddit's r/SideProjects (posts starting with 'I built', 'I made an alternative to', 'I created a clone of') and had Claude 3 Opus analyse them, publishing the JSON. The self-thread reports the most-clone categories - website builders (29), dev tools (26), chrome extensions (21), finance (15), self-hosted (14), habit trackers (12), AI tools (108, 10.8%) - a 69.8% B2C vs 30.2% B2B split with a plea to do B2B, plus the most boring, inspiring, least catchy and catchiest launch titles, and an offer to run reader questions through Opus.",
+  "summary": "Quantified snapshot of what side-project builders actually ship - useful idea-space competitive data.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "side projects",
+   "reddit",
+   "market research",
+   "claude",
+   "indie hackers"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-197",
+  "platform": "Twitter",
+  "category": "Health, Fitness & Wellness",
+  "subcategory": "5-minute belly workout",
+  "title": "5-minute training for a hanging belly",
+  "author": "Culture Desk",
+  "date": "2024-03-22",
+  "url": "https://x.com/Culture_Desk_/status/1771023213050339800",
+  "engagement": "8 replies · 1.4K likes · 372.2K views",
+  "essence": "OP posts a five-minute routine for a hanging belly consisting of plank, sky touches, kick-butt jumping jacks, bird dog and hopping on a bike (likely demonstrated in attached media that did not extract). No thread continuation or reply discussion was captured beyond two conversation tweets.",
+  "summary": "Short saveable workout list; the visual demo is missing from the capture.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "workout",
+   "belly fat",
+   "home exercise",
+   "fitness"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-198",
+  "platform": "Twitter",
+  "category": "Health, Fitness & Wellness",
+  "subcategory": "flat stomach exercises",
+  "title": "6 exercises to get a flat stomach",
+  "author": "Culture Desk",
+  "date": "2024-03-17",
+  "url": "https://x.com/Culture_Desk_/status/1769207993659257148",
+  "engagement": "22 replies · 2.8K likes · 1.1M views",
+  "essence": "OP posts a listicle promising six exercises for a flat stomach; the captured continuation is only the numbered list markers (1-5), so the actual exercises live in attached media that did not extract. The post itself performed very well - 837 reposts, 2,848 likes, 6,157 bookmarks and over 1M views - but no reply discussion was captured.",
+  "summary": "High-reach fitness listicle whose substance is only in the missing images - worth noting for engagement patterns.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "workout",
+   "flat stomach",
+   "exercise list",
+   "fitness"
+  ],
+  "worthFollowUp": "low"
+ },
+ {
+  "uid": "X-199",
+  "platform": "Twitter",
+  "category": "Other",
+  "subcategory": "culture-war gender statistics",
+  "title": "Gender gaps in dangerous jobs, framed as a culture-war meme",
+  "author": "End Wokeness",
+  "date": "2024-01-26",
+  "url": "https://x.com/EndWokeness/status/1750846543555342508",
+  "engagement": "2.6K replies · 106.7K likes · 9.2M views",
+  "essence": "OP lists occupations that are 84-99% male - firefighters, construction, combat troops, trash collectors, cable installers, road builders, iron workers, coal miners, electricians, plumbers - and asks why feminists never complain about these gender gaps, 'I wonder why'. The reply digest shows the thread becoming a culture-war discussion: one account argues women and men are simply complementary, Elon Musk replies with a thinking-face emoji, and the exchange continues with more ratio stats. Category rationale: no taxonomy category fits culture-war commentary.",
+  "summary": "High-reach (9.2M views) culture-war engagement post - relevant only as an example of ratio-bait framing.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "culture war",
+   "gender",
+   "engagement bait",
+   "politics"
+  ],
+  "worthFollowUp": "low"
+ },
+ {
+  "uid": "X-200",
+  "platform": "Twitter",
+  "category": "Startups, Product & Marketing",
+  "subcategory": "SEO heist case study",
+  "title": "SEO heist: 3.6M traffic stolen from a competitor with AI",
+  "author": "Jake Ward",
+  "date": "2023-11-24",
+  "url": "https://x.com/jakezward/status/1728032634037567509",
+  "engagement": "853 replies · 3.7K likes · 7.9M views",
+  "essence": "OP's case study: they exported a competitor's sitemap, turned the URLs into article titles, and generated 1,800 articles at scale with AI - 18 months later capturing 3.6M total traffic and about 490K monthly, with 489,509 in October alone. The self-thread expands the method: find the competitor (brainstorm, Ahrefs/Semrush, manual Google search), fetch their sitemap at domain/sitemap.xml, and require descriptive URLs (how-to-make-soap beats /t/1043423) so the titles map to real keywords, noting tools now automate 90% of what was manual 18 months ago.",
+  "summary": "Frequently cited programmatic-SEO playbook with the specific numbers behind it.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "seo",
+   "programmatic seo",
+   "ahrefs",
+   "content at scale",
+   "growth"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-201",
+  "platform": "Twitter",
+  "category": "Jobs, Careers & Compensation",
+  "subcategory": "ATS resume tools",
+  "title": "4 tools that helped me clear ATS while applying off campus",
+  "author": "Sachin Pandey",
+  "date": "2023-12-13",
+  "url": "https://x.com/iamsachin_47/status/1734885864378187791",
+  "engagement": "15 replies · 576 likes · 88.1K views",
+  "essence": "OP credits four tools with improving his resume and clearing ATS screens at LinkedIn, ZeoTap and Ramp to get OA links: Skill Syncer (upload resume plus job description, it suggests keywords and gives a match score where above 70 is good), Resume Worded (gives your ATS score), Jobscan (decent but he barely used it) and MonkeyLearn's word cloud generator (paste the job description, extract important keywords, work them in manually) - he used Skill Syncer and the word cloud most. Replies thank him, ask what the ideal JD match percentage is, one asks what ATS even is, and another links an alternative thread.",
+  "summary": "Practical, ranked ATS-optimization stack for off-campus applicants.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "ats",
+   "resume",
+   "keyword matching",
+   "off campus",
+   "job application"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-202",
+  "platform": "Twitter",
+  "category": "Jobs, Careers & Compensation",
+  "subcategory": "remote job boards",
+  "title": "13 websites that pay in USD for remote jobs",
+  "author": "Poonam Soni",
+  "date": "2023-11-23",
+  "url": "https://x.com/CodeByPoonam/status/1727719085553975330",
+  "engagement": "114 replies · 10.4K likes · 2.2M views",
+  "essence": "OP argues LinkedIn is not your golden ticket to remote work and starts a list of 13 USD-paying sites: Wellfound (130K tech jobs, 27K companies connecting startups and job seekers), Toptal (exclusive network for top developers, designers, finance experts and project managers), FlexJobs (53,779 online jobs from 5,495 companies) and Fiverr for freelancing - plus a pitch for her free AI Toast newsletter and the rest in the next post. No reply digest was captured despite 114 replies.",
+  "summary": "Heavily saved (32,773 bookmarks) remote-job board directory - useful for talent-market mapping.",
+  "productLinks": [
+   "https://wellfound.com",
+   "https://toptal.com",
+   "http://flexjobs.com",
+   "http://aitoast.beehiiv.com"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "remote jobs",
+   "job boards",
+   "wellfound",
+   "freelancing",
+   "hiring"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-203",
+  "platform": "Twitter",
+  "category": "Jobs, Careers & Compensation",
+  "subcategory": "USD remote job boards",
+  "title": "4 remote job boards that pay in USD",
+  "author": "Swapna Kumar Panda",
+  "date": "2023-10-29",
+  "url": "https://x.com/swapnakpanda/status/1718602474125488247",
+  "engagement": "45 replies · 2.4K likes · 497.8K views",
+  "essence": "OP shares remote-job boards paying in USD: We Work Remotely (4.5M visitors, roles across full-stack, front end, back end, DevOps, support, marketing, management), Wellfound (130K+ jobs at startups and tech companies you cannot find elsewhere), FlexJobs (25K+ featured jobs from 5K+ companies) and Himalayas (find suitable remote jobs plus research the fastest-growing remote companies), each listed with the role categories available. No reply digest was captured despite 45 replies.",
+  "summary": "Overlapping job-board list that adds Himalayas - handy for mapping remote-talent marketplaces.",
+  "productLinks": [
+   "https://weworkremotely.com",
+   "https://wellfound.com",
+   "https://flexjobs.com",
+   "https://himalayas.app"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "remote jobs",
+   "job boards",
+   "himalayas",
+   "hiring",
+   "freelancing"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-204",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "AI tool roundup",
+  "title": "15 AI tools beyond ChatGPT to save hours",
+  "author": "Hasan Toor",
+  "date": "2023-04-17",
+  "url": "https://x.com/hasantoxr/status/1647962679703740421",
+  "engagement": "108 replies · 4.4K likes · 1M views",
+  "essence": "OP's listicle argues ChatGPT is just the tip of the iceberg and offers 15 AI tools to save hours, opening with Doclime (import a PDF, ask questions and get instant answers), Durable AI (build an entire website with images and copy in 30 seconds), AdCopy (AI ad copy for digital advertisers with unlimited outputs and instant variations) and TopApps AI (a directory of 100+ AI tools). No reply digest was captured beyond five conversation tweets.",
+  "summary": "2023-era AI tool roundup - useful as a snapshot of the tool-directory boom.",
+  "productLinks": [
+   "http://doclime.com",
+   "https://durable.co/ai-website-builder?via=hasan",
+   "https://adcopy.ai",
+   "https://topapps.ai"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "ai tools",
+   "listicle",
+   "productivity",
+   "directories"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-205",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "learning with GPT pattern",
+  "title": "Pattern to learn anything with GPT-4",
+  "author": "Varun Mayya",
+  "date": "2023-04-06",
+  "url": "https://x.com/waiting4_asi/status/1643892199333953538",
+  "engagement": "21 replies · 685 likes · 44.5K views",
+  "essence": "OP's prompt sequence for learning anything: ask for a broad summary of the field, ask it to explain a concept, ask again to explain like you're five, converse with it, then finish with 'ask me 3 questions about this topic and test my answers'. His self-thread adds a screenshot of the workflow, argues all you really need for slow-changing subjects is a high-quality up-to-date syllabus, and calls GPT a teacher that is permanently fun and never exhausted. Replies confirm it works for chemistry (you can ask the dumbest doubts), note that unlike school teachers it never shuts down follow-ups, and add a missing step - re-explain in your own words and ask GPT to find the gaps, which the poster uses to digest arXiv papers.",
+  "summary": "Compact, tested prompt pattern for LLM-based learning, improved in replies.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "prompting",
+   "learning",
+   "gpt-4",
+   "study technique"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-206",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "free APIs for projects",
+  "title": "APIs for your next project: weather, NASA, Spotify, Maps",
+  "author": "Aanshul Sadaria",
+  "date": "2023-03-01",
+  "url": "https://x.com/AanshulSadaria/status/1630779762959417344",
+  "engagement": "6 replies · 134 likes · 24.9K views",
+  "essence": "OP's thread of APIs for side projects: OpenWeatherMap for real-time weather data (apps, dashboards), NASA for mission images and space data, Spotify for its music library (playlists, recommendations, search), Google Maps for mapping and location data (directions, street view, satellite imagery - 'many unicorns use this API') and Twilio for messaging, voice and video. He invites people to add more so the thread gets richer, offers to list less-known APIs to anyone who reacts with a wave, and plugs his own account; replies are mostly thanks and save-bot tags.",
+  "summary": "Beginner-friendly API grab-bag for demo and portfolio projects.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "api",
+   "side projects",
+   "openweathermap",
+   "spotify",
+   "twilio"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-207",
+  "platform": "Twitter",
+  "category": "Personal Finance & Money",
+  "subcategory": "Axis Magnus credit card rewards",
+  "title": "Axis Magnus: how to extract 15-20% rewards",
+  "author": "Aashish Punjabi",
+  "date": "2023-01-30",
+  "url": "https://x.com/AashishPunjabi1/status/1619953735777804290",
+  "engagement": "83 replies · 1.5K likes · 415.7K views",
+  "essence": "OP, unpaid, makes the case for the Axis Magnus card: it offers up to 15-20% rewards on spending and suits anyone earning over Rs18L as a primary card; the Rs10,000 + GST fee is offset by a Rs10K TataCliq voucher or domestic flight (he recommends the voucher), so you effectively pay GST only; ideal spend is Rs12-15L a year, though Rs5-6L including rent works. He does the math - 1 Edge Reward point per Rs16.66 means about 30,000 ER on Rs5L, convertible at 5:4 into 24,000 Vistara/SpiceJet miles (a BLR-BOM flight costs 4,500 CV points versus Rs4,500 cash fares) or Marriott Bonvoy - and shows how to max it: rent, groceries, bills and daily spend on the card (Swiggy, Amazon, instead of UPI) plus Gyftr vouchers, with monthly reward caps. No reply digest was captured despite 83 replies.",
+  "summary": "Detailed Indian credit-card rewards teardown with real point-to-miles conversion math.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "credit card",
+   "axis magnus",
+   "rewards",
+   "miles",
+   "india finance"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-208",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "ChatGPT use cases",
+  "title": "ChatGPT: 1M users in 5 days - and 10 things to do with it",
+  "author": "Aleksandr Volodarsky",
+  "date": "2022-12-08",
+  "url": "https://x.com/volodarik/status/1600854935515844610",
+  "engagement": "902 replies · 44.6K likes",
+  "essence": "OP marks ChatGPT crossing 1M users in five days (Netflix took 41 months, Facebook 10 months, Instagram 2.5) and turns it into 10 use cases: generate code to build an app from scratch (citing a zero-programming-knowledge user who built a Twitter bot - '100X engineer just arrived'), build weight-loss, diet and workout plans, use it as a 24/7 debugging companion that finds and explains bugs, and integrate it into WhatsApp as a personal assistant for emails, answers and research. No reply digest was captured beyond six conversation tweets.",
+  "summary": "Early-ChatGPT hype artifact with the canonical starter use cases - high bookmarks (26K).",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "chatgpt",
+   "use cases",
+   "ai tools",
+   "productivity"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-209",
+  "platform": "Twitter",
+  "category": "Jobs, Careers & Compensation",
+  "subcategory": "one-click startup applications",
+  "title": "One-click apply to 20L+ startup jobs with Juno",
+  "author": "Archie Sengupta",
+  "date": "2022-10-08",
+  "url": "https://x.com/archiexzzz/status/1578694625229168641",
+  "engagement": "11 replies · 134 likes",
+  "essence": "OP says you can enter email, GitHub, LinkedIn and a resume on a site and, in 30 seconds, have applied to startups paying a minimum of Rs20L in cash, linking junohq.com with a referral code and following up 'applied myself'. Replies are mostly save-bot tags plus one complaint asking why there are no developer-advocate roles.",
+  "summary": "Quick pointer to a one-form startup-job aggregator, with referral link.",
+  "productLinks": [
+   "https://junohq.com/?r=archs"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "job applications",
+   "startups",
+   "junohq",
+   "referral"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-210",
+  "platform": "Twitter",
+  "category": "Startups, Product & Marketing",
+  "subcategory": "free student founder stack",
+  "title": "6 free resources to found a startup with zero capital in college",
+  "author": "Anshul",
+  "date": "2023-02-25",
+  "url": "https://x.com/anshulforyou/status/1629441858911850496",
+  "engagement": "7 replies · 119 likes · 22.8K views",
+  "essence": "OP says the common excuse that you need capital to start is wrong and shares the stack that let him found three companies in college with no capital: GitHub Student Pack (free access to paid hosting and analytics tools), Zoho Mail (five free domain mailboxes for a professional address), Freenom (a free domain for a year), AWS Free Tier plus a DigitalOcean cluster through the student pack, Notion for product management, and Miro's education plan for team collaboration. Replies say small startups mostly need skills and effort rather than capital, and add that college itself is a pool of co-founder resources.",
+  "summary": "Zero-budget student founder toolkit - the free tiers are the part worth re-checking today.",
+  "productLinks": [
+   "http://freenom.com"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "student startup",
+   "free tools",
+   "github student pack",
+   "aws free tier",
+   "bootstrapping"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-211",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "AI websites roundup",
+  "title": "8 AI websites that save hours of manual work",
+  "author": "Harsh Makadia",
+  "date": "2022-09-25",
+  "url": "https://x.com/MakadiaHarsh/status/1574013379806650368",
+  "engagement": "439 replies · 17.8K likes",
+  "essence": "OP's listicle of AI websites that replace manual work: Photosonic for text-to-image generation with no design skills needed, Tribescaler for creating viral hooks faster, ClipDrop as a creator ecosystem that removes objects, people and text from photos and upscales 2x-4x in seconds, and Synthesia for AI-avatar videos in over 60 languages with no video experience - with four more in the rest of the thread. No reply digest was captured beyond five conversation tweets.",
+  "summary": "2022-era AI tool list with huge reach (17,830 likes) - a marker of what then counted as novel.",
+  "productLinks": [
+   "http://photosonic.writesonic.com",
+   "http://tribescaler.com",
+   "http://clipdrop.co",
+   "http://synthesia.io"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "ai tools",
+   "text to image",
+   "ai video",
+   "productivity",
+   "listicle"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-212",
+  "platform": "Twitter",
+  "category": "Jobs, Careers & Compensation",
+  "subcategory": "portfolio project ideas",
+  "title": "7 portfolio projects that will actually get you hired",
+  "author": "Sandeep Jain",
+  "date": "2022-09-22",
+  "url": "https://x.com/sandeep_jain/status/1572925652042657792",
+  "engagement": "24 replies · 1.6K likes",
+  "essence": "OP lists seven coding projects to add to a portfolio that will actually get you hired: a food delivery app, an e-commerce store prototype, a messaging app, a simple game, a chatbot, a dating app and a video chatting app. Replies confirm those project types are always in demand, plan to build them all in Flutter, and point out that each demonstrates authentication, state management, UX understanding and some security - which is exactly what interviewers look for.",
+  "summary": "Canonical junior portfolio checklist; replies spell out what each project actually proves.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "portfolio",
+   "projects",
+   "hiring",
+   "app ideas",
+   "resume"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-213",
+  "platform": "Twitter",
+  "category": "Startups, Product & Marketing",
+  "subcategory": "Instagram affiliate funnel",
+  "title": "$10K in 30 days via high-ticket affiliate on Instagram",
+  "author": "Jeremy Moser",
+  "date": "2022-09-14",
+  "url": "https://x.com/jeremynickmoser/status/1570079944092295170",
+  "engagement": "107 replies · 3.3K likes",
+  "essence": "OP's plan to make $10K in 30 days on Instagram from $0 (no followers, skills, clients or connections) is high-ticket affiliate marketing with a twist: he claims to have tried 20+ online money-makers before building a 7-figure business. The method: pick an influencer whose $1k+ course sells well (or a niche with many skilled creators like Airbnb), secure a 25-50% affiliate cut by DM or email (each $1K sale = $250+), then either run a *name*clips/*name*moments account cutting their most valuable or controversial bits into short-form clips (with permission) positioning their vehicle as the right one, or build a theme page like 'airbnbauthority' repurposing the 50-100 best-performing pieces 2-3x a day. He frames it as the tweaked, sustainable version of what Tate did with organic content. No reply digest was captured beyond ten conversation tweets.",
+  "summary": "Detailed theme-page affiliate funnel - specific enough mechanics to test, with familiar hype framing.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "affiliate marketing",
+   "instagram",
+   "theme pages",
+   "growth",
+   "side income"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-214",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "free API directory",
+  "title": "25 killer APIs for your next web development project",
+  "author": "Mohammed Junaid",
+  "date": "2022-09-08",
+  "url": "https://x.com/mdjunaidap/status/1567750309736243200",
+  "engagement": "67 replies · 1.5K likes",
+  "essence": "OP's thread of 25 APIs for web projects, opening with real-time and historical world weather data, a COVID-19 API, Faker API for test data, WordsAPI, the Clash Royale developer API, a QR code API, a free sentiment-analysis API, a multi-domain URL shortener, Fake REST API for mock backends, and an email validation and verification JSON API. No reply digest was captured beyond 16 conversation tweets.",
+  "summary": "Free API grab-bag for hackathons and demos - several are still live years later.",
+  "productLinks": [
+   "http://fakerapi.it/en/",
+   "http://wordsapi.com",
+   "http://developer.clashroyale.com/#/",
+   "http://sentim-api.herokuapp.com",
+   "http://microenv.com"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "api",
+   "web development",
+   "free tools",
+   "hacking resources"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-215",
+  "platform": "Twitter",
+  "category": "Entertainment, Culture & Fun",
+  "subcategory": "tech workplace one-liner",
+  "title": "'Talk to the CEO for the good story, the CTO for the real one'",
+  "author": "Surabhi Washishth✨",
+  "date": "2022-08-01",
+  "url": "https://x.com/SWashishth/status/1554107884090183680",
+  "engagement": "63 replies · 3.1K likes",
+  "essence": "OP's one-liner - 'To hear a good story, talk to the CEO. To hear the real story, talk to the CTO' - drew 3,086 likes and 285 reposts; the reply digest shows the joke getting extended: CTOs say everything is broken even when partly working (which is why they are kept away from VCs), better yet pick companies where the CEO used to be a CTO, then CFO, sales and CMO variants, 'good story from the PM, real story from the software engineer', and 'horror story from the investors'.",
+  "summary": "Light workplace humor with strong reply-participation - a good example of an extensible joke format.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "jokes",
+   "workplace",
+   "startups",
+   "engineering culture"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-216",
+  "platform": "Twitter",
+  "category": "Jobs, Careers & Compensation",
+  "subcategory": "open-source internships",
+  "title": "20+ paid open-source internship programs",
+  "author": "Nitesh yadav",
+  "date": "2022-07-26",
+  "url": "https://x.com/im_niteshy/status/1551785835116146688",
+  "engagement": "22 replies · 198 likes",
+  "essence": "OP lists stipend-paying open-source internship programs to build development ability: Google Summer of Code, Linux Foundation LFX mentorship, MLH Fellowship, Google Season of Docs, Outreachy, Season of KDE, Girlscript Summer of Code, FSF internships, Linux Kernel Mentorship, Linux Foundation Networking mentorship, FOSSASIA Codeheat and its internship, Red Hat Open Source Contest, Segment Open Fellowship, Open Summer of Code, Open Mainframe Project mentorship, CNCF Mentoring, X.Org EVoC, Hyperledger mentorship, Julia Seasons of Contributions, Summer of Haskell and 24 Pull Requests - each with its application URL. Replies are mostly thanks and save-bot reminders.",
+  "summary": "Comprehensive global OSS-internship directory - a genuinely useful careers resource.",
+  "productLinks": [
+   "https://summerofcode.withgoogle.com",
+   "https://lfx.linuxfoundation.org/tools/mentorship/",
+   "https://fellowship.mlh.io",
+   "https://outreachy.org",
+   "https://season.kde.org",
+   "https://gssoc.girlscript.tech"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "open source",
+   "internships",
+   "gsoc",
+   "outreachy",
+   "careers"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-217",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "YouTube transcript search",
+  "title": "filmot.com: search any channel's entire YouTube transcripts",
+  "author": "Marques Brownlee",
+  "date": "2022-06-10",
+  "url": "https://x.com/MKBHD/status/1535254469713305603",
+  "engagement": "104 replies · 7.9K likes",
+  "essence": "MKBHD shares filmot.com, which searches any YouTube channel for any words they have ever said by crawling YouTube's subtitles; when the traffic killed the site his follow-up is simply 'Hug of death lol my bad'. Replies report it is down, joke about cancelling YouTubers and about AI being too advanced, one calls it an interesting tool worth saving, and others tag creators they want searched.",
+  "summary": "Powerful (and traffic-fragile) transcript-search tool - handy for content research.",
+  "productLinks": [
+   "https://filmot.com"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "youtube search",
+   "transcripts",
+   "research tool",
+   "osint"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-218",
+  "platform": "Twitter",
+  "category": "Tech Industry & News",
+  "subcategory": "Twitter CEO statement",
+  "title": "Parag Agrawal's memo during the Musk acquisition",
+  "author": "Parag Agrawal",
+  "date": "2022-05-13",
+  "url": "https://x.com/paraga/status/1525191757507399680",
+  "engagement": "1.1K replies · 15.6K likes",
+  "essence": "Twitter CEO Parag Agrawal breaks his silence to answer why a 'lame-duck' CEO is making leadership and cost changes: he expects the deal to close but the company must be prepared for all scenarios and do what is right for Twitter, no one is just keeping the lights on, the industry is in a harsh macro right now so cost decisions cannot wait for the close, and he promises more transparency on the continuous work of improving public conversation rather than reacting to the topic of the day - with the obligatory deal legalese linked at the end. Replies demand bot-account numbers, ask why restructure if the deal is coming, call it words without meaning, and attack past moderation decisions.",
+  "summary": "Primary-source artifact of the Twitter-Musk transition; replies capture the trust collapse.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "twitter",
+   "musk acquisition",
+   "leadership",
+   "tech industry"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-219",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "Solidity video courses",
+  "title": "Top 5 Solidity tutorials for a first smart contract in 2 hours",
+  "author": "Param",
+  "date": "2022-03-30",
+  "url": "https://x.com/Param_eth/status/1509082394053120001",
+  "engagement": "17 replies · 447 likes",
+  "essence": "OP ranks five YouTube courses for writing your first Solidity smart contract in under two hours: PatrickAlphaC's Solidity/blockchain/smart-contract course (2,047,444 views), DappUniversity's MASTER Solidity step-by-step (102,648 views), DappUniversity's full Ethereum/EVM course (619,846 views), Simplilearn's Solidity for beginners (58,000 views) and Edureka's smart-contract programming tutorial (25,876 views). Replies are almost entirely save-bot tags, thread-unroll requests and thanks.",
+  "summary": "Curated Solidity starting points with view counts as a popularity signal.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "solidity",
+   "web3",
+   "smart contracts",
+   "course",
+   "ethereum"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-220",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "React learning roadmap",
+  "title": "React roadmap in 8 grouped steps",
+  "author": "boney",
+  "date": "2022-03-27",
+  "url": "https://x.com/0xBoneyBoi/status/1508146225865928706",
+  "engagement": "36 replies · 707 likes",
+  "essence": "OP posts a React learning roadmap split into eight groups: Create React App, JSX and conditional rendering; functional components, lifecycle, useState and useEffect; useRef, contexts, useContext and useCallback; prop passing, higher-order components and React Router; Next.js SSR/SSG with Axios API calls; state management first with Context, then Redux; and React portals, Suspense and testing with Jest - closing with 'machines predict humans better than humans can predict themselves'. Replies thank him, joke that the algorithm already knows what they need, and save it for later.",
+  "summary": "Clean, ordered React curriculum - the hook-by-hook grouping is the useful part.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "react",
+   "roadmap",
+   "frontend",
+   "next.js",
+   "redux"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-221",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "free Web3 dev resources",
+  "title": "Free resources to learn Web3 development",
+  "author": "Param",
+  "date": "2022-03-27",
+  "url": "https://x.com/Param_eth/status/1508110815609909255",
+  "engagement": "23 replies · 835 likes",
+  "essence": "OP's free Web3 stack: CryptoZombies (interactive school where you learn Solidity by building your own crypto-collectible game), official Solidity docs for Remix, Awesome Solidity, Nader Dabit's full-stack web3 development guide, LearnWeb3DAO (build projects, team up globally, hackathons and prizes), Ethernaut (CTF game where each level is a contract you must hack), useWeb3 (tutorials, challenges, courses, boilerplates) and the Smart Contract Programmer channel. No reply digest was captured beyond 11 conversation tweets.",
+  "summary": "Solid free on-ramp to smart-contract development, with hands-on CTF practice included.",
+  "productLinks": [
+   "http://cryptozombies.io",
+   "http://learnweb3.io",
+   "https://ethernaut.openzeppelin.com",
+   "http://useweb3.xyz"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "web3",
+   "solidity",
+   "free resources",
+   "smart contracts",
+   "learning"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-222",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "30-day Solidity plan",
+  "title": "Learn Solidity in 30 days: day-by-day roadmap",
+  "author": "Param",
+  "date": "2022-03-26",
+  "url": "https://x.com/Param_eth/status/1507754985928691714",
+  "engagement": "30 replies · 999 likes",
+  "essence": "OP's 30-day Solidity roadmap: days 1-3 cover the basics - introduction, understanding Ethereum, Solidity features, environment setup, Remix IDE and basic syntax; days 4-7 datatypes, variables and operators including globals, comments and a hello-world contract; days 8-11 conditionals, loops, comparisons and strings; days 12-15 data storage - arrays, mappings, structs and enums - with the rest of the month continuing in the thread. No reply digest was captured despite 30 replies.",
+  "summary": "Concrete day-blocked plan for Solidity beginners - pairs with his resource list.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "solidity",
+   "30 day roadmap",
+   "web3",
+   "smart contracts"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-223",
+  "platform": "Twitter",
+  "category": "Jobs, Careers & Compensation",
+  "subcategory": "Web3 portfolio projects",
+  "title": "15 blockchain projects to build a Web3 resume",
+  "author": "Param",
+  "date": "2022-02-20",
+  "url": "https://x.com/Param_eth/status/1495419978484355072",
+  "engagement": "39 replies · 682 likes",
+  "essence": "OP frames 15 blockchain projects as the way to show skills and earn $100K+ as a blockchain developer: beginners build Hello World, Simple Storage, Multi-Send, an Ether Wallet and a Polling System, with source code linked (alto-io/hello-crypto, ethers-io tutorial-simplestore, MyEtherWallet/etherwallet, doriancrutcher/blockvotetutorial2); intermediate projects are a time-lock wallet, to-do list app, voting system, savings and lending app, and a decentralised exchange (mattdf/TimeLock, dappuniversity/eth-todo-list and more). No reply digest was captured beyond 11 conversation tweets.",
+  "summary": "Project ladder with ready source code - a practical portfolio path for Web3 roles.",
+  "productLinks": [
+   "https://github.com/alto-io/hello-crypto",
+   "https://github.com/ethers-io/tutorial-simplestore",
+   "https://github.com/MyEtherWallet/etherwallet",
+   "https://github.com/doriancrutcher/blockvotetutorial2",
+   "https://github.com/mattdf/TimeLock",
+   "https://github.com/dappuniversity/eth-todo-list"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "web3",
+   "blockchain projects",
+   "portfolio",
+   "solidity",
+   "github"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-224",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "Claude Code cost tuning",
+  "title": "Opus 5.5 cost guide: start at medium effort, not xhigh",
+  "author": "Vox",
+  "date": "2026-09-25",
+  "url": "https://x.com/Voxyz_ai/status/2103552376380457454",
+  "engagement": "23 replies · 1.1K likes · 628.9K views",
+  "essence": "Quoting ClaudeDevs' numbers (Opus 5.5 is 20% cheaper per input/output token and 60% cheaper on cache reads than Opus 5, with a calculator at /usage), OP explains the catch: at the same effort level Opus 5.5 thinks more per turn, most of all at xhigh and max, thinking is billed as output, and an output token costs 100 times a cache read - so do not carry over your Opus 5 effort level; start at medium and save xhigh and max for work where you have measured a gain. He supplies a prompt that makes Opus 5.5 read Anthropic's cost guide and audit your Claude Code setup (user and project settings, subagents in ~/.claude/agents and .claude/agents, CLAUDE.md, MCP servers). Replies reinforce the trap - compare the same task at /usage before promoting effort level, keep cheap search/test subagents low - and one warns grepping your config for xhigh since a single setting can triple bills on routine edits.",
+  "summary": "Directly actionable Claude Code cost-control advice plus a ready-made audit prompt to reuse.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "claude code",
+   "opus",
+   "token costs",
+   "prompt caching",
+   "cost optimization"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-225",
+  "platform": "Twitter",
+  "category": "Health, Fitness & Wellness",
+  "subcategory": "magnesium ashwagandha stack",
+  "title": "Why magnesium and ashwagandha work better together",
+  "author": "Leddy",
+  "date": "2026-09-25",
+  "url": "https://x.com/LeddyLLC/status/2103474098420777302",
+  "engagement": "26 replies · 1.3K likes · 354.2K views",
+  "essence": "OP's #ad thread argues each supplement alone fixes only one half of the cortisol problem: magnesium alone only helps overnight clearance (liver enzymes break cortisol down, better sleep, no 3am waking, less puffiness) while daytime production stays high; ashwagandha alone modulates the HPA axis to lower production (calmer, less reactive) but clearance stays slow; together ashwagandha lowers production by day and magnesium accelerates clearance at night. Timing is 'the entire mechanism' - ashwagandha KSM-66 600mg mid-afternoon with lunch, magnesium glycinate 400mg 45 minutes before bed - followed by a week-by-week payoff timeline (sleep deepens week 1-2, calm week 3-4, body composition week 5-8) and a claim that ashwagandha can cut cortisol up to 28%, with product plugs marked #ad. One reply asks whether taking ashwagandha twice a day makes his own timing backwards.",
+  "summary": "Supplement-stack ad dressed as protocol content - useful as a pattern study; treat claims as marketing.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "supplements",
+   "cortisol",
+   "sleep",
+   "ashwagandha",
+   "magnesium"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-226",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "anti-slop code linter",
+  "title": "anti-slop: lint rules to fight AI-generated code slop",
+  "author": "Anthony Kroeger",
+  "date": "2026-09-22",
+  "url": "https://x.com/kr0der/status/2102370834459631922",
+  "engagement": "7 replies · 466 likes · 42.4K views",
+  "essence": "OP calls anti-slop by dillon_mulroy the greatest and links the repo, jokes that require-readable-spacing was added because of Astra, and auto-plugs his screenshot tool Screenies. Replies say 'this is the way, also remove all comments', one argues anything anti-slop is just a different kind of slop, Jeremy Bosma notes 'the fix loop is the product', and Guillermo Rauch frames it as verification-engineering - proofs, e2e tests, benchmarks and linters, some deterministic and some agentic.",
+  "summary": "Promising lint layer for AI-written code, with Rauch's take on where code-quality tooling is heading.",
+  "productLinks": [
+   "https://github.com/dmmulroy/anti-slop"
+  ],
+  "hasMedia": "image",
+  "topicTags": [
+   "ai code quality",
+   "linter",
+   "slop",
+   "verification",
+   "developer tools"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-227",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "job application agent",
+  "title": "Job Application Agent discovers roles and applies for you",
+  "author": "Vaibhav Arora",
+  "date": "2026-08-18",
+  "url": "https://x.com/vaibhavhome/status/2089580618191659488",
+  "engagement": "95 replies · 2.5K likes · 506.3K views",
+  "essence": "OP ships a job-application agent: it discovers matching roles and applies on your behalf with full transparency, running 24 hours for you; jobappagent.com is live (upload resume plus preferences) while the local version stays open source on npm. In-thread he argues it is a mundane matching task agents should now do, that an agent is the skills, processes and infra around the model, that it uses Codex computer use under the hood (and you could rebuild it - that is why it is open source), and that browser-capable models are now very good at form completion. Replies joke that bots will now reject each other at scale, ask what it does beyond plain Codex computer use, and note that discovery is easy but reliable form completion needs browser state recovery across retries.",
+  "summary": "Agent product at the job-apps x browser-automation intersection; the state-recovery critique is the real engineering point.",
+  "productLinks": [
+   "https://jobappagent.com",
+   "https://www.npmjs.com/package/job-application-agent"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "ai agents",
+   "automation",
+   "job search",
+   "browser automation",
+   "open source"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-228",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "inference engineering learning",
+  "title": "100 Days of Inference: gold-mine repo for inference engineers",
+  "author": "Karthik Sathish",
+  "date": "2026-08-17",
+  "url": "https://x.com/karmakarthik/status/2089626750812819840",
+  "engagement": "12 replies · 1.1K likes · 158K views",
+  "essence": "Quoting Archie Sengupta's push to 'learn about inference engineering as fast and deep as you can', OP recommends the 100-days-of-inference GitHub repo as a gold mine (his follow-up: 'It's good too'). Replies complicate the recommendation: another resource is proposed as a better starting point, one notes the repo appears abandoned at 26/100 days with the last commit four months ago, another argues the best way to learn inference is to build kernels or serving tools yourself, and people ask for prerequisites and add blogs to the list.",
+  "summary": "Inference-engineering learning path with the crucial caveat that the flagship repo has stalled.",
+  "productLinks": [
+   "https://github.com/elizabetht/100-days-of-inference"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "inference engineering",
+   "llm serving",
+   "learning repo",
+   "kernels"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-229",
+  "platform": "Twitter",
+  "category": "Quant & Trading",
+  "subcategory": "quant content launch",
+  "title": "Quant memo releases this Monday",
+  "author": "Priyanshu Priyank",
+  "date": "2026-08-14",
+  "url": "https://x.com/PriyanshuP1405/status/2088155097687826723",
+  "engagement": "8 replies · 101 likes · 6.3K views",
+  "essence": "OP announces that after long demand his 'Quant memo' will be released the coming Monday; no details about its contents appear in the capture. The replies are pure anticipation - 'peak incoming', 'looks very well made dude, great work', 'to the moon', 'finally', 'GGs', 'waiting' - with eight replies and no substantive discussion.",
+  "summary": "Launch signal from an active quant-career account; follow for the actual memo drop.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "quant",
+   "newsletter",
+   "launch",
+   "career content"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-230",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "LLM scaling reference book",
+  "title": "Read the JAX scaling book now, thank me later",
+  "author": "Phil Chen",
+  "date": "2026-08-17",
+  "url": "https://x.com/philhchen/status/2089536036154339504",
+  "engagement": "12 replies · 2.3K likes · 222.1K views",
+  "essence": "OP shares jax-ml.github.io/scaling-book with 'read it now, thank me later', quote-tweeting Archie Sengupta's call to learn inference engineering as fast and deep as possible. Replies thank him, one says it genuinely shows how LLM training demands a heavily optimised approach, another shares their own open-source LLM inference engine thread, and one jokes the market is already saturated for this kind of advice.",
+  "summary": "High-value reference (4,513 bookmarks) on scaling LLM training with JAX - core reading for scale work.",
+  "productLinks": [
+   "https://jax-ml.github.io/scaling-book/"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "llm training",
+   "scaling",
+   "jax",
+   "inference engineering",
+   "reference"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-231",
+  "platform": "Twitter",
+  "category": "Quant & Trading",
+  "subcategory": "prediction market math",
+  "title": "Best thing I've read on prediction-market mathematics",
+  "author": "Priyanshu Priyank",
+  "date": "2026-03-02",
+  "url": "https://x.com/PriyanshuP1405/status/2028670176301093085",
+  "engagement": "2 replies · 317 likes · 42.2K views",
+  "essence": "OP calls a piece the best thing he has read on the mathematical implications for prediction markets, quote-tweeting Roan's breakdown of MIT's 20+ hour Financial Mathematics course and how each concept applies to trading prediction markets. His self-thread adds that this piece was neutrally biased and worth reading, and advises reading the actual maths papers and drawing your own conclusions because nearly all prediction-market resources carry a bias. Replies ask for other good links and agree.",
+  "summary": "Curated entry point to the maths behind prediction markets, with a bias warning about secondary sources.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "prediction markets",
+   "quant math",
+   "financial mathematics",
+   "trading"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-232",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "free custom email setup",
+  "title": "Free custom email address via Cloudflare and Gmail",
+  "author": "toki",
+  "date": "2026-02-23",
+  "url": "https://x.com/tokifyi/status/2025741929997361371",
+  "engagement": "166 replies · 5.8K likes · 1.8M views",
+  "essence": "The captured tweet body is empty - the post is an X Article titled 'Get a custom email address for FREE using Cloudflare + Gmail', whose preview says most people pay $6-12 a month for Google Workspace or Microsoft 365 just to get a custom email address, while Cloudflare email routing gives you one for essentially free, and the setup costs almost nothing. The post has 166 replies but no reply content was captured, so no discussion is available.",
+  "summary": "Money-saving infra tip worth trying if you own a domain; details live in the article body and images.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "cloudflare",
+   "email routing",
+   "custom domain",
+   "frugality",
+   "self hosting"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-233",
+  "platform": "Twitter",
+  "category": "Jobs, Careers & Compensation",
+  "subcategory": "internship application portal",
+  "title": "Apply for summer internships via gethired.devhub.co.in",
+  "author": "Varun",
+  "date": "2026-02-04",
+  "url": "https://x.com/blckchan_vk/status/2019131191207841897",
+  "engagement": "1 reply · 0 likes · 926 views",
+  "essence": "Replying to someone hunting summer internship roles and asking for resume feedback (a thread with 35 replies), OP points them to gethired.devhub.co.in; when the poster asks whether the site is even running, OP follows up 'Yes. Just checked. Working for me.' Only one reply digest was captured.",
+  "summary": "Small but concrete lead on an internship portal - verified working at time of posting.",
+  "productLinks": [
+   "http://gethired.devhub.co.in"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "internships",
+   "job portal",
+   "india careers",
+   "summer internships"
+  ],
+  "worthFollowUp": "low"
+ },
+ {
+  "uid": "X-234",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "email validation library",
+  "title": "check-if-email-exists: verify emails without sending mail",
+  "author": "Tom Dörr",
+  "date": "2026-02-02",
+  "url": "https://x.com/tom_doerr/status/2018349566802743552",
+  "engagement": "26 replies · 1.6K likes · 141.6K views",
+  "essence": "OP shares the open-source reacherhq/check-if-email-exists repository for verifying email addresses without sending messages. The replies turn it into a technical review: one corrects the claim - the code does open an SMTP connection, citing core/src/smtp/verif_method.rs - another warns ISPs will likely block your IPs for those requests, a reader offers a deployed instance to try, and others praise it for pre-send validation in registration flows, cleaning lists before campaigns and cutting cold-outreach bounces, while noting SMTP verification is increasingly blocked and an HTTPS backend approach is clutch.",
+  "summary": "Useful OSS email-validation library - read the SMTP/IP-blocking caveats before relying on it.",
+  "productLinks": [
+   "https://github.com/reacherhq/check-if-email-exists",
+   "https://mailscan-vxd1.dartup.dev"
+  ],
+  "hasMedia": "image",
+  "topicTags": [
+   "email validation",
+   "open source",
+   "cold outreach",
+   "deliverability",
+   "library"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-235",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "build your own X",
+  "title": "Build your own text editor, OS, database or VM",
+  "author": "trish",
+  "date": "2026-01-11",
+  "url": "https://x.com/TrisH0x2A/status/2010454753114009624",
+  "engagement": "18 replies · 1.6K likes · 67.2K views",
+  "essence": "OP's 'bored? try these' list of four from-scratch builds: a text editor (the kilo tutorial), your own operating system, your own database (cstack's SQLite-style tutorial) and your own virtual machine (LC-3). Replies say the second link helped a lot, note one link is dead, add 'build your own vector store from scratch' as a fifth, request a build-your-own vulnerability scanner, thank him, and ask how he finds all these resources.",
+  "summary": "Four canonical from-scratch tutorials - dependable learning starters with a dead-link caveat.",
+  "productLinks": [
+   "http://viewsourcecode.org/snaptoken/kilo/",
+   "http://cstack.github.io/db_tutorial/",
+   "http://jmeiners.com/lc3-vm/"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "build from scratch",
+   "text editor",
+   "database",
+   "operating system",
+   "virtual machine"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-236",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "vibe-code secret scanner idea",
+  "title": "Idea: a bot that hunts API keys leaked by vibe-coded apps",
+  "author": "Pop Punk 🇺🇸",
+  "date": "2026-01-08",
+  "url": "https://x.com/PopPunkOnChain/status/2009254075670393069",
+  "engagement": "3 replies · 183 likes · 20.8K views",
+  "essence": "Replying to his own observation that you can get free API keys by opening the network tab on any vibe-coded app, OP proposes a bot: scrape every tweet containing the words 'vibe code' plus a URL, fetch the site and its network requests, look for outbound requests containing API-key patterns, and compile them into a free public database - 'you're a hero'. Replies are skeptical ('hm, maybe'), one says Claude will not extract data from anywhere despite two tries, and another simply says let them slop AI away.",
+  "summary": "Security-flavoured product sketch about vibe-coded apps leaking secrets - a sharp opportunity note.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "security",
+   "vibe coding",
+   "api keys",
+   "bot idea",
+   "leaks"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-237",
+  "platform": "Twitter",
+  "category": "Interviews, OA & DSA",
+  "subcategory": "competitive programming playlist",
+  "title": "The most underrated competitive programming playlist",
+  "author": "Divya Porwal",
+  "date": "2026-01-08",
+  "url": "https://x.com/divyaporwal_/status/2009235882692497623",
+  "engagement": "10 replies · 834 likes · 32.3K views",
+  "essence": "OP calls a playlist the most underrated for competitive programming and says she learned segment trees from it; the self-thread shares the link, reveals the creator (Priyansh, a college senior, and the playlist is by Chirag Jain), and says a friend who is a Codeforces master told her about it in college. Replies agree it is so underrated they had never heard of it, others confirm it was the playlist everyone followed in their college, ask for a DP playlist and for the link, request a Java version, and add another top-notch recommendation.",
+  "summary": "Crowd-validated CP playlist (1,101 bookmarks) - segment trees and beyond.",
+  "productLinks": [],
+  "hasMedia": "image",
+  "topicTags": [
+   "competitive programming",
+   "segment tree",
+   "playlist",
+   "codeforces",
+   "dsa"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-238",
+  "platform": "Twitter",
+  "category": "Entertainment, Culture & Fun",
+  "subcategory": "binge show recommendations",
+  "title": "Best addictive Netflix show, crowd-sourced from 2,843 replies",
+  "author": "goma",
+  "date": "2026-01-07",
+  "url": "https://x.com/soigomaa/status/2008937426983759876",
+  "engagement": "2.8K replies · 11.2K likes · 2.9M views",
+  "essence": "OP asks for a Netflix show that is genuinely addictive - the kind where you finish season one in one sitting - and 2,843 replies pour in. Dark dominates the consensus ('you will want to rewatch it immediately', '3 tight seasons, perfect ending'), alongside Breaking Bad, Better Call Saul, Alice in Borderland, Stranger Things, The Blacklist, Suits, Banshee, The designated Survivor, Derry Girls, The OA and Black Mirror. Only 14 of the replies were captured in the digest.",
+  "summary": "Ready-made binge list with Dark as the consensus answer - 10,681 bookmarks of saved recommendations.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "netflix",
+   "tv shows",
+   "recommendations",
+   "binge watching"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-239",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "learn Python by building",
+  "title": "8 Python projects instead of tutorials",
+  "author": "Vivo",
+  "date": "2026-01-06",
+  "url": "https://x.com/vivoplt/status/2008418399395999834",
+  "engagement": "43 replies · 5K likes · 223.9K views",
+  "essence": "OP's argument: do not overcomplicate learning Python - build a password manager (file handling, hashing), a URL shortener (routing, IDs, persistence), a todo app with deadlines (CRUD and state), a web scraper (requests, parsing, rate limits), a CLI expense tracker (logic, files, edge cases), a log analyzer (files, timestamps, patterns), a simple recommender using similarity rules rather than ML magic, and an email automation script (SMTP, scheduling) - concluding 'the best way to learn Python? Projects. Not tutorials.' Replies agree you only learn by building and that tutorials create the illusion of learning; the author replies with quick affirmations.",
+  "summary": "Project ladder mapping each build to the concept it teaches - one of the most-saved (6,012) learning threads.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "python",
+   "projects",
+   "learning by doing",
+   "cli tools",
+   "tutorial fatigue"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-240",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "vibe-coded UI design fix",
+  "title": "Google Stitch fixed my Claude Code apps' generic look",
+  "author": "Kien Nguyen",
+  "date": "2026-01-06",
+  "url": "https://x.com/KienNguyen_NFT/status/2008401484577443888",
+  "engagement": "72 replies · 1.7K likes · 178.6K views",
+  "essence": "OP's problem: everything he vibe-codes with Claude Code looks like generic AI slop, so he added Google Stitch for UI design and says the difference was instant - from 'this shit is definitely vibe coded' to something he would actually use daily (screenshots attached). His self-thread calls Stitch 'Figma for those who can't design', shows other pages, says to just talk through problems with Claude and it will suggest your stack, and admits he loves the Y2K old-web aesthetic. Replies recommend oh-my-opencode for running multiple specialised agents (Gemini for UI, Opus as orchestrator, GPT for debugging), ask what Google Stitch is, one says it still looks like shit because you cannot vibe-code taste, and a beginner asks how to start.",
+  "summary": "Practical fix for vibe-coded UI blandness - design tool plus agent workflow, with honest skepticism in replies.",
+  "productLinks": [],
+  "hasMedia": "image",
+  "topicTags": [
+   "vibe coding",
+   "claude code",
+   "ui design",
+   "google stitch",
+   "design tools"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-241",
+  "platform": "Twitter",
+  "category": "Health, Fitness & Wellness",
+  "subcategory": "dandruff shampoo rant",
+  "title": "This is the worst anti-dandruff shampoo, apparently",
+  "author": "Ramen 🍉",
+  "date": "2025-10-28",
+  "url": "https://x.com/CoconutShawarma/status/1983469253656469562",
+  "engagement": "87 replies · 1.2K likes · 596.2K views",
+  "essence": "Quote-tweeting his own challenge to show a better anti-dandruff shampoo that actually works, OP declares the pictured one the worst; his self-thread asks followers whether it works and claims bar soap works better. Replies tell him to ask his dermatologist, one reports a similar formula (Ketomac), another is confused because they use that exact product, and the most useful reply explains that ketoconazole treats seborrheic dermatitis, selenium sulfide treats oily mild dandruff and climbazol is for something else - there is no one-for-all solution.",
+  "summary": "Light haircare thread, but the active-ingredients distinction in replies is genuinely useful.",
+  "productLinks": [],
+  "hasMedia": "image",
+  "topicTags": [
+   "dandruff",
+   "shampoo",
+   "skincare",
+   "dermatology"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-242",
+  "platform": "Twitter",
+  "category": "Quant & Trading",
+  "subcategory": "options greeks",
+  "title": "'Theta is the cost of Gamma' - decode it",
+  "author": "Kshitij Anand",
+  "date": "2025-10-31",
+  "url": "https://x.com/kshitijandquant/status/1984155473764143467",
+  "engagement": "1 reply · 10 likes · 1.2K views",
+  "essence": "OP posts an options-theory riddle - 'Theta is the cost of Gamma! Try to decode it..' - and the single reply decodes it: theta paid to hold gamma access can potentially be earned back through gamma-scalping trades on the underlying via dynamic delta hedging.",
+  "summary": "Compact greeks puzzle with the answer stated in replies - a nice gamma-scalping refresher.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "options",
+   "greeks",
+   "gamma scalping",
+   "theta",
+   "quant"
+  ],
+  "worthFollowUp": "low"
+ },
+ {
+  "uid": "X-243",
+  "platform": "Twitter",
+  "category": "Interviews, OA & DSA",
+  "subcategory": "Microsoft OA problem",
+  "title": "This repeatable problem was in my Microsoft OA",
+  "author": "Don't be Shivam",
+  "date": "2025-10-30",
+  "url": "https://x.com/who_shiv4m/status/1983840119774966105",
+  "engagement": "6 replies · 255 likes · 15K views",
+  "essence": "OP says a variant of this Codeforces problem (contest 1398, problem C) was asked in his Microsoft OA and calls it a very repeatable concept everyone should understand; the self-thread links the problem and tells his Hindi-speaking audience to stop bookmarking and go solve it now since it is easy. No reply digest was captured despite six replies.",
+  "summary": "Direct OA-to-contest mapping - solve this before Microsoft-style OAs.",
+  "productLinks": [
+   "https://codeforces.com/contest/1398/problem/C"
+  ],
+  "hasMedia": "image",
+  "topicTags": [
+   "microsoft oa",
+   "codeforces",
+   "interview prep",
+   "prefix sums",
+   "dsa"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-244",
+  "platform": "Twitter",
+  "category": "Programming & CS Learning",
+  "subcategory": "build your own git",
+  "title": "Build-your-own-Git playlist for low-level fundamentals",
+  "author": "Abhishek🌱",
+  "date": "2024-11-30",
+  "url": "https://x.com/Abhishekcur/status/1862899412907032583",
+  "engagement": "10 replies · 2.6K likes · 263.9K views",
+  "essence": "OP recommends a really comprehensive playlist for building Git from scratch to understand how Git really works behind the scenes and build a solid low-level systems foundation - advising not to watch it all, just learn the concepts you need as you need them. The self-thread corrects course: the playlist is in Rust, not C, but nothing else is as comprehensive; he also links Write Yourself a Git (wyag.thb.lt) as a deeper companion read, notes the playlist is a solo creator's work in partnership with CodeCrafters and is 100% free on YouTube, and says he will build real projects next. Replies ask whether it is proprietary CodeCrafters content and why he shares without watching.",
+  "summary": "Two strong Git-under-the-hood resources plus honest clarification of what the playlist actually is.",
+  "productLinks": [
+   "https://wyag.thb.lt"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "git",
+   "systems programming",
+   "rust",
+   "version control",
+   "build from scratch"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-245",
+  "platform": "Twitter",
+  "category": "Startups, Product & Marketing",
+  "subcategory": "Pinterest content arbitrage",
+  "title": "Pinterest views worth $5.35 per 1,000? The how-to",
+  "author": "Rahul",
+  "date": "2024-11-28",
+  "url": "https://x.com/sairahul1/status/1862136420133192127",
+  "engagement": "643 replies · 45K likes · 7.5M views",
+  "essence": "OP claims Google pays $5.35 per 1,000 views if you start a Pinterest account - scaling to $53.5 per 10K, $535 per 100K and $535,000 per 100M views - and promises the exact method 'even if you know nothing'. The captured follow-ups start the method: ask ChatGPT for the top 10 trending Pinterest niches with millions of searches (he picks home decor), check Pinterest Trends (trends.pinterest.com) for growing trends, then use getpinmaker.com to generate top trending titles for the niche, with monetisation details in the rest of the thread plus a 'surprise' at the end. No reply digest was captured beyond five conversation tweets.",
+  "summary": "Viral (66K bookmarks) side-income playbook - the Pinterest payout premise is the part to verify first.",
+  "productLinks": [
+   "http://getpinmaker.com",
+   "https://trends.pinterest.com"
+  ],
+  "hasMedia": "",
+  "topicTags": [
+   "pinterest",
+   "content strategy",
+   "passive income",
+   "chatgpt",
+   "seo"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-246",
+  "platform": "Twitter",
+  "category": "Dev Tools & Productivity",
+  "subcategory": "cheap video delivery stack",
+  "title": "15TB of 4K video served for $2.18",
+  "author": "Steve Tenuto",
+  "date": "2024-11-08",
+  "url": "https://x.com/steve_tenuto/status/1854919704483434763",
+  "engagement": "160 replies · 6.3K likes · 1.1M views",
+  "essence": "OP claims they served over 15 terabytes of 4K video last month for just $2.18 and shares the method: adaptive bitrate streaming via HLS - encode the video at multiple resolutions and bitrates, split into chunks, and let the player switch to lower-bitrate chunks as the connection changes to avoid buffering - encoded with ffmpeg (the exact script is shared as a gist) and then uploaded from local disk to a Cloudflare R2 bucket using rclone. No reply digest was captured despite 160 replies.",
+  "summary": "Concrete cost-saving media-delivery recipe (ffmpeg + HLS + rclone + R2) with the script included.",
+  "productLinks": [
+   "https://gist.github.com/stenuto/9ff19ce89f07c7419a8d0976736ebe12"
+  ],
+  "hasMedia": "image",
+  "topicTags": [
+   "video delivery",
+   "hls",
+   "cloudflare r2",
+   "ffmpeg",
+   "cdn costs"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-247",
+  "platform": "Twitter",
+  "category": "Entertainment, Culture & Fun",
+  "subcategory": "Apple TV show recommendations",
+  "title": "Apple TV drops groundbreaking shows and never promotes them",
+  "author": "The Cinéprism",
+  "date": "2024-11-04",
+  "url": "https://x.com/TheCineprism/status/1853432214257578496",
+  "engagement": "1.6K replies · 131.8K likes · 10M views",
+  "essence": "OP's complaint: Apple TV casually drops groundbreaking shows and does not even promote them (four show stills attached); his follow-up plugs his account for more recommendations. The reply digest is effectively a crowd-sourced Apple TV watchlist - For All Mankind, Severance ('incredible'), Silo ('started meh, brilliant by the end'), Slow Horses, Dark Matter ('fun but uneven') - with consensus that those three are among the best shows in years, that quality-per-dollar is highest on Apple TV, and people waiting for Severance and Silo season 2.",
+  "summary": "Massive reach (10M views, 66K bookmarks) - the replies deliver the actual watchlist.",
+  "productLinks": [],
+  "hasMedia": "image",
+  "topicTags": [
+   "apple tv",
+   "tv shows",
+   "severance",
+   "recommendations",
+   "streaming"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-248",
+  "platform": "Twitter",
+  "category": "Startups, Product & Marketing",
+  "subcategory": "cold email sequence",
+  "title": "This cold email sequence will never stop working",
+  "author": "Nick Abraham",
+  "date": "2024-08-06",
+  "url": "https://x.com/NickAbraham12/status/1820883709840515099",
+  "engagement": "82 replies · 5.4K likes · 1M views",
+  "essence": "OP posts his cold email sequence and, in the self-thread, answers the skeptics who pile on ('spam', 'this doesn't work', 'quick question is spam'): he calls them limiting claims, says his agency has 150+ active clients and 5K monthly users across SaaS companies and sends 1.5M emails a month for clients, asks a founder how many genuinely good (personalised and relevant) cold emails he receives, and insists it works outside your inbox. Replies split hard: one founder says he gets 20 identical-format ones a day and answers none, another says straight to junk - versus 'this is really good', 'goat', and 'going to try it and report back'.",
+  "summary": "The cold-email debate in one thread - the sequence itself plus credible deliverability skepticism.",
+  "productLinks": [],
+  "hasMedia": "image",
+  "topicTags": [
+   "cold email",
+   "outbound",
+   "sales",
+   "copywriting",
+   "lead gen"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-249",
+  "platform": "Twitter",
+  "category": "AI & LLM",
+  "subcategory": "open source financial advisor",
+  "title": "4 lines of Python for your own open-source financial advisor",
+  "author": "Didier Lopes",
+  "date": "2024-07-15",
+  "url": "https://x.com/didier_lopes/status/1812644686378500289",
+  "engagement": "93 replies · 6.1K likes · 917.7K views",
+  "essence": "OP claims four lines of Python are enough to have your own fully open-source financial advisor: you need two API keys - OpenAI for the LLM and OpenBB for access to dozens of data vendors - with the code shared. He adds it lets users add external function-calling tools for data OpenBB lacks by default, points to the OpenBB platform path for anything with a valid Hub API key, and, because most commenters do not understand what is happening, links a post with Michael Struwig explaining how it works under the hood. No reply digest was captured despite 93 replies.",
+  "summary": "Neat LLM-plus-financial-data demo - a good template for agent-shaped finance tooling.",
+  "productLinks": [
+   "https://my.openbb.co/app/platform/pat"
+  ],
+  "hasMedia": "image",
+  "topicTags": [
+   "openbb",
+   "finance api",
+   "llm agents",
+   "open source",
+   "financial data"
+  ],
+  "worthFollowUp": "high"
+ },
+ {
+  "uid": "X-250",
+  "platform": "Twitter",
+  "category": "Interviews, OA & DSA",
+  "subcategory": "SDE-1 interview experience",
+  "title": "Recent SDE-1 interview experience (screenshots)",
+  "author": "Shreya Gupta",
+  "date": "2026-02-19",
+  "url": "https://x.com/shregupta89/status/2024435731289296993",
+  "engagement": "0 replies · 22 likes · 3.9K views",
+  "essence": "OP replies to her own earlier post about Intuit paying around Rs32L CTC - more than FAANG - with 'This is the recent interview experience for sde-1', attaching two screenshots of the process (the screenshots were not transcribed, so the actual rounds are not recoverable from the capture). There were no replies and only one repost, so no discussion exists.",
+  "summary": "Pointer to SDE-1 interview screenshots rather than the content itself; details live in the images.",
+  "productLinks": [],
+  "hasMedia": "image",
+  "topicTags": [
+   "interview experience",
+   "sde-1",
+   "intuit",
+   "india tech jobs"
+  ],
+  "worthFollowUp": "low"
+ },
+ {
+  "uid": "X-251",
+  "platform": "Twitter",
+  "category": "Jobs, Careers & Compensation",
+  "subcategory": "hackathon hiring calendar",
+  "title": "India's hackathon-based hiring pipelines, month by month",
+  "author": "0xReso",
+  "date": "2026-01-31",
+  "url": "https://x.com/Resorcinolworks/status/2017581625819992435",
+  "engagement": "5 replies · 320 likes · 20.1K views",
+  "essence": "OP maps the Indian hackathon-based hiring calendar for 2026: Jan-Feb - Microsoft Imagine Cup India qualifiers, MLH-backed hackathons at Indian colleges, early campus scouting by startups; Feb-Mar - Google Summer of Code applications and open-source programs via IITs, NITs, IIITs and community OSS internships; Mar-Apr - TCS CodeVita regional and national rounds, Infosys HackWithInfy, Cognizant and Wipro coding challenges; Apr-May - Accenture Hack Diva, Deloitte India tech challenges, fintech and SaaS startup hackathons; May-Aug - Amazon HackOn, Flipkart GRiD, Adobe India Hackathon, Bajaj HackRx, Walmart Sparkathon, and Paytm, PhonePe and Swiggy tech events. One captured reply just says thanks.",
+  "summary": "Month-by-month map of Indian hackathon hiring - genuinely useful planning resource for students.",
+  "productLinks": [],
+  "hasMedia": "",
+  "topicTags": [
+   "hackathons",
+   "india hiring",
+   "gsoc",
+   "campus hiring",
+   "coding competitions"
+  ],
+  "worthFollowUp": "medium"
+ },
+ {
+  "uid": "X-252",
+  "platform": "Twitter",
+  "category": "Interviews, OA & DSA",
+  "subcategory": "Yugabyte pay and interviews",
+  "title": "Yugabyte pays 35-50+ LPA - here are its interview rounds",
+  "author": "Vaibhav Agarwal",
+  "date": "2026-01-29",
+  "url": "https://x.com/va_a14/status/2016896482071527808",
+  "engagement": "2 replies · 70 likes · 3.1K views",
+  "essence": "OP shares Yugabyte's compensation - around 35+ LPA, and 50+ LPA for more than a year of experience for a software engineer - alongside its interview structure: Round 1 technical is 'design a hit counter' focused on high-concurrency write handling and memory-efficient storage (circular buffers or buckets for time-based counts, then scaling to millions of requests per second with accuracy in a distributed environment); Round 2 covers concurrency and problem solving - thread lifecycle, race conditions - plus designing and implementing a word auto-complete suggestion feature; further rounds are cut off in the capture. Replies say round 2's concurrency and memory-efficiency focus is the real tight spot and wonder how they test under bursty traffic, while another argues the loop is too tough for the pay.",
+  "summary": "India compensation signal plus a real distributed-systems interview loop breakdown.",
+  "productLinks": [],
+  "hasMedia": "image",
+  "topicTags": [
+   "yugabyte",
+   "interview process",
+   "system design",
+   "india salary",
+   "concurrency"
+  ],
+  "worthFollowUp": "medium"
+ }
+]
