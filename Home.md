@@ -12,6 +12,10 @@ Your X / Reddit / LinkedIn bookmarks — extracted in full, categorized, summari
 
 🏷 14 categories · 🔗 111 with product links · 🎬 20 videos · ⭐ 126 high follow-up
 
+## 🗓 My plan for the coming months
+
+**[Inference Engineering Roadmap](https://chinmayajha.github.io/bookmarks-vault/Roadmap.html)** — six dated phases: PyTorch & transformer foundations → Stanford CS336 → GPUs/CUDA → inference systems (CS229S, GPU MODE) → vLLM, scheduling & quantization → benchmarking & capstone.
+
 ## 🗂 Categories
 
 - **[[AI & LLM]]** — 58 items

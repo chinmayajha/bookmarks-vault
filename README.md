@@ -5,6 +5,10 @@
 > browsable archive. Everything below is the contents of the companion workbook
 > [`Bookmarks_Categorized.xlsx`](Bookmarks_Categorized.xlsx).
 
+> **🗓 My plan for the coming months:** [Inference Engineering Roadmap](https://chinmayajha.github.io/bookmarks-vault/Roadmap.html) —
+> six dated phases: PyTorch & transformer foundations → Stanford CS336 → GPUs/CUDA →
+> inference systems (CS229S, GPU MODE) → vLLM, scheduling & quantization → benchmarking & capstone.
+
 ## 📊 At a glance
 
 | | |

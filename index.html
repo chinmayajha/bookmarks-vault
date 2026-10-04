@@ -262,6 +262,13 @@
       li.appendChild(navLink("#" + encPath(d[0]), d[1], d[0]));
       ul.appendChild(li);
     });
+    // roadmap — external doc, always a new tab
+    var liR = document.createElement("li");
+    var aR = navLink("Roadmap.html", '🗓 Roadmap<span class="cnt">plan</span>');
+    aR.setAttribute("target", "_blank");
+    aR.setAttribute("rel", "noopener noreferrer");
+    liR.appendChild(aR);
+    ul.appendChild(liR);
     fixed.appendChild(ul);
 
     var cats = document.getElementById("navCats");

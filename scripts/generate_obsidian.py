@@ -199,6 +199,12 @@ home = [
     f" · 🎬 {media.get('video', 0)} videos"
     f" · ⭐ {follow.get('high', 0)} high follow-up",
     "",
+    "## 🗓 My plan for the coming months",
+    "",
+    "**[Inference Engineering Roadmap](https://chinmayajha.github.io/bookmarks-vault/Roadmap.html)**"
+    " — six dated phases: PyTorch & transformer foundations → Stanford CS336 → GPUs/CUDA →"
+    " inference systems (CS229S, GPU MODE) → vLLM, scheduling & quantization → benchmarking & capstone.",
+    "",
     "## 🗂 Categories",
     "",
 ]
