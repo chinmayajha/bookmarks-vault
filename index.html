@@ -4,78 +4,126 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>📚 Bookmarks Vault</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
+  /* Theme matched to Roadmap.html — same tokens, fonts and light/dark rules. */
   :root {
-    --bg: #0d1117; --panel: #161b22; --border: #30363d; --text: #e6edf3;
-    --muted: #8b949e; --accent: #58a6ff; --accent2: #f78166;
+    color-scheme: light;
+    --bg: #f4f6f8; --surface: #fff; --fg: #18202b; --muted: #5a6676;
+    --line: #d9dfe6; --accent: #1f5fbf; --accent-soft: #e4edfa;
+    --display: "IBM Plex Sans Condensed", "Arial Narrow", system-ui, sans-serif;
+    --body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0f141b; --surface: #161d27; --fg: #e3e8ef; --muted: #96a3b4;
+      --line: #2a3442; --accent: #7fb0ff; --accent-soft: #1b2a40;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0f141b; --surface: #161d27; --fg: #e3e8ef; --muted: #96a3b4;
+    --line: #2a3442; --accent: #7fb0ff; --accent-soft: #1b2a40;
+    color-scheme: dark;
   }
   * { box-sizing: border-box; }
   body {
-    margin: 0; background: var(--bg); color: var(--text);
-    font: 15px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    margin: 0; background: var(--bg); color: var(--fg);
+    font-family: var(--body); font-size: 15.5px; line-height: 1.6;
   }
   header {
     position: sticky; top: 0; z-index: 10;
     display: flex; align-items: center; gap: 12px;
-    padding: 10px 16px; background: var(--panel);
-    border-bottom: 1px solid var(--border);
+    padding: 10px 16px; background: var(--surface);
+    border-bottom: 1px solid var(--line);
   }
-  header .brand { font-weight: 700; text-decoration: none; color: var(--text); }
+  header .brand {
+    font-family: var(--display); font-weight: 600; font-size: 1.05rem;
+    text-decoration: none; color: var(--fg);
+  }
   header .brand:hover { text-decoration: none; }
   header .title {
     flex: 1; min-width: 0; color: var(--muted);
-    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 13px;
+    font-family: var(--mono); font-size: .82rem;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
   }
-  header a.repo { color: var(--accent); text-decoration: none; font-size: 13px; }
+  header a.repo { color: var(--accent); text-decoration: none; font-size: .85rem; }
+  header a.repo:hover { text-decoration: underline; text-underline-offset: 2px; }
   #menuBtn {
-    display: none; background: none; border: 1px solid var(--border);
-    border-radius: 6px; color: var(--text); font-size: 16px; padding: 2px 9px; cursor: pointer;
+    display: none; background: none; border: 1px solid var(--line);
+    border-radius: 6px; color: var(--fg); font-size: 16px; padding: 2px 9px; cursor: pointer;
   }
   .layout { display: flex; min-height: calc(100vh - 49px); }
   nav {
-    width: 300px; flex: 0 0 300px; border-right: 1px solid var(--border);
-    background: var(--panel); padding: 12px; overflow-y: auto;
+    width: 300px; flex: 0 0 300px; border-right: 1px solid var(--line);
+    background: var(--surface); padding: 12px; overflow-y: auto;
     height: calc(100vh - 49px); position: sticky; top: 49px;
   }
   nav input {
     width: 100%; padding: 7px 10px; margin-bottom: 10px;
-    background: var(--bg); border: 1px solid var(--border); border-radius: 6px;
-    color: var(--text); font-size: 13px;
+    background: var(--bg); border: 1px solid var(--line); border-radius: 6px;
+    color: var(--fg); font-size: 13px; font-family: var(--body);
   }
+  nav input::placeholder { color: var(--muted); }
   nav h4 {
-    margin: 14px 0 6px; font-size: 11px; text-transform: uppercase;
+    margin: 14px 0 6px; font-family: var(--mono); font-weight: 500;
+    font-size: .72rem; text-transform: uppercase;
     letter-spacing: .08em; color: var(--muted);
   }
   nav ul { list-style: none; margin: 0; padding: 0; }
   nav li a {
-    display: block; padding: 4px 8px; border-radius: 6px; color: var(--text);
+    display: block; padding: 4px 8px; border-radius: 6px; color: var(--fg);
     text-decoration: none; font-size: 13px;
     white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
   }
-  nav li a:hover { background: #21262d; text-decoration: none; }
-  nav li a.active { background: #1f6feb33; color: var(--accent); }
-  nav li a .uid { color: var(--accent2); font-size: 11px; margin-right: 6px; }
-  nav li a .cnt { color: var(--muted); font-size: 11px; float: right; }
+  nav li a:hover { background: var(--accent-soft); text-decoration: none; }
+  nav li a.active { background: var(--accent-soft); color: var(--accent); }
+  nav li a .uid {
+    color: var(--accent); font-family: var(--mono); font-size: 11px; margin-right: 6px;
+  }
+  nav li a .cnt {
+    color: var(--muted); font-family: var(--mono); font-size: 11px; float: right;
+  }
   main { flex: 1; min-width: 0; padding: 24px 32px 80px; max-width: 980px; }
   #status { color: var(--muted); font-size: 14px; padding: 20px 0; }
-  #content a { color: var(--accent); }
+  #content a {
+    color: var(--accent); text-decoration: underline;
+    text-underline-offset: 2px; text-decoration-thickness: 1px;
+  }
+  #content a:hover { text-decoration-thickness: 2px; }
+  #content a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
   #content img { max-width: 100%; border-radius: 8px; }
   #content pre {
-    background: var(--panel); border: 1px solid var(--border);
+    background: var(--surface); border: 1px solid var(--line);
     border-radius: 8px; padding: 12px; overflow-x: auto;
+    font-family: var(--mono); font-size: .85rem;
   }
-  #content code { background: #161b22; padding: 1px 5px; border-radius: 4px; font-size: 90%; }
+  #content code {
+    background: var(--accent-soft); padding: 1px 5px; border-radius: 4px;
+    font-size: 90%; font-family: var(--mono);
+  }
   #content pre code { background: none; padding: 0; }
   #content blockquote {
-    margin: 0; padding: 2px 16px; border-left: 4px solid var(--border); color: var(--muted);
+    margin: 0; padding: 2px 16px; border-left: 4px solid var(--line); color: var(--muted);
   }
   #content table { border-collapse: collapse; display: block; overflow-x: auto; }
-  #content th, #content td { border: 1px solid var(--border); padding: 6px 12px; }
-  #content th { background: var(--panel); }
-  #content hr { border: none; border-top: 1px solid var(--border); }
-  #content h1, #content h2 { border-bottom: 1px solid var(--border); padding-bottom: .3em; }
+  #content th, #content td { border: 1px solid var(--line); padding: 6px 12px; }
+  #content th { background: var(--surface); font-family: var(--display); }
+  #content hr { border: none; border-top: 1px solid var(--line); }
+  #content h1, #content h2, #content h3,
+  #content h4, #content h5, #content h6 {
+    font-family: var(--display); font-weight: 600; line-height: 1.2; text-wrap: balance;
+  }
+  #content h1, #content h2 { border-bottom: 1px solid var(--line); padding-bottom: .3em; }
+  #content h1 { font-size: 2.1rem; letter-spacing: -.01em; }
+  #content h2 { font-size: 1.25rem; margin-top: 40px; }
+  #content p { max-width: 66ch; }
   #content .frontmatter {
-    color: var(--muted); font-size: 12px; border: 1px dashed var(--border);
+    color: var(--muted); font-family: var(--mono);
+    font-size: 12px; border: 1px dashed var(--line);
     border-radius: 8px; padding: 8px 12px; margin-bottom: 18px; white-space: pre-wrap;
   }
   @media (max-width: 860px) {
