@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>📚 Bookmarks Vault</title>
+<style>
+  :root {
+    --bg: #0d1117; --panel: #161b22; --border: #30363d; --text: #e6edf3;
+    --muted: #8b949e; --accent: #58a6ff; --accent2: #f78166;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 15px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  header {
+    position: sticky; top: 0; z-index: 10;
+    display: flex; align-items: center; gap: 12px;
+    padding: 10px 16px; background: var(--panel);
+    border-bottom: 1px solid var(--border);
+  }
+  header .brand { font-weight: 700; text-decoration: none; color: var(--text); }
+  header .brand:hover { text-decoration: none; }
+  header .title {
+    flex: 1; min-width: 0; color: var(--muted);
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 13px;
+  }
+  header a.repo { color: var(--accent); text-decoration: none; font-size: 13px; }
+  #menuBtn {
+    display: none; background: none; border: 1px solid var(--border);
+    border-radius: 6px; color: var(--text); font-size: 16px; padding: 2px 9px; cursor: pointer;
+  }
+  .layout { display: flex; min-height: calc(100vh - 49px); }
+  nav {
+    width: 300px; flex: 0 0 300px; border-right: 1px solid var(--border);
+    background: var(--panel); padding: 12px; overflow-y: auto;
+    height: calc(100vh - 49px); position: sticky; top: 49px;
+  }
+  nav input {
+    width: 100%; padding: 7px 10px; margin-bottom: 10px;
+    background: var(--bg); border: 1px solid var(--border); border-radius: 6px;
+    color: var(--text); font-size: 13px;
+  }
+  nav h4 {
+    margin: 14px 0 6px; font-size: 11px; text-transform: uppercase;
+    letter-spacing: .08em; color: var(--muted);
+  }
+  nav ul { list-style: none; margin: 0; padding: 0; }
+  nav li a {
+    display: block; padding: 4px 8px; border-radius: 6px; color: var(--text);
+    text-decoration: none; font-size: 13px;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  nav li a:hover { background: #21262d; text-decoration: none; }
+  nav li a.active { background: #1f6feb33; color: var(--accent); }
+  nav li a .uid { color: var(--accent2); font-size: 11px; margin-right: 6px; }
+  nav li a .cnt { color: var(--muted); font-size: 11px; float: right; }
+  main { flex: 1; min-width: 0; padding: 24px 32px 80px; max-width: 980px; }
+  #status { color: var(--muted); font-size: 14px; padding: 20px 0; }
+  #content a { color: var(--accent); }
+  #content img { max-width: 100%; border-radius: 8px; }
+  #content pre {
+    background: var(--panel); border: 1px solid var(--border);
+    border-radius: 8px; padding: 12px; overflow-x: auto;
+  }
+  #content code { background: #161b22; padding: 1px 5px; border-radius: 4px; font-size: 90%; }
+  #content pre code { background: none; padding: 0; }
+  #content blockquote {
+    margin: 0; padding: 2px 16px; border-left: 4px solid var(--border); color: var(--muted);
+  }
+  #content table { border-collapse: collapse; display: block; overflow-x: auto; }
+  #content th, #content td { border: 1px solid var(--border); padding: 6px 12px; }
+  #content th { background: var(--panel); }
+  #content hr { border: none; border-top: 1px solid var(--border); }
+  #content h1, #content h2 { border-bottom: 1px solid var(--border); padding-bottom: .3em; }
+  #content .frontmatter {
+    color: var(--muted); font-size: 12px; border: 1px dashed var(--border);
+    border-radius: 8px; padding: 8px 12px; margin-bottom: 18px; white-space: pre-wrap;
+  }
+  @media (max-width: 860px) {
+    #menuBtn { display: block; }
+    nav {
+      position: fixed; left: 0; top: 49px; z-index: 9; transform: translateX(-100%);
+      transition: transform .2s ease; box-shadow: 0 0 40px #000a;
+    }
+    nav.open { transform: none; }
+    main { padding: 18px 16px 60px; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <button id="menuBtn" aria-label="Toggle navigation">☰</button>
+  <a class="brand" href="./index.html">📚 Bookmarks Vault</a>
+  <span class="title" id="docTitle"></span>
+  <a class="repo" href="https://github.com/chinmayajha/bookmarks-vault" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+</header>
+<div class="layout">
+  <nav id="nav">
+    <input id="filter" type="search" placeholder="Filter categories & entries…" autocomplete="off">
+    <div id="navFixed"></div>
+    <div id="navCats"></div>
+    <div id="navEntries"></div>
+  </nav>
+  <main>
+    <div id="status">Loading…</div>
+    <article id="content" hidden></article>
+  </main>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script>
+(function () {
+  "use strict";
+
+  var manifest = null;
+  var wikiMap = Object.create(null);   // lowercased wiki key -> doc path
+  var currentDoc = null;
+  var content = document.getElementById("content");
+  var statusEl = document.getElementById("status");
+
+  function encPath(p) {
+    return encodeURIComponent(p).replace(/%2F/gi, "/");
+  }
+
+  // ---- link policy -------------------------------------------------------
+  // Every link opens in a NEW tab — except pure in-page fragment jumps
+  // ("#heading"), which would be meaningless in a fresh tab. This runs on
+  // every render and again at click time so no link can slip through.
+  function enforceNewTab(root) {
+    root.querySelectorAll("a[href]").forEach(function (a) {
+      var href = a.getAttribute("href");
+      if (!href || href.charAt(0) === "#") return;
+      a.setAttribute("target", "_blank");
+      a.setAttribute("rel", "noopener noreferrer");
+    });
+  }
+  document.addEventListener("click", function (e) {
+    var a = e.target && e.target.closest ? e.target.closest("a[href]") : null;
+    if (!a) return;
+    var href = a.getAttribute("href");
+    if (!href || href.charAt(0) === "#") return;
+    a.setAttribute("target", "_blank");
+    a.setAttribute("rel", "noopener noreferrer");
+  }, true);
+
+  // ---- markdown ----------------------------------------------------------
+  function stripFrontmatter(md) {
+    var m = md.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n/);
+    if (!m) return { fm: "", body: md };
+    return { fm: m[1], body: md.slice(m[0].length) };
+  }
+
+  function convertWikiLinks(md) {
+    return md.replace(/\[\[([^\]|]+)(?:\|([^\]]*))?\]\]/g, function (m, target, label) {
+      var key = target.trim();
+      var path = wikiMap[key.toLowerCase()];
+      var text = (label === undefined ? target : label).trim();
+      text = text.replace(/([[\]])/g, "\\$1");
+      if (path && path !== "IN_PAGE") {
+        // "./index.html#..." (not a bare "#...") so the new-tab rule applies
+        return "[" + text + "](./index.html#" + encPath(path) + ")";
+      }
+      return text;
+    });
+  }
+
+  function slug(s) {
+    return s.toLowerCase().trim()
+      .replace(/[^\w\s-]/g, "")
+      .replace(/\s+/g, "-");
+  }
+
+  function renderMarkdown(md) {
+    if (window.marked && marked.parse) {
+      return marked.parse(md, { gfm: true, breaks: false });
+    }
+    var pre = document.createElement("pre");
+    pre.textContent = md;
+    return pre.outerHTML;
+  }
+
+  // ---- loading -----------------------------------------------------------
+  function setStatus(msg, isError) {
+    currentDoc = null;
+    content.hidden = true;
+    statusEl.hidden = false;
+    statusEl.style.color = isError ? "var(--accent2)" : "var(--muted)";
+    statusEl.textContent = msg;
+  }
+
+  async function loadDoc(path) {
+    setStatus("Loading " + path + " …");
+    try {
+      var res = await fetch(path);
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      var raw = await res.text();
+      var parts = stripFrontmatter(raw);
+      var html = renderMarkdown(convertWikiLinks(parts.body));
+      content.innerHTML = html;
+      // heading ids so "#section" jumps work (README's category index)
+      content.querySelectorAll("h1,h2,h3,h4,h5,h6").forEach(function (h) {
+        if (!h.id) h.id = slug(h.textContent);
+      });
+      enforceNewTab(content);
+      currentDoc = path;
+      statusEl.hidden = true;
+      content.hidden = false;
+      document.getElementById("docTitle").textContent = path;
+      highlightNav(path);
+      if (location.hash && !wikiMap[decodeURIComponent(location.hash.slice(1)).toLowerCase()]) {
+        var id = decodeURIComponent(location.hash.slice(1));
+        var el = document.getElementById(id);
+        if (el) el.scrollIntoView();
+        else window.scrollTo(0, 0);
+      } else {
+        window.scrollTo(0, 0);
+      }
+      if (window.innerWidth <= 860) document.getElementById("nav").classList.remove("open");
+    } catch (err) {
+      setStatus("Could not load " + path + " (" + err.message + ")", true);
+    }
+  }
+
+  function resolveHash() {
+    var raw = "";
+    try { raw = decodeURIComponent(location.hash.slice(1)); } catch (e) { raw = location.hash.slice(1); }
+    if (!raw) return { path: "Home.md" };
+    var mapped = wikiMap[raw.toLowerCase()];
+    if (mapped) return { path: mapped };
+    if (/\.md$/i.test(raw)) return { path: raw };
+    return { anchor: raw };           // in-page fragment
+  }
+
+  function route() {
+    var r = resolveHash();
+    if (r.path && r.path !== currentDoc) { loadDoc(r.path); return; }
+    if (r.anchor && r.path === undefined && currentDoc) {
+      var el = document.getElementById(r.anchor);
+      if (el) el.scrollIntoView();
+    }
+    if (r.anchor && !currentDoc) { loadDoc("Home.md"); }
+  }
+
+  // ---- sidebar -----------------------------------------------------------
+  function navLink(href, label, extra) {
+    var a = document.createElement("a");
+    a.href = href;
+    a.innerHTML = label;
+    if (extra) a.dataset.path = extra;
+    return a;
+  }
+
+  function buildNav() {
+    var fixed = document.getElementById("navFixed");
+    fixed.innerHTML = "";
+    var h1 = document.createElement("h4"); h1.textContent = "Vault"; fixed.appendChild(h1);
+    var ul = document.createElement("ul");
+    [["Home.md", "🏠 Dashboard"], ["README.md", "📖 Full archive"]].forEach(function (d) {
+      var li = document.createElement("li");
+      li.appendChild(navLink("#" + encPath(d[0]), d[1], d[0]));
+      ul.appendChild(li);
+    });
+    fixed.appendChild(ul);
+
+    var cats = document.getElementById("navCats");
+    cats.innerHTML = "";
+    var h2 = document.createElement("h4"); h2.textContent = "Categories"; cats.appendChild(h2);
+    var ul2 = document.createElement("ul");
+    manifest.categories.forEach(function (c) {
+      var li = document.createElement("li");
+      li.appendChild(navLink("#" + encPath(c.path),
+        escapeHtml(c.name) + '<span class="cnt">' + c.count + "</span>", c.path));
+      ul2.appendChild(li);
+    });
+    cats.appendChild(ul2);
+
+    var ents = document.getElementById("navEntries");
+    ents.innerHTML = "";
+    var h3 = document.createElement("h4");
+    h3.textContent = "Entries (" + manifest.entries.length + ")";
+    ents.appendChild(h3);
+    var ul3 = document.createElement("ul");
+    ul3.id = "entryList";
+    manifest.entries.forEach(function (e) {
+      var li = document.createElement("li");
+      li.dataset.search = (e.uid + " " + e.title + " " + e.category + " " + e.platform + " " + (e.tags || []).join(" ")).toLowerCase();
+      li.appendChild(navLink("#" + encPath(e.path),
+        '<span class="uid">' + escapeHtml(e.uid) + "</span>" + escapeHtml(e.title), e.path));
+      ul3.appendChild(li);
+    });
+    ents.appendChild(ul3);
+  }
+
+  function escapeHtml(s) {
+    return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];
+    });
+  }
+
+  function highlightNav(path) {
+    document.querySelectorAll("#nav a[data-path]").forEach(function (a) {
+      a.classList.toggle("active", a.dataset.path === path);
+    });
+  }
+
+  function wireFilter() {
+    var input = document.getElementById("filter");
+    input.addEventListener("input", function () {
+      var q = input.value.trim().toLowerCase();
+      document.querySelectorAll("#nav li").forEach(function (li) {
+        var hay = li.dataset.search || li.textContent.toLowerCase();
+        li.style.display = !q || hay.indexOf(q) !== -1 ? "" : "none";
+      });
+      ["navFixed", "navCats", "navEntries"].forEach(function (id) {
+        var box = document.getElementById(id);
+        var any = Array.prototype.some.call(box.querySelectorAll("li"), function (li) {
+          return li.style.display !== "none";
+        });
+        var head = box.querySelector("h4");
+        if (head) head.style.display = any || !q ? "" : "none";
+        box.style.display = any || !q ? "" : "none";
+      });
+    });
+  }
+
+  // ---- boot --------------------------------------------------------------
+  document.getElementById("menuBtn").addEventListener("click", function () {
+    document.getElementById("nav").classList.toggle("open");
+  });
+  window.addEventListener("hashchange", route);
+
+  fetch("site-manifest.json")
+    .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+    .then(function (m) {
+      manifest = m;
+      m.docs.forEach(function (d) {
+        if (d.wiki) wikiMap[d.wiki.toLowerCase()] = d.path;
+      });
+      // Obsidian-style aliases for the two top-level notes
+      wikiMap["home"] = wikiMap["home"] || "Home.md";
+      buildNav();
+      wireFilter();
+      route();
+    })
+    .catch(function (err) {
+      setStatus("Could not load site-manifest.json (" + err.message + "). " +
+        "Run: python3 scripts/build_site_manifest.py", true);
+    });
+})();
+</script>
+</body>
+</html>
