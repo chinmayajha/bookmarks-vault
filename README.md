@@ -13,12 +13,12 @@
 
 | | |
 |---|---|
-| **Total entries** | **319** |
-| **By source** | 🐦 X/Twitter **277** · 💬 Reddit **27** · 💼 LinkedIn **15** |
+| **Total entries** | **328** |
+| **By source** | 🐦 X/Twitter **286** · 💬 Reddit **27** · 💼 LinkedIn **15** |
 | **Categories** | 14 |
-| **With product/tryout links** | 115 |
-| **Video entries** | 23 |
-| **⭐ High follow-up** | 130 (medium 143 · low 46) |
+| **With product/tryout links** | 121 |
+| **Video entries** | 25 |
+| **⭐ High follow-up** | 136 (medium 146 · low 46) |
 
 Each entry below shows the **essence of the whole discussion** (main post + thread + top replies)
 and a one-line **takeaway** — you shouldn't need to click through to get the point.
@@ -27,20 +27,20 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 | Category | Items | What's inside |
 |---|---:|---|
-| [AI & LLM](#ai-llm) | 60 | LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM … |
-| [Dev Tools & Productivity](#dev-tools-productivity) | 46 | IDEs, developer utilities, open-source libraries, CLI tools, workflows, editor/tool … |
+| [AI & LLM](#ai-llm) | 64 | LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM … |
+| [Dev Tools & Productivity](#dev-tools-productivity) | 47 | IDEs, developer utilities, open-source libraries, CLI tools, workflows, editor/tool … |
 | [Programming & CS Learning](#programming-cs-learning) | 51 | Courses, playlists, books, tutorials, CS concepts (DB, OS, systems, ML theory), learning … |
-| [Interviews, OA & DSA](#interviews-oa-dsa) | 32 | Online assessments, interview experiences/questions, DSA prep, system design/HLD prep … |
-| [Jobs, Careers & Compensation](#jobs-careers-compensation) | 30 | Hiring posts, referral/job openings, offer comparisons, salary/CTC data, resume/ATS tips … |
+| [Interviews, OA & DSA](#interviews-oa-dsa) | 33 | Online assessments, interview experiences/questions, DSA prep, system design/HLD prep … |
+| [Jobs, Careers & Compensation](#jobs-careers-compensation) | 31 | Hiring posts, referral/job openings, offer comparisons, salary/CTC data, resume/ATS tips … |
 | [Quant & Trading](#quant-trading) | 24 | Quant trading/research roles, HFT firms, trading competitions, market structure, quant … |
 | [Personal Finance & Money](#personal-finance-money) | 9 | Credit cards, loans, insurance, investing, stocks/gold/crypto money matters, taxes … |
-| [Startups, Product & Marketing](#startups-product-marketing) | 30 | Founder content, growth/marketing tactics, product building, YC/startup programs, side … |
+| [Startups, Product & Marketing](#startups-product-marketing) | 31 | Founder content, growth/marketing tactics, product building, YC/startup programs, side … |
 | [Health, Fitness & Wellness](#health-fitness-wellness) | 12 | Exercise, sleep, supplements, nutrition, mental health, recovery, physical training |
 | [Life, Relationships & Self-Improvement](#life-relationships-self-improvement) | 4 | Relationships, habits, psychology, dating/marriage, soft skills, lifestyle design … |
 | [India Life & City Guides](#india-life-city-guides) | 2 | City guides (Bangalore/Delhi/Gurgaon), food, breweries, travel, India-specific living … |
 | [Entertainment, Culture & Fun](#entertainment-culture-fun) | 12 | Memes, TV shows, movies, fun threads, viral discussions, hobbies, internet culture, jokes |
 | [Tech Industry & News](#tech-industry-news) | 3 | Company announcements, industry drama, big-tech news, product launches by majors, policy |
-| [Other](#other) | 4 | Genuinely uncategorizable items; explain in subcategory |
+| [Other](#other) | 5 | Genuinely uncategorizable items; explain in subcategory |
 
 ## 🌟 Start here — high-signal picks
 
@@ -82,9 +82,9 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 <a id="ai-llm"></a>
 
-## AI & LLM (60)
+## AI & LLM (64)
 
-<details><summary><b>Show 60 entries</b> — LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM workflows and tips</summary>
+<details><summary><b>Show 64 entries</b> — LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM workflows and tips</summary>
 
 - **[Sahaj won't push a PR without /codebase-design and /zero-tech-debt skills](https://x.com/iamsahaj_xyz/status/2105746013709631735)**  
   `Sahaj` · `2026-10-01` · `3 replies · 6 reposts · 250 likes · 28.8K views · 460 …`
@@ -405,6 +405,29 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Takeaway:** Watch the OSS Agent Memory Repo spec — Git-versioned memory files as a cross-session message board is the pattern to copy even outside Devin.
   - **Try it:** [cognition.com/agent-memory-repo](https://cognition.com/agent-memory-repo) · [devin.ai/blog/memory-and-dreaming](https://devin.ai/blog/memory-and-dreaming)
   - 🏷 ai-agents, agent-memory, devin, oss-standard, git
+- **[ASD-STE100 skill kills terminal slop: agents write in Simplified Technical English](https://x.com/0xpili_/status/2106377863163507162)** ⭐  
+  `pili 🪴` · `2026-10-02` · `59 replies · 150 reposts · 3.4K likes · 320.1K views · 6.1K …`
+  - **Essence:** pili (@0xpili_) quotes Karpathy's Oct 2 thread on understanding LLM outputs (tip: ask the LLM to explain in ASD-STE100) and ships the skill: agents write in ASD-STE100, Simplified Technical English, and terminal slop drops drastically (github.com/0xpili/simplified-technical-english). Self-thread: the skill is much better short-term, unsure long-term; invites try-and-report feedback. Replies: Steven Elliott calls it life-changing; Piyush tried it and asks whether the skill beats just asking the agent for ASD-STE output; Alpha Desk asks why not a one-liner in agents.md; Farzin wants a copywriting skill (GPT is bad at copy); interplato asks about token limits; danigonlinea considered …
+  - **Takeaway:** Try the skill for agent-written prose; the open question — skill vs one-liner vs output style — is worth testing yourself.
+  - **Try it:** [github.com/0xpili/simplified-technical-english](https://github.com/0xpili/simplified-technical-english)
+  - 🏷 asd-ste100, agent-skills, technical-writing, llm-slop
+- **[REA: open-source toolkit gives your AI agent reverse-engineering via MCP and CLI](https://x.com/_vmlops/status/2106690704244420687)** ⭐  
+  `Vaishnavi` · `2026-10-04` · `80 replies · 657 reposts · 6.3K likes · 300K views · 9.1K …`
+  - **Essence:** Vaishnavi (@_vmlops) launches REA (Reverse Engineer Anything): an open-source toolkit bringing reverse-engineering to AI agents via MCP and CLI — decompile apps and native binaries, trace execution and inspect evidence, recreate features for your own stack (github.com/morluto/rea). Replies are thin (thanks plus ads), so the value is the launch itself. 80 replies, 657 reposts, 6.2K likes, 9.1K bookmarks, 300K views.
+  - **Takeaway:** Save for agent-driven RE work; verify MCP tool quality before wiring it into your agent.
+  - **Try it:** [github.com/morluto/rea](https://github.com/morluto/rea)
+  - 🏷 reverse-engineering, mcp, ai-agents, open-source
+- **[Deleted 800K lines of unit tests from the monorepo: 3 hypotheses on why tests hurt agents](https://x.com/shcallaway/status/2106142042405453879)** ⭐  
+  `Sherwood` · `2026-10-02` · `377 replies · 248 reposts · 3.3K likes · 621.1K views · …`
+  - **Essence:** Sherwood (@shcallaway) deleted 800K lines of unit tests from the sazabi monorepo with three hypotheses: tests lock in slop by making code hard to change, slow dev cycles via extra agent work and CI time, and waste money via agent tokens and useless CI runs — results to follow. Replies split: Stefano cries AI psychosis; Kevin gives the key counter (good tests assert behavior, not implementation); kamera answers with sarcasm (next delete the build configs); Andrew dares them to push to prod. 377 replies, 248 reposts, 3.3K likes, 2.1K bookmarks, 621K views.
+  - **Takeaway:** The strongest anti-unit-test datapoint for agent workflows — pair it with Kevin's behavior-not-implementation counter before acting.
+  - 🏷 unit-tests, testing, ai-agents, monorepo
+- **[Claude Code's 'You should Know' plugin: a sideagent that catches what you missed](https://x.com/ClaudeDevs/status/2106118517447876618)** 🎬 ⭐  
+  `ClaudeDevs` · `2026-10-02` · `378 replies · 1155 reposts · 16K likes · 1.6M views · 16.8K …`
+  - **Essence:** ClaudeDevs launches the 'You should Know' builtin plugin for Claude Code: it scans Claude's output for important information you might miss — enable with /plugin enable cc-plugin-you-should-know@builtin; a sideagent observes the output, with the mods blog at claude.dev/blog/getting-started-with-claude-code-mods. Replies: Behnam finds the demos confusing and asks for plain-English mod explanations in ASD-STE100 (see X-278); David calls it the worst feature since every turn ends in more work, suggesting piping output back to resolve; Lucas asks about verbosity control; Chris asks about Cloud sessions; Adam asks about subscription cost; Neil jokes about paying to condense word salad. 378 …
+  - **Takeaway:** Enable the plugin and read the mods blog; watch the verbosity and cost concerns in the replies.
+  - **Try it:** [claude.dev/blog/getting-started-with-claude-code-mod …](https://claude.dev/blog/getting-started-with-claude-code-mods/)
+  - 🏷 claude-code, plugins, mods, ai-assistants
 - **[Cut Claude Code / Cursor token usage ~60% with a small CLI tool](https://www.linkedin.com/feed/update/urn:li:activity:7462777658507051010)**  
   `Daniel Engelhardt` · `2026-05-20` · `♥94 · 37 comments · 5 reposts`
   - **Essence:** Daniel shares that a small open-source CLI (rtk), which rewrites bash commands into compact output before execution, cut his team's Claude Code and Cursor token usage by roughly 60%, and describes his own counter-analysis: a local audit skill over his session logs found about 28% of spend was cuttable, but rtk's output compression covered under 1% of his bill because almost all the money sat in bloated context — sessions crossing 200k into the 2x pricing tier, plus skills and plugins riding along on every request that were never called. He concludes output compression and context hygiene are different layers that stack, and thanks whoever pointed him at the tool. The comment thread is a …
@@ -416,9 +439,9 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 <a id="dev-tools-productivity"></a>
 
-## Dev Tools & Productivity (46)
+## Dev Tools & Productivity (47)
 
-<details><summary><b>Show 46 entries</b> — IDEs, developer utilities, open-source libraries, CLI tools, workflows, editor/tool releases, dev infrastructure</summary>
+<details><summary><b>Show 47 entries</b> — IDEs, developer utilities, open-source libraries, CLI tools, workflows, editor/tool releases, dev infrastructure</summary>
 
 - **[pnpm asks your coding agent to fix its 629 open issues](https://x.com/pnpmjs/status/2103438679478010198)**  
   `pnpm` · `2026-09-25` · `33 replies · 60 reposts · 567 likes · 61.7K views · 266 …`
@@ -658,6 +681,12 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Takeaway:** Grab gyotaku for Windows and offline OCR search; compare neurasnip (semantic) and dejashot (Mac) before committing — offline privacy is the deciding feature.
   - **Try it:** [github.com/xevrion/gyotaku](https://github.com/xevrion/gyotaku) · [github.com/Ayushkumar111/neurasnip](https://github.com/Ayushkumar111/neurasnip) · [dejashot.com](https://dejashot.com)
   - 🏷 screenshots, ocr, search, offline, open-source, productivity
+- **[image-viewer: Claude Code mod that renders pasted images above the prompt](https://x.com/jarrodwatts/status/2106153410697564235)** 🎬 ⭐  
+  `Jarrod Watts` · `2026-10-02` · `60 replies · 90 reposts · 1.4K likes · 83.1K views · 1.2K …`
+  - **Essence:** Jarrod Watts ships image-viewer: a simple Claude Code mod rendering pasted images above the prompt input (github.com/jarrodwatts/claude-image-view). Self-thread: merged thanks. Replies carry the actionable bit: Akshay's fix for the agents view (each session is a background agent; set CLAUDE_CODE_FORCE_TERMINAL_IMAGES, PR opened to the readme); toli senses a Claude HUD rebuild underway; josh and rolo confirm demand. 60 replies, 90 reposts, 1.4K likes, 1.1K bookmarks with a demo video.
+  - **Takeaway:** Install the mod; apply Akshay's env-var fix for the background-agents view.
+  - **Try it:** [github.com/jarrodwatts/claude-image-view](https://github.com/jarrodwatts/claude-image-view)
+  - 🏷 claude-code, mods, developer-tools, images
 - **[I built Kal, an interpreted programming language from scratch!](https://www.reddit.com/r/IndiaTech/comments/1uf263n/i_built_kal_an_interpreted_programming_language/)**  
   `u/KILLinefficiency` · `2026-06-25` · `↑21 · 13 comments`
   - **Essence:** OP releases v0.1.0 of Kal, a lightweight interpreted language written from scratch in C++ with no third-party dependencies, GPL v3, mixing paradigms and embeddable into C++, Python and JavaScript; he ships a website and GitHub repo and asks for stars. Replies ask whether it was a team effort — OP says he's a solo dev and that this first release took four years with no libraries and no AI — plus what Kal is good for today (CLI tools and embedding) and what the long-term goal is (still being defined). Commenters are impressed by the codebase at a glance, with one reminiscing about dreaming of writing his own OS, and the thread's tone is supportive rather than critical.
@@ -968,9 +997,9 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 <a id="interviews-oa-dsa"></a>
 
-## Interviews, OA & DSA (32)
+## Interviews, OA & DSA (33)
 
-<details><summary><b>Show 32 entries</b> — Online assessments, interview experiences/questions, DSA prep, system design/HLD prep, contest problems</summary>
+<details><summary><b>Show 33 entries</b> — Online assessments, interview experiences/questions, DSA prep, system design/HLD prep, contest problems</summary>
 
 - **[5 multithreading design problems for Rubrik, Databricks and Google](https://x.com/86pushkar24/status/2036293854647951583)**  
   `Pushkar` · `2026-03-24` · `8 replies · 36 reposts · 337 likes · 15.6K views · 520 …`
@@ -1077,6 +1106,12 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Essence:** OP shares Yugabyte's compensation - around 35+ LPA, and 50+ LPA for more than a year of experience for a software engineer - alongside its interview structure: Round 1 technical is 'design a hit counter' focused on high-concurrency write handling and memory-efficient storage (circular buffers or buckets for time-based counts, then scaling to millions of requests per second with accuracy in a distributed environment); Round 2 covers concurrency and problem solving - thread lifecycle, race conditions - plus designing and implementing a word auto-complete suggestion feature; further rounds are cut off in the capture. Replies say round 2's concurrency and memory-efficiency focus is the real …
   - **Takeaway:** India compensation signal plus a real distributed-systems interview loop breakdown.
   - 🏷 yugabyte, interview process, system design, india salary, concurrency
+- **[Interview take-home for an Indian frontier AI lab: inference on hardware (inference-forge)](https://x.com/shashvatsingh05/status/2062819852063248753)**  
+  `Shashvat Singh` · `2026-06-05` · `5 replies · 2 reposts · 75 likes · 95K views · 140 bookmarks`
+  - **Essence:** Shashvat Singh built a take-home project for an Indian frontier AI lab interview: inference on hardware, a genuinely cool problem statement (repo: inference-forge, an adaptive batch inference pipeline). Self-thread: the lab had a lax AI-use policy but you had to understand what the code meant; praises interviews that skip DSA norms and put you in real problem-solver shoes. Replies: Almichael asks if it was take-home and what the AI policy was; Saurabh says frontier-lab problems are most fun near real systems; Tej jokes every AI-scaffolded project is named 'forge'. 5 replies, 75 likes, 140 bookmarks.
+  - **Takeaway:** A concrete inference-on-hardware interview project template; check the repo for batching patterns.
+  - **Try it:** [github.com/sh4shv4t/inference-forge](https://github.com/sh4shv4t/inference-forge)
+  - 🏷 interviews, inference, take-home, india-ai-labs
 - **[Rubrik OA | 2027 Grad | 50+LPA CTC | Double Camera On](https://www.reddit.com/r/Btechtards/comments/1vpqsba/rubrik_oa_2027_grad_50lpa_ctc_double_camera_on/)**  
   `u/Brilliant_Card_447` · `2026-08-16` · `↑24 · 14 comments`
   - **Essence:** OP posts the Rubrik OA problem for 2027 grads (50+ LPA CTC, double-camera proctoring): given N modules each with storage S and exposure E, activate the maximum number of modules so no selected module can compromise another (S[i] > E[i] for all i). Replies mostly ask which college/branch this came from and what the base comp is, while one commenter calls it 'mad easy for Rubrik' and outlines the solution — sort by exposure and greedily take modules whose storage exceeds the current exposure, effectively reverse merge-intervals. Another top reply explains the double-camera setup: a second camera captures your full body, face and hands so you can't cheat.
@@ -1147,9 +1182,9 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 <a id="jobs-careers-compensation"></a>
 
-## Jobs, Careers & Compensation (30)
+## Jobs, Careers & Compensation (31)
 
-<details><summary><b>Show 30 entries</b> — Hiring posts, referral/job openings, offer comparisons, salary/CTC data, resume/ATS tips, off-campus application advice</summary>
+<details><summary><b>Show 31 entries</b> — Hiring posts, referral/job openings, offer comparisons, salary/CTC data, resume/ATS tips, off-campus application advice</summary>
 
 - **[Blind's 1.5k-comment 'worst company you've worked for' thread](https://x.com/jain_harshit/status/2095520438353109190)**  
   `Harshit Jain` · `2026-09-03` · `5 replies · 2 reposts · 101 likes · 13.7K views · 24 …`
@@ -1275,6 +1310,12 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Essence:** OP maps the Indian hackathon-based hiring calendar for 2026: Jan-Feb - Microsoft Imagine Cup India qualifiers, MLH-backed hackathons at Indian colleges, early campus scouting by startups; Feb-Mar - Google Summer of Code applications and open-source programs via IITs, NITs, IIITs and community OSS internships; Mar-Apr - TCS CodeVita regional and national rounds, Infosys HackWithInfy, Cognizant and Wipro coding challenges; Apr-May - Accenture Hack Diva, Deloitte India tech challenges, fintech and SaaS startup hackathons; May-Aug - Amazon HackOn, Flipkart GRiD, Adobe India Hackathon, Bajaj HackRx, Walmart Sparkathon, and Paytm, PhonePe and Swiggy tech events. One captured reply just says …
   - **Takeaway:** Month-by-month map of Indian hackathon hiring - genuinely useful planning resource for students.
   - 🏷 hackathons, india hiring, gsoc, campus hiring, coding competitions
+- **[Hacktober with Kestra: 2 Macbook Neos, iPads and vouchers for top OSS contributors](https://x.com/arsh_goyal/status/2106444936988274745)**  
+  `Arsh Goyal` · `2026-10-03` · `12 replies · 3 reposts · 130 likes · 9.2K views · 135 …`
+  - **Essence:** Arsh Goyal is organizing a Hacktober with Kestra: 2 Macbook Neos, iPads and Amazon vouchers for the top 6 contributors, plus merchandise for all accepted PRs — register via the form, details at kestra.io/hacktober. The 12 replies are pure signups ('Done', 'Count me in', 'Submitted') with one question on expected contributions and one hiring reply, so there is no technical substance beyond the announcement. 12 replies, 130 likes, 135 bookmarks. Note: time-bound to October 2026, links rot after the event.
+  - **Takeaway:** Hardware-prize OSS event if you are contributing this October; ignore once the event ends.
+  - **Try it:** [kestra.io/hacktober](https://kestra.io/hacktober) · [docs.google.com/forms/d/e/1FAIpQLSfHgC4RsK9NK51gLUxB …](https://docs.google.com/forms/d/e/1FAIpQLSfHgC4RsK9NK51gLUxBYwpUQwLB45SJQB365G0MAIrKLlnnSg/viewform)
+  - 🏷 hacktoberfest, open-source, events, prizes
 - **[JPMorgan Chase India Salary Megathread (2026)](https://www.reddit.com/r/jpmorganchase_india/comments/1sxer5x/jpmorgan_chase_india_salary_megathread_2026/)** ⭐  
   `u/Think-Way-510` · `2026-04-27` · `↑227 · 157 comments`
   - **Essence:** OP invites JPMorgan Chase India employees to post role, LOB, education, experience, CTC and a 1-10 work-life score, and the 157 replies deliver a genuine comp dataset: an investment-banking VP at 34 reports INR 1.1cr base plus 70-100% bonus (~INR 2cr), a markets QR with 4.5 YOE reports 53+30 (WLB 3), an SDE-2 with 1.9 YOE 21+6 (WLB 7), a senior finance associate 15+5 (WLB 8), non-tech bands of 8-17 LPA (analyst), 15-25 (associate), 25-45 (senior associate), an 18-year ED in product management at 1.2cr + 33L (WLB 8), a 9-year PM at 90+20 with WLB 2, and a 4.5-year SWE at 30 fixed who claims full remote and ~2 hours a day 'cuz of claude'. Several people use the thread to ask what base to …
@@ -1511,9 +1552,9 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 <a id="startups-product-marketing"></a>
 
-## Startups, Product & Marketing (30)
+## Startups, Product & Marketing (31)
 
-<details><summary><b>Show 30 entries</b> — Founder content, growth/marketing tactics, product building, YC/startup programs, side projects, launch strategies</summary>
+<details><summary><b>Show 31 entries</b> — Founder content, growth/marketing tactics, product building, YC/startup programs, side projects, launch strategies</summary>
 
 - **[Technical writer pitch riding on a 'get your website cited by AI tools' article](https://x.com/Tech_girl/status/2105727717077405869)**  
   `Mari` · `2026-09-30` · `2 likes · 39.2K views · 11 bookmarks`
@@ -1662,6 +1703,11 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Essence:** Michael (@michael_chomsky) design prompt of the day: LLMs write staccato sentences ('More reliable. Less expensive.' / 'Sleep better. Live longer.') — tell your agent to never use staccato sentences in landing pages (OP misspells it 'stacatto' and admits he checked the spelling and still got it wrong; correct spelling is staccato). Replies carry the real value: Seth traces it to a decade of DTC landing pages, Apple wrote 'thinner. lighter. faster.' before LLMs; David Qu adds 'it's not X, it's Y' to the ban list; John says every landing page reads like a pharma ad now; Asmir warns banning one tic just swaps in the next, so paste a paragraph you like to copy instead; Mika shares a Design.md …
   - **Takeaway:** Copy-paste prompt rule for landing pages, plus two steals: also ban 'it's not X, it's Y' and give the agent a liked-paragraph example instead of pure bans.
   - 🏷 copywriting, landing-pages, prompting, design, llm-slop
+- **[Every vibe coder's SEO prompt is actually the whole checklist — paste into Claude Code](https://x.com/suraj_sharma14/status/2106240327569035424)** ⭐  
+  `Suraj Sharma` · `2026-10-03` · `62 replies · 172 reposts · 3.2K likes · 263.2K views · 9.3K …`
+  - **Essence:** Suraj Sharma's joke SEO prompt for vibe coders ('Rank #1 by Friday. Make no mistakes.' after SSR, sitemap, Search Console, robots, noindex, redirects, 404s, canonicals, meta descriptions, one H1, FAQ schema, breadcrumbs, orphans, alt text, WebP, CLS, sub-2s loads, de-slop, author bio, backlinks) is actually the whole checklist — bookmark it, paste into Claude Code, and do the last two (bio, backlinks) yourself. Self-thread: live-page checks should be mandatory; vibe sites optimize for browsers over search engines; technical SEO gets you discovered, trust gets you chosen. Replies: Shawn adds where real wins start (canonicals, JSON-LD, og:image); Jamie says SSR is the biggest fix since …
+  - **Takeaway:** The most-saved SEO checklist in the vault — paste-ready, with the SSR-first priority from the replies.
+  - 🏷 seo, vibe-coding, prompts, checklists
 - **[I built ThreadLens: upload a chat export and see the patterns in any argument](https://www.linkedin.com/feed/update/urn:li:activity:7467073714950434816)**  
   `Vipul Bajaj` · `2026-06-01` · `♥44 · 4 comments`
   - **Essence:** Vipul tells the origin story of ThreadLens: a friend emerged from a fight absolutely sure she was right because she only had screenshots, so he had her drop a full chat export into what he'd been building — and seeing every message and gap, not just her selected ones, changed her view in twenty minutes. The product takes WhatsApp, Telegram or iMessage exports, runs entirely in the browser with no account, and shows who messages first, who waits longer, who apologizes more and who escalates, with an optional AI that only sees what you ask about; it's free. The four replies are light praise and a joke he leans into — 'every group chat has someone who remembers every message and someone who …
@@ -1889,9 +1935,9 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 <a id="other"></a>
 
-## Other (4)
+## Other (5)
 
-<details><summary><b>Show 4 entries</b> — Genuinely uncategorizable items; explain in subcategory</summary>
+<details><summary><b>Show 5 entries</b> — Genuinely uncategorizable items; explain in subcategory</summary>
 
 - **[Hacker dumps a Voice AI company's prod data via IDOR and BAC](https://x.com/archiexzzz/status/2030144621003878586)**  
   `Archie Sengupta` · `2026-03-07` · `131 replies · 96 reposts · 2.2K likes · 348.6K views · 1.7K …`
@@ -1908,6 +1954,11 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Essence:** OP lists occupations that are 84-99% male - firefighters, construction, combat troops, trash collectors, cable installers, road builders, iron workers, coal miners, electricians, plumbers - and asks why feminists never complain about these gender gaps, 'I wonder why'. The reply digest shows the thread becoming a culture-war discussion: one account argues women and men are simply complementary, Elon Musk replies with a thinking-face emoji, and the exchange continues with more ratio stats. Category rationale: no taxonomy category fits culture-war commentary.
   - **Takeaway:** High-reach (9.2M views) culture-war engagement post - relevant only as an example of ratio-bait framing.
   - 🏷 culture war, gender, engagement bait, politics
+- **[Rust everywhere? 'Beautiful language if you don't have to look at it' (DHH)](https://x.com/kirat_tw/status/2105695394126844340)**  
+  `Harkirat Singh` · `2026-10-01` · `42 replies · 46 reposts · 1.2K likes · 43.4K views · 95 …`
+  - **Essence:** Harkirat Singh: personalized software in Rust everywhere might become the norm, quoting 'Rust is a beautiful language if you don't have to look at it' — replies attribute the line to DHH (Anas, Arvind). The replies are the debate: Fauzan (Rust is Arijit Singh to Bollywood; if nobody looks at the code, C/C++/Zig do fine); Akshat (experiment in Python, build in Rust); Milind (Rust-everywhere is not the way, Rust is great at low-level); Anderson (Rust fanatics are the new crypto bros); Siddhant (bad name for a fine-wine language). 42 replies, 46 reposts, 1.2K likes. Category rationale: opinion debate, not a tool, tutorial or news item.
+  - **Takeaway:** The DHH attribution plus the experiment-in-Python-build-in-Rust rule are the keepers.
+  - 🏷 rust, programming-languages, debate
 - **[MOCK PAPERS FOR BSTAT/MSTAT EXAM](https://www.reddit.com/r/ISIKolkata/comments/1snq0wn/mock_papers_for_bstatmstat_exam/)**  
   `u/WearySuggestion9500` · `2026-04-17` · `↑8 · 1 comment`
   - **Essence:** OP asks r/ISIKolkata whether mock papers for the ISI BStat/MStat entrance exam are available online, specifically RSM mocks. The single reply points to a Telegram channel (Scieastra) where they can be found and offers to trade — asking that any mocks found elsewhere be sent to them too. That is the whole thread: a one-question, one-answer resource hunt.

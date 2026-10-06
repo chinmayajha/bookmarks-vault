@@ -8,9 +8,9 @@ Your X / Reddit / LinkedIn bookmarks — extracted in full, categorized, summari
 
 ## 📊 At a glance
 
-**319 entries** · 🐦 X 277 · 💬 Reddit 27 · 💼 LinkedIn 15
+**328 entries** · 🐦 X 286 · 💬 Reddit 27 · 💼 LinkedIn 15
 
-🏷 14 categories · 🔗 115 with product links · 🎬 23 videos · ⭐ 130 high follow-up
+🏷 14 categories · 🔗 121 with product links · 🎬 25 videos · ⭐ 136 high follow-up
 
 ## 🗓 My plan for the coming months
 
@@ -18,20 +18,20 @@ Your X / Reddit / LinkedIn bookmarks — extracted in full, categorized, summari
 
 ## 🗂 Categories
 
-- **[[AI & LLM]]** — 60 items
-- **[[Dev Tools & Productivity]]** — 46 items
+- **[[AI & LLM]]** — 64 items
+- **[[Dev Tools & Productivity]]** — 47 items
 - **[[Programming & CS Learning]]** — 51 items
-- **[[Interviews, OA & DSA]]** — 32 items
-- **[[Jobs, Careers & Compensation]]** — 30 items
+- **[[Interviews, OA & DSA]]** — 33 items
+- **[[Jobs, Careers & Compensation]]** — 31 items
 - **[[Quant & Trading]]** — 24 items
 - **[[Personal Finance & Money]]** — 9 items
-- **[[Startups, Product & Marketing]]** — 30 items
+- **[[Startups, Product & Marketing]]** — 31 items
 - **[[Health, Fitness & Wellness]]** — 12 items
 - **[[Life, Relationships & Self-Improvement]]** — 4 items
 - **[[India Life & City Guides]]** — 2 items
 - **[[Entertainment, Culture & Fun]]** — 12 items
 - **[[Tech Industry & News]]** — 3 items
-- **[[Other]]** — 4 items
+- **[[Other]]** — 5 items
 
 ## 🌟 Start here — high-signal picks
 

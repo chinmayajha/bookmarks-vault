@@ -598,5 +598,215 @@
       "productivity"
     ],
     "worthFollowUp": "high"
+  },
+  {
+    "uid": "X-278",
+    "platform": "Twitter",
+    "category": "AI & LLM",
+    "subcategory": "agent writing skill",
+    "title": "ASD-STE100 skill kills terminal slop: agents write in Simplified Technical English",
+    "author": "pili 🪴",
+    "date": "2026-10-02",
+    "url": "https://x.com/0xpili_/status/2106377863163507162",
+    "engagement": "59 replies · 150 reposts · 3.4K likes · 320.1K views · 6.1K bookmarks",
+    "essence": "pili (@0xpili_) quotes Karpathy's Oct 2 thread on understanding LLM outputs (tip: ask the LLM to explain in ASD-STE100) and ships the skill: agents write in ASD-STE100, Simplified Technical English, and terminal slop drops drastically (github.com/0xpili/simplified-technical-english). Self-thread: the skill is much better short-term, unsure long-term; invites try-and-report feedback. Replies: Steven Elliott calls it life-changing; Piyush tried it and asks whether the skill beats just asking the agent for ASD-STE output; Alpha Desk asks why not a one-liner in agents.md; Farzin wants a copywriting skill (GPT is bad at copy); interplato asks about token limits; danigonlinea considered output-styles instead; Neil Hartner counters with placebo-effect skepticism. 59 replies, 150 reposts, 3.3K likes, 6.1K bookmarks, 320K views.",
+    "summary": "Try the skill for agent-written prose; the open question — skill vs one-liner vs output style — is worth testing yourself.",
+    "productLinks": [
+      "https://github.com/0xpili/simplified-technical-english"
+    ],
+    "hasMedia": "image",
+    "topicTags": [
+      "asd-ste100",
+      "agent-skills",
+      "technical-writing",
+      "llm-slop"
+    ],
+    "worthFollowUp": "high"
+  },
+  {
+    "uid": "X-279",
+    "platform": "Twitter",
+    "category": "Interviews, OA & DSA",
+    "subcategory": "interview take-home project",
+    "title": "Interview take-home for an Indian frontier AI lab: inference on hardware (inference-forge)",
+    "author": "Shashvat Singh",
+    "date": "2026-06-05",
+    "url": "https://x.com/shashvatsingh05/status/2062819852063248753",
+    "engagement": "5 replies · 2 reposts · 75 likes · 95K views · 140 bookmarks",
+    "essence": "Shashvat Singh built a take-home project for an Indian frontier AI lab interview: inference on hardware, a genuinely cool problem statement (repo: inference-forge, an adaptive batch inference pipeline). Self-thread: the lab had a lax AI-use policy but you had to understand what the code meant; praises interviews that skip DSA norms and put you in real problem-solver shoes. Replies: Almichael asks if it was take-home and what the AI policy was; Saurabh says frontier-lab problems are most fun near real systems; Tej jokes every AI-scaffolded project is named 'forge'. 5 replies, 75 likes, 140 bookmarks.",
+    "summary": "A concrete inference-on-hardware interview project template; check the repo for batching patterns.",
+    "productLinks": [
+      "https://github.com/sh4shv4t/inference-forge"
+    ],
+    "hasMedia": "",
+    "topicTags": [
+      "interviews",
+      "inference",
+      "take-home",
+      "india-ai-labs"
+    ],
+    "worthFollowUp": "medium"
+  },
+  {
+    "uid": "X-280",
+    "platform": "Twitter",
+    "category": "AI & LLM",
+    "subcategory": "agent reverse-engineering toolkit",
+    "title": "REA: open-source toolkit gives your AI agent reverse-engineering via MCP and CLI",
+    "author": "Vaishnavi",
+    "date": "2026-10-04",
+    "url": "https://x.com/_vmlops/status/2106690704244420687",
+    "engagement": "80 replies · 657 reposts · 6.3K likes · 300K views · 9.1K bookmarks",
+    "essence": "Vaishnavi (@_vmlops) launches REA (Reverse Engineer Anything): an open-source toolkit bringing reverse-engineering to AI agents via MCP and CLI — decompile apps and native binaries, trace execution and inspect evidence, recreate features for your own stack (github.com/morluto/rea). Replies are thin (thanks plus ads), so the value is the launch itself. 80 replies, 657 reposts, 6.2K likes, 9.1K bookmarks, 300K views.",
+    "summary": "Save for agent-driven RE work; verify MCP tool quality before wiring it into your agent.",
+    "productLinks": [
+      "https://github.com/morluto/rea"
+    ],
+    "hasMedia": "image",
+    "topicTags": [
+      "reverse-engineering",
+      "mcp",
+      "ai-agents",
+      "open-source"
+    ],
+    "worthFollowUp": "high"
+  },
+  {
+    "uid": "X-281",
+    "platform": "Twitter",
+    "category": "Startups, Product & Marketing",
+    "subcategory": "SEO checklist prompt",
+    "title": "Every vibe coder's SEO prompt is actually the whole checklist — paste into Claude Code",
+    "author": "Suraj Sharma",
+    "date": "2026-10-03",
+    "url": "https://x.com/suraj_sharma14/status/2106240327569035424",
+    "engagement": "62 replies · 172 reposts · 3.2K likes · 263.2K views · 9.3K bookmarks",
+    "essence": "Suraj Sharma's joke SEO prompt for vibe coders ('Rank #1 by Friday. Make no mistakes.' after SSR, sitemap, Search Console, robots, noindex, redirects, 404s, canonicals, meta descriptions, one H1, FAQ schema, breadcrumbs, orphans, alt text, WebP, CLS, sub-2s loads, de-slop, author bio, backlinks) is actually the whole checklist — bookmark it, paste into Claude Code, and do the last two (bio, backlinks) yourself. Self-thread: live-page checks should be mandatory; vibe sites optimize for browsers over search engines; technical SEO gets you discovered, trust gets you chosen. Replies: Shawn adds where real wins start (canonicals, JSON-LD, og:image); Jamie says SSR is the biggest fix since client-rendered pages look blank to Google; catman frames it as doors-and-signs vs trust; Ganesh reports only 3 pages indexed after 7 months. 62 replies, 172 reposts, 3.2K likes, 9.2K bookmarks.",
+    "summary": "The most-saved SEO checklist in the vault — paste-ready, with the SSR-first priority from the replies.",
+    "productLinks": [],
+    "hasMedia": "",
+    "topicTags": [
+      "seo",
+      "vibe-coding",
+      "prompts",
+      "checklists"
+    ],
+    "worthFollowUp": "high"
+  },
+  {
+    "uid": "X-282",
+    "platform": "Twitter",
+    "category": "Jobs, Careers & Compensation",
+    "subcategory": "hacktoberfest contribution event",
+    "title": "Hacktober with Kestra: 2 Macbook Neos, iPads and vouchers for top OSS contributors",
+    "author": "Arsh Goyal",
+    "date": "2026-10-03",
+    "url": "https://x.com/arsh_goyal/status/2106444936988274745",
+    "engagement": "12 replies · 3 reposts · 130 likes · 9.2K views · 135 bookmarks",
+    "essence": "Arsh Goyal is organizing a Hacktober with Kestra: 2 Macbook Neos, iPads and Amazon vouchers for the top 6 contributors, plus merchandise for all accepted PRs — register via the form, details at kestra.io/hacktober. The 12 replies are pure signups ('Done', 'Count me in', 'Submitted') with one question on expected contributions and one hiring reply, so there is no technical substance beyond the announcement. 12 replies, 130 likes, 135 bookmarks. Note: time-bound to October 2026, links rot after the event.",
+    "summary": "Hardware-prize OSS event if you are contributing this October; ignore once the event ends.",
+    "productLinks": [
+      "https://kestra.io/hacktober",
+      "https://docs.google.com/forms/d/e/1FAIpQLSfHgC4RsK9NK51gLUxBYwpUQwLB45SJQB365G0MAIrKLlnnSg/viewform"
+    ],
+    "hasMedia": "",
+    "topicTags": [
+      "hacktoberfest",
+      "open-source",
+      "events",
+      "prizes"
+    ],
+    "worthFollowUp": "medium"
+  },
+  {
+    "uid": "X-283",
+    "platform": "Twitter",
+    "category": "Other",
+    "subcategory": "rust language debate",
+    "title": "Rust everywhere? 'Beautiful language if you don't have to look at it' (DHH)",
+    "author": "Harkirat Singh",
+    "date": "2026-10-01",
+    "url": "https://x.com/kirat_tw/status/2105695394126844340",
+    "engagement": "42 replies · 46 reposts · 1.2K likes · 43.4K views · 95 bookmarks",
+    "essence": "Harkirat Singh: personalized software in Rust everywhere might become the norm, quoting 'Rust is a beautiful language if you don't have to look at it' — replies attribute the line to DHH (Anas, Arvind). The replies are the debate: Fauzan (Rust is Arijit Singh to Bollywood; if nobody looks at the code, C/C++/Zig do fine); Akshat (experiment in Python, build in Rust); Milind (Rust-everywhere is not the way, Rust is great at low-level); Anderson (Rust fanatics are the new crypto bros); Siddhant (bad name for a fine-wine language). 42 replies, 46 reposts, 1.2K likes. Category rationale: opinion debate, not a tool, tutorial or news item.",
+    "summary": "The DHH attribution plus the experiment-in-Python-build-in-Rust rule are the keepers.",
+    "productLinks": [],
+    "hasMedia": "",
+    "topicTags": [
+      "rust",
+      "programming-languages",
+      "debate"
+    ],
+    "worthFollowUp": "medium"
+  },
+  {
+    "uid": "X-284",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "claude-code mod",
+    "title": "image-viewer: Claude Code mod that renders pasted images above the prompt",
+    "author": "Jarrod Watts",
+    "date": "2026-10-02",
+    "url": "https://x.com/jarrodwatts/status/2106153410697564235",
+    "engagement": "60 replies · 90 reposts · 1.4K likes · 83.1K views · 1.2K bookmarks",
+    "essence": "Jarrod Watts ships image-viewer: a simple Claude Code mod rendering pasted images above the prompt input (github.com/jarrodwatts/claude-image-view). Self-thread: merged thanks. Replies carry the actionable bit: Akshay's fix for the agents view (each session is a background agent; set CLAUDE_CODE_FORCE_TERMINAL_IMAGES, PR opened to the readme); toli senses a Claude HUD rebuild underway; josh and rolo confirm demand. 60 replies, 90 reposts, 1.4K likes, 1.1K bookmarks with a demo video.",
+    "summary": "Install the mod; apply Akshay's env-var fix for the background-agents view.",
+    "productLinks": [
+      "https://github.com/jarrodwatts/claude-image-view"
+    ],
+    "hasMedia": "video",
+    "topicTags": [
+      "claude-code",
+      "mods",
+      "developer-tools",
+      "images"
+    ],
+    "worthFollowUp": "high"
+  },
+  {
+    "uid": "X-285",
+    "platform": "Twitter",
+    "category": "AI & LLM",
+    "subcategory": "unit tests vs agents debate",
+    "title": "Deleted 800K lines of unit tests from the monorepo: 3 hypotheses on why tests hurt agents",
+    "author": "Sherwood",
+    "date": "2026-10-02",
+    "url": "https://x.com/shcallaway/status/2106142042405453879",
+    "engagement": "377 replies · 248 reposts · 3.3K likes · 621.1K views · 2.1K bookmarks",
+    "essence": "Sherwood (@shcallaway) deleted 800K lines of unit tests from the sazabi monorepo with three hypotheses: tests lock in slop by making code hard to change, slow dev cycles via extra agent work and CI time, and waste money via agent tokens and useless CI runs — results to follow. Replies split: Stefano cries AI psychosis; Kevin gives the key counter (good tests assert behavior, not implementation); kamera answers with sarcasm (next delete the build configs); Andrew dares them to push to prod. 377 replies, 248 reposts, 3.3K likes, 2.1K bookmarks, 621K views.",
+    "summary": "The strongest anti-unit-test datapoint for agent workflows — pair it with Kevin's behavior-not-implementation counter before acting.",
+    "productLinks": [],
+    "hasMedia": "image",
+    "topicTags": [
+      "unit-tests",
+      "testing",
+      "ai-agents",
+      "monorepo"
+    ],
+    "worthFollowUp": "high"
+  },
+  {
+    "uid": "X-286",
+    "platform": "Twitter",
+    "category": "AI & LLM",
+    "subcategory": "claude-code plugin launch",
+    "title": "Claude Code's 'You should Know' plugin: a sideagent that catches what you missed",
+    "author": "ClaudeDevs",
+    "date": "2026-10-02",
+    "url": "https://x.com/ClaudeDevs/status/2106118517447876618",
+    "engagement": "378 replies · 1155 reposts · 16K likes · 1.6M views · 16.8K bookmarks",
+    "essence": "ClaudeDevs launches the 'You should Know' builtin plugin for Claude Code: it scans Claude's output for important information you might miss — enable with /plugin enable cc-plugin-you-should-know@builtin; a sideagent observes the output, with the mods blog at claude.dev/blog/getting-started-with-claude-code-mods. Replies: Behnam finds the demos confusing and asks for plain-English mod explanations in ASD-STE100 (see X-278); David calls it the worst feature since every turn ends in more work, suggesting piping output back to resolve; Lucas asks about verbosity control; Chris asks about Cloud sessions; Adam asks about subscription cost; Neil jokes about paying to condense word salad. 378 replies, 1155 reposts, 16K likes, 16.8K bookmarks, 1.6M views.",
+    "summary": "Enable the plugin and read the mods blog; watch the verbosity and cost concerns in the replies.",
+    "productLinks": [
+      "https://claude.dev/blog/getting-started-with-claude-code-mods/"
+    ],
+    "hasMedia": "video",
+    "topicTags": [
+      "claude-code",
+      "plugins",
+      "mods",
+      "ai-assistants"
+    ],
+    "worthFollowUp": "high"
   }
 ]

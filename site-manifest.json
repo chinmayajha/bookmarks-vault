@@ -20,7 +20,7 @@
    "wiki": "AI & LLM",
    "title": "🗂 AI & LLM",
    "group": "category",
-   "count": 60
+   "count": 64
   },
   {
    "name": "Dev Tools & Productivity",
@@ -29,7 +29,7 @@
    "wiki": "Dev Tools & Productivity",
    "title": "🗂 Dev Tools & Productivity",
    "group": "category",
-   "count": 46
+   "count": 47
   },
   {
    "name": "Programming & CS Learning",
@@ -47,7 +47,7 @@
    "wiki": "Interviews, OA & DSA",
    "title": "🗂 Interviews, OA & DSA",
    "group": "category",
-   "count": 32
+   "count": 33
   },
   {
    "name": "Jobs, Careers & Compensation",
@@ -56,7 +56,7 @@
    "wiki": "Jobs, Careers & Compensation",
    "title": "🗂 Jobs, Careers & Compensation",
    "group": "category",
-   "count": 30
+   "count": 31
   },
   {
    "name": "Quant & Trading",
@@ -83,7 +83,7 @@
    "wiki": "Startups, Product & Marketing",
    "title": "🗂 Startups, Product & Marketing",
    "group": "category",
-   "count": 30
+   "count": 31
   },
   {
    "name": "Health, Fitness & Wellness",
@@ -137,7 +137,7 @@
    "wiki": "Other",
    "title": "🗂 Other",
    "group": "category",
-   "count": 4
+   "count": 5
   },
   {
    "path": "Entries/L-001 - my-interview-experiences-zomato-google-tower-nvi.md",
@@ -6044,6 +6044,167 @@
     "twitter",
     "dev-tools-productivity"
    ]
+  },
+  {
+   "path": "Entries/X-278 - asd-ste100-skill-kills-terminal-slop-agents-writ.md",
+   "wiki": "X-278 - asd-ste100-skill-kills-terminal-slop-agents-writ",
+   "title": "ASD-STE100 skill kills terminal slop: agents write in Simplified Technical English",
+   "group": "entry",
+   "uid": "X-278",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "asd-ste100",
+    "agent-skills",
+    "technical-writing",
+    "llm-slop",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-279 - interview-take-home-for-an-indian-frontier-ai-la.md",
+   "wiki": "X-279 - interview-take-home-for-an-indian-frontier-ai-la",
+   "title": "Interview take-home for an Indian frontier AI lab: inference on hardware (inference-forge)",
+   "group": "entry",
+   "uid": "X-279",
+   "platform": "Twitter",
+   "category": "Interviews, OA & DSA",
+   "followup": "medium",
+   "tags": [
+    "interviews",
+    "inference",
+    "take-home",
+    "india-ai-labs",
+    "twitter",
+    "interviews-oa-dsa"
+   ]
+  },
+  {
+   "path": "Entries/X-280 - rea-open-source-toolkit-gives-your-ai-agent-reve.md",
+   "wiki": "X-280 - rea-open-source-toolkit-gives-your-ai-agent-reve",
+   "title": "REA: open-source toolkit gives your AI agent reverse-engineering via MCP and CLI",
+   "group": "entry",
+   "uid": "X-280",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "reverse-engineering",
+    "mcp",
+    "ai-agents",
+    "open-source",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-281 - every-vibe-coder-s-seo-prompt-is-actually-the-wh.md",
+   "wiki": "X-281 - every-vibe-coder-s-seo-prompt-is-actually-the-wh",
+   "title": "Every vibe coder's SEO prompt is actually the whole checklist — paste into Claude Code",
+   "group": "entry",
+   "uid": "X-281",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "high",
+   "tags": [
+    "seo",
+    "vibe-coding",
+    "prompts",
+    "checklists",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-282 - hacktober-with-kestra-2-macbook-neos-ipads-and-v.md",
+   "wiki": "X-282 - hacktober-with-kestra-2-macbook-neos-ipads-and-v",
+   "title": "Hacktober with Kestra: 2 Macbook Neos, iPads and vouchers for top OSS contributors",
+   "group": "entry",
+   "uid": "X-282",
+   "platform": "Twitter",
+   "category": "Jobs, Careers & Compensation",
+   "followup": "medium",
+   "tags": [
+    "hacktoberfest",
+    "open-source",
+    "events",
+    "prizes",
+    "twitter",
+    "jobs-careers-compensation"
+   ]
+  },
+  {
+   "path": "Entries/X-283 - rust-everywhere-beautiful-language-if-you-don-t.md",
+   "wiki": "X-283 - rust-everywhere-beautiful-language-if-you-don-t",
+   "title": "Rust everywhere? 'Beautiful language if you don't have to look at it' (DHH)",
+   "group": "entry",
+   "uid": "X-283",
+   "platform": "Twitter",
+   "category": "Other",
+   "followup": "medium",
+   "tags": [
+    "rust",
+    "programming-languages",
+    "debate",
+    "twitter",
+    "other"
+   ]
+  },
+  {
+   "path": "Entries/X-284 - image-viewer-claude-code-mod-that-renders-pasted.md",
+   "wiki": "X-284 - image-viewer-claude-code-mod-that-renders-pasted",
+   "title": "image-viewer: Claude Code mod that renders pasted images above the prompt",
+   "group": "entry",
+   "uid": "X-284",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "claude-code",
+    "mods",
+    "developer-tools",
+    "images",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-285 - deleted-800k-lines-of-unit-tests-from-the-monore.md",
+   "wiki": "X-285 - deleted-800k-lines-of-unit-tests-from-the-monore",
+   "title": "Deleted 800K lines of unit tests from the monorepo: 3 hypotheses on why tests hurt agents",
+   "group": "entry",
+   "uid": "X-285",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "unit-tests",
+    "testing",
+    "ai-agents",
+    "monorepo",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-286 - claude-code-s-you-should-know-plugin-a-sideagent.md",
+   "wiki": "X-286 - claude-code-s-you-should-know-plugin-a-sideagent",
+   "title": "Claude Code's 'You should Know' plugin: a sideagent that catches what you missed",
+   "group": "entry",
+   "uid": "X-286",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "claude-code",
+    "plugins",
+    "mods",
+    "ai-assistants",
+    "twitter",
+    "ai-llm"
+   ]
   }
  ],
  "categories": [
@@ -6054,7 +6215,7 @@
    "wiki": "AI & LLM",
    "title": "🗂 AI & LLM",
    "group": "category",
-   "count": 60
+   "count": 64
   },
   {
    "name": "Dev Tools & Productivity",
@@ -6063,7 +6224,7 @@
    "wiki": "Dev Tools & Productivity",
    "title": "🗂 Dev Tools & Productivity",
    "group": "category",
-   "count": 46
+   "count": 47
   },
   {
    "name": "Programming & CS Learning",
@@ -6081,7 +6242,7 @@
    "wiki": "Interviews, OA & DSA",
    "title": "🗂 Interviews, OA & DSA",
    "group": "category",
-   "count": 32
+   "count": 33
   },
   {
    "name": "Jobs, Careers & Compensation",
@@ -6090,7 +6251,7 @@
    "wiki": "Jobs, Careers & Compensation",
    "title": "🗂 Jobs, Careers & Compensation",
    "group": "category",
-   "count": 30
+   "count": 31
   },
   {
    "name": "Quant & Trading",
@@ -6117,7 +6278,7 @@
    "wiki": "Startups, Product & Marketing",
    "title": "🗂 Startups, Product & Marketing",
    "group": "category",
-   "count": 30
+   "count": 31
   },
   {
    "name": "Health, Fitness & Wellness",
@@ -6171,7 +6332,7 @@
    "wiki": "Other",
    "title": "🗂 Other",
    "group": "category",
-   "count": 4
+   "count": 5
   }
  ],
  "entries": [
@@ -12079,6 +12240,167 @@
     "productivity",
     "twitter",
     "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-278 - asd-ste100-skill-kills-terminal-slop-agents-writ.md",
+   "wiki": "X-278 - asd-ste100-skill-kills-terminal-slop-agents-writ",
+   "title": "ASD-STE100 skill kills terminal slop: agents write in Simplified Technical English",
+   "group": "entry",
+   "uid": "X-278",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "asd-ste100",
+    "agent-skills",
+    "technical-writing",
+    "llm-slop",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-279 - interview-take-home-for-an-indian-frontier-ai-la.md",
+   "wiki": "X-279 - interview-take-home-for-an-indian-frontier-ai-la",
+   "title": "Interview take-home for an Indian frontier AI lab: inference on hardware (inference-forge)",
+   "group": "entry",
+   "uid": "X-279",
+   "platform": "Twitter",
+   "category": "Interviews, OA & DSA",
+   "followup": "medium",
+   "tags": [
+    "interviews",
+    "inference",
+    "take-home",
+    "india-ai-labs",
+    "twitter",
+    "interviews-oa-dsa"
+   ]
+  },
+  {
+   "path": "Entries/X-280 - rea-open-source-toolkit-gives-your-ai-agent-reve.md",
+   "wiki": "X-280 - rea-open-source-toolkit-gives-your-ai-agent-reve",
+   "title": "REA: open-source toolkit gives your AI agent reverse-engineering via MCP and CLI",
+   "group": "entry",
+   "uid": "X-280",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "reverse-engineering",
+    "mcp",
+    "ai-agents",
+    "open-source",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-281 - every-vibe-coder-s-seo-prompt-is-actually-the-wh.md",
+   "wiki": "X-281 - every-vibe-coder-s-seo-prompt-is-actually-the-wh",
+   "title": "Every vibe coder's SEO prompt is actually the whole checklist — paste into Claude Code",
+   "group": "entry",
+   "uid": "X-281",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "high",
+   "tags": [
+    "seo",
+    "vibe-coding",
+    "prompts",
+    "checklists",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-282 - hacktober-with-kestra-2-macbook-neos-ipads-and-v.md",
+   "wiki": "X-282 - hacktober-with-kestra-2-macbook-neos-ipads-and-v",
+   "title": "Hacktober with Kestra: 2 Macbook Neos, iPads and vouchers for top OSS contributors",
+   "group": "entry",
+   "uid": "X-282",
+   "platform": "Twitter",
+   "category": "Jobs, Careers & Compensation",
+   "followup": "medium",
+   "tags": [
+    "hacktoberfest",
+    "open-source",
+    "events",
+    "prizes",
+    "twitter",
+    "jobs-careers-compensation"
+   ]
+  },
+  {
+   "path": "Entries/X-283 - rust-everywhere-beautiful-language-if-you-don-t.md",
+   "wiki": "X-283 - rust-everywhere-beautiful-language-if-you-don-t",
+   "title": "Rust everywhere? 'Beautiful language if you don't have to look at it' (DHH)",
+   "group": "entry",
+   "uid": "X-283",
+   "platform": "Twitter",
+   "category": "Other",
+   "followup": "medium",
+   "tags": [
+    "rust",
+    "programming-languages",
+    "debate",
+    "twitter",
+    "other"
+   ]
+  },
+  {
+   "path": "Entries/X-284 - image-viewer-claude-code-mod-that-renders-pasted.md",
+   "wiki": "X-284 - image-viewer-claude-code-mod-that-renders-pasted",
+   "title": "image-viewer: Claude Code mod that renders pasted images above the prompt",
+   "group": "entry",
+   "uid": "X-284",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "claude-code",
+    "mods",
+    "developer-tools",
+    "images",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-285 - deleted-800k-lines-of-unit-tests-from-the-monore.md",
+   "wiki": "X-285 - deleted-800k-lines-of-unit-tests-from-the-monore",
+   "title": "Deleted 800K lines of unit tests from the monorepo: 3 hypotheses on why tests hurt agents",
+   "group": "entry",
+   "uid": "X-285",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "unit-tests",
+    "testing",
+    "ai-agents",
+    "monorepo",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-286 - claude-code-s-you-should-know-plugin-a-sideagent.md",
+   "wiki": "X-286 - claude-code-s-you-should-know-plugin-a-sideagent",
+   "title": "Claude Code's 'You should Know' plugin: a sideagent that catches what you missed",
+   "group": "entry",
+   "uid": "X-286",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "claude-code",
+    "plugins",
+    "mods",
+    "ai-assistants",
+    "twitter",
+    "ai-llm"
    ]
   }
  ]

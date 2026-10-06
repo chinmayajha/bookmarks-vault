@@ -6762,5 +6762,242 @@
    "views": 36131,
    "bookmarks": 809
   }
+ },
+ {
+  "statusUrl": "https://x.com/0xpili_/status/2106377863163507162",
+  "name": "pili 🪴",
+  "handle": "@0xpili_",
+  "createdAt": "2026-10-02T00:37:00.000Z",
+  "tweetText": "the amount of slop has been drastically reduced in my terminal since my agents use this skill to write in ASD-STE100: \nhttps://\ngithub.com/0xpili/simplif\nied-technical-english\n…",
+  "metricsLabel": "59 replies, 150 reposts, 3369 likes, 6126 bookmarks, 320091 views",
+  "quote": null,
+  "media": [
+   "https://pbs.twimg.com/media/HTlaHqgbwAAS1lv?format=png&name=medium"
+  ],
+  "hasVideo": false,
+  "videoPoster": null,
+  "extLinks": [],
+  "tcoLinks": [
+   "https://t.co/rfGI76n8L5"
+  ],
+  "cardText": null,
+  "showThread": false,
+  "replyingTo": null,
+  "articleText": "pili 🪴\n@0xpili_\nthe amount of slop has been drastically reduced in my terminal since my agents use this skill to write in ASD-STE100: \nhttps://\ngithub.com/0xpili/simplif\nied-technical-english\n…\nQuote\nAndrej Karpathy\n@karpathy\n·\nOct 2\nWe'll be spending a lot more time trying to understand the outputs of language models. A few thoughts, tips & tricks:\n\nWriting. Something I've had success with: Ask your LLM to explain something in ASD-STE100, it's a controlled language specification originally developed for\n7:06 PM · Oct 3, 2026\n·\n320K\n Views\n59\n150\n3.3K\n6.1K\nRelevant\nView quotes",
+  "counts": {
+   "replies": 59,
+   "reposts": 150,
+   "likes": 3369,
+   "views": 320091,
+   "bookmarks": 6126
+  }
+ },
+ {
+  "statusUrl": "https://x.com/shashvatsingh05/status/2062819852063248753",
+  "name": "Shashvat Singh",
+  "handle": "@shashvatsingh05",
+  "createdAt": "2026-06-05T08:52:32.000Z",
+  "tweetText": "Had the chance some time ago to build a project for the interview process of one of India's frontier AI labs (I'll let you guess the name)\nThe problem statement was genuinely cool and related to inference on hardware which I've been meaning to learn about",
+  "metricsLabel": "5 replies, 2 reposts, 75 likes, 140 bookmarks, 94980 views",
+  "quote": null,
+  "media": [],
+  "hasVideo": false,
+  "videoPoster": null,
+  "extLinks": [],
+  "tcoLinks": [
+   "https://t.co/7D6w3q1zqB"
+  ],
+  "cardText": "GitHub - sh4shv4t/inference-forge: Adaptive batch inference pipeline with semantic complexity...",
+  "showThread": false,
+  "replyingTo": null,
+  "articleText": "Shashvat Singh\n@shashvatsingh05\nHad the chance some time ago to build a project for the interview process of one of India's frontier AI labs (I'll let you guess the name)\nThe problem statement was genuinely cool and related to inference on hardware which I've been meaning to learn about\nGitHub - sh4shv4t/inference-forge: Adaptive batch inference pipeline with semantic complexity...\nFrom github.com\n2:22 PM · Jun 5, 2026\n·\n94.9K\n Views\n5\n2\n75\n140\nRelevant\nView quotes",
+  "counts": {
+   "replies": 5,
+   "reposts": 2,
+   "likes": 75,
+   "views": 94980,
+   "bookmarks": 140
+  }
+ },
+ {
+  "statusUrl": "https://x.com/_vmlops/status/2106690704244420687",
+  "name": "Vaishnavi",
+  "handle": "@_vmlops",
+  "createdAt": "2026-10-04T10:19:38.000Z",
+  "tweetText": "Want to know how a feature works in an app, down to the binary level...?\n\nMeet REA (Reverse Engineer Anything) an open-source toolkit that brings reverse-engineering capabilities straight to your AI agent via MCP and CLI\n\n🔹 Decompile apps & native binaries\n🔹 Trace execution & inspect evidence\n🔹 Recreate features for your own stack",
+  "metricsLabel": "80 replies, 657 reposts, 6261 likes, Liked, 9134 bookmarks, 300038 views",
+  "quote": null,
+  "media": [
+   "https://pbs.twimg.com/media/HTx4BmKboAAlkvU?format=jpg&name=medium"
+  ],
+  "hasVideo": false,
+  "videoPoster": null,
+  "extLinks": [],
+  "tcoLinks": [],
+  "cardText": null,
+  "showThread": false,
+  "replyingTo": null,
+  "articleText": "Vaishnavi\n@_vmlops\nFollow\nWant to know how a feature works in an app, down to the binary level...?\n\nMeet REA (Reverse Engineer Anything) an open-source toolkit that brings reverse-engineering capabilities straight to your AI agent via MCP and CLI\n\n🔹 Decompile apps & native binaries\n🔹 Trace execution & inspect evidence\n🔹 Recreate features for your own stack\n3:49 PM · Oct 4, 2026\n·\n300K\n Views\n80\n657\n6.2K\n9.1K\nRelevant\nView quotes",
+  "counts": {
+   "replies": 80,
+   "reposts": 657,
+   "likes": 6261,
+   "views": 300038,
+   "bookmarks": 9134
+  }
+ },
+ {
+  "statusUrl": "https://x.com/suraj_sharma14/status/2106240327569035424",
+  "name": "Suraj Sharma",
+  "handle": "@suraj_sharma14",
+  "createdAt": "2026-10-03T04:30:00.000Z",
+  "tweetText": "Every vibe coder's SEO prompt:\n\n\"Google isn't showing my vibe-coded website.\n-  Render it server-side.\n-  Generate a sitemap.\n-  Submit it to Search Console.\n-  Unblock Googlebot in robots.txt.\n-  Delete the noindex tags.\n-  Kill the redirect chains.\n-  Fix the 404s.\n-  Add canonical tags.\n-  Write a meta description for every page.\n-  One H1 per page.\n-  Add FAQ schema.\n-  Add breadcrumbs.\n-  Link the orphan pages.\n-  Alt text on every image.\n-  Convert images to WebP.\n-  Fix the layout shifts.\n-  Load in under 2 seconds.\n-  Remove the obvious AI slop.\n-  Add a real author bio.\n-  Get quality backlinks.\n\nRank #1 by Friday. Make no mistakes.\"\n\nFunny thing is, this is actually the whole SEO checklist.\n\nBookmark it. Paste it into Claude Code. Then do the last two yourself.",
+  "metricsLabel": "62 replies, 172 reposts, 3226 likes, 9266 bookmarks, 263195 views",
+  "quote": null,
+  "media": [],
+  "hasVideo": false,
+  "videoPoster": null,
+  "extLinks": [],
+  "tcoLinks": [],
+  "cardText": null,
+  "showThread": false,
+  "replyingTo": null,
+  "articleText": "Suraj Sharma\n@suraj_sharma14\nFollow\nEvery vibe coder's SEO prompt:\n\n\"Google isn't showing my vibe-coded website.\n-  Render it server-side.\n-  Generate a sitemap.\n-  Submit it to Search Console.\n-  Unblock Googlebot in robots.txt.\n-  Delete the noindex tags.\n-  Kill the redirect chains.\n-  Fix the 404s.\n-  Add canonical tags.\n-  Write a meta description for every page.\n-  One H1 per page.\n-  Add FAQ schema.\n-  Add breadcrumbs.\n-  Link the orphan pages.\n-  Alt text on every image.\n-  Convert images to WebP.\n-  Fix the layout shifts.\n-  Load in under 2 seconds.\n-  Remove the obvious AI slop.\n-  Add a real author bio.\n-  Get quality backlinks.\n\nRank #1 by Friday. Make no mistakes.\"\n\nFunny thing is, this is actually the whole SEO checklist.\n\nBookmark it. Paste it into Claude Code. Then do the last two yourself.\n10:00 AM · Oct 3, 2026\n·\n263.1K\n Views\n62\n172\n3.2K\n9.2K\nRelevant\nView quotes",
+  "counts": {
+   "replies": 62,
+   "reposts": 172,
+   "likes": 3226,
+   "views": 263195,
+   "bookmarks": 9266
+  }
+ },
+ {
+  "statusUrl": "https://x.com/arsh_goyal/status/2106444936988274745",
+  "name": "Arsh Goyal",
+  "handle": "@arsh_goyal",
+  "createdAt": "2026-10-03T18:03:03.000Z",
+  "tweetText": "how many of you are contributing this October? and participating in Hacktoberfest?\n\nI am organzing a Hacktober and giving away 2 Macbook Neos, IPads, and Amaozn Vouchers top 6 contributors. \n\nAlso, merchandise for all accepted PRs.\n\nLink to register is below. share it with relevant folks who want to start open source.",
+  "metricsLabel": "12 replies, 3 reposts, 130 likes, Liked, 135 bookmarks, 9237 views",
+  "quote": null,
+  "media": [],
+  "hasVideo": false,
+  "videoPoster": null,
+  "extLinks": [],
+  "tcoLinks": [],
+  "cardText": null,
+  "showThread": false,
+  "replyingTo": null,
+  "articleText": "Arsh Goyal\n@arsh_goyal\nhow many of you are contributing this October? and participating in Hacktoberfest?\n\nI am organzing a Hacktober and giving away 2 Macbook Neos, IPads, and Amaozn Vouchers top 6 contributors. \n\nAlso, merchandise for all accepted PRs.\n\nLink to register is below. share it with relevant folks who want to start open source.\n11:33 PM · Oct 3, 2026\n·\n9,237\n Views\n12\n3\n130\n135\nRelevant",
+  "counts": {
+   "replies": 12,
+   "reposts": 3,
+   "likes": 130,
+   "views": 9237,
+   "bookmarks": 135
+  }
+ },
+ {
+  "statusUrl": "https://x.com/kirat_tw/status/2105695394126844340",
+  "name": "Harkirat Singh",
+  "handle": "@kirat_tw",
+  "createdAt": "2026-10-01T16:24:38.000Z",
+  "tweetText": "personalized software in rust everywhere I go. might become the norm. \nSomeone rightly said \"Rust is a beautiful language if you don't have to look at it\"",
+  "metricsLabel": "42 replies, 46 reposts, 1211 likes, 95 bookmarks, 43447 views",
+  "quote": null,
+  "media": [],
+  "hasVideo": false,
+  "videoPoster": null,
+  "extLinks": [],
+  "tcoLinks": [],
+  "cardText": null,
+  "showThread": false,
+  "replyingTo": null,
+  "articleText": "Harkirat Singh\n@kirat_tw\npersonalized software in rust everywhere I go. might become the norm. \nSomeone rightly said \"Rust is a beautiful language if you don't have to look at it\"\n9:54 PM · Oct 1, 2026\n·\n43.4K\n Views\n42\n46\n1.2K\n95\nRelevant\nView quotes",
+  "counts": {
+   "replies": 42,
+   "reposts": 46,
+   "likes": 1211,
+   "views": 43447,
+   "bookmarks": 95
+  }
+ },
+ {
+  "statusUrl": "https://x.com/jarrodwatts/status/2106153410697564235",
+  "name": "Jarrod Watts",
+  "handle": "@jarrodwatts",
+  "createdAt": "2026-10-02T22:44:38.000Z",
+  "tweetText": "Introducing image-viewer!\n\nA simple Claude Code mod that renders the images you paste above the prompt input.\n\n\nhttps://\ngithub.com/jarrodwatts/cl\naude-image-view\n…",
+  "metricsLabel": "60 replies, 90 reposts, 1428 likes, Liked, 1186 bookmarks, 83093 views",
+  "quote": null,
+  "media": [],
+  "hasVideo": true,
+  "videoPoster": null,
+  "extLinks": [],
+  "tcoLinks": [
+   "https://t.co/B6OPaVIyY6"
+  ],
+  "cardText": null,
+  "showThread": false,
+  "replyingTo": null,
+  "articleText": "Jarrod Watts\n@jarrodwatts\nIntroducing image-viewer!\n\nA simple Claude Code mod that renders the images you paste above the prompt input.\n\n\nhttps://\ngithub.com/jarrodwatts/cl\naude-image-view\n…\n0:11\n4:14 AM · Oct 3, 2026\n·\n83K\n Views\n60\n90\n1.4K\n1.1K\nRelevant\nView quotes",
+  "counts": {
+   "replies": 60,
+   "reposts": 90,
+   "likes": 1428,
+   "views": 83093,
+   "bookmarks": 1186
+  }
+ },
+ {
+  "statusUrl": "https://x.com/shcallaway/status/2106142042405453879",
+  "name": "Sherwood",
+  "handle": "@shcallaway",
+  "createdAt": "2026-10-02T21:59:27.000Z",
+  "tweetText": "We deleted 800k lines of unit tests from the \n@sazabi\n monorepo earlier this week.\n\nThree hypotheses:\n\n1- Unit tests \"lock-in\" slop code by making it hard to change or remove\n\n2- Unit tests slow down dev cycles by making your agent do more work locally and by increasing CI times\n\n3- Unit tests waste money by making your agent generate more tokens and by adding useless CI runs\n\nWill report back soon with the results!",
+  "metricsLabel": "377 replies, 248 reposts, 3294 likes, Liked, 2073 bookmarks, 621084 views",
+  "quote": null,
+  "media": [
+   "https://pbs.twimg.com/media/HTqE_0BWoAAcqDh?format=png&name=small"
+  ],
+  "hasVideo": false,
+  "videoPoster": null,
+  "extLinks": [],
+  "tcoLinks": [],
+  "cardText": null,
+  "showThread": false,
+  "replyingTo": null,
+  "articleText": "Sherwood\n@shcallaway\nWe deleted 800k lines of unit tests from the \n@sazabi\n monorepo earlier this week.\n\nThree hypotheses:\n\n1- Unit tests \"lock-in\" slop code by making it hard to change or remove\n\n2- Unit tests slow down dev cycles by making your agent do more work locally and by increasing CI times\n\n3- Unit tests waste money by making your agent generate more tokens and by adding useless CI runs\n\nWill report back soon with the results!\n3:29 AM · Oct 3, 2026\n·\n621K\n Views\n377\n248\n3.2K\n2K\nRelevant\nView quotes",
+  "counts": {
+   "replies": 377,
+   "reposts": 248,
+   "likes": 3294,
+   "views": 621084,
+   "bookmarks": 2073
+  }
+ },
+ {
+  "statusUrl": "https://x.com/ClaudeDevs/status/2106118517447876618",
+  "name": "ClaudeDevs",
+  "handle": "@ClaudeDevs",
+  "createdAt": "2026-10-02T20:25:59.000Z",
+  "tweetText": "We're adding a new plugin to Claude Code: You should Know.\n\nIt scans Claude's output for important information you might miss to help keep you in the loop.\n\nEnable it with:\n\n/plugin enable cc-plugin-you-should-know@builtin",
+  "metricsLabel": "378 replies, 1155 reposts, 16048 likes, Liked, 16805 bookmarks, 1622466 views",
+  "quote": null,
+  "media": [],
+  "hasVideo": true,
+  "videoPoster": null,
+  "extLinks": [],
+  "tcoLinks": [],
+  "cardText": null,
+  "showThread": false,
+  "replyingTo": null,
+  "articleText": "ClaudeDevs\n@ClaudeDevs\nWe're adding a new plugin to Claude Code: You should Know.\n\nIt scans Claude's output for important information you might miss to help keep you in the loop.\n\nEnable it with:\n\n/plugin enable cc-plugin-you-should-know@builtin\n0:03 / 0:39\n0:35\n1:55 AM · Oct 3, 2026\n·\n1.6M\n Views\n378\n1.1K\n16K\n16K\nRelevant\nView quotes",
+  "counts": {
+   "replies": 378,
+   "reposts": 1155,
+   "likes": 16048,
+   "views": 1622466,
+   "bookmarks": 16805
+  }
  }
 ]
