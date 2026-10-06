@@ -76742,5 +76742,2659 @@
     "text": "Web crawlers /[•]\\ #js x #css"
    }
   ]
+ },
+ "https://x.com/npm_i_shaders/status/2107467668009963819": {
+  "bookmark": {
+   "statusUrl": "https://x.com/npm_i_shaders/status/2107467668009963819",
+   "name": "shaders",
+   "handle": "@npm_i_shaders",
+   "createdAt": "2026-10-06T13:47:01.000Z",
+   "tweetText": "Big news.\n\nShaders is now open source 🔥\n\nUse any of our 200+ WebGPU components in your work. Ship magic in a client site, a template, a product, a library, anything. Plus, you can export code for any framework, for free.\n\nGive it a star: \nhttps://\ngithub.com/shader-effects\n-inc/shaders\n…",
+   "metricsLabel": "66 replies, 251 reposts, 3008 likes, Liked, 3842 bookmarks, 186089 views",
+   "quote": null,
+   "media": [],
+   "hasVideo": true,
+   "videoPoster": null,
+   "extLinks": [],
+   "tcoLinks": [
+    "https://t.co/eIpRMhuS6m"
+   ],
+   "cardText": null,
+   "showThread": false,
+   "replyingTo": null,
+   "articleText": "shaders\n@npm_i_shaders\nBig news.\n\nShaders is now open source 🔥\n\nUse any of our 200+ WebGPU components in your work. Ship magic in a client site, a template, a product, a library, anything. Plus, you can export code for any framework, for free.\n\nGive it a star: \nhttps://\ngithub.com/shader-effects\n-inc/shaders\n…\n0:02 / 0:31\n7:17 PM · Oct 6, 2026\n·\n186K\n Views\n66\n251\n3K\n3.8K\nRelevant\nView quotes",
+   "counts": {
+    "replies": 66,
+    "reposts": 251,
+    "likes": 3008,
+    "views": 186089,
+    "bookmarks": 3842
+   }
+  },
+  "statusId": "2107467668009963819",
+  "focusNotFound": false,
+  "focus": {
+   "statusId": "2107467668009963819",
+   "statusUrl": "https://x.com/npm_i_shaders/status/2107467668009963819",
+   "name": "shaders",
+   "handle": "@npm_i_shaders",
+   "createdAt": "2026-10-06T13:47:01.000Z",
+   "text": "Big news.\n\nShaders is now open source 🔥\n\nUse any of our 200+ WebGPU components in your work. Ship magic in a client site, a template, a product, a library, anything. Plus, you can export code for any framework, for free.\n\nGive it a star: \nhttps://\ngithub.com/shader-effects\n-inc/shaders\n…",
+   "counts": {
+    "replies": 66,
+    "reposts": 251,
+    "likes": 3008,
+    "views": 186089,
+    "bookmarks": 3842
+   },
+   "metricsLabel": "66 replies, 251 reposts, 3008 likes, Liked, 3842 bookmarks, 186089 views",
+   "quote": null,
+   "media": [],
+   "hasVideo": true,
+   "videoPoster": null,
+   "extLinks": [],
+   "tcoLinks": [
+    "https://t.co/eIpRMhuS6m"
+   ],
+   "cardText": null,
+   "showThread": false,
+   "articleText": "shaders\n@npm_i_shaders\nBig news.\n\nShaders is now open source 🔥\n\nUse any of our 200+ WebGPU components in your work. Ship magic in a client site, a template, a product, a library, anything. Plus, you can export code for any framework, for free.\n\nGive it a star: \nhttps://\ngithub.com/shader-effects\n-inc/shaders\n…\n0:02 / 0:31\n7:17 PM · Oct 6, 2026\n·\n186K\n Views\n66\n251\n3K\n3.8K\nRelevant\nView quotes"
+  },
+  "parents": [],
+  "selfThread": [
+   {
+    "statusId": "2107467680022479108",
+    "statusUrl": "https://x.com/npm_i_shaders/status/2107467680022479108",
+    "name": "shaders",
+    "handle": "@npm_i_shaders",
+    "createdAt": "2026-10-06T13:47:04.000Z",
+    "text": "Today's coding agents can write shaders, but the output is still raw WGSL code that may not perform well when deployed in real-world projects.\n\nWith Shaders, agents can now build on production-tested components instead: better shaders, faster workflow, real performance.",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 14,
+     "views": 7314,
+     "bookmarks": 3
+    },
+    "metricsLabel": "1 reply, 14 likes, Liked, 3 bookmarks, 7314 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107467691728810418",
+    "statusUrl": "https://x.com/npm_i_shaders/status/2107467691728810418",
+    "name": "shaders",
+    "handle": "@npm_i_shaders",
+    "createdAt": "2026-10-06T13:47:07.000Z",
+    "text": "Read the announcement:\n\n\nhttps://\nshaders.com/updates/shader\ns-is-open-source\n…",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 7,
+     "views": 4999,
+     "bookmarks": 4
+    },
+    "metricsLabel": "7 likes, 4 bookmarks, 4999 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [
+     "https://t.co/OFDEL6dMvl"
+    ],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107470019567210669",
+    "statusUrl": "https://x.com/npm_i_shaders/status/2107470019567210669",
+    "name": "shaders",
+    "handle": "@npm_i_shaders",
+    "createdAt": "2026-10-06T13:56:22.000Z",
+    "text": "1) I know right\n2) Insane is good, we can do insane ❤️",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 7,
+     "views": 2160,
+     "bookmarks": 0
+    },
+    "metricsLabel": "7 likes, 2160 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107543663295517039",
+    "statusUrl": "https://x.com/npm_i_shaders/status/2107543663295517039",
+    "name": "shaders",
+    "handle": "@npm_i_shaders",
+    "createdAt": "2026-10-06T18:49:00.000Z",
+    "text": "Hope so! 🫶",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 0,
+     "views": 446,
+     "bookmarks": 0
+    },
+    "metricsLabel": "446 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107513809887695210",
+    "statusUrl": "https://x.com/npm_i_shaders/status/2107513809887695210",
+    "name": "shaders",
+    "handle": "@npm_i_shaders",
+    "createdAt": "2026-10-06T16:50:22.000Z",
+    "text": "Would love to see it, ultramock is 🔥",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 2,
+     "views": 1001,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 reply, 2 likes, 1001 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107506257330409791",
+    "statusUrl": "https://x.com/npm_i_shaders/status/2107506257330409791",
+    "name": "shaders",
+    "handle": "@npm_i_shaders",
+    "createdAt": "2026-10-06T16:20:21.000Z",
+    "text": "Now that I can't wait to see ❤️ DM on Discord if you need assistance",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 3,
+     "views": 1843,
+     "bookmarks": 0
+    },
+    "metricsLabel": "3 likes, 1843 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107478582821806367",
+    "statusUrl": "https://x.com/npm_i_shaders/status/2107478582821806367",
+    "name": "shaders",
+    "handle": "@npm_i_shaders",
+    "createdAt": "2026-10-06T14:30:23.000Z",
+    "text": "Lots of fun stuff in there 👀",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 1,
+     "views": 1453,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 like, 1453 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107524289264292210",
+    "statusUrl": "https://x.com/npm_i_shaders/status/2107524289264292210",
+    "name": "shaders",
+    "handle": "@npm_i_shaders",
+    "createdAt": "2026-10-06T17:32:01.000Z",
+    "text": "experiment away! 🧪 🥼",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 0,
+     "views": 545,
+     "bookmarks": 0
+    },
+    "metricsLabel": "545 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107474053019619811",
+    "statusUrl": "https://x.com/npm_i_shaders/status/2107474053019619811",
+    "name": "shaders",
+    "handle": "@npm_i_shaders",
+    "createdAt": "2026-10-06T14:12:23.000Z",
+    "text": "That's what I was thinking! 😉",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 1,
+     "views": 1180,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 like, 1180 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107481570764267585",
+    "statusUrl": "https://x.com/npm_i_shaders/status/2107481570764267585",
+    "name": "shaders",
+    "handle": "@npm_i_shaders",
+    "createdAt": "2026-10-06T14:42:16.000Z",
+    "text": "1) This feels\n2) Oddly familiar",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 1,
+     "views": 640,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 like, 640 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "replies": [
+   {
+    "statusId": "2107469249824354746",
+    "statusUrl": "https://x.com/hugorcd/status/2107469249824354746",
+    "name": "Hugo",
+    "handle": "@hugorcd",
+    "createdAt": "2026-10-06T13:53:18.000Z",
+    "text": "1) What?\n2) This is insane, thanks for that",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 10,
+     "views": 2554,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 reply, 10 likes, 2554 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107543145584136631",
+    "statusUrl": "https://x.com/aibek_design/status/2107543145584136631",
+    "name": "Aibek Yegemberdin",
+    "handle": "@aibek_design",
+    "createdAt": "2026-10-06T18:46:56.000Z",
+    "text": "Congrats Simon! This will bring so much value to everyone building in the ecosystem 🙌",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 2,
+     "views": 536,
+     "bookmarks": 1
+    },
+    "metricsLabel": "1 reply, 2 likes, 1 bookmark, 536 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107513224681717881",
+    "statusUrl": "https://x.com/joshmillgate/status/2107513224681717881",
+    "name": "Josh Millgate",
+    "handle": "@joshmillgate",
+    "createdAt": "2026-10-06T16:48:03.000Z",
+    "text": "Thank you for this! Going to add some shader background options in \n@ultramock",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 2,
+     "views": 1187,
+     "bookmarks": 1
+    },
+    "metricsLabel": "1 reply, 2 likes, 1 bookmark, 1187 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107505738348421286",
+    "statusUrl": "https://x.com/liu8in/status/2107505738348421286",
+    "name": "Bin Liu",
+    "handle": "@liu8in",
+    "createdAt": "2026-10-06T16:18:18.000Z",
+    "text": "Incredible work 👏 adding them to \n@HyperFrames_\n Studio today",
+    "counts": {
+     "replies": 2,
+     "reposts": 0,
+     "likes": 15,
+     "views": 2140,
+     "bookmarks": 1
+    },
+    "metricsLabel": "2 replies, 15 likes, 1 bookmark, 2140 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107477328742031429",
+    "statusUrl": "https://x.com/iwoplaza/status/2107477328742031429",
+    "name": "Iwo Plaza | TypeGPU",
+    "handle": "@iwoplaza",
+    "createdAt": "2026-10-06T14:25:24.000Z",
+    "text": "Wohoo, congrats!! 🎉\nCan’t wait to delve into the code, this is a huge move",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 3,
+     "views": 1727,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 reply, 3 likes, 1727 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107522286836216226",
+    "statusUrl": "https://x.com/audiencon/status/2107522286836216226",
+    "name": "Audiencon⚡️",
+    "handle": "@audiencon",
+    "createdAt": "2026-10-06T17:24:03.000Z",
+    "text": "open source plus exportable code is a strong combination. removing the framework lock in makes experimentation much easier",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 1,
+     "views": 668,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 reply, 1 like, 668 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2106451945192059342",
+    "statusUrl": "https://x.com/xpointswin/status/2106451945192059342/analytics",
+    "name": "xpointswin",
+    "handle": "@xpointswin",
+    "createdAt": null,
+    "text": "Your squad already has the template. \n\nThe edge is what you do next.xPoints projects every player, then tells you the XI, the captain and the one transfer that actually moves the needle — across the next five gameweeks, not just the next deadline.\n\nFree account. No card.",
+    "counts": {
+     "replies": 5,
+     "reposts": 30,
+     "likes": 304,
+     "views": 946755,
+     "bookmarks": 26
+    },
+    "metricsLabel": "5 replies, 30 reposts, 304 likes, 26 bookmarks, 946755 views",
+    "quote": null,
+    "media": [
+     "https://pbs.twimg.com/media/HTue0qYXIAAGayx?format=jpg&name=medium"
+    ],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [
+     "https://xpoints.win/?twclid=2cuv6yjdrzmtda8lf43adgmgyp"
+    ],
+    "tcoLinks": [],
+    "cardText": "",
+    "showThread": false
+   },
+   {
+    "statusId": "2107473546570080579",
+    "statusUrl": "https://x.com/Chase_Davis_/status/2107473546570080579",
+    "name": "Chase Davis",
+    "handle": "@Chase_Davis_",
+    "createdAt": "2026-10-06T14:10:23.000Z",
+    "text": "this is important news!",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 1,
+     "views": 1368,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 reply, 1 like, 1368 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107480257125024119",
+    "statusUrl": "https://x.com/HeyFlorent/status/2107480257125024119",
+    "name": "heyflo",
+    "handle": "@HeyFlorent",
+    "createdAt": "2026-10-06T14:37:03.000Z",
+    "text": "1) What?\n2) Hold my shader",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 1,
+     "views": 763,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 reply, 1 like, 763 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107480250536046999",
+    "statusUrl": "https://x.com/bydhruvil/status/2107480250536046999",
+    "name": "dhru",
+    "handle": "@bydhruvil",
+    "createdAt": "2026-10-06T14:37:01.000Z",
+    "text": "what I was just scrolling through the website😭",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 0,
+     "views": 670,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 reply, 670 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "extraReplyCount": 0,
+  "conversationArticleCount": 21,
+  "allConversation": [
+   {
+    "statusId": "2107467668009963819",
+    "handle": "@npm_i_shaders",
+    "text": "Big news.\n\nShaders is now open source 🔥\n\nUse any of our 200+ WebGPU components in your work. Ship magic in a client site, a template, a product, a library, anything. Plus, you can export code for any framework, for free.\n\nGive it a star: \nhttps://\ngithub.com/shader-effects\n-inc/shaders\n…"
+   },
+   {
+    "statusId": "2107467680022479108",
+    "handle": "@npm_i_shaders",
+    "text": "Today's coding agents can write shaders, but the output is still raw WGSL code that may not perform well when deployed in real-world projects.\n\nWith Shaders, agents can now build on production-tested components instead: better shaders, faster workflow, real performance."
+   },
+   {
+    "statusId": "2107467691728810418",
+    "handle": "@npm_i_shaders",
+    "text": "Read the announcement:\n\n\nhttps://\nshaders.com/updates/shader\ns-is-open-source\n…"
+   },
+   {
+    "statusId": "2107470019567210669",
+    "handle": "@npm_i_shaders",
+    "text": "1) I know right\n2) Insane is good, we can do insane ❤️"
+   },
+   {
+    "statusId": "2107543663295517039",
+    "handle": "@npm_i_shaders",
+    "text": "Hope so! 🫶"
+   },
+   {
+    "statusId": "2107513809887695210",
+    "handle": "@npm_i_shaders",
+    "text": "Would love to see it, ultramock is 🔥"
+   },
+   {
+    "statusId": "2107506257330409791",
+    "handle": "@npm_i_shaders",
+    "text": "Now that I can't wait to see ❤️ DM on Discord if you need assistance"
+   },
+   {
+    "statusId": "2107478582821806367",
+    "handle": "@npm_i_shaders",
+    "text": "Lots of fun stuff in there 👀"
+   },
+   {
+    "statusId": "2107524289264292210",
+    "handle": "@npm_i_shaders",
+    "text": "experiment away! 🧪 🥼"
+   },
+   {
+    "statusId": "2107474053019619811",
+    "handle": "@npm_i_shaders",
+    "text": "That's what I was thinking! 😉"
+   },
+   {
+    "statusId": "2107481570764267585",
+    "handle": "@npm_i_shaders",
+    "text": "1) This feels\n2) Oddly familiar"
+   },
+   {
+    "statusId": "2107469249824354746",
+    "handle": "@hugorcd",
+    "text": "1) What?\n2) This is insane, thanks for that"
+   },
+   {
+    "statusId": "2107543145584136631",
+    "handle": "@aibek_design",
+    "text": "Congrats Simon! This will bring so much value to everyone building in the ecosystem 🙌"
+   },
+   {
+    "statusId": "2107513224681717881",
+    "handle": "@joshmillgate",
+    "text": "Thank you for this! Going to add some shader background options in \n@ultramock"
+   },
+   {
+    "statusId": "2107505738348421286",
+    "handle": "@liu8in",
+    "text": "Incredible work 👏 adding them to \n@HyperFrames_\n Studio today"
+   },
+   {
+    "statusId": "2107477328742031429",
+    "handle": "@iwoplaza",
+    "text": "Wohoo, congrats!! 🎉\nCan’t wait to delve into the code, this is a huge move"
+   },
+   {
+    "statusId": "2107522286836216226",
+    "handle": "@audiencon",
+    "text": "open source plus exportable code is a strong combination. removing the framework lock in makes experimentation much easier"
+   },
+   {
+    "statusId": "2106451945192059342",
+    "handle": "@xpointswin",
+    "text": "Your squad already has the template. \n\nThe edge is what you do next.xPoints projects every player, then tells you the XI, the captain and the one transfer that actually moves the needle — across the next five gameweeks, not just the next deadline.\n\nFree account. No card."
+   },
+   {
+    "statusId": "2107473546570080579",
+    "handle": "@Chase_Davis_",
+    "text": "this is important news!"
+   },
+   {
+    "statusId": "2107480257125024119",
+    "handle": "@HeyFlorent",
+    "text": "1) What?\n2) Hold my shader"
+   },
+   {
+    "statusId": "2107480250536046999",
+    "handle": "@bydhruvil",
+    "text": "what I was just scrolling through the website😭"
+   }
+  ]
+ },
+ "https://x.com/michael_chomsky/status/2107235505620521274": {
+  "bookmark": {
+   "statusUrl": "https://x.com/michael_chomsky/status/2107235505620521274",
+   "name": "Michael",
+   "handle": "@michael_chomsky",
+   "createdAt": "2026-10-05T22:24:29.000Z",
+   "tweetText": "design prompt of the day:\n\never noticed LLMs write text that's like:\n\n\"More reliable. Less expensive.\"\n\"Sleep better. Live longer.\"\n\nthese are called stacatto sentences.\n\ntell your agent to 'never use stacatto sentences in landing pages'",
+   "metricsLabel": "24 replies, 16 reposts, 753 likes, Liked, 677 bookmarks, 24186 views",
+   "quote": null,
+   "media": [],
+   "hasVideo": false,
+   "videoPoster": null,
+   "extLinks": [],
+   "tcoLinks": [],
+   "cardText": null,
+   "showThread": false,
+   "replyingTo": null,
+   "articleText": "Michael\n@michael_chomsky\ndesign prompt of the day:\n\never noticed LLMs write text that's like:\n\n\"More reliable. Less expensive.\"\n\"Sleep better. Live longer.\"\n\nthese are called stacatto sentences.\n\ntell your agent to 'never use stacatto sentences in landing pages'\nLast edited\n3:54 AM · Oct 6, 2026\n·\n24.1K\n Views\n24\n16\n753\n677\nRelevant\nView quotes",
+   "counts": {
+    "replies": 24,
+    "reposts": 16,
+    "likes": 753,
+    "views": 24186,
+    "bookmarks": 677
+   }
+  },
+  "statusId": "2107235505620521274",
+  "focusNotFound": false,
+  "focus": {
+   "statusId": "2107235505620521274",
+   "statusUrl": "https://x.com/michael_chomsky/status/2107235505620521274/history",
+   "name": "Michael",
+   "handle": "@michael_chomsky",
+   "createdAt": "2026-10-05T22:24:29.000Z",
+   "text": "design prompt of the day:\n\never noticed LLMs write text that's like:\n\n\"More reliable. Less expensive.\"\n\"Sleep better. Live longer.\"\n\nthese are called stacatto sentences.\n\ntell your agent to 'never use stacatto sentences in landing pages'",
+   "counts": {
+    "replies": 24,
+    "reposts": 16,
+    "likes": 753,
+    "views": 24186,
+    "bookmarks": 677
+   },
+   "metricsLabel": "24 replies, 16 reposts, 753 likes, Liked, 677 bookmarks, 24186 views",
+   "quote": null,
+   "media": [],
+   "hasVideo": false,
+   "videoPoster": null,
+   "extLinks": [],
+   "tcoLinks": [],
+   "cardText": null,
+   "showThread": false,
+   "articleText": "Michael\n@michael_chomsky\ndesign prompt of the day:\n\never noticed LLMs write text that's like:\n\n\"More reliable. Less expensive.\"\n\"Sleep better. Live longer.\"\n\nthese are called stacatto sentences.\n\ntell your agent to 'never use stacatto sentences in landing pages'\nLast edited\n3:54 AM · Oct 6, 2026\n·\n24.1K\n Views\n24\n16\n753\n677\nRelevant\nView quotes"
+  },
+  "parents": [],
+  "selfThread": [
+   {
+    "statusId": "2107265744413356448",
+    "statusUrl": "https://x.com/michael_chomsky/status/2107265744413356448",
+    "name": "Michael",
+    "handle": "@michael_chomsky",
+    "createdAt": "2026-10-06T00:24:39.000Z",
+    "text": "probably from some purple landing page",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 3,
+     "views": 1246,
+     "bookmarks": 0
+    },
+    "metricsLabel": "3 likes, 1246 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107239280204800094",
+    "statusUrl": "https://x.com/michael_chomsky/status/2107239280204800094",
+    "name": "Michael",
+    "handle": "@michael_chomsky",
+    "createdAt": "2026-10-05T22:39:29.000Z",
+    "text": "ya",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 2,
+     "views": 704,
+     "bookmarks": 0
+    },
+    "metricsLabel": "2 likes, 704 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107244687069413768",
+    "statusUrl": "https://x.com/michael_chomsky/status/2107244687069413768",
+    "name": "Michael",
+    "handle": "@michael_chomsky",
+    "createdAt": "2026-10-05T23:00:58.000Z",
+    "text": "its dead now",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 1,
+     "views": 742,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 like, 742 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107265434080985283",
+    "statusUrl": "https://x.com/michael_chomsky/status/2107265434080985283",
+    "name": "Michael",
+    "handle": "@michael_chomsky",
+    "createdAt": "2026-10-06T00:23:25.000Z",
+    "text": "crazy thing is i checked the spelling and still got it wrong",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 1,
+     "views": 432,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 reply, 1 like, 432 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107390887932330327",
+    "statusUrl": "https://x.com/michael_chomsky/status/2107390887932330327",
+    "name": "Michael",
+    "handle": "@michael_chomsky",
+    "createdAt": "2026-10-06T08:41:55.000Z",
+    "text": "send them to me",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 1,
+     "views": 113,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 like, 113 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107372827100004634",
+    "statusUrl": "https://x.com/michael_chomsky/status/2107372827100004634",
+    "name": "Michael",
+    "handle": "@michael_chomsky",
+    "createdAt": "2026-10-06T07:30:09.000Z",
+    "text": "there is but it's lost under the sea of bad ones",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 1,
+     "views": 171,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 reply, 1 like, 171 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107265307144503320",
+    "statusUrl": "https://x.com/michael_chomsky/status/2107265307144503320",
+    "name": "Michael",
+    "handle": "@michael_chomsky",
+    "createdAt": "2026-10-06T00:22:54.000Z",
+    "text": "what’s the next tic i need a list lol",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 0,
+     "views": 667,
+     "bookmarks": 1
+    },
+    "metricsLabel": "1 bookmark, 667 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107358965642473890",
+    "statusUrl": "https://x.com/michael_chomsky/status/2107358965642473890",
+    "name": "Michael",
+    "handle": "@michael_chomsky",
+    "createdAt": "2026-10-06T06:35:04.000Z",
+    "text": "the real alpha is spelling staccato correctly lmaoo",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 1,
+     "views": 86,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 reply, 1 like, 86 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107397260141281716",
+    "statusUrl": "https://x.com/michael_chomsky/status/2107397260141281716",
+    "name": "Michael",
+    "handle": "@michael_chomsky",
+    "createdAt": "2026-10-06T09:07:15.000Z",
+    "text": "elsjdflfy righosgt",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 0,
+     "views": 195,
+     "bookmarks": 0
+    },
+    "metricsLabel": "195 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107537492153122973",
+    "statusUrl": "https://x.com/michael_chomsky/status/2107537492153122973",
+    "name": "Michael",
+    "handle": "@michael_chomsky",
+    "createdAt": "2026-10-06T18:24:28.000Z",
+    "text": "@grok\n give example of this pls",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 0,
+     "views": 43,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 reply, 43 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "replies": [
+   {
+    "statusId": "2107260176340578338",
+    "statusUrl": "https://x.com/sethocho/status/2107260176340578338",
+    "name": "Seth",
+    "handle": "@sethocho",
+    "createdAt": "2026-10-06T00:02:31.000Z",
+    "text": "pretty sure they picked that up from a decade of dtc landing pages. apple's been writing \"thinner. lighter. faster.\" since before any of this",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 23,
+     "views": 1361,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 reply, 23 likes, 1361 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107238048081527050",
+    "statusUrl": "https://x.com/thedavidqu/status/2107238048081527050",
+    "name": "David Qu",
+    "handle": "@thedavidqu",
+    "createdAt": "2026-10-05T22:34:35.000Z",
+    "text": "Add 'it's not X, it's Y' to the ban list too",
+    "counts": {
+     "replies": 1,
+     "reposts": 1,
+     "likes": 7,
+     "views": 774,
+     "bookmarks": 1
+    },
+    "metricsLabel": "1 reply, 1 repost, 7 likes, 1 bookmark, 774 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2096255471363723755",
+    "statusUrl": "https://x.com/Kanna_Twister/status/2096255471363723755/analytics",
+    "name": "Arun Kanna",
+    "handle": "@Kanna_Twister",
+    "createdAt": null,
+    "text": "💳 Scapia x Axis Bank gives travellers a hope & quick approvals \nMy 2 lacs Coins gives a free round trip to USA\nSpend → Earn → Travel → Redeem\n₹0 joining fee\n₹0 annual fee\n0% forex markup\n1% back on UPI & 2% on Gold\nRedeem your Coins towards flights & travel\nApply Now",
+    "counts": {
+     "replies": 2,
+     "reposts": 10,
+     "likes": 114,
+     "views": 459418,
+     "bookmarks": 30
+    },
+    "metricsLabel": "2 replies, 10 reposts, 114 likes, 30 bookmarks, 459418 views",
+    "quote": null,
+    "media": [
+     "https://pbs.twimg.com/media/HRdj4BvaAAIg-pU?format=jpg&name=medium"
+    ],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [
+     "https://apply.scapia.cards/landing_page?referral_code=tzf7b2&twclid=25iufes7jll8884nr5srsioip2"
+    ],
+    "tcoLinks": [],
+    "cardText": "Scapia",
+    "showThread": false
+   },
+   {
+    "statusId": "2107244159694221448",
+    "statusUrl": "https://x.com/hello_code_/status/2107244159694221448",
+    "name": "John",
+    "handle": "@hello_code_",
+    "createdAt": "2026-10-05T22:58:53.000Z",
+    "text": "every landing page reads like a pharma ad now because of this pattern",
+    "counts": {
+     "replies": 2,
+     "reposts": 0,
+     "likes": 8,
+     "views": 860,
+     "bookmarks": 1
+    },
+    "metricsLabel": "2 replies, 8 likes, 1 bookmark, 860 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107260500681904313",
+    "statusUrl": "https://x.com/edo_lunardi/status/2107260500681904313",
+    "name": "Edo",
+    "handle": "@edo_lunardi",
+    "createdAt": "2026-10-06T00:03:49.000Z",
+    "text": "*staccato, it's an Italian word 👀",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 4,
+     "views": 624,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 reply, 4 likes, 624 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107390637108863255",
+    "statusUrl": "https://x.com/branmcconnell/status/2107390637108863255",
+    "name": "Brandon McConnell",
+    "handle": "@branmcconnell",
+    "createdAt": "2026-10-06T08:40:55.000Z",
+    "text": "my suno songs are about to get 10x better",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 1,
+     "views": 135,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 reply, 1 like, 135 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107371867560349914",
+    "statusUrl": "https://x.com/vincent_edes/status/2107371867560349914",
+    "name": "Vincent",
+    "handle": "@vincent_edes",
+    "createdAt": "2026-10-06T07:26:20.000Z",
+    "text": "Awesome tip. I wonder why there is nog good “human writer” skill",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 1,
+     "views": 194,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 reply, 1 like, 194 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2096280023582101522",
+    "statusUrl": "https://x.com/MediValleyAMTZ/status/2096280023582101522/analytics",
+    "name": "AIC-AMTZ MediValley, NITI Aayog, GoI.",
+    "handle": "@MediValleyAMTZ",
+    "createdAt": null,
+    "text": "Medivalley Innovation Center brings Global co-working standards at AMTZ, the Premium Techno Park.\n\nNow, enjoy mountainview at your desk and grow global",
+    "counts": {
+     "replies": 5,
+     "reposts": 26,
+     "likes": 359,
+     "views": 4543515,
+     "bookmarks": 42
+    },
+    "metricsLabel": "5 replies, 26 reposts, 359 likes, 42 bookmarks, 4543515 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": true,
+    "videoPoster": null,
+    "extLinks": [
+     "https://www.medivalley-aic.in/?twclid=28okld6btzasqbzuhmjsohn138"
+    ],
+    "tcoLinks": [],
+    "cardText": "",
+    "showThread": false
+   },
+   {
+    "statusId": "2107264692599021884",
+    "statusUrl": "https://x.com/asmirkn/status/2107264692599021884",
+    "name": "Asmir",
+    "handle": "@asmirkn",
+    "createdAt": "2026-10-06T00:20:28.000Z",
+    "text": "good one, though i think banning it just swaps in the next tic, so i'd also paste a paragraph you actually like to copy",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 1,
+     "views": 753,
+     "bookmarks": 1
+    },
+    "metricsLabel": "1 reply, 1 like, 1 bookmark, 753 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107358181655802097",
+    "statusUrl": "https://x.com/prathamdby/status/2107358181655802097",
+    "name": "Pratham",
+    "handle": "@prathamdby",
+    "createdAt": "2026-10-06T06:31:57.000Z",
+    "text": "Thank you for this alpha.",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 2,
+     "views": 106,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 reply, 2 likes, 106 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107394766581506458",
+    "statusUrl": "https://x.com/nik_maniya/status/2107394766581506458",
+    "name": "Nikunj Maniya",
+    "handle": "@nik_maniya",
+    "createdAt": "2026-10-06T08:57:20.000Z",
+    "text": "Staccato*\n\nHowever LLMs will understand",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 1,
+     "views": 218,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 reply, 1 like, 218 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107447191564402955",
+    "statusUrl": "https://x.com/mikaw__/status/2107447191564402955",
+    "name": "Mika",
+    "handle": "@mikaw__",
+    "createdAt": "2026-10-06T12:25:39.000Z",
+    "text": "“Refrain from point & shoot terminology”  has been a winner in my Design.md\n\nNothing like highlighting a feature, and then robotically telling the user why the feature exists :)",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 1,
+     "views": 47,
+     "bookmarks": 1
+    },
+    "metricsLabel": "1 like, 1 bookmark, 47 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "extraReplyCount": 0,
+  "conversationArticleCount": 23,
+  "allConversation": [
+   {
+    "statusId": "2107235505620521274",
+    "handle": "@michael_chomsky",
+    "text": "design prompt of the day:\n\never noticed LLMs write text that's like:\n\n\"More reliable. Less expensive.\"\n\"Sleep better. Live longer.\"\n\nthese are called stacatto sentences.\n\ntell your agent to 'never use stacatto sentences in landing pages'"
+   },
+   {
+    "statusId": "2107265744413356448",
+    "handle": "@michael_chomsky",
+    "text": "probably from some purple landing page"
+   },
+   {
+    "statusId": "2107239280204800094",
+    "handle": "@michael_chomsky",
+    "text": "ya"
+   },
+   {
+    "statusId": "2107244687069413768",
+    "handle": "@michael_chomsky",
+    "text": "its dead now"
+   },
+   {
+    "statusId": "2107265434080985283",
+    "handle": "@michael_chomsky",
+    "text": "crazy thing is i checked the spelling and still got it wrong"
+   },
+   {
+    "statusId": "2107390887932330327",
+    "handle": "@michael_chomsky",
+    "text": "send them to me"
+   },
+   {
+    "statusId": "2107372827100004634",
+    "handle": "@michael_chomsky",
+    "text": "there is but it's lost under the sea of bad ones"
+   },
+   {
+    "statusId": "2107265307144503320",
+    "handle": "@michael_chomsky",
+    "text": "what’s the next tic i need a list lol"
+   },
+   {
+    "statusId": "2107358965642473890",
+    "handle": "@michael_chomsky",
+    "text": "the real alpha is spelling staccato correctly lmaoo"
+   },
+   {
+    "statusId": "2107397260141281716",
+    "handle": "@michael_chomsky",
+    "text": "elsjdflfy righosgt"
+   },
+   {
+    "statusId": "2107537492153122973",
+    "handle": "@michael_chomsky",
+    "text": "@grok\n give example of this pls"
+   },
+   {
+    "statusId": "2107260176340578338",
+    "handle": "@sethocho",
+    "text": "pretty sure they picked that up from a decade of dtc landing pages. apple's been writing \"thinner. lighter. faster.\" since before any of this"
+   },
+   {
+    "statusId": "2107238048081527050",
+    "handle": "@thedavidqu",
+    "text": "Add 'it's not X, it's Y' to the ban list too"
+   },
+   {
+    "statusId": "2096255471363723755",
+    "handle": "@Kanna_Twister",
+    "text": "💳 Scapia x Axis Bank gives travellers a hope & quick approvals \nMy 2 lacs Coins gives a free round trip to USA\nSpend → Earn → Travel → Redeem\n₹0 joining fee\n₹0 annual fee\n0% forex markup\n1% back on UPI & 2% on Gold\nRedeem your Coins towards flights & travel\nApply Now"
+   },
+   {
+    "statusId": "2107244159694221448",
+    "handle": "@hello_code_",
+    "text": "every landing page reads like a pharma ad now because of this pattern"
+   },
+   {
+    "statusId": "2107260500681904313",
+    "handle": "@edo_lunardi",
+    "text": "*staccato, it's an Italian word 👀"
+   },
+   {
+    "statusId": "2107390637108863255",
+    "handle": "@branmcconnell",
+    "text": "my suno songs are about to get 10x better"
+   },
+   {
+    "statusId": "2107371867560349914",
+    "handle": "@vincent_edes",
+    "text": "Awesome tip. I wonder why there is nog good “human writer” skill"
+   },
+   {
+    "statusId": "2096280023582101522",
+    "handle": "@MediValleyAMTZ",
+    "text": "Medivalley Innovation Center brings Global co-working standards at AMTZ, the Premium Techno Park.\n\nNow, enjoy mountainview at your desk and grow global"
+   },
+   {
+    "statusId": "2107264692599021884",
+    "handle": "@asmirkn",
+    "text": "good one, though i think banning it just swaps in the next tic, so i'd also paste a paragraph you actually like to copy"
+   },
+   {
+    "statusId": "2107358181655802097",
+    "handle": "@prathamdby",
+    "text": "Thank you for this alpha."
+   },
+   {
+    "statusId": "2107394766581506458",
+    "handle": "@nik_maniya",
+    "text": "Staccato*\n\nHowever LLMs will understand"
+   },
+   {
+    "statusId": "2107447191564402955",
+    "handle": "@mikaw__",
+    "text": "“Refrain from point & shoot terminology”  has been a winner in my Design.md\n\nNothing like highlighting a feature, and then robotically telling the user why the feature exists :)"
+   }
+  ]
+ },
+ "https://x.com/joshuagunnn/status/2107108554192941493": {
+  "bookmark": {
+   "statusUrl": "https://x.com/joshuagunnn/status/2107108554192941493",
+   "name": "joshua",
+   "handle": "@joshuagunnn",
+   "createdAt": "2026-10-05T14:00:02.000Z",
+   "tweetText": "I'm open sourcing Leviathan: an indexer that lets AI agents search a database of any size without reading it.\n\nAt 1M records it hands your agent 436 tokens instead of 107,000, and it finds the answer 99% of the time.\n\n\nhttps://\ngithub.com/elstongun/levi\nathan\n…",
+   "metricsLabel": "72 replies, 179 reposts, 2544 likes, 3761 bookmarks, 116726 views",
+   "quote": null,
+   "media": [
+    "https://pbs.twimg.com/media/HT3zYHmWsAAjxL2?format=png&name=medium"
+   ],
+   "hasVideo": false,
+   "videoPoster": null,
+   "extLinks": [],
+   "tcoLinks": [
+    "https://t.co/SN2uL83zL7"
+   ],
+   "cardText": null,
+   "showThread": false,
+   "replyingTo": null,
+   "articleText": "joshua\n@joshuagunnn\nI'm open sourcing Leviathan: an indexer that lets AI agents search a database of any size without reading it.\n\nAt 1M records it hands your agent 436 tokens instead of 107,000, and it finds the answer 99% of the time.\n\n\nhttps://\ngithub.com/elstongun/levi\nathan\n…\n7:30 PM · Oct 5, 2026\n·\n116.7K\n Views\n72\n179\n2.5K\n3.7K\nRelevant\nView quotes",
+   "counts": {
+    "replies": 72,
+    "reposts": 179,
+    "likes": 2544,
+    "views": 116726,
+    "bookmarks": 3761
+   }
+  },
+  "statusId": "2107108554192941493",
+  "focusNotFound": false,
+  "focus": {
+   "statusId": "2107108554192941493",
+   "statusUrl": "https://x.com/joshuagunnn/status/2107108554192941493",
+   "name": "joshua",
+   "handle": "@joshuagunnn",
+   "createdAt": "2026-10-05T14:00:02.000Z",
+   "text": "I'm open sourcing Leviathan: an indexer that lets AI agents search a database of any size without reading it.\n\nAt 1M records it hands your agent 436 tokens instead of 107,000, and it finds the answer 99% of the time.\n\n\nhttps://\ngithub.com/elstongun/levi\nathan\n…",
+   "counts": {
+    "replies": 72,
+    "reposts": 179,
+    "likes": 2544,
+    "views": 116726,
+    "bookmarks": 3761
+   },
+   "metricsLabel": "72 replies, 179 reposts, 2544 likes, 3761 bookmarks, 116726 views",
+   "quote": null,
+   "media": [
+    "https://pbs.twimg.com/media/HT3zYHmWsAAjxL2?format=png&name=medium"
+   ],
+   "hasVideo": false,
+   "videoPoster": null,
+   "extLinks": [],
+   "tcoLinks": [
+    "https://t.co/SN2uL83zL7"
+   ],
+   "cardText": null,
+   "showThread": false,
+   "articleText": "joshua\n@joshuagunnn\nI'm open sourcing Leviathan: an indexer that lets AI agents search a database of any size without reading it.\n\nAt 1M records it hands your agent 436 tokens instead of 107,000, and it finds the answer 99% of the time.\n\n\nhttps://\ngithub.com/elstongun/levi\nathan\n…\n7:30 PM · Oct 5, 2026\n·\n116.7K\n Views\n72\n179\n2.5K\n3.7K\nRelevant\nView quotes"
+  },
+  "parents": [],
+  "selfThread": [
+   {
+    "statusId": "2107108558831808889",
+    "statusUrl": "https://x.com/joshuagunnn/status/2107108558831808889",
+    "name": "joshua",
+    "handle": "@joshuagunnn",
+    "createdAt": "2026-10-05T14:00:03.000Z",
+    "text": "Agents are great at reasoning over five records and terrible at finding them in a million.\n\nSo they grep, and page through APIs. They dump a user's entire history into context and pay for every line. Past a few hundred thousand rows it doesn't even fit.",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 30,
+     "views": 7816,
+     "bookmarks": 4
+    },
+    "metricsLabel": "1 reply, 30 likes, 4 bookmarks, 7816 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107108561406861687",
+    "statusUrl": "https://x.com/joshuagunnn/status/2107108561406861687",
+    "name": "joshua",
+    "handle": "@joshuagunnn",
+    "createdAt": "2026-10-05T14:00:03.000Z",
+    "text": "Leviathan is one Rust binary. Point it at JSONL, CSV or SQLite, or pipe in Postgres, MySQL, DuckDB or Mongo.\n\nIt infers the schema, builds a full-text index, and returns short, cited result cards. About 450 tokens per answer whether you have 10K rows or 1M.",
+    "counts": {
+     "replies": 2,
+     "reposts": 1,
+     "likes": 35,
+     "views": 5981,
+     "bookmarks": 15
+    },
+    "metricsLabel": "2 replies, 1 repost, 35 likes, 15 bookmarks, 5981 views",
+    "quote": null,
+    "media": [
+     "https://pbs.twimg.com/media/HT3zqDBXMAEUQLj?format=png&name=medium"
+    ],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107108564795851110",
+    "statusUrl": "https://x.com/joshuagunnn/status/2107108564795851110",
+    "name": "joshua",
+    "handle": "@joshuagunnn",
+    "createdAt": "2026-10-05T14:00:04.000Z",
+    "text": "At 1M records:\n\n99% of questions get a relevant record in the top 5 33 ms median Worst case: 602 tokens. Grep's worst case: 9.7M.\n\nUnder ~100K rows grep is honestly fine. This is for when your data outgrows the context window.",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 22,
+     "views": 4611,
+     "bookmarks": 3
+    },
+    "metricsLabel": "1 reply, 22 likes, 3 bookmarks, 4611 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107108568151572555",
+    "statusUrl": "https://x.com/joshuagunnn/status/2107108568151572555",
+    "name": "joshua",
+    "handle": "@joshuagunnn",
+    "createdAt": "2026-10-05T14:00:05.000Z",
+    "text": "CLI first, MCP optional. MCP schemas tax every session whether you use them or not. A skill file costs zero tokens until it's called.\n\nWorks with Claude Code, Codex, Cursor, anything with a shell.",
+    "counts": {
+     "replies": 2,
+     "reposts": 0,
+     "likes": 16,
+     "views": 4208,
+     "bookmarks": 1
+    },
+    "metricsLabel": "2 replies, 16 likes, 1 bookmark, 4208 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107108571460845899",
+    "statusUrl": "https://x.com/joshuagunnn/status/2107108571460845899",
+    "name": "joshua",
+    "handle": "@joshuagunnn",
+    "createdAt": "2026-10-05T14:00:06.000Z",
+    "text": "It's also very fast.\n\nThanks for reading, and I hope this is useful for you as well.",
+    "counts": {
+     "replies": 1,
+     "reposts": 1,
+     "likes": 29,
+     "views": 3933,
+     "bookmarks": 12
+    },
+    "metricsLabel": "1 reply, 1 repost, 29 likes, 12 bookmarks, 3933 views",
+    "quote": null,
+    "media": [
+     "https://pbs.twimg.com/media/HT3z9WmX0AAo3sk?format=jpg&name=medium"
+    ],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107524000872333655",
+    "statusUrl": "https://x.com/joshuagunnn/status/2107524000872333655",
+    "name": "joshua",
+    "handle": "@joshuagunnn",
+    "createdAt": "2026-10-06T17:30:52.000Z",
+    "text": "Want a hosted version of Leviathan that lives with your data?\n\nWould you pay $10 bucks a month for it to auto index all your data for you? x.com/joshuagunnn/st…",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 1,
+     "views": 174,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 like, 174 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "replies": [
+   {
+    "statusId": "2107237554559107077",
+    "statusUrl": "https://x.com/lstmfpga/status/2107237554559107077",
+    "name": "snow",
+    "handle": "@lstmfpga",
+    "createdAt": "2026-10-05T22:32:38.000Z",
+    "text": "You are just using very common technique like FTS5 and BM25, what's new ??? \nYou emphasize the marketing term \"Made in Rust\" and number like \"436\" but honestly you didn't invent anything new. \nAnd those stupid guys on X without anything RAG knowledge get excited. \nLOL",
+    "counts": {
+     "replies": 3,
+     "reposts": 0,
+     "likes": 19,
+     "views": 2334,
+     "bookmarks": 7
+    },
+    "metricsLabel": "3 replies, 19 likes, 7 bookmarks, 2334 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2092559596410036347",
+    "statusUrl": "https://x.com/animalsaveindia/status/2092559596410036347/analytics",
+    "name": "Animal Save India",
+    "handle": "@animalsaveindia",
+    "createdAt": null,
+    "text": "A Powerful Moment on KBC..\n\nDuring Kaun Banega Crorepati, Shri Amitabh Bachchan ji acknowledged a simple biological fact:\n\nA mother's milk is meant for her baby.\n\nJust as a human mother's milk is naturally meant to nourish her child, a cow's or buffalo's milk is produced to",
+    "counts": {
+     "replies": 438,
+     "reposts": 668,
+     "likes": 4904,
+     "views": 2386515,
+     "bookmarks": 845
+    },
+    "metricsLabel": "438 replies, 668 reposts, 4904 likes, 845 bookmarks, 2386515 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": true,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107216849998164348",
+    "statusUrl": "https://x.com/rizzn/status/2107216849998164348",
+    "name": "Mark Rizzn Hopkins",
+    "handle": "@rizzn",
+    "createdAt": "2026-10-05T21:10:21.000Z",
+    "text": "This methodology solves a lot of problems.",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 2,
+     "views": 1649,
+     "bookmarks": 0
+    },
+    "metricsLabel": "2 likes, 1649 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107419744706158943",
+    "statusUrl": "https://x.com/mbrochh/status/2107419744706158943",
+    "name": "M",
+    "handle": "@mbrochh",
+    "createdAt": "2026-10-06T10:36:35.000Z",
+    "text": "why just databases? would be cool of it could index entire folder structures with all docs in them? would that be possible in theory?",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 2,
+     "views": 377,
+     "bookmarks": 0
+    },
+    "metricsLabel": "2 likes, 377 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107494900359217412",
+    "statusUrl": "https://x.com/badguyty/status/2107494900359217412",
+    "name": "BadGuyTy 🅁🅅🄽 (Tyler Hess)",
+    "handle": "@badguyty",
+    "createdAt": "2026-10-06T15:35:14.000Z",
+    "text": "can it index nosql also like can I send it a stream of logs and it just parse and index them?",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 0,
+     "views": 152,
+     "bookmarks": 0
+    },
+    "metricsLabel": "152 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "extraReplyCount": 0,
+  "conversationArticleCount": 12,
+  "allConversation": [
+   {
+    "statusId": "2107108554192941493",
+    "handle": "@joshuagunnn",
+    "text": "I'm open sourcing Leviathan: an indexer that lets AI agents search a database of any size without reading it.\n\nAt 1M records it hands your agent 436 tokens instead of 107,000, and it finds the answer 99% of the time.\n\n\nhttps://\ngithub.com/elstongun/levi\nathan\n…"
+   },
+   {
+    "statusId": "2107108558831808889",
+    "handle": "@joshuagunnn",
+    "text": "Agents are great at reasoning over five records and terrible at finding them in a million.\n\nSo they grep, and page through APIs. They dump a user's entire history into context and pay for every line. Past a few hundred thousand rows it doesn't even fit."
+   },
+   {
+    "statusId": "2107108561406861687",
+    "handle": "@joshuagunnn",
+    "text": "Leviathan is one Rust binary. Point it at JSONL, CSV or SQLite, or pipe in Postgres, MySQL, DuckDB or Mongo.\n\nIt infers the schema, builds a full-text index, and returns short, cited result cards. About 450 tokens per answer whether you have 10K rows or 1M."
+   },
+   {
+    "statusId": "2107108564795851110",
+    "handle": "@joshuagunnn",
+    "text": "At 1M records:\n\n99% of questions get a relevant record in the top 5 33 ms median Worst case: 602 tokens. Grep's worst case: 9.7M.\n\nUnder ~100K rows grep is honestly fine. This is for when your data outgrows the context window."
+   },
+   {
+    "statusId": "2107108568151572555",
+    "handle": "@joshuagunnn",
+    "text": "CLI first, MCP optional. MCP schemas tax every session whether you use them or not. A skill file costs zero tokens until it's called.\n\nWorks with Claude Code, Codex, Cursor, anything with a shell."
+   },
+   {
+    "statusId": "2107108571460845899",
+    "handle": "@joshuagunnn",
+    "text": "It's also very fast.\n\nThanks for reading, and I hope this is useful for you as well."
+   },
+   {
+    "statusId": "2107524000872333655",
+    "handle": "@joshuagunnn",
+    "text": "Want a hosted version of Leviathan that lives with your data?\n\nWould you pay $10 bucks a month for it to auto index all your data for you? x.com/joshuagunnn/st…"
+   },
+   {
+    "statusId": "2107237554559107077",
+    "handle": "@lstmfpga",
+    "text": "You are just using very common technique like FTS5 and BM25, what's new ??? \nYou emphasize the marketing term \"Made in Rust\" and number like \"436\" but honestly you didn't invent anything new. \nAnd those stupid guys on X without anything RAG knowledge get excited. \nLOL"
+   },
+   {
+    "statusId": "2092559596410036347",
+    "handle": "@animalsaveindia",
+    "text": "A Powerful Moment on KBC..\n\nDuring Kaun Banega Crorepati, Shri Amitabh Bachchan ji acknowledged a simple biological fact:\n\nA mother's milk is meant for her baby.\n\nJust as a human mother's milk is naturally meant to nourish her child, a cow's or buffalo's milk is produced to"
+   },
+   {
+    "statusId": "2107216849998164348",
+    "handle": "@rizzn",
+    "text": "This methodology solves a lot of problems."
+   },
+   {
+    "statusId": "2107419744706158943",
+    "handle": "@mbrochh",
+    "text": "why just databases? would be cool of it could index entire folder structures with all docs in them? would that be possible in theory?"
+   },
+   {
+    "statusId": "2107494900359217412",
+    "handle": "@badguyty",
+    "text": "can it index nosql also like can I send it a stream of logs and it just parse and index them?"
+   }
+  ]
+ },
+ "https://x.com/cognition/status/2107165034463867001": {
+  "bookmark": {
+   "statusUrl": "https://x.com/cognition/status/2107165034463867001",
+   "name": "Cognition",
+   "handle": "@cognition",
+   "createdAt": "2026-10-05T17:44:28.000Z",
+   "tweetText": "Introducing Dreaming: Across sessions, Devin builds a memory graph of how you like to work\n\nAt night Devin self-improves its memory to remove stale records and discover latent information\n\nWe are creating an OSS standard called Agent Memory Repo: \nhttps://\ncognition.com/agent-memory-r\nepo\n…",
+   "metricsLabel": "126 replies, 331 reposts, 2383 likes, Liked, 2227 bookmarks, 512085 views",
+   "quote": null,
+   "media": [],
+   "hasVideo": true,
+   "videoPoster": null,
+   "extLinks": [],
+   "tcoLinks": [
+    "https://t.co/b6qzEJsaeT"
+   ],
+   "cardText": null,
+   "showThread": false,
+   "replyingTo": null,
+   "articleText": "Cognition\n@cognition\nIntroducing Dreaming: Across sessions, Devin builds a memory graph of how you like to work\n\nAt night Devin self-improves its memory to remove stale records and discover latent information\n\nWe are creating an OSS standard called Agent Memory Repo: \nhttps://\ncognition.com/agent-memory-r\nepo\n…\n0:02 / 0:34\n11:14 PM · Oct 5, 2026\n·\n512K\n Views\n126\n331\n2.3K\n2.2K\nRelevant\nView quotes",
+   "counts": {
+    "replies": 126,
+    "reposts": 331,
+    "likes": 2383,
+    "views": 512085,
+    "bookmarks": 2227
+   }
+  },
+  "statusId": "2107165034463867001",
+  "focusNotFound": false,
+  "focus": {
+   "statusId": "2107165034463867001",
+   "statusUrl": "https://x.com/cognition/status/2107165034463867001",
+   "name": "Cognition",
+   "handle": "@cognition",
+   "createdAt": "2026-10-05T17:44:28.000Z",
+   "text": "Introducing Dreaming: Across sessions, Devin builds a memory graph of how you like to work\n\nAt night Devin self-improves its memory to remove stale records and discover latent information\n\nWe are creating an OSS standard called Agent Memory Repo: \nhttps://\ncognition.com/agent-memory-r\nepo\n…",
+   "counts": {
+    "replies": 126,
+    "reposts": 331,
+    "likes": 2383,
+    "views": 512085,
+    "bookmarks": 2227
+   },
+   "metricsLabel": "126 replies, 331 reposts, 2383 likes, Liked, 2227 bookmarks, 512085 views",
+   "quote": null,
+   "media": [],
+   "hasVideo": true,
+   "videoPoster": null,
+   "extLinks": [],
+   "tcoLinks": [
+    "https://t.co/b6qzEJsaeT"
+   ],
+   "cardText": null,
+   "showThread": false,
+   "articleText": "Cognition\n@cognition\nIntroducing Dreaming: Across sessions, Devin builds a memory graph of how you like to work\n\nAt night Devin self-improves its memory to remove stale records and discover latent information\n\nWe are creating an OSS standard called Agent Memory Repo: \nhttps://\ncognition.com/agent-memory-r\nepo\n…\n0:02 / 0:34\n11:14 PM · Oct 5, 2026\n·\n512K\n Views\n126\n331\n2.3K\n2.2K\nRelevant\nView quotes"
+  },
+  "parents": [],
+  "selfThread": [
+   {
+    "statusId": "2107165035780768021",
+    "statusUrl": "https://x.com/cognition/status/2107165035780768021",
+    "name": "Cognition",
+    "handle": "@cognition",
+    "createdAt": "2026-10-05T17:44:28.000Z",
+    "text": "In Agent Memory Repo, memory records live in files and are versioned with Git\n\nIt’s a simple primitive but unlocks surprising use cases like a message board across your agent sessions",
+    "counts": {
+     "replies": 5,
+     "reposts": 4,
+     "likes": 94,
+     "views": 17529,
+     "bookmarks": 10
+    },
+    "metricsLabel": "5 replies, 4 reposts, 94 likes, 10 bookmarks, 17529 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107165037081104826",
+    "statusUrl": "https://x.com/cognition/status/2107165037081104826",
+    "name": "Cognition",
+    "handle": "@cognition",
+    "createdAt": "2026-10-05T17:44:28.000Z",
+    "text": "In early experimentation we saw a swarm of Devins using the memory as a way to coordinate at large scale without us prompting them to (we promise they didn’t hack anyone)",
+    "counts": {
+     "replies": 3,
+     "reposts": 3,
+     "likes": 78,
+     "views": 12059,
+     "bookmarks": 7
+    },
+    "metricsLabel": "3 replies, 3 reposts, 78 likes, 7 bookmarks, 12059 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107165038188298536",
+    "statusUrl": "https://x.com/cognition/status/2107165038188298536",
+    "name": "Cognition",
+    "handle": "@cognition",
+    "createdAt": "2026-10-05T17:44:28.000Z",
+    "text": "Read more about memory and dreaming at:",
+    "counts": {
+     "replies": 0,
+     "reposts": 5,
+     "likes": 66,
+     "views": 10506,
+     "bookmarks": 40
+    },
+    "metricsLabel": "5 reposts, 66 likes, 40 bookmarks, 10506 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [
+     "https://t.co/yh5nLxFCAy"
+    ],
+    "cardText": "Memory and dreaming: how Devin learns from working with you | Devin",
+    "showThread": false
+   }
+  ],
+  "replies": [
+   {
+    "statusId": "2088246858015785117",
+    "statusUrl": "https://x.com/beingakash26_/status/2088246858015785117/analytics",
+    "name": "HADC INDICATOR",
+    "handle": "@beingakash26_",
+    "createdAt": null,
+    "text": "HADC Gains 9600+ points in BOSCHLTD In Just 3 Months. \n\nNo Sell Signal Since May 2026. \n\nInbuilt with Real-Time Buy/Sell Alerts. \n\nClick on Chart to Learn More.",
+    "counts": {
+     "replies": 3,
+     "reposts": 4,
+     "likes": 44,
+     "views": 224153,
+     "bookmarks": 6
+    },
+    "metricsLabel": "3 replies, 4 reposts, 44 likes, 6 bookmarks, 224153 views",
+    "quote": null,
+    "media": [
+     "https://pbs.twimg.com/media/HPrxJffa8AA1kvQ?format=jpg&name=medium"
+    ],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [
+     "https://hadc-indicator.github.io/HADC/?twclid=21kto33doqnxtnxp4v42qu3aol"
+    ],
+    "tcoLinks": [],
+    "cardText": "Click Here to Join HADC",
+    "showThread": false
+   },
+   {
+    "statusId": "2107168192493769210",
+    "statusUrl": "https://x.com/imjaredz/status/2107168192493769210",
+    "name": "Jared Zoneraich",
+    "handle": "@imjaredz",
+    "createdAt": "2026-10-05T17:57:01.000Z",
+    "text": "Finally I can retire my git brain repo",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 17,
+     "views": 1990,
+     "bookmarks": 0
+    },
+    "metricsLabel": "17 likes, 1990 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107221862077915182",
+    "statusUrl": "https://x.com/coreyward/status/2107221862077915182",
+    "name": "Corey Ward",
+    "handle": "@coreyward",
+    "createdAt": "2026-10-05T21:30:16.000Z",
+    "text": "Cool. Hope this improves the PR reviews. They've gotten very prone to flagging non-issues the last few days.",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 4,
+     "views": 760,
+     "bookmarks": 0
+    },
+    "metricsLabel": "4 likes, 760 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107171153970385279",
+    "statusUrl": "https://x.com/Band1115/status/2107171153970385279",
+    "name": "band.eth",
+    "handle": "@Band1115",
+    "createdAt": "2026-10-05T18:08:47.000Z",
+    "text": "does it hallucinate context from the old logs",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 2,
+     "views": 740,
+     "bookmarks": 0
+    },
+    "metricsLabel": "2 likes, 740 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": true,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107344182897770580",
+    "statusUrl": "https://x.com/ElaraAiLab/status/2107344182897770580",
+    "name": "Elara AI",
+    "handle": "@ElaraAiLab",
+    "createdAt": "2026-10-06T05:36:20.000Z",
+    "text": "Agent Memory Repo as OSS standard is huge move",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 1,
+     "views": 448,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 like, 448 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107172861165424942",
+    "statusUrl": "https://x.com/harderthanfire/status/2107172861165424942",
+    "name": "Fer",
+    "handle": "@harderthanfire",
+    "createdAt": "2026-10-05T18:15:34.000Z",
+    "text": "Thank you for the OSS standard looks super useful",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 3,
+     "views": 1906,
+     "bookmarks": 0
+    },
+    "metricsLabel": "3 likes, 1906 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107175524967542997",
+    "statusUrl": "https://x.com/Chris_Wozniczek/status/2107175524967542997",
+    "name": "Chris W",
+    "handle": "@Chris_Wozniczek",
+    "createdAt": "2026-10-05T18:26:09.000Z",
+    "text": "Devin built my studio brain repo like 3 days ago ... looks like I can now retire that, more devin work !  Having this working now plus devins being able to coordinate together is a massive unlock.\n\nI throw few devins in parallel working on few interconnected linear tasks so now",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 3,
+     "views": 2682,
+     "bookmarks": 1
+    },
+    "metricsLabel": "3 likes, 1 bookmark, 2682 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": true,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107255788913988088",
+    "statusUrl": "https://x.com/AivellaInfoAi/status/2107255788913988088",
+    "name": "Aivella | AI & Tech",
+    "handle": "@AivellaInfoAi",
+    "createdAt": "2026-10-05T23:45:05.000Z",
+    "text": "This Dreaming concept is brilliant. A self-improving memory graph is exactly what agents need to feel truly personal",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 1,
+     "views": 603,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 like, 603 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107476176411435108",
+    "statusUrl": "https://x.com/AptosLabs/status/2107476176411435108/analytics",
+    "name": "Aptos Labs",
+    "handle": "@AptosLabs",
+    "createdAt": null,
+    "text": "Introducing MonoMove: the rebuilt \n@Aptos\n execution engine and the largest performance upgrade since mainnet.\n\nMarkets onchain need scale and safety. MonoMove is built for both.\n\nThe Move code behind every order, loan, and payout executes up to 55x faster. Parallelism is not even",
+    "counts": {
+     "replies": 66,
+     "reposts": 30,
+     "likes": 276,
+     "views": 68597,
+     "bookmarks": 7
+    },
+    "metricsLabel": "66 replies, 30 reposts, 276 likes, 7 bookmarks, 68597 views",
+    "quote": null,
+    "media": [
+     "https://pbs.twimg.com/media/HT9ChDKWQAAYluh.jpg"
+    ],
+    "hasVideo": true,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "extraReplyCount": 0,
+  "conversationArticleCount": 13,
+  "allConversation": [
+   {
+    "statusId": "2107165034463867001",
+    "handle": "@cognition",
+    "text": "Introducing Dreaming: Across sessions, Devin builds a memory graph of how you like to work\n\nAt night Devin self-improves its memory to remove stale records and discover latent information\n\nWe are creating an OSS standard called Agent Memory Repo: \nhttps://\ncognition.com/agent-memory-r\nepo\n…"
+   },
+   {
+    "statusId": "2107165035780768021",
+    "handle": "@cognition",
+    "text": "In Agent Memory Repo, memory records live in files and are versioned with Git\n\nIt’s a simple primitive but unlocks surprising use cases like a message board across your agent sessions"
+   },
+   {
+    "statusId": "2107165037081104826",
+    "handle": "@cognition",
+    "text": "In early experimentation we saw a swarm of Devins using the memory as a way to coordinate at large scale without us prompting them to (we promise they didn’t hack anyone)"
+   },
+   {
+    "statusId": "2107165038188298536",
+    "handle": "@cognition",
+    "text": "Read more about memory and dreaming at:"
+   },
+   {
+    "statusId": "2088246858015785117",
+    "handle": "@beingakash26_",
+    "text": "HADC Gains 9600+ points in BOSCHLTD In Just 3 Months. \n\nNo Sell Signal Since May 2026. \n\nInbuilt with Real-Time Buy/Sell Alerts. \n\nClick on Chart to Learn More."
+   },
+   {
+    "statusId": "2107168192493769210",
+    "handle": "@imjaredz",
+    "text": "Finally I can retire my git brain repo"
+   },
+   {
+    "statusId": "2107221862077915182",
+    "handle": "@coreyward",
+    "text": "Cool. Hope this improves the PR reviews. They've gotten very prone to flagging non-issues the last few days."
+   },
+   {
+    "statusId": "2107171153970385279",
+    "handle": "@Band1115",
+    "text": "does it hallucinate context from the old logs"
+   },
+   {
+    "statusId": "2107344182897770580",
+    "handle": "@ElaraAiLab",
+    "text": "Agent Memory Repo as OSS standard is huge move"
+   },
+   {
+    "statusId": "2107172861165424942",
+    "handle": "@harderthanfire",
+    "text": "Thank you for the OSS standard looks super useful"
+   },
+   {
+    "statusId": "2107175524967542997",
+    "handle": "@Chris_Wozniczek",
+    "text": "Devin built my studio brain repo like 3 days ago ... looks like I can now retire that, more devin work !  Having this working now plus devins being able to coordinate together is a massive unlock.\n\nI throw few devins in parallel working on few interconnected linear tasks so now"
+   },
+   {
+    "statusId": "2107255788913988088",
+    "handle": "@AivellaInfoAi",
+    "text": "This Dreaming concept is brilliant. A self-improving memory graph is exactly what agents need to feel truly personal"
+   },
+   {
+    "statusId": "2107476176411435108",
+    "handle": "@AptosLabs",
+    "text": "Introducing MonoMove: the rebuilt \n@Aptos\n execution engine and the largest performance upgrade since mainnet.\n\nMarkets onchain need scale and safety. MonoMove is built for both.\n\nThe Move code behind every order, loan, and payout executes up to 55x faster. Parallelism is not even"
+   }
+  ]
+ },
+ "https://x.com/xevrion_the1/status/2107047524662157818": {
+  "bookmark": {
+   "statusUrl": "https://x.com/xevrion_the1/status/2107047524662157818",
+   "name": "xevrion",
+   "handle": "@xevrion_the1",
+   "createdAt": "2026-10-05T09:57:31.000Z",
+   "tweetText": "i screenshot everything and can never find anything.\nso i built ctrl+f for my screenshots folder. type any word that was in the image, it shows up in milliseconds.\nfully offline. open source.",
+   "metricsLabel": "152 replies, 72 reposts, 1315 likes, Liked, 809 bookmarks, 36131 views",
+   "quote": null,
+   "media": [],
+   "hasVideo": true,
+   "videoPoster": null,
+   "extLinks": [],
+   "tcoLinks": [],
+   "cardText": null,
+   "showThread": false,
+   "replyingTo": null,
+   "articleText": "xevrion\n@xevrion_the1\ni screenshot everything and can never find anything.\nso i built ctrl+f for my screenshots folder. type any word that was in the image, it shows up in milliseconds.\nfully offline. open source.\n0:04 / 0:15\n3:27 PM · Oct 5, 2026\n·\n36.1K\n Views\n152\n72\n1.3K\n809\nRelevant\nView quotes",
+   "counts": {
+    "replies": 152,
+    "reposts": 72,
+    "likes": 1315,
+    "views": 36131,
+    "bookmarks": 809
+   }
+  },
+  "statusId": "2107047524662157818",
+  "focusNotFound": false,
+  "focus": {
+   "statusId": "2107047524662157818",
+   "statusUrl": "https://x.com/xevrion_the1/status/2107047524662157818",
+   "name": "xevrion",
+   "handle": "@xevrion_the1",
+   "createdAt": "2026-10-05T09:57:31.000Z",
+   "text": "i screenshot everything and can never find anything.\nso i built ctrl+f for my screenshots folder. type any word that was in the image, it shows up in milliseconds.\nfully offline. open source.",
+   "counts": {
+    "replies": 152,
+    "reposts": 72,
+    "likes": 1315,
+    "views": 36131,
+    "bookmarks": 809
+   },
+   "metricsLabel": "152 replies, 72 reposts, 1315 likes, Liked, 809 bookmarks, 36131 views",
+   "quote": null,
+   "media": [],
+   "hasVideo": true,
+   "videoPoster": null,
+   "extLinks": [],
+   "tcoLinks": [],
+   "cardText": null,
+   "showThread": false,
+   "articleText": "xevrion\n@xevrion_the1\ni screenshot everything and can never find anything.\nso i built ctrl+f for my screenshots folder. type any word that was in the image, it shows up in milliseconds.\nfully offline. open source.\n0:04 / 0:15\n3:27 PM · Oct 5, 2026\n·\n36.1K\n Views\n152\n72\n1.3K\n809\nRelevant\nView quotes"
+  },
+  "parents": [],
+  "selfThread": [
+   {
+    "statusId": "2107047629477847476",
+    "statusUrl": "https://x.com/xevrion_the1/status/2107047629477847476",
+    "name": "xevrion",
+    "handle": "@xevrion_the1",
+    "createdAt": "2026-10-05T09:57:56.000Z",
+    "text": "check it out:",
+    "counts": {
+     "replies": 1,
+     "reposts": 1,
+     "likes": 61,
+     "views": 2614,
+     "bookmarks": 57
+    },
+    "metricsLabel": "1 reply, 1 repost, 61 likes, 57 bookmarks, 2614 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [
+     "https://t.co/FrstFH7mnv"
+    ],
+    "cardText": "GitHub - xevrion/gyotaku: search every screenshot you've ever taken by the text inside it. native...",
+    "showThread": false
+   },
+   {
+    "statusId": "2107180494945481032",
+    "statusUrl": "https://x.com/xevrion_the1/status/2107180494945481032",
+    "name": "xevrion",
+    "handle": "@xevrion_the1",
+    "createdAt": "2026-10-05T18:45:54.000Z",
+    "text": "gyotaku runs on windows now.\n\none line in powershell, same instant search, fully offline. your screenshots never leave your machine. x.com/xevrion_the1/s…",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 6,
+     "views": 997,
+     "bookmarks": 1
+    },
+    "metricsLabel": "6 likes, 1 bookmark, 997 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107147706326257825",
+    "statusUrl": "https://x.com/xevrion_the1/status/2107147706326257825",
+    "name": "xevrion",
+    "handle": "@xevrion_the1",
+    "createdAt": "2026-10-05T16:35:36.000Z",
+    "text": "damnn!",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 10,
+     "views": 490,
+     "bookmarks": 0
+    },
+    "metricsLabel": "10 likes, 490 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107059536771403919",
+    "statusUrl": "https://x.com/xevrion_the1/status/2107059536771403919",
+    "name": "xevrion",
+    "handle": "@xevrion_the1",
+    "createdAt": "2026-10-05T10:45:15.000Z",
+    "text": "yup and its SUPER SUPER fast!",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 6,
+     "views": 688,
+     "bookmarks": 0
+    },
+    "metricsLabel": "6 likes, 688 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107141090952507475",
+    "statusUrl": "https://x.com/xevrion_the1/status/2107141090952507475",
+    "name": "xevrion",
+    "handle": "@xevrion_the1",
+    "createdAt": "2026-10-05T16:09:19.000Z",
+    "text": "haha the aura was free, just like the app 😌",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 5,
+     "views": 180,
+     "bookmarks": 0
+    },
+    "metricsLabel": "5 likes, 180 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107127860251303958",
+    "statusUrl": "https://x.com/xevrion_the1/status/2107127860251303958",
+    "name": "xevrion",
+    "handle": "@xevrion_the1",
+    "createdAt": "2026-10-05T15:16:45.000Z",
+    "text": "Damn",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 0,
+     "views": 283,
+     "bookmarks": 0
+    },
+    "metricsLabel": "283 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107054858557935978",
+    "statusUrl": "https://x.com/xevrion_the1/status/2107054858557935978",
+    "name": "xevrion",
+    "handle": "@xevrion_the1",
+    "createdAt": "2026-10-05T10:26:40.000Z",
+    "text": "thanks 🐐",
+    "counts": {
+     "replies": 0,
+     "reposts": 0,
+     "likes": 0,
+     "views": 97,
+     "bookmarks": 0
+    },
+    "metricsLabel": "97 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "replies": [
+   {
+    "statusId": "2107147641570398547",
+    "statusUrl": "https://x.com/ayush101dev/status/2107147641570398547",
+    "name": "ayushbuilds",
+    "handle": "@ayush101dev",
+    "createdAt": "2026-10-05T16:35:21.000Z",
+    "text": "have built something same  quite few months ago\n\nhttps://\ngithub.com/Ayushkumar111/\nneurasnip\n…\nsemantically search your images via text or just image",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 20,
+     "views": 631,
+     "bookmarks": 6
+    },
+    "metricsLabel": "1 reply, 20 likes, 6 bookmarks, 631 views",
+    "quote": null,
+    "media": [
+     "https://pbs.twimg.com/media/HT4XfFjaYAAUHAn?format=jpg&name=medium"
+    ],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [
+     "https://t.co/Ny6TK3vE2T"
+    ],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2099400659342938122",
+    "statusUrl": "https://x.com/kilocare_health/status/2099400659342938122/analytics",
+    "name": "kilocare Health",
+    "handle": "@kilocare_health",
+    "createdAt": null,
+    "text": "Weight-loss care does not start with a prescription. It starts with understanding your health.\n\nTell a KiloCare doctor about your health, goals and what you have tried. They can recommend a medication-supported or non-medication programme.\n\nBook a consultation.",
+    "counts": {
+     "replies": 7,
+     "reposts": 28,
+     "likes": 156,
+     "views": 530535,
+     "bookmarks": 18
+    },
+    "metricsLabel": "7 replies, 28 reposts, 156 likes, 18 bookmarks, 530535 views",
+    "quote": null,
+    "media": [
+     "https://pbs.twimg.com/media/HQoghJ1bYAAtMfA?format=jpg&name=medium"
+    ],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [
+     "https://kilocare.in/onboarding?utm_source=x&utm_medium=paid_social&utm_campaign=not-sure-medication&utm_term=broad&utm_content=talk_to_doctor&twclid=2ea3ramudp3nmlrz4rvhehezff"
+    ],
+    "tcoLinks": [],
+    "cardText": "KiloCare | Clinical Weight Care",
+    "showThread": false
+   },
+   {
+    "statusId": "2107056164618096828",
+    "statusUrl": "https://x.com/thenightshipper/status/2107056164618096828",
+    "name": "Abhishek kothari",
+    "handle": "@thenightshipper",
+    "createdAt": "2026-10-05T10:31:51.000Z",
+    "text": "A ctrl+f for a folder full of screenshots makes immediate sense. Keeping it offline is a relief when half those images contain private stuff.",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 20,
+     "views": 751,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 reply, 20 likes, 751 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107140288854757856",
+    "statusUrl": "https://x.com/itzKashan2912/status/2107140288854757856",
+    "name": "Muhammad Kashan Ashraf",
+    "handle": "@itzKashan2912",
+    "createdAt": "2026-10-05T16:06:08.000Z",
+    "text": "bro could have charged, but went opensource, this is the real AURA!",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 7,
+     "views": 194,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 reply, 7 likes, 194 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   },
+   {
+    "statusId": "2107126757484863714",
+    "statusUrl": "https://x.com/navaniharsh31/status/2107126757484863714",
+    "name": "Harsh Navani",
+    "handle": "@navaniharsh31",
+    "createdAt": "2026-10-05T15:12:22.000Z",
+    "text": "great one!\nmade one for mac just yesterday lol\n\nhttps://\ndejashot.com :)",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 5,
+     "views": 384,
+     "bookmarks": 4
+    },
+    "metricsLabel": "1 reply, 5 likes, 4 bookmarks, 384 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [
+     "https://t.co/I8SPBTIzip"
+    ],
+    "cardText": "DejaShot: screenshot search for your Mac",
+    "showThread": false
+   },
+   {
+    "statusId": "2107054739649442244",
+    "statusUrl": "https://x.com/OjasSharma276/status/2107054739649442244",
+    "name": "Ojas Sharma",
+    "handle": "@OjasSharma276",
+    "createdAt": "2026-10-05T10:26:11.000Z",
+    "text": "Crazy and useful stufff",
+    "counts": {
+     "replies": 1,
+     "reposts": 0,
+     "likes": 4,
+     "views": 143,
+     "bookmarks": 0
+    },
+    "metricsLabel": "1 reply, 4 likes, 143 views",
+    "quote": null,
+    "media": [],
+    "hasVideo": false,
+    "videoPoster": null,
+    "extLinks": [],
+    "tcoLinks": [],
+    "cardText": null,
+    "showThread": false
+   }
+  ],
+  "extraReplyCount": 0,
+  "conversationArticleCount": 14,
+  "allConversation": [
+   {
+    "statusId": "2107047524662157818",
+    "handle": "@xevrion_the1",
+    "text": "i screenshot everything and can never find anything.\nso i built ctrl+f for my screenshots folder. type any word that was in the image, it shows up in milliseconds.\nfully offline. open source."
+   },
+   {
+    "statusId": "2107047629477847476",
+    "handle": "@xevrion_the1",
+    "text": "check it out:"
+   },
+   {
+    "statusId": "2107180494945481032",
+    "handle": "@xevrion_the1",
+    "text": "gyotaku runs on windows now.\n\none line in powershell, same instant search, fully offline. your screenshots never leave your machine. x.com/xevrion_the1/s…"
+   },
+   {
+    "statusId": "2107147706326257825",
+    "handle": "@xevrion_the1",
+    "text": "damnn!"
+   },
+   {
+    "statusId": "2107059536771403919",
+    "handle": "@xevrion_the1",
+    "text": "yup and its SUPER SUPER fast!"
+   },
+   {
+    "statusId": "2107141090952507475",
+    "handle": "@xevrion_the1",
+    "text": "haha the aura was free, just like the app 😌"
+   },
+   {
+    "statusId": "2107127860251303958",
+    "handle": "@xevrion_the1",
+    "text": "Damn"
+   },
+   {
+    "statusId": "2107054858557935978",
+    "handle": "@xevrion_the1",
+    "text": "thanks 🐐"
+   },
+   {
+    "statusId": "2107147641570398547",
+    "handle": "@ayush101dev",
+    "text": "have built something same  quite few months ago\n\nhttps://\ngithub.com/Ayushkumar111/\nneurasnip\n…\nsemantically search your images via text or just image"
+   },
+   {
+    "statusId": "2099400659342938122",
+    "handle": "@kilocare_health",
+    "text": "Weight-loss care does not start with a prescription. It starts with understanding your health.\n\nTell a KiloCare doctor about your health, goals and what you have tried. They can recommend a medication-supported or non-medication programme.\n\nBook a consultation."
+   },
+   {
+    "statusId": "2107056164618096828",
+    "handle": "@thenightshipper",
+    "text": "A ctrl+f for a folder full of screenshots makes immediate sense. Keeping it offline is a relief when half those images contain private stuff."
+   },
+   {
+    "statusId": "2107140288854757856",
+    "handle": "@itzKashan2912",
+    "text": "bro could have charged, but went opensource, this is the real AURA!"
+   },
+   {
+    "statusId": "2107126757484863714",
+    "handle": "@navaniharsh31",
+    "text": "great one!\nmade one for mac just yesterday lol\n\nhttps://\ndejashot.com :)"
+   },
+   {
+    "statusId": "2107054739649442244",
+    "handle": "@OjasSharma276",
+    "text": "Crazy and useful stufff"
+   }
+  ]
  }
 }

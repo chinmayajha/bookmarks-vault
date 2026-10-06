@@ -6629,5 +6629,138 @@
    "views": 3130,
    "bookmarks": 64
   }
+ },
+ {
+  "statusUrl": "https://x.com/npm_i_shaders/status/2107467668009963819",
+  "name": "shaders",
+  "handle": "@npm_i_shaders",
+  "createdAt": "2026-10-06T13:47:01.000Z",
+  "tweetText": "Big news.\n\nShaders is now open source 🔥\n\nUse any of our 200+ WebGPU components in your work. Ship magic in a client site, a template, a product, a library, anything. Plus, you can export code for any framework, for free.\n\nGive it a star: \nhttps://\ngithub.com/shader-effects\n-inc/shaders\n…",
+  "metricsLabel": "66 replies, 251 reposts, 3008 likes, Liked, 3842 bookmarks, 186089 views",
+  "quote": null,
+  "media": [],
+  "hasVideo": true,
+  "videoPoster": null,
+  "extLinks": [],
+  "tcoLinks": [
+   "https://t.co/eIpRMhuS6m"
+  ],
+  "cardText": null,
+  "showThread": false,
+  "replyingTo": null,
+  "articleText": "shaders\n@npm_i_shaders\nBig news.\n\nShaders is now open source 🔥\n\nUse any of our 200+ WebGPU components in your work. Ship magic in a client site, a template, a product, a library, anything. Plus, you can export code for any framework, for free.\n\nGive it a star: \nhttps://\ngithub.com/shader-effects\n-inc/shaders\n…\n0:02 / 0:31\n7:17 PM · Oct 6, 2026\n·\n186K\n Views\n66\n251\n3K\n3.8K\nRelevant\nView quotes",
+  "counts": {
+   "replies": 66,
+   "reposts": 251,
+   "likes": 3008,
+   "views": 186089,
+   "bookmarks": 3842
+  }
+ },
+ {
+  "statusUrl": "https://x.com/michael_chomsky/status/2107235505620521274",
+  "name": "Michael",
+  "handle": "@michael_chomsky",
+  "createdAt": "2026-10-05T22:24:29.000Z",
+  "tweetText": "design prompt of the day:\n\never noticed LLMs write text that's like:\n\n\"More reliable. Less expensive.\"\n\"Sleep better. Live longer.\"\n\nthese are called stacatto sentences.\n\ntell your agent to 'never use stacatto sentences in landing pages'",
+  "metricsLabel": "24 replies, 16 reposts, 753 likes, Liked, 677 bookmarks, 24186 views",
+  "quote": null,
+  "media": [],
+  "hasVideo": false,
+  "videoPoster": null,
+  "extLinks": [],
+  "tcoLinks": [],
+  "cardText": null,
+  "showThread": false,
+  "replyingTo": null,
+  "articleText": "Michael\n@michael_chomsky\ndesign prompt of the day:\n\never noticed LLMs write text that's like:\n\n\"More reliable. Less expensive.\"\n\"Sleep better. Live longer.\"\n\nthese are called stacatto sentences.\n\ntell your agent to 'never use stacatto sentences in landing pages'\nLast edited\n3:54 AM · Oct 6, 2026\n·\n24.1K\n Views\n24\n16\n753\n677\nRelevant\nView quotes",
+  "counts": {
+   "replies": 24,
+   "reposts": 16,
+   "likes": 753,
+   "views": 24186,
+   "bookmarks": 677
+  }
+ },
+ {
+  "statusUrl": "https://x.com/joshuagunnn/status/2107108554192941493",
+  "name": "joshua",
+  "handle": "@joshuagunnn",
+  "createdAt": "2026-10-05T14:00:02.000Z",
+  "tweetText": "I'm open sourcing Leviathan: an indexer that lets AI agents search a database of any size without reading it.\n\nAt 1M records it hands your agent 436 tokens instead of 107,000, and it finds the answer 99% of the time.\n\n\nhttps://\ngithub.com/elstongun/levi\nathan\n…",
+  "metricsLabel": "72 replies, 179 reposts, 2544 likes, 3761 bookmarks, 116726 views",
+  "quote": null,
+  "media": [
+   "https://pbs.twimg.com/media/HT3zYHmWsAAjxL2?format=png&name=medium"
+  ],
+  "hasVideo": false,
+  "videoPoster": null,
+  "extLinks": [],
+  "tcoLinks": [
+   "https://t.co/SN2uL83zL7"
+  ],
+  "cardText": null,
+  "showThread": false,
+  "replyingTo": null,
+  "articleText": "joshua\n@joshuagunnn\nI'm open sourcing Leviathan: an indexer that lets AI agents search a database of any size without reading it.\n\nAt 1M records it hands your agent 436 tokens instead of 107,000, and it finds the answer 99% of the time.\n\n\nhttps://\ngithub.com/elstongun/levi\nathan\n…\n7:30 PM · Oct 5, 2026\n·\n116.7K\n Views\n72\n179\n2.5K\n3.7K\nRelevant\nView quotes",
+  "counts": {
+   "replies": 72,
+   "reposts": 179,
+   "likes": 2544,
+   "views": 116726,
+   "bookmarks": 3761
+  }
+ },
+ {
+  "statusUrl": "https://x.com/cognition/status/2107165034463867001",
+  "name": "Cognition",
+  "handle": "@cognition",
+  "createdAt": "2026-10-05T17:44:28.000Z",
+  "tweetText": "Introducing Dreaming: Across sessions, Devin builds a memory graph of how you like to work\n\nAt night Devin self-improves its memory to remove stale records and discover latent information\n\nWe are creating an OSS standard called Agent Memory Repo: \nhttps://\ncognition.com/agent-memory-r\nepo\n…",
+  "metricsLabel": "126 replies, 331 reposts, 2383 likes, Liked, 2227 bookmarks, 512085 views",
+  "quote": null,
+  "media": [],
+  "hasVideo": true,
+  "videoPoster": null,
+  "extLinks": [],
+  "tcoLinks": [
+   "https://t.co/b6qzEJsaeT"
+  ],
+  "cardText": null,
+  "showThread": false,
+  "replyingTo": null,
+  "articleText": "Cognition\n@cognition\nIntroducing Dreaming: Across sessions, Devin builds a memory graph of how you like to work\n\nAt night Devin self-improves its memory to remove stale records and discover latent information\n\nWe are creating an OSS standard called Agent Memory Repo: \nhttps://\ncognition.com/agent-memory-r\nepo\n…\n0:02 / 0:34\n11:14 PM · Oct 5, 2026\n·\n512K\n Views\n126\n331\n2.3K\n2.2K\nRelevant\nView quotes",
+  "counts": {
+   "replies": 126,
+   "reposts": 331,
+   "likes": 2383,
+   "views": 512085,
+   "bookmarks": 2227
+  }
+ },
+ {
+  "statusUrl": "https://x.com/xevrion_the1/status/2107047524662157818",
+  "name": "xevrion",
+  "handle": "@xevrion_the1",
+  "createdAt": "2026-10-05T09:57:31.000Z",
+  "tweetText": "i screenshot everything and can never find anything.\nso i built ctrl+f for my screenshots folder. type any word that was in the image, it shows up in milliseconds.\nfully offline. open source.",
+  "metricsLabel": "152 replies, 72 reposts, 1315 likes, Liked, 809 bookmarks, 36131 views",
+  "quote": null,
+  "media": [],
+  "hasVideo": true,
+  "videoPoster": null,
+  "extLinks": [],
+  "tcoLinks": [],
+  "cardText": null,
+  "showThread": false,
+  "replyingTo": null,
+  "articleText": "xevrion\n@xevrion_the1\ni screenshot everything and can never find anything.\nso i built ctrl+f for my screenshots folder. type any word that was in the image, it shows up in milliseconds.\nfully offline. open source.\n0:04 / 0:15\n3:27 PM · Oct 5, 2026\n·\n36.1K\n Views\n152\n72\n1.3K\n809\nRelevant\nView quotes",
+  "counts": {
+   "replies": 152,
+   "reposts": 72,
+   "likes": 1315,
+   "views": 36131,
+   "bookmarks": 809
+  }
  }
 ]

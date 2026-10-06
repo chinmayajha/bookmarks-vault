@@ -469,5 +469,134 @@
       "automation"
     ],
     "worthFollowUp": "medium"
+  },
+  {
+    "uid": "X-273",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "open-source WebGPU components",
+    "title": "Shaders goes open source: 200+ WebGPU components, export code for any framework",
+    "author": "shaders",
+    "date": "2026-10-06",
+    "url": "https://x.com/npm_i_shaders/status/2107467668009963819",
+    "engagement": "66 replies · 251 reposts · 3K likes · 186.1K views · 3.8K bookmarks",
+    "essence": "shaders (@npm_i_shaders) open-sources 200+ WebGPU components — use in client sites, templates, products or libraries and export code for any framework, free (github.com/shader-effects-inc/shaders; announcement at shaders.com/updates/shaders-is-open-source). Self-thread adds the agent angle: coding agents write raw WGSL that underperforms in production, so building on production-tested components means better shaders, faster workflow and real performance. Replies show immediate adoption: Bin Liu is adding them to HyperFrames Studio today, Josh Millgate is adding shader backgrounds to ultramock, and TypeGPU's Iwo Plaza calls it a huge move; Audiencon notes open source plus exportable code removes framework lock-in. Post drew 66 replies, 251 reposts, ~3K likes, 3.8K bookmarks and 186K views with a video demo.",
+    "summary": "Save the repo and announcement; the agents-building-on-tested-components framing is the reusable pattern for shipping WebGPU without hand-tuning WGSL.",
+    "productLinks": [
+      "https://github.com/shader-effects-inc/shaders",
+      "https://shaders.com/updates/shaders-is-open-source"
+    ],
+    "hasMedia": "video",
+    "topicTags": [
+      "webgpu",
+      "shaders",
+      "open-source",
+      "frontend",
+      "ai-agents"
+    ],
+    "worthFollowUp": "high"
+  },
+  {
+    "uid": "X-274",
+    "platform": "Twitter",
+    "category": "Startups, Product & Marketing",
+    "subcategory": "landing page copywriting",
+    "title": "Never use staccato sentences in landing pages — design prompt of the day",
+    "author": "Michael",
+    "date": "2026-10-05",
+    "url": "https://x.com/michael_chomsky/status/2107235505620521274",
+    "engagement": "24 replies · 16 reposts · 753 likes · 24.2K views · 677 bookmarks",
+    "essence": "Michael (@michael_chomsky) design prompt of the day: LLMs write staccato sentences ('More reliable. Less expensive.' / 'Sleep better. Live longer.') — tell your agent to never use staccato sentences in landing pages (OP misspells it 'stacatto' and admits he checked the spelling and still got it wrong; correct spelling is staccato). Replies carry the real value: Seth traces it to a decade of DTC landing pages, Apple wrote 'thinner. lighter. faster.' before LLMs; David Qu adds 'it's not X, it's Y' to the ban list; John says every landing page reads like a pharma ad now; Asmir warns banning one tic just swaps in the next, so paste a paragraph you like to copy instead; Mika shares a Design.md winner, 'refrain from point & shoot terminology' (stop robotically explaining why the feature exists); Vincent asks why no good human-writer skill exists. 24 replies, 16 reposts, 753 likes, 677 bookmarks.",
+    "summary": "Copy-paste prompt rule for landing pages, plus two steals: also ban 'it's not X, it's Y' and give the agent a liked-paragraph example instead of pure bans.",
+    "productLinks": [],
+    "hasMedia": "",
+    "topicTags": [
+      "copywriting",
+      "landing-pages",
+      "prompting",
+      "design",
+      "llm-slop"
+    ],
+    "worthFollowUp": "medium"
+  },
+  {
+    "uid": "X-275",
+    "platform": "Twitter",
+    "category": "AI & LLM",
+    "subcategory": "agent search and retrieval",
+    "title": "Leviathan: open-source indexer lets agents search 1M records in ~436 tokens",
+    "author": "joshua",
+    "date": "2026-10-05",
+    "url": "https://x.com/joshuagunnn/status/2107108554192941493",
+    "engagement": "72 replies · 179 reposts · 2.5K likes · 116.7K views · 3.8K bookmarks",
+    "essence": "joshua (@joshuagunnn) open-sources Leviathan (github.com/elstongun/leviathan): one Rust binary so agents search any-size databases without reading them — point at JSONL, CSV or SQLite, or pipe Postgres, MySQL, DuckDB or Mongo; it infers the schema, builds a full-text index and returns short cited cards at ~450 tokens whether 10K or 1M rows. Self-thread: agents reason over five records but drown in a million (grep, paging APIs, dumping whole history into context); at 1M rows 99% of questions get a relevant record in the top 5 with 33ms median, worst case 602 tokens versus grep's 9.7M; under ~100K rows grep is honestly fine. CLI first, MCP optional, because MCP schemas tax every session while a skill file costs zero tokens until called; works with Claude Code, Codex, Cursor. Replies: skeptic snow flags it as just FTS5/BM25, nothing new (fair prior-art caution); mbrochh asks for folder and docs indexing beyond DBs; badguyty asks about NoSQL and log streams; OP floats a $10/month hosted auto-index version. 72 replies, 179 reposts, 2.5K likes, 3.7K bookmarks.",
+    "summary": "Save for agent-plus-large-data work; the token math (436 vs 107K) and CLI-first-over-MCP rule are the keepers — verify BM25/FTS limits before adopting.",
+    "productLinks": [
+      "https://github.com/elstongun/leviathan"
+    ],
+    "hasMedia": "image",
+    "topicTags": [
+      "ai-agents",
+      "rag",
+      "search",
+      "rust",
+      "mcp",
+      "databases"
+    ],
+    "worthFollowUp": "high"
+  },
+  {
+    "uid": "X-276",
+    "platform": "Twitter",
+    "category": "AI & LLM",
+    "subcategory": "agent memory systems",
+    "title": "Devin Dreaming plus Agent Memory Repo: Git-versioned memory graph as OSS standard",
+    "author": "Cognition",
+    "date": "2026-10-05",
+    "url": "https://x.com/cognition/status/2107165034463867001",
+    "engagement": "126 replies · 331 reposts · 2.4K likes · 512.1K views · 2.2K bookmarks",
+    "essence": "Cognition (@cognition) introduces Dreaming: across sessions Devin builds a memory graph of how you work, and at night it self-improves that memory to remove stale records and discover latent information; alongside it they are creating an OSS standard, Agent Memory Repo (cognition.com/agent-memory-repo; explainer at devin.ai/blog/memory-and-dreaming). Self-thread: memory records live in files versioned with Git — a simple primitive that unlocks a message board across agent sessions — and in early tests a swarm of Devins used the memory to coordinate at large scale without being prompted. Replies: Jared Zoneraich and Chris Wozniczek say they can retire their git-brain and studio-brain repos, with Chris running parallel Devins on interconnected Linear tasks and calling the coordination a massive unlock; Corey Ward hopes it fixes PR reviews flagging non-issues; band.eth asks whether it hallucinates context from old logs (open risk); Elara calls the OSS standard a huge move. 126 replies, 331 reposts, 2.3K likes, 2.2K bookmarks with a video.",
+    "summary": "Watch the OSS Agent Memory Repo spec — Git-versioned memory files as a cross-session message board is the pattern to copy even outside Devin.",
+    "productLinks": [
+      "https://cognition.com/agent-memory-repo",
+      "https://devin.ai/blog/memory-and-dreaming"
+    ],
+    "hasMedia": "video",
+    "topicTags": [
+      "ai-agents",
+      "agent-memory",
+      "devin",
+      "oss-standard",
+      "git"
+    ],
+    "worthFollowUp": "high"
+  },
+  {
+    "uid": "X-277",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "screenshot search tools",
+    "title": "Gyotaku: ctrl+f for your screenshots folder, fully offline and open source",
+    "author": "xevrion",
+    "date": "2026-10-05",
+    "url": "https://x.com/xevrion_the1/status/2107047524662157818",
+    "engagement": "152 replies · 72 reposts · 1.3K likes · 36.1K views · 809 bookmarks",
+    "essence": "xevrion (@xevrion_the1) built ctrl+f for the screenshots folder: type any word that appeared in an image and it surfaces in milliseconds, fully offline and open source (github.com/xevrion/gyotaku; now on Windows via a one-line PowerShell install, screenshots never leave the machine). Replies surface the important alternatives: ayushbuilds shipped the same idea months ago as neurasnip (github.com/Ayushkumar111/neurasnip) with semantic search by text or image; Harsh Navani shipped a Mac version yesterday at dejashot.com; Abhishek Kothari notes offline matters because half those screenshots hold private content; Muhammad Kashan Ashraf notes he could have charged but open-sourced it. 152 replies, 72 reposts, 1.3K likes, 809 bookmarks with a demo video.",
+    "summary": "Grab gyotaku for Windows and offline OCR search; compare neurasnip (semantic) and dejashot (Mac) before committing — offline privacy is the deciding feature.",
+    "productLinks": [
+      "https://github.com/xevrion/gyotaku",
+      "https://github.com/Ayushkumar111/neurasnip",
+      "https://dejashot.com"
+    ],
+    "hasMedia": "video",
+    "topicTags": [
+      "screenshots",
+      "ocr",
+      "search",
+      "offline",
+      "open-source",
+      "productivity"
+    ],
+    "worthFollowUp": "high"
   }
 ]

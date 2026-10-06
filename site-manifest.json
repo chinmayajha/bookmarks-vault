@@ -20,7 +20,7 @@
    "wiki": "AI & LLM",
    "title": "🗂 AI & LLM",
    "group": "category",
-   "count": 58
+   "count": 60
   },
   {
    "name": "Dev Tools & Productivity",
@@ -29,7 +29,7 @@
    "wiki": "Dev Tools & Productivity",
    "title": "🗂 Dev Tools & Productivity",
    "group": "category",
-   "count": 44
+   "count": 46
   },
   {
    "name": "Programming & CS Learning",
@@ -83,7 +83,7 @@
    "wiki": "Startups, Product & Marketing",
    "title": "🗂 Startups, Product & Marketing",
    "group": "category",
-   "count": 29
+   "count": 30
   },
   {
    "name": "Health, Fitness & Wellness",
@@ -5947,6 +5947,103 @@
     "twitter",
     "ai-llm"
    ]
+  },
+  {
+   "path": "Entries/X-273 - shaders-goes-open-source-200-webgpu-components-e.md",
+   "wiki": "X-273 - shaders-goes-open-source-200-webgpu-components-e",
+   "title": "Shaders goes open source: 200+ WebGPU components, export code for any framework",
+   "group": "entry",
+   "uid": "X-273",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "webgpu",
+    "shaders",
+    "open-source",
+    "frontend",
+    "ai-agents",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-274 - never-use-staccato-sentences-in-landing-pages-de.md",
+   "wiki": "X-274 - never-use-staccato-sentences-in-landing-pages-de",
+   "title": "Never use staccato sentences in landing pages — design prompt of the day",
+   "group": "entry",
+   "uid": "X-274",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "medium",
+   "tags": [
+    "copywriting",
+    "landing-pages",
+    "prompting",
+    "design",
+    "llm-slop",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-275 - leviathan-open-source-indexer-lets-agents-search.md",
+   "wiki": "X-275 - leviathan-open-source-indexer-lets-agents-search",
+   "title": "Leviathan: open-source indexer lets agents search 1M records in ~436 tokens",
+   "group": "entry",
+   "uid": "X-275",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "ai-agents",
+    "rag",
+    "search",
+    "rust",
+    "mcp",
+    "databases",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-276 - devin-dreaming-plus-agent-memory-repo-git-versio.md",
+   "wiki": "X-276 - devin-dreaming-plus-agent-memory-repo-git-versio",
+   "title": "Devin Dreaming plus Agent Memory Repo: Git-versioned memory graph as OSS standard",
+   "group": "entry",
+   "uid": "X-276",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "ai-agents",
+    "agent-memory",
+    "devin",
+    "oss-standard",
+    "git",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-277 - gyotaku-ctrl-f-for-your-screenshots-folder-fully.md",
+   "wiki": "X-277 - gyotaku-ctrl-f-for-your-screenshots-folder-fully",
+   "title": "Gyotaku: ctrl+f for your screenshots folder, fully offline and open source",
+   "group": "entry",
+   "uid": "X-277",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "screenshots",
+    "ocr",
+    "search",
+    "offline",
+    "open-source",
+    "productivity",
+    "twitter",
+    "dev-tools-productivity"
+   ]
   }
  ],
  "categories": [
@@ -5957,7 +6054,7 @@
    "wiki": "AI & LLM",
    "title": "🗂 AI & LLM",
    "group": "category",
-   "count": 58
+   "count": 60
   },
   {
    "name": "Dev Tools & Productivity",
@@ -5966,7 +6063,7 @@
    "wiki": "Dev Tools & Productivity",
    "title": "🗂 Dev Tools & Productivity",
    "group": "category",
-   "count": 44
+   "count": 46
   },
   {
    "name": "Programming & CS Learning",
@@ -6020,7 +6117,7 @@
    "wiki": "Startups, Product & Marketing",
    "title": "🗂 Startups, Product & Marketing",
    "group": "category",
-   "count": 29
+   "count": 30
   },
   {
    "name": "Health, Fitness & Wellness",
@@ -11885,6 +11982,103 @@
     "automation",
     "twitter",
     "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-273 - shaders-goes-open-source-200-webgpu-components-e.md",
+   "wiki": "X-273 - shaders-goes-open-source-200-webgpu-components-e",
+   "title": "Shaders goes open source: 200+ WebGPU components, export code for any framework",
+   "group": "entry",
+   "uid": "X-273",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "webgpu",
+    "shaders",
+    "open-source",
+    "frontend",
+    "ai-agents",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-274 - never-use-staccato-sentences-in-landing-pages-de.md",
+   "wiki": "X-274 - never-use-staccato-sentences-in-landing-pages-de",
+   "title": "Never use staccato sentences in landing pages — design prompt of the day",
+   "group": "entry",
+   "uid": "X-274",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "medium",
+   "tags": [
+    "copywriting",
+    "landing-pages",
+    "prompting",
+    "design",
+    "llm-slop",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-275 - leviathan-open-source-indexer-lets-agents-search.md",
+   "wiki": "X-275 - leviathan-open-source-indexer-lets-agents-search",
+   "title": "Leviathan: open-source indexer lets agents search 1M records in ~436 tokens",
+   "group": "entry",
+   "uid": "X-275",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "ai-agents",
+    "rag",
+    "search",
+    "rust",
+    "mcp",
+    "databases",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-276 - devin-dreaming-plus-agent-memory-repo-git-versio.md",
+   "wiki": "X-276 - devin-dreaming-plus-agent-memory-repo-git-versio",
+   "title": "Devin Dreaming plus Agent Memory Repo: Git-versioned memory graph as OSS standard",
+   "group": "entry",
+   "uid": "X-276",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "ai-agents",
+    "agent-memory",
+    "devin",
+    "oss-standard",
+    "git",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-277 - gyotaku-ctrl-f-for-your-screenshots-folder-fully.md",
+   "wiki": "X-277 - gyotaku-ctrl-f-for-your-screenshots-folder-fully",
+   "title": "Gyotaku: ctrl+f for your screenshots folder, fully offline and open source",
+   "group": "entry",
+   "uid": "X-277",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "screenshots",
+    "ocr",
+    "search",
+    "offline",
+    "open-source",
+    "productivity",
+    "twitter",
+    "dev-tools-productivity"
    ]
   }
  ]

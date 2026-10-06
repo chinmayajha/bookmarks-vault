@@ -8,9 +8,9 @@ Your X / Reddit / LinkedIn bookmarks — extracted in full, categorized, summari
 
 ## 📊 At a glance
 
-**314 entries** · 🐦 X 272 · 💬 Reddit 27 · 💼 LinkedIn 15
+**319 entries** · 🐦 X 277 · 💬 Reddit 27 · 💼 LinkedIn 15
 
-🏷 14 categories · 🔗 111 with product links · 🎬 20 videos · ⭐ 126 high follow-up
+🏷 14 categories · 🔗 115 with product links · 🎬 23 videos · ⭐ 130 high follow-up
 
 ## 🗓 My plan for the coming months
 
@@ -18,14 +18,14 @@ Your X / Reddit / LinkedIn bookmarks — extracted in full, categorized, summari
 
 ## 🗂 Categories
 
-- **[[AI & LLM]]** — 58 items
-- **[[Dev Tools & Productivity]]** — 44 items
+- **[[AI & LLM]]** — 60 items
+- **[[Dev Tools & Productivity]]** — 46 items
 - **[[Programming & CS Learning]]** — 51 items
 - **[[Interviews, OA & DSA]]** — 32 items
 - **[[Jobs, Careers & Compensation]]** — 30 items
 - **[[Quant & Trading]]** — 24 items
 - **[[Personal Finance & Money]]** — 9 items
-- **[[Startups, Product & Marketing]]** — 29 items
+- **[[Startups, Product & Marketing]]** — 30 items
 - **[[Health, Fitness & Wellness]]** — 12 items
 - **[[Life, Relationships & Self-Improvement]]** — 4 items
 - **[[India Life & City Guides]]** — 2 items

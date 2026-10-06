@@ -13,12 +13,12 @@
 
 | | |
 |---|---|
-| **Total entries** | **314** |
-| **By source** | 🐦 X/Twitter **272** · 💬 Reddit **27** · 💼 LinkedIn **15** |
+| **Total entries** | **319** |
+| **By source** | 🐦 X/Twitter **277** · 💬 Reddit **27** · 💼 LinkedIn **15** |
 | **Categories** | 14 |
-| **With product/tryout links** | 111 |
-| **Video entries** | 20 |
-| **⭐ High follow-up** | 126 (medium 142 · low 46) |
+| **With product/tryout links** | 115 |
+| **Video entries** | 23 |
+| **⭐ High follow-up** | 130 (medium 143 · low 46) |
 
 Each entry below shows the **essence of the whole discussion** (main post + thread + top replies)
 and a one-line **takeaway** — you shouldn't need to click through to get the point.
@@ -27,14 +27,14 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 | Category | Items | What's inside |
 |---|---:|---|
-| [AI & LLM](#ai-llm) | 58 | LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM … |
-| [Dev Tools & Productivity](#dev-tools-productivity) | 44 | IDEs, developer utilities, open-source libraries, CLI tools, workflows, editor/tool … |
+| [AI & LLM](#ai-llm) | 60 | LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM … |
+| [Dev Tools & Productivity](#dev-tools-productivity) | 46 | IDEs, developer utilities, open-source libraries, CLI tools, workflows, editor/tool … |
 | [Programming & CS Learning](#programming-cs-learning) | 51 | Courses, playlists, books, tutorials, CS concepts (DB, OS, systems, ML theory), learning … |
 | [Interviews, OA & DSA](#interviews-oa-dsa) | 32 | Online assessments, interview experiences/questions, DSA prep, system design/HLD prep … |
 | [Jobs, Careers & Compensation](#jobs-careers-compensation) | 30 | Hiring posts, referral/job openings, offer comparisons, salary/CTC data, resume/ATS tips … |
 | [Quant & Trading](#quant-trading) | 24 | Quant trading/research roles, HFT firms, trading competitions, market structure, quant … |
 | [Personal Finance & Money](#personal-finance-money) | 9 | Credit cards, loans, insurance, investing, stocks/gold/crypto money matters, taxes … |
-| [Startups, Product & Marketing](#startups-product-marketing) | 29 | Founder content, growth/marketing tactics, product building, YC/startup programs, side … |
+| [Startups, Product & Marketing](#startups-product-marketing) | 30 | Founder content, growth/marketing tactics, product building, YC/startup programs, side … |
 | [Health, Fitness & Wellness](#health-fitness-wellness) | 12 | Exercise, sleep, supplements, nutrition, mental health, recovery, physical training |
 | [Life, Relationships & Self-Improvement](#life-relationships-self-improvement) | 4 | Relationships, habits, psychology, dating/marriage, soft skills, lifestyle design … |
 | [India Life & City Guides](#india-life-city-guides) | 2 | City guides (Bangalore/Delhi/Gurgaon), food, breweries, travel, India-specific living … |
@@ -82,9 +82,9 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 <a id="ai-llm"></a>
 
-## AI & LLM (58)
+## AI & LLM (60)
 
-<details><summary><b>Show 58 entries</b> — LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM workflows and tips</summary>
+<details><summary><b>Show 60 entries</b> — LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM workflows and tips</summary>
 
 - **[Sahaj won't push a PR without /codebase-design and /zero-tech-debt skills](https://x.com/iamsahaj_xyz/status/2105746013709631735)**  
   `Sahaj` · `2026-10-01` · `3 replies · 6 reposts · 250 likes · 28.8K views · 460 …`
@@ -393,6 +393,18 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Essence:** ego announces that GPT can now learn skills by watching YouTube tutorials with ego (lite): GPT-5.6 Sol watched a tutorial at 1.5x, switched Spaces and recreated the quiz workflow in Google Forms from memory in 36m50s using 64 ego-browser calls, claimed 'totally executable'. There is no self-thread, so the three captured replies carry the reception and they are uniformly positive: a Chinese-language viewer '我擦 还能这样玩 可以多来点这样的showcase哈哈' (whoa, didn't know you could do this - want more showcases), RAZA 'This is a fascinating step toward AI learning workflows by observation', and Alice 'learning a skill from a YouTube tutorial and recreating it end to end is seriously impressive'. No skepticism …
   - **Takeaway:** Agents acquiring skills from YouTube is a real distribution channel for tutorials - worth testing if your product needs browser automation learned from video.
   - 🏷 browser-agents, youtube, skill-learning, gpt-5.6, automation
+- **[Leviathan: open-source indexer lets agents search 1M records in ~436 tokens](https://x.com/joshuagunnn/status/2107108554192941493)** ⭐  
+  `joshua` · `2026-10-05` · `72 replies · 179 reposts · 2.5K likes · 116.7K views · 3.8K …`
+  - **Essence:** joshua (@joshuagunnn) open-sources Leviathan (github.com/elstongun/leviathan): one Rust binary so agents search any-size databases without reading them — point at JSONL, CSV or SQLite, or pipe Postgres, MySQL, DuckDB or Mongo; it infers the schema, builds a full-text index and returns short cited cards at ~450 tokens whether 10K or 1M rows. Self-thread: agents reason over five records but drown in a million (grep, paging APIs, dumping whole history into context); at 1M rows 99% of questions get a relevant record in the top 5 with 33ms median, worst case 602 tokens versus grep's 9.7M; under ~100K rows grep is honestly fine. CLI first, MCP optional, because MCP schemas tax every session while …
+  - **Takeaway:** Save for agent-plus-large-data work; the token math (436 vs 107K) and CLI-first-over-MCP rule are the keepers — verify BM25/FTS limits before adopting.
+  - **Try it:** [github.com/elstongun/leviathan](https://github.com/elstongun/leviathan)
+  - 🏷 ai-agents, rag, search, rust, mcp, databases
+- **[Devin Dreaming plus Agent Memory Repo: Git-versioned memory graph as OSS standard](https://x.com/cognition/status/2107165034463867001)** 🎬 ⭐  
+  `Cognition` · `2026-10-05` · `126 replies · 331 reposts · 2.4K likes · 512.1K views · …`
+  - **Essence:** Cognition (@cognition) introduces Dreaming: across sessions Devin builds a memory graph of how you work, and at night it self-improves that memory to remove stale records and discover latent information; alongside it they are creating an OSS standard, Agent Memory Repo (cognition.com/agent-memory-repo; explainer at devin.ai/blog/memory-and-dreaming). Self-thread: memory records live in files versioned with Git — a simple primitive that unlocks a message board across agent sessions — and in early tests a swarm of Devins used the memory to coordinate at large scale without being prompted. Replies: Jared Zoneraich and Chris Wozniczek say they can retire their git-brain and studio-brain repos …
+  - **Takeaway:** Watch the OSS Agent Memory Repo spec — Git-versioned memory files as a cross-session message board is the pattern to copy even outside Devin.
+  - **Try it:** [cognition.com/agent-memory-repo](https://cognition.com/agent-memory-repo) · [devin.ai/blog/memory-and-dreaming](https://devin.ai/blog/memory-and-dreaming)
+  - 🏷 ai-agents, agent-memory, devin, oss-standard, git
 - **[Cut Claude Code / Cursor token usage ~60% with a small CLI tool](https://www.linkedin.com/feed/update/urn:li:activity:7462777658507051010)**  
   `Daniel Engelhardt` · `2026-05-20` · `♥94 · 37 comments · 5 reposts`
   - **Essence:** Daniel shares that a small open-source CLI (rtk), which rewrites bash commands into compact output before execution, cut his team's Claude Code and Cursor token usage by roughly 60%, and describes his own counter-analysis: a local audit skill over his session logs found about 28% of spend was cuttable, but rtk's output compression covered under 1% of his bill because almost all the money sat in bloated context — sessions crossing 200k into the 2x pricing tier, plus skills and plugins riding along on every request that were never called. He concludes output compression and context hygiene are different layers that stack, and thanks whoever pointed him at the tool. The comment thread is a …
@@ -404,9 +416,9 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 <a id="dev-tools-productivity"></a>
 
-## Dev Tools & Productivity (44)
+## Dev Tools & Productivity (46)
 
-<details><summary><b>Show 44 entries</b> — IDEs, developer utilities, open-source libraries, CLI tools, workflows, editor/tool releases, dev infrastructure</summary>
+<details><summary><b>Show 46 entries</b> — IDEs, developer utilities, open-source libraries, CLI tools, workflows, editor/tool releases, dev infrastructure</summary>
 
 - **[pnpm asks your coding agent to fix its 629 open issues](https://x.com/pnpmjs/status/2103438679478010198)**  
   `pnpm` · `2026-09-25` · `33 replies · 60 reposts · 567 likes · 61.7K views · 266 …`
@@ -634,6 +646,18 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Takeaway:** A tiny CLI returning structured branding JSON - handy whenever an agent-built page needs a real site's colors, fonts and logos without a signup.
   - **Try it:** [www.npmjs.com/package/brandpull](https://www.npmjs.com/package/brandpull) · [github.com/suraj-xd/brandpull](https://github.com/suraj-xd/brandpull)
   - 🏷 cli, branding, design-tokens, npm, agents
+- **[Shaders goes open source: 200+ WebGPU components, export code for any framework](https://x.com/npm_i_shaders/status/2107467668009963819)** 🎬 ⭐  
+  `shaders` · `2026-10-06` · `66 replies · 251 reposts · 3K likes · 186.1K views · 3.8K …`
+  - **Essence:** shaders (@npm_i_shaders) open-sources 200+ WebGPU components — use in client sites, templates, products or libraries and export code for any framework, free (github.com/shader-effects-inc/shaders; announcement at shaders.com/updates/shaders-is-open-source). Self-thread adds the agent angle: coding agents write raw WGSL that underperforms in production, so building on production-tested components means better shaders, faster workflow and real performance. Replies show immediate adoption: Bin Liu is adding them to HyperFrames Studio today, Josh Millgate is adding shader backgrounds to ultramock, and TypeGPU's Iwo Plaza calls it a huge move; Audiencon notes open source plus exportable code …
+  - **Takeaway:** Save the repo and announcement; the agents-building-on-tested-components framing is the reusable pattern for shipping WebGPU without hand-tuning WGSL.
+  - **Try it:** [github.com/shader-effects-inc/shaders](https://github.com/shader-effects-inc/shaders) · [shaders.com/updates/shaders-is-open-source](https://shaders.com/updates/shaders-is-open-source)
+  - 🏷 webgpu, shaders, open-source, frontend, ai-agents
+- **[Gyotaku: ctrl+f for your screenshots folder, fully offline and open source](https://x.com/xevrion_the1/status/2107047524662157818)** 🎬 ⭐  
+  `xevrion` · `2026-10-05` · `152 replies · 72 reposts · 1.3K likes · 36.1K views · 809 …`
+  - **Essence:** xevrion (@xevrion_the1) built ctrl+f for the screenshots folder: type any word that appeared in an image and it surfaces in milliseconds, fully offline and open source (github.com/xevrion/gyotaku; now on Windows via a one-line PowerShell install, screenshots never leave the machine). Replies surface the important alternatives: ayushbuilds shipped the same idea months ago as neurasnip (github.com/Ayushkumar111/neurasnip) with semantic search by text or image; Harsh Navani shipped a Mac version yesterday at dejashot.com; Abhishek Kothari notes offline matters because half those screenshots hold private content; Muhammad Kashan Ashraf notes he could have charged but open-sourced it. 152 …
+  - **Takeaway:** Grab gyotaku for Windows and offline OCR search; compare neurasnip (semantic) and dejashot (Mac) before committing — offline privacy is the deciding feature.
+  - **Try it:** [github.com/xevrion/gyotaku](https://github.com/xevrion/gyotaku) · [github.com/Ayushkumar111/neurasnip](https://github.com/Ayushkumar111/neurasnip) · [dejashot.com](https://dejashot.com)
+  - 🏷 screenshots, ocr, search, offline, open-source, productivity
 - **[I built Kal, an interpreted programming language from scratch!](https://www.reddit.com/r/IndiaTech/comments/1uf263n/i_built_kal_an_interpreted_programming_language/)**  
   `u/KILLinefficiency` · `2026-06-25` · `↑21 · 13 comments`
   - **Essence:** OP releases v0.1.0 of Kal, a lightweight interpreted language written from scratch in C++ with no third-party dependencies, GPL v3, mixing paradigms and embeddable into C++, Python and JavaScript; he ships a website and GitHub repo and asks for stars. Replies ask whether it was a team effort — OP says he's a solo dev and that this first release took four years with no libraries and no AI — plus what Kal is good for today (CLI tools and embedding) and what the long-term goal is (still being defined). Commenters are impressed by the codebase at a glance, with one reminiscing about dreaming of writing his own OS, and the thread's tone is supportive rather than critical.
@@ -1487,9 +1511,9 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 <a id="startups-product-marketing"></a>
 
-## Startups, Product & Marketing (29)
+## Startups, Product & Marketing (30)
 
-<details><summary><b>Show 29 entries</b> — Founder content, growth/marketing tactics, product building, YC/startup programs, side projects, launch strategies</summary>
+<details><summary><b>Show 30 entries</b> — Founder content, growth/marketing tactics, product building, YC/startup programs, side projects, launch strategies</summary>
 
 - **[Technical writer pitch riding on a 'get your website cited by AI tools' article](https://x.com/Tech_girl/status/2105727717077405869)**  
   `Mari` · `2026-09-30` · `2 likes · 39.2K views · 11 bookmarks`
@@ -1633,6 +1657,11 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Essence:** Mikhaeel built a tool powered by Jev that takes a product URL and extracts its features, business logic, ICP, messaging and pricing strategy into a markdown file you can copy straight into a repo - fast competitive teardown for founders rather than engineering. The self-thread adds the try-link (card: 'Vicaura - Product logic to markdown') and the pitch 'You can just copy paste products now lol'. Replies validate demand and echo the reverse-engineering framing: Vyom 'damn I have to try this !!!', Aman 'bro just made reverse engineering way easier', and Sankalp Sinha saying he featured the post on the Jev.Store community directory. So the conversation is adoption-positive, with no accuracy …
   - **Takeaway:** Instant competitor teardown from a URL is a handy pre-PRD step - useful for positioning work before you write a single line of spec.
   - 🏷 competitive-research, product-teardown, positioning, markdown, founders
+- **[Never use staccato sentences in landing pages — design prompt of the day](https://x.com/michael_chomsky/status/2107235505620521274)**  
+  `Michael` · `2026-10-05` · `24 replies · 16 reposts · 753 likes · 24.2K views · 677 …`
+  - **Essence:** Michael (@michael_chomsky) design prompt of the day: LLMs write staccato sentences ('More reliable. Less expensive.' / 'Sleep better. Live longer.') — tell your agent to never use staccato sentences in landing pages (OP misspells it 'stacatto' and admits he checked the spelling and still got it wrong; correct spelling is staccato). Replies carry the real value: Seth traces it to a decade of DTC landing pages, Apple wrote 'thinner. lighter. faster.' before LLMs; David Qu adds 'it's not X, it's Y' to the ban list; John says every landing page reads like a pharma ad now; Asmir warns banning one tic just swaps in the next, so paste a paragraph you like to copy instead; Mika shares a Design.md …
+  - **Takeaway:** Copy-paste prompt rule for landing pages, plus two steals: also ban 'it's not X, it's Y' and give the agent a liked-paragraph example instead of pure bans.
+  - 🏷 copywriting, landing-pages, prompting, design, llm-slop
 - **[I built ThreadLens: upload a chat export and see the patterns in any argument](https://www.linkedin.com/feed/update/urn:li:activity:7467073714950434816)**  
   `Vipul Bajaj` · `2026-06-01` · `♥44 · 4 comments`
   - **Essence:** Vipul tells the origin story of ThreadLens: a friend emerged from a fight absolutely sure she was right because she only had screenshots, so he had her drop a full chat export into what he'd been building — and seeing every message and gap, not just her selected ones, changed her view in twenty minutes. The product takes WhatsApp, Telegram or iMessage exports, runs entirely in the browser with no account, and shows who messages first, who waits longer, who apologizes more and who escalates, with an optional AI that only sees what you ask about; it's free. The four replies are light praise and a joke he leans into — 'every group chat has someone who remembers every message and someone who …
