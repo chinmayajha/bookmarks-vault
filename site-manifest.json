@@ -20,7 +20,7 @@
    "wiki": "AI & LLM",
    "title": "🗂 AI & LLM",
    "group": "category",
-   "count": 64
+   "count": 65
   },
   {
    "name": "Dev Tools & Productivity",
@@ -83,7 +83,7 @@
    "wiki": "Startups, Product & Marketing",
    "title": "🗂 Startups, Product & Marketing",
    "group": "category",
-   "count": 31
+   "count": 32
   },
   {
    "name": "Health, Fitness & Wellness",
@@ -6205,6 +6205,45 @@
     "twitter",
     "ai-llm"
    ]
+  },
+  {
+   "path": "Entries/X-287 - opus-5-5-sound-pass-prompt-that-measures-beats-a.md",
+   "wiki": "X-287 - opus-5-5-sound-pass-prompt-that-measures-beats-a",
+   "title": "Opus 5.5 sound pass: prompt that measures beats and mixes to -16 LUFS",
+   "group": "entry",
+   "uid": "X-287",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "opus",
+    "ai-video",
+    "sound-design",
+    "prompt-engineering",
+    "ffmpeg",
+    "librosa",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-288 - run-linkedin-ads-on-every-potential-investor-for.md",
+   "wiki": "X-288 - run-linkedin-ads-on-every-potential-investor-for",
+   "title": "Run LinkedIn ads on every potential investor for a month before raising",
+   "group": "entry",
+   "uid": "X-288",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "high",
+   "tags": [
+    "fundraising",
+    "linkedin-ads",
+    "vc",
+    "fomo",
+    "growth-hack",
+    "twitter",
+    "startups-product-marketing"
+   ]
   }
  ],
  "categories": [
@@ -6215,7 +6254,7 @@
    "wiki": "AI & LLM",
    "title": "🗂 AI & LLM",
    "group": "category",
-   "count": 64
+   "count": 65
   },
   {
    "name": "Dev Tools & Productivity",
@@ -6278,7 +6317,7 @@
    "wiki": "Startups, Product & Marketing",
    "title": "🗂 Startups, Product & Marketing",
    "group": "category",
-   "count": 31
+   "count": 32
   },
   {
    "name": "Health, Fitness & Wellness",
@@ -12401,6 +12440,45 @@
     "ai-assistants",
     "twitter",
     "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-287 - opus-5-5-sound-pass-prompt-that-measures-beats-a.md",
+   "wiki": "X-287 - opus-5-5-sound-pass-prompt-that-measures-beats-a",
+   "title": "Opus 5.5 sound pass: prompt that measures beats and mixes to -16 LUFS",
+   "group": "entry",
+   "uid": "X-287",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "opus",
+    "ai-video",
+    "sound-design",
+    "prompt-engineering",
+    "ffmpeg",
+    "librosa",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-288 - run-linkedin-ads-on-every-potential-investor-for.md",
+   "wiki": "X-288 - run-linkedin-ads-on-every-potential-investor-for",
+   "title": "Run LinkedIn ads on every potential investor for a month before raising",
+   "group": "entry",
+   "uid": "X-288",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "high",
+   "tags": [
+    "fundraising",
+    "linkedin-ads",
+    "vc",
+    "fomo",
+    "growth-hack",
+    "twitter",
+    "startups-product-marketing"
    ]
   }
  ]

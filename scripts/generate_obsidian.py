@@ -222,7 +222,8 @@ home += [
     "",
     "## 📦 Source files",
     "",
-    "- [[README]] — the full browsable archive (314 entries, all details)",
+    "- [[README]] — the full browsable archive "
+    f"({len(rows)} entries, all details)",
     "- `Bookmarks_Categorized.xlsx` — Excel workbook (Master Index + a sheet per category)",
     "- `data/` — raw + normalized extraction JSON",
     "- `scripts/` — rebuild scripts (`build_index.js`, `build_workbook.py`, `generate_readme.py`, `generate_obsidian.py`)",

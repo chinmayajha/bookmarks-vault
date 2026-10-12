@@ -8,9 +8,9 @@ Your X / Reddit / LinkedIn bookmarks — extracted in full, categorized, summari
 
 ## 📊 At a glance
 
-**328 entries** · 🐦 X 286 · 💬 Reddit 27 · 💼 LinkedIn 15
+**330 entries** · 🐦 X 288 · 💬 Reddit 27 · 💼 LinkedIn 15
 
-🏷 14 categories · 🔗 121 with product links · 🎬 25 videos · ⭐ 136 high follow-up
+🏷 14 categories · 🔗 121 with product links · 🎬 25 videos · ⭐ 138 high follow-up
 
 ## 🗓 My plan for the coming months
 
@@ -18,14 +18,14 @@ Your X / Reddit / LinkedIn bookmarks — extracted in full, categorized, summari
 
 ## 🗂 Categories
 
-- **[[AI & LLM]]** — 64 items
+- **[[AI & LLM]]** — 65 items
 - **[[Dev Tools & Productivity]]** — 47 items
 - **[[Programming & CS Learning]]** — 51 items
 - **[[Interviews, OA & DSA]]** — 33 items
 - **[[Jobs, Careers & Compensation]]** — 31 items
 - **[[Quant & Trading]]** — 24 items
 - **[[Personal Finance & Money]]** — 9 items
-- **[[Startups, Product & Marketing]]** — 31 items
+- **[[Startups, Product & Marketing]]** — 32 items
 - **[[Health, Fitness & Wellness]]** — 12 items
 - **[[Life, Relationships & Self-Improvement]]** — 4 items
 - **[[India Life & City Guides]]** — 2 items
@@ -45,7 +45,7 @@ Your X / Reddit / LinkedIn bookmarks — extracted in full, categorized, summari
 
 ## 📦 Source files
 
-- [[README]] — the full browsable archive (314 entries, all details)
+- [[README]] — the full browsable archive (330 entries, all details)
 - `Bookmarks_Categorized.xlsx` — Excel workbook (Master Index + a sheet per category)
 - `data/` — raw + normalized extraction JSON
 - `scripts/` — rebuild scripts (`build_index.js`, `build_workbook.py`, `generate_readme.py`, `generate_obsidian.py`)

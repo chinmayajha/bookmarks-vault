@@ -13,12 +13,12 @@
 
 | | |
 |---|---|
-| **Total entries** | **328** |
-| **By source** | 🐦 X/Twitter **286** · 💬 Reddit **27** · 💼 LinkedIn **15** |
+| **Total entries** | **330** |
+| **By source** | 🐦 X/Twitter **288** · 💬 Reddit **27** · 💼 LinkedIn **15** |
 | **Categories** | 14 |
 | **With product/tryout links** | 121 |
 | **Video entries** | 25 |
-| **⭐ High follow-up** | 136 (medium 146 · low 46) |
+| **⭐ High follow-up** | 138 (medium 146 · low 46) |
 
 Each entry below shows the **essence of the whole discussion** (main post + thread + top replies)
 and a one-line **takeaway** — you shouldn't need to click through to get the point.
@@ -27,14 +27,14 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 | Category | Items | What's inside |
 |---|---:|---|
-| [AI & LLM](#ai-llm) | 64 | LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM … |
+| [AI & LLM](#ai-llm) | 65 | LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM … |
 | [Dev Tools & Productivity](#dev-tools-productivity) | 47 | IDEs, developer utilities, open-source libraries, CLI tools, workflows, editor/tool … |
 | [Programming & CS Learning](#programming-cs-learning) | 51 | Courses, playlists, books, tutorials, CS concepts (DB, OS, systems, ML theory), learning … |
 | [Interviews, OA & DSA](#interviews-oa-dsa) | 33 | Online assessments, interview experiences/questions, DSA prep, system design/HLD prep … |
 | [Jobs, Careers & Compensation](#jobs-careers-compensation) | 31 | Hiring posts, referral/job openings, offer comparisons, salary/CTC data, resume/ATS tips … |
 | [Quant & Trading](#quant-trading) | 24 | Quant trading/research roles, HFT firms, trading competitions, market structure, quant … |
 | [Personal Finance & Money](#personal-finance-money) | 9 | Credit cards, loans, insurance, investing, stocks/gold/crypto money matters, taxes … |
-| [Startups, Product & Marketing](#startups-product-marketing) | 31 | Founder content, growth/marketing tactics, product building, YC/startup programs, side … |
+| [Startups, Product & Marketing](#startups-product-marketing) | 32 | Founder content, growth/marketing tactics, product building, YC/startup programs, side … |
 | [Health, Fitness & Wellness](#health-fitness-wellness) | 12 | Exercise, sleep, supplements, nutrition, mental health, recovery, physical training |
 | [Life, Relationships & Self-Improvement](#life-relationships-self-improvement) | 4 | Relationships, habits, psychology, dating/marriage, soft skills, lifestyle design … |
 | [India Life & City Guides](#india-life-city-guides) | 2 | City guides (Bangalore/Delhi/Gurgaon), food, breweries, travel, India-specific living … |
@@ -82,9 +82,9 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 <a id="ai-llm"></a>
 
-## AI & LLM (64)
+## AI & LLM (65)
 
-<details><summary><b>Show 64 entries</b> — LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM workflows and tips</summary>
+<details><summary><b>Show 65 entries</b> — LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM workflows and tips</summary>
 
 - **[Sahaj won't push a PR without /codebase-design and /zero-tech-debt skills](https://x.com/iamsahaj_xyz/status/2105746013709631735)**  
   `Sahaj` · `2026-10-01` · `3 replies · 6 reposts · 250 likes · 28.8K views · 460 …`
@@ -428,6 +428,11 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Takeaway:** Enable the plugin and read the mods blog; watch the verbosity and cost concerns in the replies.
   - **Try it:** [claude.dev/blog/getting-started-with-claude-code-mod …](https://claude.dev/blog/getting-started-with-claude-code-mods/)
   - 🏷 claude-code, plugins, mods, ai-assistants
+- **[Opus 5.5 sound pass: prompt that measures beats and mixes to -16 LUFS](https://x.com/Voxyz_ai/status/2109358372873183564)** ⭐  
+  `Vox` · `2026-10-11` · `14 replies · 26 reposts · 579 likes · 973 bookmarks · 24K …`
+  - **Essence:** Vox shares a copy-paste sound pass for Opus 5.5 motion videos so they stop sounding like cheap electronic beeps: tell the model it cannot hear so it must measure every step (install ffmpeg + librosa first); use licensed music only (a supplied track or Mixkit free license, with source noted, never synthesized); find beats with librosa but verify against a sub-120Hz waveform plot and shift the grid if kicks misalign (he caught a 0.22s off-beat this way); land cuts and title moves on beats (edit the animation or move the music start); attach one ready-made SFX per move (whoosh/pop/click/typing, prefer the project library like HyperFrames); keep voiceover loudest with music ducked, targeting …
+  - **Takeaway:** A reusable audio post-production prompt for AI motion video - the librosa off-beat check and MP4-only loudness measurement are the save-worthy bits.
+  - 🏷 opus, ai-video, sound-design, prompt-engineering, ffmpeg, librosa
 - **[Cut Claude Code / Cursor token usage ~60% with a small CLI tool](https://www.linkedin.com/feed/update/urn:li:activity:7462777658507051010)**  
   `Daniel Engelhardt` · `2026-05-20` · `♥94 · 37 comments · 5 reposts`
   - **Essence:** Daniel shares that a small open-source CLI (rtk), which rewrites bash commands into compact output before execution, cut his team's Claude Code and Cursor token usage by roughly 60%, and describes his own counter-analysis: a local audit skill over his session logs found about 28% of spend was cuttable, but rtk's output compression covered under 1% of his bill because almost all the money sat in bloated context — sessions crossing 200k into the 2x pricing tier, plus skills and plugins riding along on every request that were never called. He concludes output compression and context hygiene are different layers that stack, and thanks whoever pointed him at the tool. The comment thread is a …
@@ -1552,9 +1557,9 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 <a id="startups-product-marketing"></a>
 
-## Startups, Product & Marketing (31)
+## Startups, Product & Marketing (32)
 
-<details><summary><b>Show 31 entries</b> — Founder content, growth/marketing tactics, product building, YC/startup programs, side projects, launch strategies</summary>
+<details><summary><b>Show 32 entries</b> — Founder content, growth/marketing tactics, product building, YC/startup programs, side projects, launch strategies</summary>
 
 - **[Technical writer pitch riding on a 'get your website cited by AI tools' article](https://x.com/Tech_girl/status/2105727717077405869)**  
   `Mari` · `2026-09-30` · `2 likes · 39.2K views · 11 bookmarks`
@@ -1708,6 +1713,11 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Essence:** Suraj Sharma's joke SEO prompt for vibe coders ('Rank #1 by Friday. Make no mistakes.' after SSR, sitemap, Search Console, robots, noindex, redirects, 404s, canonicals, meta descriptions, one H1, FAQ schema, breadcrumbs, orphans, alt text, WebP, CLS, sub-2s loads, de-slop, author bio, backlinks) is actually the whole checklist — bookmark it, paste into Claude Code, and do the last two (bio, backlinks) yourself. Self-thread: live-page checks should be mandatory; vibe sites optimize for browsers over search engines; technical SEO gets you discovered, trust gets you chosen. Replies: Shawn adds where real wins start (canonicals, JSON-LD, og:image); Jamie says SSR is the biggest fix since …
   - **Takeaway:** The most-saved SEO checklist in the vault — paste-ready, with the SSR-first priority from the replies.
   - 🏷 seo, vibe-coding, prompts, checklists
+- **[Run LinkedIn ads on every potential investor for a month before raising](https://x.com/GaddipatiHarsha/status/2109130292602802577)** ⭐  
+  `Harsha from Slashy` · `2026-10-11` · `23 replies · 21 reposts · 1.1K likes · 1.3K bookmarks · …`
+  - **Essence:** Harsha's underrated fundraising alpha: before raising, run LinkedIn ads against every single potential investor for one month (about 5k spend) to manufacture familiarity and FOMO. His follow-up adds they got VC inbound accidentally the same way through paid email clients, noting a good chunk of paid-email users are VCs. Replies split: a top quote-tweet calls it the top of dumb ideas, one says 'Delete this' (keep the alpha secret), others ask about conversion proof, whether it is illegal (tagged to Grok), and joke it only works if investors are in high school; 23 replies, 1,085 likes, 1,255 bookmarks, 264K views.
+  - **Takeaway:** A cheap pre-raise familiarity play - worth testing with a tight investor list and reply-rate tracking rather than assuming FOMO.
+  - 🏷 fundraising, linkedin-ads, vc, fomo, growth-hack
 - **[I built ThreadLens: upload a chat export and see the patterns in any argument](https://www.linkedin.com/feed/update/urn:li:activity:7467073714950434816)**  
   `Vipul Bajaj` · `2026-06-01` · `♥44 · 4 comments`
   - **Essence:** Vipul tells the origin story of ThreadLens: a friend emerged from a fight absolutely sure she was right because she only had screenshots, so he had her drop a full chat export into what he'd been building — and seeing every message and gap, not just her selected ones, changed her view in twenty minutes. The product takes WhatsApp, Telegram or iMessage exports, runs entirely in the browser with no account, and shows who messages first, who waits longer, who apologizes more and who escalates, with an optional AI that only sees what you ask about; it's free. The four replies are light praise and a joke he leans into — 'every group chat has someone who remembers every message and someone who …
@@ -1974,7 +1984,7 @@ bookmarks-vault/                  ← also an Obsidian vault (open this folder i
 ├── README.md                     ← you are here (generated)
 ├── Home.md                       ← Obsidian dashboard (generated)
 ├── Categories/*.md               ← 14 category index notes
-├── Entries/*.md                  ← 314 bookmark notes, one per entry (frontmatter + tags)
+├── Entries/*.md                  ← 330 bookmark notes, one per entry (frontmatter + tags)
 ├── Bookmarks_Categorized.xlsx    ← the full workbook: README + Master Index + a sheet per category
 ├── category_taxonomy.json        ← the fixed category list used for sorting
 ├── data/
@@ -2008,5 +2018,5 @@ python scripts/generate_obsidian.py    # rows → Home.md + Categories/ + Entrie
 ```
 
 _Extraction: Ego browser automation over X Bookmarks, Reddit Saved and LinkedIn Saved Posts._
-_Coverage: 272 X bookmarks (5 original tweets now deleted — flagged in their entries), all Reddit
+_Coverage: 288 X bookmarks (5 original tweets now deleted — flagged in their entries), all Reddit
 saved items, and all LinkedIn saved posts. Replies captured are the top ~15 per thread._

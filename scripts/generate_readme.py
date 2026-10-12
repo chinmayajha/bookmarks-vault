@@ -198,7 +198,7 @@ A("bookmarks-vault/                  ← also an Obsidian vault (open this folde
 A("├── README.md                     ← you are here (generated)")
 A("├── Home.md                       ← Obsidian dashboard (generated)")
 A("├── Categories/*.md               ← 14 category index notes")
-A("├── Entries/*.md                  ← 314 bookmark notes, one per entry (frontmatter + tags)")
+A(f"├── Entries/*.md                  ← {len(rows)} bookmark notes, one per entry (frontmatter + tags)")
 A("├── Bookmarks_Categorized.xlsx    ← the full workbook: README + Master Index + a sheet per category")
 A("├── category_taxonomy.json        ← the fixed category list used for sorting")
 A("├── data/")
@@ -232,7 +232,7 @@ A("python scripts/generate_obsidian.py    # rows → Home.md + Categories/ + Ent
 A("```")
 A("")
 A("_Extraction: Ego browser automation over X Bookmarks, Reddit Saved and LinkedIn Saved Posts._")
-A("_Coverage: 272 X bookmarks (5 original tweets now deleted — flagged in their entries), all Reddit")
+A(f"_Coverage: {platforms.get('Twitter', 0)} X bookmarks (5 original tweets now deleted — flagged in their entries), all Reddit")
 A("saved items, and all LinkedIn saved posts. Replies captured are the top ~15 per thread._")
 A("")
 
