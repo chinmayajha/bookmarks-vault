@@ -13,12 +13,12 @@
 
 | | |
 |---|---|
-| **Total entries** | **330** |
-| **By source** | 🐦 X/Twitter **288** · 💬 Reddit **27** · 💼 LinkedIn **15** |
+| **Total entries** | **334** |
+| **By source** | 🐦 X/Twitter **292** · 💬 Reddit **27** · 💼 LinkedIn **15** |
 | **Categories** | 14 |
-| **With product/tryout links** | 121 |
-| **Video entries** | 25 |
-| **⭐ High follow-up** | 138 (medium 146 · low 46) |
+| **With product/tryout links** | 123 |
+| **Video entries** | 29 |
+| **⭐ High follow-up** | 142 (medium 146 · low 46) |
 
 Each entry below shows the **essence of the whole discussion** (main post + thread + top replies)
 and a one-line **takeaway** — you shouldn't need to click through to get the point.
@@ -27,8 +27,8 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 | Category | Items | What's inside |
 |---|---:|---|
-| [AI & LLM](#ai-llm) | 65 | LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM … |
-| [Dev Tools & Productivity](#dev-tools-productivity) | 47 | IDEs, developer utilities, open-source libraries, CLI tools, workflows, editor/tool … |
+| [AI & LLM](#ai-llm) | 67 | LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM … |
+| [Dev Tools & Productivity](#dev-tools-productivity) | 49 | IDEs, developer utilities, open-source libraries, CLI tools, workflows, editor/tool … |
 | [Programming & CS Learning](#programming-cs-learning) | 51 | Courses, playlists, books, tutorials, CS concepts (DB, OS, systems, ML theory), learning … |
 | [Interviews, OA & DSA](#interviews-oa-dsa) | 33 | Online assessments, interview experiences/questions, DSA prep, system design/HLD prep … |
 | [Jobs, Careers & Compensation](#jobs-careers-compensation) | 31 | Hiring posts, referral/job openings, offer comparisons, salary/CTC data, resume/ATS tips … |
@@ -82,9 +82,9 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 <a id="ai-llm"></a>
 
-## AI & LLM (65)
+## AI & LLM (67)
 
-<details><summary><b>Show 65 entries</b> — LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM workflows and tips</summary>
+<details><summary><b>Show 67 entries</b> — LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM workflows and tips</summary>
 
 - **[Sahaj won't push a PR without /codebase-design and /zero-tech-debt skills](https://x.com/iamsahaj_xyz/status/2105746013709631735)**  
   `Sahaj` · `2026-10-01` · `3 replies · 6 reposts · 250 likes · 28.8K views · 460 …`
@@ -433,6 +433,16 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Essence:** Vox shares a copy-paste sound pass for Opus 5.5 motion videos so they stop sounding like cheap electronic beeps: tell the model it cannot hear so it must measure every step (install ffmpeg + librosa first); use licensed music only (a supplied track or Mixkit free license, with source noted, never synthesized); find beats with librosa but verify against a sub-120Hz waveform plot and shift the grid if kicks misalign (he caught a 0.22s off-beat this way); land cuts and title moves on beats (edit the animation or move the music start); attach one ready-made SFX per move (whoosh/pop/click/typing, prefer the project library like HyperFrames); keep voiceover loudest with music ducked, targeting …
   - **Takeaway:** A reusable audio post-production prompt for AI motion video - the librosa off-beat check and MP4-only loudness measurement are the save-worthy bits.
   - 🏷 opus, ai-video, sound-design, prompt-engineering, ffmpeg, librosa
+- **[Turned my read-later list into a personal library](https://x.com/nutlope/status/2108989553872646390)** 🎬 ⭐  
+  `Hassan` · `2026-10-10` · `98 replies · 194 reposts · 2.7K likes · 2.4K bookmarks · …`
+  - **Essence:** Hassan turned his read-later list into a personal library (demo video, full demo in the self-thread). Replies show convergent evolution - cultist_dev built the same thing (Jeff, a bookshelf you can ask), thekitze praises the visual beauty, the author reacts to heavy readers; one reply is a product ad. 98 replies, 2,659 likes, 2,406 bookmarks.
+  - **Takeaway:** A read-later-to-personal-library pipeline with strong visual craft - a template for personal-knowledge RAG apps.
+  - 🏷 personal-knowledge, rag, read-later, ai-apps
+- **[After Effects is unnecessary if you use Claude Opus 5.5 correctly](https://x.com/flxrnc/status/2108899503092740561)** 🎬 ⭐  
+  `Florence` · `2026-09-30` · `79 replies · 505 reposts · 6.6K likes · 13.1K bookmarks · …`
+  - **Essence:** Florence claims After Effects is unnecessary if you use Claude Opus 5.5 correctly: send the PDF below to Opus 5.5 and save the best-practices/usage article for motion design; the self-thread gives the exact prompt (drive-hosted Exact prompt.txt). Replies are thin - one skeptic wants AI movies worth watching (author will ping), plus a shopping ad. 79 replies, 6,590 likes, 13,065 bookmarks, 640K views.
+  - **Takeaway:** Another viral Opus motion-design recipe with the exact prompt attached - file alongside the other Opus video prompts in this vault.
+  - 🏷 opus, ai-video, motion-design, prompt-engineering
 - **[Cut Claude Code / Cursor token usage ~60% with a small CLI tool](https://www.linkedin.com/feed/update/urn:li:activity:7462777658507051010)**  
   `Daniel Engelhardt` · `2026-05-20` · `♥94 · 37 comments · 5 reposts`
   - **Essence:** Daniel shares that a small open-source CLI (rtk), which rewrites bash commands into compact output before execution, cut his team's Claude Code and Cursor token usage by roughly 60%, and describes his own counter-analysis: a local audit skill over his session logs found about 28% of spend was cuttable, but rtk's output compression covered under 1% of his bill because almost all the money sat in bloated context — sessions crossing 200k into the 2x pricing tier, plus skills and plugins riding along on every request that were never called. He concludes output compression and context hygiene are different layers that stack, and thanks whoever pointed him at the tool. The comment thread is a …
@@ -444,9 +454,9 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 <a id="dev-tools-productivity"></a>
 
-## Dev Tools & Productivity (47)
+## Dev Tools & Productivity (49)
 
-<details><summary><b>Show 47 entries</b> — IDEs, developer utilities, open-source libraries, CLI tools, workflows, editor/tool releases, dev infrastructure</summary>
+<details><summary><b>Show 49 entries</b> — IDEs, developer utilities, open-source libraries, CLI tools, workflows, editor/tool releases, dev infrastructure</summary>
 
 - **[pnpm asks your coding agent to fix its 629 open issues](https://x.com/pnpmjs/status/2103438679478010198)**  
   `pnpm` · `2026-09-25` · `33 replies · 60 reposts · 567 likes · 61.7K views · 266 …`
@@ -692,6 +702,18 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Takeaway:** Install the mod; apply Akshay's env-var fix for the background-agents view.
   - **Try it:** [github.com/jarrodwatts/claude-image-view](https://github.com/jarrodwatts/claude-image-view)
   - 🏷 claude-code, mods, developer-tools, images
+- **[Lintapple: tell your agent to install it so AI stops making bad UI](https://x.com/Frozune/status/2109309297612013621)** 🎬 ⭐  
+  `Gavin` · `2026-10-11` · `25 replies · 60 reposts · 1.2K likes · 2.5K bookmarks · …`
+  - **Essence:** Gavin claims it should be impossible for AI to make a bad UI and ships lintapple: tell your agent to install and set it up in the project (github.com/gholtzap/lintapple), demo on video. Replies roast the corner radius ('what the fuck is that corner radius' - author asks what it should be instead), a paper-UI user shows interest, one will try it with the author promising to keep coding until it is useful for everyone; one reply is an unrelated WhatsApp-SDK ad. 25 replies, 1,227 likes, 2,506 bookmarks.
+  - **Takeaway:** A drop-in UI-lint package that constrains agent-generated interfaces - the one-line-install distribution is the pattern to copy.
+  - **Try it:** [github.com/gholtzap/lintapple](https://github.com/gholtzap/lintapple)
+  - 🏷 ui-design, linting, ai-coding, open-source, design-systems
+- **[DigUp: on-device semantic file search for Mac with EmbeddingGemma 2](https://x.com/_ARahim_/status/2108649742217679257)** 🎬 ⭐  
+  `Abdur Rahim` · `2026-10-09` · `15 replies · 62 reposts · 406 likes · 516 bookmarks · 17K …`
+  - **Essence:** Abdur Rahim ships DigUp, a free open-source Mac app for semantic file search: it runs Google DeepMind's EmbeddingGemma 2 on-device, so you describe a video moment, podcast minute, PDF page, photo or chunk of code in any language and dig it up (github.com/ARahim3/DigUp). His self-thread notes love from r/LocalLLaMA and a coffee-support link. Replies propose combining the index approach with FSearch, which the author will look at; the rest are ads. 15 replies, 406 likes, 516 bookmarks.
+  - **Takeaway:** On-device multilingual embedding search over local files - a good reference for building private RAG over personal media.
+  - **Try it:** [github.com/ARahim3/DigUp](https://github.com/ARahim3/DigUp)
+  - 🏷 semantic-search, on-device-ai, embeddings, macos, open-source
 - **[I built Kal, an interpreted programming language from scratch!](https://www.reddit.com/r/IndiaTech/comments/1uf263n/i_built_kal_an_interpreted_programming_language/)**  
   `u/KILLinefficiency` · `2026-06-25` · `↑21 · 13 comments`
   - **Essence:** OP releases v0.1.0 of Kal, a lightweight interpreted language written from scratch in C++ with no third-party dependencies, GPL v3, mixing paradigms and embeddable into C++, Python and JavaScript; he ships a website and GitHub repo and asks for stars. Replies ask whether it was a team effort — OP says he's a solo dev and that this first release took four years with no libraries and no AI — plus what Kal is good for today (CLI tools and embedding) and what the long-term goal is (still being defined). Commenters are impressed by the codebase at a glance, with one reminiscing about dreaming of writing his own OS, and the thread's tone is supportive rather than critical.
@@ -1984,7 +2006,7 @@ bookmarks-vault/                  ← also an Obsidian vault (open this folder i
 ├── README.md                     ← you are here (generated)
 ├── Home.md                       ← Obsidian dashboard (generated)
 ├── Categories/*.md               ← 14 category index notes
-├── Entries/*.md                  ← 330 bookmark notes, one per entry (frontmatter + tags)
+├── Entries/*.md                  ← 334 bookmark notes, one per entry (frontmatter + tags)
 ├── Bookmarks_Categorized.xlsx    ← the full workbook: README + Master Index + a sheet per category
 ├── category_taxonomy.json        ← the fixed category list used for sorting
 ├── data/
@@ -2018,5 +2040,5 @@ python scripts/generate_obsidian.py    # rows → Home.md + Categories/ + Entrie
 ```
 
 _Extraction: Ego browser automation over X Bookmarks, Reddit Saved and LinkedIn Saved Posts._
-_Coverage: 288 X bookmarks (5 original tweets now deleted — flagged in their entries), all Reddit
+_Coverage: 292 X bookmarks (5 original tweets now deleted — flagged in their entries), all Reddit
 saved items, and all LinkedIn saved posts. Replies captured are the top ~15 per thread._

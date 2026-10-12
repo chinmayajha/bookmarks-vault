@@ -20,7 +20,7 @@
    "wiki": "AI & LLM",
    "title": "🗂 AI & LLM",
    "group": "category",
-   "count": 65
+   "count": 67
   },
   {
    "name": "Dev Tools & Productivity",
@@ -29,7 +29,7 @@
    "wiki": "Dev Tools & Productivity",
    "title": "🗂 Dev Tools & Productivity",
    "group": "category",
-   "count": 47
+   "count": 49
   },
   {
    "name": "Programming & CS Learning",
@@ -6244,6 +6244,80 @@
     "twitter",
     "startups-product-marketing"
    ]
+  },
+  {
+   "path": "Entries/X-289 - lintapple-tell-your-agent-to-install-it-so-ai-st.md",
+   "wiki": "X-289 - lintapple-tell-your-agent-to-install-it-so-ai-st",
+   "title": "Lintapple: tell your agent to install it so AI stops making bad UI",
+   "group": "entry",
+   "uid": "X-289",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "ui-design",
+    "linting",
+    "ai-coding",
+    "open-source",
+    "design-systems",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-290 - digup-on-device-semantic-file-search-for-mac-wit.md",
+   "wiki": "X-290 - digup-on-device-semantic-file-search-for-mac-wit",
+   "title": "DigUp: on-device semantic file search for Mac with EmbeddingGemma 2",
+   "group": "entry",
+   "uid": "X-290",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "semantic-search",
+    "on-device-ai",
+    "embeddings",
+    "macos",
+    "open-source",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-291 - turned-my-read-later-list-into-a-personal-librar.md",
+   "wiki": "X-291 - turned-my-read-later-list-into-a-personal-librar",
+   "title": "Turned my read-later list into a personal library",
+   "group": "entry",
+   "uid": "X-291",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "personal-knowledge",
+    "rag",
+    "read-later",
+    "ai-apps",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-292 - after-effects-is-unnecessary-if-you-use-claude-o.md",
+   "wiki": "X-292 - after-effects-is-unnecessary-if-you-use-claude-o",
+   "title": "After Effects is unnecessary if you use Claude Opus 5.5 correctly",
+   "group": "entry",
+   "uid": "X-292",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "opus",
+    "ai-video",
+    "motion-design",
+    "prompt-engineering",
+    "twitter",
+    "ai-llm"
+   ]
   }
  ],
  "categories": [
@@ -6254,7 +6328,7 @@
    "wiki": "AI & LLM",
    "title": "🗂 AI & LLM",
    "group": "category",
-   "count": 65
+   "count": 67
   },
   {
    "name": "Dev Tools & Productivity",
@@ -6263,7 +6337,7 @@
    "wiki": "Dev Tools & Productivity",
    "title": "🗂 Dev Tools & Productivity",
    "group": "category",
-   "count": 47
+   "count": 49
   },
   {
    "name": "Programming & CS Learning",
@@ -12479,6 +12553,80 @@
     "growth-hack",
     "twitter",
     "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-289 - lintapple-tell-your-agent-to-install-it-so-ai-st.md",
+   "wiki": "X-289 - lintapple-tell-your-agent-to-install-it-so-ai-st",
+   "title": "Lintapple: tell your agent to install it so AI stops making bad UI",
+   "group": "entry",
+   "uid": "X-289",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "ui-design",
+    "linting",
+    "ai-coding",
+    "open-source",
+    "design-systems",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-290 - digup-on-device-semantic-file-search-for-mac-wit.md",
+   "wiki": "X-290 - digup-on-device-semantic-file-search-for-mac-wit",
+   "title": "DigUp: on-device semantic file search for Mac with EmbeddingGemma 2",
+   "group": "entry",
+   "uid": "X-290",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "semantic-search",
+    "on-device-ai",
+    "embeddings",
+    "macos",
+    "open-source",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-291 - turned-my-read-later-list-into-a-personal-librar.md",
+   "wiki": "X-291 - turned-my-read-later-list-into-a-personal-librar",
+   "title": "Turned my read-later list into a personal library",
+   "group": "entry",
+   "uid": "X-291",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "personal-knowledge",
+    "rag",
+    "read-later",
+    "ai-apps",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-292 - after-effects-is-unnecessary-if-you-use-claude-o.md",
+   "wiki": "X-292 - after-effects-is-unnecessary-if-you-use-claude-o",
+   "title": "After Effects is unnecessary if you use Claude Opus 5.5 correctly",
+   "group": "entry",
+   "uid": "X-292",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "opus",
+    "ai-video",
+    "motion-design",
+    "prompt-engineering",
+    "twitter",
+    "ai-llm"
    ]
   }
  ]

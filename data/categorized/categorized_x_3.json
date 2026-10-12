@@ -855,5 +855,99 @@
       "growth-hack"
     ],
     "worthFollowUp": "high"
+  },
+  {
+    "uid": "X-289",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "AI UI-lint package",
+    "title": "Lintapple: tell your agent to install it so AI stops making bad UI",
+    "author": "Gavin",
+    "date": "2026-10-11",
+    "url": "https://x.com/Frozune/status/2109309297612013621",
+    "engagement": "25 replies · 60 reposts · 1.2K likes · 2.5K bookmarks · 107K views",
+    "essence": "Gavin claims it should be impossible for AI to make a bad UI and ships lintapple: tell your agent to install and set it up in the project (github.com/gholtzap/lintapple), demo on video. Replies roast the corner radius ('what the fuck is that corner radius' - author asks what it should be instead), a paper-UI user shows interest, one will try it with the author promising to keep coding until it is useful for everyone; one reply is an unrelated WhatsApp-SDK ad. 25 replies, 1,227 likes, 2,506 bookmarks.",
+    "summary": "A drop-in UI-lint package that constrains agent-generated interfaces - the one-line-install distribution is the pattern to copy.",
+    "productLinks": [
+      "https://github.com/gholtzap/lintapple"
+    ],
+    "hasMedia": "video",
+    "topicTags": [
+      "ui-design",
+      "linting",
+      "ai-coding",
+      "open-source",
+      "design-systems"
+    ],
+    "worthFollowUp": "high"
+  },
+  {
+    "uid": "X-290",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "on-device semantic file search",
+    "title": "DigUp: on-device semantic file search for Mac with EmbeddingGemma 2",
+    "author": "Abdur Rahim",
+    "date": "2026-10-09",
+    "url": "https://x.com/_ARahim_/status/2108649742217679257",
+    "engagement": "15 replies · 62 reposts · 406 likes · 516 bookmarks · 17K views",
+    "essence": "Abdur Rahim ships DigUp, a free open-source Mac app for semantic file search: it runs Google DeepMind's EmbeddingGemma 2 on-device, so you describe a video moment, podcast minute, PDF page, photo or chunk of code in any language and dig it up (github.com/ARahim3/DigUp). His self-thread notes love from r/LocalLLaMA and a coffee-support link. Replies propose combining the index approach with FSearch, which the author will look at; the rest are ads. 15 replies, 406 likes, 516 bookmarks.",
+    "summary": "On-device multilingual embedding search over local files - a good reference for building private RAG over personal media.",
+    "productLinks": [
+      "https://github.com/ARahim3/DigUp"
+    ],
+    "hasMedia": "video",
+    "topicTags": [
+      "semantic-search",
+      "on-device-ai",
+      "embeddings",
+      "macos",
+      "open-source"
+    ],
+    "worthFollowUp": "high"
+  },
+  {
+    "uid": "X-291",
+    "platform": "Twitter",
+    "category": "AI & LLM",
+    "subcategory": "personal RAG library",
+    "title": "Turned my read-later list into a personal library",
+    "author": "Hassan",
+    "date": "2026-10-10",
+    "url": "https://x.com/nutlope/status/2108989553872646390",
+    "engagement": "98 replies · 194 reposts · 2.7K likes · 2.4K bookmarks · 133K views",
+    "essence": "Hassan turned his read-later list into a personal library (demo video, full demo in the self-thread). Replies show convergent evolution - cultist_dev built the same thing (Jeff, a bookshelf you can ask), thekitze praises the visual beauty, the author reacts to heavy readers; one reply is a product ad. 98 replies, 2,659 likes, 2,406 bookmarks.",
+    "summary": "A read-later-to-personal-library pipeline with strong visual craft - a template for personal-knowledge RAG apps.",
+    "productLinks": [],
+    "hasMedia": "video",
+    "topicTags": [
+      "personal-knowledge",
+      "rag",
+      "read-later",
+      "ai-apps"
+    ],
+    "worthFollowUp": "high"
+  },
+  {
+    "uid": "X-292",
+    "platform": "Twitter",
+    "category": "AI & LLM",
+    "subcategory": "Opus motion-design prompts",
+    "title": "After Effects is unnecessary if you use Claude Opus 5.5 correctly",
+    "author": "Florence",
+    "date": "2026-09-30",
+    "url": "https://x.com/flxrnc/status/2108899503092740561",
+    "engagement": "79 replies · 505 reposts · 6.6K likes · 13.1K bookmarks · 640K views",
+    "essence": "Florence claims After Effects is unnecessary if you use Claude Opus 5.5 correctly: send the PDF below to Opus 5.5 and save the best-practices/usage article for motion design; the self-thread gives the exact prompt (drive-hosted Exact prompt.txt). Replies are thin - one skeptic wants AI movies worth watching (author will ping), plus a shopping ad. 79 replies, 6,590 likes, 13,065 bookmarks, 640K views.",
+    "summary": "Another viral Opus motion-design recipe with the exact prompt attached - file alongside the other Opus video prompts in this vault.",
+    "productLinks": [],
+    "hasMedia": "video",
+    "topicTags": [
+      "opus",
+      "ai-video",
+      "motion-design",
+      "prompt-engineering"
+    ],
+    "worthFollowUp": "high"
   }
 ]
