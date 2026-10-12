@@ -13,12 +13,12 @@
 
 | | |
 |---|---|
-| **Total entries** | **334** |
-| **By source** | 🐦 X/Twitter **292** · 💬 Reddit **27** · 💼 LinkedIn **15** |
+| **Total entries** | **338** |
+| **By source** | 🐦 X/Twitter **296** · 💬 Reddit **27** · 💼 LinkedIn **15** |
 | **Categories** | 14 |
-| **With product/tryout links** | 123 |
-| **Video entries** | 29 |
-| **⭐ High follow-up** | 142 (medium 146 · low 46) |
+| **With product/tryout links** | 127 |
+| **Video entries** | 31 |
+| **⭐ High follow-up** | 145 (medium 147 · low 46) |
 
 Each entry below shows the **essence of the whole discussion** (main post + thread + top replies)
 and a one-line **takeaway** — you shouldn't need to click through to get the point.
@@ -27,8 +27,8 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 | Category | Items | What's inside |
 |---|---:|---|
-| [AI & LLM](#ai-llm) | 67 | LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM … |
-| [Dev Tools & Productivity](#dev-tools-productivity) | 49 | IDEs, developer utilities, open-source libraries, CLI tools, workflows, editor/tool … |
+| [AI & LLM](#ai-llm) | 69 | LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM … |
+| [Dev Tools & Productivity](#dev-tools-productivity) | 51 | IDEs, developer utilities, open-source libraries, CLI tools, workflows, editor/tool … |
 | [Programming & CS Learning](#programming-cs-learning) | 51 | Courses, playlists, books, tutorials, CS concepts (DB, OS, systems, ML theory), learning … |
 | [Interviews, OA & DSA](#interviews-oa-dsa) | 33 | Online assessments, interview experiences/questions, DSA prep, system design/HLD prep … |
 | [Jobs, Careers & Compensation](#jobs-careers-compensation) | 31 | Hiring posts, referral/job openings, offer comparisons, salary/CTC data, resume/ATS tips … |
@@ -82,9 +82,9 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 <a id="ai-llm"></a>
 
-## AI & LLM (67)
+## AI & LLM (69)
 
-<details><summary><b>Show 67 entries</b> — LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM workflows and tips</summary>
+<details><summary><b>Show 69 entries</b> — LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM workflows and tips</summary>
 
 - **[Sahaj won't push a PR without /codebase-design and /zero-tech-debt skills](https://x.com/iamsahaj_xyz/status/2105746013709631735)**  
   `Sahaj` · `2026-10-01` · `3 replies · 6 reposts · 250 likes · 28.8K views · 460 …`
@@ -443,6 +443,18 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Essence:** Florence claims After Effects is unnecessary if you use Claude Opus 5.5 correctly: send the PDF below to Opus 5.5 and save the best-practices/usage article for motion design; the self-thread gives the exact prompt (drive-hosted Exact prompt.txt). Replies are thin - one skeptic wants AI movies worth watching (author will ping), plus a shopping ad. 79 replies, 6,590 likes, 13,065 bookmarks, 640K views.
   - **Takeaway:** Another viral Opus motion-design recipe with the exact prompt attached - file alongside the other Opus video prompts in this vault.
   - 🏷 opus, ai-video, motion-design, prompt-engineering
+- **[Anatomy: one line in, interactive 3D machine out, as a Claude skill](https://x.com/wheresryan22/status/2108948624004526516)** 🎬 ⭐  
+  `R` · `2026-10-10` · `354 replies · 1.7K reposts · 14.4K likes · 21.5K bookmarks …`
+  - **Essence:** R introduces Anatomy: describe a machine in one line and Claude brings it to life - interactive isometric wireframes to rotate and inspect, WebGL shaders for fire/water/plasma, real 3D motion with individually moving parts; installable as an agent skill, fully open source (github.com/wheresryan22/anatomy). The self-thread carries the skill page and repo; Teknium asks to ship it as an official Hermes built-in optional skill and the author agrees. 354 replies, 14,428 likes, 21,534 bookmarks, 1.7M views.
+  - **Takeaway:** One-line-to-interactive-3D as a Claude Code skill with 21K bookmarks - the strongest distribution proof yet for skills as UI.
+  - **Try it:** [github.com/wheresryan22/anatomy](https://github.com/wheresryan22/anatomy)
+  - 🏷 claude-skills, 3d, webgl, data-viz, open-source
+- **[Cloudflare security-audit skill found real vulns via 26 Codex agents](https://x.com/ayyyelif/status/2108888757621440861)** ⭐  
+  `Elif` · `2026-10-10` · `8 replies · 29 reposts · 855 likes · 2.3K bookmarks · 120K …`
+  - **Essence:** Elif recommends Cloudflare's security-audit-skill (github.com/cloudflare/security-audit-skill): she gave it to Codex, 26 agents found real vulnerabilities - non-obvious ones her own months-long tests missed. Her self-thread explains the multi-agent setup: the skill decomposes the audit into tasks executed through Codex's subagent infrastructure. Replies agree it is token-hungry but solid, and get a how-to on the multi-agent part. 8 replies, 855 likes, 2,304 bookmarks.
+  - **Takeaway:** A proven multi-agent security-audit workflow for Codex with real-vuln evidence - run it on your own repos.
+  - **Try it:** [github.com/cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)
+  - 🏷 security-audit, claude-skills, codex, multi-agent, cloudflare
 - **[Cut Claude Code / Cursor token usage ~60% with a small CLI tool](https://www.linkedin.com/feed/update/urn:li:activity:7462777658507051010)**  
   `Daniel Engelhardt` · `2026-05-20` · `♥94 · 37 comments · 5 reposts`
   - **Essence:** Daniel shares that a small open-source CLI (rtk), which rewrites bash commands into compact output before execution, cut his team's Claude Code and Cursor token usage by roughly 60%, and describes his own counter-analysis: a local audit skill over his session logs found about 28% of spend was cuttable, but rtk's output compression covered under 1% of his bill because almost all the money sat in bloated context — sessions crossing 200k into the 2x pricing tier, plus skills and plugins riding along on every request that were never called. He concludes output compression and context hygiene are different layers that stack, and thanks whoever pointed him at the tool. The comment thread is a …
@@ -454,9 +466,9 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 <a id="dev-tools-productivity"></a>
 
-## Dev Tools & Productivity (49)
+## Dev Tools & Productivity (51)
 
-<details><summary><b>Show 49 entries</b> — IDEs, developer utilities, open-source libraries, CLI tools, workflows, editor/tool releases, dev infrastructure</summary>
+<details><summary><b>Show 51 entries</b> — IDEs, developer utilities, open-source libraries, CLI tools, workflows, editor/tool releases, dev infrastructure</summary>
 
 - **[pnpm asks your coding agent to fix its 629 open issues](https://x.com/pnpmjs/status/2103438679478010198)**  
   `pnpm` · `2026-09-25` · `33 replies · 60 reposts · 567 likes · 61.7K views · 266 …`
@@ -714,6 +726,18 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Takeaway:** On-device multilingual embedding search over local files - a good reference for building private RAG over personal media.
   - **Try it:** [github.com/ARahim3/DigUp](https://github.com/ARahim3/DigUp)
   - 🏷 semantic-search, on-device-ai, embeddings, macos, open-source
+- **[ManimGX: 90x-faster 3D animation engine built for agents](https://x.com/sinaatalay/status/2109045945149395421)** 🎬 ⭐  
+  `Sina Atalay` · `2026-10-10` · `66 replies · 294 reposts · 2.6K likes · 4.2K bookmarks · …`
+  - **Essence:** Sina introduces ManimGX, an open-source 3D animation engine built for agents: 90x faster than ManimCE (36s of 1080p60 in 3.1s; 11.5x ManimGL, 18.7x Blender Workbench, method in the repo benchmarks), Rust + wgpu core, compatible with Manim's Python API, one pip install with no system dependencies (no LaTeX/FFmpeg, 65-110MB), and it even runs in the browser via Pyodide and WebGPU. Agent-native touches: a manimgx inspect CLI that storyboards PNGs for the agent to check before rendering, 2D layout checks (cutoff, overlap, size), fully statically typed APIs, and an llms.txt try-it prompt. 66 replies, 2,610 likes, 4,184 bookmarks.
+  - **Takeaway:** The speed plus llms.txt plus inspect-loop combo is the template for making any renderer agent-operable.
+  - **Try it:** [github.com/academa-labs/manimgx](https://github.com/academa-labs/manimgx) · [manimgx.academa.ai](https://manimgx.academa.ai)
+  - 🏷 3d-animation, manim, rust, agents, open-source
+- **[Run GitHub Actions locally with act instead of push-wait loops](https://x.com/__newts/status/2108953677679710546)**  
+  `Divy` · `2026-10-10` · `3 replies · 3 reposts · 63 likes · 126 bookmarks · 5.8K …`
+  - **Essence:** Replying to Branko's complaint about testing GitHub Actions through commit-push-wait-4-minutes loops, Divy recommends nektos/act for running Actions locally (linked repo card). Branko knows it and says local runs just feel better; a follow-up pitches preloop as the agent-native alternative, noting act does not implement the official protocol (divergences happen) and runs containers rather than microVMs. 3 replies, 63 likes, 126 bookmarks.
+  - **Takeaway:** act for local Actions runs, with preloop as the agent-native alternative - useful the next time CI iteration hurts.
+  - **Try it:** [github.com/nektos/act](https://github.com/nektos/act)
+  - 🏷 github-actions, ci, local-dev, testing
 - **[I built Kal, an interpreted programming language from scratch!](https://www.reddit.com/r/IndiaTech/comments/1uf263n/i_built_kal_an_interpreted_programming_language/)**  
   `u/KILLinefficiency` · `2026-06-25` · `↑21 · 13 comments`
   - **Essence:** OP releases v0.1.0 of Kal, a lightweight interpreted language written from scratch in C++ with no third-party dependencies, GPL v3, mixing paradigms and embeddable into C++, Python and JavaScript; he ships a website and GitHub repo and asks for stars. Replies ask whether it was a team effort — OP says he's a solo dev and that this first release took four years with no libraries and no AI — plus what Kal is good for today (CLI tools and embedding) and what the long-term goal is (still being defined). Commenters are impressed by the codebase at a glance, with one reminiscing about dreaming of writing his own OS, and the thread's tone is supportive rather than critical.
@@ -2006,7 +2030,7 @@ bookmarks-vault/                  ← also an Obsidian vault (open this folder i
 ├── README.md                     ← you are here (generated)
 ├── Home.md                       ← Obsidian dashboard (generated)
 ├── Categories/*.md               ← 14 category index notes
-├── Entries/*.md                  ← 334 bookmark notes, one per entry (frontmatter + tags)
+├── Entries/*.md                  ← 338 bookmark notes, one per entry (frontmatter + tags)
 ├── Bookmarks_Categorized.xlsx    ← the full workbook: README + Master Index + a sheet per category
 ├── category_taxonomy.json        ← the fixed category list used for sorting
 ├── data/
@@ -2040,5 +2064,5 @@ python scripts/generate_obsidian.py    # rows → Home.md + Categories/ + Entrie
 ```
 
 _Extraction: Ego browser automation over X Bookmarks, Reddit Saved and LinkedIn Saved Posts._
-_Coverage: 292 X bookmarks (5 original tweets now deleted — flagged in their entries), all Reddit
+_Coverage: 296 X bookmarks (5 original tweets now deleted — flagged in their entries), all Reddit
 saved items, and all LinkedIn saved posts. Replies captured are the top ~15 per thread._

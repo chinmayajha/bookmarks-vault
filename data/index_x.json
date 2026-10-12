@@ -9346,5 +9346,142 @@
   "detailMissing": false,
   "diagnosis": null,
   "context": "r/"
+ },
+{
+  "uid": "X-293",
+  "platform": "Twitter",
+  "url": "https://x.com/sinaatalay/status/2109045945149395421",
+  "author": "Sina Atalay",
+  "handle": "@sinaatalay",
+  "date": "2026-10-10T22:18:32.000Z",
+  "title": "ManimGX: 90x-faster 3D animation engine built for agents",
+  "mainText": "Introducing ManimGX, the 3D animation engine for agents. Blazingly fast: 90x faster than ManimCE. Rust + wgpu core. Compatible with Manim's Python API. Lightweight: one pip install, no system dependencies. Open source: github.com/academa-labs/manimgx. Docs: manimgx.academa.ai. Try it: follow manimgx.academa.ai/llms.txt to make a 3D animation.",
+  "threadText": "How fast? 36 s of 1080p60 video in 3.1 s. 90.6x faster than ManimCE, 11.5x ManimGL, 18.7x Blender Workbench. Method in repo benchmarks. Made for agents: manimgx inspect CLI storyboards PNGs first; 2D layout checks; fully statically typed. pip install manimgx on macOS/Windows/Linux, also runs in browser via Pyodide/WebGPU.",
+  "discussion": "",
+  "replyCount": 0,
+  "conversationTweets": 4,
+  "extraReplyCount": 66,
+  "stats": "66 replies, 294 reposts, 2610 likes, 4184 bookmarks, 161646 views",
+  "counts": {
+   "replies": 66,
+   "reposts": 294,
+   "likes": 2610,
+   "views": 161646,
+   "bookmarks": 4184
+  },
+  "quote": "",
+  "hasVideo": true,
+  "imageCount": 0,
+  "videoPoster": null,
+  "links": [
+   "https://github.com/academa-labs/manimgx",
+   "https://manimgx.academa.ai"
+  ],
+  "cardText": "",
+  "detailMissing": false,
+  "diagnosis": null,
+  "context": "r/"
+ },
+ {
+  "uid": "X-294",
+  "platform": "Twitter",
+  "url": "https://x.com/wheresryan22/status/2108948624004526516",
+  "author": "R",
+  "handle": "@wheresryan22",
+  "date": "2026-10-10T15:51:48.000Z",
+  "title": "Anatomy: one line in, interactive 3D machine out, as a Claude skill",
+  "mainText": "Introducing Anatomy. Describe a machine in one line. Claude brings it to life. Interactive isometric wireframes you can rotate, inspect and explore. WebGL shaders for fire, water, plasma and more. Real 3D motion, with individual parts that rotate and move. Install it as an agent skill. Fully open source.",
+  "threadText": "Anatomy skill page for Claude Code. GitHub repo: wheresryan22/anatomy - a Claude Code skill turning a technical idea into detailed interactive 3D.",
+  "discussion": "Teknium: Do you mind if this becomes an official hermes built in optional skill? — R: go ahead",
+  "replyCount": 1,
+  "conversationTweets": 6,
+  "extraReplyCount": 353,
+  "stats": "354 replies, 1683 reposts, 14428 likes, 21534 bookmarks, 1677025 views",
+  "counts": {
+   "replies": 354,
+   "reposts": 1683,
+   "likes": 14428,
+   "views": 1677025,
+   "bookmarks": 21534
+  },
+  "quote": "",
+  "hasVideo": true,
+  "imageCount": 0,
+  "videoPoster": null,
+  "links": [
+   "https://github.com/wheresryan22/anatomy"
+  ],
+  "cardText": "",
+  "detailMissing": false,
+  "diagnosis": null,
+  "context": "r/"
+ },
+ {
+  "uid": "X-295",
+  "platform": "Twitter",
+  "url": "https://x.com/__newts/status/2108953677679710546",
+  "author": "Divy",
+  "handle": "@__newts",
+  "date": "2026-10-10T16:11:53.000Z",
+  "title": "Run GitHub Actions locally with act instead of push-wait loops",
+  "mainText": "Give this a shot, Frankly I've never had to use it locally myself, But people have good opinions about it (nektos/act - run GitHub Actions locally)",
+  "threadText": "",
+  "discussion": "Branko: I know about it, this just feels better — bnjorogedev: act is great but does not implement the official protocol so divergences happen, runs containers not microvms (pitches preloop, agent-native local Actions)",
+  "replyCount": 3,
+  "conversationTweets": 6,
+  "extraReplyCount": 0,
+  "stats": "3 replies, 3 reposts, 63 likes, 126 bookmarks, 5836 views",
+  "counts": {
+   "replies": 3,
+   "reposts": 3,
+   "likes": 63,
+   "views": 5836,
+   "bookmarks": 126
+  },
+  "quote": "Branko @brankopetric00: I test GitHub Actions the way God intended. Commit, push, wait 4 min, fix typo, push, wait 4 min, fix typo again",
+  "hasVideo": false,
+  "imageCount": 0,
+  "videoPoster": null,
+  "links": [
+   "https://github.com/nektos/act"
+  ],
+  "cardText": "",
+  "detailMissing": false,
+  "diagnosis": null,
+  "context": "r/"
+ },
+ {
+  "uid": "X-296",
+  "platform": "Twitter",
+  "url": "https://x.com/ayyyelif/status/2108888757621440861",
+  "author": "Elif",
+  "handle": "@ayyyelif",
+  "date": "2026-10-10T11:53:55.000Z",
+  "title": "Cloudflare security-audit skill found real vulns via 26 Codex agents",
+  "mainText": "github.com/cloudflare/security-audit-skill - If anyone hasn't tried it, it's genuinely pretty good, I gave it to Codex",
+  "threadText": "26 agents: it really did find some vulnerabilities (her own tests took months). For multi-agent: ran Cloudflare's security-audit skill in Codex; the skill breaks the audit into tasks executed via Codex subagents.",
+  "discussion": "alii0721: ate up a ton of tokens but did a solid job, thought I'd been error-free — bahadirarslan: how do we do this multi-agent thing? — Elif: skill decomposes the audit, Codex subagents execute",
+  "replyCount": 5,
+  "conversationTweets": 7,
+  "extraReplyCount": 3,
+  "stats": "8 replies, 29 reposts, 855 likes, 2304 bookmarks, 119631 views",
+  "counts": {
+   "replies": 8,
+   "reposts": 29,
+   "likes": 855,
+   "views": 119631,
+   "bookmarks": 2304
+  },
+  "quote": "",
+  "hasVideo": false,
+  "imageCount": 1,
+  "videoPoster": null,
+  "links": [
+   "https://github.com/cloudflare/security-audit-skill"
+  ],
+  "cardText": "",
+  "detailMissing": false,
+  "diagnosis": null,
+  "context": "r/"
  }
 ]

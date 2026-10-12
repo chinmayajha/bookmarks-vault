@@ -949,5 +949,105 @@
       "prompt-engineering"
     ],
     "worthFollowUp": "high"
+  },
+  {
+    "uid": "X-293",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "agent-native 3D animation engine",
+    "title": "ManimGX: 90x-faster 3D animation engine built for agents",
+    "author": "Sina Atalay",
+    "date": "2026-10-10",
+    "url": "https://x.com/sinaatalay/status/2109045945149395421",
+    "engagement": "66 replies · 294 reposts · 2.6K likes · 4.2K bookmarks · 162K views",
+    "essence": "Sina introduces ManimGX, an open-source 3D animation engine built for agents: 90x faster than ManimCE (36s of 1080p60 in 3.1s; 11.5x ManimGL, 18.7x Blender Workbench, method in the repo benchmarks), Rust + wgpu core, compatible with Manim's Python API, one pip install with no system dependencies (no LaTeX/FFmpeg, 65-110MB), and it even runs in the browser via Pyodide and WebGPU. Agent-native touches: a manimgx inspect CLI that storyboards PNGs for the agent to check before rendering, 2D layout checks (cutoff, overlap, size), fully statically typed APIs, and an llms.txt try-it prompt. 66 replies, 2,610 likes, 4,184 bookmarks.",
+    "summary": "The speed plus llms.txt plus inspect-loop combo is the template for making any renderer agent-operable.",
+    "productLinks": [
+      "https://github.com/academa-labs/manimgx",
+      "https://manimgx.academa.ai"
+    ],
+    "hasMedia": "video",
+    "topicTags": [
+      "3d-animation",
+      "manim",
+      "rust",
+      "agents",
+      "open-source"
+    ],
+    "worthFollowUp": "high"
+  },
+  {
+    "uid": "X-294",
+    "platform": "Twitter",
+    "category": "AI & LLM",
+    "subcategory": "mechanical-visualization agent skill",
+    "title": "Anatomy: one line in, interactive 3D machine out, as a Claude skill",
+    "author": "R",
+    "date": "2026-10-10",
+    "url": "https://x.com/wheresryan22/status/2108948624004526516",
+    "engagement": "354 replies · 1.7K reposts · 14.4K likes · 21.5K bookmarks · 1.7M views",
+    "essence": "R introduces Anatomy: describe a machine in one line and Claude brings it to life - interactive isometric wireframes to rotate and inspect, WebGL shaders for fire/water/plasma, real 3D motion with individually moving parts; installable as an agent skill, fully open source (github.com/wheresryan22/anatomy). The self-thread carries the skill page and repo; Teknium asks to ship it as an official Hermes built-in optional skill and the author agrees. 354 replies, 14,428 likes, 21,534 bookmarks, 1.7M views.",
+    "summary": "One-line-to-interactive-3D as a Claude Code skill with 21K bookmarks - the strongest distribution proof yet for skills as UI.",
+    "productLinks": [
+      "https://github.com/wheresryan22/anatomy"
+    ],
+    "hasMedia": "video",
+    "topicTags": [
+      "claude-skills",
+      "3d",
+      "webgl",
+      "data-viz",
+      "open-source"
+    ],
+    "worthFollowUp": "high"
+  },
+  {
+    "uid": "X-295",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "local CI runs",
+    "title": "Run GitHub Actions locally with act instead of push-wait loops",
+    "author": "Divy",
+    "date": "2026-10-10",
+    "url": "https://x.com/__newts/status/2108953677679710546",
+    "engagement": "3 replies · 3 reposts · 63 likes · 126 bookmarks · 5.8K views",
+    "essence": "Replying to Branko's complaint about testing GitHub Actions through commit-push-wait-4-minutes loops, Divy recommends nektos/act for running Actions locally (linked repo card). Branko knows it and says local runs just feel better; a follow-up pitches preloop as the agent-native alternative, noting act does not implement the official protocol (divergences happen) and runs containers rather than microVMs. 3 replies, 63 likes, 126 bookmarks.",
+    "summary": "act for local Actions runs, with preloop as the agent-native alternative - useful the next time CI iteration hurts.",
+    "productLinks": [
+      "https://github.com/nektos/act"
+    ],
+    "hasMedia": "",
+    "topicTags": [
+      "github-actions",
+      "ci",
+      "local-dev",
+      "testing"
+    ],
+    "worthFollowUp": "medium"
+  },
+  {
+    "uid": "X-296",
+    "platform": "Twitter",
+    "category": "AI & LLM",
+    "subcategory": "security-audit agent skill",
+    "title": "Cloudflare security-audit skill found real vulns via 26 Codex agents",
+    "author": "Elif",
+    "date": "2026-10-10",
+    "url": "https://x.com/ayyyelif/status/2108888757621440861",
+    "engagement": "8 replies · 29 reposts · 855 likes · 2.3K bookmarks · 120K views",
+    "essence": "Elif recommends Cloudflare's security-audit-skill (github.com/cloudflare/security-audit-skill): she gave it to Codex, 26 agents found real vulnerabilities - non-obvious ones her own months-long tests missed. Her self-thread explains the multi-agent setup: the skill decomposes the audit into tasks executed through Codex's subagent infrastructure. Replies agree it is token-hungry but solid, and get a how-to on the multi-agent part. 8 replies, 855 likes, 2,304 bookmarks.",
+    "summary": "A proven multi-agent security-audit workflow for Codex with real-vuln evidence - run it on your own repos.",
+    "productLinks": [
+      "https://github.com/cloudflare/security-audit-skill"
+    ],
+    "hasMedia": "image",
+    "topicTags": [
+      "security-audit",
+      "claude-skills",
+      "codex",
+      "multi-agent",
+      "cloudflare"
+    ],
+    "worthFollowUp": "high"
   }
 ]

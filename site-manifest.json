@@ -20,7 +20,7 @@
    "wiki": "AI & LLM",
    "title": "🗂 AI & LLM",
    "group": "category",
-   "count": 67
+   "count": 69
   },
   {
    "name": "Dev Tools & Productivity",
@@ -29,7 +29,7 @@
    "wiki": "Dev Tools & Productivity",
    "title": "🗂 Dev Tools & Productivity",
    "group": "category",
-   "count": 49
+   "count": 51
   },
   {
    "name": "Programming & CS Learning",
@@ -6318,6 +6318,81 @@
     "twitter",
     "ai-llm"
    ]
+  },
+  {
+   "path": "Entries/X-293 - manimgx-90x-faster-3d-animation-engine-built-for.md",
+   "wiki": "X-293 - manimgx-90x-faster-3d-animation-engine-built-for",
+   "title": "ManimGX: 90x-faster 3D animation engine built for agents",
+   "group": "entry",
+   "uid": "X-293",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "3d-animation",
+    "manim",
+    "rust",
+    "agents",
+    "open-source",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-294 - anatomy-one-line-in-interactive-3d-machine-out-a.md",
+   "wiki": "X-294 - anatomy-one-line-in-interactive-3d-machine-out-a",
+   "title": "Anatomy: one line in, interactive 3D machine out, as a Claude skill",
+   "group": "entry",
+   "uid": "X-294",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "claude-skills",
+    "3d",
+    "webgl",
+    "data-viz",
+    "open-source",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-295 - run-github-actions-locally-with-act-instead-of-p.md",
+   "wiki": "X-295 - run-github-actions-locally-with-act-instead-of-p",
+   "title": "Run GitHub Actions locally with act instead of push-wait loops",
+   "group": "entry",
+   "uid": "X-295",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "github-actions",
+    "ci",
+    "local-dev",
+    "testing",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-296 - cloudflare-security-audit-skill-found-real-vulns.md",
+   "wiki": "X-296 - cloudflare-security-audit-skill-found-real-vulns",
+   "title": "Cloudflare security-audit skill found real vulns via 26 Codex agents",
+   "group": "entry",
+   "uid": "X-296",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "security-audit",
+    "claude-skills",
+    "codex",
+    "multi-agent",
+    "cloudflare",
+    "twitter",
+    "ai-llm"
+   ]
   }
  ],
  "categories": [
@@ -6328,7 +6403,7 @@
    "wiki": "AI & LLM",
    "title": "🗂 AI & LLM",
    "group": "category",
-   "count": 67
+   "count": 69
   },
   {
    "name": "Dev Tools & Productivity",
@@ -6337,7 +6412,7 @@
    "wiki": "Dev Tools & Productivity",
    "title": "🗂 Dev Tools & Productivity",
    "group": "category",
-   "count": 49
+   "count": 51
   },
   {
    "name": "Programming & CS Learning",
@@ -12625,6 +12700,81 @@
     "ai-video",
     "motion-design",
     "prompt-engineering",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-293 - manimgx-90x-faster-3d-animation-engine-built-for.md",
+   "wiki": "X-293 - manimgx-90x-faster-3d-animation-engine-built-for",
+   "title": "ManimGX: 90x-faster 3D animation engine built for agents",
+   "group": "entry",
+   "uid": "X-293",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "3d-animation",
+    "manim",
+    "rust",
+    "agents",
+    "open-source",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-294 - anatomy-one-line-in-interactive-3d-machine-out-a.md",
+   "wiki": "X-294 - anatomy-one-line-in-interactive-3d-machine-out-a",
+   "title": "Anatomy: one line in, interactive 3D machine out, as a Claude skill",
+   "group": "entry",
+   "uid": "X-294",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "claude-skills",
+    "3d",
+    "webgl",
+    "data-viz",
+    "open-source",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-295 - run-github-actions-locally-with-act-instead-of-p.md",
+   "wiki": "X-295 - run-github-actions-locally-with-act-instead-of-p",
+   "title": "Run GitHub Actions locally with act instead of push-wait loops",
+   "group": "entry",
+   "uid": "X-295",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "github-actions",
+    "ci",
+    "local-dev",
+    "testing",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-296 - cloudflare-security-audit-skill-found-real-vulns.md",
+   "wiki": "X-296 - cloudflare-security-audit-skill-found-real-vulns",
+   "title": "Cloudflare security-audit skill found real vulns via 26 Codex agents",
+   "group": "entry",
+   "uid": "X-296",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "security-audit",
+    "claude-skills",
+    "codex",
+    "multi-agent",
+    "cloudflare",
     "twitter",
     "ai-llm"
    ]
