@@ -9483,5 +9483,37 @@
   "detailMissing": false,
   "diagnosis": null,
   "context": "r/"
+ },
+{
+  "uid": "X-297",
+  "platform": "Twitter",
+  "url": "https://x.com/alexgetmancom/status/2108858155153117618",
+  "author": "alex getman",
+  "handle": "@alexgetmancom",
+  "date": "2026-10-09T19:17:26.000Z",
+  "title": "Raise subagent prompt-cache TTL to 1h for long-running Claude subagents",
+  "mainText": "Claude Code users, change this setting if you use subagents. Claude has prompt caching with a 1-hour TTL, but that's only for the main agent. Subagents get just 5 minutes by default. If you use long-running subagents, I recommend increasing their cache TTL to 1 hour. Just add this to ~/.claude/settings.json: subagentPromptCacheTtl 1h. Not sure why this isn't the default.",
+  "threadText": "Sure, for short tasks you're right. But some subagents can go 5+ minutes between model calls, causing the cache to expire. So it depends on your workload.",
+  "discussion": "leeovery: Don't do this blindly. Awful advice. A 1hr cache will cost more for a subagent which might do 2 mins of work — alex getman: for short tasks you're right, depends on workload — CesarMilagent: ask Claude if this is right for you first — mooroobee: 5 minutes is between turns, an active subagent turns within seconds so fine",
+  "replyCount": 6,
+  "conversationTweets": 9,
+  "extraReplyCount": 84,
+  "stats": "90 replies, 99 reposts, 1637 likes, 2991 bookmarks, 157702 views",
+  "counts": {
+   "replies": 90,
+   "reposts": 99,
+   "likes": 1637,
+   "views": 157702,
+   "bookmarks": 2991
+  },
+  "quote": "",
+  "hasVideo": false,
+  "imageCount": 0,
+  "videoPoster": null,
+  "links": [],
+  "cardText": "",
+  "detailMissing": false,
+  "diagnosis": null,
+  "context": "r/"
  }
 ]

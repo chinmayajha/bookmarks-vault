@@ -20,7 +20,7 @@
    "wiki": "AI & LLM",
    "title": "🗂 AI & LLM",
    "group": "category",
-   "count": 69
+   "count": 70
   },
   {
    "name": "Dev Tools & Productivity",
@@ -6393,6 +6393,24 @@
     "twitter",
     "ai-llm"
    ]
+  },
+  {
+   "path": "Entries/X-297 - raise-subagent-prompt-cache-ttl-to-1h-for-long-r.md",
+   "wiki": "X-297 - raise-subagent-prompt-cache-ttl-to-1h-for-long-r",
+   "title": "Raise subagent prompt-cache TTL to 1h for long-running Claude subagents",
+   "group": "entry",
+   "uid": "X-297",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "claude-code",
+    "subagents",
+    "prompt-caching",
+    "cost-optimization",
+    "twitter",
+    "ai-llm"
+   ]
   }
  ],
  "categories": [
@@ -6403,7 +6421,7 @@
    "wiki": "AI & LLM",
    "title": "🗂 AI & LLM",
    "group": "category",
-   "count": 69
+   "count": 70
   },
   {
    "name": "Dev Tools & Productivity",
@@ -12775,6 +12793,24 @@
     "codex",
     "multi-agent",
     "cloudflare",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-297 - raise-subagent-prompt-cache-ttl-to-1h-for-long-r.md",
+   "wiki": "X-297 - raise-subagent-prompt-cache-ttl-to-1h-for-long-r",
+   "title": "Raise subagent prompt-cache TTL to 1h for long-running Claude subagents",
+   "group": "entry",
+   "uid": "X-297",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "claude-code",
+    "subagents",
+    "prompt-caching",
+    "cost-optimization",
     "twitter",
     "ai-llm"
    ]

@@ -13,12 +13,12 @@
 
 | | |
 |---|---|
-| **Total entries** | **338** |
-| **By source** | 🐦 X/Twitter **296** · 💬 Reddit **27** · 💼 LinkedIn **15** |
+| **Total entries** | **339** |
+| **By source** | 🐦 X/Twitter **297** · 💬 Reddit **27** · 💼 LinkedIn **15** |
 | **Categories** | 14 |
 | **With product/tryout links** | 127 |
 | **Video entries** | 31 |
-| **⭐ High follow-up** | 145 (medium 147 · low 46) |
+| **⭐ High follow-up** | 146 (medium 147 · low 46) |
 
 Each entry below shows the **essence of the whole discussion** (main post + thread + top replies)
 and a one-line **takeaway** — you shouldn't need to click through to get the point.
@@ -27,7 +27,7 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 | Category | Items | What's inside |
 |---|---:|---|
-| [AI & LLM](#ai-llm) | 69 | LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM … |
+| [AI & LLM](#ai-llm) | 70 | LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM … |
 | [Dev Tools & Productivity](#dev-tools-productivity) | 51 | IDEs, developer utilities, open-source libraries, CLI tools, workflows, editor/tool … |
 | [Programming & CS Learning](#programming-cs-learning) | 51 | Courses, playlists, books, tutorials, CS concepts (DB, OS, systems, ML theory), learning … |
 | [Interviews, OA & DSA](#interviews-oa-dsa) | 33 | Online assessments, interview experiences/questions, DSA prep, system design/HLD prep … |
@@ -82,9 +82,9 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 <a id="ai-llm"></a>
 
-## AI & LLM (69)
+## AI & LLM (70)
 
-<details><summary><b>Show 69 entries</b> — LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM workflows and tips</summary>
+<details><summary><b>Show 70 entries</b> — LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM workflows and tips</summary>
 
 - **[Sahaj won't push a PR without /codebase-design and /zero-tech-debt skills](https://x.com/iamsahaj_xyz/status/2105746013709631735)**  
   `Sahaj` · `2026-10-01` · `3 replies · 6 reposts · 250 likes · 28.8K views · 460 …`
@@ -455,6 +455,11 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Takeaway:** A proven multi-agent security-audit workflow for Codex with real-vuln evidence - run it on your own repos.
   - **Try it:** [github.com/cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)
   - 🏷 security-audit, claude-skills, codex, multi-agent, cloudflare
+- **[Raise subagent prompt-cache TTL to 1h for long-running Claude subagents](https://x.com/alexgetmancom/status/2108858155153117618)** ⭐  
+  `alex getman` · `2026-10-09` · `90 replies · 99 reposts · 1.6K likes · 3K bookmarks · 158K …`
+  - **Essence:** alex getman says Claude Code's main agent enjoys a 1-hour prompt-cache TTL but subagents default to 5 minutes, so long-running subagents should get subagentPromptCacheTtl 1h in ~/.claude/settings.json - wondering why it is not the default. Replies push back hard: leeovery calls it awful blind advice since a 1h cache costs more for 2-minute subagents, the author concedes it depends on workload (5+ minute gaps between calls expire the cache), CesarMilagent says ask Claude first, and mooroobee notes 5 minutes is between turns so an active subagent is normally fine. 90 replies, 1,637 likes, 2,991 bookmarks.
+  - **Takeaway:** A one-line cost/latency lever for subagent-heavy setups - but read the counterarguments before applying it blindly.
+  - 🏷 claude-code, subagents, prompt-caching, cost-optimization
 - **[Cut Claude Code / Cursor token usage ~60% with a small CLI tool](https://www.linkedin.com/feed/update/urn:li:activity:7462777658507051010)**  
   `Daniel Engelhardt` · `2026-05-20` · `♥94 · 37 comments · 5 reposts`
   - **Essence:** Daniel shares that a small open-source CLI (rtk), which rewrites bash commands into compact output before execution, cut his team's Claude Code and Cursor token usage by roughly 60%, and describes his own counter-analysis: a local audit skill over his session logs found about 28% of spend was cuttable, but rtk's output compression covered under 1% of his bill because almost all the money sat in bloated context — sessions crossing 200k into the 2x pricing tier, plus skills and plugins riding along on every request that were never called. He concludes output compression and context hygiene are different layers that stack, and thanks whoever pointed him at the tool. The comment thread is a …
@@ -2030,7 +2035,7 @@ bookmarks-vault/                  ← also an Obsidian vault (open this folder i
 ├── README.md                     ← you are here (generated)
 ├── Home.md                       ← Obsidian dashboard (generated)
 ├── Categories/*.md               ← 14 category index notes
-├── Entries/*.md                  ← 338 bookmark notes, one per entry (frontmatter + tags)
+├── Entries/*.md                  ← 339 bookmark notes, one per entry (frontmatter + tags)
 ├── Bookmarks_Categorized.xlsx    ← the full workbook: README + Master Index + a sheet per category
 ├── category_taxonomy.json        ← the fixed category list used for sorting
 ├── data/
@@ -2064,5 +2069,5 @@ python scripts/generate_obsidian.py    # rows → Home.md + Categories/ + Entrie
 ```
 
 _Extraction: Ego browser automation over X Bookmarks, Reddit Saved and LinkedIn Saved Posts._
-_Coverage: 296 X bookmarks (5 original tweets now deleted — flagged in their entries), all Reddit
+_Coverage: 297 X bookmarks (5 original tweets now deleted — flagged in their entries), all Reddit
 saved items, and all LinkedIn saved posts. Replies captured are the top ~15 per thread._
