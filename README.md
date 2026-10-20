@@ -13,12 +13,12 @@
 
 | | |
 |---|---|
-| **Total entries** | **339** |
-| **By source** | 🐦 X/Twitter **297** · 💬 Reddit **27** · 💼 LinkedIn **15** |
+| **Total entries** | **389** |
+| **By source** | 🐦 X/Twitter **344** · 💬 Reddit **30** · 💼 LinkedIn **15** |
 | **Categories** | 14 |
-| **With product/tryout links** | 127 |
-| **Video entries** | 31 |
-| **⭐ High follow-up** | 146 (medium 147 · low 46) |
+| **With product/tryout links** | 167 |
+| **Video entries** | 58 |
+| **⭐ High follow-up** | 173 (medium 166 · low 50) |
 
 Each entry below shows the **essence of the whole discussion** (main post + thread + top replies)
 and a one-line **takeaway** — you shouldn't need to click through to get the point.
@@ -27,19 +27,19 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 | Category | Items | What's inside |
 |---|---:|---|
-| [AI & LLM](#ai-llm) | 70 | LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM … |
-| [Dev Tools & Productivity](#dev-tools-productivity) | 51 | IDEs, developer utilities, open-source libraries, CLI tools, workflows, editor/tool … |
-| [Programming & CS Learning](#programming-cs-learning) | 51 | Courses, playlists, books, tutorials, CS concepts (DB, OS, systems, ML theory), learning … |
-| [Interviews, OA & DSA](#interviews-oa-dsa) | 33 | Online assessments, interview experiences/questions, DSA prep, system design/HLD prep … |
+| [AI & LLM](#ai-llm) | 93 | LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM … |
+| [Dev Tools & Productivity](#dev-tools-productivity) | 65 | IDEs, developer utilities, open-source libraries, CLI tools, workflows, editor/tool … |
+| [Programming & CS Learning](#programming-cs-learning) | 52 | Courses, playlists, books, tutorials, CS concepts (DB, OS, systems, ML theory), learning … |
+| [Interviews, OA & DSA](#interviews-oa-dsa) | 34 | Online assessments, interview experiences/questions, DSA prep, system design/HLD prep … |
 | [Jobs, Careers & Compensation](#jobs-careers-compensation) | 31 | Hiring posts, referral/job openings, offer comparisons, salary/CTC data, resume/ATS tips … |
 | [Quant & Trading](#quant-trading) | 24 | Quant trading/research roles, HFT firms, trading competitions, market structure, quant … |
 | [Personal Finance & Money](#personal-finance-money) | 9 | Credit cards, loans, insurance, investing, stocks/gold/crypto money matters, taxes … |
-| [Startups, Product & Marketing](#startups-product-marketing) | 32 | Founder content, growth/marketing tactics, product building, YC/startup programs, side … |
+| [Startups, Product & Marketing](#startups-product-marketing) | 41 | Founder content, growth/marketing tactics, product building, YC/startup programs, side … |
 | [Health, Fitness & Wellness](#health-fitness-wellness) | 12 | Exercise, sleep, supplements, nutrition, mental health, recovery, physical training |
 | [Life, Relationships & Self-Improvement](#life-relationships-self-improvement) | 4 | Relationships, habits, psychology, dating/marriage, soft skills, lifestyle design … |
-| [India Life & City Guides](#india-life-city-guides) | 2 | City guides (Bangalore/Delhi/Gurgaon), food, breweries, travel, India-specific living … |
+| [India Life & City Guides](#india-life-city-guides) | 3 | City guides (Bangalore/Delhi/Gurgaon), food, breweries, travel, India-specific living … |
 | [Entertainment, Culture & Fun](#entertainment-culture-fun) | 12 | Memes, TV shows, movies, fun threads, viral discussions, hobbies, internet culture, jokes |
-| [Tech Industry & News](#tech-industry-news) | 3 | Company announcements, industry drama, big-tech news, product launches by majors, policy |
+| [Tech Industry & News](#tech-industry-news) | 4 | Company announcements, industry drama, big-tech news, product launches by majors, policy |
 | [Other](#other) | 5 | Genuinely uncategorizable items; explain in subcategory |
 
 ## 🌟 Start here — high-signal picks
@@ -82,9 +82,9 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 <a id="ai-llm"></a>
 
-## AI & LLM (70)
+## AI & LLM (93)
 
-<details><summary><b>Show 70 entries</b> — LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM workflows and tips</summary>
+<details><summary><b>Show 93 entries</b> — LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM workflows and tips</summary>
 
 - **[Sahaj won't push a PR without /codebase-design and /zero-tech-debt skills](https://x.com/iamsahaj_xyz/status/2105746013709631735)**  
   `Sahaj` · `2026-10-01` · `3 replies · 6 reposts · 250 likes · 28.8K views · 460 …`
@@ -460,20 +460,153 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Essence:** alex getman says Claude Code's main agent enjoys a 1-hour prompt-cache TTL but subagents default to 5 minutes, so long-running subagents should get subagentPromptCacheTtl 1h in ~/.claude/settings.json - wondering why it is not the default. Replies push back hard: leeovery calls it awful blind advice since a 1h cache costs more for 2-minute subagents, the author concedes it depends on workload (5+ minute gaps between calls expire the cache), CesarMilagent says ask Claude first, and mooroobee notes 5 minutes is between turns so an active subagent is normally fine. 90 replies, 1,637 likes, 2,991 bookmarks.
   - **Takeaway:** A one-line cost/latency lever for subagent-heavy setups - but read the counterarguments before applying it blindly.
   - 🏷 claude-code, subagents, prompt-caching, cost-optimization
+- **[Indra OCR 1.1: 1M-param model does 44 pages/s on CPU and adds 80+ languages](https://x.com/VikParuchuri/status/2112216762767085883)** 🎬 ⭐  
+  `Vik Paruchuri` · `2026-10-19` · `37 replies · 112 reposts · 1.1K likes · 987 bookmarks · …`
+  - **Essence:** Datalab's 1.1 update keeps the 1M-parameter main OCR model and claims 44 pages/s on CPU, within four points of the 3.4B-parameter DeepSeek OCR 2 on OmniParseBench, 15x faster than Tesseract, and support for 80+ languages plus limited handwriting. The --math flag swaps in a larger math model for 12M total parameters. Changes from 1.0 are better language coverage, mostly-English handwriting, and fixes for rotation and layout. Replies ask for Indic languages and Hebrew (Hebrew is not in this version), report skewed pages still failing, and one developer already ported it to WASM and runs it in production.
+  - **Takeaway:** A meaningful speed/coverage bump for CPU OCR - best for high-volume ingestion where a tiny model's accuracy ceiling is acceptable.
+  - **Try it:** [huggingface.co/datalab-to/indra-ocr](https://huggingface.co/datalab-to/indra-ocr) · [github.com/datalab-to/indra](https://github.com/datalab-to/indra) · [www.datalab.to/blog/indra-ocr-1-1](https://www.datalab.to/blog/indra-ocr-1-1) · [huggingface.co/datasets/datalab-to/omni_parse_bench](https://huggingface.co/datasets/datalab-to/omni_parse_bench)
+  - 🏷 ocr, indra, datalab, cpu-inference, open-models
+- **[DeepSeek V4.1 Flash is free in OpenCode; Kuvo Code runs bot teams on it](https://x.com/beentherebtw/status/2111738514043724258)** 🎬  
+  `serhat` · `2026-10-18` · `11 replies · 11 reposts · 297 likes · 262 bookmarks · 19.4K …`
+  - **Essence:** Serhat points out that DeepSeek V4.1 Flash is free on OpenCode right now, so you can run a whole team of bots in Kuvo Code at zero cost. Kuvo's bots now hold standups: a lead splits the work and each bot executes its part. He clarifies that Kuvo uses the OpenCode engine, works offline, and does not require an OpenCode account; the recent OpenCode breach affected only Console users. Replies are wary - the breach, aggressive rate limits, model-switch crashes, and questions about Windows/mobile support dominate.
+  - **Takeaway:** A free way to experiment with multi-agent 'standup' workflows, with the honest caveat that free-model rate limits and OpenCode's breach are real risks.
+  - **Try it:** [www.notebookcheck.net/OpenCode-hacked-users-urged-to …](https://www.notebookcheck.net/OpenCode-hacked-users-urged-to-revoke-their-API-keys.1426957.0.html)
+  - 🏷 deepseek, opencode, kuvo, multi-agent, free-models
+- **[One command gives coding agents persistent memory via supermemory](https://x.com/supermemory/status/2111558196494303327)** 🎬  
+  `supermemory` · `2026-10-17` · `13 replies · 26 reposts · 488 likes · 398 bookmarks · 34K …`
+  - **Essence:** Supermemory's pitch is a single command - npx supermemory plugins - that adds persistent memory to coding agents, with a console for management. Replies surface the practical issues: copy-pasting the stylized Unicode command from the tweet fails, people want to know if it is open source and how it compares to Hindsight, and one user argues stale memories should decay rather than be related to new ones because they cause drift. The positive replies focus on how hard memory is and how much a one-liner helps.
+  - **Takeaway:** A low-friction memory layer worth testing, but the command must be retyped (not copied from the styled text) and memory-decay policy is still an open design question.
+  - **Try it:** [console.supermemory.ai](https://console.supermemory.ai/)
+  - 🏷 agent-memory, supermemory, mcp, context, claude-code
+- **[Garry Tan pairs Capy and Aside so agents code and set up DevOps](https://x.com/garrytan/status/2111235500568969451)**  
+  `Garry Tan` · `2026-10-16` · `82 replies · 30 reposts · 330 likes · 291 bookmarks · 48.5K …`
+  - **Essence:** Garry Tan's favorite new-project combo is Capy (agents write the first version) plus Aside (agents handle the DevOps), so the first code and the deploy pipeline happen in one flow. Replies are a mix of enthusiasm and warnings: Cloudflare's primitives are simpler in one account, 'devops is where most weekend projects die', one user claims Capy auto-uploads agent trajectories without consent, and others ask whether the agent handles 2FA or re-auth every run. The most useful counterpoint is that agent-owned deploys can create outages nobody understands.
+  - **Takeaway:** An influential endorsement of end-to-end agent building - useful as a workflow pointer, but read the privacy and operability warnings in the replies.
+  - **Try it:** [capy.ai](https://capy.ai/)
+  - 🏷 capy, aside, devops, agents, vibe-coding
+- **[The AGENTS.md 'two-way doors' rule that doubled one dev's shipping](https://x.com/daradoescode/status/2111150488980799536)** ⭐  
+  `Dara A.` · `2026-10-16` · `37 replies · 39 reposts · 1.9K likes · 2.8K bookmarks · …`
+  - **Essence:** Dara's AGENTS.md section tells agents: walk through two-way doors and show me after; stop at one-way doors. If the answer would be a rubber stamp, don't ask; if running something can answer the question, run it. Save questions for taste and product calls only, one at a time, with a recommendation, and 'no' is acceptable. Once a one-way door is opened it stays open for that work, including subagents, and the agent should return only if the door turns out different (more at stake, a check failing, something unknown). Replies focus on how much decision fatigue this removes and debate whether harnesses can be trusted with that autonomy.
+  - **Takeaway:** A compact, copy-pasteable autonomy contract that trades permission-seeking for stated reversibility - the best AGENTS.md snippet in this batch.
+  - 🏷 agents-md, autonomy, claude-code, workflow, decision-making
+- **[Send Opus 5.5 three test accounts and 14 real attacks before shipping](https://x.com/Voxyz_ai/status/2111079716832886886)** ⭐  
+  `Vox` · `2026-10-16` · `99 replies · 224 reposts · 3.4K likes · 7.8K bookmarks · …`
+  - **Essence:** Vox turns a vibe-coded app's pre-launch security review into a concrete red-team script: three subagents with three accounts (A, B, admin) run 14 attacks across impersonation, limit bypass and outside access, collect proof, then fix everything in one pass. The attacks are specific - query every table with the public key, swap A's id for B's, inject role: admin into a profile update, reuse a password-reset link, call APIs past the UI and credit limits, test open redirects with // and @, XSS in usernames and Markdown, SSRF against localhost and 169.254.169.254, cache leakage between accounts, unauthenticated preview links, and prompt injection through uploaded documents. Every item must …
+  - **Takeaway:** A reusable, unusually concrete security checklist for agent-built apps - but run it against your own test environment, not a production account you care about.
+  - 🏷 security, red-teaming, claude-code, subagents, vibe-coding
+- **[Earshot gives coding agents ears to judge and generate sound effects](https://x.com/LexnLin/status/2110878517197975717)** 🎬 ⭐  
+  `Leon Lin` · `2026-10-15` · `147 replies · 173 reposts · 2.9K likes · 3.4K bookmarks · …`
+  - **Essence:** Leon Lin's earshot is an MCP server and skill that lets a coding agent describe, match and find sound effects, render a visual page of a soundtrack, and critique audio with scores plus timestamped fixes - all locally on CPU. Earshot Forge goes further: the agent writes code to synthesize a sound, listens to it, scores it, rewrites the code and repeats until it is decent, comparing against real recordings because blind tests mislead. Lin's own blind test of 15 real-vs-generated pairs got 8 right, essentially a coin flip, which he admits. Setup is one command: claude mcp add earshot -- python -m earshot mcp. The launch video's entire soundtrack was made in code, but the top replies are blunt …
+  - **Takeaway:** A genuinely new modality for coding agents - audio QA and synthesis in one loop - though the demos show taste is still the bottleneck, not generation.
+  - **Try it:** [github.com/Leonxlnx/earshot](https://github.com/Leonxlnx/earshot)
+  - 🏷 audio, mcp, sound-design, claude-code, generative-audio
+- **[OpenDesign Motion makes agent videos with any model, no Opus required](https://x.com/OpenDesignHQ/status/2111023212129829086)** 🎬  
+  `OpenDesign` · `2026-10-16` · `70 replies · 169 reposts · 1.7K likes · 2K bookmarks · …`
+  - **Essence:** OpenDesign Motion is an open-source alternative to Claude Motion that decouples motion-video generation from one model: any agent and any model can drive it, and the launch video itself was made in OpenDesign. The thread is a demo reel for DeepSeek V4.1 Flash, showing tutorial-style motion graphics, a self-made launch video and multiple demos made without Opus 5.5. The author says it renders locally and new users get free trial credits. Replies split between people wanting to try it and motion designers unimpressed by the output - 'fast cuts with colourful distractions' that ignore motion-graphics principles - which is the same taste gap that shows up in every code-generated video launch.
+  - **Takeaway:** The interesting claim is model independence and local rendering, not the demo quality; treat it as an option to test against Claude Motion rather than a drop-in upgrade.
+  - 🏷 motion-design, video, open-source, deepseek, agents
+- **[DreamScale runs frontier robot models from a one-line prompt, no GPU](https://x.com/pentestduck/status/2110630587849720283)** 🎬 ⭐  
+  `Chris Yoo` · `2026-10-15` · `25 replies · 20 reposts · 232 likes · 166 bookmarks · 15.4K …`
+  - **Essence:** DreamScale Labs launched a hosted way to run physical-AI models on robots through a single sentence - 'I want to run a <model> on a <robot> to <do something>' - with no GPU and real-time inference over the cloud. It starts with MolmoAct2, pi0.5 and Flux 3 Action, and the simulator runs in the browser while making cloud inference calls. The pitch is that model/robot/task combinations are too confusing to evaluate, so the UI collapses them into one prompt. Replies immediately hit the two hard questions: how do you evaluate model quality across different robots, and whether cloud inference can survive packet loss and latency in safety-critical physical systems. Neither got a concrete answer in …
+  - **Takeaway:** A clean interface over a genuinely messy problem; the missing evaluation and latency story is what determines whether it is a demo or infrastructure.
+  - **Try it:** [www.dreamscalelabs.com](https://www.dreamscalelabs.com/)
+  - 🏷 robotics, physical-ai, cloud-inference, simulation, vla-models
+- **[Epstein.md is a 927K-character markdown file for banning AI design slop](https://x.com/shipper_now/status/2110637576935891122)** 🎬  
+  `Shipper` · `2026-10-15` · `138 replies · 167 reposts · 2.1K likes · 3.6K bookmarks · …`
+  - **Essence:** Shipper released epstein.md, a 927,400+ character markdown file meant to stop vibe-coded UI from looking like AI slop: no box shadows, no emojis, no green 'LIVE' badges, zero blue-purple gradients, and a blocklist of 350 overused AI words (delve, vibe, seamless). It is the product of 11 months of eight-hour doomscrolling and continuous additions to their own vibecoder, and it is integrated into shipper.now. The reaction is split between people who want the file and people dunking on the name and on the launch video, which itself uses checkmark emojis and looks like the slop it claims to ban. Several replies are simply 'what .md?' - the post never links the file directly, which blunts the …
+  - **Takeaway:** A memorable anti-slop ruleset with a self-inflicted naming and packaging problem; the content may be useful, but the launch is a case study in how a joke name can overshadow the artifact.
+  - **Try it:** [shipper.now](https://shipper.now/)
+  - 🏷 design, ai-slop, markdown, prompts, frontend
+- **[Bryel offers a domain-specific model trained from one prompt in seven days](https://x.com/KJHMiao/status/2110407267539722624)** 🎬 ⭐  
+  `Kevin Miao` · `2026-10-14` · `18 replies · 15 reposts · 216 likes · 308 bookmarks · 18.7K …`
+  - **Essence:** Kevin Miao pitches Bryel Foundry as model training reduced to one prompt: give it a teacher model and a domain, and within seven days you get a custom model up to 2x cheaper in that domain. The proof point is Coinbase's 9B model, which reportedly beat frontier models in its domain while being 55% faster and costing under $100 to train. Bryel says it has used the same tooling to train models for unicorns and is now opening it to outside teams, with a demo booking link. Replies are interested but probe the obvious weak spot - whether a model trained this way holds up on messy, unseen data - and Miao answers that the harder problem is keeping up as real-world inputs evolve, which is why …
+  - **Takeaway:** Model training as a service is getting cheap enough to try; the claim to verify is out-of-distribution robustness, not the headline training cost.
+  - **Try it:** [www.bryel.ai](https://www.bryel.ai/)
+  - 🏷 model-training, distillation, custom-models, bryel, cost
+- **[TasteSkill v2 gives coding agents art direction, real assets and a browser check](https://x.com/LexnLin/status/2110122106537050584)** 🎬 ⭐  
+  `Leon Lin` · `2026-10-13` · `94 replies · 279 reposts · 4.6K likes · 8.7K bookmarks · …`
+  - **Essence:** Leon Lin rebuilt TasteSkill from scratch: v2 reads a brief, writes down what is specific to that client, has a script choose three directions from twenty it researched, and then makes the agent gather real photos, maps and other assets with credits before building. A browser check verifies the result instead of trusting the model's self-report. The install is npx skills add Leonxlnx/taste-skill, and the repo includes example credits. Lin is candid that it is 'just some markdown files' and cannot solve general design taste, and the replies bear that out - some call it their go-to skill, others say the showcased outputs still look like AI slop. The launch video was itself coded with Cinetic …
+  - **Takeaway:** The strongest part is the workflow - research, constrained direction choice, real assets, browser verification - not a promise that markdown can replace a designer.
+  - **Try it:** [github.com/Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) · [github.com/Leonxlnx/taste-skill/blob/main/examples/v …](https://github.com/Leonxlnx/taste-skill/blob/main/examples/v2/CREDITS.md)
+  - 🏷 design, claude-code, skills, frontend, taste
+- **[A 15-year-old founder's full agent stack: t3, pstack, Notion, Linear and three cloud agents](https://x.com/leodev/status/2110373428456820809)** ⭐  
+  `Leo` · `2026-10-14` · `25 replies · 15 reposts · 333 likes · 522 bookmarks · 30.9K …`
+  - **Essence:** Leo, a 15-year-old founder shipping viral projects every one to two weeks, documents his whole setup: t3 code to remote into a Mac mini/Linux box, a custom pstack built for t3 and ov2, everything on a home server with Tailscale previews. Opus 5.5 is the daily driver, GPT-6.1 Sol reviews changes and sometimes does backend work, Haiku 5.5 handles codebase search and docs. Notion is long-term memory for both him and the agents, every thread starts as a Linear issue (even tiny fixes) so state is tracked and linked to the PR, and agents must test in a browser. He adds anti-slop oxlint rules, Paper for design, a mix of Capy/Hoplite/Devin for cloud work, Grok bot for managing agents, and Convex …
+  - **Takeaway:** Less a tool list than an operating model: one issue per thread, explicit memory, model specialization and browser-verified changes - copy the structure, not the exact stack.
+  - **Try it:** [t3.codes](https://t3.codes/) · [capy.ai](https://capy.ai/)
+  - 🏷 agent-workflow, t3-code, pstack, opus-5-5, linear
+- **[One paste-in prompt had Opus 5.5 find four performance bugs in three hours](https://x.com/emanueledpt/status/2110053042452312250)** ⭐  
+  `Emanuele Di Pietro` · `2026-10-13` · `18 replies · 48 reposts · 1.1K likes · 3.3K bookmarks · …`
+  - **Essence:** Emanuele Di Pietro gave Opus 5.5 on Extra High a single performance prompt and let it run for three hours on his app. It found four bugs he had missed: big chats now open 27% faster, switching back is 2x faster, scroll jumps dropped 98%, and reloads fetch the chat once instead of twice; scrolling old messages does 20% less work. The prompt is the artifact - improve startup, screen-open time, content loading and scrolling, find the real bottleneck, apply fixes, and benchmark before and after each one - and the benchmark requirement is what replies single out as the difference between real optimization and cosmetic refactoring. The test app was trysynara.com; one skeptic jokes that the only …
+  - **Takeaway:** A compact, reusable performance prompt whose key instruction is per-fix before/after measurement, not the model or the three-hour runtime.
+  - **Try it:** [www.trysynara.com](https://www.trysynara.com/)
+  - 🏷 performance, opus-5-5, prompts, benchmarking, frontend
+- **[Indra launches a 1M-parameter OCR model at 49 pages/s on CPU](https://x.com/VikParuchuri/status/2110058905875460393)** 🎬 ⭐  
+  `Vik Paruchuri` · `2026-10-13` · `129 replies · 295 reposts · 2.9K likes · 2.8K bookmarks · …`
+  - **Essence:** Datalab's Indra is a 1M-parameter OCR model built for CPU latency: 49 pages/s, 11x faster than PaddleOCR and 17x faster than Tesseract, with an OmniParseBench text score of 41.3 versus 35.8 and 19.3. It returns full layout and line bounding boxes, covers 60 languages and six scripts (Latin, Cyrillic, Greek, Devanagari, Bengali, Chinese), handles any script present in a PDF text layer, and has a special math mode. The trade-off is explicit: at 1M parameters, handwriting, complex tables and large pages degrade, and Datalab points those cases to Chandra. A pip install plus indra-ocr-viewer gives a local speed/settings tester. Replies ask for Telugu, Arabic and Hebrew, report failures on …
+  - **Takeaway:** A purpose-built triage/ingestion OCR model: choose it for throughput on clean documents, and route hard pages to a larger model rather than expecting one tiny model to do everything.
+  - **Try it:** [huggingface.co/datalab-to/indra-ocr](https://huggingface.co/datalab-to/indra-ocr) · [github.com/datalab-to/indra](https://github.com/datalab-to/indra) · [www.datalab.to/blog/indra-ocr](https://www.datalab.to/blog/indra-ocr) · [huggingface.co/datalab-to/chandra-ocr-2](https://huggingface.co/datalab-to/chandra-ocr-2)
+  - 🏷 ocr, indra, datalab, cpu-inference, open-models
+- **[Reason claims Codex+Astra-level Terminal-Bench performance at 22% lower cost](https://x.com/reasonmachines/status/2110001062216376724)** ⭐  
+  `Reason` · `2026-10-13` · `178 replies · 267 reposts · 2.9K likes · 2K bookmarks · …`
+  - **Essence:** Reason launched a coding harness pitched on cost efficiency: it says it beats Codex+Astra on Terminal-Bench 4.0 while costing 22% less, and it offers an unlimited free local tier alongside a Pro product. You can bring your own subscription or API, and the team published its work and a blog explaining the agent. The 678K views and 178 replies made it one of the bigger launches in this batch, but the thread is skeptical rather than celebratory: several users ask how it can be free when the last version demanded money before disappearing, others call it too good to be true, and one asks for a comparison against open-source harnesses. The Terminal-Bench claim is the one to reproduce before …
+  - **Takeaway:** A cost-focused coding harness worth benchmarking yourself; the free tier and the benchmark claim both need independent verification given the team's prior pricing flip-flop.
+  - **Try it:** [reasonmachines.com](https://reasonmachines.com/) · [reasonmachines.com/blog/introducing-reason-agent-1-1](https://reasonmachines.com/blog/introducing-reason-agent-1-1)
+  - 🏷 coding-harness, terminal-bench, cost, reason, agents
+- **[Appllama's open-source skills reverse engineer any app, design or interaction](https://x.com/jaimintf/status/2109632522292548091)**  
+  `jaimin` · `2026-10-12` · `7 replies · 14 reposts · 411 likes · 843 bookmarks · 38.2K …`
+  - **Essence:** jaimin points at the Appllama skills repo with a simple pitch - 'any app. any design. any interaction' - framed as the next step beyond a viral reverse-engineering demo: 'you think this is cool? wait until you find out about...' The skills are open-source and free, work with all models, and jaimin recommends Codex because it has native image generation, which helps when the target is a visual interface. The quoted post is just 'Reverse Engineer Anything. Software is done.' Replies ask which model to use and whether Appllama itself is now fully paywalled, which matters because the skills are only useful if the underlying service is still accessible.
+  - **Takeaway:** A free skill pack for cloning app flows and UI; the repo is the artifact, the 'software is done' framing is marketing.
+  - **Try it:** [github.com/Appllama/appllama-skills](https://github.com/Appllama/appllama-skills)
+  - 🏷 reverse-engineering, skills, codex, ui, open-source
+- **[Huashu-art-motion gives Opus 5.5 35 coded art styles plus a film QA agent](https://x.com/Voxyz_ai/status/2109690569563746755)** 🎬 ⭐  
+  `Vox` · `2026-10-12` · `34 replies · 217 reposts · 2K likes · 3.6K bookmarks · …`
+  - **Essence:** Vox's huashu-art-motion is a skill that lets Opus 5.5 generate animations in 35 art styles by writing code: 17 that work for any subject (Van Gogh, Seurat, Bauhaus, Ghibli watercolor, 8-bit, vaporwave), 18 for art-history time travel (Monet, Klimt, Dalí, Hopper, cave painting, Greek pottery) and 9 explainer styles (3Blue1Brown, keynote, whiteboard, Vox explainer, Kurzgesagt). Each style specifies what actually moves, music is synthesized note-by-note on a BPM grid, and a QA script plus an independent subagent watches the finished film. The delivery script blocks more than 0.3 seconds of blank frames and blue-purple backgrounds over 30% of the film, which it explicitly labels AI slop. Docs …
+  - **Takeaway:** A unusually complete motion-generation pipeline - style cards, beat-synced audio, independent QA and anti-slop gates - worth trying if you already generate video with code.
+  - **Try it:** [github.com/alchaincyf/huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion)
+  - 🏷 motion-design, claude-code, skills, video, art-styles
+- **[Treg open-sources people search for Claude at $0.0089 per lead](https://x.com/treg_ai/status/2109615287062745090)** 🎬 ⭐  
+  `Treg` · `2026-10-12` · `122 replies · 186 reposts · 2.5K likes · 6.5K bookmarks · …`
+  - **Essence:** Treg released an open-source people-search tool for Claude: $0.0089 per lead instead of $600 subscriptions, number one on People Search Bench, zero markup and fully open source. Setup is deliberately agent-native - paste 'set up treg - https://treg.to/llms.txt' into Claude or Codex - and the repo is the same superdesigndev/treg codebase behind its earlier AEO toolkit. The pitch lands because it unbundles one afternoon of research from a monthly subscription, which is exactly what the top replies say they wanted. Others report good results with Hermes and appreciate that Treg shows the cost of each action before running it, while B2B lead-list questions remain unanswered.
+  - **Takeaway:** A cheap, open alternative to subscription people-search tools; the per-lead pricing and pre-run cost display are the parts worth copying.
+  - **Try it:** [treg.to/people-search](https://treg.to/people-search) · [github.com/superdesigndev/treg](https://github.com/superdesigndev/treg) · [treg.to/llms.txt](https://treg.to/llms.txt)
+  - 🏷 people-search, lead-generation, open-source, claude, treg
+- **[fframes recreates a viral video with Rust, SVG and shaders - and beats the original's polish](https://x.com/neogoose_btw/status/2107645063895699515)** 🎬 ⭐  
+  `Dmitriy Kovalenko` · `2026-10-07` · `75 replies · 88 reposts · 2.2K likes · 2.1K bookmarks · …`
+  - **Essence:** Dmitriy Kovalenko answered a 'let's see AI recreate this' challenge by rebuilding the video as an fframes project with Codex, using only Rust, SVG and shaders. He argues the result is better than the original: fframes is faster, runs without a browser, avoids token waste on flex/grid layout, and has a built-in agentic verification loop for audio, collisions and motion. He pushed past the last 10% of detail and is open-sourcing the template. The thread's best tension is exactly that last 10% - the original creator's point is that taste is the hard part, and a reply pushes back that Kovalenko's transitions are actually better. People also want to know which model (Astra) and whether Codex …
+  - **Takeaway:** A concrete example of code-native video beating a general-purpose editor on iteration speed, with the taste question still unresolved.
+  - 🏷 fframes, codex, rust, svg, motion-design
+- **[Phone-use plus OpenAI's Decisions API lets an agent choose its next action 10x faster](https://x.com/abdullababakre/status/2107706550173434303)** 🎬  
+  `Abdulla Ababakre` · `2026-10-07` · `3 replies · 1 repost · 83 likes · 67 bookmarks · 5.5K views`
+  - **Essence:** Abdulla Ababakre pairs phone-use, his agent that operates a phone, with OpenAI's new Decisions API, which lets an app choose the right model, tool or action in near real time. OpenAI says Decisions is up to 10x faster than GPT-6 Luna through the Responses API, and the combo is aimed at the step where a phone agent has to decide what to tap next without a full model round-trip. Phone-use currently runs on Ababakre's own device cloud, with a local version promised soon. The thread is tiny, but the one substantive question - whether it can drive a physical iPhone rather than a hosted device - points at the gap between a demo and a product.
+  - **Takeaway:** A promising latency fix for phone agents; the missing piece is local/physical-device support, which is still promised rather than shipped.
+  - 🏷 phone-use, openai, decisions-api, agents, latency
 - **[Cut Claude Code / Cursor token usage ~60% with a small CLI tool](https://www.linkedin.com/feed/update/urn:li:activity:7462777658507051010)**  
   `Daniel Engelhardt` · `2026-05-20` · `♥94 · 37 comments · 5 reposts`
   - **Essence:** Daniel shares that a small open-source CLI (rtk), which rewrites bash commands into compact output before execution, cut his team's Claude Code and Cursor token usage by roughly 60%, and describes his own counter-analysis: a local audit skill over his session logs found about 28% of spend was cuttable, but rtk's output compression covered under 1% of his bill because almost all the money sat in bloated context — sessions crossing 200k into the 2x pricing tier, plus skills and plugins riding along on every request that were never called. He concludes output compression and context hygiene are different layers that stack, and thanks whoever pointed him at the tool. The comment thread is a …
   - **Takeaway:** Counterintuitive cost data for AI-coding teams: output compression was <1% of the bill, while idle context (200k sessions, unused skills) was the real leak.
   - **Try it:** [github.com/rtk-ai/rtk](https://github.com/rtk-ai/rtk) · [github.com/professorpalmer/Puppetmaster](https://github.com/professorpalmer/Puppetmaster) · [analyzer.spec-kitty.ai](https://analyzer.spec-kitty.ai/)
   - 🏷 claude-code, token-cost, ai-tooling, llm-ops, context-window
+- **[Academic Research Skills: a 52K-star Claude Code suite for the whole research pipeline](https://www.reddit.com/r/BestGitHubRepos/comments/1x8vqkc/academic_research_skills_a_comprehensive_suite_of/)** ⭐  
+  `u/Artilas_Digital` · `2026-10-18` · `↑234 · 0 comments`
+  - **Essence:** A BestGitHubRepos writeup of Imbad0202/academic-research-skills, a Claude Code plugin suite that covers research through publication with separate skills for each stage. Deep Research runs a 13-agent team with a Socratic guided mode, PRISMA systematic-review support, intent detection, dialogue-health monitoring, optional cross-model devil's advocate and Semantic Scholar verification. Academic Paper uses 12 agents for writing, style calibration, LaTeX hardening, visualization and citation conversion; Academic Paper Reviewer runs a 7-agent peer review with journal-fit, three dynamic reviewers and a devil's advocate; Academic Pipeline orchestrates 10 stages with checkpoints and claim …
+  - **Takeaway:** An unusually complete academic workflow for Claude Code, especially the blinded screening and PRISMA machinery - treat the star count as marketing until you inspect the repo.
+  - **Try it:** [github.com/Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills)
+  - 🏷 academic-research, claude-code, prisma, peer-review, skills
+- **[last30days: an agent skill that searches Reddit, X, YouTube, HN and Polymarket at once](https://www.reddit.com/r/BestGitHubRepos/comments/1x5x7e2/last30days_ai_agent_skill_that_researches_any/)** ⭐  
+  `u/company_url_finder` · `2026-10-14` · `↑481 · 7 comments`
+  - **Essence:** last30days is an agent-led search engine that queries Reddit, X, YouTube, TikTok, Hacker News, Polymarket, GitHub, arXiv and the open web in parallel, then scores results by the engagement they earned - upvotes, likes, views, and real money on prediction markets - instead of editorial rank. Reddit, HN, Polymarket and GitHub work with zero config; a setup wizard unlocks X, YouTube, TikTok and arXiv using your own keys or browser sessions. An AI judge synthesizes the scored results into one brief. The repo reports 64,193 stars, 5,606 forks, v3.28.0, 155 contributors and Matt Van Horn as top contributor. The seven comments are a fair cross-section: one calls upvote-scoring an echo chamber, a …
+  - **Takeaway:** A practical way to get a cross-platform sentiment brief without building nine scrapers; the echo-chamber critique is real, so use it as one input rather than ground truth.
+  - **Try it:** [github.com/mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)
+  - 🏷 research, agent-skills, reddit, polymarket, search
 
 </details>
 
 <a id="dev-tools-productivity"></a>
 
-## Dev Tools & Productivity (51)
+## Dev Tools & Productivity (65)
 
-<details><summary><b>Show 51 entries</b> — IDEs, developer utilities, open-source libraries, CLI tools, workflows, editor/tool releases, dev infrastructure</summary>
+<details><summary><b>Show 65 entries</b> — IDEs, developer utilities, open-source libraries, CLI tools, workflows, editor/tool releases, dev infrastructure</summary>
 
 - **[pnpm asks your coding agent to fix its 629 open issues](https://x.com/pnpmjs/status/2103438679478010198)**  
   `pnpm` · `2026-09-25` · `33 replies · 60 reposts · 567 likes · 61.7K views · 266 …`
@@ -743,6 +876,81 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Takeaway:** act for local Actions runs, with preloop as the agent-native alternative - useful the next time CI iteration hurts.
   - **Try it:** [github.com/nektos/act](https://github.com/nektos/act)
   - 🏷 github-actions, ci, local-dev, testing
+- **[Agent tree component shows which agent spawned which](https://x.com/flohoeller/status/2112150373565612534)** 🎬  
+  `Flo` · `2026-10-19` · `85 replies · 114 reposts · 2.7K likes · 2.9K bookmarks · …`
+  - **Essence:** Design engineer Flo demos an agent-tree UI component that visualizes parent/child agent relationships - who started whom. The 2.7K-like reaction is mostly design admiration for his component library, with practical questions about the stack (BaseUI, shadcn, Radix), whether a parent's cost includes its children, and requests to port it to Claude Desktop, t3 code and Supacode. Suggested improvements: keep the parent sticky while scrolling long child lists, and show children that outlive a stopped parent. No code or link is included.
+  - **Takeaway:** A strong interaction pattern for agent observability UIs - worth copying the tree idea, but the post is inspiration rather than a usable component.
+  - 🏷 agent-ui, observability, component-design, subagents, design
+- **[agent-browser snapshot --delta cuts form-filling tokens by 73x](https://x.com/ctatedev/status/2111930462176432333)** 🎬 ⭐  
+  `Chris Tate` · `2026-10-18` · `44 replies · 52 reposts · 997 likes · 631 bookmarks · 35.5K …`
+  - **Essence:** Vercel Labs' agent-browser added 'snapshot --delta', which returns only what changed since the previous snapshot instead of the whole page; the demo shows 73x fewer tokens while filling a form. The thread clarifies that delta state resets between sessions, so for long gaps you should save a baseline and run 'agent-browser diff snapshot --baseline last.txt'. Replies are enthusiastic (Rauch: 'Epic'), but the useful pushback is that 73x is a best-case minimal form, an empty delta is ambiguous between unchanged and never-loaded, and '--full' is worth re-sending after context compaction.
+  - **Takeaway:** A concrete token-cost win for repeated agent/browser loops - use a saved baseline for long-running monitors and treat empty deltas with suspicion.
+  - **Try it:** [github.com/vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser)
+  - 🏷 agent-browser, vercel, browser-automation, tokens, agents
+- **[Skill-issue.in is a ranked directory for AI agent skills](https://x.com/Palakonweb/status/2111749418265485493)**  
+  `Palak` · `2026-10-18` · `40 replies · 298 reposts · 4K likes · 9.2K bookmarks · 551K …`
+  - **Essence:** Palak posts a bare link to Skill-issue.in, which surfaces and ranks agent skills. The 4K-like, 9.2K-bookmark reaction is out of proportion to the one-line post, and replies supply the context: it overlaps with skills.sh and the wave of skill directories, the site's own design could use the skills it ranks, and the ranking mechanic is the differentiator. Several people ask what it is or which skill is most useful; nobody posts a rigorous comparison.
+  - **Takeaway:** A discovery shortcut for the exploding agent-skills ecosystem - useful for browsing, but the ranking methodology isn't explained in the post.
+  - **Try it:** [skill-issue.in](https://skill-issue.in/)
+  - 🏷 agent-skills, directory, discovery, ranking, claude-code
+- **[REA babysitting prompt turns free GLM-5.3-Flash into a reverse-engineering analyst](https://x.com/qwerty__cs/status/2111325567077544219)**  
+  `qwerty__cs` · `2026-10-17` · `72 replies · 274 reposts · 2.1K likes · 3.1K bookmarks · …`
+  - **Essence:** The 'REA Reverse Engineering Babysitting Tutorial' is a four-step workflow: install OpenCode, pick the free GLM-5.3-Flash model, paste the prompt shown in the image, and let the agent drive REA (Reverse Engineer Anything). The prompt is a structured operating contract - objective, requirements, decisions, work state - demanding evidence anchors (path/line/address/md5), four-part reports, and strict rules about worktrees, file writes and uploads. Replies are split: a reverse engineer with IDA experience calls it overhyped versus IDA MCP + AI, while others confirm Frida memory hooks work until Zhipu patches the free window. The best tips are to split decompilation into a module inventory then …
+  - **Takeaway:** A reusable prompt structure for agent-assisted RE, not a magic button - treat the 'no bans' claim skeptically and verify findings against real tooling.
+  - 🏷 reverse-engineering, rea, opencode, glm-5-3-flash, prompting
+- **[Object storage benchmark: Railway/Tigris fastest, Neon slowest and priciest](https://x.com/leodev/status/2110874163066159383)** ⭐  
+  `Leo` · `2026-10-15` · `67 replies · 49 reposts · 823 likes · 671 bookmarks · …`
+  - **Essence:** Leo benchmarked S3, Cloudflare R2, Railway Buckets, Backblaze B2 and Neon Object Storage from six locations using the Files SDK for fairness. Railway was fastest on time-to-first-byte and 100 MB downloads from every location; R2 was fastest for 1 MB uploads overall but slowest from Virginia; Railway was also cheapest, while S3 and Neon were expensive. The benchmark code and site are open source. Replies congratulate Neon on being both slowest and most expensive, note that Railway's S3 is Tigris under the hood, and ask for Tigris itself to be tested.
+  - **Takeaway:** Rare public, reproducible storage numbers - Railway/Tigris look like the value pick, but rerun the benchmark for your own regions and file sizes.
+  - **Try it:** [github.com/opencoredev/storage-bench](https://github.com/opencoredev/storage-bench) · [storage-bench.vercel.app](https://storage-bench.vercel.app/)
+  - 🏷 object-storage, benchmark, railway, cloudflare-r2, s3
+- **[Reloop undercuts Resend at $20 per 100K emails and adds inbound mail](https://x.com/ThatsPranav/status/2110817677778489400)** ⭐  
+  `Pranav Patel` · `2026-10-15` · `52 replies · 37 reposts · 603 likes · 783 bookmarks · 70.1K …`
+  - **Essence:** Pranav Patel launches Reloop, an open-source email platform positioned as a cheaper Resend: 100K emails for $20/month instead of $90, free to 3,000, with an email API, SMTP relay, inboxes for AI agents, automations, deliverability guardrails, bring-your-own-SMTP and inbound email. It is agentic (the whole UI is available to an AI) and self-hostable. The 'I reverse engineered Resend' framing is what the thread fights about: the top reply says vibe-coding a clone is not reverse engineering and that open-source Resend alternatives have existed for years, another says the price matches Resend without its reliability, and others ask how much was him versus a model. Patel answers that the …
+  - **Takeaway:** A credible cheap Resend alternative if deliverability holds up - the launch is also a case study in how 'reverse engineered' framing invites credit and reliability scrutiny.
+  - **Try it:** [reloop.sh](https://reloop.sh/) · [github.com/opencoredev/email-sdk/pull/261](https://github.com/opencoredev/email-sdk/pull/261)
+  - 🏷 email, resend, open-source, smtp, deliverability
+- **[A Codex-built whey price bot found a 2 kg deal the apps buried](https://x.com/unk_data/status/2110661566031172042)**  
+  `Vijay` · `2026-10-15` · `9 replies · 2 reposts · 189 likes · 80 bookmarks · 10.3K …`
+  - **Essence:** Vijay asked Codex to reverse engineer an Android quick-commerce price-comparison app, pulled its backend endpoints with the REA skill, and built a whey-protein price-alert bot. It paid off immediately: 2 kg for ₹3,993 on Instamart when the going rate was ₹3,200+ for 1 kg. He says the bot polls twice a day, that proxies are the real operational headache because sites block scrapers, and that the whole thing is easy enough to vibe-code now. Replies ask for the repo, the polling rate and which whey; the more useful skepticism is that reverse-engineering works when the target API is clean but falls apart on messy DOMs, and that IP/account blocking is the part nobody demos.
+  - **Takeaway:** A small, concrete example of agent-built scraping economics - the win is the endpoint discovery, the hidden cost is proxies and anti-bot maintenance.
+  - 🏷 codex, scraping, price-tracking, reverse-engineering, quick-commerce
+- **[Design.how ships a copy-paste design system for AI apps and dev tools](https://x.com/arlanmarat/status/2110425467996209244)** 🎬  
+  `Arlan Marat` · `2026-10-14` · `23 replies · 9 reposts · 341 likes · 331 bookmarks · 13.1K …`
+  - **Essence:** Arlan Marat published a new design system aimed specifically at AI apps and developer tools, with copyable code at design.how/systems. The post is deliberately minimal - a link and 'new design system' - but the replies show the niche it fills: people are tired of agents 'creatively reinterpreting' a palette into six shades of purple, and a constrained system gives them something concrete to build against. Marat says his own agent came up with it, which is either a useful signal about agent-generated design systems or a warning about how little human curation is behind it, depending on your priors.
+  - **Takeaway:** A lightweight, copy-paste starting point for AI-product UI; the value is constraint and speed, not originality.
+  - **Try it:** [design.how/systems](https://design.how/systems)
+  - 🏷 design-system, ui, ai-products, dev-tools, frontend
+- **[SlashDocs is Google Docs for the HTML and Markdown agents generate](https://x.com/shashank_kr/status/2109600308825587994)** 🎬 ⭐  
+  `Shashank Kumar` · `2026-10-12` · `122 replies · 191 reposts · 1.4K likes · 957 bookmarks · …`
+  - **Essence:** Shashank Kumar open-sourced SlashDocs, a collaboration hub for the HTML and Markdown documents agents now generate. It hosts decks, dashboards and reports in one place, with sharing, permissions and inline comments, and agents can read the feedback and update the same document instead of generating another file and another link. The proof is internal scale at Razorpay: 28,000+ documents created, and more than half of all documents generated there now live in SlashDocs. It is self-hosted, agent-agnostic and open source, with a hosted entry point at razorpay.com/slash-docs. Replies probe the obvious gaps - native Slack integration, how agents read comments (MCP?), comparison with Notion - and …
+  - **Takeaway:** A sensible missing layer for agent output: one canonical, commentable document instead of a trail of regenerated files and links.
+  - **Try it:** [razorpay.com/slash-docs](https://razorpay.com/slash-docs/)
+  - 🏷 documents, collaboration, agents, open-source, razorpay
+- **[Delete 40K lines of tests, then lint the agent so it cannot write them again](https://x.com/0xblacklight/status/2109669971148067031)** ⭐  
+  `Kyle Mistele` · `2026-10-12` · `21 replies · 13 reposts · 515 likes · 400 bookmarks · 38K …`
+  - **Essence:** Kyle Mistele deleted 40,000 lines of tests, added a pile of oxlint rules to stop the agent from recreating them, and built a control loop that gardens and prunes what remains. The deleted tests were specific anti-patterns, not all tests: anything that mocks modules instead of using Effect's dependency injection and test layers, plus the usual low-value React unit tests. The control loop is documented as a design-control-loop skill on skills.sh, and he says the full thing will be open-sourced. Replies are mostly people asking for the rules, with one useful counterpoint that agents have already stopped writing obviously vacuous tests and the remaining cases are subtler - which is exactly …
+  - **Takeaway:** A strong pattern for keeping agent-written test suites from bloating: encode the banned test shapes as lint rules and let a loop prune the rest.
+  - **Try it:** [www.skills.sh](https://www.skills.sh/)
+  - 🏷 testing, oxlint, agents, effect, code-quality
+- **[FSearch 0.2: 150x faster grep on just-edited files and a 74% smaller index](https://x.com/itsnoahd/status/2109675745408930191)** 🎬  
+  `Noah` · `2026-10-12` · `19 replies · 22 reposts · 487 likes · 235 bookmarks · 17.5K …`
+  - **Essence:** Noah shipped FSearch 0.2, a macOS Finder replacement with a much smaller and faster index: 150x faster to grep a file you just edited, a 74% smaller index (1.5 GB to 388 MB for him), 35% more files covered, 65% less daemon memory on Chromium and 32% less peak memory while indexing. He is explicit that raw speed is not the goal - some areas regress by 0.4x - and that the focus is system impact and coverage, which is why he calls comparisons to fff apples-to-oranges. The repo is public, and the demo videos were made by asking Claude to record them. Replies ask about Homebrew and Windows support, and one makes the sharp point that reading edited files while the index catches up is the feature …
+  - **Takeaway:** A Finder replacement optimized for low system cost and fresh-file search, not benchmark bragging rights; the small index with broader coverage is the interesting trade.
+  - **Try it:** [github.com/noahdunnagan/fsearch](https://github.com/noahdunnagan/fsearch)
+  - 🏷 file-search, macos, indexing, finder, performance
+- **[ObsidianUI ships an open-source dashboard shell after a three-hour build](https://x.com/athrix_codes/status/2107718490585227657)** 🎬  
+  `Athrix` · `2026-10-07` · `14 replies · 3 reposts · 147 likes · 137 bookmarks · 7.5K …`
+  - **Essence:** Athrix spent three hours building a dashboard component and released it as open source in ObsidianUI, with a live docs page at obsidianui.dev/docs/dashboard-shell and a GitHub repo. The pitch is aimed squarely at paid UI libraries - 'every paid ui lib will hate us' - and the component uses duotone icons and FactoryAI in the build. The thread is small but positive, with people asking about the icon pack and recording tool and one noting that three hours for a polished shell is a sweet spot. The repo is also being pushed toward 1,000 stars, so this is early-stage and worth watching rather than adopting blind.
+  - **Takeaway:** A free dashboard shell for fast internal tools; the three-hour build is impressive, but the library is young and lightly tested.
+  - **Try it:** [www.obsidianui.dev/docs/dashboard-shell](https://www.obsidianui.dev/docs/dashboard-shell) · [www.obsidianui.dev](https://www.obsidianui.dev/) · [github.com/Atharvsinh-codez/ObsidianUI](https://github.com/Atharvsinh-codez/ObsidianUI)
+  - 🏷 ui-library, dashboard, open-source, react, components
+- **[Capy's Guided Reviews turn a big PR into chapters with a before/after overview](https://x.com/0xluffy/status/2107593041519501477)** 🎬 ⭐  
+  `luffy` · `2026-10-06` · `31 replies · 46 reposts · 1K likes · 1.7K bookmarks · …`
+  - **Essence:** Capy added Guided Reviews: instead of dumping a big diff in file order, it opens with a before/after overview, groups files into chapters explained in plain language, and orders the core change first with database, tests and generated files last. It shipped in Capy 0.4.4 alongside marketplace plugins, custom models on your own key and desktop threads without a project. The demo is polished enough that the main reply thread is an accusation - this looks like Linear's guided diffs - and luffy answers that it was inspired by Linear but Capy had it in v1, lost it in v2 and is bringing it back with its own review agent. Either way, the interaction pattern is becoming table stakes for agent-era …
+  - **Takeaway:** A good default structure for reviewing agent-sized diffs - overview, chapters, core-first ordering - regardless of whether Capy or Linear ships it better.
+  - **Try it:** [capy.ai](https://capy.ai/)
+  - 🏷 code-review, capy, pull-requests, linear, agents
 - **[I built Kal, an interpreted programming language from scratch!](https://www.reddit.com/r/IndiaTech/comments/1uf263n/i_built_kal_an_interpreted_programming_language/)**  
   `u/KILLinefficiency` · `2026-06-25` · `↑21 · 13 comments`
   - **Essence:** OP releases v0.1.0 of Kal, a lightweight interpreted language written from scratch in C++ with no third-party dependencies, GPL v3, mixing paradigms and embeddable into C++, Python and JavaScript; he ships a website and GitHub repo and asks for stars. Replies ask whether it was a team effort — OP says he's a solo dev and that this first release took four years with no libraries and no AI — plus what Kal is good for today (CLI tools and embedding) and what the long-term goal is (still being defined). Commenters are impressed by the codebase at a glance, with one reminiscing about dreaming of writing his own OS, and the thread's tone is supportive rather than critical.
@@ -767,14 +975,20 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Takeaway:** An elegant 'beat the take-home by generalizing' move: instead of hand-tuning one program, compile the whole machine class — with the full technique write-up on GitHub.
   - **Try it:** [github.com/fiigii/ai-comp](https://github.com/fiigii/ai-comp)
   - 🏷 compiler-optimization, vliw, anthropic, interview-challenge, code-generation
+- **[Repowise indexes your codebase once so agents stop rediscovering it](https://www.reddit.com/r/BestGitHubRepos/comments/1x0sa3u/repowise_understand_your_codebase_without_paying/)** ⭐  
+  `u/company_url_finder` · `2026-10-08` · `↑615 · 19 comments`
+  - **Essence:** Repowise builds a local index of code, call graph, git history, tests, docs and design decisions, then answers the questions agents keep re-deriving: what calls this, what breaks if I change it, what is dead, which tests should run, and why it was built this way. Graph, risk, health, tests and dead-code analysis make zero LLM calls and need no API key; the repo is AGPL-3.0 or commercial, self-hosted, and parses 26 languages. It also generates a wiki per module, checks Markdown references against the tree, mines ADRs and WHY comments with staleness flags, computes bus factor and suggested reviewers, and does symbol-level blast-radius analysis. Setup is an MCP paste-in: read …
+  - **Takeaway:** A strong complement to a coding agent's context window: deterministic repo knowledge that is indexed once and reused, not re-read on every prompt.
+  - **Try it:** [github.com/repowise-dev/repowise](https://github.com/repowise-dev/repowise) · [docs.repowise.dev/setup.md](https://docs.repowise.dev/setup.md) · [repowise.dev](https://repowise.dev/)
+  - 🏷 codebase-index, mcp, call-graph, code-review, repowise
 
 </details>
 
 <a id="programming-cs-learning"></a>
 
-## Programming & CS Learning (51)
+## Programming & CS Learning (52)
 
-<details><summary><b>Show 51 entries</b> — Courses, playlists, books, tutorials, CS concepts (DB, OS, systems, ML theory), learning roadmaps</summary>
+<details><summary><b>Show 52 entries</b> — Courses, playlists, books, tutorials, CS concepts (DB, OS, systems, ML theory), learning roadmaps</summary>
 
 - **[Honeypot fields: a fake hidden input that catches bots](https://x.com/CodeWithTamara/status/2100940633896604051)**  
   `Tamara Martinović` · `2026-09-18` · `73 replies · 44 reposts · 1.2K likes · 82.9K views · 356 …`
@@ -1031,6 +1245,12 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Takeaway:** Two strong Git-under-the-hood resources plus honest clarification of what the playlist actually is.
   - **Try it:** [wyag.thb.lt](https://wyag.thb.lt)
   - 🏷 git, systems programming, rust, version control, build from scratch
+- **[Sys0 launches an interactive systems course and gets accused of repackaging open source](https://x.com/codersGyan/status/2111029871925194892)**  
+  `Rakesh K` · `2026-10-16` · `40 replies · 28 reposts · 307 likes · 325 bookmarks · 37.8K …`
+  - **Essence:** Rakesh K launched sys0.in, an interactive way to learn systems programming, and the reply section turned into a plagiarism trial. Multiple replies accuse him of taking the open-source breakscale.tech, adding a paywall and charging around ₹4,000; one calls it '1:1 cloning' and another says big creators are copying college students' open-source work. Rakesh denies it and tells critics to try the free lessons and lab before concluding, while defenders say the step-by-step labs are original and the free tier is real. The launch itself is thin - a link and 'try interacting with it' - so the durable signal is the accusation pattern, not the product detail.
+  - **Takeaway:** A launch buried by a copying scandal: useful as a reminder to document provenance and licensing before monetizing an educational product, whatever the truth here.
+  - **Try it:** [sys0.in](https://sys0.in/) · [breakscale.tech](https://breakscale.tech/)
+  - 🏷 systems-programming, education, plagiarism, open-source, launch
 - **[Discovering Each Other Without Addresses | The Zeroconf Stack](https://www.reddit.com/r/Btechtards/comments/1uamn7x/discovering_each_other_without_addresses_the/)**  
   `u/East-Muffin-6472` · `2026-06-20` · `↑9 · 5 comments`
   - **Essence:** OP explains how wanting four Raspberry Pis to auto-appear on his Mac led him down the Zeroconf rabbit hole — mDNS, DNS-SD and WiFi-Direct — written as a student-teacher dialogue and tied to his use of the grove library in the smoltorrent project, covering how AirDrop works with no router via AWDL time-slicing. The small reply section is dominated by a sharp question: 'Is this AI generated?' OP admits the post is a reformed conversation with Claude that he turned into a blog, and defends the piece otherwise. Tone is friendly, with a couple of quick thanks.
@@ -1053,9 +1273,9 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 <a id="interviews-oa-dsa"></a>
 
-## Interviews, OA & DSA (33)
+## Interviews, OA & DSA (34)
 
-<details><summary><b>Show 33 entries</b> — Online assessments, interview experiences/questions, DSA prep, system design/HLD prep, contest problems</summary>
+<details><summary><b>Show 34 entries</b> — Online assessments, interview experiences/questions, DSA prep, system design/HLD prep, contest problems</summary>
 
 - **[5 multithreading design problems for Rubrik, Databricks and Google](https://x.com/86pushkar24/status/2036293854647951583)**  
   `Pushkar` · `2026-03-24` · `8 replies · 36 reposts · 337 likes · 15.6K views · 520 …`
@@ -1168,6 +1388,12 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Takeaway:** A concrete inference-on-hardware interview project template; check the repo for batching patterns.
   - **Try it:** [github.com/sh4shv4t/inference-forge](https://github.com/sh4shv4t/inference-forge)
   - 🏷 interviews, inference, take-home, india-ai-labs
+- **[Google's The Big Code competition is open to 2027-2029 grads, not 2026](https://x.com/okbhaicool/status/2025257184146473034)**  
+  `TryingToFindAGoodUsername` · `2026-02-21` · `11 replies · 8 reposts · 142 likes · 100 bookmarks · 10K …`
+  - **Essence:** A quick signal boost for The Big Code, a Google coding competition hosted on HackerEarth. The important detail is eligibility: it is open to 2027, 2028 and 2029 graduates, and the poster - a 2026 grad - spends the thread complaining that his batch is excluded. Replies confirm the same frustration and ask whether this replaces Google Hash Code or Code Jam, which Google discontinued. For anyone in the eligible batches, the value is the direct HackerEarth link; for everyone else, it is a reminder to check graduation-year filters before investing time in a contest.
+  - **Takeaway:** Worth a look only if you graduate in 2027-2029; the thread is more useful for the eligibility warning than the competition itself.
+  - **Try it:** [www.hackerearth.com/lp/challenges/the-big-code](https://www.hackerearth.com/lp/challenges/the-big-code)
+  - 🏷 google, coding-competition, hackerearth, students, eligibility
 - **[Rubrik OA | 2027 Grad | 50+LPA CTC | Double Camera On](https://www.reddit.com/r/Btechtards/comments/1vpqsba/rubrik_oa_2027_grad_50lpa_ctc_double_camera_on/)**  
   `u/Brilliant_Card_447` · `2026-08-16` · `↑24 · 14 comments`
   - **Essence:** OP posts the Rubrik OA problem for 2027 grads (50+ LPA CTC, double-camera proctoring): given N modules each with storage S and exposure E, activate the maximum number of modules so no selected module can compromise another (S[i] > E[i] for all i). Replies mostly ask which college/branch this came from and what the base comp is, while one commenter calls it 'mad easy for Rubrik' and outlines the solution — sort by exposure and greedily take modules whose storage exceeds the current exposure, effectively reverse merge-intervals. Another top reply explains the double-camera setup: a second camera captures your full body, face and hands so you can't cheat.
@@ -1608,9 +1834,9 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 <a id="startups-product-marketing"></a>
 
-## Startups, Product & Marketing (32)
+## Startups, Product & Marketing (41)
 
-<details><summary><b>Show 32 entries</b> — Founder content, growth/marketing tactics, product building, YC/startup programs, side projects, launch strategies</summary>
+<details><summary><b>Show 41 entries</b> — Founder content, growth/marketing tactics, product building, YC/startup programs, side projects, launch strategies</summary>
 
 - **[Technical writer pitch riding on a 'get your website cited by AI tools' article](https://x.com/Tech_girl/status/2105727717077405869)**  
   `Mari` · `2026-09-30` · `2 likes · 39.2K views · 11 bookmarks`
@@ -1769,6 +1995,59 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Essence:** Harsha's underrated fundraising alpha: before raising, run LinkedIn ads against every single potential investor for one month (about 5k spend) to manufacture familiarity and FOMO. His follow-up adds they got VC inbound accidentally the same way through paid email clients, noting a good chunk of paid-email users are VCs. Replies split: a top quote-tweet calls it the top of dumb ideas, one says 'Delete this' (keep the alpha secret), others ask about conversion proof, whether it is illegal (tagged to Grok), and joke it only works if investors are in high school; 23 replies, 1,085 likes, 1,255 bookmarks, 264K views.
   - **Takeaway:** A cheap pre-raise familiarity play - worth testing with a tight investor list and reply-rate tracking rather than assuming FOMO.
   - 🏷 fundraising, linkedin-ads, vc, fomo, growth-hack
+- **[InstaBox prices agent cloud around a free 4 vCPU machine and cheap unit economics](https://x.com/hanghuang_/status/2112299795549143378)**  
+  `Hang Huang` · `2026-10-19` · `123 replies · 7 reposts · 132 likes · 78 bookmarks · 6K …`
+  - **Essence:** Day 1 of InstaBox's 28-day 'test in prod' series is the pricing page: one free 4 vCPU / 8 GB machine with no usage limit, plus what Hang Huang calls the most competitive unit price on the market. He credits oversubscription and high utilization for the low cost, and explicitly copies Cloudflare's two principles - free users do QA and force a more intuitive product. 1,000 more invite codes go out; early users keep five free machines until Dec 1, and a Grok bot picks commenters to DM. The 123 replies are almost entirely invite-code begging and use-case pitches (Godot games, agent hosting), with little pricing scrutiny.
+  - **Takeaway:** A candid look at pricing dev infra around a generous free tier and utilization economics - useful as a pricing-strategy read, not as independent proof of the 'best unit price' claim.
+  - **Try it:** [instabox.sh/pricing](https://instabox.sh/pricing) · [instabox.sh/blog/instabox-pricing](https://instabox.sh/blog/instabox-pricing) · [instabox.sh](https://instabox.sh/)
+  - 🏷 instabox, cloud-computers, pricing, free-tier, ai-agents
+- **[A free Opus 5.5 SEO assistant that audits and rewrites your site every week](https://x.com/theo_louro/status/2112181982654591462)** 🎬  
+  `Theo` · `2026-10-19` · `932 replies · 28 reposts · 690 likes · 1.2K bookmarks · …`
+  - **Essence:** Theo built an SEO assistant on Opus 5.5 that takes a website, finds and applies fixes, identifies real competitors, tracks keywords and rankings, and produces a prioritized weekly action plan. The hook is that the full setup is free: reply 'SEO' and he DMs the template. He spends the thread replying 'here you go' with rerun.build/templates/weekly-seo-action-plan over and over. The 932 replies are mostly people typing 'SEO', plus one substantive question - which specific fix surprised him - that went unanswered.
+  - **Takeaway:** The post is a lead magnet, but the linked weekly SEO action-plan template is a genuinely reusable starting point for an agent-driven SEO loop.
+  - **Try it:** [rerun.build/templates/weekly-seo-action-plan](https://rerun.build/templates/weekly-seo-action-plan)
+  - 🏷 seo, opus-5-5, rerun, automation, growth
+- **[The SaaS directory playbook: seven high-authority listings that feed AI discovery](https://x.com/tarasshyn/status/2111078201090777406)** ⭐  
+  `Taras` · `2026-10-16` · `9 replies · 5 reposts · 128 likes · 312 bookmarks · 13.6K …`
+  - **Essence:** Taras spent a week publishing a chain of seven 'visibility hack' posts, each quoting the previous one: Zapier (REST integration, ~3-day approval), the Official MCP Registry (DNS TXT ownership proof, no review queue, and the list hundreds of directories and clients pull from), the Claude Community directory (needs a two-seat Teams plan at $40/mo and is noindex), Vercel Connectors, Glama (auto-imports registry entries, grades tool descriptions, health-checks listings), Smithery (27,000+ servers, gateway trials, dofollow link) and ClawHub (OpenClaw's skill registry, security-audited, dofollow). The shared prerequisite is a live remote MCP server or API. Replies report Zapier approving in three …
+  - **Takeaway:** One consolidated playbook instead of seven near-identical posts: publish a real MCP server, land the Official Registry first, then cascade to the directories that matter and skip the noindex ones.
+  - **Try it:** [developer.zapier.com](https://developer.zapier.com/) · [registry.modelcontextprotocol.io](https://registry.modelcontextprotocol.io/) · [claude.ai/directory/manage](https://claude.ai/directory/manage) · [vercel.com/connect/browse](https://vercel.com/connect/browse)
+  - 🏷 mcp, directories, seo, saas-growth, backlinks
+- **[Treg AEO toolkit shows which sources AI cites and who wrote them](https://x.com/treg_ai/status/2112137248200380614)** 🎬 ⭐  
+  `Treg` · `2026-10-19` · `80 replies · 103 reposts · 513 likes · 906 bookmarks · …`
+  - **Essence:** Treg launched an open-source AEO toolkit that finds every source an AI cites and the author behind it, then helps get your product into those sources - priced at 1 cent per prompt with no subscription and access to 4,000+ data/services. The repo is superdesigndev/treg, with CloroAI as partner. Replies treat the pricing as the story: 1 cent to 'win a prompt' in ChatGPT, Claude or Gemini versus $50/month minimums elsewhere, and several users say Treg is already part of their SEO workflow. One describes it as an 'AEO agent' rather than another dashboard.
+  - **Takeaway:** A cheap, open-source way to inspect and influence the citations AI models actually use - more actionable than most AEO dashboards.
+  - **Try it:** [treg.to/aeo](https://treg.to/aeo) · [github.com/superdesigndev/treg](https://github.com/superdesigndev/treg)
+  - 🏷 aeo, ai-search, citations, open-source, treg
+- **[Buy yourbrandreviews.com so LLMs quote reviews you control](https://x.com/ads4apps/status/2069971564078956858)**  
+  `james` · `2026-06-25` · `17 replies · 15 reposts · 446 likes · 1.1K bookmarks · …`
+  - **Essence:** James suggests buying two domains - yourapp.com and yourappreviews.com - and hosting your own reviews there, so when users ask an LLM for reviews it pulls from a page you control. He calls it a dirty little secret everyone will do within 24 months. Replies are hostile and specific: no evidence is offered, the FTC's 2024 fake-review rule bans company-controlled sites posing as independent reviews (roughly $50k per violation), a new low-authority domain will not outrank Trustpilot/G2, and models can be updated to distrust it. He insists he never suggested fake reviews, only hosting real ones.
+  - **Takeaway:** A legally and ethically risky growth hack with no evidence behind it - worth knowing as a dark pattern, not worth copying.
+  - 🏷 reviews, seo, llm-seo, dark-patterns, ftc
+- **[Weespy Chrome extension reverse-spies a SaaS's traffic, ads and content](https://x.com/mathiaschpl/status/2111164098863862110)** 🎬  
+  `Mathias Chapelon` · `2026-10-16` · `60 replies · 52 reposts · 313 likes · 459 bookmarks · 25.1K …`
+  - **Essence:** Mathias Chapelon launches Weespy, a free Chrome extension that shows how any SaaS gets customers: traffic estimates, tech stack, ads, SEO, and what competitors post on X, LinkedIn and Reddit, in one click. The thread walks through installing it, listing competitors, and copying formats that already perform. Replies ask whether traffic estimates come from SimilarWeb, whether it shows abandoned channels, and whether it can tailor social content to an audience - most go unanswered. The launch video itself was made with Opus 5.5 + Remotion.
+  - **Takeaway:** A free, fast competitor-research starting point - just treat traffic numbers as estimates and verify anything before betting a strategy on it.
+  - **Try it:** [www.weespy.now](https://www.weespy.now/) · [chromewebstore.google.com/detail/weespy/limgkcnlmkol …](https://chromewebstore.google.com/detail/weespy/limgkcnlmkolkkbkjkdoenngpkbhmimh)
+  - 🏷 weespy, competitor-research, chrome-extension, saas-marketing, ads
+- **[InstaBox launches sub-second cloud computers for AI agents, then publishes the pricing](https://x.com/hanghuang_/status/2110349488200057326)** 🎬 ⭐  
+  `Hang Huang` · `2026-10-14` · `2.7K replies · 338 reposts · 3.3K likes · 3.4K bookmarks · …`
+  - **Essence:** Hang Huang launched InstaBox, cloud computers for AI agents: a 4 vCPU / 8 GB machine spun up in under a second, built-in computer use, snapshots for cloning, persistent files/packages/config and public URLs for local ports. The launch was invite-only, with early access including 20 vCPU and 40 GB RAM free, and the reply count - 2,732 - is almost entirely people asking for codes or pitching use cases (Godot games, agent hosting, multi-agent chat rooms). Five days later the same account published the pricing rationale: one free 4 vCPU machine with no usage limit, aggressive oversubscription economics and Cloudflare-style free-tier logic. The two posts together are a rare public view of launch …
+  - **Takeaway:** A strong launch signal for agent-native cloud infra; the follow-up pricing post is the more useful artifact because it explains the unit economics behind the free tier.
+  - **Try it:** [instabox.sh](https://instabox.sh/)
+  - 🏷 instabox, cloud-computers, ai-agents, launch, pricing
+- **[Maritime (YC F26) hosts each AI agent on its own computer for $1/month](https://x.com/mariagorskikh/status/2108632744838488072)** 🎬 ⭐  
+  `Maria Gorskikh` · `2026-10-09` · `115 replies · 90 reposts · 568 likes · 394 bookmarks · 44K …`
+  - **Essence:** Maria Gorskikh launched Maritime, a YC F26 company giving startups infrastructure to deploy, manage and scale agents, each with its own computer, starting at $1 per agent per month. The thread keeps the math deliberately simple - 500 agents is $500 - so founders can reason about cost without a spreadsheet. Early users reply that they have already set it up and that it is special, while the sharper questions are about what the bill looks like at real scale and whether the launch video's people were agents or founders. Five days later the same company used the platform to demo a persistent Android phone for shopping on Amazon after Amazon blocked AI assistants, which is a more concrete …
+  - **Takeaway:** A clean per-agent pricing model for agent infrastructure; the Amazon Android demo is the proof that persistent, logged-in computers are the actual product.
+  - **Try it:** [maritime.sh](https://maritime.sh/)
+  - 🏷 maritime, agent-infrastructure, yc, cloud, pricing
+- **[Blogr maps a niche, writes and publishes articles, then watches the rankings](https://x.com/karakhanyanS/status/2107448430021009608)**  
+  `Serg` · `2026-10-06` · `1 bookmark · 879 views`
+  - **Essence:** Serg pitches blogr.ai as an AI writer that does the whole loop rather than dumping random posts: it maps your niche, writes the articles, publishes them and watches the rankings, with the first article free. The post got almost no distribution - one bookmark and 879 views - which makes it a useful counterexample to the idea that launch copy alone creates traction. The same thread also promotes bytemail 1.0, a native Swift email app for Mac that handles Gmail, iCloud, Outlook, Yahoo and IMAP in one window with no web wrapper and no server in the mail path, suggesting Serg is shipping multiple small products rather than focusing on one.
+  - **Takeaway:** A standard AI-SEO content loop with no proof yet; the launch's near-zero engagement is the more informative signal.
+  - **Try it:** [blogr.ai](https://blogr.ai/) · [bytemailapp.com](https://bytemailapp.com/)
+  - 🏷 seo, content-automation, blogr, email, indie
 - **[I built ThreadLens: upload a chat export and see the patterns in any argument](https://www.linkedin.com/feed/update/urn:li:activity:7467073714950434816)**  
   `Vipul Bajaj` · `2026-06-01` · `♥44 · 4 comments`
   - **Essence:** Vipul tells the origin story of ThreadLens: a friend emerged from a fight absolutely sure she was right because she only had screenshots, so he had her drop a full chat export into what he'd been building — and seeing every message and gap, not just her selected ones, changed her view in twenty minutes. The product takes WhatsApp, Telegram or iMessage exports, runs entirely in the browser with no account, and shows who messages first, who waits longer, who apologizes more and who escalates, with an optional AI that only sees what you ask about; it's free. The four replies are light praise and a joke he leans into — 'every group chat has someone who remembers every message and someone who …
@@ -1884,10 +2163,15 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 <a id="india-life-city-guides"></a>
 
-## India Life & City Guides (2)
+## India Life & City Guides (3)
 
-<details><summary><b>Show 2 entries</b> — City guides (Bangalore/Delhi/Gurgaon), food, breweries, travel, India-specific living content, local experiences</summary>
+<details><summary><b>Show 3 entries</b> — City guides (Bangalore/Delhi/Gurgaon), food, breweries, travel, India-specific living content, local experiences</summary>
 
+- **[The Burgery In, Indiranagar: buff and chicken burgers worth the trip](https://x.com/ItsAllDandy_/status/2005921572612366697)**  
+  `In her sandwich-making era` · `2025-12-30` · `33 replies · 24 reposts · 1.4K likes · 566 bookmarks · …`
+  - **Essence:** A straight-up Bangalore burger recommendation: The Burgery In in Indiranagar does buff and chicken burgers, really crispy fries and a peanut butter shake that the poster calls soooo flavorful. In the thread she narrows it to the Ultimate and Frizzled burgers - the Frizzled has a melted crunchy layer of cheese - and says she liked it better than Truffles. Replies are the useful part: one compares it with Smash Guys (good burger, excellent bone-marrow side), another recommends Guerrilla Diner, and a third went for a birthday dinner and called it the best burger of their life. It is a low-stakes bookmark, but a well-validated one.
+  - **Takeaway:** A concrete Indiranagar burger pick with enough reply confirmation to trust; go for the Frizzled and the peanut butter shake.
+  - 🏷 bangalore, indiranagar, burgers, food, recommendation
 - **[An ongoing review of all Microbreweries/ Brewpubs in Gurgaon](https://www.reddit.com/r/gurgaon/comments/t3fdbe/an_ongoing_review_of_all_microbreweries_brewpubs/)** ⭐  
   `u/QuickOriginal` · `2022-02-28` · `↑80 · 33 comments`
   - **Essence:** OP maintains a running, self-imposed-serious review of every Gurgaon microbrewery — visiting in the afternoon, trying dark beer before wheat, rating beer, food, ambience, service and price holistically, with the sheet last updated 30 October 2025 and framed as his 'life's work'. The 33 replies are almost entirely affectionate praise ('Doing God's work', 'you sir are a fine gentleman') plus spot recommendations: Big Pitcher and Clock Tower called out as strong, others saying it pushed them to try the places they'd skipped. Many commenters saved the post as a reference, with the overall sentiment that this is the definitive Gurgaon beer guide.
@@ -1972,9 +2256,9 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 <a id="tech-industry-news"></a>
 
-## Tech Industry & News (3)
+## Tech Industry & News (4)
 
-<details><summary><b>Show 3 entries</b> — Company announcements, industry drama, big-tech news, product launches by majors, policy</summary>
+<details><summary><b>Show 4 entries</b> — Company announcements, industry drama, big-tech news, product launches by majors, policy</summary>
 
 - **[How Hotstar streams to 65M+ concurrent viewers over HLS](https://x.com/mehulmpt/status/2031803518630453287)**  
   `Mehul Mohan` · `2026-03-11` · `18 replies · 39 reposts · 820 likes · 65.8K views · 491 …`
@@ -1991,6 +2275,12 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Essence:** Twitter CEO Parag Agrawal breaks his silence to answer why a 'lame-duck' CEO is making leadership and cost changes: he expects the deal to close but the company must be prepared for all scenarios and do what is right for Twitter, no one is just keeping the lights on, the industry is in a harsh macro right now so cost decisions cannot wait for the close, and he promises more transparency on the continuous work of improving public conversation rather than reacting to the topic of the day - with the obligatory deal legalese linked at the end. Replies demand bot-account numbers, ask why restructure if the deal is coming, call it words without meaning, and attack past moderation decisions.
   - **Takeaway:** Primary-source artifact of the Twitter-Musk transition; replies capture the trust collapse.
   - 🏷 twitter, musk acquisition, leadership, tech industry
+- **[Amazon blocks AI shopping agents; Maritime's Android MCP stays logged in for $1/month](https://x.com/maritime_sh/status/2110756701615817045)** 🎬  
+  `Maritime (YC F26)` · `2026-10-15` · `2 replies · 2 reposts · 18 likes · 10 bookmarks · 1.3K views`
+  - **Essence:** Amazon blocked AI assistants such as Muse, Dots and Instinct from browsing and buying on its site. Maritime pitches a workaround: its Android MCP spins up a persistent Android phone in the cloud, shops on Amazon for the customer, and stays logged in for next time - for $1/month per agent. Replies are sparse; Hunch says it can still use Amazon through a direct connector. The post is a small but clear signal that commerce platforms are starting to fight agent traffic, and infrastructure layers are routing around it.
+  - **Takeaway:** A useful data point on the coming agent-vs-commerce-platform access fight - and a reminder that 'persistent logged-in phone' workarounds carry account and ToS risk.
+  - **Try it:** [maritime.sh](https://maritime.sh/)
+  - 🏷 amazon, ai-agents, android-mcp, commerce, maritime
 
 </details>
 
@@ -2035,7 +2325,7 @@ bookmarks-vault/                  ← also an Obsidian vault (open this folder i
 ├── README.md                     ← you are here (generated)
 ├── Home.md                       ← Obsidian dashboard (generated)
 ├── Categories/*.md               ← 14 category index notes
-├── Entries/*.md                  ← 339 bookmark notes, one per entry (frontmatter + tags)
+├── Entries/*.md                  ← 389 bookmark notes, one per entry (frontmatter + tags)
 ├── Bookmarks_Categorized.xlsx    ← the full workbook: README + Master Index + a sheet per category
 ├── category_taxonomy.json        ← the fixed category list used for sorting
 ├── data/
@@ -2069,5 +2359,5 @@ python scripts/generate_obsidian.py    # rows → Home.md + Categories/ + Entrie
 ```
 
 _Extraction: Ego browser automation over X Bookmarks, Reddit Saved and LinkedIn Saved Posts._
-_Coverage: 297 X bookmarks (5 original tweets now deleted — flagged in their entries), all Reddit
+_Coverage: 344 X bookmarks (5 original tweets now deleted — flagged in their entries), all Reddit
 saved items, and all LinkedIn saved posts. Replies captured are the top ~15 per thread._

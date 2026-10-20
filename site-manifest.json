@@ -20,7 +20,7 @@
    "wiki": "AI & LLM",
    "title": "🗂 AI & LLM",
    "group": "category",
-   "count": 70
+   "count": 93
   },
   {
    "name": "Dev Tools & Productivity",
@@ -29,7 +29,7 @@
    "wiki": "Dev Tools & Productivity",
    "title": "🗂 Dev Tools & Productivity",
    "group": "category",
-   "count": 51
+   "count": 65
   },
   {
    "name": "Programming & CS Learning",
@@ -38,7 +38,7 @@
    "wiki": "Programming & CS Learning",
    "title": "🗂 Programming & CS Learning",
    "group": "category",
-   "count": 51
+   "count": 52
   },
   {
    "name": "Interviews, OA & DSA",
@@ -47,7 +47,7 @@
    "wiki": "Interviews, OA & DSA",
    "title": "🗂 Interviews, OA & DSA",
    "group": "category",
-   "count": 33
+   "count": 34
   },
   {
    "name": "Jobs, Careers & Compensation",
@@ -83,7 +83,7 @@
    "wiki": "Startups, Product & Marketing",
    "title": "🗂 Startups, Product & Marketing",
    "group": "category",
-   "count": 32
+   "count": 41
   },
   {
    "name": "Health, Fitness & Wellness",
@@ -110,7 +110,7 @@
    "wiki": "India Life & City Guides",
    "title": "🗂 India Life & City Guides",
    "group": "category",
-   "count": 2
+   "count": 3
   },
   {
    "name": "Entertainment, Culture & Fun",
@@ -128,7 +128,7 @@
    "wiki": "Tech Industry & News",
    "title": "🗂 Tech Industry & News",
    "group": "category",
-   "count": 3
+   "count": 4
   },
   {
    "name": "Other",
@@ -936,6 +936,62 @@
     "job-search",
     "reddit",
     "interviews-oa-dsa"
+   ]
+  },
+  {
+   "path": "Entries/R-028 - academic-research-skills-a-52k-star-claude-code.md",
+   "wiki": "R-028 - academic-research-skills-a-52k-star-claude-code",
+   "title": "Academic Research Skills: a 52K-star Claude Code suite for the whole research pipeline",
+   "group": "entry",
+   "uid": "R-028",
+   "platform": "Reddit",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "academic-research",
+    "claude-code",
+    "prisma",
+    "peer-review",
+    "skills",
+    "reddit",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/R-029 - last30days-an-agent-skill-that-searches-reddit-x.md",
+   "wiki": "R-029 - last30days-an-agent-skill-that-searches-reddit-x",
+   "title": "last30days: an agent skill that searches Reddit, X, YouTube, HN and Polymarket at once",
+   "group": "entry",
+   "uid": "R-029",
+   "platform": "Reddit",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "research",
+    "agent-skills",
+    "reddit",
+    "polymarket",
+    "search",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/R-030 - repowise-indexes-your-codebase-once-so-agents-st.md",
+   "wiki": "R-030 - repowise-indexes-your-codebase-once-so-agents-st",
+   "title": "Repowise indexes your codebase once so agents stop rediscovering it",
+   "group": "entry",
+   "uid": "R-030",
+   "platform": "Reddit",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "codebase-index",
+    "mcp",
+    "call-graph",
+    "code-review",
+    "repowise",
+    "reddit",
+    "dev-tools-productivity"
    ]
   },
   {
@@ -6411,6 +6467,899 @@
     "twitter",
     "ai-llm"
    ]
+  },
+  {
+   "path": "Entries/X-298 - instabox-prices-agent-cloud-around-a-free-4-vcpu.md",
+   "wiki": "X-298 - instabox-prices-agent-cloud-around-a-free-4-vcpu",
+   "title": "InstaBox prices agent cloud around a free 4 vCPU machine and cheap unit economics",
+   "group": "entry",
+   "uid": "X-298",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "medium",
+   "tags": [
+    "instabox",
+    "cloud-computers",
+    "pricing",
+    "free-tier",
+    "ai-agents",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-299 - a-free-opus-5-5-seo-assistant-that-audits-and-re.md",
+   "wiki": "X-299 - a-free-opus-5-5-seo-assistant-that-audits-and-re",
+   "title": "A free Opus 5.5 SEO assistant that audits and rewrites your site every week",
+   "group": "entry",
+   "uid": "X-299",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "medium",
+   "tags": [
+    "seo",
+    "opus-5-5",
+    "rerun",
+    "automation",
+    "growth",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-300 - indra-ocr-1-1-1m-param-model-does-44-pages-s-on.md",
+   "wiki": "X-300 - indra-ocr-1-1-1m-param-model-does-44-pages-s-on",
+   "title": "Indra OCR 1.1: 1M-param model does 44 pages/s on CPU and adds 80+ languages",
+   "group": "entry",
+   "uid": "X-300",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "ocr",
+    "indra",
+    "datalab",
+    "cpu-inference",
+    "open-models",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-301 - the-saas-directory-playbook-seven-high-authority.md",
+   "wiki": "X-301 - the-saas-directory-playbook-seven-high-authority",
+   "title": "The SaaS directory playbook: seven high-authority listings that feed AI discovery",
+   "group": "entry",
+   "uid": "X-301",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "high",
+   "tags": [
+    "mcp",
+    "directories",
+    "seo",
+    "saas-growth",
+    "backlinks",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-302 - agent-tree-component-shows-which-agent-spawned-w.md",
+   "wiki": "X-302 - agent-tree-component-shows-which-agent-spawned-w",
+   "title": "Agent tree component shows which agent spawned which",
+   "group": "entry",
+   "uid": "X-302",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "agent-ui",
+    "observability",
+    "component-design",
+    "subagents",
+    "design",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-303 - treg-aeo-toolkit-shows-which-sources-ai-cites-an.md",
+   "wiki": "X-303 - treg-aeo-toolkit-shows-which-sources-ai-cites-an",
+   "title": "Treg AEO toolkit shows which sources AI cites and who wrote them",
+   "group": "entry",
+   "uid": "X-303",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "high",
+   "tags": [
+    "aeo",
+    "ai-search",
+    "citations",
+    "open-source",
+    "treg",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-304 - agent-browser-snapshot-delta-cuts-form-filling-t.md",
+   "wiki": "X-304 - agent-browser-snapshot-delta-cuts-form-filling-t",
+   "title": "agent-browser snapshot --delta cuts form-filling tokens by 73x",
+   "group": "entry",
+   "uid": "X-304",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "agent-browser",
+    "vercel",
+    "browser-automation",
+    "tokens",
+    "agents",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-305 - skill-issue-in-is-a-ranked-directory-for-ai-agen.md",
+   "wiki": "X-305 - skill-issue-in-is-a-ranked-directory-for-ai-agen",
+   "title": "Skill-issue.in is a ranked directory for AI agent skills",
+   "group": "entry",
+   "uid": "X-305",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "agent-skills",
+    "directory",
+    "discovery",
+    "ranking",
+    "claude-code",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-306 - deepseek-v4-1-flash-is-free-in-opencode-kuvo-cod.md",
+   "wiki": "X-306 - deepseek-v4-1-flash-is-free-in-opencode-kuvo-cod",
+   "title": "DeepSeek V4.1 Flash is free in OpenCode; Kuvo Code runs bot teams on it",
+   "group": "entry",
+   "uid": "X-306",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "medium",
+   "tags": [
+    "deepseek",
+    "opencode",
+    "kuvo",
+    "multi-agent",
+    "free-models",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-307 - one-command-gives-coding-agents-persistent-memor.md",
+   "wiki": "X-307 - one-command-gives-coding-agents-persistent-memor",
+   "title": "One command gives coding agents persistent memory via supermemory",
+   "group": "entry",
+   "uid": "X-307",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "medium",
+   "tags": [
+    "agent-memory",
+    "supermemory",
+    "mcp",
+    "context",
+    "claude-code",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-308 - rea-babysitting-prompt-turns-free-glm-5-3-flash.md",
+   "wiki": "X-308 - rea-babysitting-prompt-turns-free-glm-5-3-flash",
+   "title": "REA babysitting prompt turns free GLM-5.3-Flash into a reverse-engineering analyst",
+   "group": "entry",
+   "uid": "X-308",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "reverse-engineering",
+    "rea",
+    "opencode",
+    "glm-5-3-flash",
+    "prompting",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-309 - buy-yourbrandreviews-com-so-llms-quote-reviews-y.md",
+   "wiki": "X-309 - buy-yourbrandreviews-com-so-llms-quote-reviews-y",
+   "title": "Buy yourbrandreviews.com so LLMs quote reviews you control",
+   "group": "entry",
+   "uid": "X-309",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "low",
+   "tags": [
+    "reviews",
+    "seo",
+    "llm-seo",
+    "dark-patterns",
+    "ftc",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-310 - garry-tan-pairs-capy-and-aside-so-agents-code-an.md",
+   "wiki": "X-310 - garry-tan-pairs-capy-and-aside-so-agents-code-an",
+   "title": "Garry Tan pairs Capy and Aside so agents code and set up DevOps",
+   "group": "entry",
+   "uid": "X-310",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "medium",
+   "tags": [
+    "capy",
+    "aside",
+    "devops",
+    "agents",
+    "vibe-coding",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-311 - weespy-chrome-extension-reverse-spies-a-saas-s-t.md",
+   "wiki": "X-311 - weespy-chrome-extension-reverse-spies-a-saas-s-t",
+   "title": "Weespy Chrome extension reverse-spies a SaaS's traffic, ads and content",
+   "group": "entry",
+   "uid": "X-311",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "medium",
+   "tags": [
+    "weespy",
+    "competitor-research",
+    "chrome-extension",
+    "saas-marketing",
+    "ads",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-312 - amazon-blocks-ai-shopping-agents-maritime-s-andr.md",
+   "wiki": "X-312 - amazon-blocks-ai-shopping-agents-maritime-s-andr",
+   "title": "Amazon blocks AI shopping agents; Maritime's Android MCP stays logged in for $1/month",
+   "group": "entry",
+   "uid": "X-312",
+   "platform": "Twitter",
+   "category": "Tech Industry & News",
+   "followup": "medium",
+   "tags": [
+    "amazon",
+    "ai-agents",
+    "android-mcp",
+    "commerce",
+    "maritime",
+    "twitter",
+    "tech-industry-news"
+   ]
+  },
+  {
+   "path": "Entries/X-313 - object-storage-benchmark-railway-tigris-fastest.md",
+   "wiki": "X-313 - object-storage-benchmark-railway-tigris-fastest",
+   "title": "Object storage benchmark: Railway/Tigris fastest, Neon slowest and priciest",
+   "group": "entry",
+   "uid": "X-313",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "object-storage",
+    "benchmark",
+    "railway",
+    "cloudflare-r2",
+    "s3",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-314 - the-agents-md-two-way-doors-rule-that-doubled-on.md",
+   "wiki": "X-314 - the-agents-md-two-way-doors-rule-that-doubled-on",
+   "title": "The AGENTS.md 'two-way doors' rule that doubled one dev's shipping",
+   "group": "entry",
+   "uid": "X-314",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "agents-md",
+    "autonomy",
+    "claude-code",
+    "workflow",
+    "decision-making",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-315 - send-opus-5-5-three-test-accounts-and-14-real-at.md",
+   "wiki": "X-315 - send-opus-5-5-three-test-accounts-and-14-real-at",
+   "title": "Send Opus 5.5 three test accounts and 14 real attacks before shipping",
+   "group": "entry",
+   "uid": "X-315",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "security",
+    "red-teaming",
+    "claude-code",
+    "subagents",
+    "vibe-coding",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-316 - reloop-undercuts-resend-at-20-per-100k-emails-an.md",
+   "wiki": "X-316 - reloop-undercuts-resend-at-20-per-100k-emails-an",
+   "title": "Reloop undercuts Resend at $20 per 100K emails and adds inbound mail",
+   "group": "entry",
+   "uid": "X-316",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "email",
+    "resend",
+    "open-source",
+    "smtp",
+    "deliverability",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-317 - earshot-gives-coding-agents-ears-to-judge-and-ge.md",
+   "wiki": "X-317 - earshot-gives-coding-agents-ears-to-judge-and-ge",
+   "title": "Earshot gives coding agents ears to judge and generate sound effects",
+   "group": "entry",
+   "uid": "X-317",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "audio",
+    "mcp",
+    "sound-design",
+    "claude-code",
+    "generative-audio",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-318 - opendesign-motion-makes-agent-videos-with-any-mo.md",
+   "wiki": "X-318 - opendesign-motion-makes-agent-videos-with-any-mo",
+   "title": "OpenDesign Motion makes agent videos with any model, no Opus required",
+   "group": "entry",
+   "uid": "X-318",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "medium",
+   "tags": [
+    "motion-design",
+    "video",
+    "open-source",
+    "deepseek",
+    "agents",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-319 - sys0-launches-an-interactive-systems-course-and.md",
+   "wiki": "X-319 - sys0-launches-an-interactive-systems-course-and",
+   "title": "Sys0 launches an interactive systems course and gets accused of repackaging open source",
+   "group": "entry",
+   "uid": "X-319",
+   "platform": "Twitter",
+   "category": "Programming & CS Learning",
+   "followup": "low",
+   "tags": [
+    "systems-programming",
+    "education",
+    "plagiarism",
+    "open-source",
+    "launch",
+    "twitter",
+    "programming-cs-learning"
+   ]
+  },
+  {
+   "path": "Entries/X-320 - dreamscale-runs-frontier-robot-models-from-a-one.md",
+   "wiki": "X-320 - dreamscale-runs-frontier-robot-models-from-a-one",
+   "title": "DreamScale runs frontier robot models from a one-line prompt, no GPU",
+   "group": "entry",
+   "uid": "X-320",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "robotics",
+    "physical-ai",
+    "cloud-inference",
+    "simulation",
+    "vla-models",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-321 - a-codex-built-whey-price-bot-found-a-2-kg-deal-t.md",
+   "wiki": "X-321 - a-codex-built-whey-price-bot-found-a-2-kg-deal-t",
+   "title": "A Codex-built whey price bot found a 2 kg deal the apps buried",
+   "group": "entry",
+   "uid": "X-321",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "codex",
+    "scraping",
+    "price-tracking",
+    "reverse-engineering",
+    "quick-commerce",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-322 - epstein-md-is-a-927k-character-markdown-file-for.md",
+   "wiki": "X-322 - epstein-md-is-a-927k-character-markdown-file-for",
+   "title": "Epstein.md is a 927K-character markdown file for banning AI design slop",
+   "group": "entry",
+   "uid": "X-322",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "medium",
+   "tags": [
+    "design",
+    "ai-slop",
+    "markdown",
+    "prompts",
+    "frontend",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-323 - bryel-offers-a-domain-specific-model-trained-fro.md",
+   "wiki": "X-323 - bryel-offers-a-domain-specific-model-trained-fro",
+   "title": "Bryel offers a domain-specific model trained from one prompt in seven days",
+   "group": "entry",
+   "uid": "X-323",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "model-training",
+    "distillation",
+    "custom-models",
+    "bryel",
+    "cost",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-324 - tasteskill-v2-gives-coding-agents-art-direction.md",
+   "wiki": "X-324 - tasteskill-v2-gives-coding-agents-art-direction",
+   "title": "TasteSkill v2 gives coding agents art direction, real assets and a browser check",
+   "group": "entry",
+   "uid": "X-324",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "design",
+    "claude-code",
+    "skills",
+    "frontend",
+    "taste",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-325 - design-how-ships-a-copy-paste-design-system-for.md",
+   "wiki": "X-325 - design-how-ships-a-copy-paste-design-system-for",
+   "title": "Design.how ships a copy-paste design system for AI apps and dev tools",
+   "group": "entry",
+   "uid": "X-325",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "design-system",
+    "ui",
+    "ai-products",
+    "dev-tools",
+    "frontend",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-326 - a-15-year-old-founder-s-full-agent-stack-t3-psta.md",
+   "wiki": "X-326 - a-15-year-old-founder-s-full-agent-stack-t3-psta",
+   "title": "A 15-year-old founder's full agent stack: t3, pstack, Notion, Linear and three cloud agents",
+   "group": "entry",
+   "uid": "X-326",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "agent-workflow",
+    "t3-code",
+    "pstack",
+    "opus-5-5",
+    "linear",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-327 - instabox-launches-sub-second-cloud-computers-for.md",
+   "wiki": "X-327 - instabox-launches-sub-second-cloud-computers-for",
+   "title": "InstaBox launches sub-second cloud computers for AI agents, then publishes the pricing",
+   "group": "entry",
+   "uid": "X-327",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "high",
+   "tags": [
+    "instabox",
+    "cloud-computers",
+    "ai-agents",
+    "launch",
+    "pricing",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-328 - one-paste-in-prompt-had-opus-5-5-find-four-perfo.md",
+   "wiki": "X-328 - one-paste-in-prompt-had-opus-5-5-find-four-perfo",
+   "title": "One paste-in prompt had Opus 5.5 find four performance bugs in three hours",
+   "group": "entry",
+   "uid": "X-328",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "performance",
+    "opus-5-5",
+    "prompts",
+    "benchmarking",
+    "frontend",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-329 - indra-launches-a-1m-parameter-ocr-model-at-49-pa.md",
+   "wiki": "X-329 - indra-launches-a-1m-parameter-ocr-model-at-49-pa",
+   "title": "Indra launches a 1M-parameter OCR model at 49 pages/s on CPU",
+   "group": "entry",
+   "uid": "X-329",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "ocr",
+    "indra",
+    "datalab",
+    "cpu-inference",
+    "open-models",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-330 - reason-claims-codex-astra-level-terminal-bench-p.md",
+   "wiki": "X-330 - reason-claims-codex-astra-level-terminal-bench-p",
+   "title": "Reason claims Codex+Astra-level Terminal-Bench performance at 22% lower cost",
+   "group": "entry",
+   "uid": "X-330",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "coding-harness",
+    "terminal-bench",
+    "cost",
+    "reason",
+    "agents",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-331 - slashdocs-is-google-docs-for-the-html-and-markdo.md",
+   "wiki": "X-331 - slashdocs-is-google-docs-for-the-html-and-markdo",
+   "title": "SlashDocs is Google Docs for the HTML and Markdown agents generate",
+   "group": "entry",
+   "uid": "X-331",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "documents",
+    "collaboration",
+    "agents",
+    "open-source",
+    "razorpay",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-332 - appllama-s-open-source-skills-reverse-engineer-a.md",
+   "wiki": "X-332 - appllama-s-open-source-skills-reverse-engineer-a",
+   "title": "Appllama's open-source skills reverse engineer any app, design or interaction",
+   "group": "entry",
+   "uid": "X-332",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "medium",
+   "tags": [
+    "reverse-engineering",
+    "skills",
+    "codex",
+    "ui",
+    "open-source",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-333 - delete-40k-lines-of-tests-then-lint-the-agent-so.md",
+   "wiki": "X-333 - delete-40k-lines-of-tests-then-lint-the-agent-so",
+   "title": "Delete 40K lines of tests, then lint the agent so it cannot write them again",
+   "group": "entry",
+   "uid": "X-333",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "testing",
+    "oxlint",
+    "agents",
+    "effect",
+    "code-quality",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-334 - huashu-art-motion-gives-opus-5-5-35-coded-art-st.md",
+   "wiki": "X-334 - huashu-art-motion-gives-opus-5-5-35-coded-art-st",
+   "title": "Huashu-art-motion gives Opus 5.5 35 coded art styles plus a film QA agent",
+   "group": "entry",
+   "uid": "X-334",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "motion-design",
+    "claude-code",
+    "skills",
+    "video",
+    "art-styles",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-335 - fsearch-0-2-150x-faster-grep-on-just-edited-file.md",
+   "wiki": "X-335 - fsearch-0-2-150x-faster-grep-on-just-edited-file",
+   "title": "FSearch 0.2: 150x faster grep on just-edited files and a 74% smaller index",
+   "group": "entry",
+   "uid": "X-335",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "file-search",
+    "macos",
+    "indexing",
+    "finder",
+    "performance",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-336 - treg-open-sources-people-search-for-claude-at-0.md",
+   "wiki": "X-336 - treg-open-sources-people-search-for-claude-at-0",
+   "title": "Treg open-sources people search for Claude at $0.0089 per lead",
+   "group": "entry",
+   "uid": "X-336",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "people-search",
+    "lead-generation",
+    "open-source",
+    "claude",
+    "treg",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-337 - maritime-yc-f26-hosts-each-ai-agent-on-its-own-c.md",
+   "wiki": "X-337 - maritime-yc-f26-hosts-each-ai-agent-on-its-own-c",
+   "title": "Maritime (YC F26) hosts each AI agent on its own computer for $1/month",
+   "group": "entry",
+   "uid": "X-337",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "high",
+   "tags": [
+    "maritime",
+    "agent-infrastructure",
+    "yc",
+    "cloud",
+    "pricing",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-338 - fframes-recreates-a-viral-video-with-rust-svg-an.md",
+   "wiki": "X-338 - fframes-recreates-a-viral-video-with-rust-svg-an",
+   "title": "fframes recreates a viral video with Rust, SVG and shaders - and beats the original's polish",
+   "group": "entry",
+   "uid": "X-338",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "fframes",
+    "codex",
+    "rust",
+    "svg",
+    "motion-design",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-339 - obsidianui-ships-an-open-source-dashboard-shell.md",
+   "wiki": "X-339 - obsidianui-ships-an-open-source-dashboard-shell",
+   "title": "ObsidianUI ships an open-source dashboard shell after a three-hour build",
+   "group": "entry",
+   "uid": "X-339",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "ui-library",
+    "dashboard",
+    "open-source",
+    "react",
+    "components",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-340 - phone-use-plus-openai-s-decisions-api-lets-an-ag.md",
+   "wiki": "X-340 - phone-use-plus-openai-s-decisions-api-lets-an-ag",
+   "title": "Phone-use plus OpenAI's Decisions API lets an agent choose its next action 10x faster",
+   "group": "entry",
+   "uid": "X-340",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "medium",
+   "tags": [
+    "phone-use",
+    "openai",
+    "decisions-api",
+    "agents",
+    "latency",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-341 - capy-s-guided-reviews-turn-a-big-pr-into-chapter.md",
+   "wiki": "X-341 - capy-s-guided-reviews-turn-a-big-pr-into-chapter",
+   "title": "Capy's Guided Reviews turn a big PR into chapters with a before/after overview",
+   "group": "entry",
+   "uid": "X-341",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "code-review",
+    "capy",
+    "pull-requests",
+    "linear",
+    "agents",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-342 - blogr-maps-a-niche-writes-and-publishes-articles.md",
+   "wiki": "X-342 - blogr-maps-a-niche-writes-and-publishes-articles",
+   "title": "Blogr maps a niche, writes and publishes articles, then watches the rankings",
+   "group": "entry",
+   "uid": "X-342",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "low",
+   "tags": [
+    "seo",
+    "content-automation",
+    "blogr",
+    "email",
+    "indie",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-343 - google-s-the-big-code-competition-is-open-to-202.md",
+   "wiki": "X-343 - google-s-the-big-code-competition-is-open-to-202",
+   "title": "Google's The Big Code competition is open to 2027-2029 grads, not 2026",
+   "group": "entry",
+   "uid": "X-343",
+   "platform": "Twitter",
+   "category": "Interviews, OA & DSA",
+   "followup": "low",
+   "tags": [
+    "google",
+    "coding-competition",
+    "hackerearth",
+    "students",
+    "eligibility",
+    "twitter",
+    "interviews-oa-dsa"
+   ]
+  },
+  {
+   "path": "Entries/X-344 - the-burgery-in-indiranagar-buff-and-chicken-burg.md",
+   "wiki": "X-344 - the-burgery-in-indiranagar-buff-and-chicken-burg",
+   "title": "The Burgery In, Indiranagar: buff and chicken burgers worth the trip",
+   "group": "entry",
+   "uid": "X-344",
+   "platform": "Twitter",
+   "category": "India Life & City Guides",
+   "followup": "medium",
+   "tags": [
+    "bangalore",
+    "indiranagar",
+    "burgers",
+    "food",
+    "recommendation",
+    "twitter",
+    "india-life-city-guides"
+   ]
   }
  ],
  "categories": [
@@ -6421,7 +7370,7 @@
    "wiki": "AI & LLM",
    "title": "🗂 AI & LLM",
    "group": "category",
-   "count": 70
+   "count": 93
   },
   {
    "name": "Dev Tools & Productivity",
@@ -6430,7 +7379,7 @@
    "wiki": "Dev Tools & Productivity",
    "title": "🗂 Dev Tools & Productivity",
    "group": "category",
-   "count": 51
+   "count": 65
   },
   {
    "name": "Programming & CS Learning",
@@ -6439,7 +7388,7 @@
    "wiki": "Programming & CS Learning",
    "title": "🗂 Programming & CS Learning",
    "group": "category",
-   "count": 51
+   "count": 52
   },
   {
    "name": "Interviews, OA & DSA",
@@ -6448,7 +7397,7 @@
    "wiki": "Interviews, OA & DSA",
    "title": "🗂 Interviews, OA & DSA",
    "group": "category",
-   "count": 33
+   "count": 34
   },
   {
    "name": "Jobs, Careers & Compensation",
@@ -6484,7 +7433,7 @@
    "wiki": "Startups, Product & Marketing",
    "title": "🗂 Startups, Product & Marketing",
    "group": "category",
-   "count": 32
+   "count": 41
   },
   {
    "name": "Health, Fitness & Wellness",
@@ -6511,7 +7460,7 @@
    "wiki": "India Life & City Guides",
    "title": "🗂 India Life & City Guides",
    "group": "category",
-   "count": 2
+   "count": 3
   },
   {
    "name": "Entertainment, Culture & Fun",
@@ -6529,7 +7478,7 @@
    "wiki": "Tech Industry & News",
    "title": "🗂 Tech Industry & News",
    "group": "category",
-   "count": 3
+   "count": 4
   },
   {
    "name": "Other",
@@ -7342,6 +8291,62 @@
    ]
   },
   {
+   "path": "Entries/R-028 - academic-research-skills-a-52k-star-claude-code.md",
+   "wiki": "R-028 - academic-research-skills-a-52k-star-claude-code",
+   "title": "Academic Research Skills: a 52K-star Claude Code suite for the whole research pipeline",
+   "group": "entry",
+   "uid": "R-028",
+   "platform": "Reddit",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "academic-research",
+    "claude-code",
+    "prisma",
+    "peer-review",
+    "skills",
+    "reddit",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/R-029 - last30days-an-agent-skill-that-searches-reddit-x.md",
+   "wiki": "R-029 - last30days-an-agent-skill-that-searches-reddit-x",
+   "title": "last30days: an agent skill that searches Reddit, X, YouTube, HN and Polymarket at once",
+   "group": "entry",
+   "uid": "R-029",
+   "platform": "Reddit",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "research",
+    "agent-skills",
+    "reddit",
+    "polymarket",
+    "search",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/R-030 - repowise-indexes-your-codebase-once-so-agents-st.md",
+   "wiki": "R-030 - repowise-indexes-your-codebase-once-so-agents-st",
+   "title": "Repowise indexes your codebase once so agents stop rediscovering it",
+   "group": "entry",
+   "uid": "R-030",
+   "platform": "Reddit",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "codebase-index",
+    "mcp",
+    "call-graph",
+    "code-review",
+    "repowise",
+    "reddit",
+    "dev-tools-productivity"
+   ]
+  },
+  {
    "path": "Entries/X-001 - sahaj-won-t-push-a-pr-without-codebase-design-an.md",
    "wiki": "X-001 - sahaj-won-t-push-a-pr-without-codebase-design-an",
    "title": "Sahaj won't push a PR without /codebase-design and /zero-tech-debt skills",
@@ -12813,6 +13818,899 @@
     "cost-optimization",
     "twitter",
     "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-298 - instabox-prices-agent-cloud-around-a-free-4-vcpu.md",
+   "wiki": "X-298 - instabox-prices-agent-cloud-around-a-free-4-vcpu",
+   "title": "InstaBox prices agent cloud around a free 4 vCPU machine and cheap unit economics",
+   "group": "entry",
+   "uid": "X-298",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "medium",
+   "tags": [
+    "instabox",
+    "cloud-computers",
+    "pricing",
+    "free-tier",
+    "ai-agents",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-299 - a-free-opus-5-5-seo-assistant-that-audits-and-re.md",
+   "wiki": "X-299 - a-free-opus-5-5-seo-assistant-that-audits-and-re",
+   "title": "A free Opus 5.5 SEO assistant that audits and rewrites your site every week",
+   "group": "entry",
+   "uid": "X-299",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "medium",
+   "tags": [
+    "seo",
+    "opus-5-5",
+    "rerun",
+    "automation",
+    "growth",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-300 - indra-ocr-1-1-1m-param-model-does-44-pages-s-on.md",
+   "wiki": "X-300 - indra-ocr-1-1-1m-param-model-does-44-pages-s-on",
+   "title": "Indra OCR 1.1: 1M-param model does 44 pages/s on CPU and adds 80+ languages",
+   "group": "entry",
+   "uid": "X-300",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "ocr",
+    "indra",
+    "datalab",
+    "cpu-inference",
+    "open-models",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-301 - the-saas-directory-playbook-seven-high-authority.md",
+   "wiki": "X-301 - the-saas-directory-playbook-seven-high-authority",
+   "title": "The SaaS directory playbook: seven high-authority listings that feed AI discovery",
+   "group": "entry",
+   "uid": "X-301",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "high",
+   "tags": [
+    "mcp",
+    "directories",
+    "seo",
+    "saas-growth",
+    "backlinks",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-302 - agent-tree-component-shows-which-agent-spawned-w.md",
+   "wiki": "X-302 - agent-tree-component-shows-which-agent-spawned-w",
+   "title": "Agent tree component shows which agent spawned which",
+   "group": "entry",
+   "uid": "X-302",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "agent-ui",
+    "observability",
+    "component-design",
+    "subagents",
+    "design",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-303 - treg-aeo-toolkit-shows-which-sources-ai-cites-an.md",
+   "wiki": "X-303 - treg-aeo-toolkit-shows-which-sources-ai-cites-an",
+   "title": "Treg AEO toolkit shows which sources AI cites and who wrote them",
+   "group": "entry",
+   "uid": "X-303",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "high",
+   "tags": [
+    "aeo",
+    "ai-search",
+    "citations",
+    "open-source",
+    "treg",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-304 - agent-browser-snapshot-delta-cuts-form-filling-t.md",
+   "wiki": "X-304 - agent-browser-snapshot-delta-cuts-form-filling-t",
+   "title": "agent-browser snapshot --delta cuts form-filling tokens by 73x",
+   "group": "entry",
+   "uid": "X-304",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "agent-browser",
+    "vercel",
+    "browser-automation",
+    "tokens",
+    "agents",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-305 - skill-issue-in-is-a-ranked-directory-for-ai-agen.md",
+   "wiki": "X-305 - skill-issue-in-is-a-ranked-directory-for-ai-agen",
+   "title": "Skill-issue.in is a ranked directory for AI agent skills",
+   "group": "entry",
+   "uid": "X-305",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "agent-skills",
+    "directory",
+    "discovery",
+    "ranking",
+    "claude-code",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-306 - deepseek-v4-1-flash-is-free-in-opencode-kuvo-cod.md",
+   "wiki": "X-306 - deepseek-v4-1-flash-is-free-in-opencode-kuvo-cod",
+   "title": "DeepSeek V4.1 Flash is free in OpenCode; Kuvo Code runs bot teams on it",
+   "group": "entry",
+   "uid": "X-306",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "medium",
+   "tags": [
+    "deepseek",
+    "opencode",
+    "kuvo",
+    "multi-agent",
+    "free-models",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-307 - one-command-gives-coding-agents-persistent-memor.md",
+   "wiki": "X-307 - one-command-gives-coding-agents-persistent-memor",
+   "title": "One command gives coding agents persistent memory via supermemory",
+   "group": "entry",
+   "uid": "X-307",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "medium",
+   "tags": [
+    "agent-memory",
+    "supermemory",
+    "mcp",
+    "context",
+    "claude-code",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-308 - rea-babysitting-prompt-turns-free-glm-5-3-flash.md",
+   "wiki": "X-308 - rea-babysitting-prompt-turns-free-glm-5-3-flash",
+   "title": "REA babysitting prompt turns free GLM-5.3-Flash into a reverse-engineering analyst",
+   "group": "entry",
+   "uid": "X-308",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "reverse-engineering",
+    "rea",
+    "opencode",
+    "glm-5-3-flash",
+    "prompting",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-309 - buy-yourbrandreviews-com-so-llms-quote-reviews-y.md",
+   "wiki": "X-309 - buy-yourbrandreviews-com-so-llms-quote-reviews-y",
+   "title": "Buy yourbrandreviews.com so LLMs quote reviews you control",
+   "group": "entry",
+   "uid": "X-309",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "low",
+   "tags": [
+    "reviews",
+    "seo",
+    "llm-seo",
+    "dark-patterns",
+    "ftc",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-310 - garry-tan-pairs-capy-and-aside-so-agents-code-an.md",
+   "wiki": "X-310 - garry-tan-pairs-capy-and-aside-so-agents-code-an",
+   "title": "Garry Tan pairs Capy and Aside so agents code and set up DevOps",
+   "group": "entry",
+   "uid": "X-310",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "medium",
+   "tags": [
+    "capy",
+    "aside",
+    "devops",
+    "agents",
+    "vibe-coding",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-311 - weespy-chrome-extension-reverse-spies-a-saas-s-t.md",
+   "wiki": "X-311 - weespy-chrome-extension-reverse-spies-a-saas-s-t",
+   "title": "Weespy Chrome extension reverse-spies a SaaS's traffic, ads and content",
+   "group": "entry",
+   "uid": "X-311",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "medium",
+   "tags": [
+    "weespy",
+    "competitor-research",
+    "chrome-extension",
+    "saas-marketing",
+    "ads",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-312 - amazon-blocks-ai-shopping-agents-maritime-s-andr.md",
+   "wiki": "X-312 - amazon-blocks-ai-shopping-agents-maritime-s-andr",
+   "title": "Amazon blocks AI shopping agents; Maritime's Android MCP stays logged in for $1/month",
+   "group": "entry",
+   "uid": "X-312",
+   "platform": "Twitter",
+   "category": "Tech Industry & News",
+   "followup": "medium",
+   "tags": [
+    "amazon",
+    "ai-agents",
+    "android-mcp",
+    "commerce",
+    "maritime",
+    "twitter",
+    "tech-industry-news"
+   ]
+  },
+  {
+   "path": "Entries/X-313 - object-storage-benchmark-railway-tigris-fastest.md",
+   "wiki": "X-313 - object-storage-benchmark-railway-tigris-fastest",
+   "title": "Object storage benchmark: Railway/Tigris fastest, Neon slowest and priciest",
+   "group": "entry",
+   "uid": "X-313",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "object-storage",
+    "benchmark",
+    "railway",
+    "cloudflare-r2",
+    "s3",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-314 - the-agents-md-two-way-doors-rule-that-doubled-on.md",
+   "wiki": "X-314 - the-agents-md-two-way-doors-rule-that-doubled-on",
+   "title": "The AGENTS.md 'two-way doors' rule that doubled one dev's shipping",
+   "group": "entry",
+   "uid": "X-314",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "agents-md",
+    "autonomy",
+    "claude-code",
+    "workflow",
+    "decision-making",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-315 - send-opus-5-5-three-test-accounts-and-14-real-at.md",
+   "wiki": "X-315 - send-opus-5-5-three-test-accounts-and-14-real-at",
+   "title": "Send Opus 5.5 three test accounts and 14 real attacks before shipping",
+   "group": "entry",
+   "uid": "X-315",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "security",
+    "red-teaming",
+    "claude-code",
+    "subagents",
+    "vibe-coding",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-316 - reloop-undercuts-resend-at-20-per-100k-emails-an.md",
+   "wiki": "X-316 - reloop-undercuts-resend-at-20-per-100k-emails-an",
+   "title": "Reloop undercuts Resend at $20 per 100K emails and adds inbound mail",
+   "group": "entry",
+   "uid": "X-316",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "email",
+    "resend",
+    "open-source",
+    "smtp",
+    "deliverability",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-317 - earshot-gives-coding-agents-ears-to-judge-and-ge.md",
+   "wiki": "X-317 - earshot-gives-coding-agents-ears-to-judge-and-ge",
+   "title": "Earshot gives coding agents ears to judge and generate sound effects",
+   "group": "entry",
+   "uid": "X-317",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "audio",
+    "mcp",
+    "sound-design",
+    "claude-code",
+    "generative-audio",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-318 - opendesign-motion-makes-agent-videos-with-any-mo.md",
+   "wiki": "X-318 - opendesign-motion-makes-agent-videos-with-any-mo",
+   "title": "OpenDesign Motion makes agent videos with any model, no Opus required",
+   "group": "entry",
+   "uid": "X-318",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "medium",
+   "tags": [
+    "motion-design",
+    "video",
+    "open-source",
+    "deepseek",
+    "agents",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-319 - sys0-launches-an-interactive-systems-course-and.md",
+   "wiki": "X-319 - sys0-launches-an-interactive-systems-course-and",
+   "title": "Sys0 launches an interactive systems course and gets accused of repackaging open source",
+   "group": "entry",
+   "uid": "X-319",
+   "platform": "Twitter",
+   "category": "Programming & CS Learning",
+   "followup": "low",
+   "tags": [
+    "systems-programming",
+    "education",
+    "plagiarism",
+    "open-source",
+    "launch",
+    "twitter",
+    "programming-cs-learning"
+   ]
+  },
+  {
+   "path": "Entries/X-320 - dreamscale-runs-frontier-robot-models-from-a-one.md",
+   "wiki": "X-320 - dreamscale-runs-frontier-robot-models-from-a-one",
+   "title": "DreamScale runs frontier robot models from a one-line prompt, no GPU",
+   "group": "entry",
+   "uid": "X-320",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "robotics",
+    "physical-ai",
+    "cloud-inference",
+    "simulation",
+    "vla-models",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-321 - a-codex-built-whey-price-bot-found-a-2-kg-deal-t.md",
+   "wiki": "X-321 - a-codex-built-whey-price-bot-found-a-2-kg-deal-t",
+   "title": "A Codex-built whey price bot found a 2 kg deal the apps buried",
+   "group": "entry",
+   "uid": "X-321",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "codex",
+    "scraping",
+    "price-tracking",
+    "reverse-engineering",
+    "quick-commerce",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-322 - epstein-md-is-a-927k-character-markdown-file-for.md",
+   "wiki": "X-322 - epstein-md-is-a-927k-character-markdown-file-for",
+   "title": "Epstein.md is a 927K-character markdown file for banning AI design slop",
+   "group": "entry",
+   "uid": "X-322",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "medium",
+   "tags": [
+    "design",
+    "ai-slop",
+    "markdown",
+    "prompts",
+    "frontend",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-323 - bryel-offers-a-domain-specific-model-trained-fro.md",
+   "wiki": "X-323 - bryel-offers-a-domain-specific-model-trained-fro",
+   "title": "Bryel offers a domain-specific model trained from one prompt in seven days",
+   "group": "entry",
+   "uid": "X-323",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "model-training",
+    "distillation",
+    "custom-models",
+    "bryel",
+    "cost",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-324 - tasteskill-v2-gives-coding-agents-art-direction.md",
+   "wiki": "X-324 - tasteskill-v2-gives-coding-agents-art-direction",
+   "title": "TasteSkill v2 gives coding agents art direction, real assets and a browser check",
+   "group": "entry",
+   "uid": "X-324",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "design",
+    "claude-code",
+    "skills",
+    "frontend",
+    "taste",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-325 - design-how-ships-a-copy-paste-design-system-for.md",
+   "wiki": "X-325 - design-how-ships-a-copy-paste-design-system-for",
+   "title": "Design.how ships a copy-paste design system for AI apps and dev tools",
+   "group": "entry",
+   "uid": "X-325",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "design-system",
+    "ui",
+    "ai-products",
+    "dev-tools",
+    "frontend",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-326 - a-15-year-old-founder-s-full-agent-stack-t3-psta.md",
+   "wiki": "X-326 - a-15-year-old-founder-s-full-agent-stack-t3-psta",
+   "title": "A 15-year-old founder's full agent stack: t3, pstack, Notion, Linear and three cloud agents",
+   "group": "entry",
+   "uid": "X-326",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "agent-workflow",
+    "t3-code",
+    "pstack",
+    "opus-5-5",
+    "linear",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-327 - instabox-launches-sub-second-cloud-computers-for.md",
+   "wiki": "X-327 - instabox-launches-sub-second-cloud-computers-for",
+   "title": "InstaBox launches sub-second cloud computers for AI agents, then publishes the pricing",
+   "group": "entry",
+   "uid": "X-327",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "high",
+   "tags": [
+    "instabox",
+    "cloud-computers",
+    "ai-agents",
+    "launch",
+    "pricing",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-328 - one-paste-in-prompt-had-opus-5-5-find-four-perfo.md",
+   "wiki": "X-328 - one-paste-in-prompt-had-opus-5-5-find-four-perfo",
+   "title": "One paste-in prompt had Opus 5.5 find four performance bugs in three hours",
+   "group": "entry",
+   "uid": "X-328",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "performance",
+    "opus-5-5",
+    "prompts",
+    "benchmarking",
+    "frontend",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-329 - indra-launches-a-1m-parameter-ocr-model-at-49-pa.md",
+   "wiki": "X-329 - indra-launches-a-1m-parameter-ocr-model-at-49-pa",
+   "title": "Indra launches a 1M-parameter OCR model at 49 pages/s on CPU",
+   "group": "entry",
+   "uid": "X-329",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "ocr",
+    "indra",
+    "datalab",
+    "cpu-inference",
+    "open-models",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-330 - reason-claims-codex-astra-level-terminal-bench-p.md",
+   "wiki": "X-330 - reason-claims-codex-astra-level-terminal-bench-p",
+   "title": "Reason claims Codex+Astra-level Terminal-Bench performance at 22% lower cost",
+   "group": "entry",
+   "uid": "X-330",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "coding-harness",
+    "terminal-bench",
+    "cost",
+    "reason",
+    "agents",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-331 - slashdocs-is-google-docs-for-the-html-and-markdo.md",
+   "wiki": "X-331 - slashdocs-is-google-docs-for-the-html-and-markdo",
+   "title": "SlashDocs is Google Docs for the HTML and Markdown agents generate",
+   "group": "entry",
+   "uid": "X-331",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "documents",
+    "collaboration",
+    "agents",
+    "open-source",
+    "razorpay",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-332 - appllama-s-open-source-skills-reverse-engineer-a.md",
+   "wiki": "X-332 - appllama-s-open-source-skills-reverse-engineer-a",
+   "title": "Appllama's open-source skills reverse engineer any app, design or interaction",
+   "group": "entry",
+   "uid": "X-332",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "medium",
+   "tags": [
+    "reverse-engineering",
+    "skills",
+    "codex",
+    "ui",
+    "open-source",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-333 - delete-40k-lines-of-tests-then-lint-the-agent-so.md",
+   "wiki": "X-333 - delete-40k-lines-of-tests-then-lint-the-agent-so",
+   "title": "Delete 40K lines of tests, then lint the agent so it cannot write them again",
+   "group": "entry",
+   "uid": "X-333",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "testing",
+    "oxlint",
+    "agents",
+    "effect",
+    "code-quality",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-334 - huashu-art-motion-gives-opus-5-5-35-coded-art-st.md",
+   "wiki": "X-334 - huashu-art-motion-gives-opus-5-5-35-coded-art-st",
+   "title": "Huashu-art-motion gives Opus 5.5 35 coded art styles plus a film QA agent",
+   "group": "entry",
+   "uid": "X-334",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "motion-design",
+    "claude-code",
+    "skills",
+    "video",
+    "art-styles",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-335 - fsearch-0-2-150x-faster-grep-on-just-edited-file.md",
+   "wiki": "X-335 - fsearch-0-2-150x-faster-grep-on-just-edited-file",
+   "title": "FSearch 0.2: 150x faster grep on just-edited files and a 74% smaller index",
+   "group": "entry",
+   "uid": "X-335",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "file-search",
+    "macos",
+    "indexing",
+    "finder",
+    "performance",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-336 - treg-open-sources-people-search-for-claude-at-0.md",
+   "wiki": "X-336 - treg-open-sources-people-search-for-claude-at-0",
+   "title": "Treg open-sources people search for Claude at $0.0089 per lead",
+   "group": "entry",
+   "uid": "X-336",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "people-search",
+    "lead-generation",
+    "open-source",
+    "claude",
+    "treg",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-337 - maritime-yc-f26-hosts-each-ai-agent-on-its-own-c.md",
+   "wiki": "X-337 - maritime-yc-f26-hosts-each-ai-agent-on-its-own-c",
+   "title": "Maritime (YC F26) hosts each AI agent on its own computer for $1/month",
+   "group": "entry",
+   "uid": "X-337",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "high",
+   "tags": [
+    "maritime",
+    "agent-infrastructure",
+    "yc",
+    "cloud",
+    "pricing",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-338 - fframes-recreates-a-viral-video-with-rust-svg-an.md",
+   "wiki": "X-338 - fframes-recreates-a-viral-video-with-rust-svg-an",
+   "title": "fframes recreates a viral video with Rust, SVG and shaders - and beats the original's polish",
+   "group": "entry",
+   "uid": "X-338",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "fframes",
+    "codex",
+    "rust",
+    "svg",
+    "motion-design",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-339 - obsidianui-ships-an-open-source-dashboard-shell.md",
+   "wiki": "X-339 - obsidianui-ships-an-open-source-dashboard-shell",
+   "title": "ObsidianUI ships an open-source dashboard shell after a three-hour build",
+   "group": "entry",
+   "uid": "X-339",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "ui-library",
+    "dashboard",
+    "open-source",
+    "react",
+    "components",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-340 - phone-use-plus-openai-s-decisions-api-lets-an-ag.md",
+   "wiki": "X-340 - phone-use-plus-openai-s-decisions-api-lets-an-ag",
+   "title": "Phone-use plus OpenAI's Decisions API lets an agent choose its next action 10x faster",
+   "group": "entry",
+   "uid": "X-340",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "medium",
+   "tags": [
+    "phone-use",
+    "openai",
+    "decisions-api",
+    "agents",
+    "latency",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-341 - capy-s-guided-reviews-turn-a-big-pr-into-chapter.md",
+   "wiki": "X-341 - capy-s-guided-reviews-turn-a-big-pr-into-chapter",
+   "title": "Capy's Guided Reviews turn a big PR into chapters with a before/after overview",
+   "group": "entry",
+   "uid": "X-341",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "code-review",
+    "capy",
+    "pull-requests",
+    "linear",
+    "agents",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-342 - blogr-maps-a-niche-writes-and-publishes-articles.md",
+   "wiki": "X-342 - blogr-maps-a-niche-writes-and-publishes-articles",
+   "title": "Blogr maps a niche, writes and publishes articles, then watches the rankings",
+   "group": "entry",
+   "uid": "X-342",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "low",
+   "tags": [
+    "seo",
+    "content-automation",
+    "blogr",
+    "email",
+    "indie",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-343 - google-s-the-big-code-competition-is-open-to-202.md",
+   "wiki": "X-343 - google-s-the-big-code-competition-is-open-to-202",
+   "title": "Google's The Big Code competition is open to 2027-2029 grads, not 2026",
+   "group": "entry",
+   "uid": "X-343",
+   "platform": "Twitter",
+   "category": "Interviews, OA & DSA",
+   "followup": "low",
+   "tags": [
+    "google",
+    "coding-competition",
+    "hackerearth",
+    "students",
+    "eligibility",
+    "twitter",
+    "interviews-oa-dsa"
+   ]
+  },
+  {
+   "path": "Entries/X-344 - the-burgery-in-indiranagar-buff-and-chicken-burg.md",
+   "wiki": "X-344 - the-burgery-in-indiranagar-buff-and-chicken-burg",
+   "title": "The Burgery In, Indiranagar: buff and chicken burgers worth the trip",
+   "group": "entry",
+   "uid": "X-344",
+   "platform": "Twitter",
+   "category": "India Life & City Guides",
+   "followup": "medium",
+   "tags": [
+    "bangalore",
+    "indiranagar",
+    "burgers",
+    "food",
+    "recommendation",
+    "twitter",
+    "india-life-city-guides"
    ]
   }
  ]

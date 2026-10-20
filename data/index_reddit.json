@@ -914,5 +914,100 @@
   "externalUrl": "https://www.reddit.com/r/leetcode/comments/1qteeer/after_months_of_disappointment_finally_received/",
   "isComment": false,
   "parentTitle": ""
+ },
+ {
+  "uid": "R-028",
+  "platform": "Reddit",
+  "url": "https://www.reddit.com/r/BestGitHubRepos/comments/1x8vqkc/academic_research_skills_a_comprehensive_suite_of/",
+  "author": "Artilas_Digital",
+  "handle": "u/Artilas_Digital",
+  "date": "2026-10-18T06:08:29Z",
+  "title": "Academic Research Skills: A comprehensive suite of Claude Code skills for academic research (52k stars)",
+  "mainText": "# What it does *All text below is quoted directly from the project README.* >A comprehensive suite of Claude Code skills for academic research, covering the full pipeline from research to publication. **Features at a glance:** * **Deep Research**: 13-agent research team with Socratic guided mode, PRISMA systematic review, intent detection, dialogue health monitoring, optional cross-model DA, Semantic Scholar API verification. * **Academic Paper**: 12-agent paper writing with Style Calibration, Writing Quality Check, LaTeX hardening, visualization, revision coaching, citation conversion, anti-leakage protocol, and VLM figure verification. * **Academic Paper Reviewer**: 7-agent multi-perspective peer review with criterion-bound, evidence-anchored narrative judgements (Journal-Fit Reviewer + 3 dynamic reviewers + Devil's Advocate), concession threshold protocol, attack intensity preservatio …",
+  "threadText": "",
+  "discussion": "",
+  "replyCount": 0,
+  "conversationTweets": 0,
+  "extraReplyCount": 0,
+  "stats": "↑234 · 0 comments",
+  "counts": {
+   "replies": 0,
+   "likes": 234
+  },
+  "quote": "",
+  "hasVideo": false,
+  "imageCount": 0,
+  "videoPoster": null,
+  "links": [
+   "https://github.com/Imbad0202/academic-research-skills"
+  ],
+  "cardText": "",
+  "detailMissing": false,
+  "diagnosis": null,
+  "context": "r/BestGitHubRepos"
+ },
+ {
+  "uid": "R-029",
+  "platform": "Reddit",
+  "url": "https://www.reddit.com/r/BestGitHubRepos/comments/1x5x7e2/last30days_ai_agent_skill_that_researches_any/",
+  "author": "company_url_finder",
+  "handle": "u/company_url_finder",
+  "date": "2026-10-14T17:19:33Z",
+  "title": "last30days: AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web (64.2k stars)",
+  "mainText": "# What it does *All text below is quoted directly from the project README.* >**An AI agent-led search engine scored by upvotes, likes, and real money - not editors.** >Zero config. Reddit, HN, Polymarket, and GitHub work immediately. Run it once and the setup wizard unlocks X, YouTube, TikTok, arXiv, Techmeme, and more in 30 seconds. >Reddit upvotes. X likes. YouTube transcripts. TikTok engagement. Polymarket odds backed by real money and insider information. That's millions of people voting with their attention and their wallets every day. /last30days searches all of it in parallel, scores it by what real people actually engage with, and an AI agent judge synthesizes it into one brief. >Google aggregates editors. /last30days searches people. >You can't get this search anywhere else because no single AI has access to all of it. Google search doesn't touch Reddit comments or X posts. Chat …",
+  "threadText": "",
+  "discussion": "HPLovecraft1890 (↑9): \"Scored by upvotes\" = echo chamber — davydanger (↑5): Still better than being locked in google search bubble — shkicaz (↑6): I use it from time to time and it’s great for capturing online sentiment on stuff. — Code-Painting-8294 (↑2): i actually just use the underlying logic for whatever platform i want, usually twitter articles. saves a lot of time — madroots2 (↑2): I feel like these projects are starred by AI agents and not people. how can this have 60k stars on github?? Not the first project of this caliber either. — Sethp712 (↑1): Thanks for your post — Better-Psychology-42 (↑1): \"Reddit nerds\" 😃 fuck off",
+  "replyCount": 7,
+  "conversationTweets": 0,
+  "extraReplyCount": 0,
+  "stats": "↑481 · 7 comments",
+  "counts": {
+   "replies": 7,
+   "likes": 481
+  },
+  "quote": "",
+  "hasVideo": false,
+  "imageCount": 0,
+  "videoPoster": null,
+  "links": [
+   "https://github.com/mvanhorn/last30days-skill"
+  ],
+  "cardText": "",
+  "detailMissing": false,
+  "diagnosis": null,
+  "context": "r/BestGitHubRepos"
+ },
+ {
+  "uid": "R-030",
+  "platform": "Reddit",
+  "url": "https://www.reddit.com/r/BestGitHubRepos/comments/1x0sa3u/repowise_understand_your_codebase_without_paying/",
+  "author": "company_url_finder",
+  "handle": "u/company_url_finder",
+  "date": "2026-10-08T14:23:54Z",
+  "title": "Repowise: Understand your codebase without paying your agent to rediscover it (7k stars)",
+  "mainText": "# What it does *All text below is quoted directly from the project README.* >Repowise indexes your code, call graph, git history, tests, docs and design decisions once, on your machine. Then you and your coding agent ask it things: what calls this, what breaks if I change it, what is dead, what to fix first, and why it was built this way. Graph, risk, health, tests and dead code make **zero LLM calls** · no API key needed · free and self-hosted · AGPL-3.0 or commercial **What it does:** One index, three ways to use it. * *How does checkout work in this repo?* A cited answer built from the call graph and the generated docs, in one call. * *What calls this function, and what does it call?* A call graph across 26 parsed languages, every edge stamped with how it was resolved and how far to trust it, plus traced execution flows from each entry point. * *Can I get docs for this codebase?* A wi …",
+  "threadText": "",
+  "discussion": "underatedd6 (↑8): how does this differ from all open sources graph codebase? — Obvious_Gap_5768 (↑5): Most of them only create a dependency graph. Repowise does that plus docs, architectural decisions, code health, git history, test coverage and more. And there are benchmarks against other graph tools in the repo too. Re … — Graphesium (↑7): How does this differ from codegraph? — Obvious_Gap_5768 (↑11): Codegraph only creates a dependency graph. Repowise does that plus docs, architectural decisions, code health, git history, test coverage and more. And there are benchmarks against codegraph in the repo too — tilsgee (↑6): Heh... For a guy who wants to learn programming, this repo is a godsend — BrownCarter (↑5): Is this an mcp or what? — enyhma (↑4): How this differ from gortex? — Foxiya (↑10): gortex is waterproof — mik3lang3l0 (↑3): How this can help someone who has built a project organize with docs and index? I'm asking because I can see working well with a project that is in the middle and don't have the proper documentation but not if you are st … — MetronSM (↑2): Have you compared it to JCodeMunch? Also, I checked out the Team offering on your website. I have a small 2-man-team, so I couldn't use the shared repos for the team. Or would I be able to share the repo with my teammate … — DudeManly1963 (↑6): repowise and jCodeMunch can be used together to solve adjacent but d …",
+  "replyCount": 16,
+  "conversationTweets": 0,
+  "extraReplyCount": 0,
+  "stats": "↑615 · 19 comments",
+  "counts": {
+   "replies": 19,
+   "likes": 615
+  },
+  "quote": "",
+  "hasVideo": false,
+  "imageCount": 0,
+  "videoPoster": null,
+  "links": [
+   "https://github.com/repowise-dev/repowise",
+   "https://docs.repowise.dev/setup.md",
+   "https://repowise.dev/"
+  ],
+  "cardText": "",
+  "detailMissing": false,
+  "diagnosis": null,
+  "context": "r/BestGitHubRepos"
  }
 ]
