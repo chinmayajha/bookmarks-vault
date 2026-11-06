@@ -1650,29 +1650,6 @@
   "worthFollowUp": "low"
  },
  {
-  "uid": "X-073",
-  "platform": "Twitter",
-  "category": "Jobs, Careers & Compensation",
-  "subcategory": "ML intern hiring",
-  "title": "Peakflo (YC W22) hiring remote ML intern, 50k/month stipend",
-  "author": "Ayushi",
-  "date": "2026-02-12",
-  "url": "https://x.com/Ayushi_sharma02/status/2021819146137382961",
-  "engagement": "124 replies · 6 reposts · 302 likes · 19.5K views · 165 bookmarks",
-  "essence": "Ayushi posts a #hiring #remote opening: Peakflo (YC W22) hiring a Machine Learning Intern for 2025/2026/2027 batches, remote India, 50k/month stipend, skills needed are machine learning, prompt engineering, Python and NLP; her thread tells people to apply and check DMs. Replies are mostly 'interested', one person asks about full-time AI/ML roles, another about cybersecurity or web3 openings for freshers; 302 likes and 165 bookmarks.",
-  "summary": "A concrete YC startup intern stipend data point for India (50k/month, remote).",
-  "productLinks": [],
-  "hasMedia": "",
-  "topicTags": [
-   "hiring",
-   "ml-intern",
-   "yc",
-   "remote-work",
-   "india"
-  ],
-  "worthFollowUp": "low"
- },
- {
   "uid": "X-074",
   "platform": "Twitter",
   "category": "Personal Finance & Money",
@@ -1738,30 +1715,6 @@
    "learning-roadmap",
    "ai-ml",
    "open-resource"
-  ],
-  "worthFollowUp": "medium"
- },
- {
-  "uid": "X-077",
-  "platform": "Twitter",
-  "category": "Interviews, OA & DSA",
-  "subcategory": "MLSys coding competition",
-  "title": "MLSys 2026 Graph Scheduling Competition - design a JSON schedule",
-  "author": "Google Students",
-  "date": "2026-02-10",
-  "url": "https://x.com/googlestudents/status/2021264553225367989",
-  "engagement": "7 replies · 80 reposts · 1.2K likes · 98.3K views · 1.2K bookmarks",
-  "essence": "Google Students promotes the MLSys 2026 Graph Scheduling Competition: given a complex AI workload and a tiny high-speed memory scratchpad, design a schedule (just a JSON file) that moves data in and out efficiently to minimize latency - 'like a high-stakes game of inventory management'. Open to students, researchers, hobbyists and puzzle-solvers worldwide, with a registration link. The only reply asks Google to bring Hash Code back; 1,181 likes and 1,193 bookmarks.",
-  "summary": "A global, open-to-anyone optimization contest with a low barrier to entry (JSON schedule) - good portfolio signal.",
-  "productLinks": [
-   "https://goo.gle/4ktgyyb"
-  ],
-  "hasMedia": "",
-  "topicTags": [
-   "coding-competition",
-   "mlsys",
-   "optimization",
-   "contest"
   ],
   "worthFollowUp": "medium"
  },
@@ -1853,33 +1806,6 @@
    "compensation",
    "india",
    "sde-1"
-  ],
-  "worthFollowUp": "medium"
- },
- {
-  "uid": "X-082",
-  "platform": "Twitter",
-  "category": "Jobs, Careers & Compensation",
-  "subcategory": "AI policy fellowships",
-  "title": "Four AI and tech policy fellowships to apply to",
-  "author": "Equivocator™",
-  "date": "2026-01-20",
-  "url": "https://x.com/Oluwanonso_Esq/status/2013577008094052502",
-  "engagement": "55 reposts · 326 likes · 24.6K views · 557 bookmarks",
-  "essence": "Equivocator lists AI and tech policy fellowships to apply to: a Fellowship in AI Ethics (Harvard), Technologist-in-Residence, Mila Indigenous Pathfinders in AI, and the IAPS AI Policy Fellowship 2026, each with an lnkd.in application link. No reply discussion is captured; 55 reposts, 326 likes and 557 bookmarks on 24.6K views.",
-  "summary": "A ready-made list of AI-governance fellowship applications with direct links - good for policy-interested candidates.",
-  "productLinks": [
-   "https://lnkd.in/gS_cBZU7",
-   "https://lnkd.in/gvyV-6Qd",
-   "https://lnkd.in/gtDmdWmX",
-   "https://lnkd.in/gbg4r3_b"
-  ],
-  "hasMedia": "",
-  "topicTags": [
-   "fellowships",
-   "ai-policy",
-   "opportunities",
-   "applications"
   ],
   "worthFollowUp": "medium"
  },
@@ -1995,28 +1921,6 @@
    "agency"
   ],
   "worthFollowUp": "high"
- },
- {
-  "uid": "X-088",
-  "platform": "Twitter",
-  "category": "Quant & Trading",
-  "subcategory": "quant competition calendar",
-  "title": "List of upcoming quant competitions (Google Drive doc)",
-  "author": "Piotr Pomorski",
-  "date": "2026-01-26",
-  "url": "https://x.com/PtrPomorski/status/2015800176418414608",
-  "engagement": "1 reply · 46 reposts · 575 likes · 35.7K views · 821 bookmarks",
-  "essence": "Piotr Pomorski shares a document listing upcoming quant competitions for anyone interested (Google Drive link). No reply discussion is captured; 46 reposts, 575 likes and 821 bookmarks on 35.7K views.",
-  "summary": "A saved calendar of quant trading competitions - useful for students targeting trading firms.",
-  "productLinks": [],
-  "hasMedia": "",
-  "topicTags": [
-   "quant",
-   "competitions",
-   "trading-contests",
-   "opportunities"
-  ],
-  "worthFollowUp": "medium"
  },
  {
   "uid": "X-089",
