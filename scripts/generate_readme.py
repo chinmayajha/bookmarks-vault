@@ -10,6 +10,8 @@ import os
 import re
 from collections import Counter, OrderedDict
 
+from important import active_important, deadline_label
+
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(BASE, "data")
 
@@ -153,6 +155,15 @@ A("")
 A("Each entry below shows the **essence of the whole discussion** (main post + thread + top replies)")
 A("and a one-line **takeaway** — you shouldn't need to click through to get the point.")
 A("")
+
+important_rows = active_important(rows)
+if important_rows:
+    A("## ⏰ Important")
+    A("")
+    for r in important_rows:
+        A(f"- **[{esc(one_line(r.get('title'), 100))}]({r.get('url', '')})** — "
+          f"{one_line(r['important']['note'])}{deadline_label(r)}")
+    A("")
 
 # category index
 A("## 🗂 Category index")

@@ -11,6 +11,8 @@ import os
 import re
 from collections import Counter, OrderedDict
 
+from important import active_important, deadline_label
+
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(BASE, "data")
 ENTRIES = os.path.join(BASE, "Entries")
@@ -99,6 +101,8 @@ for r in rows:
         f"engagement: {j(r.get('engagement'))}",
         f"followup: {j(r.get('worthFollowUp'))}",
         f"media: {j(r.get('hasMedia') or 'none')}",
+        *([f"important: {j(r['important']['note'])}"] if r.get("important") else []),
+        *([f"deadline: {j(r['important']['deadline'])}"] if (r.get("important") or {}).get("deadline") else []),
         f"links: {json.dumps(links, ensure_ascii=False)}",
         f"tags: {json.dumps(tags, ensure_ascii=False)}",
         "---",
@@ -113,6 +117,8 @@ for r in rows:
         + (" · ⭐ high follow-up" if r.get("worthFollowUp") == "high" else ""),
         "",
     ]
+    if r.get("important"):
+        lines += [f"> ⏰ **Important:** {one_line(r['important']['note'])}{deadline_label(r)}", ""]
     ess = one_line(r.get("essence"))
     if ess:
         lines += ["## 💬 Essence", "", ess, ""]
@@ -179,6 +185,14 @@ for name, items in by_cat.items():
     if len(highlights) >= 10:
         break
 
+important_rows = active_important(rows)
+important_block = (
+    ["## ⏰ Important", ""]
+    + [f'- **[[{note_of[r["uid"]]}|{one_line(r.get("title"), 80)}]]** — '
+       f'{one_line(r["important"]["note"])}{deadline_label(r)}' for r in important_rows]
+    + [""]
+) if important_rows else []
+
 home = [
     "---",
     "tags: [dashboard]",
@@ -199,6 +213,7 @@ home = [
     f" · 🎬 {media.get('video', 0)} videos"
     f" · ⭐ {follow.get('high', 0)} high follow-up",
     "",
+    *important_block,
     "## 🗓 My plan for the coming months",
     "",
     "**[Inference Engineering Roadmap](https://chinmayajha.github.io/bookmarks-vault/Roadmap.html)**"

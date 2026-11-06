@@ -8,13 +8,13 @@ from openpyxl import Workbook
 from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
 from openpyxl.utils import get_column_letter
 
-BASE = "/Users/inno/bookmarks_extraction"
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(BASE, "Bookmarks_Categorized.xlsx")
 
 # ---- load rows -------------------------------------------------------------
 rows = []
 for f in ("categorized_x_1.json", "categorized_x_2.json", "categorized_x_3.json", "categorized_rl.json"):
-    p = os.path.join(BASE, f)
+    p = os.path.join(BASE, "data", "categorized", f)
     if os.path.exists(p):
         with open(p) as fh:
             data = json.load(fh)
@@ -32,7 +32,7 @@ for r in rows:
 rows = uniq
 
 # coverage check against the index
-idx_path = os.path.join(BASE, "index_all.json")
+idx_path = os.path.join(BASE, "data", "index_all.json")
 if os.path.exists(idx_path):
     with open(idx_path) as fh:
         idx = json.load(fh)
