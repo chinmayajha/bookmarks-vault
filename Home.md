@@ -8,9 +8,15 @@ Your X / Reddit / LinkedIn bookmarks — extracted in full, categorized, summari
 
 ## 📊 At a glance
 
-**389 entries** · 🐦 X 344 · 💬 Reddit 30 · 💼 LinkedIn 15
+**431 entries** · 🐦 X 387 · 💬 Reddit 30 · 💼 LinkedIn 14
 
-🏷 14 categories · 🔗 167 with product links · 🎬 58 videos · ⭐ 173 high follow-up
+🏷 14 categories · 🔗 195 with product links · 🎬 73 videos · ⭐ 186 high follow-up
+
+## ⏰ Important
+
+- **[[X-383 - cloudflare-security-audit-skill-finds-bugs-even|Cloudflare security-audit skill finds bugs even with cheap models; Vercel …]]** — Vercel Security Reviews are free until 10 Nov 2026 (from a reply on X-384). Run the Cloudflare security-audit skill on your repos too. · ⏳ by 2026-11-10
+- **[[X-387 - publish-a-cli-to-npm-for-automatic-listings-on-l|Publish a CLI to npm for automatic listings on Libraries.io and more (DR 75)]]** — Ahrefs rolls out its DR4 rating model on 1 Dec 2026. DR numbers quoted in these SaaS visibility hacks can change, so check your own DR before then. · ⏳ by 2026-12-01
+- **[[X-361 - mcp-ffmpeg-and-other-mcp-servers-pass-file-names|mcp-ffmpeg and other MCP servers pass file names into a shell: no patch yet]]** — mcp-ffmpeg 1.0.5 and below allow shell injection through file names. VulnCheck listed no fixed version for nine MCP servers (checked 6 Nov 2026). Check your MCP config and sandbox the agent.
 
 ## 🗓 My plan for the coming months
 
@@ -18,19 +24,19 @@ Your X / Reddit / LinkedIn bookmarks — extracted in full, categorized, summari
 
 ## 🗂 Categories
 
-- **[[AI & LLM]]** — 93 items
-- **[[Dev Tools & Productivity]]** — 65 items
-- **[[Programming & CS Learning]]** — 52 items
-- **[[Interviews, OA & DSA]]** — 34 items
-- **[[Jobs, Careers & Compensation]]** — 31 items
-- **[[Quant & Trading]]** — 24 items
-- **[[Personal Finance & Money]]** — 9 items
-- **[[Startups, Product & Marketing]]** — 41 items
+- **[[AI & LLM]]** — 102 items
+- **[[Dev Tools & Productivity]]** — 85 items
+- **[[Programming & CS Learning]]** — 53 items
+- **[[Interviews, OA & DSA]]** — 32 items
+- **[[Jobs, Careers & Compensation]]** — 29 items
+- **[[Quant & Trading]]** — 23 items
+- **[[Personal Finance & Money]]** — 10 items
+- **[[Startups, Product & Marketing]]** — 56 items
 - **[[Health, Fitness & Wellness]]** — 12 items
 - **[[Life, Relationships & Self-Improvement]]** — 4 items
 - **[[India Life & City Guides]]** — 3 items
 - **[[Entertainment, Culture & Fun]]** — 12 items
-- **[[Tech Industry & News]]** — 4 items
+- **[[Tech Industry & News]]** — 5 items
 - **[[Other]]** — 5 items
 
 ## 🌟 Start here — high-signal picks
@@ -42,10 +48,11 @@ Your X / Reddit / LinkedIn bookmarks — extracted in full, categorized, summari
 - **[[X-202 - 13-websites-that-pay-in-usd-for-remote-jobs|13 websites that pay in USD for remote jobs]]** — OP argues LinkedIn is not your golden ticket to remote work and starts a list of 13 USD-paying sites: Wellfound (130K tech jobs, 27K companies connecting startups and job seekers), Toptal (exclusive …
 - **[[R-005 - quant-trader-vs-quant-researcher-is-a-bad-map-he|Quant Trader vs Quant Researcher Is a Bad Map. Here's a Better Taxonomy]]** — OP argues that sorting quants into QT/QR/QD buckets is meaningless because the same title is a different job at every seat — a Jane Street trader codes all day, a Tower trader looks like a full-stack …
 - **[[X-162 - how-i-d-promote-my-startup-with-0-followers-part|How I'd promote my startup with 0 followers (Part 3)]]** — OP's seven-step zero-audience promotion plan: auto-submit to 100 business directories via boringlaunch.com for initial traffic; win clients with Lemlist's LinkedIn voice outreach (filter ICPs by …
+- **[[X-375 - smart-tv-privacy-turn-off-acr-isolate-iot-device|Smart TV privacy: turn off ACR, isolate IoT devices and filter DNS with NextDNS]]** — Tristan summarizes why smart TVs are cheap. A researcher (log4j) rooted a 2025 Samsung TV and found an always-on microphone, automatic content recognition (ACR), geolocation, network mapping and ad …
 
 ## 📦 Source files
 
-- [[README]] — the full browsable archive (389 entries, all details)
+- [[README]] — the full browsable archive (431 entries, all details)
 - `Bookmarks_Categorized.xlsx` — Excel workbook (Master Index + a sheet per category)
 - `data/` — raw + normalized extraction JSON
 - `scripts/` — rebuild scripts (`build_index.js`, `build_workbook.py`, `generate_readme.py`, `generate_obsidian.py`)

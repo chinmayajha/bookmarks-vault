@@ -20,7 +20,7 @@
    "wiki": "AI & LLM",
    "title": "🗂 AI & LLM",
    "group": "category",
-   "count": 93
+   "count": 102
   },
   {
    "name": "Dev Tools & Productivity",
@@ -29,7 +29,7 @@
    "wiki": "Dev Tools & Productivity",
    "title": "🗂 Dev Tools & Productivity",
    "group": "category",
-   "count": 65
+   "count": 85
   },
   {
    "name": "Programming & CS Learning",
@@ -38,7 +38,7 @@
    "wiki": "Programming & CS Learning",
    "title": "🗂 Programming & CS Learning",
    "group": "category",
-   "count": 52
+   "count": 53
   },
   {
    "name": "Interviews, OA & DSA",
@@ -47,7 +47,7 @@
    "wiki": "Interviews, OA & DSA",
    "title": "🗂 Interviews, OA & DSA",
    "group": "category",
-   "count": 34
+   "count": 32
   },
   {
    "name": "Jobs, Careers & Compensation",
@@ -56,7 +56,7 @@
    "wiki": "Jobs, Careers & Compensation",
    "title": "🗂 Jobs, Careers & Compensation",
    "group": "category",
-   "count": 31
+   "count": 29
   },
   {
    "name": "Quant & Trading",
@@ -65,7 +65,7 @@
    "wiki": "Quant & Trading",
    "title": "🗂 Quant & Trading",
    "group": "category",
-   "count": 24
+   "count": 23
   },
   {
    "name": "Personal Finance & Money",
@@ -74,7 +74,7 @@
    "wiki": "Personal Finance & Money",
    "title": "🗂 Personal Finance & Money",
    "group": "category",
-   "count": 9
+   "count": 10
   },
   {
    "name": "Startups, Product & Marketing",
@@ -83,7 +83,7 @@
    "wiki": "Startups, Product & Marketing",
    "title": "🗂 Startups, Product & Marketing",
    "group": "category",
-   "count": 41
+   "count": 56
   },
   {
    "name": "Health, Fitness & Wellness",
@@ -128,7 +128,7 @@
    "wiki": "Tech Industry & News",
    "title": "🗂 Tech Industry & News",
    "group": "category",
-   "count": 4
+   "count": 5
   },
   {
    "name": "Other",
@@ -402,25 +402,6 @@
     "python",
     "linkedin",
     "quant-trading"
-   ]
-  },
-  {
-   "path": "Entries/L-015 - udaan-mentor-driven-startup-launchpad-for-colleg.md",
-   "wiki": "L-015 - udaan-mentor-driven-startup-launchpad-for-colleg",
-   "title": "Udaan: mentor-driven startup launchpad for college students (BITS Pilani)",
-   "group": "entry",
-   "uid": "L-015",
-   "platform": "LinkedIn",
-   "category": "Startups, Product & Marketing",
-   "followup": "low",
-   "tags": [
-    "startup-program",
-    "student-startups",
-    "mentorship",
-    "bits-pilani",
-    "demo-day",
-    "linkedin",
-    "startups-product-marketing"
    ]
   },
   {
@@ -2306,25 +2287,6 @@
    ]
   },
   {
-   "path": "Entries/X-073 - peakflo-yc-w22-hiring-remote-ml-intern-50k-month.md",
-   "wiki": "X-073 - peakflo-yc-w22-hiring-remote-ml-intern-50k-month",
-   "title": "Peakflo (YC W22) hiring remote ML intern, 50k/month stipend",
-   "group": "entry",
-   "uid": "X-073",
-   "platform": "Twitter",
-   "category": "Jobs, Careers & Compensation",
-   "followup": "low",
-   "tags": [
-    "hiring",
-    "ml-intern",
-    "yc",
-    "remote-work",
-    "india",
-    "twitter",
-    "jobs-careers-compensation"
-   ]
-  },
-  {
    "path": "Entries/X-074 - own-1-share-get-discounts-ihcl-25-metro-15-raymo.md",
    "wiki": "X-074 - own-1-share-get-discounts-ihcl-25-metro-15-raymo",
    "title": "Own 1 share, get discounts: IHCL 25%, Metro 15%, Raymond 10%",
@@ -2375,24 +2337,6 @@
     "open-resource",
     "twitter",
     "programming-cs-learning"
-   ]
-  },
-  {
-   "path": "Entries/X-077 - mlsys-2026-graph-scheduling-competition-design-a.md",
-   "wiki": "X-077 - mlsys-2026-graph-scheduling-competition-design-a",
-   "title": "MLSys 2026 Graph Scheduling Competition - design a JSON schedule",
-   "group": "entry",
-   "uid": "X-077",
-   "platform": "Twitter",
-   "category": "Interviews, OA & DSA",
-   "followup": "medium",
-   "tags": [
-    "coding-competition",
-    "mlsys",
-    "optimization",
-    "contest",
-    "twitter",
-    "interviews-oa-dsa"
    ]
   },
   {
@@ -2464,24 +2408,6 @@
     "compensation",
     "india",
     "sde-1",
-    "twitter",
-    "jobs-careers-compensation"
-   ]
-  },
-  {
-   "path": "Entries/X-082 - four-ai-and-tech-policy-fellowships-to-apply-to.md",
-   "wiki": "X-082 - four-ai-and-tech-policy-fellowships-to-apply-to",
-   "title": "Four AI and tech policy fellowships to apply to",
-   "group": "entry",
-   "uid": "X-082",
-   "platform": "Twitter",
-   "category": "Jobs, Careers & Compensation",
-   "followup": "medium",
-   "tags": [
-    "fellowships",
-    "ai-policy",
-    "opportunities",
-    "applications",
     "twitter",
     "jobs-careers-compensation"
    ]
@@ -2577,24 +2503,6 @@
     "agency",
     "twitter",
     "startups-product-marketing"
-   ]
-  },
-  {
-   "path": "Entries/X-088 - list-of-upcoming-quant-competitions-google-drive.md",
-   "wiki": "X-088 - list-of-upcoming-quant-competitions-google-drive",
-   "title": "List of upcoming quant competitions (Google Drive doc)",
-   "group": "entry",
-   "uid": "X-088",
-   "platform": "Twitter",
-   "category": "Quant & Trading",
-   "followup": "medium",
-   "tags": [
-    "quant",
-    "competitions",
-    "trading-contests",
-    "opportunities",
-    "twitter",
-    "quant-trading"
    ]
   },
   {
@@ -6174,24 +6082,6 @@
    ]
   },
   {
-   "path": "Entries/X-282 - hacktober-with-kestra-2-macbook-neos-ipads-and-v.md",
-   "wiki": "X-282 - hacktober-with-kestra-2-macbook-neos-ipads-and-v",
-   "title": "Hacktober with Kestra: 2 Macbook Neos, iPads and vouchers for top OSS contributors",
-   "group": "entry",
-   "uid": "X-282",
-   "platform": "Twitter",
-   "category": "Jobs, Careers & Compensation",
-   "followup": "medium",
-   "tags": [
-    "hacktoberfest",
-    "open-source",
-    "events",
-    "prizes",
-    "twitter",
-    "jobs-careers-compensation"
-   ]
-  },
-  {
    "path": "Entries/X-283 - rust-everywhere-beautiful-language-if-you-don-t.md",
    "wiki": "X-283 - rust-everywhere-beautiful-language-if-you-don-t",
    "title": "Rust everywhere? 'Beautiful language if you don't have to look at it' (DHH)",
@@ -7324,25 +7214,6 @@
    ]
   },
   {
-   "path": "Entries/X-343 - google-s-the-big-code-competition-is-open-to-202.md",
-   "wiki": "X-343 - google-s-the-big-code-competition-is-open-to-202",
-   "title": "Google's The Big Code competition is open to 2027-2029 grads, not 2026",
-   "group": "entry",
-   "uid": "X-343",
-   "platform": "Twitter",
-   "category": "Interviews, OA & DSA",
-   "followup": "low",
-   "tags": [
-    "google",
-    "coding-competition",
-    "hackerearth",
-    "students",
-    "eligibility",
-    "twitter",
-    "interviews-oa-dsa"
-   ]
-  },
-  {
    "path": "Entries/X-344 - the-burgery-in-indiranagar-buff-and-chicken-burg.md",
    "wiki": "X-344 - the-burgery-in-indiranagar-buff-and-chicken-burg",
    "title": "The Burgery In, Indiranagar: buff and chicken burgers worth the trip",
@@ -7360,6 +7231,919 @@
     "twitter",
     "india-life-city-guides"
    ]
+  },
+  {
+   "path": "Entries/X-345 - untangle-codebase-skill-removes-leaky-abstractio.md",
+   "wiki": "X-345 - untangle-codebase-skill-removes-leaky-abstractio",
+   "title": "/untangle-codebase skill removes leaky abstractions, copy-paste and wrapper clutter",
+   "group": "entry",
+   "uid": "X-345",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "claude-code",
+    "skills",
+    "refactoring",
+    "code-quality",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-346 - copy-paste-prompt-makes-a-hermes-agent-build-a-f.md",
+   "wiki": "X-346 - copy-paste-prompt-makes-a-hermes-agent-build-a-f",
+   "title": "Copy-paste prompt makes a Hermes Agent build a four-profile HackerOne bounty pipeline",
+   "group": "entry",
+   "uid": "X-346",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "low",
+   "tags": [
+    "hermes-agent",
+    "bug-bounty",
+    "hackerone",
+    "kanban",
+    "agent-automation",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-347 - developer-skill-pack-ux-paths-ux-flow-ux-walker.md",
+   "wiki": "X-347 - developer-skill-pack-ux-paths-ux-flow-ux-walker",
+   "title": "Developer skill pack: /ux-paths, /ux-flow, /ux-walker and /ux-auto-improve",
+   "group": "entry",
+   "uid": "X-347",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "claude-code",
+    "skills",
+    "ux",
+    "agent-loops",
+    "browser-testing",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-348 - four-prompt-chain-claims-chatgpt-agent-mode-appl.md",
+   "wiki": "X-348 - four-prompt-chain-claims-chatgpt-agent-mode-appl",
+   "title": "Four-prompt chain claims ChatGPT agent mode applied to 500 jobs overnight",
+   "group": "entry",
+   "uid": "X-348",
+   "platform": "Twitter",
+   "category": "Jobs, Careers & Compensation",
+   "followup": "low",
+   "tags": [
+    "chatgpt",
+    "job-search",
+    "resume",
+    "ats",
+    "agent-mode",
+    "twitter",
+    "jobs-careers-compensation"
+   ]
+  },
+  {
+   "path": "Entries/X-349 - six-flat-fine-legal-traps-for-vibe-coded-apps-co.md",
+   "wiki": "X-349 - six-flat-fine-legal-traps-for-vibe-coded-apps-co",
+   "title": "Six flat-fine legal traps for vibe-coded apps: COPPA, Google Fonts, CAN-SPAM and more",
+   "group": "entry",
+   "uid": "X-349",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "high",
+   "tags": [
+    "compliance",
+    "coppa",
+    "gdpr",
+    "can-spam",
+    "vibe-coding",
+    "legal",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-350 - terminal-mac-a-full-macos-vm-inside-your-termina.md",
+   "wiki": "X-350 - terminal-mac-a-full-macos-vm-inside-your-termina",
+   "title": "terminal-mac: a full macOS VM inside your terminal for agent computer use",
+   "group": "entry",
+   "uid": "X-350",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "computer-use",
+    "macos",
+    "virtualization",
+    "mcp",
+    "open-source",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-351 - claude-md-two-way-doors-rule-lets-the-agent-deci.md",
+   "wiki": "X-351 - claude-md-two-way-doors-rule-lets-the-agent-deci",
+   "title": "CLAUDE.md 'two-way doors' rule lets the agent decide alone and stop only at one-way doors",
+   "group": "entry",
+   "uid": "X-351",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "medium",
+   "tags": [
+    "claude-md",
+    "agents",
+    "autonomy",
+    "prompts",
+    "subagents",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-352 - read-a-competitor-s-funnel-and-conversion-values.md",
+   "wiki": "X-352 - read-a-competitor-s-funnel-and-conversion-values",
+   "title": "Read a competitor's funnel and conversion values from their public GTM container",
+   "group": "entry",
+   "uid": "X-352",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "medium",
+   "tags": [
+    "google-tag-manager",
+    "competitor-analysis",
+    "ads",
+    "growth",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-353 - cubench-cua-driver-and-agent-desktop-lead-a-5-to.md",
+   "wiki": "X-353 - cubench-cua-driver-and-agent-desktop-lead-a-5-to",
+   "title": "cubench: Cua Driver and agent-desktop lead a 5-tool computer-use benchmark",
+   "group": "entry",
+   "uid": "X-353",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "computer-use",
+    "benchmark",
+    "agent-desktop",
+    "cua",
+    "ui-tars",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-354 - tip-tell-claude-to-follow-defensivecss-dev-for-s.md",
+   "wiki": "X-354 - tip-tell-claude-to-follow-defensivecss-dev-for-s",
+   "title": "Tip: tell Claude to follow defensivecss.dev for sturdier frontend CSS",
+   "group": "entry",
+   "uid": "X-354",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "css",
+    "frontend",
+    "prompting",
+    "claude",
+    "resilient-ui",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-355 - weight-space-programming-gpt-6-astra-edits-0-016.md",
+   "wiki": "X-355 - weight-space-programming-gpt-6-astra-edits-0-016",
+   "title": "Weight-Space Programming: GPT-6 Astra edits 0.016% of Qwen3.5-0.8B weights to lift math",
+   "group": "entry",
+   "uid": "X-355",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "research",
+    "weights",
+    "interpretability",
+    "qwen",
+    "model-editing",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-356 - remotion-ships-a-new-homepage-and-files-bug-repo.md",
+   "wiki": "X-356 - remotion-ships-a-new-homepage-and-files-bug-repo",
+   "title": "Remotion ships a new homepage and files bug reports from the replies",
+   "group": "entry",
+   "uid": "X-356",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "low",
+   "tags": [
+    "remotion",
+    "video",
+    "react",
+    "homepage",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-357 - motion-pitches-fable-5-5-for-launch-videos-with.md",
+   "wiki": "X-357 - motion-pitches-fable-5-5-for-launch-videos-with",
+   "title": "Motion pitches 'Fable 5.5 for launch videos' with an MCP and editable-code export",
+   "group": "entry",
+   "uid": "X-357",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "low",
+   "tags": [
+    "motion-design",
+    "mcp",
+    "video",
+    "after-effects",
+    "marketing",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-358 - treg-open-sources-a-clay-alternative-for-people.md",
+   "wiki": "X-358 - treg-open-sources-a-clay-alternative-for-people",
+   "title": "treg open-sources a Clay alternative for people search, claimed 85% cheaper",
+   "group": "entry",
+   "uid": "X-358",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "medium",
+   "tags": [
+    "treg",
+    "people-search",
+    "gtm",
+    "clay-alternative",
+    "open-source",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-359 - claude-code-with-opus-5-5-edited-a-10-minute-vlo.md",
+   "wiki": "X-359 - claude-code-with-opus-5-5-edited-a-10-minute-vlo",
+   "title": "Claude Code with Opus 5.5 edited a 10-minute vlog from 58 minutes of clips",
+   "group": "entry",
+   "uid": "X-359",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "claude-code",
+    "video-editing",
+    "whisper",
+    "opencv",
+    "opus-5-5",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-360 - have-the-agent-build-its-own-repo-cli-40k-tokens.md",
+   "wiki": "X-360 - have-the-agent-build-its-own-repo-cli-40k-tokens",
+   "title": "Have the agent build its own repo CLI: 40k tokens and 30s down to 2k tokens and 5s",
+   "group": "entry",
+   "uid": "X-360",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "agents",
+    "cli",
+    "token-cost",
+    "agents-md",
+    "workflow",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-361 - mcp-ffmpeg-and-other-mcp-servers-pass-file-names.md",
+   "wiki": "X-361 - mcp-ffmpeg-and-other-mcp-servers-pass-file-names",
+   "title": "mcp-ffmpeg and other MCP servers pass file names into a shell: no patch yet",
+   "group": "entry",
+   "uid": "X-361",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "mcp",
+    "security",
+    "command-injection",
+    "ffmpeg",
+    "sandbox",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-362 - agent-desktop-accessibility-tree-computer-use-fo.md",
+   "wiki": "X-362 - agent-desktop-accessibility-tree-computer-use-fo",
+   "title": "agent-desktop: accessibility-tree computer use for agents on macOS, Windows and Linux",
+   "group": "entry",
+   "uid": "X-362",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "agent-desktop",
+    "computer-use",
+    "accessibility-tree",
+    "vercel-labs",
+    "multi-agent",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-363 - chris-tate-launches-agent-desktop-as-agent-brows.md",
+   "wiki": "X-363 - chris-tate-launches-agent-desktop-as-agent-brows",
+   "title": "Chris Tate launches agent-desktop as 'agent-browser for your whole computer",
+   "group": "entry",
+   "uid": "X-363",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "agent-desktop",
+    "agent-browser",
+    "computer-use",
+    "vercel-labs",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-364 - rea-growth-skill-reverse-engineers-a-company-s-g.md",
+   "wiki": "X-364 - rea-growth-skill-reverse-engineers-a-company-s-g",
+   "title": "/REA-growth skill reverse-engineers a company's growth for about 58 cents",
+   "group": "entry",
+   "uid": "X-364",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "medium",
+   "tags": [
+    "rea",
+    "growth",
+    "seo",
+    "aeo",
+    "treg",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-365 - 30-claude-skills-packaged-as-a-creative-agency-s.md",
+   "wiki": "X-365 - 30-claude-skills-packaged-as-a-creative-agency-s",
+   "title": "30 Claude skills packaged as a creative agency: strategist to media buyer",
+   "group": "entry",
+   "uid": "X-365",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "low",
+   "tags": [
+    "claude-skills",
+    "ads",
+    "creative",
+    "ugc",
+    "agency",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-366 - essentials-shut-up-hides-usb-debugging-only-whil.md",
+   "wiki": "X-366 - essentials-shut-up-hides-usb-debugging-only-whil",
+   "title": "Essentials 'Shut-Up!' hides USB debugging only while banking apps are open",
+   "group": "entry",
+   "uid": "X-366",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "android",
+    "usb-debugging",
+    "upi",
+    "banking-apps",
+    "shizuku",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-367 - list-of-50-free-backlink-sites-replies-show-many.md",
+   "wiki": "X-367 - list-of-50-free-backlink-sites-replies-show-many",
+   "title": "List of 50 'free' backlink sites; replies show many are paid or nofollow",
+   "group": "entry",
+   "uid": "X-367",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "low",
+   "tags": [
+    "backlinks",
+    "seo",
+    "directories",
+    "launch",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-368 - free-weekly-seo-audit-agent-template-replies-say.md",
+   "wiki": "X-368 - free-weekly-seo-audit-agent-template-replies-say",
+   "title": "Free weekly SEO audit agent template; replies say the 'Fable 5.5' claim is a scam",
+   "group": "entry",
+   "uid": "X-368",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "low",
+   "tags": [
+    "seo",
+    "audit",
+    "agent-template",
+    "engagement-bait",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-369 - 150-free-calculator-pages-grew-google-impression.md",
+   "wiki": "X-369 - 150-free-calculator-pages-grew-google-impression",
+   "title": "150+ free calculator pages grew Google impressions from 780 to 66,000 a day",
+   "group": "entry",
+   "uid": "X-369",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "medium",
+   "tags": [
+    "programmatic-seo",
+    "calculators",
+    "search-console",
+    "growth",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-370 - free-startup-credits-list-aws-azure-cloudflare-p.md",
+   "wiki": "X-370 - free-startup-credits-list-aws-azure-cloudflare-p",
+   "title": "Free startup credits list: AWS, Azure, Cloudflare, PostHog, Retool and more",
+   "group": "entry",
+   "uid": "X-370",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "medium",
+   "tags": [
+    "startup-credits",
+    "aws-activate",
+    "cloud",
+    "bootstrapping",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-371 - make-projects-run-in-dev-with-no-setup-use-one-s.md",
+   "wiki": "X-371 - make-projects-run-in-dev-with-no-setup-use-one-s",
+   "title": "Make projects run in dev with no setup; use one secrets-manager key everywhere else",
+   "group": "entry",
+   "uid": "X-371",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "env-vars",
+    "secrets",
+    "infisical",
+    "developer-experience",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-372 - systemdesign-io-link-plus-a-dp-path-cses-atcoder.md",
+   "wiki": "X-372 - systemdesign-io-link-plus-a-dp-path-cses-atcoder",
+   "title": "systemdesign.io link, plus a DP path: CSES, AtCoder, LeetCode hard, Codeforces",
+   "group": "entry",
+   "uid": "X-372",
+   "platform": "Twitter",
+   "category": "Programming & CS Learning",
+   "followup": "medium",
+   "tags": [
+    "system-design",
+    "dp",
+    "cses",
+    "atcoder",
+    "learning-path",
+    "twitter",
+    "programming-cs-learning"
+   ]
+  },
+  {
+   "path": "Entries/X-373 - get-listed-on-the-notion-marketplace-for-a-dofol.md",
+   "wiki": "X-373 - get-listed-on-the-notion-marketplace-for-a-dofol",
+   "title": "Get listed on the Notion Marketplace for a dofollow link (DR 90)",
+   "group": "entry",
+   "uid": "X-373",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "medium",
+   "tags": [
+    "notion",
+    "marketplace",
+    "backlinks",
+    "saas",
+    "seo",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-374 - one-prompt-makes-a-repo-ai-readable-llms-txt-plu.md",
+   "wiki": "X-374 - one-prompt-makes-a-repo-ai-readable-llms-txt-plu",
+   "title": "One prompt makes a repo AI-readable: llms.txt plus a Markdown page for every route",
+   "group": "entry",
+   "uid": "X-374",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "medium",
+   "tags": [
+    "llms-txt",
+    "aeo",
+    "seo",
+    "markdown",
+    "prompt",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-375 - smart-tv-privacy-turn-off-acr-isolate-iot-device.md",
+   "wiki": "X-375 - smart-tv-privacy-turn-off-acr-isolate-iot-device",
+   "title": "Smart TV privacy: turn off ACR, isolate IoT devices and filter DNS with NextDNS",
+   "group": "entry",
+   "uid": "X-375",
+   "platform": "Twitter",
+   "category": "Tech Industry & News",
+   "followup": "high",
+   "tags": [
+    "privacy",
+    "smart-tv",
+    "acr",
+    "nextdns",
+    "iot",
+    "twitter",
+    "tech-industry-news"
+   ]
+  },
+  {
+   "path": "Entries/X-376 - get-docs-scored-on-fern-s-agent-score-for-a-publ.md",
+   "wiki": "X-376 - get-docs-scored-on-fern-s-agent-score-for-a-publ",
+   "title": "Get docs scored on Fern's Agent Score for a public dofollow page (DR 77)",
+   "group": "entry",
+   "uid": "X-376",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "medium",
+   "tags": [
+    "docs",
+    "llms-txt",
+    "agent-readiness",
+    "seo",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-377 - backlink-research-prompt-30-verified-free-opport.md",
+   "wiki": "X-377 - backlink-research-prompt-30-verified-free-opport",
+   "title": "Backlink research prompt: 30 verified free opportunities and a 7-day plan",
+   "group": "entry",
+   "uid": "X-377",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "low",
+   "tags": [
+    "backlinks",
+    "prompt",
+    "seo",
+    "directories",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-378 - replace-next-js-vercel-supabase-with-one-cloudfl.md",
+   "wiki": "X-378 - replace-next-js-vercel-supabase-with-one-cloudfl",
+   "title": "Replace Next.js + Vercel + Supabase with one Cloudflare Worker for about $5 a month",
+   "group": "entry",
+   "uid": "X-378",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "cloudflare",
+    "workers",
+    "d1",
+    "r2",
+    "durable-objects",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-379 - ux-references-your-agent-should-read-laws-of-ux.md",
+   "wiki": "X-379 - ux-references-your-agent-should-read-laws-of-ux",
+   "title": "UX references your agent should read: Laws of UX, Nielsen, GOV.UK, Inclusive Components, Apple HIG",
+   "group": "entry",
+   "uid": "X-379",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "ux",
+    "heuristics",
+    "design-systems",
+    "accessibility",
+    "agents",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-380 - ffmpeg-skill-claude-edits-finished-videos-from-a.md",
+   "wiki": "X-380 - ffmpeg-skill-claude-edits-finished-videos-from-a",
+   "title": "ffmpeg-skill: Claude edits finished videos from a folder with one prompt",
+   "group": "entry",
+   "uid": "X-380",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "ffmpeg",
+    "video-editing",
+    "claude-skills",
+    "remotion",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-381 - 50-places-to-launch-your-startup-hn-product-hunt.md",
+   "wiki": "X-381 - 50-places-to-launch-your-startup-hn-product-hunt",
+   "title": "50 places to launch your startup: HN, Product Hunt, BetaList, Uneed and more",
+   "group": "entry",
+   "uid": "X-381",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "medium",
+   "tags": [
+    "launch",
+    "directories",
+    "product-hunt",
+    "indie-hackers",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-382 - internet-archive-s-free-api-gives-claude-17m-fil.md",
+   "wiki": "X-382 - internet-archive-s-free-api-gives-claude-17m-fil",
+   "title": "Internet Archive's free API gives Claude 17M films and 14M recordings for edits",
+   "group": "entry",
+   "uid": "X-382",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "internet-archive",
+    "b-roll",
+    "video-editing",
+    "public-domain",
+    "api",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-383 - cloudflare-security-audit-skill-finds-bugs-even.md",
+   "wiki": "X-383 - cloudflare-security-audit-skill-finds-bugs-even",
+   "title": "Cloudflare security-audit skill finds bugs even with cheap models; Vercel reviews free until Nov 10",
+   "group": "entry",
+   "uid": "X-383",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "security",
+    "audit",
+    "claude-skills",
+    "cloudflare",
+    "vercel",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-384 - gr8r-studio-task-manager-demo-and-repo-but-repli.md",
+   "wiki": "X-384 - gr8r-studio-task-manager-demo-and-repo-but-repli",
+   "title": "Gr8r Studio task manager: demo and repo, but replies say the license is missing",
+   "group": "entry",
+   "uid": "X-384",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "low",
+   "tags": [
+    "open-source",
+    "task-manager",
+    "licensing",
+    "verification-prompt",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-385 - car-loan-trick-lock-10-lakh-in-an-fd-and-borrow.md",
+   "wiki": "X-385 - car-loan-trick-lock-10-lakh-in-an-fd-and-borrow",
+   "title": "Car-loan trick: lock 10 lakh in an FD and borrow 9 lakh as an overdraft instead",
+   "group": "entry",
+   "uid": "X-385",
+   "platform": "Twitter",
+   "category": "Personal Finance & Money",
+   "followup": "low",
+   "tags": [
+    "fd",
+    "overdraft",
+    "car-loan",
+    "india-finance",
+    "twitter",
+    "personal-finance-money"
+   ]
+  },
+  {
+   "path": "Entries/X-386 - details-mcp-give-claude-better-taste-for-ui-work.md",
+   "wiki": "X-386 - details-mcp-give-claude-better-taste-for-ui-work",
+   "title": "Details MCP: 'give claude better taste' for UI work",
+   "group": "entry",
+   "uid": "X-386",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "low",
+   "tags": [
+    "mcp",
+    "design-taste",
+    "frontend",
+    "claude",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-387 - publish-a-cli-to-npm-for-automatic-listings-on-l.md",
+   "wiki": "X-387 - publish-a-cli-to-npm-for-automatic-listings-on-l",
+   "title": "Publish a CLI to npm for automatic listings on Libraries.io and more (DR 75)",
+   "group": "entry",
+   "uid": "X-387",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "medium",
+   "tags": [
+    "cli",
+    "npm",
+    "backlinks",
+    "ahrefs",
+    "dr4",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-388 - cloudflare-cut-its-ai-code-review-inference-bill.md",
+   "wiki": "X-388 - cloudflare-cut-its-ai-code-review-inference-bill",
+   "title": "Cloudflare cut its AI code-review inference bill 68% with prompt caching and model routing",
+   "group": "entry",
+   "uid": "X-388",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "inference",
+    "prompt-caching",
+    "model-routing",
+    "cost",
+    "cloudflare",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-389 - eight-github-repos-for-making-videos-with-opus-5.md",
+   "wiki": "X-389 - eight-github-repos-for-making-videos-with-opus-5",
+   "title": "Eight GitHub repos for making videos with Opus 5.5",
+   "group": "entry",
+   "uid": "X-389",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "medium",
+   "tags": [
+    "opus-5-5",
+    "video-generation",
+    "claude-code",
+    "motion-graphics",
+    "awesome-list",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-390 - tasteskill-v2-1-adds-dashboards-real-app-parts-i.md",
+   "wiki": "X-390 - tasteskill-v2-1-adds-dashboards-real-app-parts-i",
+   "title": "TasteSkill v2.1 adds dashboards, real app parts in landing pages and a frame check",
+   "group": "entry",
+   "uid": "X-390",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "taste-skill",
+    "ui",
+    "dashboards",
+    "claude-skills",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-391 - an-agent-warms-up-a-us-tiktok-account-daily-from.md",
+   "wiki": "X-391 - an-agent-warms-up-a-us-tiktok-account-daily-from",
+   "title": "An agent warms up a US TikTok account daily from a cron job on a cloud phone",
+   "group": "entry",
+   "uid": "X-391",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "low",
+   "tags": [
+    "agents",
+    "cloud-phone",
+    "tiktok",
+    "cron",
+    "automation",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-392 - revyl-free-cloud-workspace-for-mobile-developers.md",
+   "wiki": "X-392 - revyl-free-cloud-workspace-for-mobile-developers",
+   "title": "Revyl: free cloud workspace for mobile developers with iOS and Android simulators",
+   "group": "entry",
+   "uid": "X-392",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "mobile-dev",
+    "simulators",
+    "cloud-devices",
+    "ci",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-393 - a-list-of-724-mostly-free-backlink-opportunities.md",
+   "wiki": "X-393 - a-list-of-724-mostly-free-backlink-opportunities",
+   "title": "A list of 724 mostly free backlink opportunities",
+   "group": "entry",
+   "uid": "X-393",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "low",
+   "tags": [
+    "backlinks",
+    "directories",
+    "guest-posts",
+    "seo",
+    "twitter",
+    "startups-product-marketing"
+   ]
   }
  ],
  "categories": [
@@ -7370,7 +8154,7 @@
    "wiki": "AI & LLM",
    "title": "🗂 AI & LLM",
    "group": "category",
-   "count": 93
+   "count": 102
   },
   {
    "name": "Dev Tools & Productivity",
@@ -7379,7 +8163,7 @@
    "wiki": "Dev Tools & Productivity",
    "title": "🗂 Dev Tools & Productivity",
    "group": "category",
-   "count": 65
+   "count": 85
   },
   {
    "name": "Programming & CS Learning",
@@ -7388,7 +8172,7 @@
    "wiki": "Programming & CS Learning",
    "title": "🗂 Programming & CS Learning",
    "group": "category",
-   "count": 52
+   "count": 53
   },
   {
    "name": "Interviews, OA & DSA",
@@ -7397,7 +8181,7 @@
    "wiki": "Interviews, OA & DSA",
    "title": "🗂 Interviews, OA & DSA",
    "group": "category",
-   "count": 34
+   "count": 32
   },
   {
    "name": "Jobs, Careers & Compensation",
@@ -7406,7 +8190,7 @@
    "wiki": "Jobs, Careers & Compensation",
    "title": "🗂 Jobs, Careers & Compensation",
    "group": "category",
-   "count": 31
+   "count": 29
   },
   {
    "name": "Quant & Trading",
@@ -7415,7 +8199,7 @@
    "wiki": "Quant & Trading",
    "title": "🗂 Quant & Trading",
    "group": "category",
-   "count": 24
+   "count": 23
   },
   {
    "name": "Personal Finance & Money",
@@ -7424,7 +8208,7 @@
    "wiki": "Personal Finance & Money",
    "title": "🗂 Personal Finance & Money",
    "group": "category",
-   "count": 9
+   "count": 10
   },
   {
    "name": "Startups, Product & Marketing",
@@ -7433,7 +8217,7 @@
    "wiki": "Startups, Product & Marketing",
    "title": "🗂 Startups, Product & Marketing",
    "group": "category",
-   "count": 41
+   "count": 56
   },
   {
    "name": "Health, Fitness & Wellness",
@@ -7478,7 +8262,7 @@
    "wiki": "Tech Industry & News",
    "title": "🗂 Tech Industry & News",
    "group": "category",
-   "count": 4
+   "count": 5
   },
   {
    "name": "Other",
@@ -7757,25 +8541,6 @@
    ]
   },
   {
-   "path": "Entries/L-015 - udaan-mentor-driven-startup-launchpad-for-colleg.md",
-   "wiki": "L-015 - udaan-mentor-driven-startup-launchpad-for-colleg",
-   "title": "Udaan: mentor-driven startup launchpad for college students (BITS Pilani)",
-   "group": "entry",
-   "uid": "L-015",
-   "platform": "LinkedIn",
-   "category": "Startups, Product & Marketing",
-   "followup": "low",
-   "tags": [
-    "startup-program",
-    "student-startups",
-    "mentorship",
-    "bits-pilani",
-    "demo-day",
-    "linkedin",
-    "startups-product-marketing"
-   ]
-  },
-  {
    "path": "Entries/R-001 - rubrik-oa-2027-grad-50-lpa-ctc-double-camera-on.md",
    "wiki": "R-001 - rubrik-oa-2027-grad-50-lpa-ctc-double-camera-on",
    "title": "Rubrik OA | 2027 Grad | 50+LPA CTC | Double Camera On",
@@ -9658,25 +10423,6 @@
    ]
   },
   {
-   "path": "Entries/X-073 - peakflo-yc-w22-hiring-remote-ml-intern-50k-month.md",
-   "wiki": "X-073 - peakflo-yc-w22-hiring-remote-ml-intern-50k-month",
-   "title": "Peakflo (YC W22) hiring remote ML intern, 50k/month stipend",
-   "group": "entry",
-   "uid": "X-073",
-   "platform": "Twitter",
-   "category": "Jobs, Careers & Compensation",
-   "followup": "low",
-   "tags": [
-    "hiring",
-    "ml-intern",
-    "yc",
-    "remote-work",
-    "india",
-    "twitter",
-    "jobs-careers-compensation"
-   ]
-  },
-  {
    "path": "Entries/X-074 - own-1-share-get-discounts-ihcl-25-metro-15-raymo.md",
    "wiki": "X-074 - own-1-share-get-discounts-ihcl-25-metro-15-raymo",
    "title": "Own 1 share, get discounts: IHCL 25%, Metro 15%, Raymond 10%",
@@ -9727,24 +10473,6 @@
     "open-resource",
     "twitter",
     "programming-cs-learning"
-   ]
-  },
-  {
-   "path": "Entries/X-077 - mlsys-2026-graph-scheduling-competition-design-a.md",
-   "wiki": "X-077 - mlsys-2026-graph-scheduling-competition-design-a",
-   "title": "MLSys 2026 Graph Scheduling Competition - design a JSON schedule",
-   "group": "entry",
-   "uid": "X-077",
-   "platform": "Twitter",
-   "category": "Interviews, OA & DSA",
-   "followup": "medium",
-   "tags": [
-    "coding-competition",
-    "mlsys",
-    "optimization",
-    "contest",
-    "twitter",
-    "interviews-oa-dsa"
    ]
   },
   {
@@ -9816,24 +10544,6 @@
     "compensation",
     "india",
     "sde-1",
-    "twitter",
-    "jobs-careers-compensation"
-   ]
-  },
-  {
-   "path": "Entries/X-082 - four-ai-and-tech-policy-fellowships-to-apply-to.md",
-   "wiki": "X-082 - four-ai-and-tech-policy-fellowships-to-apply-to",
-   "title": "Four AI and tech policy fellowships to apply to",
-   "group": "entry",
-   "uid": "X-082",
-   "platform": "Twitter",
-   "category": "Jobs, Careers & Compensation",
-   "followup": "medium",
-   "tags": [
-    "fellowships",
-    "ai-policy",
-    "opportunities",
-    "applications",
     "twitter",
     "jobs-careers-compensation"
    ]
@@ -9929,24 +10639,6 @@
     "agency",
     "twitter",
     "startups-product-marketing"
-   ]
-  },
-  {
-   "path": "Entries/X-088 - list-of-upcoming-quant-competitions-google-drive.md",
-   "wiki": "X-088 - list-of-upcoming-quant-competitions-google-drive",
-   "title": "List of upcoming quant competitions (Google Drive doc)",
-   "group": "entry",
-   "uid": "X-088",
-   "platform": "Twitter",
-   "category": "Quant & Trading",
-   "followup": "medium",
-   "tags": [
-    "quant",
-    "competitions",
-    "trading-contests",
-    "opportunities",
-    "twitter",
-    "quant-trading"
    ]
   },
   {
@@ -13526,24 +14218,6 @@
    ]
   },
   {
-   "path": "Entries/X-282 - hacktober-with-kestra-2-macbook-neos-ipads-and-v.md",
-   "wiki": "X-282 - hacktober-with-kestra-2-macbook-neos-ipads-and-v",
-   "title": "Hacktober with Kestra: 2 Macbook Neos, iPads and vouchers for top OSS contributors",
-   "group": "entry",
-   "uid": "X-282",
-   "platform": "Twitter",
-   "category": "Jobs, Careers & Compensation",
-   "followup": "medium",
-   "tags": [
-    "hacktoberfest",
-    "open-source",
-    "events",
-    "prizes",
-    "twitter",
-    "jobs-careers-compensation"
-   ]
-  },
-  {
    "path": "Entries/X-283 - rust-everywhere-beautiful-language-if-you-don-t.md",
    "wiki": "X-283 - rust-everywhere-beautiful-language-if-you-don-t",
    "title": "Rust everywhere? 'Beautiful language if you don't have to look at it' (DHH)",
@@ -14676,25 +15350,6 @@
    ]
   },
   {
-   "path": "Entries/X-343 - google-s-the-big-code-competition-is-open-to-202.md",
-   "wiki": "X-343 - google-s-the-big-code-competition-is-open-to-202",
-   "title": "Google's The Big Code competition is open to 2027-2029 grads, not 2026",
-   "group": "entry",
-   "uid": "X-343",
-   "platform": "Twitter",
-   "category": "Interviews, OA & DSA",
-   "followup": "low",
-   "tags": [
-    "google",
-    "coding-competition",
-    "hackerearth",
-    "students",
-    "eligibility",
-    "twitter",
-    "interviews-oa-dsa"
-   ]
-  },
-  {
    "path": "Entries/X-344 - the-burgery-in-indiranagar-buff-and-chicken-burg.md",
    "wiki": "X-344 - the-burgery-in-indiranagar-buff-and-chicken-burg",
    "title": "The Burgery In, Indiranagar: buff and chicken burgers worth the trip",
@@ -14711,6 +15366,919 @@
     "recommendation",
     "twitter",
     "india-life-city-guides"
+   ]
+  },
+  {
+   "path": "Entries/X-345 - untangle-codebase-skill-removes-leaky-abstractio.md",
+   "wiki": "X-345 - untangle-codebase-skill-removes-leaky-abstractio",
+   "title": "/untangle-codebase skill removes leaky abstractions, copy-paste and wrapper clutter",
+   "group": "entry",
+   "uid": "X-345",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "claude-code",
+    "skills",
+    "refactoring",
+    "code-quality",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-346 - copy-paste-prompt-makes-a-hermes-agent-build-a-f.md",
+   "wiki": "X-346 - copy-paste-prompt-makes-a-hermes-agent-build-a-f",
+   "title": "Copy-paste prompt makes a Hermes Agent build a four-profile HackerOne bounty pipeline",
+   "group": "entry",
+   "uid": "X-346",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "low",
+   "tags": [
+    "hermes-agent",
+    "bug-bounty",
+    "hackerone",
+    "kanban",
+    "agent-automation",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-347 - developer-skill-pack-ux-paths-ux-flow-ux-walker.md",
+   "wiki": "X-347 - developer-skill-pack-ux-paths-ux-flow-ux-walker",
+   "title": "Developer skill pack: /ux-paths, /ux-flow, /ux-walker and /ux-auto-improve",
+   "group": "entry",
+   "uid": "X-347",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "claude-code",
+    "skills",
+    "ux",
+    "agent-loops",
+    "browser-testing",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-348 - four-prompt-chain-claims-chatgpt-agent-mode-appl.md",
+   "wiki": "X-348 - four-prompt-chain-claims-chatgpt-agent-mode-appl",
+   "title": "Four-prompt chain claims ChatGPT agent mode applied to 500 jobs overnight",
+   "group": "entry",
+   "uid": "X-348",
+   "platform": "Twitter",
+   "category": "Jobs, Careers & Compensation",
+   "followup": "low",
+   "tags": [
+    "chatgpt",
+    "job-search",
+    "resume",
+    "ats",
+    "agent-mode",
+    "twitter",
+    "jobs-careers-compensation"
+   ]
+  },
+  {
+   "path": "Entries/X-349 - six-flat-fine-legal-traps-for-vibe-coded-apps-co.md",
+   "wiki": "X-349 - six-flat-fine-legal-traps-for-vibe-coded-apps-co",
+   "title": "Six flat-fine legal traps for vibe-coded apps: COPPA, Google Fonts, CAN-SPAM and more",
+   "group": "entry",
+   "uid": "X-349",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "high",
+   "tags": [
+    "compliance",
+    "coppa",
+    "gdpr",
+    "can-spam",
+    "vibe-coding",
+    "legal",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-350 - terminal-mac-a-full-macos-vm-inside-your-termina.md",
+   "wiki": "X-350 - terminal-mac-a-full-macos-vm-inside-your-termina",
+   "title": "terminal-mac: a full macOS VM inside your terminal for agent computer use",
+   "group": "entry",
+   "uid": "X-350",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "computer-use",
+    "macos",
+    "virtualization",
+    "mcp",
+    "open-source",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-351 - claude-md-two-way-doors-rule-lets-the-agent-deci.md",
+   "wiki": "X-351 - claude-md-two-way-doors-rule-lets-the-agent-deci",
+   "title": "CLAUDE.md 'two-way doors' rule lets the agent decide alone and stop only at one-way doors",
+   "group": "entry",
+   "uid": "X-351",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "medium",
+   "tags": [
+    "claude-md",
+    "agents",
+    "autonomy",
+    "prompts",
+    "subagents",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-352 - read-a-competitor-s-funnel-and-conversion-values.md",
+   "wiki": "X-352 - read-a-competitor-s-funnel-and-conversion-values",
+   "title": "Read a competitor's funnel and conversion values from their public GTM container",
+   "group": "entry",
+   "uid": "X-352",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "medium",
+   "tags": [
+    "google-tag-manager",
+    "competitor-analysis",
+    "ads",
+    "growth",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-353 - cubench-cua-driver-and-agent-desktop-lead-a-5-to.md",
+   "wiki": "X-353 - cubench-cua-driver-and-agent-desktop-lead-a-5-to",
+   "title": "cubench: Cua Driver and agent-desktop lead a 5-tool computer-use benchmark",
+   "group": "entry",
+   "uid": "X-353",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "computer-use",
+    "benchmark",
+    "agent-desktop",
+    "cua",
+    "ui-tars",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-354 - tip-tell-claude-to-follow-defensivecss-dev-for-s.md",
+   "wiki": "X-354 - tip-tell-claude-to-follow-defensivecss-dev-for-s",
+   "title": "Tip: tell Claude to follow defensivecss.dev for sturdier frontend CSS",
+   "group": "entry",
+   "uid": "X-354",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "css",
+    "frontend",
+    "prompting",
+    "claude",
+    "resilient-ui",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-355 - weight-space-programming-gpt-6-astra-edits-0-016.md",
+   "wiki": "X-355 - weight-space-programming-gpt-6-astra-edits-0-016",
+   "title": "Weight-Space Programming: GPT-6 Astra edits 0.016% of Qwen3.5-0.8B weights to lift math",
+   "group": "entry",
+   "uid": "X-355",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "research",
+    "weights",
+    "interpretability",
+    "qwen",
+    "model-editing",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-356 - remotion-ships-a-new-homepage-and-files-bug-repo.md",
+   "wiki": "X-356 - remotion-ships-a-new-homepage-and-files-bug-repo",
+   "title": "Remotion ships a new homepage and files bug reports from the replies",
+   "group": "entry",
+   "uid": "X-356",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "low",
+   "tags": [
+    "remotion",
+    "video",
+    "react",
+    "homepage",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-357 - motion-pitches-fable-5-5-for-launch-videos-with.md",
+   "wiki": "X-357 - motion-pitches-fable-5-5-for-launch-videos-with",
+   "title": "Motion pitches 'Fable 5.5 for launch videos' with an MCP and editable-code export",
+   "group": "entry",
+   "uid": "X-357",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "low",
+   "tags": [
+    "motion-design",
+    "mcp",
+    "video",
+    "after-effects",
+    "marketing",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-358 - treg-open-sources-a-clay-alternative-for-people.md",
+   "wiki": "X-358 - treg-open-sources-a-clay-alternative-for-people",
+   "title": "treg open-sources a Clay alternative for people search, claimed 85% cheaper",
+   "group": "entry",
+   "uid": "X-358",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "medium",
+   "tags": [
+    "treg",
+    "people-search",
+    "gtm",
+    "clay-alternative",
+    "open-source",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-359 - claude-code-with-opus-5-5-edited-a-10-minute-vlo.md",
+   "wiki": "X-359 - claude-code-with-opus-5-5-edited-a-10-minute-vlo",
+   "title": "Claude Code with Opus 5.5 edited a 10-minute vlog from 58 minutes of clips",
+   "group": "entry",
+   "uid": "X-359",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "claude-code",
+    "video-editing",
+    "whisper",
+    "opencv",
+    "opus-5-5",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-360 - have-the-agent-build-its-own-repo-cli-40k-tokens.md",
+   "wiki": "X-360 - have-the-agent-build-its-own-repo-cli-40k-tokens",
+   "title": "Have the agent build its own repo CLI: 40k tokens and 30s down to 2k tokens and 5s",
+   "group": "entry",
+   "uid": "X-360",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "agents",
+    "cli",
+    "token-cost",
+    "agents-md",
+    "workflow",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-361 - mcp-ffmpeg-and-other-mcp-servers-pass-file-names.md",
+   "wiki": "X-361 - mcp-ffmpeg-and-other-mcp-servers-pass-file-names",
+   "title": "mcp-ffmpeg and other MCP servers pass file names into a shell: no patch yet",
+   "group": "entry",
+   "uid": "X-361",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "mcp",
+    "security",
+    "command-injection",
+    "ffmpeg",
+    "sandbox",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-362 - agent-desktop-accessibility-tree-computer-use-fo.md",
+   "wiki": "X-362 - agent-desktop-accessibility-tree-computer-use-fo",
+   "title": "agent-desktop: accessibility-tree computer use for agents on macOS, Windows and Linux",
+   "group": "entry",
+   "uid": "X-362",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "agent-desktop",
+    "computer-use",
+    "accessibility-tree",
+    "vercel-labs",
+    "multi-agent",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-363 - chris-tate-launches-agent-desktop-as-agent-brows.md",
+   "wiki": "X-363 - chris-tate-launches-agent-desktop-as-agent-brows",
+   "title": "Chris Tate launches agent-desktop as 'agent-browser for your whole computer",
+   "group": "entry",
+   "uid": "X-363",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "agent-desktop",
+    "agent-browser",
+    "computer-use",
+    "vercel-labs",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-364 - rea-growth-skill-reverse-engineers-a-company-s-g.md",
+   "wiki": "X-364 - rea-growth-skill-reverse-engineers-a-company-s-g",
+   "title": "/REA-growth skill reverse-engineers a company's growth for about 58 cents",
+   "group": "entry",
+   "uid": "X-364",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "medium",
+   "tags": [
+    "rea",
+    "growth",
+    "seo",
+    "aeo",
+    "treg",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-365 - 30-claude-skills-packaged-as-a-creative-agency-s.md",
+   "wiki": "X-365 - 30-claude-skills-packaged-as-a-creative-agency-s",
+   "title": "30 Claude skills packaged as a creative agency: strategist to media buyer",
+   "group": "entry",
+   "uid": "X-365",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "low",
+   "tags": [
+    "claude-skills",
+    "ads",
+    "creative",
+    "ugc",
+    "agency",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-366 - essentials-shut-up-hides-usb-debugging-only-whil.md",
+   "wiki": "X-366 - essentials-shut-up-hides-usb-debugging-only-whil",
+   "title": "Essentials 'Shut-Up!' hides USB debugging only while banking apps are open",
+   "group": "entry",
+   "uid": "X-366",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "android",
+    "usb-debugging",
+    "upi",
+    "banking-apps",
+    "shizuku",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-367 - list-of-50-free-backlink-sites-replies-show-many.md",
+   "wiki": "X-367 - list-of-50-free-backlink-sites-replies-show-many",
+   "title": "List of 50 'free' backlink sites; replies show many are paid or nofollow",
+   "group": "entry",
+   "uid": "X-367",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "low",
+   "tags": [
+    "backlinks",
+    "seo",
+    "directories",
+    "launch",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-368 - free-weekly-seo-audit-agent-template-replies-say.md",
+   "wiki": "X-368 - free-weekly-seo-audit-agent-template-replies-say",
+   "title": "Free weekly SEO audit agent template; replies say the 'Fable 5.5' claim is a scam",
+   "group": "entry",
+   "uid": "X-368",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "low",
+   "tags": [
+    "seo",
+    "audit",
+    "agent-template",
+    "engagement-bait",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-369 - 150-free-calculator-pages-grew-google-impression.md",
+   "wiki": "X-369 - 150-free-calculator-pages-grew-google-impression",
+   "title": "150+ free calculator pages grew Google impressions from 780 to 66,000 a day",
+   "group": "entry",
+   "uid": "X-369",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "medium",
+   "tags": [
+    "programmatic-seo",
+    "calculators",
+    "search-console",
+    "growth",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-370 - free-startup-credits-list-aws-azure-cloudflare-p.md",
+   "wiki": "X-370 - free-startup-credits-list-aws-azure-cloudflare-p",
+   "title": "Free startup credits list: AWS, Azure, Cloudflare, PostHog, Retool and more",
+   "group": "entry",
+   "uid": "X-370",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "medium",
+   "tags": [
+    "startup-credits",
+    "aws-activate",
+    "cloud",
+    "bootstrapping",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-371 - make-projects-run-in-dev-with-no-setup-use-one-s.md",
+   "wiki": "X-371 - make-projects-run-in-dev-with-no-setup-use-one-s",
+   "title": "Make projects run in dev with no setup; use one secrets-manager key everywhere else",
+   "group": "entry",
+   "uid": "X-371",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "env-vars",
+    "secrets",
+    "infisical",
+    "developer-experience",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-372 - systemdesign-io-link-plus-a-dp-path-cses-atcoder.md",
+   "wiki": "X-372 - systemdesign-io-link-plus-a-dp-path-cses-atcoder",
+   "title": "systemdesign.io link, plus a DP path: CSES, AtCoder, LeetCode hard, Codeforces",
+   "group": "entry",
+   "uid": "X-372",
+   "platform": "Twitter",
+   "category": "Programming & CS Learning",
+   "followup": "medium",
+   "tags": [
+    "system-design",
+    "dp",
+    "cses",
+    "atcoder",
+    "learning-path",
+    "twitter",
+    "programming-cs-learning"
+   ]
+  },
+  {
+   "path": "Entries/X-373 - get-listed-on-the-notion-marketplace-for-a-dofol.md",
+   "wiki": "X-373 - get-listed-on-the-notion-marketplace-for-a-dofol",
+   "title": "Get listed on the Notion Marketplace for a dofollow link (DR 90)",
+   "group": "entry",
+   "uid": "X-373",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "medium",
+   "tags": [
+    "notion",
+    "marketplace",
+    "backlinks",
+    "saas",
+    "seo",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-374 - one-prompt-makes-a-repo-ai-readable-llms-txt-plu.md",
+   "wiki": "X-374 - one-prompt-makes-a-repo-ai-readable-llms-txt-plu",
+   "title": "One prompt makes a repo AI-readable: llms.txt plus a Markdown page for every route",
+   "group": "entry",
+   "uid": "X-374",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "medium",
+   "tags": [
+    "llms-txt",
+    "aeo",
+    "seo",
+    "markdown",
+    "prompt",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-375 - smart-tv-privacy-turn-off-acr-isolate-iot-device.md",
+   "wiki": "X-375 - smart-tv-privacy-turn-off-acr-isolate-iot-device",
+   "title": "Smart TV privacy: turn off ACR, isolate IoT devices and filter DNS with NextDNS",
+   "group": "entry",
+   "uid": "X-375",
+   "platform": "Twitter",
+   "category": "Tech Industry & News",
+   "followup": "high",
+   "tags": [
+    "privacy",
+    "smart-tv",
+    "acr",
+    "nextdns",
+    "iot",
+    "twitter",
+    "tech-industry-news"
+   ]
+  },
+  {
+   "path": "Entries/X-376 - get-docs-scored-on-fern-s-agent-score-for-a-publ.md",
+   "wiki": "X-376 - get-docs-scored-on-fern-s-agent-score-for-a-publ",
+   "title": "Get docs scored on Fern's Agent Score for a public dofollow page (DR 77)",
+   "group": "entry",
+   "uid": "X-376",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "medium",
+   "tags": [
+    "docs",
+    "llms-txt",
+    "agent-readiness",
+    "seo",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-377 - backlink-research-prompt-30-verified-free-opport.md",
+   "wiki": "X-377 - backlink-research-prompt-30-verified-free-opport",
+   "title": "Backlink research prompt: 30 verified free opportunities and a 7-day plan",
+   "group": "entry",
+   "uid": "X-377",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "low",
+   "tags": [
+    "backlinks",
+    "prompt",
+    "seo",
+    "directories",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-378 - replace-next-js-vercel-supabase-with-one-cloudfl.md",
+   "wiki": "X-378 - replace-next-js-vercel-supabase-with-one-cloudfl",
+   "title": "Replace Next.js + Vercel + Supabase with one Cloudflare Worker for about $5 a month",
+   "group": "entry",
+   "uid": "X-378",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "cloudflare",
+    "workers",
+    "d1",
+    "r2",
+    "durable-objects",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-379 - ux-references-your-agent-should-read-laws-of-ux.md",
+   "wiki": "X-379 - ux-references-your-agent-should-read-laws-of-ux",
+   "title": "UX references your agent should read: Laws of UX, Nielsen, GOV.UK, Inclusive Components, Apple HIG",
+   "group": "entry",
+   "uid": "X-379",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "ux",
+    "heuristics",
+    "design-systems",
+    "accessibility",
+    "agents",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-380 - ffmpeg-skill-claude-edits-finished-videos-from-a.md",
+   "wiki": "X-380 - ffmpeg-skill-claude-edits-finished-videos-from-a",
+   "title": "ffmpeg-skill: Claude edits finished videos from a folder with one prompt",
+   "group": "entry",
+   "uid": "X-380",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "ffmpeg",
+    "video-editing",
+    "claude-skills",
+    "remotion",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-381 - 50-places-to-launch-your-startup-hn-product-hunt.md",
+   "wiki": "X-381 - 50-places-to-launch-your-startup-hn-product-hunt",
+   "title": "50 places to launch your startup: HN, Product Hunt, BetaList, Uneed and more",
+   "group": "entry",
+   "uid": "X-381",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "medium",
+   "tags": [
+    "launch",
+    "directories",
+    "product-hunt",
+    "indie-hackers",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-382 - internet-archive-s-free-api-gives-claude-17m-fil.md",
+   "wiki": "X-382 - internet-archive-s-free-api-gives-claude-17m-fil",
+   "title": "Internet Archive's free API gives Claude 17M films and 14M recordings for edits",
+   "group": "entry",
+   "uid": "X-382",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "internet-archive",
+    "b-roll",
+    "video-editing",
+    "public-domain",
+    "api",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-383 - cloudflare-security-audit-skill-finds-bugs-even.md",
+   "wiki": "X-383 - cloudflare-security-audit-skill-finds-bugs-even",
+   "title": "Cloudflare security-audit skill finds bugs even with cheap models; Vercel reviews free until Nov 10",
+   "group": "entry",
+   "uid": "X-383",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "security",
+    "audit",
+    "claude-skills",
+    "cloudflare",
+    "vercel",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-384 - gr8r-studio-task-manager-demo-and-repo-but-repli.md",
+   "wiki": "X-384 - gr8r-studio-task-manager-demo-and-repo-but-repli",
+   "title": "Gr8r Studio task manager: demo and repo, but replies say the license is missing",
+   "group": "entry",
+   "uid": "X-384",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "low",
+   "tags": [
+    "open-source",
+    "task-manager",
+    "licensing",
+    "verification-prompt",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-385 - car-loan-trick-lock-10-lakh-in-an-fd-and-borrow.md",
+   "wiki": "X-385 - car-loan-trick-lock-10-lakh-in-an-fd-and-borrow",
+   "title": "Car-loan trick: lock 10 lakh in an FD and borrow 9 lakh as an overdraft instead",
+   "group": "entry",
+   "uid": "X-385",
+   "platform": "Twitter",
+   "category": "Personal Finance & Money",
+   "followup": "low",
+   "tags": [
+    "fd",
+    "overdraft",
+    "car-loan",
+    "india-finance",
+    "twitter",
+    "personal-finance-money"
+   ]
+  },
+  {
+   "path": "Entries/X-386 - details-mcp-give-claude-better-taste-for-ui-work.md",
+   "wiki": "X-386 - details-mcp-give-claude-better-taste-for-ui-work",
+   "title": "Details MCP: 'give claude better taste' for UI work",
+   "group": "entry",
+   "uid": "X-386",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "low",
+   "tags": [
+    "mcp",
+    "design-taste",
+    "frontend",
+    "claude",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-387 - publish-a-cli-to-npm-for-automatic-listings-on-l.md",
+   "wiki": "X-387 - publish-a-cli-to-npm-for-automatic-listings-on-l",
+   "title": "Publish a CLI to npm for automatic listings on Libraries.io and more (DR 75)",
+   "group": "entry",
+   "uid": "X-387",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "medium",
+   "tags": [
+    "cli",
+    "npm",
+    "backlinks",
+    "ahrefs",
+    "dr4",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-388 - cloudflare-cut-its-ai-code-review-inference-bill.md",
+   "wiki": "X-388 - cloudflare-cut-its-ai-code-review-inference-bill",
+   "title": "Cloudflare cut its AI code-review inference bill 68% with prompt caching and model routing",
+   "group": "entry",
+   "uid": "X-388",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "inference",
+    "prompt-caching",
+    "model-routing",
+    "cost",
+    "cloudflare",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-389 - eight-github-repos-for-making-videos-with-opus-5.md",
+   "wiki": "X-389 - eight-github-repos-for-making-videos-with-opus-5",
+   "title": "Eight GitHub repos for making videos with Opus 5.5",
+   "group": "entry",
+   "uid": "X-389",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "medium",
+   "tags": [
+    "opus-5-5",
+    "video-generation",
+    "claude-code",
+    "motion-graphics",
+    "awesome-list",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-390 - tasteskill-v2-1-adds-dashboards-real-app-parts-i.md",
+   "wiki": "X-390 - tasteskill-v2-1-adds-dashboards-real-app-parts-i",
+   "title": "TasteSkill v2.1 adds dashboards, real app parts in landing pages and a frame check",
+   "group": "entry",
+   "uid": "X-390",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "taste-skill",
+    "ui",
+    "dashboards",
+    "claude-skills",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-391 - an-agent-warms-up-a-us-tiktok-account-daily-from.md",
+   "wiki": "X-391 - an-agent-warms-up-a-us-tiktok-account-daily-from",
+   "title": "An agent warms up a US TikTok account daily from a cron job on a cloud phone",
+   "group": "entry",
+   "uid": "X-391",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "low",
+   "tags": [
+    "agents",
+    "cloud-phone",
+    "tiktok",
+    "cron",
+    "automation",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-392 - revyl-free-cloud-workspace-for-mobile-developers.md",
+   "wiki": "X-392 - revyl-free-cloud-workspace-for-mobile-developers",
+   "title": "Revyl: free cloud workspace for mobile developers with iOS and Android simulators",
+   "group": "entry",
+   "uid": "X-392",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "mobile-dev",
+    "simulators",
+    "cloud-devices",
+    "ci",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-393 - a-list-of-724-mostly-free-backlink-opportunities.md",
+   "wiki": "X-393 - a-list-of-724-mostly-free-backlink-opportunities",
+   "title": "A list of 724 mostly free backlink opportunities",
+   "group": "entry",
+   "uid": "X-393",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "low",
+   "tags": [
+    "backlinks",
+    "directories",
+    "guest-posts",
+    "seo",
+    "twitter",
+    "startups-product-marketing"
    ]
   }
  ]
