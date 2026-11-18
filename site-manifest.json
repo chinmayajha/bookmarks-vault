@@ -20,7 +20,7 @@
    "wiki": "AI & LLM",
    "title": "🗂 AI & LLM",
    "group": "category",
-   "count": 102
+   "count": 112
   },
   {
    "name": "Dev Tools & Productivity",
@@ -29,7 +29,7 @@
    "wiki": "Dev Tools & Productivity",
    "title": "🗂 Dev Tools & Productivity",
    "group": "category",
-   "count": 85
+   "count": 105
   },
   {
    "name": "Programming & CS Learning",
@@ -83,7 +83,7 @@
    "wiki": "Startups, Product & Marketing",
    "title": "🗂 Startups, Product & Marketing",
    "group": "category",
-   "count": 56
+   "count": 60
   },
   {
    "name": "Health, Fitness & Wellness",
@@ -128,7 +128,7 @@
    "wiki": "Tech Industry & News",
    "title": "🗂 Tech Industry & News",
    "group": "category",
-   "count": 5
+   "count": 6
   },
   {
    "name": "Other",
@@ -137,7 +137,7 @@
    "wiki": "Other",
    "title": "🗂 Other",
    "group": "category",
-   "count": 5
+   "count": 6
   },
   {
    "path": "Entries/L-001 - my-interview-experiences-zomato-google-tower-nvi.md",
@@ -4752,25 +4752,6 @@
    ]
   },
   {
-   "path": "Entries/X-211 - 8-ai-websites-that-save-hours-of-manual-work.md",
-   "wiki": "X-211 - 8-ai-websites-that-save-hours-of-manual-work",
-   "title": "8 AI websites that save hours of manual work",
-   "group": "entry",
-   "uid": "X-211",
-   "platform": "Twitter",
-   "category": "AI & LLM",
-   "followup": "high",
-   "tags": [
-    "ai-tools",
-    "text-to-image",
-    "ai-video",
-    "productivity",
-    "listicle",
-    "twitter",
-    "ai-llm"
-   ]
-  },
-  {
    "path": "Entries/X-212 - 7-portfolio-projects-that-will-actually-get-you.md",
    "wiki": "X-212 - 7-portfolio-projects-that-will-actually-get-you",
    "title": "7 portfolio projects that will actually get you hired",
@@ -7945,7 +7926,7 @@
   {
    "path": "Entries/X-383 - cloudflare-security-audit-skill-finds-bugs-even.md",
    "wiki": "X-383 - cloudflare-security-audit-skill-finds-bugs-even",
-   "title": "Cloudflare security-audit skill finds bugs even with cheap models; Vercel reviews free until Nov 10",
+   "title": "Cloudflare security-audit skill finds bugs even with cheap models",
    "group": "entry",
    "uid": "X-383",
    "platform": "Twitter",
@@ -8144,6 +8125,710 @@
     "twitter",
     "startups-product-marketing"
    ]
+  },
+  {
+   "path": "Entries/X-394 - everystate-a-rust-tla-model-checker-so-agents-ca.md",
+   "wiki": "X-394 - everystate-a-rust-tla-model-checker-so-agents-ca",
+   "title": "everystate: a Rust TLA+ model checker so agents can find race conditions without Java",
+   "group": "entry",
+   "uid": "X-394",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "tla-plus",
+    "formal-verification",
+    "rust",
+    "model-checking",
+    "agents",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-395 - landmines-oxlint-rules-that-ban-lazy-ai-written.md",
+   "wiki": "X-395 - landmines-oxlint-rules-that-ban-lazy-ai-written",
+   "title": "Landmines: Oxlint rules that ban lazy AI-written tests and slop structure",
+   "group": "entry",
+   "uid": "X-395",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "oxlint",
+    "linting",
+    "ai-tests",
+    "msw",
+    "agents",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-396 - eve-1-0-is-generally-available-open-source-frame.md",
+   "wiki": "X-396 - eve-1-0-is-generally-available-open-source-frame",
+   "title": "eve 1.0 is generally available: open-source framework for production agents",
+   "group": "entry",
+   "uid": "X-396",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "eve",
+    "vercel",
+    "agents",
+    "framework",
+    "multiplayer",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-397 - prompt-turns-60-days-of-agent-mistakes-into-lint.md",
+   "wiki": "X-397 - prompt-turns-60-days-of-agent-mistakes-into-lint",
+   "title": "Prompt turns 60 days of agent mistakes into lint rules, tests and types",
+   "group": "entry",
+   "uid": "X-397",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "claude-md",
+    "prompts",
+    "lint-rules",
+    "ci",
+    "agent-mistakes",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-398 - daytona-adds-macos-sandboxes-for-agents-m4-m4-pr.md",
+   "wiki": "X-398 - daytona-adds-macos-sandboxes-for-agents-m4-m4-pr",
+   "title": "Daytona adds macOS sandboxes for agents (M4, M4 Pro, M5 Pro)",
+   "group": "entry",
+   "uid": "X-398",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "daytona",
+    "macos",
+    "sandbox",
+    "agents",
+    "ios-simulator",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-399 - pieter-levels-let-people-mess-around-because-tha.md",
+   "wiki": "X-399 - pieter-levels-let-people-mess-around-because-tha",
+   "title": "Pieter Levels: let people mess around, because that play turned into millions",
+   "group": "entry",
+   "uid": "X-399",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "low",
+   "tags": [
+    "levelsio",
+    "vibe-coding",
+    "games",
+    "indie-hacking",
+    "founder-story",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-400 - 0xsero-says-an-open-source-inference-optimisatio.md",
+   "wiki": "X-400 - 0xsero-says-an-open-source-inference-optimisatio",
+   "title": "0xSero says an open-source inference-optimisation skill made him over $100K",
+   "group": "entry",
+   "uid": "X-400",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "inference",
+    "optimisation",
+    "sglang",
+    "local-ai",
+    "skills",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-401 - orion-gaze-prediction-model-claims-31-faster-com.md",
+   "wiki": "X-401 - orion-gaze-prediction-model-claims-31-faster-com",
+   "title": "Orion: gaze-prediction model claims 31% faster computer use and 2x more UX bugs found",
+   "group": "entry",
+   "uid": "X-401",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "medium",
+   "tags": [
+    "gaze",
+    "computer-use",
+    "vlm",
+    "ux-bugs",
+    "prompt-injection",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-402 - the-32-tiktok-accounts-maths-4-phones-to-438k-a.md",
+   "wiki": "X-402 - the-32-tiktok-accounts-maths-4-phones-to-438k-a",
+   "title": "The 32 TikTok accounts maths: 4 phones to $438K a year, but the inputs are guesses",
+   "group": "entry",
+   "uid": "X-402",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "low",
+   "tags": [
+    "tiktok",
+    "growth",
+    "funnel-maths",
+    "mobile-apps",
+    "multi-account",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-403 - agents-md-rule-agents-must-start-dev-servers-fro.md",
+   "wiki": "X-403 - agents-md-rule-agents-must-start-dev-servers-fro",
+   "title": "AGENTS.md rule: agents must start dev servers from their own shell so they end with the session",
+   "group": "entry",
+   "uid": "X-403",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "agents-md",
+    "dev-servers",
+    "claude-code",
+    "processes",
+    "rules",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-404 - twig-native-copy-on-write-git-worktrees-that-sav.md",
+   "wiki": "X-404 - twig-native-copy-on-write-git-worktrees-that-sav",
+   "title": "twig: native copy-on-write git worktrees that save disk space for agents",
+   "group": "entry",
+   "uid": "X-404",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "git",
+    "worktrees",
+    "copy-on-write",
+    "agents",
+    "disk-space",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-405 - vidscribe-local-transcripts-and-frame-sheets-so.md",
+   "wiki": "X-405 - vidscribe-local-transcripts-and-frame-sheets-so",
+   "title": "vidscribe: local transcripts and frame sheets so agents can watch videos",
+   "group": "entry",
+   "uid": "X-405",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "vidscribe",
+    "video",
+    "ffmpeg",
+    "agents",
+    "apple-silicon",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-406 - codehygiene-a-tiny-model-compiled-straight-into.md",
+   "wiki": "X-406 - codehygiene-a-tiny-model-compiled-straight-into",
+   "title": "codehygiene: a tiny 'model' compiled straight into weights, with no training",
+   "group": "entry",
+   "uid": "X-406",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "medium",
+   "tags": [
+    "weight-space",
+    "ternary",
+    "code-quality",
+    "skills",
+    "cpu",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-407 - amicro-160-copy-paste-react-micro-interaction-co.md",
+   "wiki": "X-407 - amicro-160-copy-paste-react-micro-interaction-co",
+   "title": "Amicro: 160+ copy-paste React micro-interaction components",
+   "group": "entry",
+   "uid": "X-407",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "low",
+   "tags": [
+    "react",
+    "micro-interactions",
+    "animation",
+    "components",
+    "open-source",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-408 - pdfcn-and-snapcn-shadcn-style-pdf-and-remotion-v.md",
+   "wiki": "X-408 - pdfcn-and-snapcn-shadcn-style-pdf-and-remotion-v",
+   "title": "pdfcn and snapcn: shadcn-style PDF and Remotion video components from an unofficial account",
+   "group": "entry",
+   "uid": "X-408",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "low",
+   "tags": [
+    "shadcn",
+    "remotion",
+    "pdf",
+    "react",
+    "components",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-409 - three-ways-to-beat-pangram-wikipedia-sentences-s.md",
+   "wiki": "X-409 - three-ways-to-beat-pangram-wikipedia-sentences-s",
+   "title": "Three ways to beat Pangram: Wikipedia sentences, structure transfer, adversarial RL",
+   "group": "entry",
+   "uid": "X-409",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "medium",
+   "tags": [
+    "pangram",
+    "ai-detection",
+    "writing",
+    "adversarial",
+    "wikipedia",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-410 - claude-code-code-mode-claude-writes-javascript-t.md",
+   "wiki": "X-410 - claude-code-code-mode-claude-writes-javascript-t",
+   "title": "Claude Code Code Mode: Claude writes JavaScript to run many tool calls in one step",
+   "group": "entry",
+   "uid": "X-410",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "claude-code",
+    "code-mode",
+    "tool-calls",
+    "experimental",
+    "javascript",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-411 - four-ways-agents-cut-ci-to-under-2-minutes-diff.md",
+   "wiki": "X-411 - four-ways-agents-cut-ci-to-under-2-minutes-diff",
+   "title": "Four ways agents cut CI to under 2 minutes: diff-aware tests, shards, parallel jobs, all cores",
+   "group": "entry",
+   "uid": "X-411",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "ci",
+    "github-actions",
+    "vitest",
+    "oxlint",
+    "sharding",
+    "prompts",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-412 - hexbrain-every-disclosed-hackerone-report-and-40.md",
+   "wiki": "X-412 - hexbrain-every-disclosed-hackerone-report-and-40",
+   "title": "HexBrain: every disclosed HackerOne report and 405K CVEs on one interactive map",
+   "group": "entry",
+   "uid": "X-412",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "bug-bounty",
+    "hackerone",
+    "cve",
+    "security",
+    "research",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-413 - offense-sh-disposable-sandboxes-for-security-age.md",
+   "wiki": "X-413 - offense-sh-disposable-sandboxes-for-security-age",
+   "title": "offense.sh: disposable sandboxes for security agents, first sandbox free",
+   "group": "entry",
+   "uid": "X-413",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "low",
+   "tags": [
+    "offense-sh",
+    "security",
+    "sandbox",
+    "agents",
+    "pentest",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-414 - opencode-font-a-typeface-cut-from-the-opencode-w.md",
+   "wiki": "X-414 - opencode-font-a-typeface-cut-from-the-opencode-w",
+   "title": "OpenCode Font: a typeface cut from the OpenCode wordmark",
+   "group": "entry",
+   "uid": "X-414",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "low",
+   "tags": [
+    "opencode",
+    "font",
+    "branding",
+    "design",
+    "typeface",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-415 - vercel-ui-sdk-a-library-of-behaviors-for-agents.md",
+   "wiki": "X-415 - vercel-ui-sdk-a-library-of-behaviors-for-agents",
+   "title": "Vercel UI SDK: a library of behaviors for agents that build user interfaces",
+   "group": "entry",
+   "uid": "X-415",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "vercel",
+    "ui-sdk",
+    "agents",
+    "frontend",
+    "behaviors",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-416 - a-stack-fable-5-2-plans-with-grill-me-opus-5-5-s.md",
+   "wiki": "X-416 - a-stack-fable-5-2-plans-with-grill-me-opus-5-5-s",
+   "title": "A stack: Fable 5.2 plans with /grill-me, Opus 5.5 subagents build, Cloudflare CLI hosts",
+   "group": "entry",
+   "uid": "X-416",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "medium",
+   "tags": [
+    "fable-5-2",
+    "opus-5-5",
+    "cloudflare",
+    "workflow",
+    "subagents",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-417 - scarlet-matthew-berman-open-sources-his-ai-video.md",
+   "wiki": "X-417 - scarlet-matthew-berman-open-sources-his-ai-video",
+   "title": "Scarlet: Matthew Berman open-sources his AI video editor for macOS and Windows",
+   "group": "entry",
+   "uid": "X-417",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "scarlet",
+    "video-editing",
+    "open-source",
+    "macos",
+    "windows",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-418 - plurai-simulation-plugin-test-an-email-agent-wit.md",
+   "wiki": "X-418 - plurai-simulation-plugin-test-an-email-agent-wit",
+   "title": "Plurai simulation plugin: test an email agent with 27 mock conversations before it goes live",
+   "group": "entry",
+   "uid": "X-418",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "agent-testing",
+    "simulation",
+    "phishing",
+    "claude-code",
+    "deepseek",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-419 - prune-tests-skill-removes-tests-that-change-with.md",
+   "wiki": "X-419 - prune-tests-skill-removes-tests-that-change-with",
+   "title": "/prune-tests skill removes tests that change with the code or can never fail",
+   "group": "entry",
+   "uid": "X-419",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "skills",
+    "tests",
+    "ai-slop",
+    "claude-code",
+    "mutation-testing",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-420 - editing-weights-instead-of-training-deletion-tun.md",
+   "wiki": "X-420 - editing-weights-instead-of-training-deletion-tun",
+   "title": "Editing weights instead of training: Deletion Tuning, a decision-model edit and autorsi",
+   "group": "entry",
+   "uid": "X-420",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "weight-editing",
+    "deletion-tuning",
+    "fine-tuning",
+    "continual-learning",
+    "masks",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-421 - railway-s-october-21-breach-explained-in-a-video.md",
+   "wiki": "X-421 - railway-s-october-21-breach-explained-in-a-video",
+   "title": "Railway's October 21 breach, explained in a video: how the attacker got to customer variables",
+   "group": "entry",
+   "uid": "X-421",
+   "platform": "Twitter",
+   "category": "Tech Industry & News",
+   "followup": "high",
+   "tags": [
+    "railway",
+    "security-incident",
+    "oidc",
+    "secrets",
+    "build-isolation",
+    "twitter",
+    "tech-industry-news"
+   ]
+  },
+  {
+   "path": "Entries/X-422 - free-profiles-on-21-high-dr-sites-that-link-back.md",
+   "wiki": "X-422 - free-profiles-on-21-high-dr-sites-that-link-back",
+   "title": "Free profiles on 21 high-DR sites that link back to a new site",
+   "group": "entry",
+   "uid": "X-422",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "medium",
+   "tags": [
+    "seo",
+    "backlinks",
+    "domain-rating",
+    "geo",
+    "profiles",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-423 - free-for-dev-every-free-tier-for-hosting-databas.md",
+   "wiki": "X-423 - free-for-dev-every-free-tier-for-hosting-databas",
+   "title": "free-for.dev: every free tier for hosting, databases, auth and email on one page",
+   "group": "entry",
+   "uid": "X-423",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "medium",
+   "tags": [
+    "free-tier",
+    "hosting",
+    "indie-hackers",
+    "databases",
+    "tools",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-424 - browser-use-1-0-0-the-library-drops-90-of-its-co.md",
+   "wiki": "X-424 - browser-use-1-0-0-the-library-drops-90-of-its-co",
+   "title": "Browser Use 1.0.0: the library drops 90% of its code and runs a Python REPL on raw CDP",
+   "group": "entry",
+   "uid": "X-424",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "browser-use",
+    "cdp",
+    "web-agents",
+    "python",
+    "release",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-425 - free-no-refusal-models-for-bug-bounty-minimax-m3.md",
+   "wiki": "X-425 - free-no-refusal-models-for-bug-bounty-minimax-m3",
+   "title": "Free no-refusal models for bug bounty: MiniMax M3.1 Flash and nodecode Cyber v1",
+   "group": "entry",
+   "uid": "X-425",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "low",
+   "tags": [
+    "bug-bounty",
+    "minimax",
+    "deepseek",
+    "abliterated",
+    "opencode",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-426 - hyperframes-claims-its-reverse-any-video-skill-i.md",
+   "wiki": "X-426 - hyperframes-claims-its-reverse-any-video-skill-i",
+   "title": "HyperFrames claims its reverse-any-video skill is 20x faster than REA-Video",
+   "group": "entry",
+   "uid": "X-426",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "medium",
+   "tags": [
+    "hyperframes",
+    "reverse-engineering",
+    "video",
+    "skills",
+    "ssim",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-427 - shadcn-s-improve-skill-use-the-best-model-to-aud.md",
+   "wiki": "X-427 - shadcn-s-improve-skill-use-the-best-model-to-aud",
+   "title": "shadcn's /improve skill: use the best model to audit and write plans for cheaper models",
+   "group": "entry",
+   "uid": "X-427",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "improve",
+    "skills",
+    "fable-5-2",
+    "planning",
+    "audit",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-428 - a-free-edu-style-email-at-mail-flame-edu-kg-with.md",
+   "wiki": "X-428 - a-free-edu-style-email-at-mail-flame-edu-kg-with",
+   "title": "A free edu-style email at mail.flame.edu.kg, with an invite code: treat with care",
+   "group": "entry",
+   "uid": "X-428",
+   "platform": "Twitter",
+   "category": "Other",
+   "followup": "low",
+   "tags": [
+    "edu-email",
+    "student-perks",
+    "invite-code",
+    "risk",
+    "free",
+    "twitter",
+    "other"
+   ]
+  },
+  {
+   "path": "Entries/X-429 - an-old-android-phone-as-a-24-7-home-server-nextc.md",
+   "wiki": "X-429 - an-old-android-phone-as-a-24-7-home-server-nextc",
+   "title": "An old Android phone as a 24/7 home server: Nextcloud, Pi-hole and Navidrome at 2 to 3 W",
+   "group": "entry",
+   "uid": "X-429",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "homelab",
+    "android",
+    "nextcloud",
+    "pi-hole",
+    "magisk",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-430 - stickman-video-director-a-free-repo-that-turns-a.md",
+   "wiki": "X-430 - stickman-video-director-a-free-repo-that-turns-a",
+   "title": "stickman-video-director: a free repo that turns a script into faceless YouTube videos",
+   "group": "entry",
+   "uid": "X-430",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "low",
+   "tags": [
+    "youtube",
+    "stickman",
+    "video-generation",
+    "workflow",
+    "faceless",
+    "twitter",
+    "ai-llm"
+   ]
   }
  ],
  "categories": [
@@ -8154,7 +8839,7 @@
    "wiki": "AI & LLM",
    "title": "🗂 AI & LLM",
    "group": "category",
-   "count": 102
+   "count": 112
   },
   {
    "name": "Dev Tools & Productivity",
@@ -8163,7 +8848,7 @@
    "wiki": "Dev Tools & Productivity",
    "title": "🗂 Dev Tools & Productivity",
    "group": "category",
-   "count": 85
+   "count": 105
   },
   {
    "name": "Programming & CS Learning",
@@ -8217,7 +8902,7 @@
    "wiki": "Startups, Product & Marketing",
    "title": "🗂 Startups, Product & Marketing",
    "group": "category",
-   "count": 56
+   "count": 60
   },
   {
    "name": "Health, Fitness & Wellness",
@@ -8262,7 +8947,7 @@
    "wiki": "Tech Industry & News",
    "title": "🗂 Tech Industry & News",
    "group": "category",
-   "count": 5
+   "count": 6
   },
   {
    "name": "Other",
@@ -8271,7 +8956,7 @@
    "wiki": "Other",
    "title": "🗂 Other",
    "group": "category",
-   "count": 5
+   "count": 6
   }
  ],
  "entries": [
@@ -12888,25 +13573,6 @@
    ]
   },
   {
-   "path": "Entries/X-211 - 8-ai-websites-that-save-hours-of-manual-work.md",
-   "wiki": "X-211 - 8-ai-websites-that-save-hours-of-manual-work",
-   "title": "8 AI websites that save hours of manual work",
-   "group": "entry",
-   "uid": "X-211",
-   "platform": "Twitter",
-   "category": "AI & LLM",
-   "followup": "high",
-   "tags": [
-    "ai-tools",
-    "text-to-image",
-    "ai-video",
-    "productivity",
-    "listicle",
-    "twitter",
-    "ai-llm"
-   ]
-  },
-  {
    "path": "Entries/X-212 - 7-portfolio-projects-that-will-actually-get-you.md",
    "wiki": "X-212 - 7-portfolio-projects-that-will-actually-get-you",
    "title": "7 portfolio projects that will actually get you hired",
@@ -16081,7 +16747,7 @@
   {
    "path": "Entries/X-383 - cloudflare-security-audit-skill-finds-bugs-even.md",
    "wiki": "X-383 - cloudflare-security-audit-skill-finds-bugs-even",
-   "title": "Cloudflare security-audit skill finds bugs even with cheap models; Vercel reviews free until Nov 10",
+   "title": "Cloudflare security-audit skill finds bugs even with cheap models",
    "group": "entry",
    "uid": "X-383",
    "platform": "Twitter",
@@ -16279,6 +16945,710 @@
     "seo",
     "twitter",
     "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-394 - everystate-a-rust-tla-model-checker-so-agents-ca.md",
+   "wiki": "X-394 - everystate-a-rust-tla-model-checker-so-agents-ca",
+   "title": "everystate: a Rust TLA+ model checker so agents can find race conditions without Java",
+   "group": "entry",
+   "uid": "X-394",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "tla-plus",
+    "formal-verification",
+    "rust",
+    "model-checking",
+    "agents",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-395 - landmines-oxlint-rules-that-ban-lazy-ai-written.md",
+   "wiki": "X-395 - landmines-oxlint-rules-that-ban-lazy-ai-written",
+   "title": "Landmines: Oxlint rules that ban lazy AI-written tests and slop structure",
+   "group": "entry",
+   "uid": "X-395",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "oxlint",
+    "linting",
+    "ai-tests",
+    "msw",
+    "agents",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-396 - eve-1-0-is-generally-available-open-source-frame.md",
+   "wiki": "X-396 - eve-1-0-is-generally-available-open-source-frame",
+   "title": "eve 1.0 is generally available: open-source framework for production agents",
+   "group": "entry",
+   "uid": "X-396",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "eve",
+    "vercel",
+    "agents",
+    "framework",
+    "multiplayer",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-397 - prompt-turns-60-days-of-agent-mistakes-into-lint.md",
+   "wiki": "X-397 - prompt-turns-60-days-of-agent-mistakes-into-lint",
+   "title": "Prompt turns 60 days of agent mistakes into lint rules, tests and types",
+   "group": "entry",
+   "uid": "X-397",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "claude-md",
+    "prompts",
+    "lint-rules",
+    "ci",
+    "agent-mistakes",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-398 - daytona-adds-macos-sandboxes-for-agents-m4-m4-pr.md",
+   "wiki": "X-398 - daytona-adds-macos-sandboxes-for-agents-m4-m4-pr",
+   "title": "Daytona adds macOS sandboxes for agents (M4, M4 Pro, M5 Pro)",
+   "group": "entry",
+   "uid": "X-398",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "daytona",
+    "macos",
+    "sandbox",
+    "agents",
+    "ios-simulator",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-399 - pieter-levels-let-people-mess-around-because-tha.md",
+   "wiki": "X-399 - pieter-levels-let-people-mess-around-because-tha",
+   "title": "Pieter Levels: let people mess around, because that play turned into millions",
+   "group": "entry",
+   "uid": "X-399",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "low",
+   "tags": [
+    "levelsio",
+    "vibe-coding",
+    "games",
+    "indie-hacking",
+    "founder-story",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-400 - 0xsero-says-an-open-source-inference-optimisatio.md",
+   "wiki": "X-400 - 0xsero-says-an-open-source-inference-optimisatio",
+   "title": "0xSero says an open-source inference-optimisation skill made him over $100K",
+   "group": "entry",
+   "uid": "X-400",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "inference",
+    "optimisation",
+    "sglang",
+    "local-ai",
+    "skills",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-401 - orion-gaze-prediction-model-claims-31-faster-com.md",
+   "wiki": "X-401 - orion-gaze-prediction-model-claims-31-faster-com",
+   "title": "Orion: gaze-prediction model claims 31% faster computer use and 2x more UX bugs found",
+   "group": "entry",
+   "uid": "X-401",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "medium",
+   "tags": [
+    "gaze",
+    "computer-use",
+    "vlm",
+    "ux-bugs",
+    "prompt-injection",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-402 - the-32-tiktok-accounts-maths-4-phones-to-438k-a.md",
+   "wiki": "X-402 - the-32-tiktok-accounts-maths-4-phones-to-438k-a",
+   "title": "The 32 TikTok accounts maths: 4 phones to $438K a year, but the inputs are guesses",
+   "group": "entry",
+   "uid": "X-402",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "low",
+   "tags": [
+    "tiktok",
+    "growth",
+    "funnel-maths",
+    "mobile-apps",
+    "multi-account",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-403 - agents-md-rule-agents-must-start-dev-servers-fro.md",
+   "wiki": "X-403 - agents-md-rule-agents-must-start-dev-servers-fro",
+   "title": "AGENTS.md rule: agents must start dev servers from their own shell so they end with the session",
+   "group": "entry",
+   "uid": "X-403",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "agents-md",
+    "dev-servers",
+    "claude-code",
+    "processes",
+    "rules",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-404 - twig-native-copy-on-write-git-worktrees-that-sav.md",
+   "wiki": "X-404 - twig-native-copy-on-write-git-worktrees-that-sav",
+   "title": "twig: native copy-on-write git worktrees that save disk space for agents",
+   "group": "entry",
+   "uid": "X-404",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "git",
+    "worktrees",
+    "copy-on-write",
+    "agents",
+    "disk-space",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-405 - vidscribe-local-transcripts-and-frame-sheets-so.md",
+   "wiki": "X-405 - vidscribe-local-transcripts-and-frame-sheets-so",
+   "title": "vidscribe: local transcripts and frame sheets so agents can watch videos",
+   "group": "entry",
+   "uid": "X-405",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "vidscribe",
+    "video",
+    "ffmpeg",
+    "agents",
+    "apple-silicon",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-406 - codehygiene-a-tiny-model-compiled-straight-into.md",
+   "wiki": "X-406 - codehygiene-a-tiny-model-compiled-straight-into",
+   "title": "codehygiene: a tiny 'model' compiled straight into weights, with no training",
+   "group": "entry",
+   "uid": "X-406",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "medium",
+   "tags": [
+    "weight-space",
+    "ternary",
+    "code-quality",
+    "skills",
+    "cpu",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-407 - amicro-160-copy-paste-react-micro-interaction-co.md",
+   "wiki": "X-407 - amicro-160-copy-paste-react-micro-interaction-co",
+   "title": "Amicro: 160+ copy-paste React micro-interaction components",
+   "group": "entry",
+   "uid": "X-407",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "low",
+   "tags": [
+    "react",
+    "micro-interactions",
+    "animation",
+    "components",
+    "open-source",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-408 - pdfcn-and-snapcn-shadcn-style-pdf-and-remotion-v.md",
+   "wiki": "X-408 - pdfcn-and-snapcn-shadcn-style-pdf-and-remotion-v",
+   "title": "pdfcn and snapcn: shadcn-style PDF and Remotion video components from an unofficial account",
+   "group": "entry",
+   "uid": "X-408",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "low",
+   "tags": [
+    "shadcn",
+    "remotion",
+    "pdf",
+    "react",
+    "components",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-409 - three-ways-to-beat-pangram-wikipedia-sentences-s.md",
+   "wiki": "X-409 - three-ways-to-beat-pangram-wikipedia-sentences-s",
+   "title": "Three ways to beat Pangram: Wikipedia sentences, structure transfer, adversarial RL",
+   "group": "entry",
+   "uid": "X-409",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "medium",
+   "tags": [
+    "pangram",
+    "ai-detection",
+    "writing",
+    "adversarial",
+    "wikipedia",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-410 - claude-code-code-mode-claude-writes-javascript-t.md",
+   "wiki": "X-410 - claude-code-code-mode-claude-writes-javascript-t",
+   "title": "Claude Code Code Mode: Claude writes JavaScript to run many tool calls in one step",
+   "group": "entry",
+   "uid": "X-410",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "claude-code",
+    "code-mode",
+    "tool-calls",
+    "experimental",
+    "javascript",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-411 - four-ways-agents-cut-ci-to-under-2-minutes-diff.md",
+   "wiki": "X-411 - four-ways-agents-cut-ci-to-under-2-minutes-diff",
+   "title": "Four ways agents cut CI to under 2 minutes: diff-aware tests, shards, parallel jobs, all cores",
+   "group": "entry",
+   "uid": "X-411",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "ci",
+    "github-actions",
+    "vitest",
+    "oxlint",
+    "sharding",
+    "prompts",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-412 - hexbrain-every-disclosed-hackerone-report-and-40.md",
+   "wiki": "X-412 - hexbrain-every-disclosed-hackerone-report-and-40",
+   "title": "HexBrain: every disclosed HackerOne report and 405K CVEs on one interactive map",
+   "group": "entry",
+   "uid": "X-412",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "bug-bounty",
+    "hackerone",
+    "cve",
+    "security",
+    "research",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-413 - offense-sh-disposable-sandboxes-for-security-age.md",
+   "wiki": "X-413 - offense-sh-disposable-sandboxes-for-security-age",
+   "title": "offense.sh: disposable sandboxes for security agents, first sandbox free",
+   "group": "entry",
+   "uid": "X-413",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "low",
+   "tags": [
+    "offense-sh",
+    "security",
+    "sandbox",
+    "agents",
+    "pentest",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-414 - opencode-font-a-typeface-cut-from-the-opencode-w.md",
+   "wiki": "X-414 - opencode-font-a-typeface-cut-from-the-opencode-w",
+   "title": "OpenCode Font: a typeface cut from the OpenCode wordmark",
+   "group": "entry",
+   "uid": "X-414",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "low",
+   "tags": [
+    "opencode",
+    "font",
+    "branding",
+    "design",
+    "typeface",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-415 - vercel-ui-sdk-a-library-of-behaviors-for-agents.md",
+   "wiki": "X-415 - vercel-ui-sdk-a-library-of-behaviors-for-agents",
+   "title": "Vercel UI SDK: a library of behaviors for agents that build user interfaces",
+   "group": "entry",
+   "uid": "X-415",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "vercel",
+    "ui-sdk",
+    "agents",
+    "frontend",
+    "behaviors",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-416 - a-stack-fable-5-2-plans-with-grill-me-opus-5-5-s.md",
+   "wiki": "X-416 - a-stack-fable-5-2-plans-with-grill-me-opus-5-5-s",
+   "title": "A stack: Fable 5.2 plans with /grill-me, Opus 5.5 subagents build, Cloudflare CLI hosts",
+   "group": "entry",
+   "uid": "X-416",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "medium",
+   "tags": [
+    "fable-5-2",
+    "opus-5-5",
+    "cloudflare",
+    "workflow",
+    "subagents",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-417 - scarlet-matthew-berman-open-sources-his-ai-video.md",
+   "wiki": "X-417 - scarlet-matthew-berman-open-sources-his-ai-video",
+   "title": "Scarlet: Matthew Berman open-sources his AI video editor for macOS and Windows",
+   "group": "entry",
+   "uid": "X-417",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "scarlet",
+    "video-editing",
+    "open-source",
+    "macos",
+    "windows",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-418 - plurai-simulation-plugin-test-an-email-agent-wit.md",
+   "wiki": "X-418 - plurai-simulation-plugin-test-an-email-agent-wit",
+   "title": "Plurai simulation plugin: test an email agent with 27 mock conversations before it goes live",
+   "group": "entry",
+   "uid": "X-418",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "agent-testing",
+    "simulation",
+    "phishing",
+    "claude-code",
+    "deepseek",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-419 - prune-tests-skill-removes-tests-that-change-with.md",
+   "wiki": "X-419 - prune-tests-skill-removes-tests-that-change-with",
+   "title": "/prune-tests skill removes tests that change with the code or can never fail",
+   "group": "entry",
+   "uid": "X-419",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "skills",
+    "tests",
+    "ai-slop",
+    "claude-code",
+    "mutation-testing",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-420 - editing-weights-instead-of-training-deletion-tun.md",
+   "wiki": "X-420 - editing-weights-instead-of-training-deletion-tun",
+   "title": "Editing weights instead of training: Deletion Tuning, a decision-model edit and autorsi",
+   "group": "entry",
+   "uid": "X-420",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "high",
+   "tags": [
+    "weight-editing",
+    "deletion-tuning",
+    "fine-tuning",
+    "continual-learning",
+    "masks",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-421 - railway-s-october-21-breach-explained-in-a-video.md",
+   "wiki": "X-421 - railway-s-october-21-breach-explained-in-a-video",
+   "title": "Railway's October 21 breach, explained in a video: how the attacker got to customer variables",
+   "group": "entry",
+   "uid": "X-421",
+   "platform": "Twitter",
+   "category": "Tech Industry & News",
+   "followup": "high",
+   "tags": [
+    "railway",
+    "security-incident",
+    "oidc",
+    "secrets",
+    "build-isolation",
+    "twitter",
+    "tech-industry-news"
+   ]
+  },
+  {
+   "path": "Entries/X-422 - free-profiles-on-21-high-dr-sites-that-link-back.md",
+   "wiki": "X-422 - free-profiles-on-21-high-dr-sites-that-link-back",
+   "title": "Free profiles on 21 high-DR sites that link back to a new site",
+   "group": "entry",
+   "uid": "X-422",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "medium",
+   "tags": [
+    "seo",
+    "backlinks",
+    "domain-rating",
+    "geo",
+    "profiles",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-423 - free-for-dev-every-free-tier-for-hosting-databas.md",
+   "wiki": "X-423 - free-for-dev-every-free-tier-for-hosting-databas",
+   "title": "free-for.dev: every free tier for hosting, databases, auth and email on one page",
+   "group": "entry",
+   "uid": "X-423",
+   "platform": "Twitter",
+   "category": "Startups, Product & Marketing",
+   "followup": "medium",
+   "tags": [
+    "free-tier",
+    "hosting",
+    "indie-hackers",
+    "databases",
+    "tools",
+    "twitter",
+    "startups-product-marketing"
+   ]
+  },
+  {
+   "path": "Entries/X-424 - browser-use-1-0-0-the-library-drops-90-of-its-co.md",
+   "wiki": "X-424 - browser-use-1-0-0-the-library-drops-90-of-its-co",
+   "title": "Browser Use 1.0.0: the library drops 90% of its code and runs a Python REPL on raw CDP",
+   "group": "entry",
+   "uid": "X-424",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "browser-use",
+    "cdp",
+    "web-agents",
+    "python",
+    "release",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-425 - free-no-refusal-models-for-bug-bounty-minimax-m3.md",
+   "wiki": "X-425 - free-no-refusal-models-for-bug-bounty-minimax-m3",
+   "title": "Free no-refusal models for bug bounty: MiniMax M3.1 Flash and nodecode Cyber v1",
+   "group": "entry",
+   "uid": "X-425",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "low",
+   "tags": [
+    "bug-bounty",
+    "minimax",
+    "deepseek",
+    "abliterated",
+    "opencode",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-426 - hyperframes-claims-its-reverse-any-video-skill-i.md",
+   "wiki": "X-426 - hyperframes-claims-its-reverse-any-video-skill-i",
+   "title": "HyperFrames claims its reverse-any-video skill is 20x faster than REA-Video",
+   "group": "entry",
+   "uid": "X-426",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "medium",
+   "tags": [
+    "hyperframes",
+    "reverse-engineering",
+    "video",
+    "skills",
+    "ssim",
+    "twitter",
+    "ai-llm"
+   ]
+  },
+  {
+   "path": "Entries/X-427 - shadcn-s-improve-skill-use-the-best-model-to-aud.md",
+   "wiki": "X-427 - shadcn-s-improve-skill-use-the-best-model-to-aud",
+   "title": "shadcn's /improve skill: use the best model to audit and write plans for cheaper models",
+   "group": "entry",
+   "uid": "X-427",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "high",
+   "tags": [
+    "improve",
+    "skills",
+    "fable-5-2",
+    "planning",
+    "audit",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-428 - a-free-edu-style-email-at-mail-flame-edu-kg-with.md",
+   "wiki": "X-428 - a-free-edu-style-email-at-mail-flame-edu-kg-with",
+   "title": "A free edu-style email at mail.flame.edu.kg, with an invite code: treat with care",
+   "group": "entry",
+   "uid": "X-428",
+   "platform": "Twitter",
+   "category": "Other",
+   "followup": "low",
+   "tags": [
+    "edu-email",
+    "student-perks",
+    "invite-code",
+    "risk",
+    "free",
+    "twitter",
+    "other"
+   ]
+  },
+  {
+   "path": "Entries/X-429 - an-old-android-phone-as-a-24-7-home-server-nextc.md",
+   "wiki": "X-429 - an-old-android-phone-as-a-24-7-home-server-nextc",
+   "title": "An old Android phone as a 24/7 home server: Nextcloud, Pi-hole and Navidrome at 2 to 3 W",
+   "group": "entry",
+   "uid": "X-429",
+   "platform": "Twitter",
+   "category": "Dev Tools & Productivity",
+   "followup": "medium",
+   "tags": [
+    "homelab",
+    "android",
+    "nextcloud",
+    "pi-hole",
+    "magisk",
+    "twitter",
+    "dev-tools-productivity"
+   ]
+  },
+  {
+   "path": "Entries/X-430 - stickman-video-director-a-free-repo-that-turns-a.md",
+   "wiki": "X-430 - stickman-video-director-a-free-repo-that-turns-a",
+   "title": "stickman-video-director: a free repo that turns a script into faceless YouTube videos",
+   "group": "entry",
+   "uid": "X-430",
+   "platform": "Twitter",
+   "category": "AI & LLM",
+   "followup": "low",
+   "tags": [
+    "youtube",
+    "stickman",
+    "video-generation",
+    "workflow",
+    "faceless",
+    "twitter",
+    "ai-llm"
    ]
   }
  ]
