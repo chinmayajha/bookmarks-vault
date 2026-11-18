@@ -20,11 +20,11 @@ tags: ["open-source", "task-manager", "licensing", "verification-prompt", "twitt
 
 ## 💬 Essence
 
-Zahra shares an open-source task manager with a demo (gr8r-taskmanagement on Vercel) and the GitHub repo gr8rstudio/gr8r-studio, saying it already has 1,000+ stars and that Claude makes her team very fast. Three replies point out it is not fully open source without a license. Other replies in the thread are more useful than the post: Guillermo Rauch says Vercel Security Reviews found 6,817 vulnerabilities in 24 hours and are free until 10 Nov, and Matt Pocock's prompt of the day is 'How do we make this change fully verifiable?', which makes the agent verify its changes by signing up to real services and clicking through the frontend. Cloudflare's security-audit skill is also promoted in a reply.
+Zahra shares an open-source task manager with a demo (gr8r-taskmanagement on Vercel) and the GitHub repo gr8rstudio/gr8r-studio, saying it already has 1,000+ stars and that Claude makes her team very fast. Three replies point out it is not fully open source without a license. Other replies in the thread are more useful than the post: Guillermo Rauch says Vercel Security Reviews found 6,817 vulnerabilities in 24 hours and were free until 10 Nov (that offer has ended), and Matt Pocock's prompt of the day is 'How do we make this change fully verifiable?', which makes the agent verify its changes by signing up to real services and clicking through the frontend. Cloudflare's security-audit skill is also promoted in a reply.
 
 ## 💡 Takeaway
 
-The project itself is minor. Keep the 'fully verifiable' prompt and the Vercel free-review window (until 10 Nov).
+The project itself is minor. Keep the 'fully verifiable' prompt. The Vercel free-review window ended on 10 Nov 2026.
 
 ## 🔗 Try it
 

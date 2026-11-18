@@ -10,6 +10,8 @@ url: "https://x.com/hanghuang_/status/2112299795549143378"
 engagement: "123 replies · 7 reposts · 132 likes · 78 bookmarks · 6K views"
 followup: "medium"
 media: "none"
+important: "InstaBox early users keep five free machines until 1 Dec 2026. Check your machines before then."
+deadline: "2026-12-01"
 links: ["https://instabox.sh/pricing", "https://instabox.sh/blog/instabox-pricing", "https://instabox.sh/"]
 tags: ["instabox", "cloud-computers", "pricing", "free-tier", "ai-agents", "twitter", "startups-product-marketing"]
 ---
@@ -17,6 +19,8 @@ tags: ["instabox", "cloud-computers", "pricing", "free-tier", "ai-agents", "twit
 # InstaBox prices agent cloud around a free 4 vCPU machine and cheap unit economics
 
 **[Open original ↗](https://x.com/hanghuang_/status/2112299795549143378)** · `Hang Huang` · 2026-10-19 · 123 replies · 7 reposts · 132 likes · 78 bookmarks · 6K views
+
+> ⏰ **Important:** InstaBox early users keep five free machines until 1 Dec 2026. Check your machines before then. · ⏳ by 2026-12-01
 
 ## 💬 Essence
 
