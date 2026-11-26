@@ -10,7 +10,7 @@ url: "https://x.com/browser_use/status/2119983662162952278"
 engagement: "50 replies · 105 reposts · 1.2K likes · 1.2K bookmarks · 201.7K views"
 followup: "high"
 media: "image"
-important: "Browser Use 1.0.0 deletes about 90% of the old library, and the team says it will ship fast. Pin the exact version with == before you upgrade."
+important: "Browser Use 1.0.0 deletes about 90% of the old library, and the team ships fast. Version 1.0.8 came out on 22 Nov 2026. Pin the exact version with == before you upgrade."
 links: ["https://github.com/browser-use/browser-use/releases/tag/1.0.0"]
 tags: ["browser-use", "cdp", "web-agents", "python", "release", "twitter", "dev-tools-productivity"]
 ---
@@ -19,7 +19,7 @@ tags: ["browser-use", "cdp", "web-agents", "python", "release", "twitter", "dev-
 
 **[Open original ↗](https://x.com/browser_use/status/2119983662162952278)** · `Browser Use` · 2026-11-10 · 50 replies · 105 reposts · 1.2K likes · 1.2K bookmarks · 201.7K views · ⭐ high follow-up
 
-> ⏰ **Important:** Browser Use 1.0.0 deletes about 90% of the old library, and the team says it will ship fast. Pin the exact version with == before you upgrade.
+> ⏰ **Important:** Browser Use 1.0.0 deletes about 90% of the old library, and the team ships fast. Version 1.0.8 came out on 22 Nov 2026. Pin the exact version with == before you upgrade.
 
 ## 💬 Essence
 

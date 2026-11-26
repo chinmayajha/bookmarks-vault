@@ -96,7 +96,7 @@
     "engagement": "↑319 · 56 comments",
     "essence": "OP, a Codeforces-grinding student with no finance background, built Pulse-Order — a C++20 low-latency trading system sim with binary market-data packets, an L2 order book, matching logic, risk checks, DPDK packet processing and benchmarks — and says it drew responses from an IMC engineer, Jane Street recruiters who spotted his profile, and HFT folks starring the repo. Replies press for details (recruiters plus GitHub stars, essentially), ask him to DM his learning plan, and one person building a Python toy engine is told Python is too slow for this — use C++/C/asm. Sentiment is mostly admiration ('Mad respect, keep up the grind', suggestion to write a blog) with a skeptical minority calling it star-farming or 'holy slop' vibe-coded work.",
     "summary": "Evidence that a public, well-built low-latency trading repo can pull recruiter and engineer attention at top HFT shops — and the exact stack that got it noticed.",
-    "productLinks": ["https://github.com/Shivfun99/Pulse-Order"],
+    "productLinks": [],
     "hasMedia": "image",
     "topicTags": ["hft", "low-latency", "cpp", "portfolio-project", "dpdk", "quant-careers"],
     "worthFollowUp": "medium"
@@ -661,23 +661,6 @@
     "hasMedia": "image",
     "topicTags": ["quant-finance", "ebook", "portfolio-optimization", "stochastic-finance", "learning-resource"],
     "worthFollowUp": "high"
-  },
-  {
-    "uid": "L-013",
-    "platform": "LinkedIn",
-    "category": "Quant & Trading",
-    "subcategory": "HFT systems/C++ hiring",
-    "title": "Premier HFT firm hiring Systems Architects and C++/FPGA engineers",
-    "author": "Ishan Mishra",
-    "date": "2026-03-18",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7439987954749669376",
-    "engagement": "♥54 · 1 comment · 4 reposts",
-    "essence": "Recruiter Ishan Mishra posts that Quanticle is partnering with a 'premier HFT firm' to expand its low-latency footprint and is hiring elite Systems Architects and C++/FPGA Engineers in Singapore, New York and India for core infrastructure — kernel bypass, custom network stacks, and optimization at the hardware/software interface — to build 'some of the fastest trading engines in the industry'. Candidates are invited to email him for a confidential discussion even if only passively curious, with the role deck attached. The single reply is a generic connect request and the post earns 4 reposts, i.e. low organic engagement but clear intent signal.",
-    "summary": "A live senior HFT infrastructure role (kernel bypass, FPGA, custom networking) across Singapore, NY and India — a passive-candidate access point.",
-    "productLinks": ["https://quanticle.dev"],
-    "hasMedia": "image",
-    "topicTags": ["hft", "cpp", "fpga", "kernel-bypass", "quant-jobs", "recruiting"],
-    "worthFollowUp": "medium"
   },
   {
     "uid": "L-014",

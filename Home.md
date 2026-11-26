@@ -8,17 +8,17 @@ Your X / Reddit / LinkedIn bookmarks — extracted in full, categorized, summari
 
 ## 📊 At a glance
 
-**467 entries** · 🐦 X 423 · 💬 Reddit 30 · 💼 LinkedIn 14
+**484 entries** · 🐦 X 441 · 💬 Reddit 30 · 💼 LinkedIn 13
 
-🏷 14 categories · 🔗 227 with product links · 🎬 86 videos · ⭐ 198 high follow-up
+🏷 14 categories · 🔗 241 with product links · 🎬 95 videos · ⭐ 207 high follow-up
 
 ## ⏰ Important
 
 - **[[X-298 - instabox-prices-agent-cloud-around-a-free-4-vcpu|InstaBox prices agent cloud around a free 4 vCPU machine and cheap unit …]]** — InstaBox early users keep five free machines until 1 Dec 2026. Check your machines before then. · ⏳ by 2026-12-01
 - **[[X-387 - publish-a-cli-to-npm-for-automatic-listings-on-l|Publish a CLI to npm for automatic listings on Libraries.io and more (DR 75)]]** — Ahrefs rolls out its DR4 rating model on 1 Dec 2026. DR numbers quoted in these SaaS visibility hacks can change, so check your own DR before then. · ⏳ by 2026-12-01
-- **[[X-361 - mcp-ffmpeg-and-other-mcp-servers-pass-file-names|mcp-ffmpeg and other MCP servers pass file names into a shell: no patch yet]]** — mcp-ffmpeg 1.0.5 and below allow shell injection through file names. No fixed release exists (npm latest is 1.0.5, checked 18 Nov 2026). Check your MCP config and sandbox the agent.
+- **[[X-361 - mcp-ffmpeg-and-other-mcp-servers-pass-file-names|mcp-ffmpeg and other MCP servers pass file names into a shell: no patch yet]]** — mcp-ffmpeg 1.0.5 and below allow shell injection through file names. No fixed release exists (npm latest is 1.0.5, checked 26 Nov 2026). Check your MCP config and sandbox the agent.
 - **[[X-421 - railway-s-october-21-breach-explained-in-a-video|Railway's October 21 breach, explained in a video: how the attacker got to …]]** — Railway breach (20 to 21 Oct 2026): up to 1.85% of workspaces had environment variables decrypted. If you use Railway, rotate secrets and report AI token charges that you did not make. Checked 18 Nov 2026.
-- **[[X-424 - browser-use-1-0-0-the-library-drops-90-of-its-co|Browser Use 1.0.0: the library drops 90% of its code and runs a Python REPL on …]]** — Browser Use 1.0.0 deletes about 90% of the old library, and the team says it will ship fast. Pin the exact version with == before you upgrade.
+- **[[X-424 - browser-use-1-0-0-the-library-drops-90-of-its-co|Browser Use 1.0.0: the library drops 90% of its code and runs a Python REPL on …]]** — Browser Use 1.0.0 deletes about 90% of the old library, and the team ships fast. Version 1.0.8 came out on 22 Nov 2026. Pin the exact version with == before you upgrade.
 
 ## 🗓 My plan for the coming months
 
@@ -26,12 +26,12 @@ Your X / Reddit / LinkedIn bookmarks — extracted in full, categorized, summari
 
 ## 🗂 Categories
 
-- **[[AI & LLM]]** — 112 items
-- **[[Dev Tools & Productivity]]** — 105 items
+- **[[AI & LLM]]** — 121 items
+- **[[Dev Tools & Productivity]]** — 116 items
 - **[[Programming & CS Learning]]** — 53 items
 - **[[Interviews, OA & DSA]]** — 32 items
-- **[[Jobs, Careers & Compensation]]** — 29 items
-- **[[Quant & Trading]]** — 23 items
+- **[[Jobs, Careers & Compensation]]** — 27 items
+- **[[Quant & Trading]]** — 22 items
 - **[[Personal Finance & Money]]** — 10 items
 - **[[Startups, Product & Marketing]]** — 60 items
 - **[[Health, Fitness & Wellness]]** — 12 items
@@ -54,7 +54,7 @@ Your X / Reddit / LinkedIn bookmarks — extracted in full, categorized, summari
 
 ## 📦 Source files
 
-- [[README]] — the full browsable archive (467 entries, all details)
+- [[README]] — the full browsable archive (484 entries, all details)
 - `Bookmarks_Categorized.xlsx` — Excel workbook (Master Index + a sheet per category)
 - `data/` — raw + normalized extraction JSON
 - `scripts/` — rebuild scripts (`build_index.js`, `build_workbook.py`, `generate_readme.py`, `generate_obsidian.py`)
