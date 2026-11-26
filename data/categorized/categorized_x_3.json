@@ -2620,7 +2620,7 @@
     "worthFollowUp": "high",
     "hasMedia": "",
     "important": {
-      "note": "mcp-ffmpeg 1.0.5 and below allow shell injection through file names. No fixed release exists (npm latest is 1.0.5, checked 18 Nov 2026). Check your MCP config and sandbox the agent."
+      "note": "mcp-ffmpeg 1.0.5 and below allow shell injection through file names. No fixed release exists (npm latest is 1.0.5, checked 26 Nov 2026). Check your MCP config and sandbox the agent."
     }
   },
   {
@@ -4231,7 +4231,7 @@
     "worthFollowUp": "high",
     "hasMedia": "image",
     "important": {
-      "note": "Browser Use 1.0.0 deletes about 90% of the old library, and the team says it will ship fast. Pin the exact version with == before you upgrade."
+      "note": "Browser Use 1.0.0 deletes about 90% of the old library, and the team ships fast. Version 1.0.8 came out on 22 Nov 2026. Pin the exact version with == before you upgrade."
     }
   },
   {
@@ -4388,5 +4388,516 @@
     ],
     "worthFollowUp": "low",
     "hasMedia": ""
+  },
+  {
+    "uid": "X-431",
+    "platform": "Twitter",
+    "category": "AI & LLM",
+    "subcategory": "Video generation",
+    "title": "gorg.ai/code clones a launch video in 54 minutes from one prompt",
+    "author": "Daniel Martinez",
+    "date": "2026-11-25",
+    "url": "https://x.com/coderpr0grammer/status/2125386567414165779",
+    "engagement": "17 replies · 16 reposts · 574 likes · 1,025 bookmarks · 32.4K views",
+    "essence": "Daniel Martinez posts a video that his tool, gorg.ai/code, made as a clone of a launch video (the quoted post, by Gohar, says launch videos are now non-negotiable). He says it took 54 minutes and one prompt. In replies he says the tool finds the assets by itself, and that it is free with a Claude plan. A hosted version is usage-based and works with iMessage. One reply says cloning is easy and original work with taste is hard. He answers that a few examples plus your brand give good output. One reader notes the site shows no pricing.",
+    "summary": "Prompt-driven launch-video clones work, but readers doubt the taste and originality. Pricing is unclear.",
+    "productLinks": [
+      "https://gorg.ai/code"
+    ],
+    "topicTags": [
+      "video-generation",
+      "launch-video",
+      "claude-code",
+      "clone"
+    ],
+    "worthFollowUp": "medium",
+    "hasMedia": "video"
+  },
+  {
+    "uid": "X-432",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "Agent test hygiene",
+    "title": "/refactor-tests: a skill that rewrites AI-made tests to a written standard",
+    "author": "zkMarek",
+    "date": "2026-11-25",
+    "url": "https://x.com/zkMarek/status/2125520741709795671",
+    "engagement": "11 replies · 17 reposts · 451 likes · 752 bookmarks · 31.8K views",
+    "essence": "zkMarek shares /refactor-tests, a skill in his skills repo. He says AI-written tests got so bad that some people say to delete them, and friends report suites that run for an hour. On one of his projects, three runs of the skill made the tests 10x faster. A big repo can take hours, so he suggests running it on every PR. He says the first run gave the biggest change. The skill uses test templates to avoid weak tests. When it finds a bug, it writes an ignored test and asks if you want to fix it. He made the demo video with Claude from one prompt. The same prompt is also on prompts.one-time-use.com.",
+    "summary": "Same problem as the AGENTS.md testing rules: tests that restate the code. Expect slow runs on big repos.",
+    "productLinks": [
+      "https://github.com/marekkirejczyk/skills",
+      "https://prompts.one-time-use.com/prompts/existing/quality/refactor-tests"
+    ],
+    "topicTags": [
+      "testing",
+      "skills",
+      "refactoring",
+      "ai-tests"
+    ],
+    "worthFollowUp": "high",
+    "hasMedia": "video"
+  },
+  {
+    "uid": "X-433",
+    "platform": "Twitter",
+    "category": "AI & LLM",
+    "subcategory": "Adaptive UI model",
+    "title": "A tiny on-device model reads user mood from cursor movement",
+    "author": "Jakub Antalik",
+    "date": "2026-11-24",
+    "url": "https://x.com/Jakubantalik/status/2125273238414721460",
+    "engagement": "203 replies · 291 reposts · 4,946 likes · 4,282 bookmarks · 248.5K views",
+    "essence": "Jakub Antalik built a small on-device model for React that reads user emotion from cursor movement, speed and clicks. It detects confusion, frustration and when a user is lost, and he suggests it for generative or adaptive UI. The beta is free at libraries.dev/mood-recognition. In the thread he says it trains on real user sessions, a test flow that tracked behavior, and simulated data. It does not detect happiness yet, and neutral is the default. Lost-state detection counts visited pages, interactions per page and going back. He says he needs more data. The top reply jokes that jittery mouse movement and spam clicks would confuse it. The post has 4.9K likes and 4.3K bookmarks.",
+    "summary": "A concrete example of behavior signals driving adaptive UI. Limits: small training data and no happy state yet.",
+    "productLinks": [
+      "https://libraries.dev/mood-recognition"
+    ],
+    "topicTags": [
+      "on-device-ai",
+      "adaptive-ui",
+      "react",
+      "user-behavior"
+    ],
+    "worthFollowUp": "medium",
+    "hasMedia": "video"
+  },
+  {
+    "uid": "X-434",
+    "platform": "Twitter",
+    "category": "AI & LLM",
+    "subcategory": "Agent traces",
+    "title": "Save agent traces to Hugging Face, then fine-tune smaller models on them",
+    "author": "Niels Rogge",
+    "date": "2026-11-23",
+    "url": "https://x.com/NielsRogge/status/2124925928606445693",
+    "engagement": "1 reply · 2 reposts · 21 likes · 34 bookmarks · 1,867 views",
+    "essence": "Niels Rogge links the Hugging Face guide on agent traces. His advice: if you run agent work with frontier models, save the traces to Hugging Face. Later you can fine-tune smaller and cheaper open models on them. He names Qwen3.5 4B, Qwen 3.8 and Inkling-2 Mini. He says this saves a lot of money and runs fast, and a tutorial is coming. One reply asks about the missing reasoning traces from closed frontier models. The capture has no answer.",
+    "summary": "A cheap route from frontier-model agent logs to a smaller model. The missing reasoning traces are the open question.",
+    "productLinks": [
+      "https://huggingface.co/docs/hub/en/agent-traces"
+    ],
+    "topicTags": [
+      "agent-traces",
+      "fine-tuning",
+      "distillation",
+      "huggingface"
+    ],
+    "worthFollowUp": "high",
+    "hasMedia": ""
+  },
+  {
+    "uid": "X-435",
+    "platform": "Twitter",
+    "category": "AI & LLM",
+    "subcategory": "Research skill",
+    "title": "weaponized-curiosity: an open-source research skill for Codex and Claude Code",
+    "author": "Ayush Codes",
+    "date": "2026-11-23",
+    "url": "https://x.com/PariharCodes/status/2124987196709245394",
+    "engagement": "10 replies · 28 reposts · 670 likes · 1,027 bookmarks · 24.1K views",
+    "essence": "Ayush Codes turned a research method into an open-source skill for Codex and Claude Code. The post quotes Archie Sengupta, who describes the method: have a strong model run a very large number of web searches, then think from first principles using research findings, failures, tech blogs and articles from a recent window. The repo is ayushrajsinghparihar/weaponized-curiosity, and a listing is on innernet.live. He asks people to star it, fork it and open issues. Replies are short praise. One reader plans to extend it with their own tool suite.",
+    "summary": "A packaged deep-research prompt as a skill. Check the repo before you trust the method.",
+    "productLinks": [
+      "https://github.com/ayushrajsinghparihar/weaponized-curiosity",
+      "https://innernet.live/skills/ayushrajsinghparihar-weaponized-curiosity"
+    ],
+    "topicTags": [
+      "research",
+      "skills",
+      "codex",
+      "claude-code"
+    ],
+    "worthFollowUp": "medium",
+    "hasMedia": "image"
+  },
+  {
+    "uid": "X-436",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "CI speed skills",
+    "title": "Joggernaut: CI-speed skills built from OpenAI, Linear and Shopify fixes",
+    "author": "Matt Gapp",
+    "date": "2026-11-23",
+    "url": "https://x.com/mattgapp/status/2124976587666063711",
+    "engagement": "11 replies · 18 reposts · 328 likes · 522 bookmarks · 24K views",
+    "essence": "Matt Gapp introduces Joggernaut, a set of skills that find the root causes of slow CI. It is based on learnings from teams at OpenAI, Linear, Shopify and others. His claimed results: OpenAI median CI from about 10 to 4.5 minutes, Linear about 87K runner-minutes a month saved, Shopify Ruby LSP from about 30 to 20 minutes with the same 18,329 tests, Sidelab from 68 to 15 minutes. At Boardy, PR caches had missed all year. Install in Claude Code with /plugin marketplace add usejog/joggernaut, then /plugin install jog@joggernaut, then /jog:ci-diagnose. For Codex, run npx skills add usejog/joggernaut -g -y -a codex. It is MIT licensed with no telemetry, and you do not need the Jog product. One reply asks for support beyond GitHub Actions.",
+    "summary": "A ready skill pack for the CI-under-2-minutes trend. The numbers are the team's own claims.",
+    "productLinks": [
+      "https://github.com/usejog/joggernaut"
+    ],
+    "topicTags": [
+      "ci",
+      "skills",
+      "github-actions",
+      "performance"
+    ],
+    "worthFollowUp": "high",
+    "hasMedia": "video"
+  },
+  {
+    "uid": "X-437",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "Claude Code skills",
+    "title": "/summarize-pr: a skill that turns a PR into a story of code and decisions",
+    "author": "Pablo Caballero",
+    "date": "2026-11-22",
+    "url": "https://x.com/pabcrab/status/2124615831900369326",
+    "engagement": "29 replies · 19 reposts · 1,080 likes · 1,844 bookmarks · 98K views",
+    "essence": "Pablo Caballero says he reviews PRs 5x faster with /summarize-pr, a skill in the MeLlamoPablo/skills repo. His idea: only about 20% of the code is important and 80% is mechanical, and AI reviewers check that the 80% follows the 20%. The skill makes a page that mixes the code with the reason for each change, and it lists implicit decisions with their own UI. The PR description stays human-written, and the skill removes AI slop from it. He also uses it to write walkthroughs of his own PRs and sends colleagues the summary. He plans to auto-run it when he is tagged on a PR. He says Opus 5.5 was the turning point, but humans still own high-level decisions. Replies doubt it. One says to let AI summarize and skip the code. He answers that he wants to read the key code with the boring parts removed. The skill is opinionated about what counts as important.",
+    "summary": "A review workflow that focuses on the 20% of code that matters. Tune what counts as important for your project.",
+    "productLinks": [
+      "https://github.com/MeLlamoPablo/skills"
+    ],
+    "topicTags": [
+      "code-review",
+      "skills",
+      "pull-requests",
+      "opus"
+    ],
+    "worthFollowUp": "medium",
+    "hasMedia": "video"
+  },
+  {
+    "uid": "X-438",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "Design skills",
+    "title": "stageshow and limora: two design skills for coding agents",
+    "author": "Adrien Ninet",
+    "date": "2026-11-22",
+    "url": "https://x.com/adrien_ninet/status/2124549512375279784",
+    "engagement": "6 replies · 7 reposts · 353 likes · 874 bookmarks · 24.4K views",
+    "essence": "Adrien Ninet answers a quoted question from luna, who wants a design skill that makes a site look less like AI. He names two: stageshow (benji.org/stageshow) and the limora AI skills community (limora.ai), where you can also make your own. In his follow-up he says prompt quality sets design quality. You describe a UI element in your own words and get its real name, its API reference and a prompt for your coding agent. He calls this very useful when you recreate a design. Two readers agree: one backs stageshow, and one used a limora skill in a project.",
+    "summary": "Two skills to try when agent-built UI looks generic. The proof is only reader praise.",
+    "productLinks": [
+      "https://benji.org/stageshow",
+      "https://limora.ai/app/community?tab=skills"
+    ],
+    "topicTags": [
+      "design-skills",
+      "frontend",
+      "ui",
+      "agents"
+    ],
+    "worthFollowUp": "medium",
+    "hasMedia": ""
+  },
+  {
+    "uid": "X-439",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "Self-hosted CI",
+    "title": "Strict: run GitHub Actions for free on spare Macs and Linux boxes",
+    "author": "Jeremy Cai",
+    "date": "2026-11-22",
+    "url": "https://x.com/jjeremycai/status/2124550422392086974",
+    "engagement": "18 replies · 5 reposts · 173 likes · 217 bookmarks · 12.4K views",
+    "essence": "Jeremy Cai kept hitting limits on GitHub Actions and Blacksmith, so he built Strict (strict.ai). It runs CI on spare Macs and Linux machines, locally or over Tailscale, and he claims it is 2-3x faster than cloud runners. It costs $0 a minute. The site says no account is needed, and lists self-healing disk cleanup, auto load-balancing and Tailnet build caching. You manage the fleet from a Mac app, a CLI and a web console. He points to Whatnot's move to self-hosted M1 runners as earlier work. He says Tailscale is optional in the app and helps with device discovery, remote install and privacy. One reader asks why Tailscale is needed, because GitHub runners only make outbound connections. The capture has no answer.",
+    "summary": "Free CI on hardware you already own. Check the Tailscale need and the minimum machine specs first.",
+    "productLinks": [
+      "https://strict.ai/",
+      "https://medium.com/whatnot-engineering/migrating-ios-github-actions-to-self-hosted-m1-macs-runners-f75fbb00ab1b"
+    ],
+    "topicTags": [
+      "ci",
+      "github-actions",
+      "self-hosted",
+      "tailscale"
+    ],
+    "worthFollowUp": "medium",
+    "hasMedia": "image"
+  },
+  {
+    "uid": "X-440",
+    "platform": "Twitter",
+    "category": "AI & LLM",
+    "subcategory": "Agent repo hardening",
+    "title": "pstack prompt: make a repo remove its repeat mistakes (13 PRs, 470 comments deleted)",
+    "author": "Ray Fernando",
+    "date": "2026-11-21",
+    "url": "https://x.com/RayFernando1337/status/2124222002076733869",
+    "engagement": "40 replies · 105 reposts · 2,054 likes · 5,558 bookmarks · 325.7K views",
+    "essence": "Ray Fernando shares a prompt that asks an agent to use /poteto-mode on a repo. The agent finds the mistakes that agents and humans repeat (git log, past bug fixes, review comments), then makes each one impossible. The order: architecture first, then types, then a lint whose error names the fix, then a test. It deletes comments that restate code, writes formal models that replay past bugs and runs them in CI, and replaces tests that pin implementation with those models plus real DB and e2e tests. It keeps every test that guards security or legal behavior, and ships one verifiable PR per step. He ran it on an e-signature app with Opus 5.5 in Claude Code. Result: 13 PRs. About 470 comments deleted and a CI lint added. 4 TLA+ models found 3 bugs in deletion-notice emails and 2 database deadlocks, all reproduced on real Postgres before the fixes. 10,189 lines of implementation-pinning unit tests deleted (47 files), 36 tests kept. Strict TypeScript flags, a type ratchet, distinct ID and token types, and DB rows parsed on load. Model cost was about $6.60, covered by a Claude Max plan. A reader uses a shorter variant of the prompt. Another asks what to do on a greenfield repo with no past mistakes.",
+    "summary": "One of the most complete prompts for hardening a repo with an agent. It needs a repo with history to mine.",
+    "productLinks": [],
+    "topicTags": [
+      "agents",
+      "tla-plus",
+      "testing",
+      "typescript",
+      "code-hygiene"
+    ],
+    "worthFollowUp": "high",
+    "hasMedia": ""
+  },
+  {
+    "uid": "X-441",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "Self-hosted tools",
+    "title": "Taar: a self-hosted, encrypted OTP relay for phones and family devices",
+    "author": "Nikhil Bafna",
+    "date": "2026-11-22",
+    "url": "https://x.com/zodvik/status/2124439810333122754",
+    "engagement": "76 replies · 58 reposts · 1,078 likes · 929 bookmarks · 83.6K views",
+    "essence": "Nikhil Bafna built Taar (तार), an open-source private line for the home. An OTP that lands on his phone shows up at once on his laptop and his wife's phone, with no WhatsApp forwarding. It is encrypted and self-hosted, and the relay runs on a Cloudflare Worker on the free tier. It works on Android only. He says iOS does not allow SMS reads and Shortcuts might help. Auto-share is optional, and he compares the risk to a password manager. Replies raise risk: access to one device exposes the OTPs, it may defeat the purpose of an OTP, and one reader says to host it inside a tailnet. Another reader asks for a per-device key and a revoke button. One reader says Airtel switched off SMS for NRIs without an international plan, so this helps them. He guesses that Android API 37 limits some SMS reads to messages with an app hash.",
+    "summary": "A neat N=1 tool, but it moves a second factor onto more devices. Read the replies on risk before use.",
+    "productLinks": [
+      "https://github.com/midplane/taar"
+    ],
+    "topicTags": [
+      "otp",
+      "self-hosted",
+      "cloudflare-workers",
+      "android"
+    ],
+    "worthFollowUp": "medium",
+    "hasMedia": "image"
+  },
+  {
+    "uid": "X-442",
+    "platform": "Twitter",
+    "category": "AI & LLM",
+    "subcategory": "Video LoRA",
+    "title": "A 0.62GB LoRA for the MiniMax H3 video model, trained on adult videos",
+    "author": "Alizeh",
+    "date": "2026-11-20",
+    "url": "https://x.com/alizeh_ai/status/2123720008639578585",
+    "engagement": "72 replies · 225 reposts · 3,183 likes · 8,047 bookmarks · 342.4K views",
+    "essence": "Alizeh posts a free LoRA for the MiniMax H3 video model on Hugging Face (Sentinel7/h3). It is described as v3 'extreme realism' in one 0.62GB safetensors file, trained on almost 1,000 adult videos, with 91K downloads and no trigger word. Creator settings: euler, 18 steps, shift 12. It also works with a turbo LoRA, at your turbo step count. Replies add three points. It is only a LoRA, so you need the base H3 model, and the base sets the VRAM need. A .safetensors file holds weights and cannot run code, but .ckpt and .pt files can. One reader doubts the claims. Another asks who gave consent for the training data, and the author agrees that file size does not answer that.",
+    "summary": "Adult-content model with open consent questions. Low priority. Keep only if you track video LoRAs.",
+    "productLinks": [
+      "https://huggingface.co/Sentinel7/h3"
+    ],
+    "topicTags": [
+      "video-generation",
+      "lora",
+      "huggingface",
+      "adult-content"
+    ],
+    "worthFollowUp": "low",
+    "hasMedia": ""
+  },
+  {
+    "uid": "X-443",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "Mock API services",
+    "title": "emulate adds local OpenAI and Anthropic API mocks for deterministic agent tests",
+    "author": "Lahfir",
+    "date": "2026-11-20",
+    "url": "https://x.com/lahfir/status/2123598225756262681",
+    "engagement": "20 replies · 36 reposts · 318 likes · 311 bookmarks · 58.4K views",
+    "essence": "Lahfir adds local OpenAI and Anthropic APIs to emulate. They give scripted, deterministic replies, so you can test AI apps with no API keys, no network and no token spend. Run npx emulate --service ai. It covers OpenAI Responses and Chat and Anthropic Messages, and you swap one baseURL while you keep the real SDK. It supports tool loops, structured output and reasoning. You can inject 429s with retry-after, set stream timing, and force stalls and cuts. Seeded variants repeat the same order every run. In tests use createEmulator(), assert on calls at /_ai/calls and change rules at /_ai/rules. It runs next to 14 other local services such as GitHub, Slack, Stripe and AWS. Multi-modality is next. For Codex or Claude, point the base URL in the config at the emulate server. One reader says 429s are easy to script, but the model's changing answers are not.",
+    "summary": "A way to test retry, stream and tool-loop code without spending tokens. It does not fix non-deterministic real models.",
+    "productLinks": [
+      "https://github.com/vercel-labs/emulate",
+      "https://emulate.dev/docs/ai"
+    ],
+    "topicTags": [
+      "testing",
+      "mock-api",
+      "openai",
+      "anthropic",
+      "ci"
+    ],
+    "worthFollowUp": "high",
+    "hasMedia": "video"
+  },
+  {
+    "uid": "X-444",
+    "platform": "Twitter",
+    "category": "Startups, Product & Marketing",
+    "subcategory": "SEO playbook",
+    "title": "SEO playbook: 5 clicks a month to 21,540 in 16 days, with caveats",
+    "author": "Noel Ceta",
+    "date": "2026-11-19",
+    "url": "https://x.com/noelcetaSEO/status/2123545906733584682",
+    "engagement": "69 replies · 40 reposts · 697 likes · 1,828 bookmarks · 85.3K views",
+    "essence": "Noel Ceta says a site went from 5 clicks a month to 21,540 in the first 16 days of November, while, he says, his feed is full of sites down 80% or more after Google's core update (started 10 Nov). His steps: (1) make the exact search phrase the H1 and title, turn H2s into questions and add an FAQ (10 to 17 questions). (2) Fix the basics first: one H1 per page (one page had 11), real links in menus, prerendered pages (response time from 0.5s+ to 0.1-0.2s). (3) Remove duplicate pages (22 product pages shared one title) and redirect the old URLs. (4) One page per comparison search, all built to one spec (136 pages, 8 sections, 6 FAQs, 8+ internal links). (5) Build hubs (16 hubs, 1,500-1,900 words each) and related-post blocks. (6) Publish data nobody else has, such as live averages from your own users. (7) Translate pages that already work, with hreflang and a review (15 languages, about 1,800 strings fixed). (8) Keep a human blog on a schedule. His rule: let AI type, not decide. He says no backlinks were built. Replies doubt the result: the climb took 16 months before the spike, and the site is not named, so nobody can check the chart.",
+    "summary": "Sound on-page SEO basics, but the headline number is unverified. Use the steps, not the claim.",
+    "productLinks": [],
+    "topicTags": [
+      "seo",
+      "google-core-update",
+      "programmatic-seo",
+      "playbook"
+    ],
+    "worthFollowUp": "medium",
+    "hasMedia": "image"
+  },
+  {
+    "uid": "X-445",
+    "platform": "Twitter",
+    "category": "AI & LLM",
+    "subcategory": "Agent personal config",
+    "title": "HUMANS.md: a file that tells your coding agents how to work with you",
+    "author": "Neeraj",
+    "date": "2026-11-19",
+    "url": "https://x.com/neerajjj6785/status/2123337246430650809",
+    "engagement": "45 replies · 68 reposts · 1,079 likes · 1,926 bookmarks · 192.9K views",
+    "essence": "Neeraj calls humansmd.dev the work of a genius (1,079 likes, 193K views). The site proposes HUMANS.md: one file at ~/.humans/HUMANS.md that your coding agents read at session start. It says how to write to you, when to ask you to decide and when to interrupt you. AGENTS.md is for your codebase and HUMANS.md is for you. The spec is a draft (0.3). Plugins exist for Claude Code, Codex, Devin and OpenCode, and a CLI loads your profile. Replies are mostly generic praise, and one reader asks why the comments are all bots.",
+    "summary": "A per-person counterpart to AGENTS.md. Early draft, but easy to try.",
+    "productLinks": [
+      "https://humansmd.dev/"
+    ],
+    "topicTags": [
+      "humans-md",
+      "agents-md",
+      "agent-config",
+      "claude-code"
+    ],
+    "worthFollowUp": "high",
+    "hasMedia": ""
+  },
+  {
+    "uid": "X-446",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "Agent coordination",
+    "title": "Vercel Board: a message board and task primitive for teams of agents",
+    "author": "Vercel",
+    "date": "2026-11-19",
+    "url": "https://x.com/vercel/status/2123234769236619673",
+    "engagement": "225 replies · 381 reposts · 2,744 likes · 3,533 bookmarks · 531.8K views",
+    "essence": "Vercel launches Board (18 Nov 2026), an experimental message board for people and agents. Vercel built it for its own security agents and for the v0 software factory, which now merges over 50% of its PRs. Board is a headless message store. It has channels and threads, and labels track status and PRs. Agents use a CLI or JS SDK: they claim a ready task, post updates, renew a lease and complete the task. Add the skill with npx skills add vercel/board, and open a viewer with npx @vercel/board inspect. Watchers wake agents on new replies or label changes, and agents can schedule follow-ups, such as a CI check after a PR. Grants control access for humans and agents, and Slack sync works both ways. It works with Claude Code, Codex, Pi, OpenCode, eve, fx, Mastra and LangChain. Replies are mostly jokes.",
+    "summary": "A shared task and thread store for agent fleets. Experimental, but it shows where agent coordination is going.",
+    "productLinks": [
+      "https://vercel.com/blog/introducing-vercel-board"
+    ],
+    "topicTags": [
+      "vercel",
+      "agents",
+      "multi-agent",
+      "coordination"
+    ],
+    "worthFollowUp": "high",
+    "hasMedia": "video"
+  },
+  {
+    "uid": "X-447",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "Property-based testing",
+    "title": "Bombadil 0.8.0: up to 4x faster browser fuzzing and compressed traces",
+    "author": "Oskar Wickström",
+    "date": "2026-11-19",
+    "url": "https://x.com/owickstrom/status/2123389608549343504",
+    "engagement": "8 replies · 31 reposts · 322 likes · 397 bookmarks · 45.8K views",
+    "essence": "Oskar Wickström announces Bombadil 0.8.0 from Antithesis. Browser fuzzing is up to 4x faster and TUI fuzzing 2x faster. Binary compressed traces save disk space and I/O. He advises you to try it with chrome-headless-shell and links the doc page. One reply says 2026 is the year of property testing. The thread has little other discussion of Bombadil.",
+    "summary": "A speed-focused release of a property-based browser tester. Docs describe the headless setup.",
+    "productLinks": [
+      "https://github.com/antithesishq/bombadil/releases/tag/v0.8.0",
+      "https://antithesishq.github.io/bombadil/browser/4.4-running-with-chrome-headless-shell.html"
+    ],
+    "topicTags": [
+      "fuzzing",
+      "property-testing",
+      "browser-testing",
+      "antithesis"
+    ],
+    "worthFollowUp": "medium",
+    "hasMedia": ""
+  },
+  {
+    "uid": "X-448",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "Agent mobile testing",
+    "title": "Autosana Mobile Sandboxes: cloud iOS and Android devices for coding agents (beta)",
+    "author": "Autosana (YC S25)",
+    "date": "2026-11-18",
+    "url": "https://x.com/autosanaai/status/2123142626748903436",
+    "engagement": "12 replies · 15 reposts · 111 likes · 116 bookmarks · 43.8K views",
+    "essence": "Autosana (YC S25) launches Mobile Sandboxes in beta. A coding agent gets direct access to cloud iOS and Android devices to build, test and iterate on features, with no local infra. You can start free at autosana.ai, and the docs are at docs.autosana.ai/sandboxes. Replies are short congratulations with no technical discussion.",
+    "summary": "Device access for agents in the cloud. Beta, so check device limits and pricing.",
+    "productLinks": [
+      "https://autosana.ai/",
+      "https://docs.autosana.ai/sandboxes"
+    ],
+    "topicTags": [
+      "mobile-testing",
+      "agents",
+      "ios",
+      "android",
+      "sandbox"
+    ],
+    "worthFollowUp": "medium",
+    "hasMedia": "video"
+  },
+  {
+    "uid": "X-449",
+    "platform": "Twitter",
+    "category": "AI & LLM",
+    "subcategory": "Agent code hygiene",
+    "title": "No-comment-pilled: have an agent find comments that excuse hacks, then fix the code",
+    "author": "BowTiedDevil",
+    "date": "2026-11-18",
+    "url": "https://x.com/BowTiedDevil/status/2123202078239777244",
+    "engagement": "20 replies · 11 reposts · 565 likes · 807 bookmarks · 39.9K views",
+    "essence": "BowTiedDevil says poteto convinced him to stop writing comments. He asked an agent to read all code comments and find the ones that describe workarounds, second sources of truth, hacks, ignored errors, hand-rolled retries and reasons to skip documented standards. The agent added 46 cleanups to the backlog. His prompt, for a Rust core: find comments that describe a workaround or special case, fix the code in place, then remove the comment that justified the old design. He says: fix the code first, then delete the comment. His backlog tool is ergo (sandover/ergo). Replies add cautions. One developer ran a similar prompt on a monorepo of about 335K lines. Deleting comments that excuse code was fine, but deleting comments that explain a workaround made the agent break the code in 13 of 15 runs, against 2 of 15 with the comment kept. He suggests you split the findings into those two piles. Another reader says to keep comments that track library issues and browser-specific support. Another ran it one subsystem at a time.",
+    "summary": "A strong prompt, with a tested warning: do not delete comments that explain a real workaround.",
+    "productLinks": [
+      "https://github.com/sandover/ergo"
+    ],
+    "topicTags": [
+      "code-comments",
+      "agents",
+      "refactoring",
+      "code-hygiene"
+    ],
+    "worthFollowUp": "high",
+    "hasMedia": "image"
+  },
+  {
+    "uid": "X-450",
+    "platform": "Twitter",
+    "category": "Dev Tools & Productivity",
+    "subcategory": "Scraping API",
+    "title": "Firecrawl Local: a Rust scraper that runs on your machine for agents",
+    "author": "Firecrawl",
+    "date": "2026-11-18",
+    "url": "https://x.com/firecrawl/status/2123096169630912637",
+    "engagement": "245 replies · 523 reposts · 5,617 likes · 8,477 bookmarks · 868.8K views",
+    "essence": "Firecrawl rebuilt its repo so agents can scrape locally. Claims: a Rust scrape primitive 37x faster than self-hosted Firecrawl, 230x less memory (11 MB idle), 100% open source, and compatible with its MCP server and SDKs. A quickstart is at docs.firecrawl.dev/quickstarts/firecrawl-local. The post has 868K views and 5.6K likes. One reply praises Firecrawl for lowering its own moat. Other reader questions stay open in the capture: what 'local' means, whether it is free, and whether it renders JavaScript pages.",
+    "summary": "Local, low-memory scraping for agents from a known vendor. Test JavaScript rendering before you rely on it.",
+    "productLinks": [
+      "https://github.com/firecrawl/firecrawl",
+      "https://docs.firecrawl.dev/quickstarts/firecrawl-local"
+    ],
+    "topicTags": [
+      "scraping",
+      "rust",
+      "mcp",
+      "open-source",
+      "agents"
+    ],
+    "worthFollowUp": "high",
+    "hasMedia": "video"
+  },
+  {
+    "uid": "X-451",
+    "platform": "Twitter",
+    "category": "AI & LLM",
+    "subcategory": "MCP",
+    "title": "Self-improving MCP: add a submit_feedback tool and let Claude open the PR",
+    "author": "Matt Ambrogi",
+    "date": "2026-11-17",
+    "url": "https://x.com/matt_ambrogi/status/2122722680784687600",
+    "engagement": "86 replies · 84 reposts · 1,295 likes · 1,903 bookmarks · 174.9K views",
+    "essence": "Matt Ambrogi explains how to make an MCP server improve itself. Add a submit_feedback tool to your MCP. The agent that uses your MCP writes a detailed issue with a proposed fix. Send it to an internal Slack channel. Tag Claude in that channel to open a PR when you agree with the change. He says the reports are usually plain, such as 'you can't filter X by Y', and you can choose to ignore them. The tool is only a function that you expose. Replies add experience: Upstash does the same, another team added a goal field so they can see what the user tried to do, and one MCP has received over 75 feedback requests. Others warn about risk. A feedback gate still opens a door for prompt injection into a coding agent with prod access. Another reader says models work around issues and do not report them.",
+    "summary": "A cheap feedback loop for MCP servers. Add a goal field, and gate the PR step against prompt injection.",
+    "productLinks": [],
+    "topicTags": [
+      "mcp",
+      "feedback-loop",
+      "slack",
+      "claude",
+      "agents"
+    ],
+    "worthFollowUp": "high",
+    "hasMedia": "image"
   }
 ]

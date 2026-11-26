@@ -916,28 +916,6 @@
   "worthFollowUp": "medium"
  },
  {
-  "uid": "X-041",
-  "platform": "Twitter",
-  "category": "Startups, Product & Marketing",
-  "subcategory": "feedback-for-credits campaign",
-  "title": "$100 in Revid credits for a screen-recorded signup + feedback",
-  "author": "Tibo",
-  "date": "2026-08-25",
-  "url": "https://x.com/tibo_maker/status/2092228005749768678",
-  "engagement": "44 replies · 12 reposts · 113 likes · 31.5K views · 66 bookmarks",
-  "essence": "Tibo (Revid) offers $100 worth of credits for: start a screen recording, sign up on Revid, create your first video, go through the subscription flow, DM him the video - bonus if you think out loud - next 3 days only. His thread confirms credits were added and that they let you generate AI videos. Replies describe the product working smoothly (it grasped the web app's core idea and even captured screenshots), ask what credits actually do, and joke someone is improving his tool; 113 likes on 31K views.",
-  "summary": "A transparent record-your-onboarding growth tactic with real pricing (100 dollars of credits) for early feedback.",
-  "productLinks": [],
-  "hasMedia": "image",
-  "topicTags": [
-   "growth-tactics",
-   "user-feedback",
-   "ai-video",
-   "saas-launch"
-  ],
-  "worthFollowUp": "medium"
- },
- {
   "uid": "X-042",
   "platform": "Twitter",
   "category": "Startups, Product & Marketing",
@@ -2389,28 +2367,6 @@
    "side-income"
   ],
   "worthFollowUp": "low"
- },
- {
-  "uid": "X-110",
-  "platform": "Twitter",
-  "category": "Jobs, Careers & Compensation",
-  "subcategory": "open source bounties",
-  "title": "33 open source bounties worth $119,200 available now",
-  "author": "Sahil Lavingia",
-  "date": "2025-11-05",
-  "url": "https://x.com/shl/status/1986116432506053082",
-  "engagement": "44 replies · 41 reposts · 1.1K likes · 208.3K views · 1.2K bookmarks",
-  "essence": "Sahil Lavingia posts that 33 open source bounties are available totaling $119,200. His thread pitches bounties to software companies as a way to scale engineering without hiring (email him; it should be built as part of Flexile, which will offer bounties itself) and advises starting with smaller ones. Replies ask for bounty-management tooling, worry about claiming a task then losing the review, ask how the price per bounty is decided, and one says they may have to try them for the money; 1,066 likes and 1,243 bookmarks.",
-  "summary": "Concrete dollar figures for OSS bounty work - a live market for paid open-source contributions.",
-  "productLinks": [],
-  "hasMedia": "",
-  "topicTags": [
-   "open-source",
-   "bounties",
-   "freelance",
-   "side-income"
-  ],
-  "worthFollowUp": "high"
  },
  {
   "uid": "X-111",

@@ -10,7 +10,7 @@ url: "https://www.reddit.com/r/quantindia/comments/1ubmeep/built_a_random_c_proj
 engagement: "↑319 · 56 comments"
 followup: "medium"
 media: "none"
-links: ["https://github.com/Shivfun99/Pulse-Order"]
+links: []
 tags: ["hft", "low-latency", "cpp", "portfolio-project", "dpdk", "quant-careers", "reddit", "quant-trading"]
 ---
 
@@ -25,10 +25,6 @@ OP, a Codeforces-grinding student with no finance background, built Pulse-Order 
 ## 💡 Takeaway
 
 Evidence that a public, well-built low-latency trading repo can pull recruiter and engineer attention at top HFT shops — and the exact stack that got it noticed.
-
-## 🔗 Try it
-
-- [https://github.com/Shivfun99/Pulse-Order](https://github.com/Shivfun99/Pulse-Order)
 
 **Filed in:** [[Quant & Trading]] · [[Home]]
 

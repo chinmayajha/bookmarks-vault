@@ -10,7 +10,7 @@ url: "https://x.com/jcinjpn/status/2116194202967224345"
 engagement: "12 replies · 8 reposts · 131 likes · 204 bookmarks · 14.6K views"
 followup: "high"
 media: "none"
-important: "mcp-ffmpeg 1.0.5 and below allow shell injection through file names. No fixed release exists (npm latest is 1.0.5, checked 18 Nov 2026). Check your MCP config and sandbox the agent."
+important: "mcp-ffmpeg 1.0.5 and below allow shell injection through file names. No fixed release exists (npm latest is 1.0.5, checked 26 Nov 2026). Check your MCP config and sandbox the agent."
 links: ["https://theinjection.dev/items/vulncheck-mcp-tool-parameter-command-injection/"]
 tags: ["mcp", "security", "command-injection", "ffmpeg", "sandbox", "twitter", "dev-tools-productivity"]
 ---
@@ -19,7 +19,7 @@ tags: ["mcp", "security", "command-injection", "ffmpeg", "sandbox", "twitter", "
 
 **[Open original ↗](https://x.com/jcinjpn/status/2116194202967224345)** · `Jon（ジョン）` · 2026-10-30 · 12 replies · 8 reposts · 131 likes · 204 bookmarks · 14.6K views · ⭐ high follow-up
 
-> ⏰ **Important:** mcp-ffmpeg 1.0.5 and below allow shell injection through file names. No fixed release exists (npm latest is 1.0.5, checked 18 Nov 2026). Check your MCP config and sandbox the agent.
+> ⏰ **Important:** mcp-ffmpeg 1.0.5 and below allow shell injection through file names. No fixed release exists (npm latest is 1.0.5, checked 26 Nov 2026). Check your MCP config and sandbox the agent.
 
 ## 💬 Essence
 

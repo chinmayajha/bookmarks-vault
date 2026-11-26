@@ -780,23 +780,22 @@
   "uid": "X-161",
   "platform": "Twitter",
   "category": "AI & LLM",
-  "subcategory": "free vision API",
-  "title": "Moondream: free OpenAI-compatible vision API in 3 lines",
+  "subcategory": "vision API",
+  "title": "Moondream: small vision model; the free API in this post has ended",
   "author": "moondream",
   "date": "2025-01-15",
   "url": "https://x.com/moondreamai/status/1879610041499787618",
   "engagement": "55 replies · 1.5K likes · 197.9K views",
-  "essence": "OP pitches swapping OpenAI for Moondream's free vision API in just three lines of code. The self-thread links the OpenAI-compatibility docs and a free API key signup, then discloses the catch - 5,000 queries per day unless you contact them - and notes the 2025.1.9 release improved text OCR and understanding. The single captured reply asks exactly that: what's the catch with such a small model, how many free tokens, and how good is OCR.",
-  "summary": "Free drop-in vision/OCR API with an honest rate-limit disclosure - worth a tryout.",
+  "essence": "The Jan 2025 post pitched swapping OpenAI for Moondream's free vision API in three lines of code. The thread gave the OpenAI-compatibility docs and a free API key, and said the catch was 5,000 queries per day. It also noted that the 2025.1.9 release improved text OCR and understanding. Update, 26 Nov 2026: console.moondream.ai no longer resolves and the free daily API is gone. moondream.ai now lists the open models and the Photon engine as free to run. The hosted Cloud costs per token (Moondream 3.1 9B A2B real-time: $0.30 per 1M input and $1.00 per 1M output tokens). The free plan includes $5 of usage credits each month.",
+  "summary": "Moondream is still worth a try for small vision tasks, but budget for per-token pricing and not a free daily quota.",
   "productLinks": [
-   "https://console.moondream.ai"
+   "https://moondream.ai/pricing"
   ],
   "hasMedia": "",
   "topicTags": [
    "vision api",
    "ocr",
    "openai compatible",
-   "free tier",
    "moondream"
   ],
   "worthFollowUp": "high"
@@ -1266,9 +1265,7 @@
   "engagement": "14 replies · 333 likes · 28.3K views",
   "essence": "OP releases his 12+ hour course 'Practical Introduction to Natural Language Processing' free on YouTube as the fundamentals path into the LLM, RAG and AI-agent era, covering dataset creation, text-to-vector methods (TF-IDF, Word2Vec, sentence transformers), visualisation, LLM APIs like OpenAI, deploying NLP APIs and LLM SaaS basics. The self-thread links the playlist, notes prior buyers of his learnnlp.academy platform get a new LLM module, and he advises building on Next.js in 2024 with Copilot and Cursor doing the heavy lifting rather than Bubble. Replies call it a goldmine and debate whether Bubble is still worth recommending.",
   "summary": "Free full NLP curriculum - useful onboarding for LLM-era fundamentals.",
-  "productLinks": [
-   "https://learnnlp.academy"
-  ],
+  "productLinks": [],
   "hasMedia": "",
   "topicTags": [
    "nlp",
@@ -1935,30 +1932,6 @@
    "productivity"
   ],
   "worthFollowUp": "high"
- },
- {
-  "uid": "X-209",
-  "platform": "Twitter",
-  "category": "Jobs, Careers & Compensation",
-  "subcategory": "one-click startup applications",
-  "title": "One-click apply to 20L+ startup jobs with Juno",
-  "author": "Archie Sengupta",
-  "date": "2022-10-08",
-  "url": "https://x.com/archiexzzz/status/1578694625229168641",
-  "engagement": "11 replies · 134 likes",
-  "essence": "OP says you can enter email, GitHub, LinkedIn and a resume on a site and, in 30 seconds, have applied to startups paying a minimum of Rs20L in cash, linking junohq.com with a referral code and following up 'applied myself'. Replies are mostly save-bot tags plus one complaint asking why there are no developer-advocate roles.",
-  "summary": "Quick pointer to a one-form startup-job aggregator, with referral link.",
-  "productLinks": [
-   "https://junohq.com/?r=archs"
-  ],
-  "hasMedia": "",
-  "topicTags": [
-   "job applications",
-   "startups",
-   "junohq",
-   "referral"
-  ],
-  "worthFollowUp": "medium"
  },
  {
   "uid": "X-210",

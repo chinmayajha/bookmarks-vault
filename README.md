@@ -13,12 +13,12 @@
 
 | | |
 |---|---|
-| **Total entries** | **467** |
-| **By source** | 🐦 X/Twitter **423** · 💬 Reddit **30** · 💼 LinkedIn **14** |
+| **Total entries** | **484** |
+| **By source** | 🐦 X/Twitter **441** · 💬 Reddit **30** · 💼 LinkedIn **13** |
 | **Categories** | 14 |
-| **With product/tryout links** | 227 |
-| **Video entries** | 86 |
-| **⭐ High follow-up** | 198 (medium 200 · low 69) |
+| **With product/tryout links** | 241 |
+| **Video entries** | 95 |
+| **⭐ High follow-up** | 207 (medium 207 · low 70) |
 
 Each entry below shows the **essence of the whole discussion** (main post + thread + top replies)
 and a one-line **takeaway** — you shouldn't need to click through to get the point.
@@ -27,20 +27,20 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 - **[InstaBox prices agent cloud around a free 4 vCPU machine and cheap unit economics](https://x.com/hanghuang_/status/2112299795549143378)** — InstaBox early users keep five free machines until 1 Dec 2026. Check your machines before then. · ⏳ by 2026-12-01
 - **[Publish a CLI to npm for automatic listings on Libraries.io and more (DR 75)](https://x.com/tarasshyn/status/2112893275933741142)** — Ahrefs rolls out its DR4 rating model on 1 Dec 2026. DR numbers quoted in these SaaS visibility hacks can change, so check your own DR before then. · ⏳ by 2026-12-01
-- **[mcp-ffmpeg and other MCP servers pass file names into a shell: no patch yet](https://x.com/jcinjpn/status/2116194202967224345)** — mcp-ffmpeg 1.0.5 and below allow shell injection through file names. No fixed release exists (npm latest is 1.0.5, checked 18 Nov 2026). Check your MCP config and sandbox the agent.
+- **[mcp-ffmpeg and other MCP servers pass file names into a shell: no patch yet](https://x.com/jcinjpn/status/2116194202967224345)** — mcp-ffmpeg 1.0.5 and below allow shell injection through file names. No fixed release exists (npm latest is 1.0.5, checked 26 Nov 2026). Check your MCP config and sandbox the agent.
 - **[Railway's October 21 breach, explained in a video: how the attacker got to customer variables](https://x.com/amrnth0/status/2120849097871810973)** — Railway breach (20 to 21 Oct 2026): up to 1.85% of workspaces had environment variables decrypted. If you use Railway, rotate secrets and report AI token charges that you did not make. Checked 18 Nov 2026.
-- **[Browser Use 1.0.0: the library drops 90% of its code and runs a Python REPL on raw CDP](https://x.com/browser_use/status/2119983662162952278)** — Browser Use 1.0.0 deletes about 90% of the old library, and the team says it will ship fast. Pin the exact version with == before you upgrade.
+- **[Browser Use 1.0.0: the library drops 90% of its code and runs a Python REPL on raw CDP](https://x.com/browser_use/status/2119983662162952278)** — Browser Use 1.0.0 deletes about 90% of the old library, and the team ships fast. Version 1.0.8 came out on 22 Nov 2026. Pin the exact version with == before you upgrade.
 
 ## 🗂 Category index
 
 | Category | Items | What's inside |
 |---|---:|---|
-| [AI & LLM](#ai-llm) | 112 | LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM … |
-| [Dev Tools & Productivity](#dev-tools-productivity) | 105 | IDEs, developer utilities, open-source libraries, CLI tools, workflows, editor/tool … |
+| [AI & LLM](#ai-llm) | 121 | LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM … |
+| [Dev Tools & Productivity](#dev-tools-productivity) | 116 | IDEs, developer utilities, open-source libraries, CLI tools, workflows, editor/tool … |
 | [Programming & CS Learning](#programming-cs-learning) | 53 | Courses, playlists, books, tutorials, CS concepts (DB, OS, systems, ML theory), learning … |
 | [Interviews, OA & DSA](#interviews-oa-dsa) | 32 | Online assessments, interview experiences/questions, DSA prep, system design/HLD prep … |
-| [Jobs, Careers & Compensation](#jobs-careers-compensation) | 29 | Hiring posts, referral/job openings, offer comparisons, salary/CTC data, resume/ATS tips … |
-| [Quant & Trading](#quant-trading) | 23 | Quant trading/research roles, HFT firms, trading competitions, market structure, quant … |
+| [Jobs, Careers & Compensation](#jobs-careers-compensation) | 27 | Hiring posts, referral/job openings, offer comparisons, salary/CTC data, resume/ATS tips … |
+| [Quant & Trading](#quant-trading) | 22 | Quant trading/research roles, HFT firms, trading competitions, market structure, quant … |
 | [Personal Finance & Money](#personal-finance-money) | 10 | Credit cards, loans, insurance, investing, stocks/gold/crypto money matters, taxes … |
 | [Startups, Product & Marketing](#startups-product-marketing) | 60 | Founder content, growth/marketing tactics, product building, YC/startup programs, side … |
 | [Health, Fitness & Wellness](#health-fitness-wellness) | 12 | Exercise, sleep, supplements, nutrition, mental health, recovery, physical training |
@@ -95,9 +95,9 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 <a id="ai-llm"></a>
 
-## AI & LLM (112)
+## AI & LLM (121)
 
-<details><summary><b>Show 112 entries</b> — LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM workflows and tips</summary>
+<details><summary><b>Show 121 entries</b> — LLM models, prompts, AI agents, AI coding assistants, AI benchmarks, AI research, LLM workflows and tips</summary>
 
 - **[Sahaj won't push a PR without /codebase-design and /zero-tech-debt skills](https://x.com/iamsahaj_xyz/status/2105746013709631735)**  
   `Sahaj` · `2026-10-01` · `3 replies · 6 reposts · 250 likes · 28.8K views · 460 …`
@@ -230,12 +230,12 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Essence:** Archie Sengupta's X article 'distributed_gpu_training' argues that training foundational models at scale is not simply about having better algorithms - it's about orchestrating silicon, memory hierarchies and network topologies when your model has hundreds of ... (excerpt truncated in the record). No reply discussion is captured; 879 likes, 1,092 bookmarks and 104K views.
   - **Takeaway:** A heavily-saved framing of distributed training as an orchestration problem - a good primer pointer.
   - 🏷 distributed-training, gpu, ml-systems, deep-learning
-- **[Moondream: free OpenAI-compatible vision API in 3 lines](https://x.com/moondreamai/status/1879610041499787618)** ⭐  
+- **[Moondream: small vision model; the free API in this post has ended](https://x.com/moondreamai/status/1879610041499787618)** ⭐  
   `moondream` · `2025-01-15` · `55 replies · 1.5K likes · 197.9K views`
-  - **Essence:** OP pitches swapping OpenAI for Moondream's free vision API in just three lines of code. The self-thread links the OpenAI-compatibility docs and a free API key signup, then discloses the catch - 5,000 queries per day unless you contact them - and notes the 2025.1.9 release improved text OCR and understanding. The single captured reply asks exactly that: what's the catch with such a small model, how many free tokens, and how good is OCR.
-  - **Takeaway:** Free drop-in vision/OCR API with an honest rate-limit disclosure - worth a tryout.
-  - **Try it:** [console.moondream.ai](https://console.moondream.ai)
-  - 🏷 vision api, ocr, openai compatible, free tier, moondream
+  - **Essence:** The Jan 2025 post pitched swapping OpenAI for Moondream's free vision API in three lines of code. The thread gave the OpenAI-compatibility docs and a free API key, and said the catch was 5,000 queries per day. It also noted that the 2025.1.9 release improved text OCR and understanding. Update, 26 Nov 2026: console.moondream.ai no longer resolves and the free daily API is gone. moondream.ai now lists the open models and the Photon engine as free to run. The hosted Cloud costs per token (Moondream 3.1 9B A2B real-time: $0.30 per 1M input and $1.00 per 1M output tokens). The free plan includes $5 of usage credits each month.
+  - **Takeaway:** Moondream is still worth a try for small vision tasks, but budget for per-token pricing and not a free daily quota.
+  - **Try it:** [moondream.ai/pricing](https://moondream.ai/pricing)
+  - 🏷 vision api, ocr, openai compatible, moondream
 - **[Students: put 50%+ of your learning time into Nvidia Cosmos](https://x.com/normie_gautam/status/1877222339496014137)**  
   `Gautam` · `2025-01-09` · `4 replies · 143 likes · 4.5K views`
   - **Essence:** OP's advice for students pursuing AI who want to make serious money within a year: take Nvidia Cosmos, read the open repo, understand its applications, and invest more than 50% of learning time in it for a few months because the ROI will be high. Replies include a first-semester student worried he can't even write C yet and will miss the wave, a one-word agreement, and someone asking whether the advice is legit.
@@ -703,6 +703,58 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Takeaway:** The workflow matters more than the stickman style. Faceless channels depend on platform policy for AI content.
   - **Try it:** [github.com/kaomei/stickman-video-director](https://github.com/kaomei/stickman-video-director)
   - 🏷 youtube, stickman, video-generation, workflow, faceless
+- **[gorg.ai/code clones a launch video in 54 minutes from one prompt](https://x.com/coderpr0grammer/status/2125386567414165779)** 🎬  
+  `Daniel Martinez` · `2026-11-25` · `17 replies · 16 reposts · 574 likes · 1,025 bookmarks · …`
+  - **Essence:** Daniel Martinez posts a video that his tool, gorg.ai/code, made as a clone of a launch video (the quoted post, by Gohar, says launch videos are now non-negotiable). He says it took 54 minutes and one prompt. In replies he says the tool finds the assets by itself, and that it is free with a Claude plan. A hosted version is usage-based and works with iMessage. One reply says cloning is easy and original work with taste is hard. He answers that a few examples plus your brand give good output. One reader notes the site shows no pricing.
+  - **Takeaway:** Prompt-driven launch-video clones work, but readers doubt the taste and originality. Pricing is unclear.
+  - **Try it:** [gorg.ai/code](https://gorg.ai/code)
+  - 🏷 video-generation, launch-video, claude-code, clone
+- **[A tiny on-device model reads user mood from cursor movement](https://x.com/Jakubantalik/status/2125273238414721460)** 🎬  
+  `Jakub Antalik` · `2026-11-24` · `203 replies · 291 reposts · 4,946 likes · 4,282 bookmarks · …`
+  - **Essence:** Jakub Antalik built a small on-device model for React that reads user emotion from cursor movement, speed and clicks. It detects confusion, frustration and when a user is lost, and he suggests it for generative or adaptive UI. The beta is free at libraries.dev/mood-recognition. In the thread he says it trains on real user sessions, a test flow that tracked behavior, and simulated data. It does not detect happiness yet, and neutral is the default. Lost-state detection counts visited pages, interactions per page and going back. He says he needs more data. The top reply jokes that jittery mouse movement and spam clicks would confuse it. The post has 4.9K likes and 4.3K bookmarks.
+  - **Takeaway:** A concrete example of behavior signals driving adaptive UI. Limits: small training data and no happy state yet.
+  - **Try it:** [libraries.dev/mood-recognition](https://libraries.dev/mood-recognition)
+  - 🏷 on-device-ai, adaptive-ui, react, user-behavior
+- **[Save agent traces to Hugging Face, then fine-tune smaller models on them](https://x.com/NielsRogge/status/2124925928606445693)** ⭐  
+  `Niels Rogge` · `2026-11-23` · `1 reply · 2 reposts · 21 likes · 34 bookmarks · 1,867 views`
+  - **Essence:** Niels Rogge links the Hugging Face guide on agent traces. His advice: if you run agent work with frontier models, save the traces to Hugging Face. Later you can fine-tune smaller and cheaper open models on them. He names Qwen3.5 4B, Qwen 3.8 and Inkling-2 Mini. He says this saves a lot of money and runs fast, and a tutorial is coming. One reply asks about the missing reasoning traces from closed frontier models. The capture has no answer.
+  - **Takeaway:** A cheap route from frontier-model agent logs to a smaller model. The missing reasoning traces are the open question.
+  - **Try it:** [huggingface.co/docs/hub/en/agent-traces](https://huggingface.co/docs/hub/en/agent-traces)
+  - 🏷 agent-traces, fine-tuning, distillation, huggingface
+- **[weaponized-curiosity: an open-source research skill for Codex and Claude Code](https://x.com/PariharCodes/status/2124987196709245394)**  
+  `Ayush Codes` · `2026-11-23` · `10 replies · 28 reposts · 670 likes · 1,027 bookmarks · …`
+  - **Essence:** Ayush Codes turned a research method into an open-source skill for Codex and Claude Code. The post quotes Archie Sengupta, who describes the method: have a strong model run a very large number of web searches, then think from first principles using research findings, failures, tech blogs and articles from a recent window. The repo is ayushrajsinghparihar/weaponized-curiosity, and a listing is on innernet.live. He asks people to star it, fork it and open issues. Replies are short praise. One reader plans to extend it with their own tool suite.
+  - **Takeaway:** A packaged deep-research prompt as a skill. Check the repo before you trust the method.
+  - **Try it:** [github.com/ayushrajsinghparihar/weaponized-curiosity](https://github.com/ayushrajsinghparihar/weaponized-curiosity) · [innernet.live/skills/ayushrajsinghparihar-weaponized …](https://innernet.live/skills/ayushrajsinghparihar-weaponized-curiosity)
+  - 🏷 research, skills, codex, claude-code
+- **[pstack prompt: make a repo remove its repeat mistakes (13 PRs, 470 comments deleted)](https://x.com/RayFernando1337/status/2124222002076733869)** ⭐  
+  `Ray Fernando` · `2026-11-21` · `40 replies · 105 reposts · 2,054 likes · 5,558 bookmarks · …`
+  - **Essence:** Ray Fernando shares a prompt that asks an agent to use /poteto-mode on a repo. The agent finds the mistakes that agents and humans repeat (git log, past bug fixes, review comments), then makes each one impossible. The order: architecture first, then types, then a lint whose error names the fix, then a test. It deletes comments that restate code, writes formal models that replay past bugs and runs them in CI, and replaces tests that pin implementation with those models plus real DB and e2e tests. It keeps every test that guards security or legal behavior, and ships one verifiable PR per step. He ran it on an e-signature app with Opus 5.5 in Claude Code. Result: 13 PRs. About 470 comments …
+  - **Takeaway:** One of the most complete prompts for hardening a repo with an agent. It needs a repo with history to mine.
+  - 🏷 agents, tla-plus, testing, typescript, code-hygiene
+- **[A 0.62GB LoRA for the MiniMax H3 video model, trained on adult videos](https://x.com/alizeh_ai/status/2123720008639578585)**  
+  `Alizeh` · `2026-11-20` · `72 replies · 225 reposts · 3,183 likes · 8,047 bookmarks · …`
+  - **Essence:** Alizeh posts a free LoRA for the MiniMax H3 video model on Hugging Face (Sentinel7/h3). It is described as v3 'extreme realism' in one 0.62GB safetensors file, trained on almost 1,000 adult videos, with 91K downloads and no trigger word. Creator settings: euler, 18 steps, shift 12. It also works with a turbo LoRA, at your turbo step count. Replies add three points. It is only a LoRA, so you need the base H3 model, and the base sets the VRAM need. A .safetensors file holds weights and cannot run code, but .ckpt and .pt files can. One reader doubts the claims. Another asks who gave consent for the training data, and the author agrees that file size does not answer that.
+  - **Takeaway:** Adult-content model with open consent questions. Low priority. Keep only if you track video LoRAs.
+  - **Try it:** [huggingface.co/Sentinel7/h3](https://huggingface.co/Sentinel7/h3)
+  - 🏷 video-generation, lora, huggingface, adult-content
+- **[HUMANS.md: a file that tells your coding agents how to work with you](https://x.com/neerajjj6785/status/2123337246430650809)** ⭐  
+  `Neeraj` · `2026-11-19` · `45 replies · 68 reposts · 1,079 likes · 1,926 bookmarks · …`
+  - **Essence:** Neeraj calls humansmd.dev the work of a genius (1,079 likes, 193K views). The site proposes HUMANS.md: one file at ~/.humans/HUMANS.md that your coding agents read at session start. It says how to write to you, when to ask you to decide and when to interrupt you. AGENTS.md is for your codebase and HUMANS.md is for you. The spec is a draft (0.3). Plugins exist for Claude Code, Codex, Devin and OpenCode, and a CLI loads your profile. Replies are mostly generic praise, and one reader asks why the comments are all bots.
+  - **Takeaway:** A per-person counterpart to AGENTS.md. Early draft, but easy to try.
+  - **Try it:** [humansmd.dev](https://humansmd.dev/)
+  - 🏷 humans-md, agents-md, agent-config, claude-code
+- **[No-comment-pilled: have an agent find comments that excuse hacks, then fix the code](https://x.com/BowTiedDevil/status/2123202078239777244)** ⭐  
+  `BowTiedDevil` · `2026-11-18` · `20 replies · 11 reposts · 565 likes · 807 bookmarks · 39.9K …`
+  - **Essence:** BowTiedDevil says poteto convinced him to stop writing comments. He asked an agent to read all code comments and find the ones that describe workarounds, second sources of truth, hacks, ignored errors, hand-rolled retries and reasons to skip documented standards. The agent added 46 cleanups to the backlog. His prompt, for a Rust core: find comments that describe a workaround or special case, fix the code in place, then remove the comment that justified the old design. He says: fix the code first, then delete the comment. His backlog tool is ergo (sandover/ergo). Replies add cautions. One developer ran a similar prompt on a monorepo of about 335K lines. Deleting comments that excuse code was …
+  - **Takeaway:** A strong prompt, with a tested warning: do not delete comments that explain a real workaround.
+  - **Try it:** [github.com/sandover/ergo](https://github.com/sandover/ergo)
+  - 🏷 code-comments, agents, refactoring, code-hygiene
+- **[Self-improving MCP: add a submit_feedback tool and let Claude open the PR](https://x.com/matt_ambrogi/status/2122722680784687600)** ⭐  
+  `Matt Ambrogi` · `2026-11-17` · `86 replies · 84 reposts · 1,295 likes · 1,903 bookmarks · …`
+  - **Essence:** Matt Ambrogi explains how to make an MCP server improve itself. Add a submit_feedback tool to your MCP. The agent that uses your MCP writes a detailed issue with a proposed fix. Send it to an internal Slack channel. Tag Claude in that channel to open a PR when you agree with the change. He says the reports are usually plain, such as 'you can't filter X by Y', and you can choose to ignore them. The tool is only a function that you expose. Replies add experience: Upstash does the same, another team added a goal field so they can see what the user tried to do, and one MCP has received over 75 feedback requests. Others warn about risk. A feedback gate still opens a door for prompt injection …
+  - **Takeaway:** A cheap feedback loop for MCP servers. Add a goal field, and gate the PR step against prompt injection.
+  - 🏷 mcp, feedback-loop, slack, claude, agents
 - **[Cut Claude Code / Cursor token usage ~60% with a small CLI tool](https://www.linkedin.com/feed/update/urn:li:activity:7462777658507051010)**  
   `Daniel Engelhardt` · `2026-05-20` · `♥94 · 37 comments · 5 reposts`
   - **Essence:** Daniel shares that a small open-source CLI (rtk), which rewrites bash commands into compact output before execution, cut his team's Claude Code and Cursor token usage by roughly 60%, and describes his own counter-analysis: a local audit skill over his session logs found about 28% of spend was cuttable, but rtk's output compression covered under 1% of his bill because almost all the money sat in bloated context — sessions crossing 200k into the 2x pricing tier, plus skills and plugins riding along on every request that were never called. He concludes output compression and context hygiene are different layers that stack, and thanks whoever pointed him at the tool. The comment thread is a …
@@ -726,9 +778,9 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 <a id="dev-tools-productivity"></a>
 
-## Dev Tools & Productivity (105)
+## Dev Tools & Productivity (116)
 
-<details><summary><b>Show 105 entries</b> — IDEs, developer utilities, open-source libraries, CLI tools, workflows, editor/tool releases, dev infrastructure</summary>
+<details><summary><b>Show 116 entries</b> — IDEs, developer utilities, open-source libraries, CLI tools, workflows, editor/tool releases, dev infrastructure</summary>
 
 - **[pnpm asks your coding agent to fix its 629 open issues](https://x.com/pnpmjs/status/2103438679478010198)**  
   `pnpm` · `2026-09-25` · `33 replies · 60 reposts · 567 likes · 61.7K views · 266 …`
@@ -1311,6 +1363,72 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Takeaway:** A fun low-power project. Limit the battery charge or remove the battery before you run it 24/7.
   - **Try it:** [blog.denv.it/posts/pmos-k3s-cluster](https://blog.denv.it/posts/pmos-k3s-cluster/)
   - 🏷 homelab, android, nextcloud, pi-hole, magisk
+- **[/refactor-tests: a skill that rewrites AI-made tests to a written standard](https://x.com/zkMarek/status/2125520741709795671)** 🎬 ⭐  
+  `zkMarek` · `2026-11-25` · `11 replies · 17 reposts · 451 likes · 752 bookmarks · 31.8K …`
+  - **Essence:** zkMarek shares /refactor-tests, a skill in his skills repo. He says AI-written tests got so bad that some people say to delete them, and friends report suites that run for an hour. On one of his projects, three runs of the skill made the tests 10x faster. A big repo can take hours, so he suggests running it on every PR. He says the first run gave the biggest change. The skill uses test templates to avoid weak tests. When it finds a bug, it writes an ignored test and asks if you want to fix it. He made the demo video with Claude from one prompt. The same prompt is also on prompts.one-time-use.com.
+  - **Takeaway:** Same problem as the AGENTS.md testing rules: tests that restate the code. Expect slow runs on big repos.
+  - **Try it:** [github.com/marekkirejczyk/skills](https://github.com/marekkirejczyk/skills) · [prompts.one-time-use.com/prompts/existing/quality/re …](https://prompts.one-time-use.com/prompts/existing/quality/refactor-tests)
+  - 🏷 testing, skills, refactoring, ai-tests
+- **[Joggernaut: CI-speed skills built from OpenAI, Linear and Shopify fixes](https://x.com/mattgapp/status/2124976587666063711)** 🎬 ⭐  
+  `Matt Gapp` · `2026-11-23` · `11 replies · 18 reposts · 328 likes · 522 bookmarks · 24K …`
+  - **Essence:** Matt Gapp introduces Joggernaut, a set of skills that find the root causes of slow CI. It is based on learnings from teams at OpenAI, Linear, Shopify and others. His claimed results: OpenAI median CI from about 10 to 4.5 minutes, Linear about 87K runner-minutes a month saved, Shopify Ruby LSP from about 30 to 20 minutes with the same 18,329 tests, Sidelab from 68 to 15 minutes. At Boardy, PR caches had missed all year. Install in Claude Code with /plugin marketplace add usejog/joggernaut, then /plugin install jog@joggernaut, then /jog:ci-diagnose. For Codex, run npx skills add usejog/joggernaut -g -y -a codex. It is MIT licensed with no telemetry, and you do not need the Jog product. One …
+  - **Takeaway:** A ready skill pack for the CI-under-2-minutes trend. The numbers are the team's own claims.
+  - **Try it:** [github.com/usejog/joggernaut](https://github.com/usejog/joggernaut)
+  - 🏷 ci, skills, github-actions, performance
+- **[/summarize-pr: a skill that turns a PR into a story of code and decisions](https://x.com/pabcrab/status/2124615831900369326)** 🎬  
+  `Pablo Caballero` · `2026-11-22` · `29 replies · 19 reposts · 1,080 likes · 1,844 bookmarks · …`
+  - **Essence:** Pablo Caballero says he reviews PRs 5x faster with /summarize-pr, a skill in the MeLlamoPablo/skills repo. His idea: only about 20% of the code is important and 80% is mechanical, and AI reviewers check that the 80% follows the 20%. The skill makes a page that mixes the code with the reason for each change, and it lists implicit decisions with their own UI. The PR description stays human-written, and the skill removes AI slop from it. He also uses it to write walkthroughs of his own PRs and sends colleagues the summary. He plans to auto-run it when he is tagged on a PR. He says Opus 5.5 was the turning point, but humans still own high-level decisions. Replies doubt it. One says to let AI …
+  - **Takeaway:** A review workflow that focuses on the 20% of code that matters. Tune what counts as important for your project.
+  - **Try it:** [github.com/MeLlamoPablo/skills](https://github.com/MeLlamoPablo/skills)
+  - 🏷 code-review, skills, pull-requests, opus
+- **[stageshow and limora: two design skills for coding agents](https://x.com/adrien_ninet/status/2124549512375279784)**  
+  `Adrien Ninet` · `2026-11-22` · `6 replies · 7 reposts · 353 likes · 874 bookmarks · 24.4K …`
+  - **Essence:** Adrien Ninet answers a quoted question from luna, who wants a design skill that makes a site look less like AI. He names two: stageshow (benji.org/stageshow) and the limora AI skills community (limora.ai), where you can also make your own. In his follow-up he says prompt quality sets design quality. You describe a UI element in your own words and get its real name, its API reference and a prompt for your coding agent. He calls this very useful when you recreate a design. Two readers agree: one backs stageshow, and one used a limora skill in a project.
+  - **Takeaway:** Two skills to try when agent-built UI looks generic. The proof is only reader praise.
+  - **Try it:** [benji.org/stageshow](https://benji.org/stageshow) · [limora.ai/app/community?tab=skills](https://limora.ai/app/community?tab=skills)
+  - 🏷 design-skills, frontend, ui, agents
+- **[Strict: run GitHub Actions for free on spare Macs and Linux boxes](https://x.com/jjeremycai/status/2124550422392086974)**  
+  `Jeremy Cai` · `2026-11-22` · `18 replies · 5 reposts · 173 likes · 217 bookmarks · 12.4K …`
+  - **Essence:** Jeremy Cai kept hitting limits on GitHub Actions and Blacksmith, so he built Strict (strict.ai). It runs CI on spare Macs and Linux machines, locally or over Tailscale, and he claims it is 2-3x faster than cloud runners. It costs $0 a minute. The site says no account is needed, and lists self-healing disk cleanup, auto load-balancing and Tailnet build caching. You manage the fleet from a Mac app, a CLI and a web console. He points to Whatnot's move to self-hosted M1 runners as earlier work. He says Tailscale is optional in the app and helps with device discovery, remote install and privacy. One reader asks why Tailscale is needed, because GitHub runners only make outbound connections. The …
+  - **Takeaway:** Free CI on hardware you already own. Check the Tailscale need and the minimum machine specs first.
+  - **Try it:** [strict.ai](https://strict.ai/) · [medium.com/whatnot-engineering/migrating-ios-github …](https://medium.com/whatnot-engineering/migrating-ios-github-actions-to-self-hosted-m1-macs-runners-f75fbb00ab1b)
+  - 🏷 ci, github-actions, self-hosted, tailscale
+- **[Taar: a self-hosted, encrypted OTP relay for phones and family devices](https://x.com/zodvik/status/2124439810333122754)**  
+  `Nikhil Bafna` · `2026-11-22` · `76 replies · 58 reposts · 1,078 likes · 929 bookmarks · …`
+  - **Essence:** Nikhil Bafna built Taar (तार), an open-source private line for the home. An OTP that lands on his phone shows up at once on his laptop and his wife's phone, with no WhatsApp forwarding. It is encrypted and self-hosted, and the relay runs on a Cloudflare Worker on the free tier. It works on Android only. He says iOS does not allow SMS reads and Shortcuts might help. Auto-share is optional, and he compares the risk to a password manager. Replies raise risk: access to one device exposes the OTPs, it may defeat the purpose of an OTP, and one reader says to host it inside a tailnet. Another reader asks for a per-device key and a revoke button. One reader says Airtel switched off SMS for NRIs …
+  - **Takeaway:** A neat N=1 tool, but it moves a second factor onto more devices. Read the replies on risk before use.
+  - **Try it:** [github.com/midplane/taar](https://github.com/midplane/taar)
+  - 🏷 otp, self-hosted, cloudflare-workers, android
+- **[emulate adds local OpenAI and Anthropic API mocks for deterministic agent tests](https://x.com/lahfir/status/2123598225756262681)** 🎬 ⭐  
+  `Lahfir` · `2026-11-20` · `20 replies · 36 reposts · 318 likes · 311 bookmarks · 58.4K …`
+  - **Essence:** Lahfir adds local OpenAI and Anthropic APIs to emulate. They give scripted, deterministic replies, so you can test AI apps with no API keys, no network and no token spend. Run npx emulate --service ai. It covers OpenAI Responses and Chat and Anthropic Messages, and you swap one baseURL while you keep the real SDK. It supports tool loops, structured output and reasoning. You can inject 429s with retry-after, set stream timing, and force stalls and cuts. Seeded variants repeat the same order every run. In tests use createEmulator(), assert on calls at /_ai/calls and change rules at /_ai/rules. It runs next to 14 other local services such as GitHub, Slack, Stripe and AWS. Multi-modality is …
+  - **Takeaway:** A way to test retry, stream and tool-loop code without spending tokens. It does not fix non-deterministic real models.
+  - **Try it:** [github.com/vercel-labs/emulate](https://github.com/vercel-labs/emulate) · [emulate.dev/docs/ai](https://emulate.dev/docs/ai)
+  - 🏷 testing, mock-api, openai, anthropic, ci
+- **[Vercel Board: a message board and task primitive for teams of agents](https://x.com/vercel/status/2123234769236619673)** 🎬 ⭐  
+  `Vercel` · `2026-11-19` · `225 replies · 381 reposts · 2,744 likes · 3,533 bookmarks · …`
+  - **Essence:** Vercel launches Board (18 Nov 2026), an experimental message board for people and agents. Vercel built it for its own security agents and for the v0 software factory, which now merges over 50% of its PRs. Board is a headless message store. It has channels and threads, and labels track status and PRs. Agents use a CLI or JS SDK: they claim a ready task, post updates, renew a lease and complete the task. Add the skill with npx skills add vercel/board, and open a viewer with npx @vercel/board inspect. Watchers wake agents on new replies or label changes, and agents can schedule follow-ups, such as a CI check after a PR. Grants control access for humans and agents, and Slack sync works both …
+  - **Takeaway:** A shared task and thread store for agent fleets. Experimental, but it shows where agent coordination is going.
+  - **Try it:** [vercel.com/blog/introducing-vercel-board](https://vercel.com/blog/introducing-vercel-board)
+  - 🏷 vercel, agents, multi-agent, coordination
+- **[Bombadil 0.8.0: up to 4x faster browser fuzzing and compressed traces](https://x.com/owickstrom/status/2123389608549343504)**  
+  `Oskar Wickström` · `2026-11-19` · `8 replies · 31 reposts · 322 likes · 397 bookmarks · 45.8K …`
+  - **Essence:** Oskar Wickström announces Bombadil 0.8.0 from Antithesis. Browser fuzzing is up to 4x faster and TUI fuzzing 2x faster. Binary compressed traces save disk space and I/O. He advises you to try it with chrome-headless-shell and links the doc page. One reply says 2026 is the year of property testing. The thread has little other discussion of Bombadil.
+  - **Takeaway:** A speed-focused release of a property-based browser tester. Docs describe the headless setup.
+  - **Try it:** [github.com/antithesishq/bombadil/releases/tag/v0.8.0](https://github.com/antithesishq/bombadil/releases/tag/v0.8.0) · [antithesishq.github.io/bombadil/browser/4.4-running …](https://antithesishq.github.io/bombadil/browser/4.4-running-with-chrome-headless-shell.html)
+  - 🏷 fuzzing, property-testing, browser-testing, antithesis
+- **[Autosana Mobile Sandboxes: cloud iOS and Android devices for coding agents (beta)](https://x.com/autosanaai/status/2123142626748903436)** 🎬  
+  `Autosana (YC S25)` · `2026-11-18` · `12 replies · 15 reposts · 111 likes · 116 bookmarks · 43.8K …`
+  - **Essence:** Autosana (YC S25) launches Mobile Sandboxes in beta. A coding agent gets direct access to cloud iOS and Android devices to build, test and iterate on features, with no local infra. You can start free at autosana.ai, and the docs are at docs.autosana.ai/sandboxes. Replies are short congratulations with no technical discussion.
+  - **Takeaway:** Device access for agents in the cloud. Beta, so check device limits and pricing.
+  - **Try it:** [autosana.ai](https://autosana.ai/) · [docs.autosana.ai/sandboxes](https://docs.autosana.ai/sandboxes)
+  - 🏷 mobile-testing, agents, ios, android, sandbox
+- **[Firecrawl Local: a Rust scraper that runs on your machine for agents](https://x.com/firecrawl/status/2123096169630912637)** 🎬 ⭐  
+  `Firecrawl` · `2026-11-18` · `245 replies · 523 reposts · 5,617 likes · 8,477 bookmarks · …`
+  - **Essence:** Firecrawl rebuilt its repo so agents can scrape locally. Claims: a Rust scrape primitive 37x faster than self-hosted Firecrawl, 230x less memory (11 MB idle), 100% open source, and compatible with its MCP server and SDKs. A quickstart is at docs.firecrawl.dev/quickstarts/firecrawl-local. The post has 868K views and 5.6K likes. One reply praises Firecrawl for lowering its own moat. Other reader questions stay open in the capture: what 'local' means, whether it is free, and whether it renders JavaScript pages.
+  - **Takeaway:** Local, low-memory scraping for agents from a known vendor. Test JavaScript rendering before you rely on it.
+  - **Try it:** [github.com/firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) · [docs.firecrawl.dev/quickstarts/firecrawl-local](https://docs.firecrawl.dev/quickstarts/firecrawl-local)
+  - 🏷 scraping, rust, mcp, open-source, agents
 - **[I built Kal, an interpreted programming language from scratch!](https://www.reddit.com/r/IndiaTech/comments/1uf263n/i_built_kal_an_interpreted_programming_language/)**  
   `u/KILLinefficiency` · `2026-06-25` · `↑21 · 13 comments`
   - **Essence:** OP releases v0.1.0 of Kal, a lightweight interpreted language written from scratch in C++ with no third-party dependencies, GPL v3, mixing paradigms and embeddable into C++, Python and JavaScript; he ships a website and GitHub repo and asks for stars. Replies ask whether it was a team effort — OP says he's a solo dev and that this first release took four years with no libraries and no AI — plus what Kal is good for today (CLI tools and embedding) and what the long-term goal is (still being defined). Commenters are impressed by the codebase at a glance, with one reminiscing about dreaming of writing his own OS, and the thread's tone is supportive rather than critical.
@@ -1541,7 +1659,6 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   `Ramsri Goutham Golla` · `2024-05-17` · `14 replies · 333 likes · 28.3K views`
   - **Essence:** OP releases his 12+ hour course 'Practical Introduction to Natural Language Processing' free on YouTube as the fundamentals path into the LLM, RAG and AI-agent era, covering dataset creation, text-to-vector methods (TF-IDF, Word2Vec, sentence transformers), visualisation, LLM APIs like OpenAI, deploying NLP APIs and LLM SaaS basics. The self-thread links the playlist, notes prior buyers of his learnnlp.academy platform get a new LLM module, and he advises building on Next.js in 2024 with Copilot and Cursor doing the heavy lifting rather than Bubble. Replies call it a goldmine and debate whether Bubble is still worth recommending.
   - **Takeaway:** Free full NLP curriculum - useful onboarding for LLM-era fundamentals.
-  - **Try it:** [learnnlp.academy](https://learnnlp.academy)
   - 🏷 nlp, course, word2vec, llm fundamentals, free education
 - **[The colleague-approved Rust starter stack](https://x.com/codingmickey/status/1791173266087760246)**  
   `Kartik Jolapara` · `2024-05-16` · `8 replies · 262 likes · 25.4K views`
@@ -1818,9 +1935,9 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 <a id="jobs-careers-compensation"></a>
 
-## Jobs, Careers & Compensation (29)
+## Jobs, Careers & Compensation (27)
 
-<details><summary><b>Show 29 entries</b> — Hiring posts, referral/job openings, offer comparisons, salary/CTC data, resume/ATS tips, off-campus application advice</summary>
+<details><summary><b>Show 27 entries</b> — Hiring posts, referral/job openings, offer comparisons, salary/CTC data, resume/ATS tips, off-campus application advice</summary>
 
 - **[Blind's 1.5k-comment 'worst company you've worked for' thread](https://x.com/jain_harshit/status/2095520438353109190)**  
   `Harshit Jain` · `2026-09-03` · `5 replies · 2 reposts · 101 likes · 13.7K views · 24 …`
@@ -1858,11 +1975,6 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Takeaway:** A step-by-step side-career path (Gulf tutoring market) with named platforms and pay ranges.
   - **Try it:** [bayt.com](https://bayt.com)
   - 🏷 tutoring, careers, gulf-jobs, side-income
-- **[33 open source bounties worth $119,200 available now](https://x.com/shl/status/1986116432506053082)** ⭐  
-  `Sahil Lavingia` · `2025-11-05` · `44 replies · 41 reposts · 1.1K likes · 208.3K views · 1.2K …`
-  - **Essence:** Sahil Lavingia posts that 33 open source bounties are available totaling $119,200. His thread pitches bounties to software companies as a way to scale engineering without hiring (email him; it should be built as part of Flexile, which will offer bounties itself) and advises starting with smaller ones. Replies ask for bounty-management tooling, worry about claiming a task then losing the review, ask how the price per bounty is decided, and one says they may have to try them for the money; 1,066 likes and 1,243 bookmarks.
-  - **Takeaway:** Concrete dollar figures for OSS bounty work - a live market for paid open-source contributions.
-  - 🏷 open-source, bounties, freelance, side-income
 - **[Coinbase: 45+ LPA for 1yr experience, full interview breakdown](https://x.com/va_a14/status/1981819711529603278)**  
   `Vaibhav Agarwal` · `2025-10-24` · `17 replies · 52 reposts · 1.1K likes · 73.7K views · 714 …`
   - **Essence:** Vaibhav says Coinbase offers more than 45 LPA for engineers with 1+ years of experience, making it one of the highest-paying remote roles in India, and breaks down the SDE interview: a 90-minute CodeSignal OA with 4 medium DSA problems (3 of 4 usually advances), a short recruiter screen, then technical round 1 combining code mocking and DSA focused on clean modular extensible code, ... His thread debunks the myth that you work Diwali - he took a complete week off, as did teammates - and argues the salary goes far in India versus high-cost, high-tax Western locations. Replies call the salary life-changing but warn of personal sacrifices, counter that it's still peanuts relative to Western …
@@ -1901,12 +2013,6 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Takeaway:** Overlapping job-board list that adds Himalayas - handy for mapping remote-talent marketplaces.
   - **Try it:** [weworkremotely.com](https://weworkremotely.com) · [wellfound.com](https://wellfound.com) · [flexjobs.com](https://flexjobs.com) · [himalayas.app](https://himalayas.app)
   - 🏷 remote jobs, job boards, himalayas, hiring, freelancing
-- **[One-click apply to 20L+ startup jobs with Juno](https://x.com/archiexzzz/status/1578694625229168641)**  
-  `Archie Sengupta` · `2022-10-08` · `11 replies · 134 likes`
-  - **Essence:** OP says you can enter email, GitHub, LinkedIn and a resume on a site and, in 30 seconds, have applied to startups paying a minimum of Rs20L in cash, linking junohq.com with a referral code and following up 'applied myself'. Replies are mostly save-bot tags plus one complaint asking why there are no developer-advocate roles.
-  - **Takeaway:** Quick pointer to a one-form startup-job aggregator, with referral link.
-  - **Try it:** [junohq.com/?r=archs](https://junohq.com/?r=archs)
-  - 🏷 job applications, startups, junohq, referral
 - **[7 portfolio projects that will actually get you hired](https://x.com/sandeep_jain/status/1572925652042657792)**  
   `Sandeep Jain` · `2022-09-22` · `24 replies · 1.6K likes`
   - **Essence:** OP lists seven coding projects to add to a portfolio that will actually get you hired: a food delivery app, an e-commerce store prototype, a messaging app, a simple game, a chatbot, a dating app and a video chatting app. Replies confirm those project types are always in demand, plan to build them all in Flutter, and point out that each demonstrates authentication, state management, UX understanding and some security - which is exactly what interviewers look for.
@@ -1983,9 +2089,9 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
 
 <a id="quant-trading"></a>
 
-## Quant & Trading (23)
+## Quant & Trading (22)
 
-<details><summary><b>Show 23 entries</b> — Quant trading/research roles, HFT firms, trading competitions, market structure, quant interview prep, trading math</summary>
+<details><summary><b>Show 22 entries</b> — Quant trading/research roles, HFT firms, trading competitions, market structure, quant interview prep, trading math</summary>
 
 - **[Quant Memo: free quantitative-finance learning site enters beta](https://x.com/PriyanshuP1405/status/2091470216903692680)**  
   `Priyanshu Priyank` · `2026-08-23` · `10 replies · 10 reposts · 83 likes · 35.4K views · 95 …`
@@ -2075,7 +2181,6 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   `u/Federal_Tackle3053` · `2026-06-21` · `↑319 · 56 comments`
   - **Essence:** OP, a Codeforces-grinding student with no finance background, built Pulse-Order — a C++20 low-latency trading system sim with binary market-data packets, an L2 order book, matching logic, risk checks, DPDK packet processing and benchmarks — and says it drew responses from an IMC engineer, Jane Street recruiters who spotted his profile, and HFT folks starring the repo. Replies press for details (recruiters plus GitHub stars, essentially), ask him to DM his learning plan, and one person building a Python toy engine is told Python is too slow for this — use C++/C/asm. Sentiment is mostly admiration ('Mad respect, keep up the grind', suggestion to write a blog) with a skeptical minority calling …
   - **Takeaway:** Evidence that a public, well-built low-latency trading repo can pull recruiter and engineer attention at top HFT shops — and the exact stack that got it noticed.
-  - **Try it:** [github.com/Shivfun99/Pulse-Order](https://github.com/Shivfun99/Pulse-Order)
   - 🏷 hft, low-latency, cpp, portfolio-project, dpdk, quant-careers
 - **[Quant interviews are an enigma — 13 techniques to recognize the right approach](https://www.linkedin.com/feed/update/urn:li:activity:7466425000321884161)** ⭐  
   `Prateek Chandra J.` · `2026-05-30` · `♥291 · 2 comments · 9 reposts`
@@ -2099,12 +2204,6 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Essence:** The Quant Club at IIT Kharagpur releases the second edition of QuantBook, a 91-page compilation across five parts running from intuitive quant (behavioral finance) through applied models like portfolio optimization to mathematical and stochastic finance, deliberately going beyond standard explanations with clearer intuition and small extensions to usual implementations. The stated goal is making niche quant concepts accessible and sparking curiosity about the field. Replies are brief praise plus one external link drop, while 22 reposts and 330 reactions show the audience is mostly distributing the PDF itself.
   - **Takeaway:** A free, student-authored 91-page quant finance reader — a lighter on-ramp to stochastic/portfolio material than the standard textbook canon.
   - 🏷 quant-finance, ebook, portfolio-optimization, stochastic-finance, learning-resource
-- **[Premier HFT firm hiring Systems Architects and C++/FPGA engineers](https://www.linkedin.com/feed/update/urn:li:activity:7439987954749669376)**  
-  `Ishan Mishra` · `2026-03-18` · `♥54 · 1 comment · 4 reposts`
-  - **Essence:** Recruiter Ishan Mishra posts that Quanticle is partnering with a 'premier HFT firm' to expand its low-latency footprint and is hiring elite Systems Architects and C++/FPGA Engineers in Singapore, New York and India for core infrastructure — kernel bypass, custom network stacks, and optimization at the hardware/software interface — to build 'some of the fastest trading engines in the industry'. Candidates are invited to email him for a confidential discussion even if only passively curious, with the role deck attached. The single reply is a generic connect request and the post earns 4 reposts, i.e. low organic engagement but clear intent signal.
-  - **Takeaway:** A live senior HFT infrastructure role (kernel bypass, FPGA, custom networking) across Singapore, NY and India — a passive-candidate access point.
-  - **Try it:** [quanticle.dev](https://quanticle.dev)
-  - 🏷 hft, cpp, fpga, kernel-bypass, quant-jobs, recruiting
 - **[Gold-silver ratio study: when the ratio runs past +1σ, silver outperforms](https://www.linkedin.com/feed/update/urn:li:activity:7438809888224546816)**  
   `Sid Chandra` · `2026-03-15` · `♥11`
   - **Essence:** Sid shares a small quantitative study of the gold-silver ratio using daily futures data: long-run mean near 73 with a standard deviation around 14, current ratio around the 20th percentile of history, and the key findings that extreme deviations persist far longer than simple mean-reversion assumes, while ratios above +1σ have historically preceded stronger silver returns over the following 30-90 trading days. His conclusion is that the ratio does revert but the adjustment is slow and unpredictable — 'equilibrium is real, patience is the price of convergence' — and he links the code and analysis. There are no replies and only 11 reactions, so the value is entirely in the method and repo.
@@ -2197,11 +2296,6 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Takeaway:** Viral benchmark for personal-site ambition - the quoted design principle is the keepable bit.
   - **Try it:** [yoshik-pc.vercel.app](https://yoshik-pc.vercel.app)
   - 🏷 personal-website, portfolio, web-design, viral
-- **[$100 in Revid credits for a screen-recorded signup + feedback](https://x.com/tibo_maker/status/2092228005749768678)**  
-  `Tibo` · `2026-08-25` · `44 replies · 12 reposts · 113 likes · 31.5K views · 66 …`
-  - **Essence:** Tibo (Revid) offers $100 worth of credits for: start a screen recording, sign up on Revid, create your first video, go through the subscription flow, DM him the video - bonus if you think out loud - next 3 days only. His thread confirms credits were added and that they let you generate AI videos. Replies describe the product working smoothly (it grasped the web app's core idea and even captured screenshots), ask what credits actually do, and joke someone is improving his tool; 113 likes on 31K views.
-  - **Takeaway:** A transparent record-your-onboarding growth tactic with real pricing (100 dollars of credits) for early feedback.
-  - 🏷 growth-tactics, user-feedback, ai-video, saas-launch
 - **[Entity Stacking: sameAs schema beats 300 junk directory listings](https://x.com/tarasshyn/status/2091954190067363888)** ⭐  
   `Taras` · `2026-08-24` · `30 replies · 54 reposts · 1.3K likes · 97.4K views · 2.7K …`
   - **Essence:** Taras shares Charles Floate's Entity Stacking trick: put your profiles in your Organization schema's sameAs array so Google understands who you are far better than with 300 junk directory listings - and it's free. His thread calls it foundational and offers a tiny repo with the snippet. Replies ask how much it actually helps, whether you must also create the profiles first, whether to include Spotify and podcast platforms, and one says Claude did it to their website yesterday; 1,310 likes and 2,683 bookmarks.
@@ -2499,6 +2593,11 @@ and a one-line **takeaway** — you shouldn't need to click through to get the p
   - **Takeaway:** An evergreen list. Check each free tier's current limits before you depend on it.
   - **Try it:** [free-for.dev](https://free-for.dev/) · [appfinder.tech](https://appfinder.tech/) · [devlibraries.com](https://devlibraries.com/)
   - 🏷 free-tier, hosting, indie-hackers, databases, tools
+- **[SEO playbook: 5 clicks a month to 21,540 in 16 days, with caveats](https://x.com/noelcetaSEO/status/2123545906733584682)**  
+  `Noel Ceta` · `2026-11-19` · `69 replies · 40 reposts · 697 likes · 1,828 bookmarks · …`
+  - **Essence:** Noel Ceta says a site went from 5 clicks a month to 21,540 in the first 16 days of November, while, he says, his feed is full of sites down 80% or more after Google's core update (started 10 Nov). His steps: (1) make the exact search phrase the H1 and title, turn H2s into questions and add an FAQ (10 to 17 questions). (2) Fix the basics first: one H1 per page (one page had 11), real links in menus, prerendered pages (response time from 0.5s+ to 0.1-0.2s). (3) Remove duplicate pages (22 product pages shared one title) and redirect the old URLs. (4) One page per comparison search, all built to one spec (136 pages, 8 sections, 6 FAQs, 8+ internal links). (5) Build hubs (16 hubs, 1,500-1,900 …
+  - **Takeaway:** Sound on-page SEO basics, but the headline number is unverified. Use the steps, not the claim.
+  - 🏷 seo, google-core-update, programmatic-seo, playbook
 - **[I built ThreadLens: upload a chat export and see the patterns in any argument](https://www.linkedin.com/feed/update/urn:li:activity:7467073714950434816)**  
   `Vipul Bajaj` · `2026-06-01` · `♥44 · 4 comments`
   - **Essence:** Vipul tells the origin story of ThreadLens: a friend emerged from a fight absolutely sure she was right because she only had screenshots, so he had her drop a full chat export into what he'd been building — and seeing every message and gap, not just her selected ones, changed her view in twenty minutes. The product takes WhatsApp, Telegram or iMessage exports, runs entirely in the browser with no account, and shows who messages first, who waits longer, who apologizes more and who escalates, with an optional AI that only sees what you ask about; it's free. The four replies are light praise and a joke he leans into — 'every group chat has someone who remembers every message and someone who …
@@ -2788,7 +2887,7 @@ bookmarks-vault/                  ← also an Obsidian vault (open this folder i
 ├── README.md                     ← you are here (generated)
 ├── Home.md                       ← Obsidian dashboard (generated)
 ├── Categories/*.md               ← 14 category index notes
-├── Entries/*.md                  ← 467 bookmark notes, one per entry (frontmatter + tags)
+├── Entries/*.md                  ← 484 bookmark notes, one per entry (frontmatter + tags)
 ├── Bookmarks_Categorized.xlsx    ← the full workbook: README + Master Index + a sheet per category
 ├── category_taxonomy.json        ← the fixed category list used for sorting
 ├── data/
@@ -2822,5 +2921,5 @@ python scripts/generate_obsidian.py    # rows → Home.md + Categories/ + Entrie
 ```
 
 _Extraction: Ego browser automation over X Bookmarks, Reddit Saved and LinkedIn Saved Posts._
-_Coverage: 423 X bookmarks (5 original tweets now deleted — flagged in their entries), all Reddit
+_Coverage: 441 X bookmarks (5 original tweets now deleted — flagged in their entries), all Reddit
 saved items, and all LinkedIn saved posts. Replies captured are the top ~15 per thread._

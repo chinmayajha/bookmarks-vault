@@ -10,7 +10,7 @@ url: "https://x.com/ramsri_goutham/status/1791332967786143802"
 engagement: "14 replies · 333 likes · 28.3K views"
 followup: "medium"
 media: "image"
-links: ["https://learnnlp.academy"]
+links: []
 tags: ["nlp", "course", "word2vec", "llm-fundamentals", "free-education", "twitter", "programming-cs-learning"]
 ---
 
@@ -25,10 +25,6 @@ OP releases his 12+ hour course 'Practical Introduction to Natural Language Proc
 ## 💡 Takeaway
 
 Free full NLP curriculum - useful onboarding for LLM-era fundamentals.
-
-## 🔗 Try it
-
-- [https://learnnlp.academy](https://learnnlp.academy)
 
 **Filed in:** [[Programming & CS Learning]] · [[Home]]
 
